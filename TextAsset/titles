@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0x99fd" id="Title_Mad">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Mad</DisplayId>
+    <TitleTier>2</TitleTier>
+    <UnlockRequirement>Complete Oryx’s Chamber 50 times</UnlockRequirement>
+    <TitleType>Prefix</TitleType>
+    <UnlockStatRequirement stat="OryxsChambersCompleted" amount="50" />
+  </Object>
+  <Object type="0x99fe" id="Title_Drunkard">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Drunkard</DisplayId>
+    <TitleTier>3</TitleTier>
+    <UnlockRequirement>Complete Wine Cellar 50 times</UnlockRequirement>
+    <TitleType>Suffix</TitleType>
+    <UnlockStatRequirement stat="WineCellarsCompleted" amount="50" />
+  </Object>
+  <Object type="0x99ff" id="Title_Vanquisher">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Vanquisher</DisplayId>
+    <TitleTier>4</TitleTier>
+    <UnlockRequirement>Complete Oryx’s Sanctuary 50 times</UnlockRequirement>
+    <TitleType>Suffix</TitleType>
+    <UnlockStatRequirement stat="OryxsSanctuarysCompleted" amount="50" />
+  </Object>
+  <Object type="0x9a00" id="Title_Deadly">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Deadly</DisplayId>
+    <TitleTier>3</TitleTier>
+    <UnlockRequirement>Kill 10K monsters</UnlockRequirement>
+    <TitleType>Prefix</TitleType>
+    <UnlockStatRequirement stat="MonsterKills" amount="10000" />
+  </Object>
+  <Object type="0x9a01" id="Title_SlayerOfGods">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Slayer of Gods</DisplayId>
+    <TitleTier>4</TitleTier>
+    <UnlockRequirement>Kill 2500 Gods</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <UnlockStatRequirement stat="GodKills" amount="2500" />
+  </Object>
+  <Object type="0x9a02" id="Title_Liberator">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Liberator</DisplayId>
+    <TitleTier>3</TitleTier>
+    <UnlockRequirement>Complete 1000 Realm Encounter battles</UnlockRequirement>
+    <TitleType>Suffix</TitleType>
+    <UnlockStatRequirement stat="EncounterKills" amount="1000" />
+  </Object>
+  <Object type="0x9a03" id="Title_BountyHunter">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Bounty Hunter</DisplayId>
+    <TitleTier>3</TitleTier>
+    <UnlockRequirement>Kill 2500 Quest monsters</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <UnlockStatRequirement stat="QuestsCompleted" amount="2500" />
+  </Object>
+  <Object type="0x9a04" id="Title_Marksman">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Marksman</DisplayId>
+    <TitleTier>3</TitleTier>
+    <UnlockRequirement>Hit an enemy 200K times</UnlockRequirement>
+    <TitleType>Suffix</TitleType>
+    <UnlockStatRequirement stat="ShotsThatDamage" amount="200000" />
+  </Object>
+  <Object type="0x9a05" id="Title_Trailblazer">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Trailblazer</DisplayId>
+    <TitleTier>2</TitleTier>
+    <UnlockRequirement>Discover 1M squares</UnlockRequirement>
+    <TitleType>Prefix</TitleType>
+    <UnlockStatRequirement stat="TilesUncovered" amount="1000000" />
+  </Object>
+  <Object type="0x9a06" id="Title_CartographerOfTheRealm">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Cartographer of the Realm</DisplayId>
+    <TitleTier>4</TitleTier>
+    <UnlockRequirement>Discover 25M squares</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <UnlockStatRequirement stat="TilesUncovered" amount="25000000" />
+  </Object>
+  <Object type="0x9a07" id="Title_EnemyOfTheCourt">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Enemy of the Court</DisplayId>
+    <TitleTier>2</TitleTier>
+    <UnlockRequirement>Obtain the “Enemy of the Court” Fame Bonus</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <UnlockStatRequirement stat="LairOfShaitansCompleted" amount="1" />
+    <UnlockStatRequirement stat="PuppetMastersEncoresCompleted" amount="1" />
+    <UnlockStatRequirement stat="CnidarianReefsCompleted" amount="1" />
+    <UnlockStatRequirement stat="SecludedThicketsCompleted" amount="1" />
+    <UnlockStatRequirement stat="HighTechTerrorsCompleted" amount="1" />
+  </Object>
+  <Object type="0x9a08" id="Title_ConquerorOfTheRealm">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Conqueror of the Realm</DisplayId>
+    <TitleTier>3</TitleTier>
+    <UnlockRequirement>Obtain the “Conqueror of the Realm” Fame Bonus</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <UnlockStatRequirement stat="DavyJonesLockersCompleted" amount="1" />
+    <UnlockStatRequirement stat="IceCavesCompleted" amount="1" />
+    <UnlockStatRequirement stat="LairOfDraconisCompleted" amount="1" />
+    <UnlockStatRequirement stat="MountainTemplesCompleted" amount="1" />
+    <UnlockStatRequirement stat="DavyJonesLockersCompleted" amount="1" />
+    <UnlockStatRequirement stat="ThirdDimensionsCompleted" amount="1" />
+    <UnlockStatRequirement stat="OceanTrenchesCompleted" amount="1" />
+    <UnlockStatRequirement stat="TombOfTheAncientsCompleted" amount="1" />
+    <UnlockStatRequirement stat="TheShattersCompleted" amount="1" />
+    <UnlockStatRequirement stat="TheNestsCompleted" amount="1" />
+    <UnlockStatRequirement stat="FungalCavernsCompleted" amount="1" />
+    <UnlockStatRequirement stat="CrystalCavernsCompleted" amount="1" />
+    <UnlockStatRequirement stat="LostHallsCompleted" amount="1" />
+  </Object>
+  <Object type="0x9a09" id="Title_HeroOfTheNexus">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Hero of the Nexus</DisplayId>
+    <TitleTier>5</TitleTier>
+    <UnlockRequirement>Obtain the “Hero of the Nexus” Fame Bonus</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <UnlockStatRequirement stat="PirateCavesCompleted" amount="1" />
+    <UnlockStatRequirement stat="ForestMazesCompleted" amount="1" />
+    <UnlockStatRequirement stat="SpiderDensCompleted" amount="1" />
+    <UnlockStatRequirement stat="SnakePitsCompleted" amount="1" />
+    <UnlockStatRequirement stat="ForbiddenJunglesCompleted" amount="1" />
+    <UnlockStatRequirement stat="TheHivesCompleted" amount="1" />
+    <UnlockStatRequirement stat="AncientRuinsCompleted" amount="1" />
+    <UnlockStatRequirement stat="MagicWoodsCompleted" amount="1" />
+    <UnlockStatRequirement stat="SpriteWorldsCompleted" amount="1" />
+    <UnlockStatRequirement stat="CandylandHuntingGroundsCompleted" amount="1" />
+    <UnlockStatRequirement stat="CaveOfAThousandTreasuresCompleted" amount="1" />
+    <UnlockStatRequirement stat="UndeadLairsCompleted" amount="1" />
+    <UnlockStatRequirement stat="AbyssOfDemonsCompleted" amount="1" />
+    <UnlockStatRequirement stat="ManorOfTheImmortalsCompleted" amount="1" />
+    <UnlockStatRequirement stat="PuppetMastersTheatresCompleted" amount="1" />
+    <UnlockStatRequirement stat="ToxicSewersCompleted" amount="1" />
+    <UnlockStatRequirement stat="CursedLibrariesCompleted" amount="1" />
+    <UnlockStatRequirement stat="HauntedCemeteriesCompleted" amount="1" />
+    <UnlockStatRequirement stat="MadLabsCompleted" amount="1" />
+    <UnlockStatRequirement stat="ParasiteChambersCompleted" amount="1" />
+    <UnlockStatRequirement stat="DavyJonesLockersCompleted" amount="1" />
+    <UnlockStatRequirement stat="MountainTemplesCompleted" amount="1" />
+    <UnlockStatRequirement stat="ThirdDimensionsCompleted" amount="1" />
+    <UnlockStatRequirement stat="LairOfDraconisCompleted" amount="1" />
+    <UnlockStatRequirement stat="DeadwaterDocksCompleted" amount="1" />
+    <UnlockStatRequirement stat="WoodlandLabyrinthsCompleted" amount="1" />
+    <UnlockStatRequirement stat="CrawlingDepthsCompleted" amount="1" />
+    <UnlockStatRequirement stat="OceanTrenchesCompleted" amount="1" />
+    <UnlockStatRequirement stat="IceCavesCompleted" amount="1" />
+    <UnlockStatRequirement stat="TombOfTheAncientsCompleted" amount="1" />
+    <UnlockStatRequirement stat="FungalCavernsCompleted" amount="1" />
+    <UnlockStatRequirement stat="CrystalCavernsCompleted" amount="1" />
+    <UnlockStatRequirement stat="TheNestsCompleted" amount="1" />
+    <UnlockStatRequirement stat="TheShattersCompleted" amount="1" />
+    <UnlockStatRequirement stat="LostHallsCompleted" amount="1" />
+    <UnlockStatRequirement stat="CultistHideoutsCompleted" amount="1" />
+    <UnlockStatRequirement stat="TheVoidsCompleted" amount="1" />
+    <UnlockStatRequirement stat="OryxsCastlesCompleted" amount="1" />
+    <UnlockStatRequirement stat="LairOfShaitansCompleted" amount="1" />
+    <UnlockStatRequirement stat="PuppetMastersEncoresCompleted" amount="1" />
+    <UnlockStatRequirement stat="CnidarianReefsCompleted" amount="1" />
+    <UnlockStatRequirement stat="SecludedThicketsCompleted" amount="1" />
+    <UnlockStatRequirement stat="HighTechTerrorsCompleted" amount="1" />
+    <UnlockStatRequirement stat="OryxsChambersCompleted" amount="1" />
+    <UnlockStatRequirement stat="WineCellarsCompleted" amount="1" />
+    <UnlockStatRequirement stat="OryxsSanctuarysCompleted" amount="1" />
+  </Object>
+  <Object type="0x9a0a" id="Title_Nexus">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Nexus</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Prefix</TitleType>
+  </Object>
+  <Object type="0x9a0b" id="Title_Adventurer">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Adventurer</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Prefix</TitleType>
+  </Object>
+  <Object type="0x9a0c" id="Title_Inagural_Champion">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Inaugural Champion</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a0d" id="Title_The_Triumphant">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Triumphant</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a0e" id="Title_Collector">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Collector</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Suffix</TitleType>
+  </Object>
+  <Object type="0x9a0f" id="Title_Battler">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Battler</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Suffix</TitleType>
+  </Object>
+  <Object type="0x9a10" id="Title_Infiltrator">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Infiltrator</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Suffix</TitleType>
+  </Object>
+  <Object type="0x9a11" id="Title_Syndicate_Minion">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Syndicate Minion</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a12" id="Title_Saboteur">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Saboteur</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Suffix</TitleType>
+  </Object>
+  <Object type="0x9a13" id="Title_Syndicate_Mercenary">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Syndicate Mercenary</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a14" id="Title_Savior_of_Oryx">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Savior of Oryx</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a15" id="Title_Syndicate_Slayer">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Syndicate Slayer</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a16" id="Title_Wanderer">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Wanderer</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a17" id="Title_Conspirator">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Conspirator</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Unlocked in MOTMG 2022 Battle Pass.</UnlockRequirement>
+    <TitleType>Suffix</TitleType>
+  </Object>
+  <Object type="0x9a18" id="Title_Vindicator">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Vindicator</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Unlocked in MOTMG 2022 Battle Pass.</UnlockRequirement>
+    <TitleType>Suffix</TitleType>
+  </Object>
+  <Object type="0x9a19" id="Title__Syndicate_Infiltrator">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Syndicate Infiltrator</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Syndicate Infiltration Event Reward.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <SecretTitle />
+  </Object>
+  <Object type="0x9a1a" id="Title__Master_of_Disguise">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Master Of Disguise</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Syndicate Infiltration Event Reward.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <SecretTitle />
+  </Object>
+  <Object type="0x9a1b" id="Title_Slayer_of_Sentinels">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Slayer of Sentinels</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Shatters Rehearsal Event Reward.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <SecretTitle />
+  </Object>
+  <Object type="0x9a1c" id="Title_Archmage_Assassin">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Archmage Assassin</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Shatters Rehearsal Event Reward.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <SecretTitle />
+  </Object>
+  <Object type="0x9a1d" id="Title_Forgotten_Kingslayer">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Forgotten Kingslayer</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Shatters Rehearsal Event Reward.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <SecretTitle />
+  </Object>
+  <Object type="0x9a1e" id="Title_Destroyer_Of_Shatters">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Destroyer of Shatters</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Shatters Rehearsal Event Reward.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <SecretTitle />
+  </Object>
+  <Object type="0x9a1f" id="Title_Voodoo_Queen">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Voodoo Queen</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Unlocked in the second season of the Battle Pass.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a20" id="Title_Witch_Doctor">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Witch Doctor</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Unlocked in the second season of the Battle Pass.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a21" id="Title_Swamp">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Swamp</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Complete Sulfurous Wetlands 5 times</UnlockRequirement>
+    <TitleType>Prefix</TitleType>
+    <UnlockStatRequirement stat="SulfurousWetlandsCompleted" amount="5" />
+  </Object>
+  <Object type="0x9a22" id="Title_Monster">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Monster</DisplayId>
+    <TitleTier>3</TitleTier>
+    <UnlockRequirement>Complete Sulfurous Wetlands 50 times</UnlockRequirement>
+    <TitleType>Suffix</TitleType>
+    <UnlockStatRequirement stat="SulfurousWetlandsCompleted" amount="50" />
+  </Object>
+  <Object type="0x9a23" id="Title_Sulfurous_Speedster">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Sulfurous Speedster</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Unlocked as part of a Wetlands Event.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <SecretTitle />
+  </Object>
+  <Object type="0x9a24" id="Title_Slayer_of_Simulacrums">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Slayer of Simulacrums</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Unlocked as part of a seasonal community event.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <SecretTitle />
+  </Object>
+  <Object type="0x9a25" id="Title_Revolutionary_Meccano">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Revolutionary Meccano</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Unlocked in the third season of the Battle Pass.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a26" id="Title_Archivist_of_Valves">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Archivist of Valves</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Unlocked in the third season of the Battle Pass.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a27" id="Title_Hero_of_the_Exoskeleton">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Hero of the Exoskeleton</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Unlocked by completing a mission.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a28" id="Title_Wet_Realmer">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Wet Realmer</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement />
+    <TitleType>Full</TitleType>
+    <SecretTitle />
+  </Object>
+</Objects>

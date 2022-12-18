@@ -1,0 +1,3235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GroundTypes>
+  <Ground type="0xD600" id="NB Gr">
+    <DisplayId>New Bazaar Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-2</BlendPriority>
+    <Speed>1.6</Speed>
+  </Ground>
+  <Ground type="0xD601" id="NB Gr Yw">
+    <DisplayId>New Bazaar Grass Yellow</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x1</Index>
+    </Texture>
+    <BlendPriority>-2</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0xD602" id="NB Dt">
+    <DisplayId>New Bazaar Dirt</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x10</Index>
+    </Texture>
+    <BlendPriority>-2</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0xD61c" id="NB Dt wt ed Gr">
+    <DisplayId>New Bazaar Dirt with Edge Grass</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SameTypeEdgeMode />
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xbc</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xbd</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xbe</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>3</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0xD603" id="NB Pbls dk">
+    <DisplayId>New Bazaar Pebbles Dark</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x12</Index>
+    </Texture>
+    <BlendPriority>7</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0xD604" id="NB Pbls">
+    <DisplayId>New Bazaar Pebbles</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x13</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0xD605" id="NB Wt">
+    <DisplayId>New Bazaar Water</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x20</Index>
+    </Texture>
+    <Animate dx="0.2" dy="0.2">Wave</Animate>
+    <BlendPriority>-2</BlendPriority>
+    <Sink />
+    <Speed>.666</Speed>
+  </Ground>
+  <Ground type="0xD606" id="NB Mbr Stn">
+    <DisplayId>New Bazaar Marble Stone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x30</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x31</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x32</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x33</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD607" id="NB Pv Rd">
+    <DisplayId>New Bazaar Paver Road</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x40</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x41</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x42</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x43</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x44</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x45</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x46</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD608" id="NB Pv Rd ed cr">
+    <DisplayId>New Bazaar Paver Road Edge Cross</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x4a</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x4b</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD609" id="NB Pv Rd ed">
+    <DisplayId>New Bazaar Paver Road Edge</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x4c</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x4d</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD60A" id="NB Pv Rd ed cr vt">
+    <DisplayId>New Bazaar Paver Road Edge Vertical</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x4e</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x4f</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD60B" id="NB Pv Rd Ms">
+    <DisplayId>New Bazaar Paver Road Mossy</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x50</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x51</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x52</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x53</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x54</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x55</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x56</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD60C" id="NB Pv Rd Ms ed cr">
+    <DisplayId>New Bazaar Paver Road Mossy Edge Cross</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x5a</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x5b</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD60D" id="NB Pv Rd Ms ed">
+    <DisplayId>New Bazaar Paver Road Mossy Edge</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x5c</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x5d</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD60E" id="NB Pv Rd Ms ed cr vt">
+    <DisplayId>New Bazaar Paver Road Mossy Edge Vertical</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x5e</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x5f</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD60F" id="NB Br Rd">
+    <DisplayId>New Bazaar Brick Road</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x60</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x61</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x62</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x63</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x64</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x65</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x66</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x67</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x68</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD61d" id="NB Br Rd nms">
+    <DisplayId>New Bazaar Brick Road No Moss</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x81</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x82</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x83</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x86</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD61a" id="NB Br Rd 2">
+    <DisplayId>New Bazaar Brick Road 2</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x69</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x6a</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-4</BlendPriority>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD61b" id="NB Br Rd 3">
+    <DisplayId>New Bazaar Brick Road 3</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x6b</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x6c</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-4</BlendPriority>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD610" id="NB Lvs">
+    <DisplayId>New Bazaar Leaves</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x80</Index>
+    </Texture>
+    <BlendPriority>9</BlendPriority>
+  </Ground>
+  <Ground type="0xD611" id="NB Lvs dk hf">
+    <DisplayId>New Bazaar Leaves Dark Half</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x90</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x91</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x92</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x93</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>10</BlendPriority>
+  </Ground>
+  <Ground type="0xD612" id="NB Lvs dk">
+    <DisplayId>New Bazaar Leaves Dark</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xa0</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xa1</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xa2</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xa3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>11</BlendPriority>
+  </Ground>
+  <Ground type="0xD613" id="NB Rug 1">
+    <DisplayId>New Bazaar Rug 1</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0xe0</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xe1</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xe2</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xe3</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD614" id="NB Rug 2">
+    <DisplayId>New Bazaar Rug 2</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0xe4</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xe5</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xe6</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xe7</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD615" id="NB Rug 3">
+    <DisplayId>New Bazaar Rug 3</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0xe8</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xe9</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xea</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xeb</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD616" id="NB Rug 4">
+    <DisplayId>New Bazaar Rug 4</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0xec</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xed</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xee</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xef</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD617" id="NB Rug 5">
+    <DisplayId>New Bazaar Rug 5</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0xf0</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xf1</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xf2</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xf3</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD618" id="NB Rug 6">
+    <DisplayId>New Bazaar Rug 6</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0xf4</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xf5</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xf6</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xf7</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD619" id="NB Rug 7">
+    <DisplayId>New Bazaar Rug 7</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0xf8</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xf9</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xfa</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xfb</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD61E" id="NB BS St Fl">
+    <DisplayId>New Bazaar Blacksmith Stone Floor</DisplayId>
+    <SameTypeEdgeMode />
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x200</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x201</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x202</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x203</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x204</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x205</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD61F" id="NB BS St Fl bl">
+    <DisplayId>New Bazaar Blacksmith Stone Floor Black</DisplayId>
+    <SameTypeEdgeMode />
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x206</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x207</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x208</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x20a</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x20b</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x20c</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD620" id="NB BS Dt">
+    <DisplayId>New Bazaar Blacksmith Dirt</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x20d</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD621" id="NB BS Cl">
+    <DisplayId>New Bazaar Blacksmith Coal</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x20e</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground type="0xD622" id="NB BS Wt">
+    <DisplayId>New Bazaar Blacksmith Water</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x20f</Index>
+    </Texture>
+    <Animate dx="0.1" dy="0.1">Flow</Animate>
+    <Sink />
+    <Speed>.666</Speed>
+  </Ground>
+  <Ground type="0xD623" id="NB BS Rug 1">
+    <DisplayId>New Bazaar Blacksmith Rug 1</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x213</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x214</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x215</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x216</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD624" id="NB BS Rug 2">
+    <DisplayId>New Bazaar Blacksmith Rug 2</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x217</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x218</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x219</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x21a</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD625" id="NB BS Wd Fl">
+    <DisplayId>New Bazaar Blacksmith Wooden Floor</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x235</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x236</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD626" id="NB BS Wd Fl ed cr">
+    <DisplayId>New Bazaar Blacksmith Wooden Floor Edge Cross</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x232</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD627" id="NB BS Wd Fl ed">
+    <DisplayId>New Bazaar Blacksmith Wooden Floor Edge</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x233</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD628" id="NB BS Wd Fl ed cr vt">
+    <DisplayId>New Bazaar Blacksmith Wooden Floor Edge Vertical</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x234</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD629" id="NB Rug 8">
+    <DisplayId>New Bazaar Rug 8</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0xfc</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xfd</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xfe</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0xff</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD62a" id="NB Wt Dk">
+    <DisplayId>New Bazaar Water Dark</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x21</Index>
+    </Texture>
+    <Animate dx="0.2" dy="0.2">Wave</Animate>
+    <BlendPriority>-4</BlendPriority>
+    <Sink />
+    <Speed>.666</Speed>
+  </Ground>
+  <Ground type="0xD62B" id="NB Br Rd 4 L">
+    <DisplayId>New Bazaar Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f0</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD62C" id="NB Br Rd 4 R">
+    <DisplayId>New Bazaar Brick Road 4 Right</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f1</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD62D" id="NB Br Rd 5 L">
+    <DisplayId>New Bazaar Brick Road 4 Right</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f2</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD62E" id="NB Br Rd 5 R">
+    <DisplayId>New Bazaar Brick Road 5 Right</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f3</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD62F" id="NB Br Rd 4 L nms">
+    <DisplayId>New Bazaar Brick Road 4 Left no moss</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f4</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD630" id="NB Br Rd 4 R nms">
+    <DisplayId>New Bazaar Brick Road 4 Left no moss</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f5</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD631" id="NB Br Rd 5 L nms">
+    <DisplayId>New Bazaar Brick Road 4 Left no moss</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f6</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD632" id="NB Br Rd 5 R nms">
+    <DisplayId>New Bazaar Brick Road 4 Left no moss</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f7</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD633" id="NB Br Rd 6 L">
+    <DisplayId>New Bazaar Brick Road 6 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x300</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD634" id="NB Br Rd 6 R">
+    <DisplayId>New Bazaar Brick Road 6 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x301</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD635" id="NB Br Rd 7 L">
+    <DisplayId>New Bazaar Brick Road 7 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x302</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD636" id="NB Br Rd 7 R">
+    <DisplayId>New Bazaar Brick Road 7 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x303</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD637" id="NB Br Rd 6 L nms">
+    <DisplayId>New Bazaar Brick Road 6 Left no moss</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x304</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD638" id="NB Br Rd 6 R nms">
+    <DisplayId>New Bazaar Brick Road 6 Left no moss</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x305</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD639" id="NB Br Rd 7 L nms">
+    <DisplayId>New Bazaar Brick Road 7 Left no moss</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x306</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD63A" id="NB Br Rd 7 R nms">
+    <DisplayId>New Bazaar Brick Road 7 Left no moss</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x307</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD63B" id="NB Cf Fl">
+    <DisplayId>New Bazaar Cafe Floor</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x340</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1</Speed>
+  </Ground>
+  <Ground type="0xD63C" id="NB Cf Sq">
+    <DisplayId>New Bazaar Cafe Floor Square</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x341</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1</Speed>
+  </Ground>
+  <Ground type="0xD63D" id="NB Cf Rct">
+    <DisplayId>New Bazaar Cafe Floor Rectangle</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x342</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x343</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1</Speed>
+  </Ground>
+  <Ground type="0xD63E" id="NB Cf Rct vrt">
+    <DisplayId>New Bazaar Cafe Floor Rectangle Vertical</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x344</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x345</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1</Speed>
+  </Ground>
+  <Ground type="0xD63F" id="NB Cf Stn 1">
+    <DisplayId>New Bazaar Cafe Stone Floor 1</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x346</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x347</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1</Speed>
+  </Ground>
+  <Ground type="0xD640" id="NB Cf Stn 2">
+    <DisplayId>New Bazaar Cafe Stone Floor 2</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x348</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x349</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x34a</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1</Speed>
+  </Ground>
+  <Ground type="0xD641" id="NB Cf Stn 3">
+    <DisplayId>New Bazaar Cafe Stone Floor 3</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x34b</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1</Speed>
+  </Ground>
+  <Ground type="0xD642" id="NB Cf Stn Str">
+    <DisplayId>New Bazaar Cafe Stone Floor Stairs South</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x34c</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1</Speed>
+  </Ground>
+  <Ground type="0xD643" id="NB Rug 9">
+    <DisplayId>New Bazaar Rug 9</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x350</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x351</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x352</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x353</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD644" id="NB Rug 10">
+    <DisplayId>New Bazaar Rug 10</DisplayId>
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x354</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x355</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x356</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x357</Index>
+      </Texture>
+    </Corner>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD645" id="NB Cbl">
+    <DisplayId>New Bazaar Cobblestone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x360</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x361</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x362</Index>
+      </Texture>
+    </RandomTexture>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD646" id="NB Slb St">
+    <DisplayId>New Bazaar Slab Stone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x370</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x371</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x372</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x373</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x374</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x375</Index>
+      </Texture>
+    </RandomTexture>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD647" id="NB Cf Fl 2">
+    <DisplayId>New Bazaar Cafe Floor 2</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x380</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x381</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x382</Index>
+      </Texture>
+    </RandomTexture>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD648" id="NB Cf Fl 2 sq">
+    <DisplayId>New Bazaar Cafe Floor 2 Square</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x383</Index>
+    </Texture>
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD649" id="NB Wd Fl">
+    <DisplayId>New Bazaar Wooden Floor</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a5</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a6</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD64a" id="NB Wd Fl ed cr">
+    <DisplayId>New Bazaar Wooden Floor Edge Cross</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x3a2</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD64b" id="NB Wd Fl ed">
+    <DisplayId>New Bazaar Wooden Floor Edge</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x3a3</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD64c" id="NB Wd Fl ed cr vt">
+    <DisplayId>New Bazaar Wooden Floor Edge Vertical</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x3a4</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD64d" id="NB Cbl Ms">
+    <DisplayId>New Bazaar Cobblestone Mossy</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x363</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x364</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x365</Index>
+      </Texture>
+    </RandomTexture>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD64e" id="NB Gb Dn Chk 1">
+    <DisplayId>New Bazaar Gambling Den Check 1</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x500</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD64f" id="NB Gb Dn Chk 2">
+    <DisplayId>New Bazaar Gambling Den Check 2</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x501</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD650" id="NB Gb Dn Chk 3">
+    <DisplayId>New Bazaar Gambling Den Check 3</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x502</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD651" id="NB Gb Dn Chk 4">
+    <DisplayId>New Bazaar Gambling Den Check 4</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x503</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD652" id="NB Gb Dn Chk 5">
+    <DisplayId>New Bazaar Gambling Den Check 5</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x504</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD653" id="NB Gb Dn Chk 6">
+    <DisplayId>New Bazaar Gambling Den Check 6</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x505</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD654" id="NB Gb Dn Chk 7">
+    <DisplayId>New Bazaar Gambling Den Check 7</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x506</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD655" id="NB CC Wd Fl">
+    <DisplayId>New Bazaar Cat Cafe Wooden Floor</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x516</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD656" id="NB CC Wd Fl sq">
+    <DisplayId>New Bazaar Cat Cafe Wooden Floor Square</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x517</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x518</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD657" id="NB Bl Rf E ed Slb St">
+    <DisplayId>New Bazaar Blue Roof East Edge Slab Stone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x370</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x371</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x372</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x373</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x374</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x375</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x445</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD658" id="NB Bl Rf E tp Br Rd nms">
+    <DisplayId>New Bazaar Blue Roof East Top Brick Road No Moss</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x81</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x82</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x83</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x86</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x444</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD659" id="NB Bl Rf E NB Cbl">
+    <DisplayId>New Bazaar Blue Roof East Cobblestone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x360</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x361</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x362</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x443</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD65A" id="NB Bl Rf E ed Br Rd nms">
+    <DisplayId>New Bazaar Blue Roof East Edge Brick Road No Moss</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x81</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x82</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x83</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x86</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x445</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD65B" id="NB Rd Rf S ed Gr">
+    <DisplayId>New Bazaar Red Roof South Edge Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-2</BlendPriority>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x432</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD65C" id="NB Rd Rf W tp Cbl Ms">
+    <DisplayId>New Bazaar Red Roof West Top Cobblestone Mossy</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x363</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x364</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x365</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x451</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD65D" id="NB Rd Rf E NB Cbl">
+    <DisplayId>New Bazaar Red Roof East Cobblestone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x360</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x361</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x362</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x440</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD65E" id="NB Rd Rf E ed Br Rd nms">
+    <DisplayId>New Bazaar Red Roof East Edge Brick Road No Moss</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x81</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x82</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x83</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x86</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x442</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD65F" id="NB Rd Rf W tp Br Rd nms">
+    <DisplayId>New Bazaar Red Roof West Top Brick Road No Moss</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x81</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x82</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x83</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x86</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x451</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD660" id="NB Rd Rf E Br Rd nms">
+    <DisplayId>New Bazaar Red Roof East Brick Road No Moss</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x81</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x82</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x83</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x86</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x440</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD661" id="NB Rd Rf W ed Gr Ptw">
+    <DisplayId>New Bazaar Red Roof West Edge Grey Pathway</DisplayId>
+    <Texture>
+      <File>lofiEnvironment2</File>
+      <Index>0x95</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x452</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD662" id="NB Rd Rf W tp Gr Ptw">
+    <DisplayId>New Bazaar Red Roof West Top Grey Pathway</DisplayId>
+    <Texture>
+      <File>lofiEnvironment2</File>
+      <Index>0x95</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x451</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD663" id="NB Bl Rf W ed Slb St">
+    <DisplayId>New Bazaar Blue Roof West Edge Slab Stone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x370</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x371</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x372</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x373</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x374</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x375</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x455</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD664" id="NB Bl Rf W tp Slb St">
+    <DisplayId>New Bazaar Blue Roof West Top Slab Stone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x370</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x371</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x372</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x373</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x374</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x375</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x454</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD665" id="NB Bl Rf E tp Slb St">
+    <DisplayId>New Bazaar Blue Roof East Top Slab Stone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x370</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x371</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x372</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x373</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x374</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x375</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x444</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD666" id="NB Bl Rf E Slb St">
+    <DisplayId>New Bazaar Blue Roof East Slab Stone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x370</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x371</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x372</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x373</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x374</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x375</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x443</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD667" id="NB Rd Rf S Cbl Ms">
+    <DisplayId>New Bazaar Red Roof South Cobblestone Mossy</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x363</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x364</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x365</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x430</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD668" id="NB Rd Rf W ed Slb St">
+    <DisplayId>New Bazaar Red Roof West Edge Slab Stone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x370</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x371</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x372</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x373</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x374</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x375</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x452</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD669" id="NB Rd Rf W tp Slb St">
+    <DisplayId>New Bazaar Red Roof West Top Slab Stone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x370</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x371</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x372</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x373</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x374</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x375</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x451</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD66A" id="NB Rd Rf E tp Slb St">
+    <DisplayId>New Bazaar Red Roof East Top Slab Stone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x370</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x371</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x372</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x373</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x374</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x375</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x441</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD66B" id="NB Rd Rf E Slb St">
+    <DisplayId>New Bazaar Red Roof East Slab Stone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x370</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x371</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x372</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x373</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x374</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x375</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x440</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD66C" id="NB Rd Rf E ed Slb St">
+    <DisplayId>New Bazaar Red Roof East Edge Slab Stone</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x370</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x371</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x372</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x373</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x374</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x375</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x442</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD66D" id="NB Rd Rf S ed Wd Fl">
+    <DisplayId>New Bazaar Red Roof South Edge Wooden Floor</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a5</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a6</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x432</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD66E" id="NB Rd Rf S ed Br Rd 4 R">
+    <DisplayId>New Bazaar Red Roof South Edge Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f1</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x432</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD66F" id="NB Rd Rf S ed Gr Ptw">
+    <DisplayId>New Bazaar Red Roof South Edge Grey Pathway</DisplayId>
+    <Texture>
+      <File>lofiEnvironment2</File>
+      <Index>0x95</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x432</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD670" id="NB Rd Rf S ed Br Rd 5 L">
+    <DisplayId>New Bazaar Red Roof South Edge Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f2</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x432</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD671" id="NB Rd Rf S ed Br Rd 5 R">
+    <DisplayId>New Bazaar Red Roof South Edge Brick Road 5 Right</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f3</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x432</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD672" id="NB Rd Rf S ed Cbl Ms">
+    <DisplayId>New Bazaar Red Roof South Edge Cobblestone Mossy</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x363</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x364</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x365</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x432</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD673" id="NB Rd Rf W ed Br Rd 4 R">
+    <DisplayId>New Bazaar Red Roof West Edge Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f1</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x452</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD674" id="NB Bl Rf S NB Pv Rd Ms">
+    <DisplayId>New Bazaar Blue Roof South Paver Road Mossy</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x50</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x51</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x52</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x53</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x54</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x55</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x56</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x433</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD675" id="NB Rd Rf S tp Gr">
+    <DisplayId>New Bazaar Red Roof South Top Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-2</BlendPriority>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x431</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD676" id="NB Rd Rf S Wd Fl">
+    <DisplayId>New Bazaar Red Roof South Wooden Floor</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a5</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a6</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x430</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD677" id="NB Rd Rf S Br Rd 4 R">
+    <DisplayId>New Bazaar Red Roof South Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f1</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x430</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD678" id="NB Rd Rf S Br Rd 4 L">
+    <DisplayId>New Bazaar Red Roof South Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f0</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x430</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD679" id="NB Rd Rf S Gr">
+    <DisplayId>New Bazaar Red Roof South Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-2</BlendPriority>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x430</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD67A" id="NB Rd Rf N Gr">
+    <DisplayId>New Bazaar Red Roof North Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-2</BlendPriority>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x420</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD67B" id="NB Rd Rf N Br Rd 4 L">
+    <DisplayId>New Bazaar Red Roof North Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f0</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x420</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD67C" id="NB Bl Rf S ed Pv Rd">
+    <DisplayId>New Bazaar Blue Roof South Edge Paver Road</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x40</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x41</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x42</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x43</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x44</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x45</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x46</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x435</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD67D" id="NB Rd Rf N tp Gr">
+    <DisplayId>New Bazaar Red Roof North Top Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-2</BlendPriority>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x421</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD67E" id="NB Rd Rf N tp Br Rd 4 L">
+    <DisplayId>New Bazaar Red Roof North Top Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f0</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x421</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD67F" id="NB Rd Rf S tp Wd Fl">
+    <DisplayId>New Bazaar Red Roof South Top Wooden Floor</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a5</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a6</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x431</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD680" id="NB Rd Rf S tp Br Rd 4 R">
+    <DisplayId>New Bazaar Red Roof South Top Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f1</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x431</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD681" id="NB Rd Rf S tp Gr Ptw">
+    <DisplayId>New Bazaar Red Roof South Top Grey Pathway</DisplayId>
+    <Texture>
+      <File>lofiEnvironment2</File>
+      <Index>0x95</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x431</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD682" id="NB Rd Rf S tp Br Rd 4 L">
+    <DisplayId>New Bazaar Red Roof South Top Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f0</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x431</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD683" id="NB Bl Rf S Gr">
+    <DisplayId>New Bazaar Blue Roof South Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-2</BlendPriority>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x433</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD684" id="NB Bl Rf S Pv Rd">
+    <DisplayId>New Bazaar Blue Roof South Paver Road</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x40</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x41</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x42</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x43</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x44</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x45</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x46</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x433</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD685" id="NB Rd Rf N Wd Fl">
+    <DisplayId>New Bazaar Red Roof North Wooden Floor</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a5</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a6</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x420</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD686" id="NB Rd Rf N Br Rd 4 R">
+    <DisplayId>New Bazaar Red Roof North Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f1</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x420</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD687" id="NB Rd Rf N Gr Ptw">
+    <DisplayId>New Bazaar Red Roof North Grey Pathway</DisplayId>
+    <Texture>
+      <File>lofiEnvironment2</File>
+      <Index>0x95</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x420</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD688" id="NB Bl Rf S ed NB Pv Rd Ms">
+    <DisplayId>New Bazaar Blue Roof South Edge Paver Road Mossy</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x50</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x51</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x52</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x53</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x54</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x55</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x56</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x435</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD689" id="NB Rd Rf N tp Wd Fl">
+    <DisplayId>New Bazaar Red Roof North Top Wooden Floor</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a5</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a6</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x421</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD68A" id="NB Rd Rf N tp Br Rd 4 R">
+    <DisplayId>New Bazaar Red Roof North Top Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f1</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x421</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD68B" id="NB Rd Rf N ed Br Rd 4 L">
+    <DisplayId>New Bazaar Red Roof North Edge Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f0</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x422</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD68C" id="NB Rd Rf N ed Gr">
+    <DisplayId>New Bazaar Red Roof North Edge Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-2</BlendPriority>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x422</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD68D" id="NB Rd Rf N ed Br Rd 4 R">
+    <DisplayId>New Bazaar Red Roof North Edge Brick Road 4 Left</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x2f1</Index>
+    </Texture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x422</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD68E" id="NB Rd Rf N ed Wd Fl">
+    <DisplayId>New Bazaar Red Roof North Edge Wooden Floor</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a5</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3a6</Index>
+      </Texture>
+    </RandomTexture>
+    <NoBlend />
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x422</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD68F" id="NB Bl Rf S tp NB Pv Rd Ms">
+    <DisplayId>New Bazaar Blue Roof South Top Paver Road Mossy</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x50</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x51</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x52</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x53</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x54</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x55</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x56</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x434</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD690" id="NB Bl Rf S tp Pv Rd">
+    <DisplayId>New Bazaar Blue Roof South Top Paver Road</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x40</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x41</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x42</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x43</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x44</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x45</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x46</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x434</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD691" id="NB Bl Rf N NB Pv Rd Ms">
+    <DisplayId>New Bazaar Blue Roof North Paver Road Mossy</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x50</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x51</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x52</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x53</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x54</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x55</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x56</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x423</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD692" id="NB Bl Rf N ed NB Pv Rd Ms">
+    <DisplayId>New Bazaar Blue Roof North Edge Paver Road Mossy</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x50</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x51</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x52</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x53</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x54</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x55</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x56</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x425</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD693" id="NB Bl Rf S tp Gr">
+    <DisplayId>New Bazaar Blue Roof South Top Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-2</BlendPriority>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x434</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD694" id="NB Bl Rf N tp Pv Rd">
+    <DisplayId>New Bazaar Blue Roof North Top Paver Road</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x40</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x41</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x42</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x43</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x44</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x45</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x46</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x424</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD695" id="NB Bl Rf N tp Gr">
+    <DisplayId>New Bazaar Blue Roof North Top Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-2</BlendPriority>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x424</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD696" id="NB Bl Rf N ed Pv Rd">
+    <DisplayId>New Bazaar Blue Roof North Edge Paver Road</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x40</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x41</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x42</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x43</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x44</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x45</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x46</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x425</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD697" id="NB Bl Rf N ed Gr">
+    <DisplayId>New Bazaar Blue Roof North Edge Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-2</BlendPriority>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x425</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD698" id="NB Bl Rf N Pv Rd">
+    <DisplayId>New Bazaar Blue Roof North Paver Road</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x40</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x41</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x42</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x43</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x44</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x45</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x46</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x423</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD699" id="NB Bl Rf N Gr">
+    <DisplayId>New Bazaar Blue Roof North Grass</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>-2</BlendPriority>
+    <Top>
+      <Texture>
+        <File>grandBazaarObjects8x8</File>
+        <Index>0x423</Index>
+      </Texture>
+    </Top>
+    <Speed>2</Speed>
+  </Ground>
+  <Ground type="0xD69a" id="NB BS Sq 1">
+    <DisplayId>New Bazaar Blacksmith Square 1</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x237</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+  <Ground type="0xD69b" id="NB BS Sq 2">
+    <DisplayId>New Bazaar Blacksmith Square 2</DisplayId>
+    <Texture>
+      <File>grandBazaarObjects8x8</File>
+      <Index>0x238</Index>
+    </Texture>
+    <NoBlend />
+    <Speed>1.8</Speed>
+  </Ground>
+</GroundTypes>
