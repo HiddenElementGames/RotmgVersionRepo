@@ -1,0 +1,5826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object id="SulfW Dragonfly Bolt" type="0x63c4">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>845</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="Heart Turn Shot Warning" type="0x6379">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xfb</Index>
+    </Texture>
+    <Animation prob="1" period="0.01">
+      <Frame time="0.2">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xfb</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>844</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xfb</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>844</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xfb</Index>
+        </Texture>
+      </Frame>
+      <Frame time="44.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>844</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object id="SulfW Bushbarb shot" type="0x63f9">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xc3</Index>
+    </Texture>
+    <Rotation>70</Rotation>
+  </Object>
+  <Object id="SulfW Chomper Proj" type="0x63bb">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x7f</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Sapling Proj" type="0x63bf">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xa8</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+    <Rotation>360</Rotation>
+  </Object>
+  <Object id="SulfW Spitter Proj" type="0x63e0">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x9f</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Spitter Heavy Proj" type="0x65c6">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x28</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.01">
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0x28</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0x29</Index>
+        </Texture>
+      </Frame>
+      <Frame time="5">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0x2a</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Entling Proj" type="0x63e2">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xa9</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Thorn Blue Proj" type="0x63ee">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xbe</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Thorn Red Proj" type="0x63ef">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xbf</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Thorn Green Proj" type="0x63f0">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xcf</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Thorn Small Proj" type="0x63f1">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xb9</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Thorn Mid Proj" type="0x63f2">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xba</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Thorn Large Proj" type="0x63f3">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xbb</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="Brambletooth shot" type="0x63f8">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xc5</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Big Bark shot" type="0x63fb">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xae</Index>
+    </Texture>
+    <Rotation>50</Rotation>
+  </Object>
+  <Object id="SulfW Small Bark shot" type="0x65ad">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xaf</Index>
+    </Texture>
+    <Animation prob="1" period="0.01">
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0x2d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0x2e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xaf</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Rotation>50</Rotation>
+  </Object>
+  <Object id="SulfW Cattail Proj" type="0x639d">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x9c</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Dead Thorn" type="0x4d2a">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x27</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Troom Spawn 1A" type="0x635d">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>759</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Troom Spawn 1B" type="0x635f">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>758</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Root Proj" type="0x639f">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xaa</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+    <Rotation>360</Rotation>
+  </Object>
+  <Object id="SulfW Darker Root Proj" type="0x63ed">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x13E</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+    <Rotation>360</Rotation>
+  </Object>
+  <Object id="SulfW Ligher Root Proj" type="0x6639">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x13F</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+    <Rotation>360</Rotation>
+  </Object>
+  <Object id="SulfW Thorny Spinner" type="0x4d2b">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x2f</Index>
+    </Texture>
+    <Rotation>360</Rotation>
+  </Object>
+  <Object id="SulfW Thorny Spinner Lite" type="0x4d2e">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x3f</Index>
+    </Texture>
+    <Rotation>360</Rotation>
+  </Object>
+  <Object id="SulfW Sludge Proj" type="0x63b2">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xab</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.01">
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xab</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xac</Index>
+        </Texture>
+      </Frame>
+      <Frame time="4">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xad</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Sludge Proj B" type="0x6361">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xb8</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Drake Proj 1" type="0x663c">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x140</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Drake Proj 2" type="0x663d">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x141</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="Centipede Bullet Red" type="0x6360">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xeb</Index>
+    </Texture>
+  </Object>
+  <Object id="Centipede Bullet Green" type="0x636a">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xec</Index>
+    </Texture>
+  </Object>
+  <Object id="Centipede Big Bullet Red" type="0x636c">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x144</Index>
+    </Texture>
+  </Object>
+  <Object id="Centipede Big Bullet Green" type="0x63c5">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x145</Index>
+    </Texture>
+  </Object>
+  <Object id="Crawler Bash Green" type="0x636e">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xee</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="Crawler Bash Brown" type="0x636f">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xed</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="Crawler Green Arrow" type="0x6377">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xef</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="Crawler Brown Arrow" type="0x6378">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xff</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="Heart Turn Shot" type="0x637a">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xfc</Index>
+    </Texture>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object id="SulfW Thornier Thorn" type="0x63ae">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xfd</Index>
+    </Texture>
+  </Object>
+  <Object id="SulfW Thornier Thorn Warning" type="0x63d3">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x14A</Index>
+    </Texture>
+  </Object>
+  <Object id="SulfW Thorn Ball" type="0x63ec">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xfe</Index>
+    </Texture>
+    <Rotation>-90</Rotation>
+  </Object>
+  <Object id="SulfW Thorn Ball Supreme" type="0x65c7">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0x1c</Index>
+    </Texture>
+    <Rotation>-135</Rotation>
+  </Object>
+  <Object id="SulfW Telegraph Arrow" type="0x65c8">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <Animation prob="1" period="0.01">
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x1d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x1e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x1f</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x2d</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object id="SulfW Thorn Ring" type="0x65c9">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x2b</Index>
+    </Texture>
+    <Rotation>-90</Rotation>
+  </Object>
+  <Object id="SulfW Thorny Spike" type="0x65d2">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x2c</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Black Thorn" type="0x6615">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>322</Index>
+    </Texture>
+  </Object>
+  <Object id="SulfW Drake Wingbeat" type="0x6629">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>734</Index>
+    </Texture>
+  </Object>
+  <Object id="SulfW Drake Fireball" type="0x662a">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>735</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>736</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>737</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>738</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>735</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object id="SulfW Drake Tooth" type="0x662b">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>739</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>739</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>740</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>741</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>742</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>743</Index>
+        </Texture>
+      </Frame>
+      <Frame time="42069">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>744</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object id="SulfW Cattail Fluff" type="0x6396">
+    <Class>Projectile</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>745</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>746</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>747</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>748</Index>
+      </Texture>
+    </RandomTexture>
+    <Rotation>180</Rotation>
+  </Object>
+  <Object id="SulfW Crook Leaf" type="0x637c">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>751</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.05">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>751</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>752</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>753</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>754</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="SulfW Tachi Shot" type="0x637d">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>832</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.04">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>832</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.06">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>833</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.04">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>834</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.06">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>835</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.04">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>836</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.04">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>837</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Rotation>360</Rotation>
+  </Object>
+  <Object id="SulfW CatTail" type="0x639c">
+    <DisplayId>Cattail</DisplayId>
+    <Group>SulfW Mid</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <MinSize>110</MinSize>
+    <MaxSize>130</MaxSize>
+    <SizeStep>4</SizeStep>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <AlwaysPositiveHealth />
+    <Defense>20</Defense>
+    <Exp>175</Exp>
+    <BXP>875</BXP>
+    <StunImmune />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <Projectile id="0">
+      <ObjectId>SulfW Cattail Fluff</ObjectId>
+      <Speed>35</Speed>
+      <Damage>110</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Acceleration>65</Acceleration>
+      <AccelerationDelay>120</AccelerationDelay>
+      <ConditionEffect duration="1.4">Silenced</ConditionEffect>
+      <SpeedClamp>55</SpeedClamp>
+    </Projectile>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Root" type="0x639e">
+    <DisplayId>Bramble Root</DisplayId>
+    <Group>SulfW Hazards</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>1800</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>175</Exp>
+    <BXP>875</BXP>
+    <SlowImmune />
+    <ParalyzeImmune />
+    <DazedImmune />
+    <KillStat stat="NatureKills" />
+    <Projectile id="1">
+      <ObjectId>SulfW Thorny Spinner</ObjectId>
+      <Speed>50</Speed>
+      <Size>115</Size>
+      <Damage>100</Damage>
+      <Acceleration>-25</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>5300</LifetimeMS>
+      <ConditionEffect duration="2.0">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Thorny Spinner</ObjectId>
+      <Speed>40</Speed>
+      <Size>115</Size>
+      <Damage>100</Damage>
+      <Acceleration>-15</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>5300</LifetimeMS>
+      <ConditionEffect duration="2.0">Slowed</ConditionEffect>
+    </Projectile>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Sludge" type="0x63b3">
+    <DisplayId>Acidic Shambler</DisplayId>
+    <Group>SulfW Big</Group>
+    <Enemy />
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x1a</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x1b</Index>
+      </Texture>
+    </AltTexture>
+    <Class>Character</Class>
+    <HitSound>monster/mummies_hit</HitSound>
+    <DeathSound>monster/mummies_death</DeathSound>
+    <MinSize>110</MinSize>
+    <MaxSize>130</MaxSize>
+    <SizeStep>4</SizeStep>
+    <AlwaysPositiveHealth />
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="NatureKills" />
+    <Projectile id="1">
+      <ObjectId>SulfW Sludge Proj</ObjectId>
+      <Speed>15</Speed>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>40</SpeedClamp>
+      <Acceleration>1000</Acceleration>
+      <Damage>150</Damage>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Sludge Proj B</ObjectId>
+      <Damage>65</Damage>
+      <Speed>42</Speed>
+      <Size>130</Size>
+      <LifetimeMS>3200</LifetimeMS>
+      <Parametric />
+      <FaceDir />
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Sludget" type="0x6368">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Acidic Sludget</DisplayId>
+    <AnimatedTexture>
+      <File>wetlandsChars8x8</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/mummies_hit</HitSound>
+    <DeathSound>monster/mummies_death</DeathSound>
+    <Projectile id="1">
+      <ObjectId>SulfW Sludge Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>125</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Sludge Proj B</ObjectId>
+      <Damage>80</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>510</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <MaxHitPoints>1600</MaxHitPoints>
+    <AlwaysPositiveHealth />
+    <MinSize>105</MinSize>
+    <MaxSize>115</MaxSize>
+    <SizeStep>5</SizeStep>
+    <Defense>5</Defense>
+    <Exp>125</Exp>
+    <BXP>625</BXP>
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="NatureKills" />
+    <StasisImmune />
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Chomper" type="0x63bc">
+    <DisplayId>Wetlands Chomper</DisplayId>
+    <Group>SulfW Big</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <MinSize>120</MinSize>
+    <MaxSize>140</MaxSize>
+    <SizeStep>4</SizeStep>
+    <MaxHitPoints>4500</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <Projectile id="1">
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>40</Speed>
+      <Damage>125</Damage>
+      <LifetimeMS>1200</LifetimeMS>
+      <Acceleration>-66</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Amplitude>2.5</Amplitude>
+      <Frequency>0.5</Frequency>
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>53.33</Speed>
+      <Damage>125</Damage>
+      <LifetimeMS>1200</LifetimeMS>
+      <Acceleration>-66</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Amplitude>3</Amplitude>
+      <Frequency>0.5</Frequency>
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>66.66</Speed>
+      <Damage>125</Damage>
+      <LifetimeMS>1200</LifetimeMS>
+      <Acceleration>-66</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Amplitude>3.5</Amplitude>
+      <Frequency>0.5</Frequency>
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>80</Speed>
+      <Damage>95</Damage>
+      <LifetimeMS>1200</LifetimeMS>
+      <Acceleration>-66</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Amplitude>2.5</Amplitude>
+      <Frequency>0.5</Frequency>
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+      <MultiHit />
+      <ArmorPiercing />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>106.66</Speed>
+      <Damage>95</Damage>
+      <LifetimeMS>1200</LifetimeMS>
+      <Acceleration>-66</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Amplitude>3</Amplitude>
+      <Frequency>0.5</Frequency>
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+      <MultiHit />
+      <ArmorPiercing />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>133.32</Speed>
+      <Damage>95</Damage>
+      <LifetimeMS>1200</LifetimeMS>
+      <Acceleration>-66</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Amplitude>3.5</Amplitude>
+      <Frequency>0.5</Frequency>
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+      <MultiHit />
+      <ArmorPiercing />
+      <FaceDir />
+    </Projectile>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Centipede" type="0x636b">
+    <Enemy />
+    <Class>Character</Class>
+    <Group>SulfW Big</Group>
+    <DisplayId>Sulfuric Centipede</DisplayId>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <HitSound>monster/greater_pit_snakes_hit</HitSound>
+    <DeathSound>monster/greater_pit_snakes_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>Centipede Big Bullet Green</ObjectId>
+      <Speed>0</Speed>
+      <Damage>125</Damage>
+      <Size>125</Size>
+      <LifetimeMS>3600</LifetimeMS>
+      <Acceleration>100</Acceleration>
+      <AccelerationDelay>115</AccelerationDelay>
+      <SpeedClamp>95</SpeedClamp>
+      <ConditionEffect duration="5">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Centipede Big Bullet Red</ObjectId>
+      <Speed>0</Speed>
+      <Damage>105</Damage>
+      <Size>125</Size>
+      <LifetimeMS>3800</LifetimeMS>
+      <Acceleration>115</Acceleration>
+      <AccelerationDelay>85</AccelerationDelay>
+      <SpeedClamp>105</SpeedClamp>
+      <ArmorPiercing />
+      <ConditionEffect duration="4">Curse</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Centipede Bullet Green</ObjectId>
+      <Speed>30</Speed>
+      <Damage>70</Damage>
+      <Size>85</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <Boomerang />
+      <ArmorPiercing />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Centipede Bullet Red</ObjectId>
+      <Speed>40</Speed>
+      <Damage>65</Damage>
+      <Size>85</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Boomerang />
+      <ArmorPiercing />
+      <FaceDir />
+    </Projectile>
+    <MaxHitPoints>6500</MaxHitPoints>
+    <MinSize>110</MinSize>
+    <MaxSize>130</MaxSize>
+    <SizeStep>4</SizeStep>
+    <Defense>20</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <KillStat stat="CritterKills" />
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Stalker" type="0x636d">
+    <Group>SulfW Big</Group>
+    <Enemy />
+    <AltTexture id="0">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>23</Index>
+      </Texture>
+    </AltTexture>
+    <Class>Character</Class>
+    <DisplayId>Swamp Stalker</DisplayId>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>Crawler Bash Brown</ObjectId>
+      <Speed>75</Speed>
+      <Damage>125</Damage>
+      <Size>140</Size>
+      <LifetimeMS>475</LifetimeMS>
+      <Wavy />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Crawler Bash Brown</ObjectId>
+      <Speed>75</Speed>
+      <Damage>125</Damage>
+      <Size>140</Size>
+      <LifetimeMS>475</LifetimeMS>
+      <Wavy />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Crawler Green Arrow</ObjectId>
+      <Speed>60</Speed>
+      <Damage>120</Damage>
+      <Size>130</Size>
+      <LifetimeMS>2400</LifetimeMS>
+      <Amplitude>2</Amplitude>
+      <Frequency>1</Frequency>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Crawler Brown Arrow</ObjectId>
+      <Speed>65</Speed>
+      <Damage>90</Damage>
+      <Size>130</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>95</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>75</SpeedClamp>
+    </Projectile>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <MinSize>130</MinSize>
+    <MaxSize>150</MaxSize>
+    <SizeStep>2</SizeStep>
+    <Defense>20</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <NoMiniMap />
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <Animation period="0" prob="1" id="Awaken">
+      <Frame time="0.2">
+        <Texture>
+          <File>wetlandsObjects32x32</File>
+          <Index>1</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>wetlandsObjects32x32</File>
+          <Index>2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects32x32</File>
+          <Index>3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects32x32</File>
+          <Index>4</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.6">
+        <Texture>
+          <File>wetlandsObjects32x32</File>
+          <Index>5</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SetAlt0">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="Awaken">
+        <StyleStep id="Awaken">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Bog Guardian Helper" type="0x7fd8">
+    <DisplayId>Bog Guardian</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>53</Index>
+    </Texture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <Size>130</Size>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <Invincible />
+    <KillStat stat="NatureKills" />
+  </Object>
+  <Object id="SulfW Guardian" type="0x63bd">
+    <DisplayId>Bog Guardian</DisplayId>
+    <Group>SulfW Big</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x35</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <Size>130</Size>
+    <MaxHitPoints>6000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <SlowImmune />
+    <KillStat stat="NatureKills" />
+    <Projectile id="0">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>50</Speed>
+      <Damage>80</Damage>
+      <Size>150</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ConditionEffect duration="1.0">Exposed</ConditionEffect>
+      <ConditionEffect duration="3.0">Slowed</ConditionEffect>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Sapling" type="0x63be">
+    <DisplayId>Bog Child</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>wetlandsChars8x8</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <Size>115</Size>
+    <MaxHitPoints>1400</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>125</Exp>
+    <BXP>625</BXP>
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <Projectile id="1">
+      <ObjectId>SulfW Sapling Proj</ObjectId>
+      <Speed>45</Speed>
+      <Damage>75</Damage>
+      <ArmorPiercing />
+      <LifetimeMS>1300</LifetimeMS>
+      <Acceleration>120</Acceleration>
+      <AccelerationDelay>35</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Wavy />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Sapling Proj</ObjectId>
+      <Speed>0</Speed>
+      <Damage>65</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Spitter" type="0x63e1">
+    <DisplayId>Acidic Spitter</DisplayId>
+    <Group>SulfW Mid</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <MinSize>110</MinSize>
+    <MaxSize>130</MaxSize>
+    <SizeStep>4</SizeStep>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>175</Exp>
+    <BXP>875</BXP>
+    <SlowImmune />
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <Projectile id="0">
+      <ObjectId>SulfW Spitter Proj</ObjectId>
+      <Speed>65</Speed>
+      <Damage>80</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1300</LifetimeMS>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Spitter Proj</ObjectId>
+      <Speed>65</Speed>
+      <Damage>60</Damage>
+      <Size>135</Size>
+      <LifetimeMS>1300</LifetimeMS>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Spitter Proj</ObjectId>
+      <Speed>65</Speed>
+      <Damage>65</Damage>
+      <Size>145</Size>
+      <LifetimeMS>1300</LifetimeMS>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>SulfW Spitter Heavy Proj</ObjectId>
+      <Speed>120</Speed>
+      <Damage>75</Damage>
+      <Size>155</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <ConditionEffect duration="2.0">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Entling" type="0x63df">
+    <DisplayId>Warped Entling</DisplayId>
+    <Group>SulfW Hazards</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>wetlandsChars8x8</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <SlowImmune />
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <MinSize>110</MinSize>
+    <MaxSize>130</MaxSize>
+    <SizeStep>2</SizeStep>
+    <MaxHitPoints>1900</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>175</Exp>
+    <BXP>875</BXP>
+    <Projectile id="1">
+      <ObjectId>SulfW Entling Proj</ObjectId>
+      <Speed>40</Speed>
+      <Damage>70</Damage>
+      <Size>110</Size>
+      <LifetimeMS>3700</LifetimeMS>
+      <PassesCover />
+      <Boomerang />
+      <ArmorPiercing />
+      <FaceDir />
+    </Projectile>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfWFruit" type="0x63e3">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Cursed Red Fruit</DisplayId>
+    <Group>SulfW Fruit</Group>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0x45</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x46</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x47</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x48</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x49</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <AlwaysPositiveHealth />
+    <MaxHitPoints>1000</MaxHitPoints>
+    <MinSize>100</MinSize>
+    <MaxSize>140</MaxSize>
+    <SizeStep>4</SizeStep>
+    <Defense>0</Defense>
+    <Exp>100</Exp>
+    <BXP>500</BXP>
+    <NoMiniMap />
+    <StasisImmune />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Red Fruit Helper" type="0x6390">
+    <DisplayId>SulfW Red Fruit Helper</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>wetlandsChars8x8</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <KillStat stat="NatureKills" />
+    <Size>0</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>100</Exp>
+    <BXP>500</BXP>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfWBlueFruit" type="0x63d6">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Cursed Blue Fruit</DisplayId>
+    <Group>SulfW Fruit</Group>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0xB6</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xB7</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xB8</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xB9</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xBA</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <AlwaysPositiveHealth />
+    <MaxHitPoints>1000</MaxHitPoints>
+    <MinSize>100</MinSize>
+    <MaxSize>140</MaxSize>
+    <SizeStep>4</SizeStep>
+    <Defense>0</Defense>
+    <Exp>100</Exp>
+    <BXP>500</BXP>
+    <NoMiniMap />
+    <StasisImmune />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Blue Fruit Helper" type="0x6391">
+    <DisplayId>SulfW Blue Fruit Helper</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>wetlandsChars8x8</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <Size>0</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>100</Exp>
+    <BXP>500</BXP>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfWGreenFruit" type="0x6635">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Cursed Green Fruit</DisplayId>
+    <Group>SulfW Fruit</Group>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0xBB</Index>
+    </Texture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <AltTexture id="1">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xBC</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xBD</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xBE</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xBF</Index>
+      </Texture>
+    </AltTexture>
+    <AlwaysPositiveHealth />
+    <MaxHitPoints>1000</MaxHitPoints>
+    <MinSize>120</MinSize>
+    <MaxSize>140</MaxSize>
+    <SizeStep>4</SizeStep>
+    <Defense>0</Defense>
+    <Exp>100</Exp>
+    <BXP>500</BXP>
+    <NoMiniMap />
+    <StasisImmune />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Green Fruit Helper" type="0x6393">
+    <DisplayId>SulfW Green Fruit Helper</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>wetlandsChars8x8</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <Size>0</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>100</Exp>
+    <BXP>500</BXP>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfWOrangeFruit" type="0x6637">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Cursed Orange Fruit</DisplayId>
+    <Group>SulfW Fruit</Group>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0xC0</Index>
+    </Texture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <AltTexture id="1">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xC1</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xC2</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xC3</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xC4</Index>
+      </Texture>
+    </AltTexture>
+    <AlwaysPositiveHealth />
+    <MaxHitPoints>1000</MaxHitPoints>
+    <MinSize>120</MinSize>
+    <MaxSize>140</MaxSize>
+    <SizeStep>4</SizeStep>
+    <Defense>0</Defense>
+    <Exp>100</Exp>
+    <BXP>500</BXP>
+    <NoMiniMap />
+    <StasisImmune />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Orange Fruit Helper" type="0x63c2">
+    <DisplayId>SulfW Orange Fruit Helper</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>wetlandsChars8x8</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <Size>0</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>100</Exp>
+    <BXP>500</BXP>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfwGoldFruit" type="0x63e4">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Gilded Fruit</DisplayId>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0x55</Index>
+    </Texture>
+    <Sound id="0">spell/major_heal</Sound>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Size>140</Size>
+    <Defense>0</Defense>
+    <Exp>2000</Exp>
+    <BXP>10000</BXP>
+    <Color>0xffff00</Color>
+    <StasisImmune />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW GoldFruit Pointer" type="0x6388">
+    <Class>Character</Class>
+    <Size>-1</Size>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0x55</Index>
+    </Texture>
+    <Color>0xffff00</Color>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfWGoldFruitDead" type="0x63e6">
+    <NoMiniMap />
+    <Class>Character</Class>
+    <Size>140</Size>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0x55</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x56</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x57</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x58</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x59</Index>
+      </Texture>
+    </AltTexture>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Jaws" type="0x63e8">
+    <DisplayId>Bog Jaws</DisplayId>
+    <Group>SulfW Hazards</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0x65</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x66</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x67</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x68</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <MinSize>110</MinSize>
+    <MaxSize>130</MaxSize>
+    <SizeStep>4</SizeStep>
+    <ShadowSize>0</ShadowSize>
+    <MaxHitPoints>1400</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>175</Exp>
+    <BXP>875</BXP>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <KillStat stat="NatureKills" />
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Thornbush" type="0x63e9">
+    <Group>SulfW Hazards</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Twisted Thornbush</DisplayId>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0x75</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x76</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x77</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x78</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>0</Speed>
+      <Damage>75</Damage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Acceleration>10000</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <TurnRate>65</TurnRate>
+      <TurnRateDelay>100</TurnRateDelay>
+      <TurnClamp>45</TurnClamp>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>0</Speed>
+      <Damage>75</Damage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Acceleration>10000</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <TurnRate>-65</TurnRate>
+      <TurnRateDelay>100</TurnRateDelay>
+      <TurnClamp>-45</TurnClamp>
+      <ArmorPiercing />
+    </Projectile>
+    <MaxHitPoints>650</MaxHitPoints>
+    <Defense>1000</Defense>
+    <MinSize>120</MinSize>
+    <MaxSize>140</MaxSize>
+    <SizeStep>4</SizeStep>
+    <Exp>175</Exp>
+    <BXP>875</BXP>
+    <SlowImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <KillStat stat="NatureKills" />
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Dragonfly" type="0x63ea">
+    <Class>Character</Class>
+    <DisplayId>Dragonfly</DisplayId>
+    <RandomTexture>
+      <AnimatedTexture>
+        <File>wetlandsChars8x8</File>
+        <Index>7</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>wetlandsChars8x8</File>
+        <Index>8</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>wetlandsChars8x8</File>
+        <Index>9</Index>
+      </AnimatedTexture>
+    </RandomTexture>
+    <Size>40</Size>
+    <Z>0.3</Z>
+    <Flying />
+    <NoMiniMap />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Fly" type="0x63eb">
+    <Class>Character</Class>
+    <DisplayId>Fly</DisplayId>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xBC</Index>
+    </Texture>
+    <Animation period="0.2" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xBC</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xBD</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>30</Size>
+    <Z>0.3</Z>
+    <Flying />
+    <NoMiniMap />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Rose Red" type="0x63f4">
+    <Group>SulfW Mid</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Scarlet Wretched Rose</DisplayId>
+    <AnimatedTexture>
+      <File>wetlandsChars8x8</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Thorn Red Proj</ObjectId>
+      <Speed>65</Speed>
+      <Damage>100</Damage>
+      <Size>110</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Thorn Red Proj</ObjectId>
+      <Speed>60</Speed>
+      <Damage>100</Damage>
+      <Size>110</Size>
+      <LifetimeMS>1100</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Thorn Red Proj</ObjectId>
+      <Speed>55</Speed>
+      <Damage>100</Damage>
+      <Size>110</Size>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>SulfW Thorn Large Proj</ObjectId>
+      <Speed>0</Speed>
+      <Damage>30</Damage>
+      <Size>125</Size>
+      <ArmorPiercing />
+      <Acceleration>135</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <ConditionEffect duration="0.6">Paralyzed</ConditionEffect>
+      <LifetimeMS>1500</LifetimeMS>
+    </Projectile>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <MinSize>110</MinSize>
+    <MaxSize>120</MaxSize>
+    <SizeStep>2</SizeStep>
+    <Defense>10</Defense>
+    <Exp>125</Exp>
+    <BXP>625</BXP>
+    <SlowImmune />
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Rose Blue" type="0x6616">
+    <Group>SulfW Mid</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Cobalt Wretched Rose</DisplayId>
+    <AnimatedTexture>
+      <File>wetlandsChars8x8</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Thorn Blue Proj</ObjectId>
+      <Speed>40</Speed>
+      <Damage>65</Damage>
+      <Size>100</Size>
+      <ArmorPiercing />
+      <Wavy />
+      <LifetimeMS>3200</LifetimeMS>
+      <Amplitude>2</Amplitude>
+      <Acceleration>-1800</Acceleration>
+      <AccelerationDelay>1800</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ConditionEffect duration="2.0">Slowed</ConditionEffect>
+    </Projectile>
+    <MaxHitPoints>1600</MaxHitPoints>
+    <MinSize>110</MinSize>
+    <MaxSize>120</MaxSize>
+    <SizeStep>4</SizeStep>
+    <Defense>15</Defense>
+    <Exp>175</Exp>
+    <BXP>875</BXP>
+    <SlowImmune />
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Rose Green" type="0x6617">
+    <Group>SulfW Hazards</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Viridian Wretched Rose</DisplayId>
+    <AnimatedTexture>
+      <File>wetlandsChars8x8</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Thorn Green Proj</ObjectId>
+      <Speed>35</Speed>
+      <Damage>50</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2200</LifetimeMS>
+      <ArmorPiercing />
+      <ConditionEffect duration="4">Sick</ConditionEffect>
+    </Projectile>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <MinSize>100</MinSize>
+    <MaxSize>120</MaxSize>
+    <SizeStep>4</SizeStep>
+    <Defense>10</Defense>
+    <Exp>175</Exp>
+    <BXP>875</BXP>
+    <DazedImmune />
+    <StasisImmune />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Slasher" type="0x6614">
+    <Group>SulfW Big</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Thorned Ravager</DisplayId>
+    <AnimatedTexture>
+      <File>wetlandsChars32x32</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Black Thorn</ObjectId>
+      <Speed>45</Speed>
+      <Damage>140</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <TurnRate>60</TurnRate>
+      <TurnRateDelay>280</TurnRateDelay>
+      <TurnClamp>25</TurnClamp>
+      <Acceleration>90</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>90</SpeedClamp>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Black Thorn</ObjectId>
+      <Speed>40</Speed>
+      <Damage>140</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <TurnRate>60</TurnRate>
+      <TurnRateDelay>260</TurnRateDelay>
+      <TurnClamp>25</TurnClamp>
+      <Acceleration>80</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Black Thorn</ObjectId>
+      <Speed>35</Speed>
+      <Damage>140</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <TurnRate>60</TurnRate>
+      <TurnRateDelay>240</TurnRateDelay>
+      <TurnClamp>25</TurnClamp>
+      <Acceleration>70</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>SulfW Black Thorn</ObjectId>
+      <Speed>30</Speed>
+      <Damage>140</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <TurnRate>60</TurnRate>
+      <TurnRateDelay>220</TurnRateDelay>
+      <TurnClamp>25</TurnClamp>
+      <Acceleration>60</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>60</SpeedClamp>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>SulfW Black Thorn</ObjectId>
+      <Speed>45</Speed>
+      <Damage>140</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <TurnRate>-60</TurnRate>
+      <TurnRateDelay>280</TurnRateDelay>
+      <TurnClamp>-25</TurnClamp>
+      <Acceleration>90</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>90</SpeedClamp>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>SulfW Black Thorn</ObjectId>
+      <Speed>40</Speed>
+      <Damage>140</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <TurnRate>-60</TurnRate>
+      <TurnRateDelay>260</TurnRateDelay>
+      <TurnClamp>-25</TurnClamp>
+      <Acceleration>80</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>SulfW Black Thorn</ObjectId>
+      <Speed>35</Speed>
+      <Damage>140</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <TurnRate>-60</TurnRate>
+      <TurnRateDelay>240</TurnRateDelay>
+      <TurnClamp>-25</TurnClamp>
+      <Acceleration>70</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>SulfW Black Thorn</ObjectId>
+      <Speed>30</Speed>
+      <Damage>140</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <TurnRate>-60</TurnRate>
+      <TurnRateDelay>220</TurnRateDelay>
+      <TurnClamp>-25</TurnClamp>
+      <Acceleration>60</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>60</SpeedClamp>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>SulfW Thorny Spike</ObjectId>
+      <Speed>0</Speed>
+      <Damage>135</Damage>
+      <Size>125</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+      <MultiHit />
+      <Acceleration>60</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+      <SpeedClamp>75</SpeedClamp>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>SulfW Thorny Spike</ObjectId>
+      <Speed>0</Speed>
+      <Damage>135</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2700</LifetimeMS>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+      <MultiHit />
+      <Acceleration>60</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>75</SpeedClamp>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>SulfW Black Thorn</ObjectId>
+      <Speed>80</Speed>
+      <Damage>135</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <MultiHit />
+      <FaceDir />
+      <Acceleration>-2000</Acceleration>
+      <AccelerationDelay>780</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ConditionEffect duration="3">Silenced</ConditionEffect>
+    </Projectile>
+    <MaxHitPoints>6000</MaxHitPoints>
+    <MinSize>130</MinSize>
+    <MaxSize>150</MaxSize>
+    <SizeStep>4</SizeStep>
+    <Defense>15</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <StasisImmune />
+    <StunImmune />
+    <SlowImmune />
+    <KillStat stat="BeastKills" />
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+  </Object>
+  <Object id="SulfW Native God" type="0x6619">
+    <Group>SulfW Big</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Swamp Spirit</DisplayId>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Big Bark shot</ObjectId>
+      <Speed>45</Speed>
+      <Damage>160</Damage>
+      <Size>140</Size>
+      <LifetimeMS>4250</LifetimeMS>
+      <Boomerang />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Bushbarb shot</ObjectId>
+      <Speed>55</Speed>
+      <Damage>150</Damage>
+      <Size>110</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <Boomerang />
+    </Projectile>
+    <MaxHitPoints>4500</MaxHitPoints>
+    <MinSize>120</MinSize>
+    <MaxSize>140</MaxSize>
+    <SizeStep>4</SizeStep>
+    <Defense>15</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Thorned Drake" type="0x663e">
+    <Group>SulfW Big</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Thorned Drake</DisplayId>
+    <AnimatedTexture>
+      <File>wetlandsChars32x32</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/dragons_hit</HitSound>
+    <DeathSound>monster/dragons_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Drake Tooth</ObjectId>
+      <Speed>25</Speed>
+      <Damage>155</Damage>
+      <Size>130</Size>
+      <LifetimeMS>1400</LifetimeMS>
+      <Acceleration>75</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>75</SpeedClamp>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Drake Tooth</ObjectId>
+      <Speed>50</Speed>
+      <Damage>155</Damage>
+      <Size>130</Size>
+      <LifetimeMS>1400</LifetimeMS>
+      <Acceleration>85</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Drake Wingbeat</ObjectId>
+      <Speed>95</Speed>
+      <Damage>125</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-100</Acceleration>
+      <AccelerationDelay>450</AccelerationDelay>
+      <FaceDir />
+      <SpeedClamp>0</SpeedClamp>
+      <Amplitude>0.6</Amplitude>
+      <Frequency>2.4</Frequency>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>SulfW Drake Fireball</ObjectId>
+      <Speed>40</Speed>
+      <Damage>75</Damage>
+      <Size>125</Size>
+      <ArmorPiercing />
+      <Wavy />
+      <LifetimeMS>1000</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>SulfW Drake Fireball</ObjectId>
+      <Speed>20</Speed>
+      <Damage>75</Damage>
+      <Size>125</Size>
+      <ArmorPiercing />
+      <Wavy />
+      <LifetimeMS>1000</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>60</SpeedClamp>
+    </Projectile>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <MinSize>140</MinSize>
+    <MaxSize>160</MaxSize>
+    <SizeStep>5</SizeStep>
+    <Defense>30</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <StasisImmune />
+    <StunImmune />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+  </Object>
+  <Object id="SulfW Drake Baby" type="0x663f">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Thorned Drake Baby</DisplayId>
+    <AnimatedTexture>
+      <File>wetlandsChars8x8</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <HitSound>monster/dragons_hit</HitSound>
+    <DeathSound>monster/dragons_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Drake Tooth</ObjectId>
+      <Speed>50</Speed>
+      <Damage>125</Damage>
+      <Size>140</Size>
+      <LifetimeMS>6500</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Drake Tooth</ObjectId>
+      <Speed>60</Speed>
+      <Damage>130</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3500</LifetimeMS>
+    </Projectile>
+    <MaxHitPoints>2750</MaxHitPoints>
+    <MinSize>110</MinSize>
+    <MaxSize>130</MaxSize>
+    <SizeStep>2</SizeStep>
+    <Defense>15</Defense>
+    <Exp>125</Exp>
+    <BXP>625</BXP>
+    <ParalyzeImmune />
+    <SlowImmune />
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW God" type="0x427b">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Grand Dragonfly</DisplayId>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <HitSound>monster/scorpions_hit</HitSound>
+    <DeathSound>monster/scorpions_hit</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Dragonfly Wingbeat</ObjectId>
+      <Speed>45</Speed>
+      <Damage>110</Damage>
+      <Size>150</Size>
+      <LifetimeMS>4420</LifetimeMS>
+      <Boomerang />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Dragonfly Bolt</ObjectId>
+      <Speed>65</Speed>
+      <Damage>120</Damage>
+      <Size>120</Size>
+      <LifetimeMS>1700</LifetimeMS>
+    </Projectile>
+    <MaxHitPoints>12500</MaxHitPoints>
+    <Size>120</Size>
+    <Defense>15</Defense>
+    <Exp>350</Exp>
+    <BXP>1750</BXP>
+    <Terrain>Mountains</Terrain>
+    <SpawnProb>0.045</SpawnProb>
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID,GOD</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Bridge Breaker Helper Horizontal" type="0x6634">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>89</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object id="SulfW Bridge Breaker Helper Vertical" type="0x6633">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>89</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object id="SulfW Chest" type="0x65ae">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Mossy Chest</DisplayId>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xc9</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_hit</DeathSound>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>0</Defense>
+    <Exp>250</Exp>
+    <BXP>1250</BXP>
+    <KillStat stat="StructureKills" />
+    <Labels>ENEMY,MINION,NATURE,CHEST</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Chest Special" type="0x6618">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Mossy Chest</DisplayId>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xc9</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_hit</DeathSound>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>0</Defense>
+    <Exp>250</Exp>
+    <BXP>1250</BXP>
+    <KillStat stat="StructureKills" />
+    <Labels>ENEMY,MINION,NATURE,CHEST</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Overlay Anchor" type="0x663b">
+    <DisplayId>Spirit of the Wetlands</DisplayId>
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Size>-1</Size>
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>0xce</Index>
+    </Texture>
+  </Object>
+  <Object id="SulfW Warped Ent" type="0x63fa">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Warped Ent Ancient</DisplayId>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <AltTexture id="1">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x69</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x6a</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x6b</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x74</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <AnimatedTexture>
+        <File>wetlandsChars16x16</File>
+        <Index>17</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="6">
+      <AnimatedTexture>
+        <File>wetlandsChars16x16</File>
+        <Index>18</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Projectile id="0">
+      <ObjectId>SulfW Big Bark shot</ObjectId>
+      <Speed>50</Speed>
+      <Damage>75</Damage>
+      <Size>150</Size>
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>50</Speed>
+      <Damage>5</Damage>
+      <Size>150</Size>
+      <LifetimeMS>3400</LifetimeMS>
+      <Acceleration>-125</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>0</Speed>
+      <Damage>200</Damage>
+      <Size>150</Size>
+      <LifetimeMS>2400</LifetimeMS>
+      <ConditionEffect duration="1.6">Bleeding</ConditionEffect>
+      <Acceleration>125</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>30</Speed>
+      <Damage>145</Damage>
+      <Size>135</Size>
+      <LifetimeMS>6400</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>45</Speed>
+      <Damage>145</Damage>
+      <Size>135</Size>
+      <LifetimeMS>3200</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>SulfW Small Bark shot</ObjectId>
+      <Speed>50</Speed>
+      <Damage>20</Damage>
+      <Size>150</Size>
+      <LifetimeMS>2400</LifetimeMS>
+      <ConditionEffect duration="0.8">Bleeding</ConditionEffect>
+      <ArmorPiercing />
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>SulfW Small Bark shot</ObjectId>
+      <Speed>0</Speed>
+      <Damage>20</Damage>
+      <Size>150</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <Acceleration>1000000</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <ConditionEffect duration="0.8">Bleeding</ConditionEffect>
+      <ArmorPiercing />
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>75</Damage>
+      <Size>120</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <Boomerang />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>35</Speed>
+      <Damage>60</Damage>
+      <Size>120</Size>
+      <LifetimeMS>7500</LifetimeMS>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>SulfW Thorn Ball</ObjectId>
+      <Speed>25</Speed>
+      <Damage>45</Damage>
+      <Size>120</Size>
+      <Parametric />
+      <Magnitude>8</Magnitude>
+      <PassesCover />
+      <MultiHit />
+      <LifetimeMS>15000</LifetimeMS>
+      <ConditionEffect duration="1.6">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>SulfW Telegraph Arrow</ObjectId>
+      <Speed>0</Speed>
+      <Damage>0</Damage>
+      <Size>300</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <Acceleration>120</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <PassesCover />
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>SulfW Small Bark shot</ObjectId>
+      <Speed>0</Speed>
+      <Damage>20</Damage>
+      <Size>150</Size>
+      <LifetimeMS>2600</LifetimeMS>
+      <Acceleration>1000000</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <ConditionEffect duration="0.8">Bleeding</ConditionEffect>
+      <ArmorPiercing />
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>60</Speed>
+      <Damage>145</Damage>
+      <Size>135</Size>
+      <LifetimeMS>6400</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>SulfW Thorn Ball Supreme</ObjectId>
+      <Speed>25</Speed>
+      <Damage>90</Damage>
+      <Size>200</Size>
+      <Parametric />
+      <Magnitude>8</Magnitude>
+      <PassesCover />
+      <MultiHit />
+      <LifetimeMS>15000</LifetimeMS>
+      <ConditionEffect duration="3.2">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>SulfW Thorny Spike</ObjectId>
+      <Speed>75</Speed>
+      <Damage>90</Damage>
+      <Size>120</Size>
+      <LifetimeMS>3333</LifetimeMS>
+      <ConditionEffect duration="3">Curse</ConditionEffect>
+      <Boomerang />
+    </Projectile>
+    <Projectile id="15">
+      <ObjectId>SulfW Dead Thorn</ObjectId>
+      <Speed>50</Speed>
+      <Damage>75</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <ConditionEffect duration="3">Curse</ConditionEffect>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="16">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>0</Speed>
+      <Damage>0</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="17">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>35</Speed>
+      <Damage>125</Damage>
+      <Size>100</Size>
+      <LifetimeMS>4500</LifetimeMS>
+      <ConditionEffect duration="4">Curse</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="18">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Size>115</Size>
+      <Speed>80</Speed>
+      <Damage>160</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <CircleTurnAngle>-40</CircleTurnAngle>
+      <CircleTurnDelay>1000</CircleTurnDelay>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="19">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Size>100</Size>
+      <Speed>70</Speed>
+      <Damage>160</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <CircleTurnAngle>40</CircleTurnAngle>
+      <CircleTurnDelay>1000</CircleTurnDelay>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="20">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Size>115</Size>
+      <Speed>60</Speed>
+      <Damage>160</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <CircleTurnAngle>-40</CircleTurnAngle>
+      <CircleTurnDelay>1000</CircleTurnDelay>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="21">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Size>115</Size>
+      <Speed>50</Speed>
+      <Damage>160</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <CircleTurnAngle>40</CircleTurnAngle>
+      <CircleTurnDelay>1000</CircleTurnDelay>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="22">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Size>115</Size>
+      <Speed>40</Speed>
+      <Damage>160</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <CircleTurnAngle>-40</CircleTurnAngle>
+      <CircleTurnDelay>1000</CircleTurnDelay>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="23">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Size>115</Size>
+      <Speed>30</Speed>
+      <Damage>160</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <CircleTurnAngle>40</CircleTurnAngle>
+      <CircleTurnDelay>1000</CircleTurnDelay>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="24">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Size>115</Size>
+      <Speed>20</Speed>
+      <Damage>160</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <CircleTurnAngle>-40</CircleTurnAngle>
+      <CircleTurnDelay>1000</CircleTurnDelay>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="25">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Size>115</Size>
+      <Speed>10</Speed>
+      <Damage>140</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <CircleTurnAngle>40</CircleTurnAngle>
+      <CircleTurnDelay>1000</CircleTurnDelay>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="26">
+      <ObjectId>SulfW Thornier Thorn Warning</ObjectId>
+      <Speed>135</Speed>
+      <Damage>0</Damage>
+      <Size>170</Size>
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <AlwaysPositiveHealth />
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Size>275</Size>
+    <Defense>25</Defense>
+    <Exp>8000</Exp>
+    <BXP>40000</BXP>
+    <NoMiniMap />
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt5">
+        <StyleStep altTextureId="5">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt6">
+        <StyleStep altTextureId="6">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,NATURE</Labels>
+  </Object>
+  <Object id="SulfW Warped Ent Attacker 1A" type="0x6628">
+    <DisplayId>Warped Ent Ancient</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <Size>120</Size>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>SulfW Troom Spawn 1A</ObjectId>
+      <Speed>50</Speed>
+      <Damage>95</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <ConditionEffect duration="5.0">Bleeding</ConditionEffect>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Animation period="0" prob="1" id="Init">
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>285</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>286</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>287</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>288</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>289</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>290</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>291</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>292</Index>
+        </Texture>
+      </Frame>
+      <Frame time="5">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>293</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation period="0" prob="1" id="Thanos">
+      <Frame time="0.14">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>279</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.14">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>280</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.14">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>281</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.14">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>282</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.14">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>283</Index>
+        </Texture>
+      </Frame>
+      <Frame time="5">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>284</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Init">
+        <StyleStep id="Init">SetAnimation</StyleStep>
+      </Style>
+      <Style id="Thanos">
+        <StyleStep id="Thanos">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,NATURE</Labels>
+  </Object>
+  <Object id="SulfW Warped Ent Attacker 1B" type="0x662c">
+    <DisplayId>Warped Ent Ancient</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <Size>120</Size>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>SulfW Troom Spawn 1B</ObjectId>
+      <Speed>50</Speed>
+      <Damage>110</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <ConditionEffect duration="5.0">Exposed</ConditionEffect>
+      <MultiHit />
+      <Wavy />
+      <FaceDir />
+    </Projectile>
+    <Animation period="0" prob="1" id="Init">
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>285</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>286</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>287</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>288</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>289</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>290</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>291</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>292</Index>
+        </Texture>
+      </Frame>
+      <Frame time="5">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>293</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation period="0" prob="1" id="Thanos">
+      <Frame time="0.14">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>279</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.14">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>280</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.14">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>281</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.14">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>282</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.14">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>283</Index>
+        </Texture>
+      </Frame>
+      <Frame time="5">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>284</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Init">
+        <StyleStep id="Init">SetAnimation</StyleStep>
+      </Style>
+      <Style id="Thanos">
+        <StyleStep id="Thanos">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,NATURE</Labels>
+  </Object>
+  <Object id="SulfW Boss" type="0x63fe">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Heart of the Wetlands</DisplayId>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+    <AltTexture id="1">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x60</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x61</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x62</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x63</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x64</Index>
+      </Texture>
+    </AltTexture>
+    <Projectile id="0">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>55.555</Speed>
+      <Damage>130</Damage>
+      <Size>150</Size>
+      <LifetimeMS>4560</LifetimeMS>
+      <ConditionEffect duration="4">Curse</ConditionEffect>
+      <Boomerang />
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Thorn Ring</ObjectId>
+      <Damage>175</Damage>
+      <Speed>5.66</Speed>
+      <LifetimeMS>11000</LifetimeMS>
+      <TurnRate>45</TurnRate>
+      <TurnClamp>90</TurnClamp>
+      <TurnRateDelay>0</TurnRateDelay>
+      <Size>80</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Thorn Ring</ObjectId>
+      <Damage>175</Damage>
+      <Speed>9.68</Speed>
+      <LifetimeMS>11000</LifetimeMS>
+      <TurnRate>45</TurnRate>
+      <TurnClamp>90</TurnClamp>
+      <TurnRateDelay>0</TurnRateDelay>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>65</Speed>
+      <Damage>45</Damage>
+      <Size>150</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <ConditionEffect duration="3">Sick</ConditionEffect>
+      <LifetimeMS>7500</LifetimeMS>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>30</Speed>
+      <Damage>65</Damage>
+      <Size>150</Size>
+      <LifetimeMS>10000</LifetimeMS>
+      <Magnitude>9</Magnitude>
+      <FaceDir />
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <Parametric />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>SulfW Thorny Spinner</ObjectId>
+      <Speed>45</Speed>
+      <Damage>110</Damage>
+      <Size>125</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <LifetimeMS>5000</LifetimeMS>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>30</Speed>
+      <Damage>35</Damage>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>8050</LifetimeMS>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>60</Speed>
+      <Damage>125</Damage>
+      <Size>120</Size>
+      <LifetimeMS>4300</LifetimeMS>
+      <ConditionEffect duration="3">Curse</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>30</Speed>
+      <Damage>125</Damage>
+      <Size>120</Size>
+      <LifetimeMS>7500</LifetimeMS>
+      <ConditionEffect duration="3">Curse</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>25</Speed>
+      <Damage>100</Damage>
+      <Size>150</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Brambletooth shot</ObjectId>
+      <Speed>45</Speed>
+      <Damage>35</Damage>
+      <Size>120</Size>
+      <LifetimeMS>10000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>SulfW Big Bark shot</ObjectId>
+      <Speed>10</Speed>
+      <Damage>140</Damage>
+      <Size>150</Size>
+      <Acceleration>10</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>77</SpeedClamp>
+      <LifetimeMS>3405</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>SulfW Thorn Ball</ObjectId>
+      <Speed>30</Speed>
+      <Damage>140</Damage>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <TurnRate>-180</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+      <LifetimeMS>8000</LifetimeMS>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>32.5</Speed>
+      <Damage>100</Damage>
+      <Size>150</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>40</Speed>
+      <Damage>100</Damage>
+      <Size>150</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="15">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>30</Speed>
+      <Damage>65</Damage>
+      <Size>150</Size>
+      <LifetimeMS>8500</LifetimeMS>
+      <Magnitude>6</Magnitude>
+      <MultiHit />
+      <PassesCover />
+      <FaceDir />
+      <Parametric />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="16">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>30</Speed>
+      <Damage>65</Damage>
+      <Size>150</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <Magnitude>3</Magnitude>
+      <MultiHit />
+      <FaceDir />
+      <PassesCover />
+      <Parametric />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="17">
+      <ObjectId>SulfW Thorny Spike</ObjectId>
+      <Speed>55</Speed>
+      <Damage>125</Damage>
+      <Size>120</Size>
+      <Acceleration>-300</Acceleration>
+      <AccelerationDelay>750</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <LifetimeMS>10000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="18">
+      <ObjectId>Brambletooth shot</ObjectId>
+      <Speed>15</Speed>
+      <Damage>30</Damage>
+      <Size>90</Size>
+      <LifetimeMS>14000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="19">
+      <ObjectId>Brambletooth shot</ObjectId>
+      <Speed>20</Speed>
+      <Damage>35</Damage>
+      <Size>125</Size>
+      <LifetimeMS>12000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="20">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>25</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="21">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>50</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="22">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>75</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="23">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>100</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="24">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>125</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="25">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>150</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="26">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>175</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="27">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>200</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="28">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>225</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="29">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>250</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="30">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>275</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="31">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>300</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="32">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>25</Speed>
+      <Damage>0</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="33">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>50</Speed>
+      <Damage>0</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="34">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>75</Speed>
+      <Damage>0</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="35">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>100</Speed>
+      <Damage>0</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="36">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>125</Speed>
+      <Damage>0</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="37">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>150</Speed>
+      <Damage>0</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="38">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>175</Speed>
+      <Damage>0</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="39">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>200</Speed>
+      <Damage>00</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="40">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>225</Speed>
+      <Damage>0</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="41">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>250</Speed>
+      <Damage>0</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="42">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>275</Speed>
+      <Damage>0</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="43">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>300</Speed>
+      <Damage>0</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="44">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>25</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="45">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>50</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="46">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>75</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="47">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>100</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="48">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>125</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="49">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>150</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="50">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>175</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="51">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>200</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="52">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>225</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="53">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>250</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="54">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>275</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="55">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>300</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="56">
+      <ObjectId>SulfW Thorn Ball</ObjectId>
+      <Speed>30</Speed>
+      <Damage>140</Damage>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <TurnRate>180</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+      <LifetimeMS>8000</LifetimeMS>
+    </Projectile>
+    <Projectile id="57">
+      <ObjectId>SulfW Thorn Ring</ObjectId>
+      <Damage>175</Damage>
+      <Speed>15.56</Speed>
+      <LifetimeMS>11000</LifetimeMS>
+      <TurnRate>45</TurnRate>
+      <TurnClamp>90</TurnClamp>
+      <TurnRateDelay>0</TurnRateDelay>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="58">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>45</Speed>
+      <Damage>135</Damage>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <TurnRate>135</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+      <LifetimeMS>6000</LifetimeMS>
+      <ConditionEffect duration="3">Curse</ConditionEffect>
+    </Projectile>
+    <Projectile id="59">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>45</Speed>
+      <Damage>135</Damage>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <TurnRate>-135</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+      <LifetimeMS>6000</LifetimeMS>
+      <ConditionEffect duration="3">Curse</ConditionEffect>
+    </Projectile>
+    <Projectile id="60">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>70</Speed>
+      <Damage>125</Damage>
+      <Size>95</Size>
+      <MultiHit />
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Projectile id="61">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>60</Speed>
+      <Damage>125</Damage>
+      <Size>95</Size>
+      <MultiHit />
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Projectile id="62">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>40</Speed>
+      <Damage>125</Damage>
+      <Size>95</Size>
+      <MultiHit />
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Projectile id="63">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>20</Speed>
+      <Damage>125</Damage>
+      <Size>95</Size>
+      <MultiHit />
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Projectile id="64">
+      <ObjectId>SulfW Thorny Spinner</ObjectId>
+      <Speed>30</Speed>
+      <Damage>60</Damage>
+      <Size>150</Size>
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>6500</LifetimeMS>
+    </Projectile>
+    <Projectile id="65">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>335</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="66">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>350</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>-10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="67">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>335</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="68">
+      <ObjectId>Heart Turn Shot</ObjectId>
+      <Speed>350</Speed>
+      <Damage>100</Damage>
+      <Size>125</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <CircleTurnDelay>400</CircleTurnDelay>
+      <CircleTurnAngle>10</CircleTurnAngle>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="69">
+      <ObjectId>SulfW Thorn Ball Supreme</ObjectId>
+      <Speed>45</Speed>
+      <Damage>90</Damage>
+      <Size>120</Size>
+      <MultiHit />
+      <LifetimeMS>15000</LifetimeMS>
+    </Projectile>
+    <Projectile id="70">
+      <ObjectId>SulfW Thorn Ball Supreme</ObjectId>
+      <Speed>65</Speed>
+      <Damage>120</Damage>
+      <Size>140</Size>
+      <MultiHit />
+      <Wavy />
+      <LifetimeMS>15000</LifetimeMS>
+    </Projectile>
+    <Projectile id="71">
+      <ObjectId>SulfW Thorn Ball Supreme</ObjectId>
+      <Speed>55</Speed>
+      <Damage>105</Damage>
+      <Size>130</Size>
+      <MultiHit />
+      <Wavy />
+      <LifetimeMS>15000</LifetimeMS>
+    </Projectile>
+    <Projectile id="72">
+      <ObjectId>SulfW Thorn Ball Supreme</ObjectId>
+      <Speed>45</Speed>
+      <Damage>90</Damage>
+      <Size>120</Size>
+      <MultiHit />
+      <Wavy />
+      <LifetimeMS>15000</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="73">
+      <ObjectId>SulfW Thorn Ball Supreme</ObjectId>
+      <Speed>35</Speed>
+      <Damage>75</Damage>
+      <Size>110</Size>
+      <MultiHit />
+      <LifetimeMS>15000</LifetimeMS>
+      <Wavy />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="74">
+      <ObjectId>SulfW Thorn Ball Supreme</ObjectId>
+      <Speed>25</Speed>
+      <Damage>60</Damage>
+      <Size>100</Size>
+      <MultiHit />
+      <Wavy />
+      <LifetimeMS>15000</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="75">
+      <ObjectId>Heart Turn Shot Warning</ObjectId>
+      <Speed>0</Speed>
+      <Damage>0</Damage>
+      <Size>125</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="76">
+      <ObjectId>Crawler Bash Green</ObjectId>
+      <Speed>50</Speed>
+      <Damage>100</Damage>
+      <Size>90</Size>
+      <MultiHit />
+      <LifetimeMS>250</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="77">
+      <ObjectId>SulfW Thorn Ring</ObjectId>
+      <Damage>75</Damage>
+      <Speed>13.74</Speed>
+      <LifetimeMS>8000</LifetimeMS>
+      <TurnRate>-45</TurnRate>
+      <TurnClamp>90</TurnClamp>
+      <TurnRateDelay>0</TurnRateDelay>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="78">
+      <ObjectId>SulfW Thorn Ball Supreme</ObjectId>
+      <Speed>65</Speed>
+      <Damage>145</Damage>
+      <Size>120</Size>
+      <MultiHit />
+      <LifetimeMS>10000</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>20</SpeedClamp>
+    </Projectile>
+    <Projectile id="79">
+      <ObjectId>SulfW Thorn Ball Supreme</ObjectId>
+      <Speed>55</Speed>
+      <Damage>130</Damage>
+      <Size>105</Size>
+      <MultiHit />
+      <LifetimeMS>10000</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>1400</AccelerationDelay>
+      <SpeedClamp>20</SpeedClamp>
+    </Projectile>
+    <Projectile id="80">
+      <ObjectId>SulfW Thorn Ball Supreme</ObjectId>
+      <Speed>45</Speed>
+      <Damage>115</Damage>
+      <Size>90</Size>
+      <MultiHit />
+      <LifetimeMS>10000</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>1300</AccelerationDelay>
+      <SpeedClamp>20</SpeedClamp>
+    </Projectile>
+    <Projectile id="81">
+      <ObjectId>SulfW Thorn Ball Supreme</ObjectId>
+      <Speed>35</Speed>
+      <Damage>100</Damage>
+      <Size>70</Size>
+      <MultiHit />
+      <LifetimeMS>10000</LifetimeMS>
+      <ArmorPiercing />
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>1200</AccelerationDelay>
+      <SpeedClamp>20</SpeedClamp>
+    </Projectile>
+    <Projectile id="82">
+      <ObjectId>SulfW Thorn Ball Supreme</ObjectId>
+      <Speed>25</Speed>
+      <Damage>75</Damage>
+      <Size>65</Size>
+      <MultiHit />
+      <LifetimeMS>10000</LifetimeMS>
+      <ArmorPiercing />
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>1100</AccelerationDelay>
+      <SpeedClamp>20</SpeedClamp>
+    </Projectile>
+    <Projectile id="83">
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>150</Speed>
+      <Damage>0</Damage>
+      <Size>120</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="10">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="84">
+      <ObjectId>SulfW Thorn Ring</ObjectId>
+      <Damage>175</Damage>
+      <Speed>9.68</Speed>
+      <LifetimeMS>11000</LifetimeMS>
+      <TurnRate>-45</TurnRate>
+      <TurnClamp>90</TurnClamp>
+      <TurnRateDelay>0</TurnRateDelay>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="85">
+      <ObjectId>SulfW Thorny Spinner</ObjectId>
+      <Speed>45</Speed>
+      <Damage>110</Damage>
+      <Size>150</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <LifetimeMS>5000</LifetimeMS>
+      <CircleTurnDelay>890</CircleTurnDelay>
+      <CircleTurnAngle>45</CircleTurnAngle>
+    </Projectile>
+    <Projectile id="86">
+      <ObjectId>SulfW Thorny Spinner</ObjectId>
+      <Speed>45</Speed>
+      <Damage>110</Damage>
+      <Size>150</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <LifetimeMS>5000</LifetimeMS>
+      <CircleTurnDelay>1778</CircleTurnDelay>
+      <CircleTurnAngle>-45</CircleTurnAngle>
+    </Projectile>
+    <Projectile id="87">
+      <ObjectId>SulfW Thorny Spinner</ObjectId>
+      <Speed>45</Speed>
+      <Damage>110</Damage>
+      <Size>150</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <LifetimeMS>5000</LifetimeMS>
+      <CircleTurnDelay>2445</CircleTurnDelay>
+      <CircleTurnAngle>45</CircleTurnAngle>
+    </Projectile>
+    <Projectile id="88">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>0</Speed>
+      <Damage>130</Damage>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>8000</LifetimeMS>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+      <Acceleration>70</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+    </Projectile>
+    <Projectile id="89">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>0</Speed>
+      <Damage>130</Damage>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>8000</LifetimeMS>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+      <Acceleration>60</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>60</SpeedClamp>
+    </Projectile>
+    <Projectile id="90">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>0</Speed>
+      <Damage>130</Damage>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>8000</LifetimeMS>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+      <Acceleration>50</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+    </Projectile>
+    <Projectile id="91">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>0</Speed>
+      <Damage>130</Damage>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>8000</LifetimeMS>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+      <Acceleration>50</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+    </Projectile>
+    <Projectile id="92">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Speed>0</Speed>
+      <Damage>130</Damage>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>8000</LifetimeMS>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>40</SpeedClamp>
+    </Projectile>
+    <Projectile id="93">
+      <ObjectId>SulfW Thornier Thorn Warning</ObjectId>
+      <Speed>50</Speed>
+      <Damage>0</Damage>
+      <Size>140</Size>
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Projectile id="94">
+      <ObjectId>SulfW Thorn Ring</ObjectId>
+      <Damage>150</Damage>
+      <Speed>25</Speed>
+      <LifetimeMS>11000</LifetimeMS>
+      <TurnRate>45</TurnRate>
+      <TurnClamp>35</TurnClamp>
+      <TurnRateDelay>0</TurnRateDelay>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="95">
+      <ObjectId>SulfW Thorn Ring</ObjectId>
+      <Damage>150</Damage>
+      <Speed>25</Speed>
+      <LifetimeMS>11000</LifetimeMS>
+      <TurnRate>-45</TurnRate>
+      <TurnClamp>35</TurnClamp>
+      <TurnRateDelay>0</TurnRateDelay>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <MaxHitPoints>100000</MaxHitPoints>
+    <HealthBarBoss radius="20" />
+    <Size>275</Size>
+    <Defense>45</Defense>
+    <Exp>30000</Exp>
+    <BXP>150000</BXP>
+    <Quest />
+    <DontFaceAttacks />
+    <DamageBasedXP />
+    <EventChestBoss />
+    <TrackLoot />
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Animation period="0" prob="1" id="SpookyAnim">
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xCB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xCC</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xCD</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xCE</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xCE</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xD0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xD1</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt5">
+        <StyleStep altTextureId="5">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SpookyAnim">
+        <StyleStep id="SpookyAnim">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,NATURE,GOD</Labels>
+    <SpecialSpawn category="Bis">SulfW Portal</SpecialSpawn>
+    <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
+    <SpecialSpawn category="PetCollector">Rare Insect Egg</SpecialSpawn>
+    <SpecialSpawn category="Generous">Epic Quest Chest Item</SpecialSpawn>
+    <SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn>
+    <SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn>
+    <SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn>
+    <SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn>
+    <SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn>
+    <SpecialSpawn category="ExaltedBanner">ExaltationBanner</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Weapon">Shard of the Mad God x1</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Ability">Shard of the Intern x1</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn>
+    <SpecialSpawn category="Souvenir_MID">Brambletooth Tachi</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
+    <SpecialSpawn category="SkinHunter" perPlayer="true">Swamped Panda Pet Stone</SpecialSpawn>
+    <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
+  </Object>
+  <Object id="SulfW Controller" type="0x65c2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiEnvironment</File>
+      <Index>0xa4</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x65c0" id="SulfW murderBall1">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Bogspawn</DisplayId>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0x90</Index>
+    </Texture>
+    <Animation period="0.01" prob="1">
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x92</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x90</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>monster/default_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Root Proj</ObjectId>
+      <Speed>0</Speed>
+      <Damage>20</Damage>
+      <Size>100</Size>
+      <LifetimeMS>6666</LifetimeMS>
+      <Acceleration>200</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>45</SpeedClamp>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Root Proj</ObjectId>
+      <Speed>30</Speed>
+      <Damage>30</Damage>
+      <Size>100</Size>
+      <LifetimeMS>8333</LifetimeMS>
+    </Projectile>
+    <Size>150</Size>
+    <Invincible />
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object type="0x65c1" id="SulfW murderBall2">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Bogspawn</DisplayId>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0x90</Index>
+    </Texture>
+    <Animation period="0.01" prob="1">
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x92</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x90</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>monster/default_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Root Proj</ObjectId>
+      <Speed>0</Speed>
+      <Damage>20</Damage>
+      <Size>100</Size>
+      <LifetimeMS>6666</LifetimeMS>
+      <Acceleration>200</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>45</SpeedClamp>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Root Proj</ObjectId>
+      <Speed>30</Speed>
+      <Damage>30</Damage>
+      <Size>100</Size>
+      <LifetimeMS>8333</LifetimeMS>
+    </Projectile>
+    <Size>150</Size>
+    <Invincible />
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object type="0x65c3" id="SulfW murderBallEdgeGuard">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Bogspawn</DisplayId>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0x90</Index>
+    </Texture>
+    <Animation period="0.01" prob="1">
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x92</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x90</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>monster/default_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Root Proj</ObjectId>
+      <Speed>0</Speed>
+      <Damage>45</Damage>
+      <Size>100</Size>
+      <LifetimeMS>8000</LifetimeMS>
+      <Acceleration>200</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>35</SpeedClamp>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Root Proj</ObjectId>
+      <Speed>30</Speed>
+      <Damage>50</Damage>
+      <Size>100</Size>
+      <LifetimeMS>8333</LifetimeMS>
+      <ConditionEffect duration="2.0">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Root Proj</ObjectId>
+      <Speed>0</Speed>
+      <Damage>50</Damage>
+      <Size>70</Size>
+      <LifetimeMS>12000</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Size>60</Size>
+    <Invincible />
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object type="0x661a" id="SulfW murderBall 3A">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Bogspawn</DisplayId>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0x90</Index>
+    </Texture>
+    <Animation period="0.01" prob="1">
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x92</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x90</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>monster/default_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Ligher Root Proj</ObjectId>
+      <Speed>20</Speed>
+      <Damage>85</Damage>
+      <Size>135</Size>
+      <LifetimeMS>8000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <ConditionEffect duration="4">Weak</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Ligher Root Proj</ObjectId>
+      <Speed>20</Speed>
+      <Damage>45</Damage>
+      <Size>135</Size>
+      <LifetimeMS>8000</LifetimeMS>
+      <TurnRate>-135</TurnRate>
+      <TurnRateDelay>250</TurnRateDelay>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+    <Size>150</Size>
+    <Invincible />
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object type="0x427c" id="SulfW murderBall 3C">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Bogspawn</DisplayId>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0x90</Index>
+    </Texture>
+    <Animation period="0.01" prob="1">
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x92</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0x90</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>monster/default_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>SulfW Ligher Root Proj</ObjectId>
+      <Speed>35</Speed>
+      <Damage>150</Damage>
+      <LifetimeMS>1750</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>950</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Amplitude>0.2</Amplitude>
+      <Frequency>1.5</Frequency>
+      <ConditionEffect duration="4">Weak</ConditionEffect>
+    </Projectile>
+    <Size>130</Size>
+    <Invincible />
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object id="SulfW Dragonfly Wingbeat" type="0x637f">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>838</Index>
+    </Texture>
+  </Object>
+  <Object id="SulfW Outhouse" type="0x6367">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Ogreish Outhouse</DisplayId>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>294</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_hit</DeathSound>
+    <MaxHitPoints>125000</MaxHitPoints>
+    <Size>300</Size>
+    <Defense>0</Defense>
+    <Exp>2001</Exp>
+    <BXP>10005</BXP>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object id="SulfW Special Fly 1" type="0x6384">
+    <Class>Character</Class>
+    <DisplayId>Fly</DisplayId>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xBC</Index>
+    </Texture>
+    <Animation period="0.2" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xBC</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xBD</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>30</Size>
+    <Z>0.3</Z>
+    <Flying />
+    <NoMiniMap />
+  </Object>
+  <Object id="Swamp Bubble Decoration" type="0x6385">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x80</Index>
+    </Texture>
+    <Animation period="0.0" prob="1.0">
+      <Frame time="0.26">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0x80</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.26">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0x81</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.26">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0x82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.26">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0x83</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.26">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0x84</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.26">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0x85</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0x63c0" id="SulfW Dead Grass">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x38</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x39</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x3a</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x3b</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <MinSize>100</MinSize>
+    <MaxSize>175</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x6398" id="SulfW small grass">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x87</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x88</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x89</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x8a</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x8b</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x8c</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x8d</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x8e</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <MinSize>75</MinSize>
+    <MaxSize>125</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x639b" id="SulfW rocks">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x90</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x91</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x92</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x93</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x94</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x95</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x96</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x97</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x98</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x99</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x9a</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x9b</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <MinSize>75</MinSize>
+    <MaxSize>100</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x63ac" id="SulfW large grass">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x11</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x12</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x13</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x14</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <MinSize>125</MinSize>
+    <MaxSize>75</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x63ad" id="SulfW trees1">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x15</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x16</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x17</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x18</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <OccupySquare />
+    <MinSize>125</MinSize>
+    <MaxSize>165</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x6389" id="SulfW trees2">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xE8</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xE9</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xEA</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xEB</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <OccupySquare />
+    <MinSize>125</MinSize>
+    <MaxSize>175</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x427d" id="SulfW trees3">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>270</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>271</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>272</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>273</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <OccupySquare />
+    <MinSize>125</MinSize>
+    <MaxSize>175</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x427e" id="SulfW Ferns">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>274</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>275</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>276</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>277</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <MinSize>115</MinSize>
+    <MaxSize>135</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object id="SulfW Blockade" type="0x663a">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x15</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x16</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x17</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x18</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <OccupySquare />
+    <MinSize>165</MinSize>
+    <MaxSize>190</MaxSize>
+    <SizeStep>5</SizeStep>
+    <BlocksSight />
+    <MaxHitPoints>3500</MaxHitPoints>
+    <Exp>0</Exp>
+    <Enemy />
+    <HealthBar>-1</HealthBar>
+    <KillStat stat="StructureKills" />
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x63b4" id="SulfW mushrooms grey">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xa2</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xa3</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <MinSize>75</MinSize>
+    <MaxSize>125</MaxSize>
+    <SizeStep>2</SizeStep>
+  </Object>
+  <Object type="0x63b5" id="SulfW mushrooms red">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xa4</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xa5</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <MinSize>75</MinSize>
+    <MaxSize>125</MaxSize>
+    <SizeStep>2</SizeStep>
+  </Object>
+  <Object type="0x63b6" id="SulfW mushrooms white">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xa6</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xa7</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <MinSize>75</MinSize>
+    <MaxSize>125</MaxSize>
+    <SizeStep>2</SizeStep>
+  </Object>
+  <Object type="0x63b7" id="SulfW chonk rocks">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x20</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x21</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x22</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x23</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <OccupySquare />
+    <MinSize>120</MinSize>
+    <MaxSize>140</MaxSize>
+    <SizeStep>4</SizeStep>
+  </Object>
+  <Object type="0x63b8" id="SulfW shroom logs">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x24</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x25</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x26</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x27</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <MinSize>80</MinSize>
+    <MaxSize>100</MaxSize>
+    <SizeStep>4</SizeStep>
+  </Object>
+  <Object type="0x63b9" id="SulfW shroom logs alt">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x28</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x29</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x2a</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x2b</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <MinSize>80</MinSize>
+    <MaxSize>100</MaxSize>
+    <SizeStep>4</SizeStep>
+  </Object>
+  <Object type="0x6386" id="SulfW shroom logs alt WATER">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x28</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x29</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x2a</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x2b</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <MinSize>100</MinSize>
+    <MaxSize>120</MaxSize>
+    <SizeStep>4</SizeStep>
+  </Object>
+  <Object type="0x6387" id="SulfW lily pads">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x23</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x24</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x25</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x26</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x100</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x101</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x102</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x103</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x104</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x105</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x106</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x107</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x108</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x109</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x10a</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x10b</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x10c</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x10d</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x10e</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x10f</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x110</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x111</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x112</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0x113</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <DrawOnGround />
+    <MinSize>100</MinSize>
+    <MaxSize>150</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x63ba" id="SulfW flowers">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x30</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x31</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x32</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x33</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x34</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x36</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x37</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <MinSize>75</MinSize>
+    <MaxSize>125</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x637b" id="SulfW flowers WATER">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x30</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x31</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x32</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x33</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x34</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x36</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x37</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <MinSize>100</MinSize>
+    <MaxSize>150</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x63fc" id="SulfW Emoji Ents">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x5a</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x5b</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <MinSize>120</MinSize>
+    <MaxSize>150</MaxSize>
+    <SizeStep>6</SizeStep>
+    <OccupySquare />
+  </Object>
+  <Object type="0x6644" id="SulfW lone spear">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0xC9</Index>
+    </Texture>
+    <Static />
+    <NoMiniMap />
+    <MinSize>125</MinSize>
+    <MaxSize>150</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x6645" id="SulfW Ruined Huts">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xC7</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0xC8</Index>
+      </Texture>
+    </RandomTexture>
+    <NoMiniMap />
+    <Static />
+    <OccupySquare />
+    <MinSize>140</MinSize>
+    <MaxSize>200</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x6646" id="SulfW Abandoned Hut">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0xC6</Index>
+    </Texture>
+    <NoMiniMap />
+    <Static />
+    <OccupySquare />
+    <MinSize>150</MinSize>
+    <MaxSize>200</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x63fd" id="SulfW Dead Warped Ent">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x4a</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x4b</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x4c</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x4d</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x4e</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects16x16</File>
+        <Index>0x4f</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <NoMiniMap />
+    <MinSize>120</MinSize>
+    <MaxSize>150</MaxSize>
+    <SizeStep>6</SizeStep>
+    <OccupySquare />
+  </Object>
+  <Object id="SulfW Broken Wood Horiz Cover" type="0x659b">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xe4</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xe5</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xf4</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xf5</Index>
+      </Texture>
+    </RandomTexture>
+    <ProtectFromSink />
+    <ProtectFromGroundDamage />
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object id="SulfW Broken Wood Verti Cover" type="0x65ab">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xe8</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xe9</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xf8</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xf9</Index>
+      </Texture>
+    </RandomTexture>
+    <ProtectFromSink />
+    <ProtectFromGroundDamage />
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object id="SulfW Broken Wood Diagonal Cover" type="0x6626">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x12E</Index>
+    </Texture>
+    <ProtectFromSink />
+    <ProtectFromGroundDamage />
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object id="SulfW Stone Cover" type="0x65ac">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xd2</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xd3</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xd4</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xd5</Index>
+      </Texture>
+    </RandomTexture>
+    <ProtectFromSink />
+    <ProtectFromGroundDamage />
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object id="SulfW Rock Wall" type="0x6380">
+    <Class>CaveWall</Class>
+    <Top>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xd1</Index>
+      </Texture>
+    </Top>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xf0</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xf1</Index>
+      </Texture>
+    </RandomTexture>
+    <ShadowSize>0</ShadowSize>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Connects />
+  </Object>
+  <Object id="SulfW Cave Wall" type="0x63de">
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xe0</Index>
+      </Texture>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xe1</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>wetlandsObjects8x8</File>
+        <Index>0xd0</Index>
+      </Texture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+</Objects>

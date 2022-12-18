@@ -1,0 +1,3571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GroundTypes>
+  <Ground type="0x10cd" id="Shatters Pure Evil Unwalkable">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x58</Index>
+    </Texture>
+    <Animate dx=".35">Flow</Animate>
+    <BlendPriority>1</BlendPriority>
+    <NoWalk />
+    <Color>0x14132D</Color>
+  </Ground>
+  <Ground type="0x74dd" id="Shatters Pure Evil">
+    <DisplayId>Corruption</DisplayId>
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x58</Index>
+    </Texture>
+    <Animate dx=".35">Flow</Animate>
+    <MinDamage>75</MinDamage>
+    <MaxDamage>75</MaxDamage>
+    <Sink />
+    <Speed>.333</Speed>
+    <BlendPriority>1</BlendPriority>
+    <Color>0x14132D</Color>
+  </Ground>
+  <Ground type="0x74de" id="Shatters Village Grass">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x10</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x11</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x12</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x13</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x293028</Color>
+  </Ground>
+  <Ground type="0x74df" id="Shatters Cobble">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x52</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x53</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x54</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x55</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x342F35</Color>
+  </Ground>
+  <Ground type="0x74e0" id="Shatters Hall Siding">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x99</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x9a</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x9b</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x9c</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x2B2431</Color>
+  </Ground>
+  <Ground type="0x7468" id="Shatters Royal Red">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x4f</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x4C1024</Color>
+  </Ground>
+  <Ground type="0x7469" id="Shatters Pure Evil Safe">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x58</Index>
+    </Texture>
+    <Animate dx=".35">Flow</Animate>
+    <NoBlend />
+    <Color>0x3B2522</Color>
+  </Ground>
+  <Ground type="0x746a" id="Shatters Wooden Floor">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x19</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x433131</Color>
+  </Ground>
+  <Ground type="0x746b" id="Shatters Dirt">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x7c</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x7d</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x7e</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x7f</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>7</BlendPriority>
+    <Color>0x332327</Color>
+  </Ground>
+  <Ground type="0x746c" id="Shatters Drawbridge Inner">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xa0</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xa1</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x3B2522</Color>
+  </Ground>
+  <Ground type="0x746d" id="Shatters Drawbridge Left">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xa2</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xa4</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x3B2522</Color>
+  </Ground>
+  <Ground type="0x746e" id="Shatters Drawbridge Right">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xa3</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xa5</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x3B2522</Color>
+  </Ground>
+  <Ground type="0x746f" id="Shatters Bridge Tile">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x81</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x74dc" id="Shatters Bridge Tile Damaged">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x86</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x87</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x88</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x89</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7470" id="Shatters Bridge Tile HL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x8a</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7471" id="Shatters Bridge Tile HR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x8b</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7472" id="Shatters Bridge Tile VT">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x8d</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7473" id="Shatters Bridge Tile VB">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x9d</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7474" id="Shatters Bridge Tile TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x8e</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7475" id="Shatters Bridge Tile TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x8f</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7476" id="Shatters Bridge Tile BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x9e</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7477" id="Shatters Bridge Tile BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x9f</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7478" id="Shatters Bridge Cracked TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xae</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7479" id="Shatters Bridge Cracked TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xaf</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x747a" id="Shatters Bridge Cracked BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xbe</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x747b" id="Shatters Bridge Cracked BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xbf</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x747c" id="Shatters Bridge Rim V">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x95</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x96</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x747d" id="Shatters Bridge Rim H">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x97</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x98</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x747e" id="Shatters Bridge Decor">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x94</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x747f" id="Shatters Bridge Gate Tile">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x80</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x74db" id="Shatters Bridge Gate Tile Damaged">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x82</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x83</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x84</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x85</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x90</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x91</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x92</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x93</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7481" id="Shatters Village Grass Bright">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xc0</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xc1</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xc2</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xc3</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>3</BlendPriority>
+    <Color>0x293028</Color>
+  </Ground>
+  <Ground type="0x7482" id="Shatters Village Grass Dark">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xc8</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xc9</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xca</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xcb</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>4</BlendPriority>
+    <Color>0x292D26</Color>
+  </Ground>
+  <Ground type="0x7483" id="Shatters Dirt Bright">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xc4</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xc5</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xc6</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xc7</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>8</BlendPriority>
+    <Color>0x332327</Color>
+  </Ground>
+  <Ground type="0x7484" id="Shatters Dirt Dark">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xcc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xcd</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xce</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xcf</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>9</BlendPriority>
+    <Color>0x281F24</Color>
+  </Ground>
+  <Ground type="0x7485" id="Shatters Carpet Solid">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x0d</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7486" id="Shatters Crest Decal 1">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x20</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7487" id="Shatters Crest Decal 2">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x21</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7488" id="Shatters Crest Decal 3">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x22</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7489" id="Shatters Crest Decal 4">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x23</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x748a" id="Shatters Crest Decal 5">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x24</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x748b" id="Shatters Crest Decal 6">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x25</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x748c" id="Shatters Crest Decal 7">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x26</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x748d" id="Shatters Crest Decal 8">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x27</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x748e" id="Shatters Crest Decal 9">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x28</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x748f" id="Shatters Crest Decal 10">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x29</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7490" id="Shatters Crest Decal 11">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2a</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7491" id="Shatters Crest Decal 12">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2b</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7492" id="Shatters Crest Decal 13">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2c</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7493" id="Shatters Crest Decal 14">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2d</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7494" id="Shatters Crest Decal 15">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2e</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7495" id="Shatters Crest Decal 16">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2f</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7496" id="Shatters Carpet Tear Cobble TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x0e</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7497" id="Shatters Carpet Tear Cobble TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x0f</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7498" id="Shatters Carpet Tear Cobble BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1e</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7499" id="Shatters Carpet Tear Cobble BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x749a" id="Shatters Carpet Tear Royal TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x09</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x749b" id="Shatters Carpet Tear Royal TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x0a</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x749c" id="Shatters Carpet Tear Royal BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x0b</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x749d" id="Shatters Carpet Tear Royal BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x0c</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x749e" id="Shatters Carpet Corner Cobble TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x60</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x749f" id="Shatters Carpet Corner Cobble TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x61</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74a0" id="Shatters Carpet Corner Cobble BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x62</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74a1" id="Shatters Carpet Corner Cobble BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x63</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74a2" id="Shatters Carpet Side Cobble Top">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x64</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74a3" id="Shatters Carpet Side Cobble Bottom">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x65</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74a4" id="Shatters Carpet Side Cobble Left">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x66</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74a5" id="Shatters Carpet Side Cobble Right">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x67</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74a6" id="Shatters Carpet Inner Corner Cobble TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x68</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74a7" id="Shatters Carpet Inner Corner Cobble TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x69</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74a8" id="Shatters Carpet Inner Corner Cobble BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x6a</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74a9" id="Shatters Carpet Inner Corner Cobble BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x6b</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x70e9" id="Shatters Carpet Chapel Solid">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x20c</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74aa" id="Shatters Carpet Corner Chapel TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe0</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74ab" id="Shatters Carpet Corner Chapel TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe1</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74ac" id="Shatters Carpet Corner Chapel BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe2</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74ad" id="Shatters Carpet Corner Chapel BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe3</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74ae" id="Shatters Carpet Side Chapel Top">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe4</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74af" id="Shatters Carpet Side Chapel Bottom">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe5</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74b0" id="Shatters Carpet Side Chapel Left">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe6</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74b1" id="Shatters Carpet Side Chapel Right">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe7</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74b2" id="Shatters Carpet Inner Corner Chapel TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe8</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74b3" id="Shatters Carpet Inner Corner Chapel TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe9</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74b4" id="Shatters Carpet Inner Corner Chapel BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xea</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74b5" id="Shatters Carpet Inner Corner Chapel BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xeb</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74b6" id="Shatters Carpet Tear Cobble L1">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x5d</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74b7" id="Shatters Carpet Tear Cobble L2">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x6d</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74b8" id="Shatters Carpet Tear Cobble R1">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x5e</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74b9" id="Shatters Carpet Tear Cobble R2">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x6e</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74ba" id="Shatters Carpet Shreds Cobble L1">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x5c</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x342F35</Color>
+  </Ground>
+  <Ground type="0x74bb" id="Shatters Carpet Shreds Cobble L2">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x6c</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x342F35</Color>
+  </Ground>
+  <Ground type="0x74bc" id="Shatters Carpet Shreds Cobble R1">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x5f</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x342F35</Color>
+  </Ground>
+  <Ground type="0x74bd" id="Shatters Carpet Shreds Cobble R2">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x6f</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x342F35</Color>
+  </Ground>
+  <Ground type="0x74be" id="Shatters Carpet Inner Corner Chapel Blank TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xec</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74bf" id="Shatters Carpet Inner Corner Chapel Blank BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xfc</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74c0" id="Shatters Carpet Inner Corner Chapel Blank TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xed</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74c1" id="Shatters Carpet Inner Corner Chapel Blank BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xfd</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74c2" id="Shatters Carpet Shreds Chapel TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xee</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74c3" id="Shatters Carpet Shreds Chapel TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xef</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74c4" id="Shatters Carpet Shreds Chapel BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xfe</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74c5" id="Shatters Carpet Shreds Chapel BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xff</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4E1F37</Color>
+  </Ground>
+  <Ground type="0x74c6" id="Shatters Dirt Coast">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xac</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xad</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>15</BlendPriority>
+  </Ground>
+  <Ground type="0x74c7" id="Shatters Brick">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xdc</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x43393D</Color>
+  </Ground>
+  <Ground type="0x74c8" id="Shatters Brick Damaged">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xdd</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xde</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xdf</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xbc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xbd</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x43393D</Color>
+  </Ground>
+  <Ground type="0x74c9" id="Shatters Unwalkable Gauntlet Floor">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x4f</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x4C1024</Color>
+  </Ground>
+  <Ground type="0x74ca" id="Shatters Unwalkable Corner Gauntlet TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe0</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74cb" id="Shatters Unwalkable Corner Gauntlet TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe1</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74cc" id="Shatters Unwalkable Corner Gauntlet BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe2</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74cd" id="Shatters Unwalkable Corner Gauntlet BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe3</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74ce" id="Shatters Unwalkable Side Gauntlet Top">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe4</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74cf" id="Shatters Unwalkable Side Gauntlet Bottom">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe5</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74d0" id="Shatters Unwalkable Side Gauntlet Left">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe6</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74d1" id="Shatters Unwalkable Side Gauntlet Right">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xe7</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74d2" id="Shatters Unwalkable Tear Gauntlet L1">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xed</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74d3" id="Shatters Unwalkable Tear Gauntlet L2">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xfd</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74d4" id="Shatters Unwalkable Tear Gauntlet R1">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xee</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74d5" id="Shatters Unwalkable Tear Gauntlet R2">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xfe</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74d6" id="Shatters Unwalkable Shreds Gauntlet L1">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xec</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4C1024</Color>
+  </Ground>
+  <Ground type="0x74d7" id="Shatters Unwalkable Shreds Gauntlet L2">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xfc</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4C1024</Color>
+  </Ground>
+  <Ground type="0x74d8" id="Shatters Unwalkable Shreds Gauntlet R1">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xef</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4C1024</Color>
+  </Ground>
+  <Ground type="0x74d9" id="Shatters Unwalkable Shreds Gauntlet R2">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0xff</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x4C1024</Color>
+  </Ground>
+  <Ground type="0x74da" id="Shatters Carpet Unwalkable">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x0d</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74e1" id="Shatters Covered Magi">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x56</Index>
+    </Texture>
+    <Animate dx=".35">Flow</Animate>
+    <NoBlend />
+    <Color>0x14132D</Color>
+  </Ground>
+  <Ground type="0x74e2" id="Shatters Carpet Inner Corner Blank TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x10c</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74e3" id="Shatters Carpet Inner Corner Blank TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x10d</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74e4" id="Shatters Carpet Inner Corner Blank BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x10e</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74e5" id="Shatters Carpet Inner Corner Blank BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x10f</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74e6" id="Shatters Crest Major U1">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x100</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74e7" id="Shatters Crest Major U2">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x101</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74e8" id="Shatters Crest Major U3">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x102</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74e9" id="Shatters Crest Major U4">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x103</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74ea" id="Shatters Crest Major U5">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x104</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74eb" id="Shatters Crest Major U6">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x110</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74ec" id="Shatters Crest Major U7">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x111</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74ed" id="Shatters Crest Major U8">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x112</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74ee" id="Shatters Crest Major U9">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x113</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74ef" id="Shatters Crest Major U10">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x114</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74f0" id="Shatters Crest Major U11">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x120</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74f1" id="Shatters Crest Major U12">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x121</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74f2" id="Shatters Crest Major U13">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x122</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74f3" id="Shatters Crest Major U14">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x123</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74f4" id="Shatters Crest Major U15">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x124</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74f5" id="Shatters Crest Major U16">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x130</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74f6" id="Shatters Crest Major U17">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x131</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74f7" id="Shatters Crest Major U18">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x132</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74f8" id="Shatters Crest Major U19">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x133</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74f9" id="Shatters Crest Major U20">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x134</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74fa" id="Shatters Crest Major U21">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x140</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74fb" id="Shatters Crest Major U22">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x141</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74fc" id="Shatters Crest Major U23">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x142</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74fd" id="Shatters Crest Major U24">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x143</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74fe" id="Shatters Crest Major U25">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x144</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x74ff" id="Shatters Crest Major R1">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x150</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7500" id="Shatters Crest Major R2">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x151</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7501" id="Shatters Crest Major R3">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x152</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7502" id="Shatters Crest Major R4">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x153</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7503" id="Shatters Crest Major R5">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x154</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7504" id="Shatters Crest Major R6">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x160</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7505" id="Shatters Crest Major R7">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x161</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7506" id="Shatters Crest Major R8">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x162</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7507" id="Shatters Crest Major R9">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x163</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7508" id="Shatters Crest Major R10">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x164</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7509" id="Shatters Crest Major R11">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x170</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x750a" id="Shatters Crest Major R12">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x171</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x750b" id="Shatters Crest Major R13">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x172</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x750c" id="Shatters Crest Major R14">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x173</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x750d" id="Shatters Crest Major R15">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x174</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x750e" id="Shatters Crest Major R16">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x180</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x750f" id="Shatters Crest Major R17">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x181</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7510" id="Shatters Crest Major R18">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x182</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7511" id="Shatters Crest Major R19">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x183</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7512" id="Shatters Crest Major R20">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x184</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7513" id="Shatters Crest Major R21">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x190</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7514" id="Shatters Crest Major R22">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x191</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7515" id="Shatters Crest Major R23">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x192</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7516" id="Shatters Crest Major R24">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x193</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7517" id="Shatters Crest Major R25">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x194</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7518" id="Shatters Crest Major L1">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1a0</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7519" id="Shatters Crest Major L2">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1a1</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x751a" id="Shatters Crest Major L3">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1a2</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x751b" id="Shatters Crest Major L4">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1a3</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x751c" id="Shatters Crest Major L5">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1a4</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7480" id="Shatters Crest Major L6">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1b0</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7255" id="Shatters Crest Major L7">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1b1</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7256" id="Shatters Crest Major L8">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1b2</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7257" id="Shatters Crest Major L9">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1b3</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7258" id="Shatters Crest Major L10">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1b4</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7259" id="Shatters Crest Major L11">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1c0</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x725a" id="Shatters Crest Major L12">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1c1</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x725b" id="Shatters Crest Major L13">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1c2</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x725c" id="Shatters Crest Major L14">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1c3</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x725d" id="Shatters Crest Major L15">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1c4</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x725e" id="Shatters Crest Major L16">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1d0</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x725f" id="Shatters Crest Major L17">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1d1</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7260" id="Shatters Crest Major L18">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1d2</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7261" id="Shatters Crest Major L19">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1d3</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7262" id="Shatters Crest Major L20">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1d4</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7263" id="Shatters Crest Major L21">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1e0</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7264" id="Shatters Crest Major L22">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1e1</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7265" id="Shatters Crest Major L23">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1e2</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7266" id="Shatters Crest Major L24">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1e3</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7267" id="Shatters Crest Major L25">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1e4</Index>
+    </Texture>
+    <NoBlend />
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7268" id="Shatters Castle Brick Floor">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xf4</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xf5</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xf6</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xf7</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7269" id="Shatters Castle Brick Damaged">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xf8</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xf9</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xfa</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xfb</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x726a" id="Shatters Castle Brick Blood">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x105</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x106</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x107</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x108</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x726b" id="Shatters Castle Brick Void">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x109</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x10a</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x10b</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x115</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x726c" id="Shatters Castle Dark Stone">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x18b</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x726d" id="Shatters Village Grass Foliage">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1a5</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1a6</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1a7</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1a8</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x293028</Color>
+  </Ground>
+  <Ground type="0x726e" id="Shatters Carpet Cobble Smart">
+    <SameTypeEdgeMode />
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x0d</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x66</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x68</Index>
+      </Texture>
+    </Corner>
+    <InnerCorner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x60</Index>
+      </Texture>
+    </InnerCorner>
+  </Ground>
+  <Ground type="0x726f" id="Shatters Treasure Siding">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1ca</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1cb</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1cc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1cd</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0xA6834C</Color>
+    <Speed>0.8</Speed>
+    <ConditionEffect duration="0.8">Unstable</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x7270" id="Shatters Treasure Floor">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1ce</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1cf</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1d7</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1d8</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>2</BlendPriority>
+    <Color>0xA6834C</Color>
+    <Speed>0.7</Speed>
+    <ConditionEffect duration="0.8">Unstable</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x7271" id="Shatters Keep Floor">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1d9</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1da</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1db</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1dc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1dd</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1de</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1df</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1e7</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>7</BlendPriority>
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7272" id="Shatters Treasure Floor Blank">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1ce</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1cf</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1d7</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1d8</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>2</BlendPriority>
+    <Color>0xA6834C</Color>
+    <Speed>0.8</Speed>
+    <ConditionEffect duration="0.8">Unstable</ConditionEffect>
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x7273" id="Shatters Study Checkerboard">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x1e8</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x3F2B26</Color>
+  </Ground>
+  <Ground type="0x7274" id="Shatters Bookshelf Floor">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1f9</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1fa</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x20a</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x20b</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x3F2B26</Color>
+  </Ground>
+  <Ground type="0x7275" id="Shatters Gravel">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1f9</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1fa</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x20a</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x20b</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x342F35</Color>
+  </Ground>
+  <Ground type="0x7276" id="Shatters Grate TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x200</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7277" id="Shatters Grate TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x201</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7278" id="Shatters Grate BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x210</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x7279" id="Shatters Grate BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x211</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x70ea" id="Shatters Village Grass Corrupt">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x206</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x207</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x293028</Color>
+  </Ground>
+  <Ground type="0x70eb" id="Shatters Dirt Corrupt">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x202</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x203</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>7</BlendPriority>
+    <Color>0x332327</Color>
+  </Ground>
+  <Ground type="0x70ec" id="Shatters Cobble Corrupt">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x204</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x205</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x342F35</Color>
+  </Ground>
+  <Ground type="0x70ed" id="Shatters Bridge Tile Corrupt">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x208</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x209</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x70ee" id="Shatters Wooden Floor Corrupt">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1fb</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1fc</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+  </Ground>
+  <Ground type="0x70ef" id="Shatters Drawbridge Inner Vertical">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1fd</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x20d</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x3B2522</Color>
+  </Ground>
+  <Ground type="0x70f0" id="Shatters Drawbridge Top">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1fe</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1ff</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x3B2522</Color>
+  </Ground>
+  <Ground type="0x70f1" id="Shatters Drawbridge Bottom">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x20e</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x20f</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x3B2522</Color>
+  </Ground>
+  <Ground type="0x70f2" id="Shatters Wooden Floor Vines">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1a</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1b</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x433131</Color>
+  </Ground>
+  <Ground type="0x70f3" id="Shatters Wooden Floor Damaged">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1c</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1d</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x433131</Color>
+  </Ground>
+  <Ground type="0x70f4" id="Shatters Bridge Tile Gauntlet">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x81</Index>
+    </Texture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x70f5" id="Shatters Lockup Stone">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1d9</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1da</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1db</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1dc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1dd</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1de</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1df</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1e7</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>7</BlendPriority>
+    <Color>0x362F36</Color>
+  </Ground>
+  <Ground type="0x70f6" id="Shatters Carpet Corner Royal TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2a0</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x70f7" id="Shatters Carpet Corner Royal TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2a1</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x70f8" id="Shatters Carpet Corner Royal BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2a2</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x70f9" id="Shatters Carpet Corner Royal BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2a3</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x70fa" id="Shatters Carpet Side Royal Top">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2a7</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x70fb" id="Shatters Carpet Side Royal Bottom">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2a6</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x70fc" id="Shatters Carpet Side Royal Left">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2a4</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x70fd" id="Shatters Carpet Side Royal Right">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2a5</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x70fe" id="Shatters Carpet Inner Corner Royal TL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2af</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x70ff" id="Shatters Carpet Inner Corner Royal TR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2ae</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7100" id="Shatters Carpet Inner Corner Royal BL">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2ad</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7101" id="Shatters Carpet Inner Corner Royal BR">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2ac</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7102" id="Shatters Carpet Side Royal Trim Top">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2ab</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7103" id="Shatters Carpet Side Royal Trim Bottom">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2aa</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7104" id="Shatters Carpet Side Royal Trim Left">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2a8</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7105" id="Shatters Carpet Side Royal Trim Right">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2a9</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7106" id="Shatters Carpet Stairs Left">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2b1</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7107" id="Shatters Carpet Stairs Mid">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2b2</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7108" id="Shatters Carpet Stairs Right">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2b3</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x213026</Color>
+  </Ground>
+  <Ground type="0x7109" id="Shatters Throne Red Floor">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x2b4</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x2bf</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x4C1024</Color>
+  </Ground>
+  <Ground type="0x710a" id="Shatters Throne Gold Floor">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x2b5</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x2c0</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x6A483C</Color>
+  </Ground>
+  <Ground type="0x710b" id="Shatters Throne Gold Stairs">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2b6</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x6A483C</Color>
+  </Ground>
+  <Ground type="0x710c" id="Shatters Throne Gold Tile Light">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2b7</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x6A483C</Color>
+  </Ground>
+  <Ground type="0x710d" id="Shatters Throne Gold Tile Dark">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2b8</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x6A483C</Color>
+  </Ground>
+  <Ground type="0x710e" id="Shatters Throne Gold Trim Vertical">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2b9</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x6A483C</Color>
+  </Ground>
+  <Ground type="0x710f" id="Shatters Throne Gold Trim Horizontal">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2ba</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x6A483C</Color>
+  </Ground>
+  <Ground type="0x7110" id="Shatters Throne Gem Green">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2bb</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x6A483C</Color>
+  </Ground>
+  <Ground type="0x7111" id="Shatters Throne Gem Yellow">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2bc</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x6A483C</Color>
+  </Ground>
+  <Ground type="0x7112" id="Shatters Throne Gem Blue">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2bd</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x6A483C</Color>
+  </Ground>
+  <Ground type="0x7113" id="Shatters Throne Gem Red">
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x2be</Index>
+    </Texture>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x6A483C</Color>
+  </Ground>
+  <Ground type="0x7114" id="Shatters Throne Siding">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1ca</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1cb</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1cc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1cd</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x6A483C</Color>
+  </Ground>
+  <Ground type="0x7115" id="Shatters Throne Treasure">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1ce</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1cf</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1d7</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x1d8</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x6A483C</Color>
+  </Ground>
+  <Ground type="0x7116" id="Shatters Cobble Blank">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x52</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x53</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x54</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x55</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <BlendPriority>2</BlendPriority>
+    <Color>0x342F35</Color>
+  </Ground>
+  <Ground type="0x7117" id="Shatters Brick Blank">
+    <RandomTexture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xdc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xdc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xdc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xdd</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xdc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xde</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xdf</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xdc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xdc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xbc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xdc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xdc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xdc</Index>
+      </Texture>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0xbd</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x76</Index>
+      </Texture>
+    </Edge>
+    <Corner>
+      <Texture>
+        <File>theShattersObjects8x8</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Corner>
+    <NoBlend />
+    <Color>0x43393D</Color>
+  </Ground>
+</GroundTypes>
