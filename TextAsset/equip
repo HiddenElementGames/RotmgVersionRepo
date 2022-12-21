@@ -22690,7 +22690,7 @@
       <Index>0x9c</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>Grants a random Key when used!\n\n*Secluded Thicket Key\n*Draconis Key\n*Tomb of the Ancients Key\n*Fungal Cavern Key\n*The Nest Key\n*Shatters Key\n*Lost Halls Key\n*Parasite Chambers Key\n*Candy Key\n\nSprite Credits: Lovens</Description>
+    <Description>Grants a random Key when used!\n\n*Kogbold Steamworks Key\n*Sulfurous Wetlands Key\n*Secluded Thicket Key\n*Draconis Key\n*Tomb of the Ancients Key\n*Fungal Cavern Key\n*The Nest Key\n*Shatters Key\n*Lost Halls Key\n*Parasite Chambers Key\n*Candy Key\n\nSprite Credits: Lovens</Description>
     <Activate>MysteryDyes</Activate>
     <Consumable />
     <Soulbound />
@@ -51341,7 +51341,7 @@
       <Index>0x11e</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>It's healthy!\nMaxes any class to 8/8 and adds a Backpack. If unused, it gets destroyed at the end of the season.</Description>
+    <Description>It's healthy!\nMaxes any class to 8/8 and adds a Backpack. If unused, or converted to a non-seasonal character it gets destroyed at the end of the season.</Description>
     <Sound>use_potion</Sound>
     <Activate stat="XP" amount="18050">IncrementStat</Activate>
     <Activate stat="MAXHP" amount="2000">IncrementStat</Activate>
@@ -51761,7 +51761,7 @@
     <XPBonus>7</XPBonus>
     <UniqueID />
     <Soulbound />
-    <Labels>EQUIPMENT,RING,UT,XPBONUS</Labels>
+    <Labels>EQUIPMENT,RING,UT,XPBONUS,TAB_UT</Labels>
   </Object>
   <Object type="0x445d" id="Steam Pipe" collectionIcon="19">
     <Class>Equipment</Class>
@@ -51857,7 +51857,7 @@
     <UniqueID />
     <Usable />
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,SHIELD,UT,NUMPROJ_3,MPCOST,XPBONUS,ORG_KOGBOLD_S</Labels>
+    <Labels>EQUIPMENT,ABILITY,SHIELD,UT,NUMPROJ_3,MPCOST,XPBONUS,ORG_KOGBOLD_S,TAB_UT</Labels>
   </Object>
   <Object type="0xc21b" id="Cower Shield Shots">
     <Class>Equipment</Class>
@@ -51902,7 +51902,7 @@
     <XPBonus>7</XPBonus>
     <UniqueID />
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,SCEPTER,UT,MPCOST,XPBONUS,CAUSE_STAT_EFF,ORG_KOGBOLD_S</Labels>
+    <Labels>EQUIPMENT,ABILITY,SCEPTER,UT,MPCOST,XPBONUS,CAUSE_STAT_EFF,ORG_KOGBOLD_S,TAB_UT</Labels>
   </Object>
   <Object type="0xc21e" id="Brain Cube" collectionIcon="19">
     <Class>Equipment</Class>
@@ -52007,7 +52007,7 @@
     <Soulbound />
     <XPBonus>7</XPBonus>
     <UniqueID />
-    <Labels>EQUIPMENT,WEAPON,WAND,UT,XPBONUS,ORG_KOGBOLD_S</Labels>
+    <Labels>EQUIPMENT,WEAPON,WAND,UT,XPBONUS,ORG_KOGBOLD_S,TAB_UT</Labels>
   </Object>
   <Object type="0xd229" id="Boomerang Blades">
     <DisplayId>Boomerang Blades</DisplayId>
@@ -52054,7 +52054,7 @@
     <XPBonus>6</XPBonus>
     <UniqueID />
     <Soulbound />
-    <Labels>EQUIPMENT,WEAPON,DUALBLADE,TIERED,UT,TRADEABLE,SUBTYPE</Labels>
+    <Labels>EQUIPMENT,WEAPON,DUALBLADE,TIERED,UT,TRADEABLE,SUBTYPE,TAB_UT</Labels>
   </Object>
   <Object type="0xd23a" id="Hovering Spellblade">
     <Class>Equipment</Class>
@@ -52107,7 +52107,7 @@
     <XPBonus>6</XPBonus>
     <UniqueID />
     <Soulbound />
-    <Labels>EQUIPMENT,WEAPON,SPELLBLADE,TIERED,UT,NUMPROJ_2,XPBONUS,TRADEABLE,SUBTYPE</Labels>
+    <Labels>EQUIPMENT,WEAPON,SPELLBLADE,TIERED,UT,NUMPROJ_2,XPBONUS,TRADEABLE,SUBTYPE,TAB_UT</Labels>
   </Object>
   <Object type="0xd23b" id="Seismic Flail">
     <DisplayId>Seismic Flail</DisplayId>
@@ -52172,7 +52172,7 @@
     <XPBonus>6</XPBonus>
     <UniqueID />
     <Soulbound />
-    <Labels>EQUIPMENT,WEAPON,FLAIL,TIERED,UT,TRADEABLE,SUBTYPE</Labels>
+    <Labels>EQUIPMENT,WEAPON,FLAIL,TIERED,UT,TRADEABLE,SUBTYPE,TAB_UT</Labels>
   </Object>
   <Object type="0xd23c" id="Hookblade Tachi">
     <DisplayId>Hookblade Tachi</DisplayId>
@@ -52222,7 +52222,7 @@
     <feedPower>800</feedPower>
     <XPBonus>6</XPBonus>
     <Soulbound />
-    <Labels>EQUIPMENT,WEAPON,TACHI,UT,TAB_UT,POWERTIER_A,XPBONUS</Labels>
+    <Labels>EQUIPMENT,WEAPON,TACHI,UT,TAB_UT,POWERTIER_A,XPBONUS,TAB_UT</Labels>
   </Object>
   <Object type="0xd23d" id="Acidic Aspergillum">
     <Class>Equipment</Class>
@@ -52279,7 +52279,7 @@
     <feedPower>450</feedPower>
     <UniqueID />
     <Soulbound />
-    <Labels>EQUIPMENT,WEAPON,MORNINGSTAR,TIERED,UT,TRADEABLE,XPBONUS,SUBTYPE</Labels>
+    <Labels>EQUIPMENT,WEAPON,MORNINGSTAR,TIERED,UT,TRADEABLE,XPBONUS,SUBTYPE,TAB_UT</Labels>
   </Object>
   <Object type="0xd23e" id="Harpoon Longbow">
     <Class>Equipment</Class>
@@ -52333,7 +52333,7 @@
     <feedPower>450</feedPower>
     <UniqueID />
     <Soulbound />
-    <Labels>EQUIPMENT,WEAPON,LONGBOW,TIERED,UT,TRADEABLE,XPBONUS,SUBTYPE</Labels>
+    <Labels>EQUIPMENT,WEAPON,LONGBOW,TIERED,UT,TRADEABLE,XPBONUS,SUBTYPE,TAB_UT</Labels>
   </Object>
   <Object type="0xc13b" id="Blueprint_239" collectionIcon="19">
     <DisplayId>Overclocking Amulet Blueprint</DisplayId>
