@@ -726,6 +726,7 @@
     <BagType>7</BagType>
     <Track />
     <UniqueID />
+    <AdminOnly />
   </Object>
   <Object type="0x21a" id="Wine Cellar Key">
     <Class>Equipment</Class>
@@ -746,6 +747,7 @@
     <BagType>7</BagType>
     <Track />
     <UniqueID />
+    <AdminOnly />
   </Object>
   <Object type="0x551" id="Wine Cellar Short Key">
     <Class>Equipment</Class>
@@ -767,6 +769,7 @@
     <BagType>7</BagType>
     <Track />
     <UniqueID />
+    <AdminOnly />
   </Object>
   <Object type="0x377" id="Oryx Chamber Key">
     <Class>Equipment</Class>
@@ -787,6 +790,7 @@
     <BagType>7</BagType>
     <Track />
     <UniqueID />
+    <AdminOnly />
   </Object>
   <Object type="0xbb4" id="Court of Oryx Key">
     <Class>Equipment</Class>
@@ -827,6 +831,7 @@
     <BagType>7</BagType>
     <Track />
     <UniqueID />
+    <AdminOnly />
   </Object>
   <Object type="0x7fb7" id="Ice Tomb Key">
     <Class>Equipment</Class>
@@ -983,6 +988,7 @@
     <Activate id="LH Void Portal">CreatePortal</Activate>
     <BagType>7</BagType>
     <UniqueID />
+    <AdminOnly />
   </Object>
   <Object type="0x0245" id="Cult Key">
     <DisplayId>Cult Key</DisplayId>
@@ -1001,6 +1007,7 @@
     <Activate id="LH Cult Portal Temp">CreatePortal</Activate>
     <BagType>7</BagType>
     <UniqueID />
+    <AdminOnly />
   </Object>
   <Object type="0x78c" id="Parasite Chambers Key">
     <Class>Equipment</Class>
@@ -2365,6 +2372,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <AdminOnly />
   </Object>
   <Object type="0x37f7" id="Parasite Chambers Enchanted Key">
     <Class>Equipment</Class>
@@ -2470,6 +2478,7 @@
     <Consumable />
     <Activate id="Admin Arena Portal">CreatePortal</Activate>
     <UniqueID />
+    <AdminOnly />
   </Object>
   <Object type="0x37fc" id="Lab Guild Key">
     <Class>Equipment</Class>
@@ -4177,6 +4186,24 @@
     <Consumable />
     <Soulbound />
     <Activate id="Kogbold Steamworks Portal" predefinedDungeonMods="S|;TOKENDROPC" readonlymods="true" inheritableMods="true" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+  </Object>
+  <Object id="Kogbold Steamworks Key Encore" type="0x5200">
+    <DisplayId>Kogbold Steamworks Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>639</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Kogbold Steamworks, home to an ancient race long thought to be extinct. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Kogbold Steamworks Portal" predefinedDungeonMods="S|;STEAMWORKS_ENCORE" readonlymods="true" inheritableMods="false">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />

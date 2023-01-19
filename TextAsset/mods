@@ -1500,13 +1500,24 @@
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="STEAMWORKS_MAINTENANCE" type="0x013d">
-    <DisplayId>Machine Maintenance</DisplayId>
+    <DisplayId>Machine Maintence</DisplayId>
     <PowerLevel>3</PowerLevel>
-    <Description>Dungeon turrets are disabled while they undergo maintenance.</Description>
+    <Description>Dungeon turrets are disabled while they undergo maintenance,</Description>
     <Labels>STEAMWORKS</Labels>
     <IncompatibleLabels>STEAMWORKS</IncompatibleLabels>
     <Mutators>
       <GlobalFlag>turretsOff</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="STEAMWORKS_ENCORE" type="0x013e">
+    <DisplayId>Kogbold Steamworks Encore</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss has a 25% chance of dropping a portal to the Kogbold Steamworks.</Description>
+    <Labels>REWARD,BOSS,LOOT,PORTAL,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="SteamworksEncore" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.25" />
+      <SpecialSpawnOnDeath category="SteamworksEncore" reqLabels="MINIBOSS" excludeLabels="SPECIAL" prob="0.25" />
     </Mutators>
   </DungeonModifier>
 </DungeonModifiers>

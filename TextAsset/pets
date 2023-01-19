@@ -8451,12 +8451,12 @@
     <Rarity>Divine</Rarity>
     <DefaultSkin>Zodiac Dog Skin</DefaultSkin>
     <Size>80</Size>
+    <NoHatchOrFuse />
   </Object>
   <Object type="0x620c" id="Zodiac Dog Skin">
     <PetSkin />
     <DisplayId>Zodiac Dog</DisplayId>
     <Class>PetSkin</Class>
-    <ItemTier>3</ItemTier>
     <Family>Canine</Family>
     <Rarity>Divine</Rarity>
     <AnimatedTexture>
@@ -8467,7 +8467,6 @@
   <Object type="0x620d" id="Zodiac Dog Pet Stone">
     <DisplayId>Zodiac Dog Pet Skin</DisplayId>
     <Class>Equipment</Class>
-    <ItemTier>3</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>petsDivine</File>
@@ -13320,7 +13319,7 @@
     </AnimatedTexture>
     <ScaleValue>10</ScaleValue>
     <SlotType>10</SlotType>
-    <Description>Limited Edition! Only obtainable during Lunar New Year 2019!\n\nUnlocks Zodiac Pig Skin of the Farm family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Description>The pig represents wealth and luck from the ancient times.\n\nUnlocks Zodiac Pig Skin of the Farm family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
     <Activate skinType="30089">UnlockPetSkin</Activate>
     <Consumable />
     <Soulbound />
@@ -22195,6 +22194,47 @@
     <SlotType>10</SlotType>
     <Description>The Kogbolds also enjoy making things that aren't weapons such as this top of the line toy product, it even comes equipped with a solar light cannon! See in the dark and scorch anyone deemed not your friend.\n\nUnlocks Toy Bot K.B Pet Skin of the Automaton family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
     <Activate skinType="50287">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object id="Zodiac Bunny" type="0xC60A">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Farm</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Zodiac Bunny Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xC60B" id="Zodiac Bunny Pet Skin">
+    <PetSkin />
+    <DisplayId>Zodiac Bunny</DisplayId>
+    <Class>PetSkin</Class>
+    <Family>Farm</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>240</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xC60C" id="Zodiac Bunny Pet Stone">
+    <DisplayId>Zodiac Bunny Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>240</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Only a few were able to spot this mystical bunny before they hop away flying to the moon. Rumors claim these rabbits will bestow upon people with kind hearts upmost luck and fortune on their path.\n\nUnlocks Zodiac Bunny Pet Skin of the Farm family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="50699">UnlockPetSkin</Activate>
     <Consumable />
     <Soulbound />
     <BagType>7</BagType>

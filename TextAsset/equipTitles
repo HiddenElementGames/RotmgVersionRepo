@@ -488,4 +488,21 @@
     <UniqueID />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
+  <Object type="0x9556" id="Factory Inspector Title Unlocker">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-1" yOffset="0">
+      <File>interregnumObjects8x8</File>
+      <Index>0x4b</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>You can use this item to unlock the title 'the Factory Inspector'.</Description>
+    <Activate titleType="0x9a29">UnlockTitle</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
 </Objects>

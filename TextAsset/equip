@@ -10419,6 +10419,7 @@
     <Soulbound />
     <feedPower>0</feedPower>
     <UniqueID />
+    <AdminOnly />
     <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_SS</Labels>
   </Object>
   <Object type="0xc27" id="Captain's Ring">
@@ -10972,6 +10973,7 @@
     <feedPower>1</feedPower>
     <Track />
     <Potion />
+    <AdminOnly />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
   <Object type="0xc44" id="Rusty Katana">
@@ -12086,6 +12088,7 @@
     <OldSound>bladeSwing</OldSound>
     <feedPower>6000</feedPower>
     <UniqueID />
+    <AdminOnly />
     <Labels>EQUIPMENT,WEAPON,SWORD,UT,TAB_UT,POWERTIER_SS,TRADEABLE</Labels>
   </Object>
   <Object type="0xc5f" id="Candy Ring">
@@ -16475,6 +16478,7 @@
     <BagType>8</BagType>
     <Soulbound />
     <feedPower>200000</feedPower>
+    <AdminOnly />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
   <Object type="0x5e1f" id="Feed">
@@ -16525,6 +16529,7 @@
     <Soulbound />
     <feedPower>500</feedPower>
     <Potion />
+    <AdminOnly />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
   <Object type="0x16d6" id="Enchanted Ice Blade">
@@ -47721,6 +47726,22 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>It's been told this cache has been frozen for ages...</Description>
+    <Activate>MysteryDyes</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0xc21c" id="Golden Screw">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1197</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>According to the schematics, this one is to be used as a special key to a safe filled with resources.</Description>
     <Activate>MysteryDyes</Activate>
     <Consumable />
     <Soulbound />
