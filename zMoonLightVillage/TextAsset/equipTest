@@ -454,14 +454,15 @@
     <SlotType>10</SlotType>
     <Description>Present this to Umi to appease the spirits of the festival.</Description>
     <ExtraTooltipData>
-      <EffectInfo description="This item can only be used after the tutorial in the Moonlight Village within Umi's vicinity." name="Restricted Area" />
+      <EffectInfo description="This item can only be used immediately after the tutorial in the Moonlight Village, within Umi's vicinity." name="Restricted Area" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
+    <Soulbound />
     <BagType>4</BagType>
-    <Activate amount="250" channel="noStackItm" duration="1200" stat="MAXHP" range="500">StatBoostAura</Activate>
+    <Activate amount="150" channel="noStackItm" duration="1200" stat="MAXHP" range="500">StatBoostAura</Activate>
     <Activate duration="1200" effect="Healing" range="500">ConditionEffectAura</Activate>
-    <Activate color="-1" customString="Easy Mode was initiated by" newId="MV Easy Mode" radius="8" targetId="MV Easy Mode Trigger">ChangeObject</Activate>
+    <Activate color="-1" customString="Easy Mode was initiated" newId="MV Easy Mode" radius="8" targetId="MV Easy Mode Trigger">ChangeObject</Activate>
   </Object>
   <Object id="Mark of Moonlight" type="0x50b1">
     <Class>Equipment</Class>
@@ -520,17 +521,25 @@
     <Usable />
     <ActivateOnEquip amount="5" stat="DEX">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
-    <Ability name="Calm">
+    <Ability name="Adagio">
+      <Texture>
+        <File>moonlightVillageObjects8x8</File>
+        <Index>561</Index>
+      </Texture>
       <ExtraTooltipData>
         <EffectInfo description="Lowers your shot speed, but boosts effective weapon range" name="Tranquil Rhythm" />
       </ExtraTooltipData>
       <Activate duration="5" speedBoost="0.625" lifeBoost="1.99" targeted="false" color="0xF7CF1D" selfOnly="true">BoostRange</Activate>
-      <Activate amount="80" duration="5" channel="maxStack" range="4" stat="MAXHP" wisAmountBase="2.5" wisMin="50">StatBoostAura</Activate>
+      <Activate amount="105" channel="maxStack" duration="5" range="4" stat="MAXHP" wisAmountBase="1.5" wisMin="50">StatBoostAura</Activate>
       <Activate wisMin="50" range="4" effect="Healing" duration="5">ConditionEffectAura</Activate>
       <MpCost>120</MpCost>
       <SwitchTime>1.5</SwitchTime>
     </Ability>
-    <Ability name="Frenzied">
+    <Ability name="Crescendo">
+      <Texture>
+        <File>moonlightVillageObjects8x8</File>
+        <Index>562</Index>
+      </Texture>
       <ExtraTooltipData>
         <EffectInfo description="Doubles your shot speed, boosting effective weapon range" name="Blitz Rhythm" />
       </ExtraTooltipData>
@@ -580,7 +589,7 @@
     <ActivateOnEquip amount="8" stat="VIT">IncrementStat</ActivateOnEquip>
     <Activate amount="4" channelTime="200" duration="15">ChannelDash</Activate>
     <StartUse>
-      <Activate amountPerEnemy="10,15,20,25,30" color="0xcd4bd9" cooldown="0.3" damage="0" effect="Multiplied" effectDuration="10" minDistance="5.5" maxDistance="7.5" postCondDuration="0.1" speed="45" stat="VIT">Dash</Activate>
+      <Activate amountPerEnemy="10,15,20,25,30" color="-1" cooldown="0.3" damage="0" effect="Multiplied" effectDuration="10" minDistance="5.5" maxDistance="7.5" postCondDuration="0.1" speed="45" stat="VIT">Dash</Activate>
       <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="0.8" maxDistance="1.0" minDistance="1.0" numShots="2" offsetAngle="0" proc="1" targetMouse="true" type="0x507e">BulletCreate</OnPlayerAbilityActivate>
     </StartUse>
     <EndUse>
@@ -1759,7 +1768,7 @@
     <ExtraTooltipData>
       <EffectInfo description="40 MP cost to summon a controllable Friendly Spirit which heals allies." name="On Ability Use" />
       <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
-      <EffectInfo description="6 seconds" name="Cooldown" />
+      <EffectInfo description="10 seconds" name="Cooldown" />
     </ExtraTooltipData>
     <BagType>6</BagType>
     <XPBonus>7</XPBonus>
@@ -1769,7 +1778,7 @@
     <ActivateOnEquip amount="120" stat="MAXMP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="12" stat="WIS">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="7" stat="SPD">IncrementStat</ActivateOnEquip>
-    <OnPlayerAbilityActivate color="-1" cooldown="6" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Kimono Summon">SpawnCreep</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate color="-1" cooldown="10" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Kimono Summon">SpawnCreep</OnPlayerAbilityActivate>
   </Object>
   <Object id="MV Kimono Summon" type="0x500a">
     <Class>Summon</Class>
@@ -1840,7 +1849,7 @@
       <EffectInfo description="When shooting, reduce SPD by 25." name="Focus" />
       <EffectInfo description="40 MP cost to summon a controllable Friendly Spirit which curses enemies." name="On Ability Use" />
       <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
-      <EffectInfo description="6 seconds" name="Cooldown" />
+      <EffectInfo description="10 seconds" name="Cooldown" />
     </ExtraTooltipData>
     <BagType>6</BagType>
     <XPBonus>7</XPBonus>
@@ -1849,7 +1858,7 @@
     <ActivateOnEquip amount="15" stat="DEF">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="15" stat="SPD">IncrementStat</ActivateOnEquip>
     <OnPlayerShootActivate color="-1" cooldown="0" proc="1" stat="SPD" amount="-25" duration="1" channel="noStack">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerAbilityActivate color="-1" cooldown="6" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Happi Summon">SpawnCreep</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate color="-1" cooldown="10" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Happi Summon">SpawnCreep</OnPlayerAbilityActivate>
   </Object>
   <Object id="MV Happi Summon" type="0x50f9">
     <Class>Summon</Class>
@@ -1919,7 +1928,7 @@
     <ExtraTooltipData>
       <EffectInfo description="40 MP cost to summon a controllable Friendly Spirit which impedes enemy movement." name="On Ability Use" />
       <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
-      <EffectInfo description="6 seconds" name="Cooldown" />
+      <EffectInfo description="10 seconds" name="Cooldown" />
     </ExtraTooltipData>
     <BagType>6</BagType>
     <XPBonus>7</XPBonus>
@@ -1928,7 +1937,7 @@
     <ActivateOnEquip amount="20" stat="DEF">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="15" stat="VIT">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="15" stat="WIS">IncrementStat</ActivateOnEquip>
-    <OnPlayerAbilityActivate color="-1" cooldown="6" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Wakibiki Summon">SpawnCreep</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate color="-1" cooldown="10" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Wakibiki Summon">SpawnCreep</OnPlayerAbilityActivate>
   </Object>
   <Object id="MV Wakibiki Summon" type="0x50fa">
     <Class>Summon</Class>
@@ -2093,7 +2102,7 @@
     <ExtraTooltipData>
       <EffectInfo description="Forced in combat and slowed whilst shooting." name="Divine Disfavor" />
     </ExtraTooltipData>
-    <OnPlayerShootActivate proc="1" cooldown="0.8" center="player" color="-1" visualEffect="28">GenericActivate</OnPlayerShootActivate>
+    <OnPlayerShootActivate proc="1" cooldown="1.2" center="player" color="-1" visualEffect="28">GenericActivate</OnPlayerShootActivate>
     <OnPlayerShootActivate color="-1" proc="1" effect="Slowed" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
     <OnPlayerShootActivate color="-1" proc="1" effect="In Combat" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
     <BagType>6</BagType>
@@ -2143,23 +2152,31 @@
     <ActivateOnEquip amount="50" stat="MAXHP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="5" stat="VIT">IncrementStat</ActivateOnEquip>
     <Ability name="Light Show">
+      <Texture>
+        <File>moonlightVillageObjects8x8</File>
+        <Index>344</Index>
+      </Texture>
       <ExtraTooltipData>
         <EffectInfo description="Summon an orbiting spirit which attacks enemies." name="Friendly Spirit" />
         <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
       </ExtraTooltipData>
-      <Activate aoeActivationCount="3" aoeDamage="70" aoeMaxTargets="3" aoeRange="2" aoeTime="2" arcDegrees="20" color="0xf94545" colorMissed="0xec9006" maxTargets="4" scalingStat="VIT" statModDamage="30" statModPerTarget="80" statModRadius="0.015" statModScalingMin="70" totalDamage="120" wisDamageBase="180" wisMin="50" wisPerTarget="10">Lightning</Activate>
+      <Activate aoeActivationCount="3" aoeDamage="333" aoeMaxTargets="1" aoeRange="2" aoeTime="1.5" arcDegrees="20" color="0xf94545" colorMissed="0xec9006" maxTargets="5" scalingStat="VIT" statModDamage="0" statModPerTarget="15" statModRadius="0.015" statModScalingMin="60" totalDamage="50" wisDamageBase="50" wisMin="50" wisPerTarget="10" aoeArmorPierce="true">Lightning</Activate>
       <OnPlayerAbilityActivate color="-1" proc="1" targetMouse="false" maxSpawnDistance="12" objectId="MV Hanabi Summon" cooldown="6">SpawnCreep</OnPlayerAbilityActivate>
       <MpCost>100</MpCost>
       <SwitchTime>1</SwitchTime>
     </Ability>
     <Ability name="Fireworks Stockpile">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>0x68</Index>
+      </Texture>
       <ExtraTooltipData>
-        <EffectInfo description="Build up a stockpile for 120 MP which invigorates and strengthens nearby spirits." name="Stockpile" />
+        <EffectInfo description="Build up a stockpile for an additional 100 MP which invigorates and strengthens nearby spirits." name="Stockpile" />
       </ExtraTooltipData>
-      <Activate aoeActivationCount="3" aoeDamage="70" aoeMaxTargets="3" aoeRange="2" aoeTime="2" arcDegrees="20" color="0xf94545" colorMissed="0xec9006" maxTargets="4" scalingStat="VIT" statModDamage="30" statModPerTarget="80" statModRadius="0.015" statModScalingMin="70" totalDamage="120" wisDamageBase="180" wisMin="50" wisPerTarget="10">Lightning</Activate>
-      <OnSwitchAbilityActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi Object 0" throwTime="0" color="-1" cooldown="0" manaCost="120" manaRequired="120">ObjectToss</OnSwitchAbilityActivate>
+      <Activate aoeActivationCount="3" aoeDamage="333" aoeMaxTargets="1" aoeRange="2" aoeTime="1.5" arcDegrees="20" color="0xf94545" colorMissed="0xec9006" maxTargets="5" scalingStat="VIT" statModDamage="0" statModPerTarget="15" statModRadius="0.015" statModScalingMin="60" totalDamage="50" wisDamageBase="50" wisMin="50" wisPerTarget="10" aoeArmorPierce="true">Lightning</Activate>
+      <OnSwitchAbilityActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi Object 0" throwTime="0" color="-1" cooldown="0" manaCost="100" manaRequired="100">ObjectToss</OnSwitchAbilityActivate>
       <MpCost>100</MpCost>
-      <SwitchTime>2</SwitchTime>
+      <SwitchTime>1</SwitchTime>
     </Ability>
   </Object>
   <Object id="MV Hanabi Summon" type="0x4ff6">
@@ -2399,24 +2416,32 @@
     <ActivateOnEquip amount="60" stat="MAXHP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="6" stat="VIT">IncrementStat</ActivateOnEquip>
     <Ability name="Light Show">
+      <Texture>
+        <File>moonlightVillageObjects8x8</File>
+        <Index>344</Index>
+      </Texture>
       <ExtraTooltipData>
         <EffectInfo description="Summon an orbiting spirit which attacks enemies." name="Friendly Spirit" />
         <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
       </ExtraTooltipData>
-      <Activate aoeActivationCount="3" aoeDamage="70" aoeMaxTargets="3" aoeRange="2" aoeTime="2" arcDegrees="20" color="0xf94545" colorMissed="0xec9006" maxTargets="4" scalingStat="VIT" statModDamage="30" statModPerTarget="80" statModRadius="0.015" statModScalingMin="70" totalDamage="120" wisDamageBase="180" wisMin="50" wisPerTarget="10">Lightning</Activate>
+      <Activate aoeActivationCount="3" aoeDamage="333" aoeMaxTargets="1" aoeRange="2" aoeTime="1.5" arcDegrees="20" color="0xf94545" colorMissed="0xec9006" maxTargets="5" scalingStat="VIT" statModDamage="0" statModPerTarget="15" statModRadius="0.015" statModScalingMin="60" totalDamage="50" wisDamageBase="50" wisMin="50" wisPerTarget="10" aoeArmorPierce="true">Lightning</Activate>
       <OnPlayerAbilityActivate proc="1" targetMouse="false" maxSpawnDistance="12" objectId="MV Hanabi Summon" cooldown="6">SpawnCreep</OnPlayerAbilityActivate>
       <MpCost>100</MpCost>
       <SwitchTime>0.75</SwitchTime>
     </Ability>
     <Ability name="Fireworks Stockpile">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>430</Index>
+      </Texture>
       <ExtraTooltipData>
-        <EffectInfo description="Build up a stockpile for 120 MP which invigorates and strengthens nearby spirits." name="Stockpile" />
+        <EffectInfo description="Build up a stockpile for an additional 80 MP which invigorates and strengthens nearby spirits." name="Stockpile" />
       </ExtraTooltipData>
-      <Activate aoeActivationCount="3" aoeDamage="70" aoeMaxTargets="3" aoeRange="2" aoeTime="2" arcDegrees="20" color="0xf94545" colorMissed="0xec9006" maxTargets="4" scalingStat="VIT" statModDamage="30" statModPerTarget="80" statModRadius="0.015" statModScalingMin="70" totalDamage="120" wisDamageBase="180" wisMin="50" wisPerTarget="10">Lightning</Activate>
-      <OnSwitchAbilityActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi Object 0" throwTime="0" color="-1" cooldown="0" manaCost="120" manaRequired="120">ObjectToss</OnSwitchAbilityActivate>
+      <Activate aoeActivationCount="3" aoeDamage="333" aoeMaxTargets="1" aoeRange="2" aoeTime="1.5" arcDegrees="20" color="0xf94545" colorMissed="0xec9006" maxTargets="5" scalingStat="VIT" statModDamage="0" statModPerTarget="15" statModRadius="0.015" statModScalingMin="60" totalDamage="50" wisDamageBase="50" wisMin="50" wisPerTarget="10" aoeArmorPierce="true">Lightning</Activate>
+      <OnSwitchAbilityActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi Object 0" throwTime="0" color="-1" cooldown="0" manaCost="80" manaRequired="80">ObjectToss</OnSwitchAbilityActivate>
       <OnSwitchAbilityActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi 2 Object" throwTime="0" color="-1" cooldown="0" manaCost="0">ObjectToss</OnSwitchAbilityActivate>
       <MpCost>100</MpCost>
-      <SwitchTime>1.5</SwitchTime>
+      <SwitchTime>0.75</SwitchTime>
     </Ability>
   </Object>
   <Object id="Tezutsu Hanabi 2 Object" type="0x5119">
@@ -2484,12 +2509,12 @@
       <EffectInfo description="" name="While Key Held and Shooting" />
       <EffectInfo description="Rain falls 3 tiles away in the direction of your cursor" name="" />
       <EffectInfo description="" name="Mana Cost" />
-      <EffectInfo description="Drain 50 MP/sec and 15 MP/shot" name="" />
+      <EffectInfo description="Drain 40 MP/sec and 15 MP/shot" name="" />
       <EffectInfo description="Deals 200-300 armor piercing damage, scaling with your Attack and Status Effects" name="Rain" />
     </ExtraTooltipData>
     <BagType>6</BagType>
     <feedPower>1000</feedPower>
-    <MpCostPerSecond>50</MpCostPerSecond>
+    <MpCostPerSecond>40</MpCostPerSecond>
     <MpCost>0</MpCost>
     <MpEndCost>0</MpEndCost>
     <Soulbound />
@@ -2497,7 +2522,7 @@
     <MultiPhase />
     <Usable />
     <Cooldown>5</Cooldown>
-    <ActivateOnEquip amount="80" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="100" stat="MAXMP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="5" stat="DEX">IncrementStat</ActivateOnEquip>
     <OnPlayerShootActivate requiredConditions="Stasis Immune" cooldown="0" proc="1" manaCost="15" objectId="MV Rain Maker Object" throwTime="0" color="-1" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
     <OnPlayerShootActivate requiredConditions="Stasis Immune" cooldown="0.2" proc="1" manaCost="15" objectId="MV Rain Maker Effect Thrower" throwTime="0" color="-1" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
@@ -2554,11 +2579,16 @@
     </Texture>
     <SlotType>8</SlotType>
     <Description>The wand is able to conjure mighty encircling defenses. Given enough time, it is capable of instantly establishing fortifications.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="3" name="Burst Count" />
+      <EffectInfo description="20 seconds" name="Burst Delay" />
+      <EffectInfo description="15 second" name="Minimum Burst Delay" />
+    </ExtraTooltipData>
     <RateOfFire>0.33</RateOfFire>
     <Sound>weapon/mithril_sword</Sound>
     <OldSound>magicShoot</OldSound>
     <Projectile id="0">
-      <ObjectId>MV Water Twirl</ObjectId>
+      <ObjectId>MV Fortitude Projectile</ObjectId>
       <Speed>3.1416</Speed>
       <MinDamage>500</MinDamage>
       <MaxDamage>600</MaxDamage>
@@ -2567,10 +2597,10 @@
       <MultiHit />
       <FaceDir />
       <TurnRate>45</TurnRate>
-      <Size>95</Size>
+      <Size>90</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>MV Water Twirl</ObjectId>
+      <ObjectId>MV Fortitude Projectile</ObjectId>
       <Speed>6.2832</Speed>
       <MinDamage>400</MinDamage>
       <MaxDamage>500</MaxDamage>
@@ -2579,10 +2609,10 @@
       <MultiHit />
       <FaceDir />
       <TurnRate>-45</TurnRate>
-      <Size>85</Size>
+      <Size>80</Size>
     </Projectile>
     <Projectile id="2">
-      <ObjectId>MV Water Twirl</ObjectId>
+      <ObjectId>MV Fortitude Projectile</ObjectId>
       <Speed>9.4248</Speed>
       <MinDamage>300</MinDamage>
       <MaxDamage>400</MaxDamage>
@@ -2591,15 +2621,15 @@
       <MultiHit />
       <FaceDir />
       <TurnRate>45</TurnRate>
-      <Size>75</Size>
+      <Size>70</Size>
     </Projectile>
     <Subattack projectileId="0">
       <NumProjectiles>1</NumProjectiles>
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>0,2</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>90</DefaultAngle>
     </Subattack>
     <Subattack projectileId="0">
@@ -2607,8 +2637,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>2,0</PosOffset>
       <BurstCount>2</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>180</DefaultAngle>
     </Subattack>
     <Subattack projectileId="0">
@@ -2616,8 +2646,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>0,-2</PosOffset>
       <BurstCount>2</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>270</DefaultAngle>
     </Subattack>
     <Subattack projectileId="0">
@@ -2625,8 +2655,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>-2,0</PosOffset>
       <BurstCount>2</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>0</DefaultAngle>
     </Subattack>
     <Subattack projectileId="1">
@@ -2634,8 +2664,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>0,4</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>270</DefaultAngle>
     </Subattack>
     <Subattack projectileId="1">
@@ -2643,8 +2673,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>3.4641,2</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>330</DefaultAngle>
     </Subattack>
     <Subattack projectileId="1">
@@ -2652,8 +2682,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>3.4641,-2</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>30</DefaultAngle>
     </Subattack>
     <Subattack projectileId="1">
@@ -2661,8 +2691,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>0,-4</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>90</DefaultAngle>
     </Subattack>
     <Subattack projectileId="1">
@@ -2670,8 +2700,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>-3.4641,-2</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>150</DefaultAngle>
     </Subattack>
     <Subattack projectileId="1">
@@ -2679,8 +2709,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>-3.4641,2</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>210</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -2688,8 +2718,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>0,6</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>90</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -2697,8 +2727,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>4.2426,4.2426</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>135</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -2706,8 +2736,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>6,0</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>180</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -2715,8 +2745,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>4.2426,-4.2426</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>225</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -2724,8 +2754,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>0,-6</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>270</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -2733,8 +2763,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>-4.2426,-4.2426</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>315</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -2742,8 +2772,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>-6,0</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>0</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -2751,8 +2781,8 @@
       <RateOfFire>0.33</RateOfFire>
       <PosOffset>-4.2426,4.2426</PosOffset>
       <BurstCount>3</BurstCount>
-      <BurstDelay>12</BurstDelay>
-      <BurstMinDelay>12</BurstMinDelay>
+      <BurstDelay>18</BurstDelay>
+      <BurstMinDelay>15</BurstMinDelay>
       <DefaultAngle>45</DefaultAngle>
     </Subattack>
     <Soulbound />
@@ -2774,7 +2804,7 @@
       <EffectInfo description="7.5% chance to release a Festival Spirit, consuming 20 MP" name="On Shoot" />
       <EffectInfo description="6 seconds" name="Lifetime" />
       <EffectInfo description="600 damage over 6 seconds" name="" />
-      <EffectInfo description="Explodes after 6 seconds, dealing 150-200 damage scaling with your Attack and Status Effects" name="" />
+      <EffectInfo description="Explodes after 6 seconds, dealing 100-150 damage scaling with your Attack and Status Effects" name="" />
     </ExtraTooltipData>
     <RateOfFire>1.6</RateOfFire>
     <Sound>weapon/sprite_wand</Sound>
@@ -3105,7 +3135,7 @@
     <DisplayId>Mischief</DisplayId>
     <Class>Equipment</Class>
     <Item />
-    <Texture>
+    <Texture xOffset="2" yOffset="2">
       <File>moonlightVillageObjects8x8</File>
       <Index>507</Index>
     </Texture>
@@ -3125,19 +3155,19 @@
       <Size>90</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>MV Spirit Projectile</ObjectId>
+      <ObjectId>MV Large Cherry Petal</ObjectId>
       <Speed>110</Speed>
       <MinDamage>40</MinDamage>
       <MaxDamage>100</MaxDamage>
       <LifetimeMS>472.7</LifetimeMS>
-      <Size>100</Size>
+      <Size>80</Size>
       <Frequency>1.0</Frequency>
       <Amplitude>0.7</Amplitude>
       <FaceDir />
       <ArmorPiercing />
     </Projectile>
     <Projectile id="2">
-      <ObjectId>MV Spirit Projectile</ObjectId>
+      <ObjectId>MV Mischief Projectile</ObjectId>
       <Speed>0</Speed>
       <MinDamage>20</MinDamage>
       <MaxDamage>120</MaxDamage>
@@ -3150,12 +3180,12 @@
       <ArmorPiercing />
     </Projectile>
     <Projectile id="3">
-      <ObjectId>MV Spirit Projectile</ObjectId>
+      <ObjectId>MV Large Cherry Petal</ObjectId>
       <Speed>110</Speed>
       <MinDamage>20</MinDamage>
       <MaxDamage>110</MaxDamage>
       <LifetimeMS>472.7</LifetimeMS>
-      <Size>90</Size>
+      <Size>85</Size>
       <Frequency>1.0</Frequency>
       <Amplitude>0.5</Amplitude>
       <FaceDir />
@@ -3196,15 +3226,15 @@
     <ExtraTooltipData>
       <EffectInfo description="When above 85% MP, 1.5% chance to summon controllable Friendly Spirits at the cost of 60 MP" name="On Shoot" />
       <EffectInfo description="The spirits synergizes in the presence of other spirits." name="" />
-      <EffectInfo description="6 seconds" name="Cooldown" />
+      <EffectInfo description="10 seconds" name="Cooldown" />
     </ExtraTooltipData>
     <ActivateOnEquip amount="100" stat="MAXHP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="100" stat="MAXMP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="7" stat="VIT">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="7" stat="WIS">IncrementStat</ActivateOnEquip>
-    <OnPlayerShootActivate color="-1" cooldown="6" objectId="MV Kimono Summon" proc="0.015" maxSpawnDistance="0.0" manaRequiredRelative="0.85" manaCost="60">SpawnCreep</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" cooldown="6" objectId="MV Happi Summon" proc="0.015" maxSpawnDistance="0.0" manaRequiredRelative="0.85" manaCost="60">SpawnCreep</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" cooldown="6" objectId="MV Wakibiki Summon" proc="0.015" maxSpawnDistance="0.0" manaRequiredRelative="0.85" manaCost="60">SpawnCreep</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" cooldown="10" objectId="MV Kimono Summon" proc="0.015" maxSpawnDistance="0.0" manaRequiredRelative="0.85" manaCost="60">SpawnCreep</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" cooldown="10" objectId="MV Happi Summon" proc="0.015" maxSpawnDistance="0.0" manaRequiredRelative="0.85" manaCost="60">SpawnCreep</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" cooldown="10" objectId="MV Wakibiki Summon" proc="0.015" maxSpawnDistance="0.0" manaRequiredRelative="0.85" manaCost="60">SpawnCreep</OnPlayerShootActivate>
     <BagType>6</BagType>
     <XPBonus>8</XPBonus>
     <feedPower>1400</feedPower>
@@ -3301,12 +3331,13 @@
     <Description>Pure soul energy that burns bright in the fires of the forge.</Description>
     <ExtraTooltipData>
       <EffectInfo description="Use in the forge to upgrade some Untiered Weapons." name="Forge" />
-      <EffectInfo description="Obtained by besting Kitsune Umi in the Moonlight Village." name="Drop location" />
+      <EffectInfo description="Obtained by besting the Moonlight Dance in the Moonlight Village." name="Drop location" />
     </ExtraTooltipData>
     <BagType>6</BagType>
     <feedPower>1200</feedPower>
     <Mark />
     <Soulbound />
+    <Labels>MARK,ORG_MOONLIGHT_CORE,TAB_ALL</Labels>
   </Object>
   <Object id="Moonlit Quest Chest Item" type="0x5004">
     <DisplayId>Moonlit Epic Quest Chest</DisplayId>
@@ -3415,7 +3446,7 @@
   <Object id="Tuna Nigiri" type="0x5101">
     <Class>Equipment</Class>
     <Item />
-    <Texture>
+    <Texture xOffset="-2" yOffset="0">
       <File>moonlightVillageObjects8x8</File>
       <Index>497</Index>
     </Texture>
@@ -3432,7 +3463,7 @@
   <Object id="Takoyaki" type="0x5102">
     <Class>Equipment</Class>
     <Item />
-    <Texture>
+    <Texture xOffset="-2" yOffset="0">
       <File>moonlightVillageObjects8x8</File>
       <Index>498</Index>
     </Texture>
@@ -3505,7 +3536,7 @@
       <Index>502</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A substantial amount of glossy salmon eggs; it is lightly seasoned.</Description>
+    <Description>A substantial amount of glossy salmon eggs that have been lightly seasoned.</Description>
     <BagType>7</BagType>
     <Activate amount="8" channel="statConsumables" duration="600" stat="ATT">StatBoostSelf</Activate>
     <Activate amount="8" channel="statConsumables" duration="600" stat="SPD">StatBoostSelf</Activate>
@@ -3677,7 +3708,6 @@
     <feedPower>5</feedPower>
     <Soulbound />
     <InvUse />
-    <Consumable />
   </Object>
   <Object id="MV Book 8" type="0x5125">
     <Class>Equipment</Class>
@@ -3817,5 +3847,24 @@
     </Texture>
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="Ecstatic Fish Emote" type="0x5149">
+    <Class>Emote</Class>
+    <Item />
+    <SlotType>10</SlotType>
+    <DisplayId>Ecstatic Fish</DisplayId>
+    <Description>Unlocks the Ecstatic Fish Emote. The emote will be added to your Wardrobe.</Description>
+    <Consumable />
+    <Texture>
+      <File>moonlightVillageObjects16x16</File>
+      <Index>459</Index>
+    </Texture>
+    <EmoteTexture>
+      <File>moonlightVillageObjects16x16</File>
+      <Index>459</Index>
+    </EmoteTexture>
+    <BagType>2</BagType>
+    <Soulbound />
+    <Activate>Emote</Activate>
   </Object>
 </Objects>

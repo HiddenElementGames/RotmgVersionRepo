@@ -139,6 +139,14 @@
     </Texture>
     <Rotation>150</Rotation>
   </Object>
+  <Object id="MV Fortitude Projectile" type="0x5142">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>549</Index>
+    </Texture>
+    <Rotation>150</Rotation>
+  </Object>
   <Object id="MV Static Ball" type="0x501e">
     <Class>Projectile</Class>
     <Texture>
@@ -482,6 +490,76 @@
     </Animation>
     <AngleCorrection>-2</AngleCorrection>
   </Object>
+  <Object id="MV Mischief Projectile" type="0x5143">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>550</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>550</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>551</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>552</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>553</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>554</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>555</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>556</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>557</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>558</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>559</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <AngleCorrection>-2</AngleCorrection>
+  </Object>
   <Object id="MV Firework Trail" type="0x506b">
     <Class>Projectile</Class>
     <Texture>
@@ -702,6 +780,15 @@
       </Style>
     </Presentation>
   </Object>
+  <Object id="Gate of Departure" type="0x5145">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>560</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
   <Object id="MV Toro Large" type="0x5150">
     <Class>GameObject</Class>
     <Texture>
@@ -733,8 +820,10 @@
     <Size>150</Size>
     <ShadowColor>0xD9C59A</ShadowColor>
     <ShadowSize>120</ShadowSize>
-    <SetStyle>Fire</SetStyle>
-    <Animation prob="1" sync="true" period="0" id="FireAnimation">
+    <Static />
+    <Color>0xFFA400</Color>
+    <OccupySquare />
+    <Animation prob="1">
       <Frame time="0.2">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
@@ -754,11 +843,6 @@
         </Texture>
       </Frame>
     </Animation>
-    <Presentation>
-      <Style id="Fire">
-        <StyleStep id="FireAnimation">SetAnimation</StyleStep>
-      </Style>
-    </Presentation>
   </Object>
   <Object id="MV Stacked Logs" type="0x5153">
     <Class>GameObject</Class>
@@ -766,6 +850,7 @@
       <File>moonlightVillageObjects16x16</File>
       <Index>0x03</Index>
     </Texture>
+    <Static />
     <Size>100</Size>
   </Object>
   <Object id="MV Wooden Crates" type="0x5154">
@@ -775,6 +860,7 @@
       <Index>0x04</Index>
     </Texture>
     <Size>100</Size>
+    <Static />
   </Object>
   <Object id="MV Shop Stand 1" type="0x512d">
     <Class>GameObject</Class>
@@ -1088,6 +1174,7 @@
       <Index>0x88</Index>
     </Texture>
     <Size>100</Size>
+    <Static />
   </Object>
   <Object id="MV Wooden Basket" type="0x5184">
     <Class>GameObject</Class>
@@ -1096,6 +1183,7 @@
       <Index>0x89</Index>
     </Texture>
     <Size>100</Size>
+    <Static />
   </Object>
   <Object id="MV Axe and Log" type="0x5185">
     <Class>GameObject</Class>
@@ -1381,8 +1469,7 @@
       <Index>48</Index>
     </Texture>
     <Size>150</Size>
-    <SetStyle>Boat</SetStyle>
-    <Animation prob="1" sync="true" period="0" id="BoatAnimation">
+    <Animation prob="1">
       <Frame time="0.5">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
@@ -1408,11 +1495,7 @@
         </Texture>
       </Frame>
     </Animation>
-    <Presentation>
-      <Style id="Boat">
-        <StyleStep id="BoatAnimation">SetAnimation</StyleStep>
-      </Style>
-    </Presentation>
+    <Static />
   </Object>
   <Object id="MV Wheat" type="0x51a0">
     <Class>GameObject</Class>
@@ -2208,11 +2291,60 @@
   </Object>
   <Object id="MV No Walk Tutorial" type="0x5044">
     <Class>GameObject</Class>
-    <Texture>
-      <File>oryxHordeObjects16x16</File>
-      <Index>0</Index>
-    </Texture>
-    <Size>-1</Size>
+    <RandomTexture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>354</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>355</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>356</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>357</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>358</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>359</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>360</Index>
+      </Texture>
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </RandomTexture>
+    <MaxSize>120</MaxSize>
+    <MinSize>80</MinSize>
+    <SizeStep>5</SizeStep>
+    <ShadowSize>0</ShadowSize>
     <FullOccupy />
     <EnemyOccupySquare />
     <OccupySquare />
@@ -2221,11 +2353,74 @@
   </Object>
   <Object id="MV No Walk Festival" type="0x50a1">
     <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>354</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>355</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>356</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>357</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>358</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>359</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>360</Index>
+      </Texture>
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </RandomTexture>
+    <MaxSize>120</MaxSize>
+    <MinSize>80</MinSize>
+    <SizeStep>5</SizeStep>
+    <ShadowSize>0</ShadowSize>
+    <FullOccupy />
+    <EnemyOccupySquare />
+    <OccupySquare />
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="MV No Walk Other" type="0x5146">
+    <Class>GameObject</Class>
     <Texture>
-      <File>oryxHordeObjects16x16</File>
+      <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>-1</Size>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
     <FullOccupy />
     <EnemyOccupySquare />
     <OccupySquare />
@@ -2323,6 +2518,7 @@
       <Index>425</Index>
     </Texture>
     <Size>140</Size>
+    <Static />
   </Object>
   <Object id="MV Temple Table" type="0x50bd">
     <Class>GameObject</Class>
@@ -2452,8 +2648,7 @@
     </Texture>
     <Size>100</Size>
     <Z>0.4</Z>
-    <SetStyle>Incense</SetStyle>
-    <Animation period="0" prob="1" id="IncenseAnimation">
+    <Animation prob="1">
       <Frame time="0.15">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
@@ -2485,11 +2680,6 @@
         </Texture>
       </Frame>
     </Animation>
-    <Presentation>
-      <Style id="Incense">
-        <StyleStep id="IncenseAnimation">SetAnimation</StyleStep>
-      </Style>
-    </Presentation>
   </Object>
   <Object id="MV Incense Spawn" type="0x50c4">
     <Class>GameObject</Class>
@@ -2506,6 +2696,7 @@
       <Index>439</Index>
     </Texture>
     <Size>110</Size>
+    <Static />
   </Object>
   <Object id="MV Onsen Stool" type="0x50c7">
     <Class>GameObject</Class>
@@ -2514,6 +2705,7 @@
       <Index>440</Index>
     </Texture>
     <Size>80</Size>
+    <Static />
   </Object>
   <Object id="MV Onsen Shishi Odoshi" type="0x50c8">
     <Class>GameObject</Class>
@@ -2522,8 +2714,8 @@
       <Index>362</Index>
     </Texture>
     <Size>90</Size>
-    <SetStyle>Play</SetStyle>
-    <Animation prob="1" period="0" id="PlayAnimation">
+    <Static />
+    <Animation prob="1">
       <Frame time="0.2">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
@@ -2555,11 +2747,6 @@
         </Texture>
       </Frame>
     </Animation>
-    <Presentation>
-      <Style id="Play">
-        <StyleStep id="PlayAnimation">SetAnimation</StyleStep>
-      </Style>
-    </Presentation>
   </Object>
   <Object id="MV Flowers" type="0x50c9">
     <Class>GameObject</Class>
@@ -2578,6 +2765,7 @@
       </Texture>
     </RandomTexture>
     <Size>100</Size>
+    <Static />
   </Object>
   <Object id="MV Firefly" type="0x50ca">
     <Class>GameObject</Class>
@@ -2647,8 +2835,8 @@
     <NoMiniMap />
     <DrawOnGround />
     <ShadowSize>0</ShadowSize>
-    <SetStyle>Play</SetStyle>
-    <Animation prob="1" period="0" id="PlayAnimation">
+    <Static />
+    <Animation prob="1">
       <Frame time="0.3">
         <Texture>
           <File>moonlightVillageObjects8x8</File>
@@ -2674,11 +2862,6 @@
         </Texture>
       </Frame>
     </Animation>
-    <Presentation>
-      <Style id="Play">
-        <StyleStep id="PlayAnimation">SetAnimation</StyleStep>
-      </Style>
-    </Presentation>
   </Object>
   <Object id="MV Bridge Wall Short" type="0x50cf">
     <Class>GameObject</Class>
@@ -2728,6 +2911,33 @@
     <OccupySquare />
     <EnemyOccupySquare />
     <ShadowSize>180</ShadowSize>
+  </Object>
+  <Object id="MV Coastal Rocks" type="0x5144">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>448</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>449</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>450</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>451</Index>
+      </Texture>
+    </RandomTexture>
+    <MaxSize>140</MaxSize>
+    <MinSize>100</MinSize>
+    <SizeStep>5</SizeStep>
+    <ShadowSize>70</ShadowSize>
+    <Static />
+    <OccupySquare />
   </Object>
   <Object id="MV Tutorial System" type="0x503a">
     <Class>Character</Class>
@@ -2831,12 +3041,18 @@
         <Index>0x79</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>447</Index>
+      </Texture>
+    </AltTexture>
     <Z>0.1</Z>
     <Flying />
     <Invincible />
     <Size>110</Size>
     <ShadowSize>100</ShadowSize>
-    <Color>0xFFCE00</Color>
+    <Color>0xFFA400</Color>
     <AlwaysPositiveHealth />
     <NoCollisionWhenMovement />
     <Presentation>
@@ -2852,9 +3068,33 @@
       <Style id="FullLit">
         <StyleStep altTextureId="4">SetAltTexture</StyleStep>
       </Style>
+      <Style id="MaxLit">
+        <StyleStep altTextureId="5">SetAltTexture</StyleStep>
+      </Style>
     </Presentation>
   </Object>
+  <Object id="MV Tutorial Lantern Range 1 Effect" type="0x5147">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Effect amount="20" color="0xF6D56D" life="1" maxRadius="1.75" minRadius="1.75" rise="3.4" speed="0.025" cooldown="1">Circle</Effect>
+  </Object>
+  <Object id="MV Tutorial Lantern Range 2 Effect" type="0x5148">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Effect amount="20" color="0xD19906" life="1" maxRadius="3.5" minRadius="3.5" rise="3.4" speed="0.025" cooldown="1">Circle</Effect>
+  </Object>
   <Object id="MV Tutorial Helper" type="0x5042">
+    <DisplayId>Festival Wisp</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -2906,7 +3146,7 @@
     </Projectile>
     <Projectile id="3">
       <ObjectId>MV Spirit Projectile</ObjectId>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <Speed>15</Speed>
       <LifetimeMS>4667</LifetimeMS>
       <Size>110</Size>
@@ -2916,7 +3156,7 @@
     </Projectile>
     <Projectile id="4">
       <ObjectId>MV Flame Bolt</ObjectId>
-      <Damage>80</Damage>
+      <Damage>75</Damage>
       <Speed>0</Speed>
       <LifetimeMS>8364</LifetimeMS>
       <Acceleration>100</Acceleration>
@@ -2929,7 +3169,7 @@
     </Projectile>
     <Projectile id="5">
       <ObjectId>MV Firework Vortex</ObjectId>
-      <Damage>150</Damage>
+      <Damage>125</Damage>
       <Speed>0</Speed>
       <LifetimeMS>2500</LifetimeMS>
       <Size>90</Size>
@@ -2939,7 +3179,7 @@
     </Projectile>
     <Projectile id="6">
       <ObjectId>MV Flame Wave</ObjectId>
-      <Damage>100</Damage>
+      <Damage>90</Damage>
       <Speed>27</Speed>
       <LifetimeMS>5185</LifetimeMS>
       <Size>100</Size>
@@ -3219,7 +3459,7 @@
     </Texture>
     <Class>Character</Class>
     <Size>170</Size>
-    <MaxHitPoints>50000</MaxHitPoints>
+    <MaxHitPoints>75000</MaxHitPoints>
     <Projectile id="0">
       <ObjectId>Invisible</ObjectId>
       <Damage>0</Damage>
@@ -3281,6 +3521,7 @@
     <NoMiniMap />
   </Object>
   <Object id="MV Pattern Helper 1" type="0x4fe1">
+    <DisplayId>Festival Wisp</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -3350,7 +3591,7 @@
     </Projectile>
     <Projectile id="19">
       <ObjectId>MV Water Bolt Variant</ObjectId>
-      <Damage>60</Damage>
+      <Damage>75</Damage>
       <Speed>30</Speed>
       <LifetimeMS>7000</LifetimeMS>
       <Size>140</Size>
@@ -3361,7 +3602,7 @@
     </Projectile>
     <Projectile id="20">
       <ObjectId>MV Water Bolt Variant</ObjectId>
-      <Damage>60</Damage>
+      <Damage>75</Damage>
       <Speed>60</Speed>
       <LifetimeMS>7000</LifetimeMS>
       <Size>160</Size>
@@ -3372,7 +3613,7 @@
     </Projectile>
     <Projectile id="21">
       <ObjectId>MV Water Bolt Variant</ObjectId>
-      <Damage>60</Damage>
+      <Damage>80</Damage>
       <Speed>90</Speed>
       <LifetimeMS>7000</LifetimeMS>
       <Size>180</Size>
@@ -3555,12 +3796,13 @@
     </Projectile>
     <Projectile id="22">
       <ObjectId>MV Lightning Spear</ObjectId>
-      <Damage>80</Damage>
+      <Damage>75</Damage>
       <Speed>22</Speed>
       <LifetimeMS>9000</LifetimeMS>
       <Size>120</Size>
       <MultiHit />
       <ArmorPiercing />
+      <ConditionEffect duration="3">Silenced</ConditionEffect>
     </Projectile>
     <Projectile id="38">
       <ObjectId>MV Warning Projectile</ObjectId>
@@ -3620,17 +3862,17 @@
       <ArmorPiercing />
     </Projectile>
     <Projectile id="18">
-      <ObjectId>MV Large Cherry Petal Variant</ObjectId>
+      <ObjectId>MV Large Cherry Petal</ObjectId>
       <Damage>50</Damage>
-      <Speed>30</Speed>
-      <LifetimeMS>700</LifetimeMS>
-      <Size>125</Size>
+      <Speed>25</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>110</Size>
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
     <Projectile id="23">
       <ObjectId>MV Petal Scythe</ObjectId>
-      <Damage>30</Damage>
+      <Damage>45</Damage>
       <Speed>30</Speed>
       <LifetimeMS>10000</LifetimeMS>
       <Size>100</Size>
@@ -3643,7 +3885,7 @@
     </Projectile>
     <Projectile id="24">
       <ObjectId>MV Small Petal</ObjectId>
-      <Damage>0</Damage>
+      <Damage>30</Damage>
       <Speed>40</Speed>
       <LifetimeMS>9000</LifetimeMS>
       <Size>90</Size>
@@ -3651,11 +3893,12 @@
       <AccelerationDelay>3800</AccelerationDelay>
       <SpeedClamp>10</SpeedClamp>
       <MultiHit />
-      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+      <ArmorPiercing />
+      <ConditionEffect duration="1.5">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="25">
       <ObjectId>MV Flower Star</ObjectId>
-      <Damage>20</Damage>
+      <Damage>50</Damage>
       <Speed>25</Speed>
       <LifetimeMS>14000</LifetimeMS>
       <Size>120</Size>
@@ -3664,11 +3907,10 @@
       <AccelerationDelay>4700</AccelerationDelay>
       <SpeedClamp>10</SpeedClamp>
       <ArmorPiercing />
-      <ConditionEffect duration="1">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="26">
       <ObjectId>MV Autumn Leaves</ObjectId>
-      <Damage>10</Damage>
+      <Damage>40</Damage>
       <Speed>35</Speed>
       <LifetimeMS>9000</LifetimeMS>
       <Size>110</Size>
@@ -3679,11 +3921,11 @@
       <AccelerationDelay>4500</AccelerationDelay>
       <SpeedClamp>10</SpeedClamp>
       <ArmorPiercing />
-      <ConditionEffect duration="1.5">Bleeding</ConditionEffect>
+      <ConditionEffect duration="1.0">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="27">
       <ObjectId>MV Petal Bolt</ObjectId>
-      <Damage>10</Damage>
+      <Damage>15</Damage>
       <Speed>20</Speed>
       <LifetimeMS>3400</LifetimeMS>
       <Size>100</Size>
@@ -3692,7 +3934,7 @@
       <SpeedClamp>25</SpeedClamp>
       <MultiHit />
       <ArmorPiercing />
-      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+      <ConditionEffect duration="1.5">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="36">
       <ObjectId>MV Large Cherry Petal</ObjectId>
@@ -3829,61 +4071,49 @@
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>177</Index>
+          <Index>439</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>178</Index>
+          <Index>440</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>179</Index>
+          <Index>441</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>180</Index>
+          <Index>442</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>181</Index>
+          <Index>443</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>182</Index>
+          <Index>444</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>183</Index>
+          <Index>445</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>184</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>185</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>186</Index>
+          <Index>446</Index>
         </Texture>
       </Frame>
       <Frame time="9999">
@@ -4262,6 +4492,7 @@
     </Presentation>
   </Object>
   <Object id="MV Pattern Helper 2" type="0x4fe7">
+    <DisplayId>Festival Wisp</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -4395,7 +4626,7 @@
     </Projectile>
     <Projectile id="18">
       <ObjectId>MV Water Bolt Variant</ObjectId>
-      <Damage>60</Damage>
+      <Damage>75</Damage>
       <Speed>30</Speed>
       <LifetimeMS>7000</LifetimeMS>
       <Size>140</Size>
@@ -4406,7 +4637,7 @@
     </Projectile>
     <Projectile id="19">
       <ObjectId>MV Water Bolt Variant</ObjectId>
-      <Damage>60</Damage>
+      <Damage>75</Damage>
       <Speed>60</Speed>
       <LifetimeMS>7000</LifetimeMS>
       <Size>160</Size>
@@ -4417,7 +4648,7 @@
     </Projectile>
     <Projectile id="20">
       <ObjectId>MV Water Bolt Variant</ObjectId>
-      <Damage>60</Damage>
+      <Damage>80</Damage>
       <Speed>90</Speed>
       <LifetimeMS>7000</LifetimeMS>
       <Size>180</Size>
@@ -4529,7 +4760,7 @@
       <Damage>40</Damage>
       <Speed>40</Speed>
       <LifetimeMS>7000</LifetimeMS>
-      <Size>100</Size>
+      <Size>90</Size>
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
@@ -4553,17 +4784,17 @@
       <ArmorPiercing />
     </Projectile>
     <Projectile id="17">
-      <ObjectId>MV Large Cherry Petal Variant</ObjectId>
+      <ObjectId>MV Large Cherry Petal</ObjectId>
       <Damage>50</Damage>
-      <Speed>30</Speed>
-      <LifetimeMS>700</LifetimeMS>
-      <Size>125</Size>
+      <Speed>25</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>110</Size>
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
     <Projectile id="22">
       <ObjectId>MV Petal Scythe</ObjectId>
-      <Damage>30</Damage>
+      <Damage>45</Damage>
       <Speed>30</Speed>
       <LifetimeMS>10000</LifetimeMS>
       <Size>100</Size>
@@ -4576,7 +4807,7 @@
     </Projectile>
     <Projectile id="23">
       <ObjectId>MV Small Petal</ObjectId>
-      <Damage>0</Damage>
+      <Damage>30</Damage>
       <Speed>40</Speed>
       <LifetimeMS>9000</LifetimeMS>
       <Size>90</Size>
@@ -4584,11 +4815,12 @@
       <AccelerationDelay>3800</AccelerationDelay>
       <SpeedClamp>10</SpeedClamp>
       <MultiHit />
-      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+      <ArmorPiercing />
+      <ConditionEffect duration="1.5">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="24">
       <ObjectId>MV Flower Star</ObjectId>
-      <Damage>20</Damage>
+      <Damage>50</Damage>
       <Speed>25</Speed>
       <LifetimeMS>14000</LifetimeMS>
       <Size>120</Size>
@@ -4597,11 +4829,10 @@
       <AccelerationDelay>4700</AccelerationDelay>
       <SpeedClamp>10</SpeedClamp>
       <ArmorPiercing />
-      <ConditionEffect duration="1">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="25">
       <ObjectId>MV Autumn Leaves</ObjectId>
-      <Damage>10</Damage>
+      <Damage>40</Damage>
       <Speed>35</Speed>
       <LifetimeMS>9000</LifetimeMS>
       <Size>110</Size>
@@ -4612,11 +4843,11 @@
       <AccelerationDelay>4500</AccelerationDelay>
       <SpeedClamp>10</SpeedClamp>
       <ArmorPiercing />
-      <ConditionEffect duration="1.5">Bleeding</ConditionEffect>
+      <ConditionEffect duration="1.0">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="26">
       <ObjectId>MV Small Petal</ObjectId>
-      <Damage>60</Damage>
+      <Damage>0</Damage>
       <Speed>10</Speed>
       <LifetimeMS>3500</LifetimeMS>
       <Size>90</Size>
@@ -4624,6 +4855,7 @@
       <Acceleration>8</Acceleration>
       <SpeedClamp>20</SpeedClamp>
       <ArmorPiercing />
+      <ConditionEffect duration="4.0">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="33">
       <ObjectId>MV Firework Vortex</ObjectId>
@@ -4707,61 +4939,49 @@
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>177</Index>
+          <Index>439</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>178</Index>
+          <Index>440</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>179</Index>
+          <Index>441</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>180</Index>
+          <Index>442</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>181</Index>
+          <Index>443</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>182</Index>
+          <Index>444</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>183</Index>
+          <Index>445</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>184</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>185</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>186</Index>
+          <Index>446</Index>
         </Texture>
       </Frame>
       <Frame time="9999">
@@ -5140,6 +5360,7 @@
     </Presentation>
   </Object>
   <Object id="MV Pattern Helper 3" type="0x4fe8">
+    <DisplayId>Festival Wisp</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -5296,12 +5517,13 @@
     </Projectile>
     <Projectile id="19">
       <ObjectId>MV Long Lightning</ObjectId>
-      <Damage>40</Damage>
+      <Damage>60</Damage>
       <Speed>40</Speed>
       <LifetimeMS>7000</LifetimeMS>
       <Size>100</Size>
       <MultiHit />
       <ArmorPiercing />
+      <ConditionEffect duration="2">Silenced</ConditionEffect>
     </Projectile>
     <Projectile id="20">
       <ObjectId>MV Warning Projectile Variant</ObjectId>
@@ -5318,6 +5540,15 @@
       <LifetimeMS>2000</LifetimeMS>
       <Size>150</Size>
       <MultiHit />
+    </Projectile>
+    <Projectile id="41">
+      <ObjectId>MV Long Lightning</ObjectId>
+      <Damage>40</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>7000</LifetimeMS>
+      <Size>90</Size>
+      <MultiHit />
+      <ArmorPiercing />
     </Projectile>
     <Projectile id="5">
       <ObjectId>MV Leaf Scythe</ObjectId>
@@ -5587,61 +5818,49 @@
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>177</Index>
+          <Index>439</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>178</Index>
+          <Index>440</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>179</Index>
+          <Index>441</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>180</Index>
+          <Index>442</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>181</Index>
+          <Index>443</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>182</Index>
+          <Index>444</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>183</Index>
+          <Index>445</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>184</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>185</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>186</Index>
+          <Index>446</Index>
         </Texture>
       </Frame>
       <Frame time="9999">
@@ -6020,6 +6239,7 @@
     </Presentation>
   </Object>
   <Object id="MV Pattern Helper 4" type="0x4fe9">
+    <DisplayId>Festival Wisp</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -6224,61 +6444,49 @@
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>177</Index>
+          <Index>439</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>178</Index>
+          <Index>440</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>179</Index>
+          <Index>441</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>180</Index>
+          <Index>442</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>181</Index>
+          <Index>443</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>182</Index>
+          <Index>444</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>183</Index>
+          <Index>445</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>184</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>185</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>186</Index>
+          <Index>446</Index>
         </Texture>
       </Frame>
       <Frame time="9999">
@@ -6657,6 +6865,7 @@
     </Presentation>
   </Object>
   <Object id="MV Pattern Helper A" type="0x4feb">
+    <DisplayId>Festival Wisp</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -7010,11 +7219,11 @@
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Damage>60</Damage>
       <Speed>35</Speed>
-      <LifetimeMS>5100</LifetimeMS>
+      <LifetimeMS>5550</LifetimeMS>
       <Size>100</Size>
       <Acceleration>80</Acceleration>
       <AccelerationDelay>2400</AccelerationDelay>
-      <SpeedClamp>60</SpeedClamp>
+      <SpeedClamp>50</SpeedClamp>
       <ArmorPiercing />
       <MultiHit />
       <ConditionEffect duration="3">Sick</ConditionEffect>
@@ -7266,61 +7475,49 @@
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>177</Index>
+          <Index>439</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>178</Index>
+          <Index>440</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>179</Index>
+          <Index>441</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>180</Index>
+          <Index>442</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>181</Index>
+          <Index>443</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>182</Index>
+          <Index>444</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>183</Index>
+          <Index>445</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>184</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>185</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>186</Index>
+          <Index>446</Index>
         </Texture>
       </Frame>
       <Frame time="9999">
@@ -7699,6 +7896,7 @@
     </Presentation>
   </Object>
   <Object id="MV Pattern Helper B" type="0x4fec">
+    <DisplayId>Festival Wisp</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -7786,15 +7984,16 @@
     </Projectile>
     <Projectile id="10">
       <ObjectId>MV Gold Sonic Boom</ObjectId>
-      <Damage>60</Damage>
+      <Damage>40</Damage>
       <Speed>8</Speed>
-      <LifetimeMS>5000</LifetimeMS>
+      <LifetimeMS>7000</LifetimeMS>
       <Size>115</Size>
       <MultiHit />
       <ArmorPiercing />
       <Acceleration>15</Acceleration>
       <AccelerationDelay>0</AccelerationDelay>
       <SpeedClamp>28</SpeedClamp>
+      <ConditionEffect duration="3">Silenced</ConditionEffect>
     </Projectile>
     <Projectile id="11">
       <ObjectId>MV White Sonic Boom</ObjectId>
@@ -7818,11 +8017,11 @@
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Damage>60</Damage>
       <Speed>35</Speed>
-      <LifetimeMS>5100</LifetimeMS>
+      <LifetimeMS>5550</LifetimeMS>
       <Size>100</Size>
       <Acceleration>80</Acceleration>
       <AccelerationDelay>2400</AccelerationDelay>
-      <SpeedClamp>60</SpeedClamp>
+      <SpeedClamp>50</SpeedClamp>
       <ArmorPiercing />
       <MultiHit />
       <ConditionEffect duration="1">Sick</ConditionEffect>
@@ -7994,61 +8193,49 @@
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>177</Index>
+          <Index>439</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>178</Index>
+          <Index>440</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>179</Index>
+          <Index>441</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>180</Index>
+          <Index>442</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>181</Index>
+          <Index>443</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>182</Index>
+          <Index>444</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>183</Index>
+          <Index>445</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>184</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>185</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>186</Index>
+          <Index>446</Index>
         </Texture>
       </Frame>
       <Frame time="9999">
@@ -8427,6 +8614,7 @@
     </Presentation>
   </Object>
   <Object id="MV Pattern Helper C" type="0x4fed">
+    <DisplayId>Festival Wisp</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -8458,11 +8646,11 @@
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Damage>60</Damage>
       <Speed>35</Speed>
-      <LifetimeMS>5100</LifetimeMS>
+      <LifetimeMS>5550</LifetimeMS>
       <Size>100</Size>
       <Acceleration>80</Acceleration>
       <AccelerationDelay>2400</AccelerationDelay>
-      <SpeedClamp>60</SpeedClamp>
+      <SpeedClamp>50</SpeedClamp>
       <ArmorPiercing />
       <MultiHit />
       <ConditionEffect duration="1">Sick</ConditionEffect>
@@ -8560,61 +8748,49 @@
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>177</Index>
+          <Index>439</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>178</Index>
+          <Index>440</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>179</Index>
+          <Index>441</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>180</Index>
+          <Index>442</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>181</Index>
+          <Index>443</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>182</Index>
+          <Index>444</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>183</Index>
+          <Index>445</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>184</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>185</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>186</Index>
+          <Index>446</Index>
         </Texture>
       </Frame>
       <Frame time="9999">
@@ -8993,6 +9169,7 @@
     </Presentation>
   </Object>
   <Object id="MV Pattern Helper D" type="0x4fee">
+    <DisplayId>Festival Wisp</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -9024,11 +9201,11 @@
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Damage>60</Damage>
       <Speed>35</Speed>
-      <LifetimeMS>5100</LifetimeMS>
+      <LifetimeMS>5550</LifetimeMS>
       <Size>100</Size>
       <Acceleration>80</Acceleration>
       <AccelerationDelay>2400</AccelerationDelay>
-      <SpeedClamp>60</SpeedClamp>
+      <SpeedClamp>50</SpeedClamp>
       <ArmorPiercing />
       <MultiHit />
       <ConditionEffect duration="1">Sick</ConditionEffect>
@@ -9138,61 +9315,49 @@
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>177</Index>
+          <Index>439</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>178</Index>
+          <Index>440</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>179</Index>
+          <Index>441</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>180</Index>
+          <Index>442</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>181</Index>
+          <Index>443</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>182</Index>
+          <Index>444</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>183</Index>
+          <Index>445</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>moonlightVillageObjects16x16</File>
-          <Index>184</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>185</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>moonlightVillageObjects16x16</File>
-          <Index>186</Index>
+          <Index>446</Index>
         </Texture>
       </Frame>
       <Frame time="9999">
@@ -9571,6 +9736,7 @@
     </Presentation>
   </Object>
   <Object id="MV Telegraph 1" type="0x4ff0">
+    <DisplayId>Festival Wisp</DisplayId>
     <Class>Character</Class>
     <Texture>
       <File>invisible</File>
@@ -9643,6 +9809,7 @@
     </Presentation>
   </Object>
   <Object id="MV Telegraph 2" type="0x4ff5">
+    <DisplayId>Festival Wisp</DisplayId>
     <Class>Character</Class>
     <Texture>
       <File>invisible</File>
@@ -9736,6 +9903,7 @@
   </Object>
   <Object id="MV Main Teleporter" type="0x500b">
     <Enemy />
+    <DisplayId>Ethereal Fog</DisplayId>
     <Class>Character</Class>
     <Texture>
       <File>oryxHordeObjects16x16</File>
@@ -10749,7 +10917,7 @@
     </Projectile>
     <Projectile id="3">
       <ObjectId>MV Water Bolt</ObjectId>
-      <Damage>60</Damage>
+      <Damage>70</Damage>
       <ArmorPiercing />
       <Speed>20</Speed>
       <LifetimeMS>3300</LifetimeMS>
@@ -10762,7 +10930,7 @@
     </Projectile>
     <Projectile id="4">
       <ObjectId>MV Water Bolt</ObjectId>
-      <Damage>60</Damage>
+      <Damage>70</Damage>
       <ArmorPiercing />
       <Speed>30</Speed>
       <LifetimeMS>2950</LifetimeMS>
@@ -10775,7 +10943,7 @@
     </Projectile>
     <Projectile id="5">
       <ObjectId>MV Water Bolt</ObjectId>
-      <Damage>60</Damage>
+      <Damage>70</Damage>
       <ArmorPiercing />
       <Speed>40</Speed>
       <LifetimeMS>2650</LifetimeMS>
@@ -11935,11 +12103,12 @@
     </Projectile>
     <Projectile id="25">
       <ObjectId>MV Petal Scythe</ObjectId>
-      <Damage>70</Damage>
+      <Damage>30</Damage>
       <Speed>30</Speed>
       <LifetimeMS>5000</LifetimeMS>
       <Size>85</Size>
       <MultiHit />
+      <ArmorPiercing />
       <ConditionEffect duration="5">Curse</ConditionEffect>
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
     </Projectile>
@@ -11968,7 +12137,7 @@
     </Projectile>
     <Projectile id="28">
       <ObjectId>MV Large Cherry Petal</ObjectId>
-      <Damage>30</Damage>
+      <Damage>40</Damage>
       <Speed>40</Speed>
       <LifetimeMS>5000</LifetimeMS>
       <Size>140</Size>
@@ -11977,11 +12146,11 @@
       <Acceleration>-8</Acceleration>
       <SpeedClamp>7</SpeedClamp>
       <ArmorPiercing />
-      <ConditionEffect duration="3.5">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="29">
       <ObjectId>MV Large Cherry Petal</ObjectId>
-      <Damage>30</Damage>
+      <Damage>40</Damage>
       <Speed>33</Speed>
       <LifetimeMS>7000</LifetimeMS>
       <Size>140</Size>
@@ -11994,7 +12163,7 @@
     </Projectile>
     <Projectile id="30">
       <ObjectId>MV Autumn Leaves Alternate</ObjectId>
-      <Damage>50</Damage>
+      <Damage>60</Damage>
       <Speed>15</Speed>
       <LifetimeMS>4700</LifetimeMS>
       <Size>85</Size>
@@ -13861,7 +14030,7 @@
   <Object id="MV Lantern System" type="0x4fe6">
     <Enemy />
     <Class>Character</Class>
-    <MaxHitPoints>26250</MaxHitPoints>
+    <MaxHitPoints>25000</MaxHitPoints>
     <Texture>
       <File>moonlightVillageObjects16x16</File>
       <Index>0x77</Index>
@@ -13890,12 +14059,18 @@
         <Index>0x79</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>447</Index>
+      </Texture>
+    </AltTexture>
     <Z>0.1</Z>
     <Flying />
     <Invincible />
     <Size>110</Size>
     <ShadowSize>100</ShadowSize>
-    <Color>0xFFCE00</Color>
+    <Color>0xFFA400</Color>
     <AlwaysPositiveHealth />
     <NoCollisionWhenMovement />
     <Presentation>
@@ -13910,6 +14085,9 @@
       </Style>
       <Style id="FullLit">
         <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MaxLit">
+        <StyleStep altTextureId="5">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
   </Object>
@@ -13964,6 +14142,7 @@
     <Flying />
     <NoMiniMap />
     <ShadowColor>0xD9C59A</ShadowColor>
+    <ShadowSize>50</ShadowSize>
     <NoCollisionWhenMovement />
     <Animation period="0" prob="1" id="BlackFlameAnimation">
       <Frame time="0.15">
@@ -15689,8 +15868,8 @@
     <FameBonus>4</FameBonus>
     <feedPower>0</feedPower>
     <Soulbound />
-    <OnPlayerShootActivate cooldown="2" proc="1" objectId="MV Basic Bait" creep="true" throwTime="1.6" color="0xDEF0F2" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="1.6">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate cooldown="1.8" proc="1" objectId="MV Basic Bait" creep="true" throwTime="1.6" color="0xDEF0F2" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="1.2">ConditionEffectSelf</OnPlayerShootActivate>
   </Object>
   <Object id="MV Intermediate Fishing Rod" type="0x50f2">
     <DisplayId>Intermediate Fishing Rod</DisplayId>
@@ -15711,8 +15890,30 @@
     <FameBonus>5</FameBonus>
     <feedPower>250</feedPower>
     <Soulbound />
-    <OnPlayerShootActivate cooldown="1.8" proc="1" objectId="MV Intermediate Bait" creep="true" throwTime="1.6" color="0xDEF0F2" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="1.4">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate cooldown="1.6" proc="1" objectId="MV Intermediate Bait" creep="true" throwTime="1.6" color="0xDEF0F2" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="1.2">ConditionEffectSelf</OnPlayerShootActivate>
+  </Object>
+  <Object id="MV Expert Fishing Rod" type="0x514a">
+    <DisplayId>Expert Fishing Rod</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>563</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A fishing rod with a steel alloy frame. Its light weight allows for faster casting.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Only usable in the Moonlight Village. Aim at ripples in the water to catch fish!" name="Fishing" />
+      <EffectInfo name="On Equip:" description="" />
+      <EffectInfo name="" description="+5 Fishing" />
+    </ExtraTooltipData>
+    <BagType>4</BagType>
+    <FameBonus>5</FameBonus>
+    <feedPower>250</feedPower>
+    <Soulbound />
+    <OnPlayerShootActivate cooldown="1.6" proc="1" objectId="MV Expert Bait" creep="true" throwTime="1.4" color="0xDEF0F2" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
   </Object>
   <Object id="MV Master Fishing Rod" type="0x50f3">
     <DisplayId>Master Fishing Rod</DisplayId>
@@ -15723,18 +15924,18 @@
       <Index>488</Index>
     </Texture>
     <SlotType>9</SlotType>
-    <Description>A fishing rod used by expert fishers. It requires skill and precision to use to its full potential.</Description>
+    <Description>A fishing rod used by master fishers. It requires skill and precision to use to its full potential.</Description>
     <ExtraTooltipData>
       <EffectInfo description="Only usable in the Moonlight Village. Aim at ripples in the water to catch fish!" name="Fishing" />
       <EffectInfo name="On Equip:" description="" />
-      <EffectInfo name="" description="+6 Fishing" />
+      <EffectInfo name="" description="+7 Fishing" />
     </ExtraTooltipData>
     <BagType>6</BagType>
     <FameBonus>6</FameBonus>
     <feedPower>500</feedPower>
     <Soulbound />
-    <OnPlayerShootActivate cooldown="1.6" proc="1" objectId="MV Master Bait" creep="true" throwTime="1.4" color="0xDEF0F2" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="1.2">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate cooldown="1.4" proc="1" objectId="MV Master Bait" creep="true" throwTime="1.4" color="0xDEF0F2" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
   </Object>
   <Object id="MV Legendary Fishing Rod" type="0x50f6">
     <DisplayId>Legendary Fishing Rod</DisplayId>
@@ -15755,8 +15956,8 @@
     <FameBonus>7</FameBonus>
     <feedPower>750</feedPower>
     <Soulbound />
-    <OnPlayerShootActivate cooldown="1.4" proc="1" objectId="MV Legendary Bait" creep="true" throwTime="1.4" color="0xDEF0F2" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate cooldown="1.4" proc="1" objectId="MV Legendary Bait" creep="true" throwTime="1.2" color="0xDEF0F2" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="0.8">ConditionEffectSelf</OnPlayerShootActivate>
   </Object>
   <Object id="MV Basic Bait" type="0x50e6">
     <Class>Character</Class>
@@ -15830,6 +16031,24 @@
         <Index>425</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="33">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>460</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="37">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>463</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="38">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>464</Index>
+      </Texture>
+    </AltTexture>
     <AltTexture id="7">
       <Texture>
         <File>moonlightVillageObjects16x16</File>
@@ -15884,6 +16103,30 @@
         <Index>426</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="34">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>461</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="39">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>465</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="40">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>466</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="41">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>467</Index>
+      </Texture>
+    </AltTexture>
     <AltTexture id="13">
       <Texture>
         <File>moonlightVillageObjects16x16</File>
@@ -15926,6 +16169,24 @@
         <Index>427</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="35">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>462</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="42">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>468</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="43">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>469</Index>
+      </Texture>
+    </AltTexture>
     <AltTexture id="17">
       <Texture>
         <File>moonlightVillageObjects16x16</File>
@@ -15954,6 +16215,24 @@
       <Texture>
         <File>moonlightVillageObjects16x16</File>
         <Index>428</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="36">
+      <Texture>
+        <File>moonlightVillageObjects32x32</File>
+        <Index>89</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="44">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>470</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="45">
+      <Texture>
+        <File>moonlightVillageObjects32x32</File>
+        <Index>90</Index>
       </Texture>
     </AltTexture>
     <Size>-1</Size>
@@ -16009,9 +16288,62 @@
         </Texture>
       </Frame>
     </Animation>
+    <Animation period="0" prob="1" id="MissedFishAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>452</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>453</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>454</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>455</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>456</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>457</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>458</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
     <Presentation>
       <Style id="NoFish">
         <StyleStep id="NoFishAnimation">SetAnimation</StyleStep>
+      </Style>
+      <Style id="MissedFish">
+        <StyleStep id="MissedFishAnimation">SetAnimation</StyleStep>
       </Style>
       <Style id="LowFish1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -16046,6 +16378,15 @@
       <Style id="LowFish11">
         <StyleStep altTextureId="29">SetAltTexture</StyleStep>
       </Style>
+      <Style id="LowFish12">
+        <StyleStep altTextureId="33">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish13">
+        <StyleStep altTextureId="37">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish14">
+        <StyleStep altTextureId="38">SetAltTexture</StyleStep>
+      </Style>
       <Style id="MidFish1">
         <StyleStep altTextureId="7">SetAltTexture</StyleStep>
       </Style>
@@ -16073,6 +16414,18 @@
       <Style id="MidFish9">
         <StyleStep altTextureId="30">SetAltTexture</StyleStep>
       </Style>
+      <Style id="MidFish10">
+        <StyleStep altTextureId="34">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish11">
+        <StyleStep altTextureId="39">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish12">
+        <StyleStep altTextureId="40">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish13">
+        <StyleStep altTextureId="41">SetAltTexture</StyleStep>
+      </Style>
       <Style id="HighFish1">
         <StyleStep altTextureId="13">SetAltTexture</StyleStep>
       </Style>
@@ -16094,6 +16447,15 @@
       <Style id="HighFish7">
         <StyleStep altTextureId="31">SetAltTexture</StyleStep>
       </Style>
+      <Style id="HighFish8">
+        <StyleStep altTextureId="35">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish9">
+        <StyleStep altTextureId="42">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish10">
+        <StyleStep altTextureId="43">SetAltTexture</StyleStep>
+      </Style>
       <Style id="SuperFish1">
         <StyleStep altTextureId="17">SetAltTexture</StyleStep>
       </Style>
@@ -16108,6 +16470,15 @@
       </Style>
       <Style id="SuperFish5">
         <StyleStep altTextureId="32">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish6">
+        <StyleStep altTextureId="36">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish7">
+        <StyleStep altTextureId="44">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish8">
+        <StyleStep altTextureId="45">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
   </Object>
@@ -16183,6 +16554,24 @@
         <Index>425</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="33">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>460</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="37">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>463</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="38">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>464</Index>
+      </Texture>
+    </AltTexture>
     <AltTexture id="7">
       <Texture>
         <File>moonlightVillageObjects16x16</File>
@@ -16237,6 +16626,30 @@
         <Index>426</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="34">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>461</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="39">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>465</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="40">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>466</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="41">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>467</Index>
+      </Texture>
+    </AltTexture>
     <AltTexture id="13">
       <Texture>
         <File>moonlightVillageObjects16x16</File>
@@ -16279,6 +16692,24 @@
         <Index>427</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="35">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>462</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="42">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>468</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="43">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>469</Index>
+      </Texture>
+    </AltTexture>
     <AltTexture id="17">
       <Texture>
         <File>moonlightVillageObjects16x16</File>
@@ -16307,6 +16738,24 @@
       <Texture>
         <File>moonlightVillageObjects16x16</File>
         <Index>428</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="36">
+      <Texture>
+        <File>moonlightVillageObjects32x32</File>
+        <Index>89</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="44">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>470</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="45">
+      <Texture>
+        <File>moonlightVillageObjects32x32</File>
+        <Index>90</Index>
       </Texture>
     </AltTexture>
     <Size>-1</Size>
@@ -16362,9 +16811,62 @@
         </Texture>
       </Frame>
     </Animation>
+    <Animation period="0" prob="1" id="MissedFishAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>452</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>453</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>454</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>455</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>456</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>457</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>458</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
     <Presentation>
       <Style id="NoFish">
         <StyleStep id="NoFishAnimation">SetAnimation</StyleStep>
+      </Style>
+      <Style id="MissedFish">
+        <StyleStep id="MissedFishAnimation">SetAnimation</StyleStep>
       </Style>
       <Style id="LowFish1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -16399,6 +16901,15 @@
       <Style id="LowFish11">
         <StyleStep altTextureId="29">SetAltTexture</StyleStep>
       </Style>
+      <Style id="LowFish12">
+        <StyleStep altTextureId="33">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish13">
+        <StyleStep altTextureId="37">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish14">
+        <StyleStep altTextureId="38">SetAltTexture</StyleStep>
+      </Style>
       <Style id="MidFish1">
         <StyleStep altTextureId="7">SetAltTexture</StyleStep>
       </Style>
@@ -16426,6 +16937,18 @@
       <Style id="MidFish9">
         <StyleStep altTextureId="30">SetAltTexture</StyleStep>
       </Style>
+      <Style id="MidFish10">
+        <StyleStep altTextureId="34">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish11">
+        <StyleStep altTextureId="39">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish12">
+        <StyleStep altTextureId="40">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish13">
+        <StyleStep altTextureId="41">SetAltTexture</StyleStep>
+      </Style>
       <Style id="HighFish1">
         <StyleStep altTextureId="13">SetAltTexture</StyleStep>
       </Style>
@@ -16447,6 +16970,15 @@
       <Style id="HighFish7">
         <StyleStep altTextureId="31">SetAltTexture</StyleStep>
       </Style>
+      <Style id="HighFish8">
+        <StyleStep altTextureId="35">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish9">
+        <StyleStep altTextureId="42">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish10">
+        <StyleStep altTextureId="43">SetAltTexture</StyleStep>
+      </Style>
       <Style id="SuperFish1">
         <StyleStep altTextureId="17">SetAltTexture</StyleStep>
       </Style>
@@ -16461,6 +16993,538 @@
       </Style>
       <Style id="SuperFish5">
         <StyleStep altTextureId="32">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish6">
+        <StyleStep altTextureId="36">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish7">
+        <StyleStep altTextureId="44">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish8">
+        <StyleStep altTextureId="45">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="MV Expert Bait" type="0x514b">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>403</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>404</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>405</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>406</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>400</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>402</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="20">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>417</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="22">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>419</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="26">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>423</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="28">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>424</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="29">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>425</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="33">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>460</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="37">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>463</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="38">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>464</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="7">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>399</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="8">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>401</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="9">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>407</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="10">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>410</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="11">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>396</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="12">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>408</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="19">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>416</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="25">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>422</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="30">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>426</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="34">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>461</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="39">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>465</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="40">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>466</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="41">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>467</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="13">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>395</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="14">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>397</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="15">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>394</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="16">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>398</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="21">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>418</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="23">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>421</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="31">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>427</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="35">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>462</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="42">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>468</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="43">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>469</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="17">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>393</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="18">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>409</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="24">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>420</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="27">
+      <Texture>
+        <File>moonlightVillageObjects32x32</File>
+        <Index>68</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="32">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>428</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="36">
+      <Texture>
+        <File>moonlightVillageObjects32x32</File>
+        <Index>89</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="44">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>470</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="45">
+      <Texture>
+        <File>moonlightVillageObjects32x32</File>
+        <Index>90</Index>
+      </Texture>
+    </AltTexture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Animation period="0" prob="1" id="NoFishAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>411</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>412</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>413</Index>
+        </Texture>
+      </Frame>
+      <Frame time="1">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>414</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>413</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>412</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>411</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation period="0" prob="1" id="MissedFishAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>452</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>453</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>454</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>455</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>456</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>457</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>458</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="NoFish">
+        <StyleStep id="NoFishAnimation">SetAnimation</StyleStep>
+      </Style>
+      <Style id="MissedFish">
+        <StyleStep id="MissedFishAnimation">SetAnimation</StyleStep>
+      </Style>
+      <Style id="LowFish1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish5">
+        <StyleStep altTextureId="5">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish6">
+        <StyleStep altTextureId="6">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish7">
+        <StyleStep altTextureId="20">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish8">
+        <StyleStep altTextureId="22">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish9">
+        <StyleStep altTextureId="26">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish10">
+        <StyleStep altTextureId="28">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish11">
+        <StyleStep altTextureId="29">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish12">
+        <StyleStep altTextureId="33">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish13">
+        <StyleStep altTextureId="37">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish14">
+        <StyleStep altTextureId="38">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish1">
+        <StyleStep altTextureId="7">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish2">
+        <StyleStep altTextureId="8">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish3">
+        <StyleStep altTextureId="9">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish4">
+        <StyleStep altTextureId="10">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish5">
+        <StyleStep altTextureId="11">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish6">
+        <StyleStep altTextureId="12">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish7">
+        <StyleStep altTextureId="19">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish8">
+        <StyleStep altTextureId="25">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish9">
+        <StyleStep altTextureId="30">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish10">
+        <StyleStep altTextureId="34">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish11">
+        <StyleStep altTextureId="39">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish12">
+        <StyleStep altTextureId="40">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish13">
+        <StyleStep altTextureId="41">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish1">
+        <StyleStep altTextureId="13">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish2">
+        <StyleStep altTextureId="14">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish3">
+        <StyleStep altTextureId="15">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish4">
+        <StyleStep altTextureId="16">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish5">
+        <StyleStep altTextureId="21">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish6">
+        <StyleStep altTextureId="23">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish7">
+        <StyleStep altTextureId="31">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish8">
+        <StyleStep altTextureId="35">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish9">
+        <StyleStep altTextureId="42">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish10">
+        <StyleStep altTextureId="43">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish1">
+        <StyleStep altTextureId="17">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish2">
+        <StyleStep altTextureId="18">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish3">
+        <StyleStep altTextureId="24">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish4">
+        <StyleStep altTextureId="27">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish5">
+        <StyleStep altTextureId="32">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish6">
+        <StyleStep altTextureId="36">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish7">
+        <StyleStep altTextureId="44">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish8">
+        <StyleStep altTextureId="45">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
   </Object>
@@ -16536,6 +17600,24 @@
         <Index>425</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="33">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>460</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="37">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>463</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="38">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>464</Index>
+      </Texture>
+    </AltTexture>
     <AltTexture id="7">
       <Texture>
         <File>moonlightVillageObjects16x16</File>
@@ -16590,6 +17672,30 @@
         <Index>426</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="34">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>461</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="39">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>465</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="40">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>466</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="41">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>467</Index>
+      </Texture>
+    </AltTexture>
     <AltTexture id="13">
       <Texture>
         <File>moonlightVillageObjects16x16</File>
@@ -16632,6 +17738,24 @@
         <Index>427</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="35">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>462</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="42">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>468</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="43">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>469</Index>
+      </Texture>
+    </AltTexture>
     <AltTexture id="17">
       <Texture>
         <File>moonlightVillageObjects16x16</File>
@@ -16660,6 +17784,24 @@
       <Texture>
         <File>moonlightVillageObjects16x16</File>
         <Index>428</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="36">
+      <Texture>
+        <File>moonlightVillageObjects32x32</File>
+        <Index>89</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="44">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>470</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="45">
+      <Texture>
+        <File>moonlightVillageObjects32x32</File>
+        <Index>90</Index>
       </Texture>
     </AltTexture>
     <Size>-1</Size>
@@ -16715,9 +17857,62 @@
         </Texture>
       </Frame>
     </Animation>
+    <Animation period="0" prob="1" id="MissedFishAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>452</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>453</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>454</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>455</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>456</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>457</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>458</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
     <Presentation>
       <Style id="NoFish">
         <StyleStep id="NoFishAnimation">SetAnimation</StyleStep>
+      </Style>
+      <Style id="MissedFish">
+        <StyleStep id="MissedFishAnimation">SetAnimation</StyleStep>
       </Style>
       <Style id="LowFish1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -16752,6 +17947,15 @@
       <Style id="LowFish11">
         <StyleStep altTextureId="29">SetAltTexture</StyleStep>
       </Style>
+      <Style id="LowFish12">
+        <StyleStep altTextureId="33">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish13">
+        <StyleStep altTextureId="37">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish14">
+        <StyleStep altTextureId="38">SetAltTexture</StyleStep>
+      </Style>
       <Style id="MidFish1">
         <StyleStep altTextureId="7">SetAltTexture</StyleStep>
       </Style>
@@ -16779,6 +17983,18 @@
       <Style id="MidFish9">
         <StyleStep altTextureId="30">SetAltTexture</StyleStep>
       </Style>
+      <Style id="MidFish10">
+        <StyleStep altTextureId="34">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish11">
+        <StyleStep altTextureId="39">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish12">
+        <StyleStep altTextureId="40">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish13">
+        <StyleStep altTextureId="41">SetAltTexture</StyleStep>
+      </Style>
       <Style id="HighFish1">
         <StyleStep altTextureId="13">SetAltTexture</StyleStep>
       </Style>
@@ -16800,6 +18016,15 @@
       <Style id="HighFish7">
         <StyleStep altTextureId="31">SetAltTexture</StyleStep>
       </Style>
+      <Style id="HighFish8">
+        <StyleStep altTextureId="35">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish9">
+        <StyleStep altTextureId="42">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish10">
+        <StyleStep altTextureId="43">SetAltTexture</StyleStep>
+      </Style>
       <Style id="SuperFish1">
         <StyleStep altTextureId="17">SetAltTexture</StyleStep>
       </Style>
@@ -16814,6 +18039,15 @@
       </Style>
       <Style id="SuperFish5">
         <StyleStep altTextureId="32">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish6">
+        <StyleStep altTextureId="36">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish7">
+        <StyleStep altTextureId="44">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish8">
+        <StyleStep altTextureId="45">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
   </Object>
@@ -16889,6 +18123,24 @@
         <Index>425</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="33">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>460</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="37">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>463</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="38">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>464</Index>
+      </Texture>
+    </AltTexture>
     <AltTexture id="7">
       <Texture>
         <File>moonlightVillageObjects16x16</File>
@@ -16943,6 +18195,30 @@
         <Index>426</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="34">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>461</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="39">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>465</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="40">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>466</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="41">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>467</Index>
+      </Texture>
+    </AltTexture>
     <AltTexture id="13">
       <Texture>
         <File>moonlightVillageObjects16x16</File>
@@ -16985,6 +18261,24 @@
         <Index>427</Index>
       </Texture>
     </AltTexture>
+    <AltTexture id="35">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>462</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="42">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>468</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="43">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>469</Index>
+      </Texture>
+    </AltTexture>
     <AltTexture id="17">
       <Texture>
         <File>moonlightVillageObjects16x16</File>
@@ -17013,6 +18307,24 @@
       <Texture>
         <File>moonlightVillageObjects16x16</File>
         <Index>428</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="36">
+      <Texture>
+        <File>moonlightVillageObjects32x32</File>
+        <Index>89</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="44">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>470</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="45">
+      <Texture>
+        <File>moonlightVillageObjects32x32</File>
+        <Index>90</Index>
       </Texture>
     </AltTexture>
     <Size>-1</Size>
@@ -17068,9 +18380,62 @@
         </Texture>
       </Frame>
     </Animation>
+    <Animation period="0" prob="1" id="MissedFishAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>452</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>453</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>454</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>455</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>456</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>457</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects16x16</File>
+          <Index>458</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
     <Presentation>
       <Style id="NoFish">
         <StyleStep id="NoFishAnimation">SetAnimation</StyleStep>
+      </Style>
+      <Style id="MissedFish">
+        <StyleStep id="MissedFishAnimation">SetAnimation</StyleStep>
       </Style>
       <Style id="LowFish1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -17105,6 +18470,15 @@
       <Style id="LowFish11">
         <StyleStep altTextureId="29">SetAltTexture</StyleStep>
       </Style>
+      <Style id="LowFish12">
+        <StyleStep altTextureId="33">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish13">
+        <StyleStep altTextureId="37">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="LowFish14">
+        <StyleStep altTextureId="38">SetAltTexture</StyleStep>
+      </Style>
       <Style id="MidFish1">
         <StyleStep altTextureId="7">SetAltTexture</StyleStep>
       </Style>
@@ -17132,6 +18506,18 @@
       <Style id="MidFish9">
         <StyleStep altTextureId="30">SetAltTexture</StyleStep>
       </Style>
+      <Style id="MidFish10">
+        <StyleStep altTextureId="34">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish11">
+        <StyleStep altTextureId="39">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish12">
+        <StyleStep altTextureId="40">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="MidFish13">
+        <StyleStep altTextureId="41">SetAltTexture</StyleStep>
+      </Style>
       <Style id="HighFish1">
         <StyleStep altTextureId="13">SetAltTexture</StyleStep>
       </Style>
@@ -17153,6 +18539,15 @@
       <Style id="HighFish7">
         <StyleStep altTextureId="31">SetAltTexture</StyleStep>
       </Style>
+      <Style id="HighFish8">
+        <StyleStep altTextureId="35">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish9">
+        <StyleStep altTextureId="42">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="HighFish10">
+        <StyleStep altTextureId="43">SetAltTexture</StyleStep>
+      </Style>
       <Style id="SuperFish1">
         <StyleStep altTextureId="17">SetAltTexture</StyleStep>
       </Style>
@@ -17167,6 +18562,15 @@
       </Style>
       <Style id="SuperFish5">
         <StyleStep altTextureId="32">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish6">
+        <StyleStep altTextureId="36">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish7">
+        <StyleStep altTextureId="44">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SuperFish8">
+        <StyleStep altTextureId="45">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
   </Object>
@@ -18741,14 +20145,14 @@
     <Class>Character</Class>
     <Texture>
       <File>moonlightVillageObjects8x8</File>
-      <Index>0xa3</Index>
+      <Index>538</Index>
     </Texture>
-    <Size>200</Size>
-    <ShadowSize>0</ShadowSize>
+    <Size>140</Size>
+    <ShadowSize>80</ShadowSize>
     <HitSound>monster/stone_walls_hit</HitSound>
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>0</Defense>
-    <Exp>8000</Exp>
+    <Exp>40000</Exp>
   </Object>
   <Object id="MV Regular Loot 1" type="0x504a">
     <Enemy />
@@ -18760,7 +20164,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>4000</Exp>
+    <Exp>30000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Regular Loot 2" type="0x504b">
@@ -18773,7 +20177,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>6000</Exp>
+    <Exp>35000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Regular Loot 3" type="0x504c">
@@ -18786,7 +20190,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>8000</Exp>
+    <Exp>40000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Regular Loot 4" type="0x504d">
@@ -18799,7 +20203,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>10000</Exp>
+    <Exp>45000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Extra Loot 0" type="0x504f">
@@ -18812,7 +20216,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>4000</Exp>
+    <Exp>40000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Extra Loot 1" type="0x5050">
@@ -18825,7 +20229,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>4000</Exp>
+    <Exp>30000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Extra Loot 2" type="0x5051">
@@ -18838,7 +20242,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>6000</Exp>
+    <Exp>35000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Extra Loot 3" type="0x5052">
@@ -18851,7 +20255,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>8000</Exp>
+    <Exp>40000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Extra Loot 4" type="0x5053">
@@ -18864,20 +20268,20 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>10000</Exp>
+    <Exp>45000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Special Loot 0" type="0x5054">
     <Enemy />
     <Class>Character</Class>
     <Texture>
-      <File>lofiObj3</File>
-      <Index>0x466</Index>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>538</Index>
     </Texture>
-    <Size>160</Size>
-    <ShadowSize>0</ShadowSize>
+    <Size>140</Size>
+    <ShadowSize>80</ShadowSize>
     <NoMiniMap />
-    <Exp>8000</Exp>
+    <Exp>75000</Exp>
     <HitSound>monster/stone_walls_hit</HitSound>
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>0</Defense>
@@ -18892,7 +20296,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>4000</Exp>
+    <Exp>65000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Special Loot 2" type="0x5056">
@@ -18905,7 +20309,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>6000</Exp>
+    <Exp>70000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Special Loot 3" type="0x5057">
@@ -18918,7 +20322,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>8000</Exp>
+    <Exp>75000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Special Loot 4" type="0x5058">
@@ -18931,7 +20335,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>10000</Exp>
+    <Exp>80000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Premium Loot 0" type="0x5059">
@@ -18944,7 +20348,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>4000</Exp>
+    <Exp>75000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Premium Loot 1" type="0x505a">
@@ -18957,7 +20361,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>4000</Exp>
+    <Exp>65000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Premium Loot 2" type="0x505b">
@@ -18970,7 +20374,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>6000</Exp>
+    <Exp>70000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Premium Loot 3" type="0x505c">
@@ -18983,7 +20387,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>8000</Exp>
+    <Exp>75000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Premium Loot 4" type="0x505d">
@@ -18996,7 +20400,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>10000</Exp>
+    <Exp>80000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Ultra Loot" type="0x50a0">
@@ -19022,7 +20426,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>4000</Exp>
+    <Exp>25000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Basic Loot 2" type="0x5063">
@@ -19035,7 +20439,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>6000</Exp>
+    <Exp>30000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Basic Loot 3" type="0x5064">
@@ -19048,7 +20452,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>8000</Exp>
+    <Exp>35000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Basic Loot 4" type="0x5065">
@@ -19061,7 +20465,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>8000</Exp>
+    <Exp>40000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Plain Loot 1" type="0x5066">
@@ -19074,7 +20478,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>4000</Exp>
+    <Exp>25000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Plain Loot 2" type="0x5067">
@@ -19087,7 +20491,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>6000</Exp>
+    <Exp>30000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Plain Loot 3" type="0x5068">
@@ -19100,7 +20504,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>8000</Exp>
+    <Exp>35000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Plain Loot 4" type="0x5069">
@@ -19113,7 +20517,7 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Exp>8000</Exp>
+    <Exp>40000</Exp>
     <Invincible />
   </Object>
   <Object id="MV Fishing Loot 1" type="0x5135">
@@ -19127,7 +20531,7 @@
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>110</Size>
-    <Exp>2000</Exp>
+    <Exp>10000</Exp>
   </Object>
   <Object id="MV Fishing Loot 2" type="0x5136">
     <Enemy />
@@ -19140,7 +20544,7 @@
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>110</Size>
-    <Exp>4000</Exp>
+    <Exp>15000</Exp>
   </Object>
   <Object id="MV Fishing Loot 3" type="0x5137">
     <Enemy />
@@ -19153,7 +20557,7 @@
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>110</Size>
-    <Exp>6000</Exp>
+    <Exp>20000</Exp>
   </Object>
   <Object id="MV Fishing Loot 4" type="0x5138">
     <Enemy />
@@ -19166,7 +20570,7 @@
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>110</Size>
-    <Exp>8000</Exp>
+    <Exp>25000</Exp>
   </Object>
   <Object id="MV Fishing Loot 5" type="0x5139">
     <Enemy />
@@ -19179,7 +20583,7 @@
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>110</Size>
-    <Exp>8000</Exp>
+    <Exp>30000</Exp>
   </Object>
   <Object id="MV Fishing Loot 6" type="0x513a">
     <Enemy />
@@ -19192,7 +20596,20 @@
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>110</Size>
-    <Exp>8000</Exp>
+    <Exp>35000</Exp>
+  </Object>
+  <Object id="MV Fishing Loot 7" type="0x514c">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>416</Index>
+    </Texture>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Size>110</Size>
+    <Exp>35000</Exp>
   </Object>
   <Object id="Moonlit Epic Quest Chest" type="0x5005">
     <DisplayId>Moonlit Epic Quest Chest</DisplayId>
@@ -19519,6 +20936,7 @@
     </Presentation>
   </Object>
   <Object id="MV Event Helper" type="0x5077">
+    <DisplayId>Festival Wisp</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <Texture>
