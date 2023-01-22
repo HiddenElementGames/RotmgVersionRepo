@@ -1,0 +1,3821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0x190" id="Apple">
+    <DisplayId>Apple of Extreme Maxening</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x0f</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It's healthy!\nMaxes any class to 8/8 and adds a Backpack.</Description>
+    <Sound>use_potion</Sound>
+    <Activate stat="XP" amount="18050">IncrementStat</Activate>
+    <Activate stat="MAXHP" amount="2000">IncrementStat</Activate>
+    <Activate stat="MAXMP" amount="2000">IncrementStat</Activate>
+    <Activate stat="ATT" amount="2000">IncrementStat</Activate>
+    <Activate stat="DEF" amount="2000">IncrementStat</Activate>
+    <Activate stat="SPD" amount="2000">IncrementStat</Activate>
+    <Activate stat="VIT" amount="2000">IncrementStat</Activate>
+    <Activate stat="WIS" amount="2000">IncrementStat</Activate>
+    <Activate stat="DEX" amount="2000">IncrementStat</Activate>
+    <Consumable />
+    <Backpack />
+    <Potion />
+    <BagType>8</BagType>
+    <Soulbound />
+  </Object>
+  <Object type="0x18f" id="Gift">
+    <DisplayId>Gift of Krathan</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiEnvironment3</File>
+      <Index>0x22</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use it and simply hit the class you need equipment for! Recommended to be used in your vault.\n\nConsume responsibly!</Description>
+    <Sound>use_potion</Sound>
+    <Activate objectId="Testing Gift Spawner">Pet</Activate>
+    <Consumable />
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>50000</feedPower>
+    <AdminOnly />
+  </Object>
+  <Object type="0x641" id="Keys">
+    <DisplayId>Skeleton Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x21</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Opens everything! For testing purposes.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Key Spawner">Create</Activate>
+    <Consumable />
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>50000</feedPower>
+    <AdminOnly />
+  </Object>
+  <Object type="0x933" id="TKeys">
+    <DisplayId>Testing Gift</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x20</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Spawns an object that drops keys and items. For testing purposes.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Testing Key Dropper">Create</Activate>
+    <Consumable />
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>50000</feedPower>
+    <AdminOnly />
+  </Object>
+  <Object type="0x174f" id="Test TP">
+    <DisplayId>Godlands Teleporter</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xf2</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Teleports the user near the mountains.</Description>
+    <Soulbound />
+    <Activate id="Death Flower">TeleportToObject</Activate>
+    <BagType>8</BagType>
+    <InvUse />
+    <AdminOnly />
+  </Object>
+  <Object type="0x10fa" id="Test Close">
+    <DisplayId>Realm Closer</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xf4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Kills 1 Heroes of Oryx.</Description>
+    <Soulbound />
+    <Activate amount="1">KillRealmHeroes</Activate>
+    <BagType>8</BagType>
+    <InvUse />
+    <AdminOnly />
+  </Object>
+  <Object type="0x0249" id="Test Ring">
+    <DisplayId>Creator's Ring</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="2">
+      <File>lofiObj</File>
+      <Index>0x2d</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A ring worn by powerful creators in the goal to observe their brand new creation.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="99999">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="99999">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="5000">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>1500</feedPower>
+    <Soulbound />
+    <UniqueID />
+    <AdminOnly />
+  </Object>
+  <Object type="0x705e" id="InvinceMe">
+    <DisplayId>Testosterone</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x15a</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Renders the user invincible for a day through sheer confidence.</Description>
+    <InvUse />
+    <BagType>6</BagType>
+    <Activate effect="Invincible" duration="86400">ConditionEffectSelf</Activate>
+    <Soulbound />
+    <AdminOnly />
+  </Object>
+  <Object type="0x47e" id="Campaign Points Test">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="-2">
+      <File>lofiObj2</File>
+      <Index>0xac</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this item to gain 10 Campaign Points.\n\nSprite Credits: Artauris</Description>
+    <Soulbound />
+    <Activate amount="10">GrantSupporterPoints</Activate>
+    <BagType>7</BagType>
+    <Treasure />
+    <Track />
+    <Consumable />
+  </Object>
+  <Object type="0xff3b" id="Trick Mace">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10e</Index>
+    </Texture>
+    <SlotType>29</SlotType>
+    <Projectile>
+      <ObjectId>AoO Beam Base</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>275</MaxDamage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NumProjectiles>1</NumProjectiles>
+    <Description>A wicked mace constructed by Dr. Terrible to impose the Mad God's will. It stands as one of Oryx's greatest attempts at merging magic and technology.</Description>
+    <Sound>spell/magic_nova</Sound>
+    <Ability>
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0x10d</Index>
+      </Texture>
+      <Activate objectId="AoO Summon" maxSpawnDistance="2.0">SpawnCreep</Activate>
+      <OnPlayerAbilityActivate cooldown="30" damageThreshold="0" proc="1" objectId="AoO Summon Big">SpawnCreep</OnPlayerAbilityActivate>
+      <OnSwitchAbilityActivate cooldown="30" damageThreshold="0" proc="1" objectId="AoO Summon Big">SpawnCreep</OnSwitchAbilityActivate>
+      <Cooldown>3</Cooldown>
+      <MpCost>100</MpCost>
+      <SwitchTime>2</SwitchTime>
+      <ExtraTooltipData>
+        <EffectInfo name="Summon" description="Orbiting Oryx Eye." />
+        <EffectInfo name="Lifetime" description="10.2 seconds" />
+        <EffectInfo name="On Ability Use" description="Summons an exalted Oryx Eye." />
+        <EffectInfo name="Cooldown" description="30 seconds." />
+        <EffectInfo name="Damage" description="375 - 525" />
+      </ExtraTooltipData>
+    </Ability>
+    <Ability name="Spawn Unicorns">
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0x10f</Index>
+      </Texture>
+      <Activate objectId="Summon Steed" maxSpawnDistance="8.0">SpawnCreep</Activate>
+      <Cooldown>1</Cooldown>
+      <MpCost>100</MpCost>
+      <SwitchTime>2</SwitchTime>
+      <OnSwitchAbilityActivate proc="1" duration="5" effect="Armored">ConditionEffectSelf</OnSwitchAbilityActivate>
+      <ExtraTooltipData>
+        <EffectInfo name="Summons" description="Wandering steed, click or hold your Summon Control button to move it." />
+        <EffectInfo name="Lifetime" description="10 seconds" />
+      </ExtraTooltipData>
+    </Ability>
+    <ActivateOnEquip stat="MAXHP" amount="80">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>100</MpCost>
+    <feedPower>700</feedPower>
+    <XPBonus>7</XPBonus>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,MACE,UT,TAB_UT,POWERTIER_A,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0xff3a" id="Trick Sheath">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x124</Index>
+    </Texture>
+    <SlotType>30</SlotType>
+    <Tier>10</Tier>
+    <Description>A standard, lightweight sheath fit for enabling quick draws in a forward dash.</Description>
+    <OnSwitchAbilityActivate proc="1" targetMouse="false" maxSpawnDistance="2.0" cooldown="0.0" objectId="Kensei ST Summon">SpawnCreep</OnSwitchAbilityActivate>
+    <ExtraTooltipData>
+      <EffectInfo name="Max Dash Distance" description="3.5 tiles" />
+      <EffectInfo name="Trail Damage" description="200" />
+      <EffectInfo name="Multiplier" description="1/5/10/16/23 % to ATT" />
+      <EffectInfo name="" description="Each stack lasts for 10 seconds" />
+    </ExtraTooltipData>
+    <Projectile>
+      <ObjectId>Tier 7 Sheath Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>450</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <MultiHit />
+      <Size>120</Size>
+    </Projectile>
+    <Ability>
+      <Texture>
+        <File>lofiObj6</File>
+        <Index>0x137</Index>
+      </Texture>
+      <Activate amount="3" duration="20" channelTime="500">ChannelDash</Activate>
+      <StartUse>
+        <Activate speed="50" minDistance="1" maxDistance="3.5" damage="200" color="0x7A4646" postCondDuration="0.16" effect="Multiplied" stat="ATT" amountPerEnemy="1,5,10,16,23" effectDuration="10" cooldown="0.4">Dash</Activate>
+      </StartUse>
+      <EndUse>
+        <Activate>Shoot</Activate>
+      </EndUse>
+      <Cooldown>3</Cooldown>
+      <MpCost>60</MpCost>
+    </Ability>
+    <Ability name="Quick Dash">
+      <Texture>
+        <File>lofiObj6</File>
+        <Index>0x126</Index>
+      </Texture>
+      <Cooldown>3</Cooldown>
+      <MpCost>30</MpCost>
+      <Activate amount="5" duration="20" channelTime="1500">ChannelDash</Activate>
+      <StartUse>
+        <Activate speed="50" minDistance="1" maxDistance="5.5" damage="200" color="0x7AFF46" postCondDuration="0.16" effect="Multiplied" stat="ATT" amountPerEnemy="1,5,10,16,23" effectDuration="10" cooldown="0.4">Dash</Activate>
+      </StartUse>
+    </Ability>
+    <Usable />
+    <UniqueID />
+    <BagType>1</BagType>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <Labels>EQUIPMENT,ABILITY,SHEATH,TIERED,T0,NUMPROJ_1,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0xff3c" id="Trick Star">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x22e</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Tier>10</Tier>
+    <Description>A beautifully crafted shuriken.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile id="0">
+      <ObjectId>Ninja Star Silver</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>120</Size>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Ninja Star Wind</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>550</MinDamage>
+      <MaxDamage>650</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>120</Size>
+      <PassesCover />
+    </Projectile>
+    <Subattack projectileId="0"></Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>2</NumProjectiles>
+    </Subattack>
+    <ActivateOnEquip stat="VIT" amount="6">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>2</BagType>
+    <Ability attackIndex="1">
+      <MpCost>0</MpCost>
+      <MpEndCost>60</MpEndCost>
+      <MultiPhase />
+      <Activate>ShurikenAbility</Activate>
+      <ExtraTooltipData>
+        <EffectInfo name="While Key Held" description="" />
+        <EffectInfo name="" description="Speedy on self" />
+        <EffectInfo name="" description="Drain 10 MP/sec" />
+        <EffectInfo name="When Key Released" description="" />
+      </ExtraTooltipData>
+    </Ability>
+    <Ability name="Spawn Unicorns">
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0x10f</Index>
+      </Texture>
+      <Activate objectId="Summon Steed" maxSpawnDistance="8.0">SpawnCreep</Activate>
+      <Cooldown>1</Cooldown>
+      <MpCost>100</MpCost>
+      <ExtraTooltipData>
+        <EffectInfo name="Summons" description="Wandering steed, click or hold your Summon Control button to move it." />
+        <EffectInfo name="Lifetime" description="10 seconds" />
+      </ExtraTooltipData>
+    </Ability>
+    <feedPower>34</feedPower>
+    <DropTradable />
+    <XPBonus>1</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,TIERED,T3,MPCOST,XPBONUS,TRADEABLE</Labels>
+  </Object>
+  <Object id="Trick Poison" type="0xff3d">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x205</Index>
+    </Texture>
+    <SlotType>18</SlotType>
+    <Description>Exposure to this ferocious concoction is so intensely lethal that it acts instantaneously. Its deceptively small vial allows for easy use.</Description>
+    <Usable />
+    <BagType>8</BagType>
+    <Ability name="Jar Throw">
+      <MpCost>70</MpCost>
+      <Activate color="0xADC718" impactDamage="700" radius="3" throwTime="0.8" totalDamage="0" damageBoost="1" scalingStat="DEF" statModScalingMin="25" statModDamage="0" statModImpactDamage="180" statModRadius="0.025" statModDamageBoost="0">PoisonGrenade</Activate>
+    </Ability>
+    <Ability name="Poison Counter">
+      <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x282</Index>
+      </Texture>
+      <ExtraTooltipData>
+        <EffectInfo description="Throw a poison when hit" name="Toxic Terror" />
+        <EffectInfo description="1 seconds" name="Poison Cooldown" />
+      </ExtraTooltipData>
+      <OnPlayerHitActivate proc="1" manaCost="5" cooldown="1" duration="0" impactDamage="700" radius="3" throwTime="0.8" totalDamage="0" color="0xADC718" damageBoost="1" scalingStat="DEF" statModScalingMin="25" statModDamage="0" statModImpactDamage="180" statModRadius="0.025" statModDamageBoost="0">PoisonGrenade</OnPlayerHitActivate>
+    </Ability>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,POISON,ST,TAB_ST,ST_ABILITY,STGEN_2,POWERTIER_B,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0xff3e" id="Trick Lute">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>lofiObj6</File>
+      <Index>0xd0</Index>
+    </Texture>
+    <SlotType>28</SlotType>
+    <Tier>8</Tier>
+    <Description>A magical lute with multiple modes.</Description>
+    <Sound>spell/major_heal</Sound>
+    <Usable />
+    <UniqueID />
+    <Ability>
+      <ExtraTooltipData>
+        <EffectInfo name="Party Effect" description=" Within 4.5 sqrs Inspired for 3 seconds." />
+        <EffectInfo name="Projectile Speed Multiplier" description="x1.25" />
+      </ExtraTooltipData>
+      <Activate radius="4.5" speedBoost="1.25" lifeBoost="1" duration="3" targeted="false">BoostRange</Activate>
+      <Activate range="4.5" stat="DEF" amount="1" duration="2" channel="maxStack">StatBoostAura</Activate>
+      <MpCost>70</MpCost>
+    </Ability>
+    <Ability>
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0xd5</Index>
+      </Texture>
+      <ExtraTooltipData>
+        <EffectInfo name="Party Effect" description=" Within 4.5 sqrs Inspired for 5.5 seconds." />
+        <EffectInfo name="Projectile Speed Multiplier" description="x1.25" />
+      </ExtraTooltipData>
+      <Activate radius="4.5" duration="5.5" speedBoost="1.25" lifeBoost="1" targeted="false">BoostRange</Activate>
+      <Activate range="4.5" stat="MAXHP" amount="80" duration="4.5" channel="maxStack">StatBoostAura</Activate>
+      <MpCost>90</MpCost>
+    </Ability>
+    <Ability name="Spawn Unicorns">
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0x10f</Index>
+      </Texture>
+      <Activate objectId="Summon Steed" maxSpawnDistance="8.0">SpawnCreep</Activate>
+      <Cooldown>1</Cooldown>
+      <MpCost>100</MpCost>
+      <ExtraTooltipData>
+        <EffectInfo name="Summons" description="Wandering steed, click or hold your Summon Control button to move it." />
+        <EffectInfo name="Lifetime" description="10 seconds" />
+      </ExtraTooltipData>
+      <MpCost>110</MpCost>
+    </Ability>
+    <BagType>1</BagType>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T0,MPCOST,APPLY_STAT_EFF,TRADEABLE</Labels>
+  </Object>
+  <Object id="MV Easy Mode Incantation" type="0x5036">
+    <DisplayId>Tofu Delicacy</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>412</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Present this to Umi to appease the spirits of the festival.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can only be used after the tutorial in the Moonlight Village within Umi's vicinity." name="Restricted Area" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <BagType>4</BagType>
+    <Activate amount="250" channel="noStackItm" duration="1200" stat="MAXHP" range="500">StatBoostAura</Activate>
+    <Activate duration="1200" effect="Healing" range="500">ConditionEffectAura</Activate>
+    <Activate color="-1" customString="Easy Mode was initiated by" newId="MV Easy Mode" radius="8" targetId="MV Easy Mode Trigger">ChangeObject</Activate>
+  </Object>
+  <Object id="Mark of Moonlight" type="0x50b1">
+    <Class>Equipment</Class>
+    <Item />
+    <SlotType>10</SlotType>
+    <Texture xOffset="2" yOffset="0">
+      <File>moonlightVillageObjects8x8</File>
+      <Index>413</Index>
+    </Texture>
+    <Description>A medallion infused with the essence of the Moonlight Dance.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Quest item" name="Type" />
+      <EffectInfo description="Obtained by completing the Moonlight Dance in the Moonlight Village." name="Drop location" />
+    </ExtraTooltipData>
+    <BagType>2</BagType>
+    <Treasure />
+    <Mark />
+    <feedPower>50</feedPower>
+    <Soulbound />
+  </Object>
+  <Object id="Moonlight Village Key" type="0x4fde">
+    <DisplayId>Moonlight Village Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>414</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens a gate to the Moonlight Village.</Description>
+    <Sound>use_key</Sound>
+    <InvUse />
+    <Soulbound />
+    <feedPower>200</feedPower>
+    <BagType>4</BagType>
+    <Activate cooldown="30" id="Moonlight Village Portal">Create</Activate>
+  </Object>
+  <Object id="Taiko Drums" type="0x507d">
+    <DisplayId>Taiko Drums</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>536</Index>
+    </Texture>
+    <SlotType>28</SlotType>
+    <Description>The drum whose every beat carries with it the energy and rhythm of Kaguya. A mortal sounding this mystical instrument bears both order and disarray.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Control the rhythm of the drums to match the situation." name="Tempo Change" />
+    </ExtraTooltipData>
+    <Sound>spell/magic_nova</Sound>
+    <BagType>6</BagType>
+    <feedPower>1000</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <Usable />
+    <ActivateOnEquip amount="5" stat="DEX">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
+    <Ability name="Calm">
+      <ExtraTooltipData>
+        <EffectInfo description="Lowers your shot speed, but boosts effective weapon range" name="Tranquil Rhythm" />
+      </ExtraTooltipData>
+      <Activate duration="5" speedBoost="0.625" lifeBoost="1.99" targeted="false" color="0xF7CF1D" selfOnly="true">BoostRange</Activate>
+      <Activate amount="80" duration="5" channel="maxStack" range="4" stat="MAXHP" wisAmountBase="2.5" wisMin="50">StatBoostAura</Activate>
+      <Activate wisMin="50" range="4" effect="Healing" duration="5">ConditionEffectAura</Activate>
+      <MpCost>120</MpCost>
+      <SwitchTime>1.5</SwitchTime>
+    </Ability>
+    <Ability name="Frenzied">
+      <ExtraTooltipData>
+        <EffectInfo description="Doubles your shot speed, boosting effective weapon range" name="Blitz Rhythm" />
+      </ExtraTooltipData>
+      <Activate duration="5" speedBoost="2" lifeBoost="0.625" targeted="false" color="0xF7CF1D" selfOnly="true">BoostRange</Activate>
+      <Activate amount="8" duration="5" channel="noStackItm" stat="DEX">StatBoostSelf</Activate>
+      <Activate color="-1" effect="Berserk" duration="5">ConditionEffectSelf</Activate>
+      <MpCost>120</MpCost>
+      <SwitchTime>1.5</SwitchTime>
+    </Ability>
+  </Object>
+  <Object id="Elegant Parasol" type="0x507e">
+    <DisplayId>Elegant Parasol</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>504</Index>
+    </Texture>
+    <SlotType>30</SlotType>
+    <Projectile id="0">
+      <ObjectId>White Bullet</ObjectId>
+      <Speed>300</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>250</LifetimeMS>
+      <Size>1</Size>
+      <ConditionEffect duration="3">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Description>The ornate umbrella carried by the gracious Miko. It never goes out of fashion, regardless of the season.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="5.5 tiles" name="Min Dash Distance" />
+      <EffectInfo description="7.5 tiles" name="Max Dash Distance" />
+      <EffectInfo description="Call forth a line of diverging projectiles that paralyzes enemies" name="Trail of Seasons" />
+      <EffectInfo description="10/15/20/25/30 % to VIT" name="Multiplier" />
+      <EffectInfo description="Each stack lasts for 10 seconds" name="" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <feedPower>1000</feedPower>
+    <MpCost>150</MpCost>
+    <Cooldown>5</Cooldown>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <Usable />
+    <ActivateOnEquip amount="8" stat="ATT">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="8" stat="VIT">IncrementStat</ActivateOnEquip>
+    <Activate amount="4" channelTime="200" duration="15">ChannelDash</Activate>
+    <StartUse>
+      <Activate amountPerEnemy="10,15,20,25,30" color="0xcd4bd9" cooldown="0.3" damage="0" effect="Multiplied" effectDuration="10" minDistance="5.5" maxDistance="7.5" postCondDuration="0.1" speed="45" stat="VIT">Dash</Activate>
+      <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="0.8" maxDistance="1.0" minDistance="1.0" numShots="2" offsetAngle="0" proc="1" targetMouse="true" type="0x507e">BulletCreate</OnPlayerAbilityActivate>
+    </StartUse>
+    <EndUse>
+      <OnPlayerAbilityActivate creep="true" duration="0.3" distance="3.75" objectId="MV Sheath Summon Summer" proc="1" targetMouse="true" onDashIndex="1">Decoy</OnPlayerAbilityActivate>
+      <OnPlayerAbilityActivate creep="true" duration="0.3" distance="3.75" objectId="MV Sheath Summon Autumn" proc="1" targetMouse="true" onDashIndex="2">Decoy</OnPlayerAbilityActivate>
+      <OnPlayerAbilityActivate creep="true" duration="0.3" distance="3.75" objectId="MV Sheath Summon Winter" proc="1" targetMouse="true" onDashIndex="3">Decoy</OnPlayerAbilityActivate>
+      <OnPlayerAbilityActivate creep="true" duration="0.3" distance="3.75" objectId="MV Sheath Summon Spring" proc="1" targetMouse="true" onDashIndex="4">Decoy</OnPlayerAbilityActivate>
+    </EndUse>
+  </Object>
+  <Object id="MV Sheath Summon Summer" type="0x4ff8">
+    <Class>Summon</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>360</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>8.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Size>50</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>16.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>3</SpeedClamp>
+      <Size>55</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>25</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>6</SpeedClamp>
+      <Size>60</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>33.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>9</SpeedClamp>
+      <Size>65</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>41.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>12</SpeedClamp>
+      <Size>70</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <Size>75</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>58.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>18</SpeedClamp>
+      <Size>80</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>66.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>21</SpeedClamp>
+      <Size>85</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>18</SpeedClamp>
+      <Size>80</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>83.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <Size>75</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>91.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>12</SpeedClamp>
+      <Size>70</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>9</SpeedClamp>
+      <Size>65</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>108.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>6</SpeedClamp>
+      <Size>60</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>116.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>3</SpeedClamp>
+      <Size>55</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Speed>125</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Size>50</Size>
+      <ParticleTrail>0xFA6F01</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="MV Sheath Summon Autumn" type="0x50e5">
+    <Class>Summon</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>360</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>8.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Size>50</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>16.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>3</SpeedClamp>
+      <Size>55</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>25</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>6</SpeedClamp>
+      <Size>60</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>33.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>9</SpeedClamp>
+      <Size>65</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>41.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>12</SpeedClamp>
+      <Size>70</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <Size>75</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>58.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>18</SpeedClamp>
+      <Size>80</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>66.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>21</SpeedClamp>
+      <Size>85</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>18</SpeedClamp>
+      <Size>80</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>83.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <Size>75</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>91.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>12</SpeedClamp>
+      <Size>70</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>9</SpeedClamp>
+      <Size>65</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>108.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>6</SpeedClamp>
+      <Size>60</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>116.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>3</SpeedClamp>
+      <Size>55</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Speed>125</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Size>50</Size>
+      <ParticleTrail>0xA79F0F</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="MV Sheath Summon Winter" type="0x50fb">
+    <Class>Summon</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>360</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>8.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Size>50</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>16.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>3</SpeedClamp>
+      <Size>55</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>25</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>6</SpeedClamp>
+      <Size>60</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>33.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>9</SpeedClamp>
+      <Size>65</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>41.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>12</SpeedClamp>
+      <Size>70</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <Size>75</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>58.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>18</SpeedClamp>
+      <Size>80</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>66.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>21</SpeedClamp>
+      <Size>85</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>18</SpeedClamp>
+      <Size>80</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>83.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <Size>75</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>91.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>12</SpeedClamp>
+      <Size>70</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>9</SpeedClamp>
+      <Size>65</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>108.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>6</SpeedClamp>
+      <Size>60</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>116.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>3</SpeedClamp>
+      <Size>55</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>MV Snow Twirl</ObjectId>
+      <Speed>125</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Size>50</Size>
+      <ParticleTrail>0xE8EAE3</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="MV Sheath Summon Spring" type="0x50fc">
+    <Class>Summon</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>360</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>8.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Size>50</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>16.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>3</SpeedClamp>
+      <Size>55</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>25</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>6</SpeedClamp>
+      <Size>60</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>33.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>9</SpeedClamp>
+      <Size>65</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>41.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>12</SpeedClamp>
+      <Size>70</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <Size>75</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>58.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>18</SpeedClamp>
+      <Size>80</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>66.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>21</SpeedClamp>
+      <Size>85</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>18</SpeedClamp>
+      <Size>80</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>83.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <Size>75</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>91.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>12</SpeedClamp>
+      <Size>70</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>9</SpeedClamp>
+      <Size>65</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>108.3333</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>6</SpeedClamp>
+      <Size>60</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>116.6666</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>601</TurnStopTime>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>3</SpeedClamp>
+      <Size>55</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>MV Flower Star Variant</ObjectId>
+      <Speed>125</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Size>50</Size>
+      <ParticleTrail>0xFFB7C5</ParticleTrail>
+      <ConditionEffect duration="1.5">Paralyzed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Flowering Kimono" type="0x50e2">
+    <DisplayId>Flowering Kimono</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>0xd9</Index>
+    </Texture>
+    <SlotType>14</SlotType>
+    <Description>A beautiful set of ornate ceremonial robes, filled with the energy of benevolent spirits from long ago.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="40 MP cost to summon a controllable Friendly Spirit which heals allies." name="On Ability Use" />
+      <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
+      <EffectInfo description="6 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <XPBonus>7</XPBonus>
+    <feedPower>950</feedPower>
+    <Soulbound />
+    <ActivateOnEquip amount="10" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="120" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="12" stat="WIS">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="7" stat="SPD">IncrementStat</ActivateOnEquip>
+    <OnPlayerAbilityActivate color="-1" cooldown="6" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Kimono Summon">SpawnCreep</OnPlayerAbilityActivate>
+  </Object>
+  <Object id="MV Kimono Summon" type="0x500a">
+    <Class>Summon</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>360</Index>
+    </Texture>
+    <ShadowSize>35</ShadowSize>
+    <Size>100</Size>
+    <NoMiniMap />
+    <SetStyle>Idle</SetStyle>
+    <FollowMouse speed="1.5" />
+    <Animation period="0" prob="1" id="IdleAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>360</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>361</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>362</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>363</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>364</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>365</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Idle">
+        <StyleStep id="IdleAnimation">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Ethereal Happi" type="0x507c">
+    <DisplayId>Ethereal Happi</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>376</Index>
+    </Texture>
+    <SlotType>6</SlotType>
+    <Description>A festival coat woven from thin, spiritual threads. It allows the user to skirt the spirit realm in search of their destination.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="When shooting, reduce SPD by 25." name="Focus" />
+      <EffectInfo description="40 MP cost to summon a controllable Friendly Spirit which curses enemies." name="On Ability Use" />
+      <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
+      <EffectInfo description="6 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <XPBonus>7</XPBonus>
+    <feedPower>950</feedPower>
+    <Soulbound />
+    <ActivateOnEquip amount="15" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="15" stat="SPD">IncrementStat</ActivateOnEquip>
+    <OnPlayerShootActivate color="-1" cooldown="0" proc="1" stat="SPD" amount="-25" duration="1" channel="noStack">StatBoostSelf</OnPlayerShootActivate>
+    <OnPlayerAbilityActivate color="-1" cooldown="6" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Happi Summon">SpawnCreep</OnPlayerAbilityActivate>
+  </Object>
+  <Object id="MV Happi Summon" type="0x50f9">
+    <Class>Summon</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>348</Index>
+    </Texture>
+    <ShadowSize>35</ShadowSize>
+    <Size>100</Size>
+    <NoMiniMap />
+    <SetStyle>Idle</SetStyle>
+    <FollowMouse speed="1.5" />
+    <Animation period="0" prob="1" id="IdleAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>348</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>349</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>350</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>351</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>352</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>353</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Idle">
+        <StyleStep id="IdleAnimation">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Sage's Wakibiki" type="0x4ff4">
+    <DisplayId>Sage's Wakibiki</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>377</Index>
+    </Texture>
+    <SlotType>7</SlotType>
+    <Description>A worn plate from the Sage's armor. Its outwardly poor condition belies a strange, revitalizing effect still flowing within.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="40 MP cost to summon a controllable Friendly Spirit which impedes enemy movement." name="On Ability Use" />
+      <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
+      <EffectInfo description="6 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <XPBonus>7</XPBonus>
+    <feedPower>950</feedPower>
+    <Soulbound />
+    <ActivateOnEquip amount="20" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="15" stat="VIT">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="15" stat="WIS">IncrementStat</ActivateOnEquip>
+    <OnPlayerAbilityActivate color="-1" cooldown="6" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Wakibiki Summon">SpawnCreep</OnPlayerAbilityActivate>
+  </Object>
+  <Object id="MV Wakibiki Summon" type="0x50fa">
+    <Class>Summon</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>251</Index>
+    </Texture>
+    <ShadowSize>35</ShadowSize>
+    <Size>100</Size>
+    <NoMiniMap />
+    <SetStyle>Idle</SetStyle>
+    <FollowMouse speed="1.5" />
+    <Animation period="0" prob="1" id="IdleAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>251</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>252</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>253</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>254</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>255</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>256</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Idle">
+        <StyleStep id="IdleAnimation">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Makakoyumi" type="0x517a">
+    <DisplayId>Makakoyumi</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>0x85</Index>
+    </Texture>
+    <SlotType>3</SlotType>
+    <Description>A bow believed to have only been fired in dissent against the heavens. In retribution, the empyrean rulers have cursed this device to tether its wielders in shackles of divine light.</Description>
+    <RateOfFire>0.33</RateOfFire>
+    <Sound>weapon/heavy_crossbow</Sound>
+    <OldSound>arrowShoot</OldSound>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>2</RateOfFire>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Makakoyumi Shot</ObjectId>
+      <Speed>400</Speed>
+      <LifetimeMS>187.5</LifetimeMS>
+      <MinDamage>1000</MinDamage>
+      <MaxDamage>1000</MaxDamage>
+      <MultiHit />
+      <PassesCover />
+      <Size>120</Size>
+      <ParticleTrail>0xf7941d</ParticleTrail>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Long Lightning</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>10</MinDamage>
+      <MaxDamage>20</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <Size>80</Size>
+      <Amplitude>0.7</Amplitude>
+      <Frequency>0.75</Frequency>
+      <MultiHit />
+    </Projectile>
+    <ExtraTooltipData>
+      <EffectInfo description="Forced in combat and slowed whilst shooting." name="Divine Disfavor" />
+    </ExtraTooltipData>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Slowed" cooldown="0" duration="1.5">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="In Combat" cooldown="0" duration="1.5">ConditionEffectSelf</OnPlayerShootActivate>
+    <BagType>6</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <feedPower>1300</feedPower>
+    <Soulbound />
+    <XPBonus>8</XPBonus>
+  </Object>
+  <Object id="Makakoyumi Shot" type="0x5120">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>0x86</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="Makakoyumi 2" type="0x5114">
+    <DisplayId>Makakoyumi</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>508</Index>
+    </Texture>
+    <SlotType>3</SlotType>
+    <Description>Once fired in dissent against the heavens, now an icon of divine judgement. It bears the scar of wrathful light, a permanent reminder of having forever changed the course of the world.</Description>
+    <RateOfFire>0.33</RateOfFire>
+    <Sound>weapon/heavy_crossbow</Sound>
+    <OldSound>arrowShoot</OldSound>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>2</RateOfFire>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Makakoyumi 2 Shot</ObjectId>
+      <Speed>400</Speed>
+      <LifetimeMS>187.5</LifetimeMS>
+      <MinDamage>1000</MinDamage>
+      <MaxDamage>1000</MaxDamage>
+      <MultiHit />
+      <PassesCover />
+      <Size>120</Size>
+      <ParticleTrail>0x00B6FF</ParticleTrail>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Long Lightning 2</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>15</MinDamage>
+      <MaxDamage>25</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <Size>80</Size>
+      <Amplitude>0.7</Amplitude>
+      <Frequency>0.75</Frequency>
+      <MultiHit />
+    </Projectile>
+    <ExtraTooltipData>
+      <EffectInfo description="Forced in combat and slowed whilst shooting." name="Divine Disfavor" />
+    </ExtraTooltipData>
+    <OnPlayerShootActivate proc="1" cooldown="0.8" center="player" color="-1" visualEffect="28">GenericActivate</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Slowed" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="In Combat" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
+    <BagType>6</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <feedPower>1500</feedPower>
+    <Soulbound />
+    <XPBonus>9</XPBonus>
+  </Object>
+  <Object id="Makakoyumi 2 Shot" type="0x5115">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>509</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="MV Long Lightning 2" type="0x5116">
+    <Class>Projectile</Class>
+    <RandomTexture>
+      <Texture>
+        <File>moonlightVillageObjects8x8</File>
+        <Index>510</Index>
+      </Texture>
+      <Texture>
+        <File>moonlightVillageObjects8x8</File>
+        <Index>511</Index>
+      </Texture>
+    </RandomTexture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="Tezutsu Hanabi" type="0x4ff2">
+    <DisplayId>Tezutsu Hanabi</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>0xd8</Index>
+    </Texture>
+    <SlotType>23</SlotType>
+    <Description>These fireworks are a mere fraction of Umi's spectacular stockpile. Locals believed they held the power to ward off evil spirits, whilst bringing peace and prosperity to its celebrants.</Description>
+    <Sound>spell/magic_nova</Sound>
+    <BagType>6</BagType>
+    <feedPower>1300</feedPower>
+    <Soulbound />
+    <XPBonus>8</XPBonus>
+    <Usable />
+    <ActivateOnEquip amount="50" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="VIT">IncrementStat</ActivateOnEquip>
+    <Ability name="Light Show">
+      <ExtraTooltipData>
+        <EffectInfo description="Summon an orbiting spirit which attacks enemies." name="Friendly Spirit" />
+        <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
+      </ExtraTooltipData>
+      <Activate aoeActivationCount="3" aoeDamage="70" aoeMaxTargets="3" aoeRange="2" aoeTime="2" arcDegrees="20" color="0xf94545" colorMissed="0xec9006" maxTargets="4" scalingStat="VIT" statModDamage="30" statModPerTarget="80" statModRadius="0.015" statModScalingMin="70" totalDamage="120" wisDamageBase="180" wisMin="50" wisPerTarget="10">Lightning</Activate>
+      <OnPlayerAbilityActivate color="-1" proc="1" targetMouse="false" maxSpawnDistance="12" objectId="MV Hanabi Summon" cooldown="6">SpawnCreep</OnPlayerAbilityActivate>
+      <MpCost>100</MpCost>
+      <SwitchTime>1</SwitchTime>
+    </Ability>
+    <Ability name="Fireworks Stockpile">
+      <ExtraTooltipData>
+        <EffectInfo description="Build up a stockpile for 120 MP which invigorates and strengthens nearby spirits." name="Stockpile" />
+      </ExtraTooltipData>
+      <Activate aoeActivationCount="3" aoeDamage="70" aoeMaxTargets="3" aoeRange="2" aoeTime="2" arcDegrees="20" color="0xf94545" colorMissed="0xec9006" maxTargets="4" scalingStat="VIT" statModDamage="30" statModPerTarget="80" statModRadius="0.015" statModScalingMin="70" totalDamage="120" wisDamageBase="180" wisMin="50" wisPerTarget="10">Lightning</Activate>
+      <OnSwitchAbilityActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi Object 0" throwTime="0" color="-1" cooldown="0" manaCost="120" manaRequired="120">ObjectToss</OnSwitchAbilityActivate>
+      <MpCost>100</MpCost>
+      <SwitchTime>2</SwitchTime>
+    </Ability>
+  </Object>
+  <Object id="MV Hanabi Summon" type="0x4ff6">
+    <Class>Summon</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>342</Index>
+    </Texture>
+    <ShadowSize>35</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>MV Flame Twirl</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>150</MaxDamage>
+      <ArmorPiercing />
+      <LifetimeMS>950</LifetimeMS>
+      <Size>40</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Flame Wave</ObjectId>
+      <Speed>30</Speed>
+      <MinDamage>40</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <ArmorPiercing />
+      <LifetimeMS>750</LifetimeMS>
+      <Size>35</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>MV Flame Spear</ObjectId>
+      <Speed>60</Speed>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>250</MaxDamage>
+      <ArmorPiercing />
+      <LifetimeMS>750</LifetimeMS>
+      <Size>60</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Size>100</Size>
+    <NoMiniMap />
+    <SetStyle>Idle</SetStyle>
+    <OrbitCreepMaster clockwiseProb="1" maxRadius="2" minRadius="2" speed="0.6" />
+    <Animation period="0" prob="1" id="IdleAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>342</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>343</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>344</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>345</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>346</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>347</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Idle">
+        <StyleStep id="IdleAnimation">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Tezutsu Hanabi Object 0" type="0x4ffa">
+    <DisplayId>Tezutsu Hanabi Object</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="Tezutsu Hanabi Object 1" type="0x4ff7">
+    <DisplayId>Tezutsu Hanabi Object</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>0x67</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>429</Index>
+      </Texture>
+    </AltTexture>
+    <Size>65</Size>
+    <NoMiniMap />
+    <Presentation>
+      <Style id="Red">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="Gold">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Tezutsu Hanabi Object 2" type="0x4ff3">
+    <DisplayId>Tezutsu Hanabi Object</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>0x68</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>430</Index>
+      </Texture>
+    </AltTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Presentation>
+      <Style id="Red">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="Gold">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Tezutsu Hanabi Object 3" type="0x4ff9">
+    <DisplayId>Tezutsu Hanabi Object</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>0x69</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>moonlightVillageObjects16x16</File>
+        <Index>431</Index>
+      </Texture>
+    </AltTexture>
+    <Size>85</Size>
+    <NoMiniMap />
+    <Presentation>
+      <Style id="Red">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="Gold">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Tezutsu Hanabi Effect 1" type="0x4ffc">
+    <DisplayId>Tezutsu Hanabi Object</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Effect amount="20" color="0xff4000" life="1" maxRadius="5" minRadius="5" rise="3.4" speed="0.025" cooldown="1">Circle</Effect>
+  </Object>
+  <Object id="Tezutsu Hanabi Effect 2" type="0x4ffd">
+    <DisplayId>Tezutsu Hanabi Object</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Effect amount="24" color="0xff0000" life="1" maxRadius="5" minRadius="5" rise="3.4" speed="0.05" cooldown="1">Circle</Effect>
+  </Object>
+  <Object id="Tezutsu Hanabi Effect 3" type="0x4ffe">
+    <DisplayId>Tezutsu Hanabi Object</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Effect amount="28" color="0xff0080" life="1" maxRadius="5" minRadius="5" rise="3.4" speed="0.075" cooldown="1">Circle</Effect>
+  </Object>
+  <Object id="Tezutsu Hanabi 2" type="0x5118">
+    <DisplayId>Tezutsu Hanabi</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>516</Index>
+    </Texture>
+    <SlotType>23</SlotType>
+    <Description>A collection of gilded fireworks, personally granted from Umi's showstopping stockpile. Locals believed they held the power to ward off evil spirits, whilst bringing peace and prosperity to its celebrants.</Description>
+    <Sound>spell/magic_nova</Sound>
+    <BagType>6</BagType>
+    <feedPower>1500</feedPower>
+    <Soulbound />
+    <XPBonus>9</XPBonus>
+    <Usable />
+    <ActivateOnEquip amount="60" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="6" stat="VIT">IncrementStat</ActivateOnEquip>
+    <Ability name="Light Show">
+      <ExtraTooltipData>
+        <EffectInfo description="Summon an orbiting spirit which attacks enemies." name="Friendly Spirit" />
+        <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
+      </ExtraTooltipData>
+      <Activate aoeActivationCount="3" aoeDamage="70" aoeMaxTargets="3" aoeRange="2" aoeTime="2" arcDegrees="20" color="0xf94545" colorMissed="0xec9006" maxTargets="4" scalingStat="VIT" statModDamage="30" statModPerTarget="80" statModRadius="0.015" statModScalingMin="70" totalDamage="120" wisDamageBase="180" wisMin="50" wisPerTarget="10">Lightning</Activate>
+      <OnPlayerAbilityActivate proc="1" targetMouse="false" maxSpawnDistance="12" objectId="MV Hanabi Summon" cooldown="6">SpawnCreep</OnPlayerAbilityActivate>
+      <MpCost>100</MpCost>
+      <SwitchTime>0.75</SwitchTime>
+    </Ability>
+    <Ability name="Fireworks Stockpile">
+      <ExtraTooltipData>
+        <EffectInfo description="Build up a stockpile for 120 MP which invigorates and strengthens nearby spirits." name="Stockpile" />
+      </ExtraTooltipData>
+      <Activate aoeActivationCount="3" aoeDamage="70" aoeMaxTargets="3" aoeRange="2" aoeTime="2" arcDegrees="20" color="0xf94545" colorMissed="0xec9006" maxTargets="4" scalingStat="VIT" statModDamage="30" statModPerTarget="80" statModRadius="0.015" statModScalingMin="70" totalDamage="120" wisDamageBase="180" wisMin="50" wisPerTarget="10">Lightning</Activate>
+      <OnSwitchAbilityActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi Object 0" throwTime="0" color="-1" cooldown="0" manaCost="120" manaRequired="120">ObjectToss</OnSwitchAbilityActivate>
+      <OnSwitchAbilityActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi 2 Object" throwTime="0" color="-1" cooldown="0" manaCost="0">ObjectToss</OnSwitchAbilityActivate>
+      <MpCost>100</MpCost>
+      <SwitchTime>1.5</SwitchTime>
+    </Ability>
+  </Object>
+  <Object id="Tezutsu Hanabi 2 Object" type="0x5119">
+    <DisplayId>Tezutsu Hanabi Object</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="Tezutsu Hanabi 2 Effect 1" type="0x511a">
+    <DisplayId>Tezutsu Hanabi Object</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Effect amount="20" color="0xF6D56D" life="1" maxRadius="5" minRadius="5" rise="3.4" speed="0.025" cooldown="1">Circle</Effect>
+  </Object>
+  <Object id="Tezutsu Hanabi 2 Effect 2" type="0x511b">
+    <DisplayId>Tezutsu Hanabi Object</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Effect amount="24" color="0xEFC501" life="1" maxRadius="5" minRadius="5" rise="3.4" speed="0.05" cooldown="1">Circle</Effect>
+  </Object>
+  <Object id="Tezutsu Hanabi 2 Effect 3" type="0x511f">
+    <DisplayId>Tezutsu Hanabi Object</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Effect amount="28" color="0xD19906" life="1" maxRadius="5" minRadius="5" rise="3.4" speed="0.075" cooldown="1">Circle</Effect>
+  </Object>
+  <Object id="Rain Maker" type="0x5000">
+    <DisplayId>Rain Maker</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>485</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Description>A sodden artifact held by Genji to stir nearby moisture into a torrent of localized rain. Only the Sage can extract its full potential, gracefully guiding the morning dew into a lasting downpour.</Description>
+    <Sound>spell/magic_nova</Sound>
+    <Projectile>
+      <ObjectId>White Shard Bolt</ObjectId>
+      <Speed>0</Speed>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <LifetimeMS>0</LifetimeMS>
+    </Projectile>
+    <ExtraTooltipData>
+      <EffectInfo description="" name="While Key Held and Shooting" />
+      <EffectInfo description="Rain falls 3 tiles away in the direction of your cursor" name="" />
+      <EffectInfo description="" name="Mana Cost" />
+      <EffectInfo description="Drain 50 MP/sec and 15 MP/shot" name="" />
+      <EffectInfo description="Deals 200-300 armor piercing damage, scaling with your Attack and Status Effects" name="Rain" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <feedPower>1000</feedPower>
+    <MpCostPerSecond>50</MpCostPerSecond>
+    <MpCost>0</MpCost>
+    <MpEndCost>0</MpEndCost>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <MultiPhase />
+    <Usable />
+    <Cooldown>5</Cooldown>
+    <ActivateOnEquip amount="80" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="DEX">IncrementStat</ActivateOnEquip>
+    <OnPlayerShootActivate requiredConditions="Stasis Immune" cooldown="0" proc="1" manaCost="15" objectId="MV Rain Maker Object" throwTime="0" color="-1" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <OnPlayerShootActivate requiredConditions="Stasis Immune" cooldown="0.2" proc="1" manaCost="15" objectId="MV Rain Maker Effect Thrower" throwTime="0" color="-1" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <Activate effect="Stasis Immune" enableGenericManaHealing="true" enableManaRegen="true" enablePetManaHealing="false">ShurikenAbility</Activate>
+  </Object>
+  <Object id="MV Rain Maker Object" type="0x5001">
+    <DisplayId>Rain Maker Object</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object id="MV Rain Grenade" type="0x5002">
+    <DisplayId>Rain Grenade</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object id="MV Rain Maker Effect Thrower" type="0x5009">
+    <DisplayId>Rain Maker</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object id="MV Rain Maker Effect" type="0x5008">
+    <DisplayId>Rain Maker</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Effect color="0x257FDA" minRadius="0" maxRadius="5" rise="0" speed="0.7" speedVariance="0.2" zOffset="3" rate="2" size="5">SkyBeam</Effect>
+  </Object>
+  <Object id="Fortitude" type="0x5109">
+    <DisplayId>Fortitude</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>505</Index>
+    </Texture>
+    <SlotType>8</SlotType>
+    <Description>The wand is able to conjure mighty encircling defenses. Given enough time, it is capable of instantly establishing fortifications.</Description>
+    <RateOfFire>0.33</RateOfFire>
+    <Sound>weapon/mithril_sword</Sound>
+    <OldSound>magicShoot</OldSound>
+    <Projectile id="0">
+      <ObjectId>MV Water Twirl</ObjectId>
+      <Speed>3.1416</Speed>
+      <MinDamage>500</MinDamage>
+      <MaxDamage>600</MaxDamage>
+      <LifetimeMS>10000</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <FaceDir />
+      <TurnRate>45</TurnRate>
+      <Size>95</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Water Twirl</ObjectId>
+      <Speed>6.2832</Speed>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <LifetimeMS>10000</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <FaceDir />
+      <TurnRate>-45</TurnRate>
+      <Size>85</Size>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>MV Water Twirl</ObjectId>
+      <Speed>9.4248</Speed>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <LifetimeMS>10000</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <FaceDir />
+      <TurnRate>45</TurnRate>
+      <Size>75</Size>
+    </Projectile>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>0,2</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>90</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>2,0</PosOffset>
+      <BurstCount>2</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>180</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>0,-2</PosOffset>
+      <BurstCount>2</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>270</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>-2,0</PosOffset>
+      <BurstCount>2</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>0</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>0,4</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>270</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>3.4641,2</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>330</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>3.4641,-2</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>30</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>0,-4</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>90</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>-3.4641,-2</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>150</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>-3.4641,2</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>210</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>0,6</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>90</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>4.2426,4.2426</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>135</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>6,0</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>180</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>4.2426,-4.2426</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>225</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>0,-6</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>270</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>-4.2426,-4.2426</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>315</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>-6,0</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>0</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.33</RateOfFire>
+      <PosOffset>-4.2426,4.2426</PosOffset>
+      <BurstCount>3</BurstCount>
+      <BurstDelay>12</BurstDelay>
+      <BurstMinDelay>12</BurstMinDelay>
+      <DefaultAngle>45</DefaultAngle>
+    </Subattack>
+    <Soulbound />
+    <BagType>6</BagType>
+    <feedPower>1200</feedPower>
+    <XPBonus>8</XPBonus>
+  </Object>
+  <Object id="Vigor" type="0x510a">
+    <DisplayId>Vigor</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>506</Index>
+    </Texture>
+    <SlotType>17</SlotType>
+    <Description>The energy that emanates from this staff attracts spirits of all sorts to join in on festivities. A simple wave orchestrates their movement.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="7.5% chance to release a Festival Spirit, consuming 20 MP" name="On Shoot" />
+      <EffectInfo description="6 seconds" name="Lifetime" />
+      <EffectInfo description="600 damage over 6 seconds" name="" />
+      <EffectInfo description="Explodes after 6 seconds, dealing 150-200 damage scaling with your Attack and Status Effects" name="" />
+    </ExtraTooltipData>
+    <RateOfFire>1.6</RateOfFire>
+    <Sound>weapon/sprite_wand</Sound>
+    <OldSound>magicShoot</OldSound>
+    <Projectile>
+      <ObjectId>MV Lightning Spear</ObjectId>
+      <Speed>165</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>512</LifetimeMS>
+      <Amplitude>0.7</Amplitude>
+      <Frequency>1.5</Frequency>
+      <Size>75</Size>
+    </Projectile>
+    <BagType>6</BagType>
+    <Soulbound />
+    <NumProjectiles>2</NumProjectiles>
+    <ArcGap>0</ArcGap>
+    <feedPower>1200</feedPower>
+    <XPBonus>8</XPBonus>
+    <OnPlayerShootActivate color="-1" cooldown="0" objectId="MV Spirit Staff Soul" proc="0.075" manaCost="20" manaRequired="20">Pet</OnPlayerShootActivate>
+  </Object>
+  <Object id="MV Spirit Staff Soul" type="0x510b">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>70</Size>
+    <ShadowSize>70</ShadowSize>
+    <Flying />
+    <Z>0.4</Z>
+    <NoMiniMap />
+    <Animation period="0" prob="1" id="BlackFlameAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>336</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>337</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>338</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>339</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>340</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>341</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation period="0" prob="1" id="RedFlameAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>342</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>343</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>344</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>345</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>346</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>347</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation period="0" prob="1" id="YellowFlameAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>348</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>349</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>350</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>351</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>352</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>353</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation period="0" prob="1" id="GreenFlameAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>354</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>355</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>356</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>357</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>358</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>359</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation period="0" prob="1" id="BlueFlameAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>251</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>252</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>253</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>254</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>255</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>256</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation period="0" prob="1" id="PurpleFlameAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>360</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>361</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>362</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>363</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>364</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>365</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="BlackFlame">
+        <StyleStep id="BlackFlameAnimation">SetAnimation</StyleStep>
+      </Style>
+      <Style id="RedFlame">
+        <StyleStep id="RedFlameAnimation">SetAnimation</StyleStep>
+      </Style>
+      <Style id="YellowFlame">
+        <StyleStep id="YellowFlameAnimation">SetAnimation</StyleStep>
+      </Style>
+      <Style id="GreenFlame">
+        <StyleStep id="GreenFlameAnimation">SetAnimation</StyleStep>
+      </Style>
+      <Style id="BlueFlame">
+        <StyleStep id="BlueFlameAnimation">SetAnimation</StyleStep>
+      </Style>
+      <Style id="PurpleFlame">
+        <StyleStep id="PurpleFlameAnimation">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Token of Happiness" type="0x511c">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>517</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>An aged coin of unfamiliar design, gently glowing with the spirits of happiness. This seemingly modest keepsake invigorates your body, readying you for the next move.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="When shooting, gain energized and slowed." name="Happy Spirit" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="100" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="100" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="10" stat="WIS">IncrementStat</ActivateOnEquip>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Energized" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Slowed" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
+    <BagType>6</BagType>
+    <XPBonus>7</XPBonus>
+    <feedPower>750</feedPower>
+    <Soulbound />
+  </Object>
+  <Object id="Token of Warmth" type="0x511d">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>518</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>An aged coin of unfamiliar design, gently glowing with the spirits of warmth. This seemingly modest keepsake puts your mind at ease, mending your wounds.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="When shooting, gain healing and slowed." name="Warm Spirit" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="100" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="100" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="10" stat="VIT">IncrementStat</ActivateOnEquip>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Healing" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Slowed" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
+    <BagType>6</BagType>
+    <XPBonus>7</XPBonus>
+    <feedPower>750</feedPower>
+    <Soulbound />
+  </Object>
+  <Object id="Mischief" type="0x511e">
+    <DisplayId>Mischief</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>507</Index>
+    </Texture>
+    <SlotType>2</SlotType>
+    <Description>A whimsical dagger surrounded by a maelstrom of spiritual energy. Its desirability lies in its uniquely chaotic nature.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/poison_fang_dagger</Sound>
+    <OldSound>daggerSwing</OldSound>
+    <Projectile id="0">
+      <ObjectId>MV Petal Bolt</ObjectId>
+      <Speed>130</Speed>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>300</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <Amplitude>0.2</Amplitude>
+      <Frequency>0.2</Frequency>
+      <Size>90</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Spirit Projectile</ObjectId>
+      <Speed>110</Speed>
+      <MinDamage>40</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>472.7</LifetimeMS>
+      <Size>100</Size>
+      <Frequency>1.0</Frequency>
+      <Amplitude>0.7</Amplitude>
+      <FaceDir />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>MV Spirit Projectile</ObjectId>
+      <Speed>0</Speed>
+      <MinDamage>20</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>2500</LifetimeMS>
+      <Size>75</Size>
+      <Parametric />
+      <PassesCover />
+      <MultiHit />
+      <FaceDir />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>MV Spirit Projectile</ObjectId>
+      <Speed>110</Speed>
+      <MinDamage>20</MinDamage>
+      <MaxDamage>110</MaxDamage>
+      <LifetimeMS>472.7</LifetimeMS>
+      <Size>90</Size>
+      <Frequency>1.0</Frequency>
+      <Amplitude>0.5</Amplitude>
+      <FaceDir />
+      <ArmorPiercing />
+    </Projectile>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.125</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>180</ArcGap>
+      <RateOfFire>0.3</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.2</RateOfFire>
+    </Subattack>
+    <BagType>6</BagType>
+    <Soulbound />
+    <feedPower>1200</feedPower>
+    <XPBonus>8</XPBonus>
+  </Object>
+  <Object id="Kagenohikari" type="0x513b">
+    <DisplayId>Kagenohikari</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>534</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>An ethereal lantern charged with the hundreds of hopes and memories of bygone souls. Its light seeks to guide and protect those still dwelling within the mortal plane.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="When above 85% MP, 1.5% chance to summon controllable Friendly Spirits at the cost of 60 MP" name="On Shoot" />
+      <EffectInfo description="The spirits synergizes in the presence of other spirits." name="" />
+      <EffectInfo description="6 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="100" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="100" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="7" stat="VIT">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="7" stat="WIS">IncrementStat</ActivateOnEquip>
+    <OnPlayerShootActivate color="-1" cooldown="6" objectId="MV Kimono Summon" proc="0.015" maxSpawnDistance="0.0" manaRequiredRelative="0.85" manaCost="60">SpawnCreep</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" cooldown="6" objectId="MV Happi Summon" proc="0.015" maxSpawnDistance="0.0" manaRequiredRelative="0.85" manaCost="60">SpawnCreep</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" cooldown="6" objectId="MV Wakibiki Summon" proc="0.015" maxSpawnDistance="0.0" manaRequiredRelative="0.85" manaCost="60">SpawnCreep</OnPlayerShootActivate>
+    <BagType>6</BagType>
+    <XPBonus>8</XPBonus>
+    <feedPower>1400</feedPower>
+    <Soulbound />
+  </Object>
+  <Object id="Kagenohikari 2" type="0x513d">
+    <DisplayId>Kagenohikari</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>537</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>An ethereal lantern charged with the extiguished hopes and memories of bygone souls. Its blacklight flickers with restlessness and resentment.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="When above 85% MP, 10% chance to summon a controllable Malevolent Spirit at the cost of 120 MP" name="On Shoot" />
+      <EffectInfo description="10 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="110" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="110" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="8" stat="VIT">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="8" stat="WIS">IncrementStat</ActivateOnEquip>
+    <OnPlayerShootActivate color="-1" cooldown="10" objectId="MV Kagenohikari Summon" proc="0.1" maxSpawnDistance="0.0" manaRequiredRelative="0.9" manaCost="120">SpawnCreep</OnPlayerShootActivate>
+    <BagType>6</BagType>
+    <XPBonus>9</XPBonus>
+    <feedPower>1500</feedPower>
+    <Soulbound />
+  </Object>
+  <Object id="MV Kagenohikari Summon" type="0x513e">
+    <Class>Summon</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>336</Index>
+    </Texture>
+    <ShadowSize>35</ShadowSize>
+    <Size>120</Size>
+    <NoMiniMap />
+    <SetStyle>Idle</SetStyle>
+    <FollowMouse speed="1.5" />
+    <Animation period="0" prob="1" id="IdleAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>336</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>337</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>338</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>339</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>340</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>moonlightVillageObjects8x8</File>
+          <Index>341</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Idle">
+        <StyleStep id="IdleAnimation">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Concentrated Soul Fire" type="0x513c">
+    <DisplayId>Concentrated Soul Fire</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>535</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Pure soul energy that burns bright in the fires of the forge.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use in the forge to upgrade some Untiered Weapons." name="Forge" />
+      <EffectInfo description="Obtained by besting Kitsune Umi in the Moonlight Village." name="Drop location" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <feedPower>1200</feedPower>
+    <Mark />
+    <Soulbound />
+  </Object>
+  <Object id="Moonlit Quest Chest Item" type="0x5004">
+    <DisplayId>Moonlit Epic Quest Chest</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>539</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>An ornate chest from the Tinkerer's vault. It contains extraordinary items.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." name="Info" />
+    </ExtraTooltipData>
+    <BagType>8</BagType>
+    <feedPower>200</feedPower>
+    <Soulbound />
+    <Consumable />
+    <Activate id="Moonlit Epic Quest Chest" onlyIn="vault">Create</Activate>
+  </Object>
+  <Object id="Onigiri" type="0x5003">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>492</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A simple rice ball sprinkled with bonito flakes.</Description>
+    <BagType>7</BagType>
+    <Activate amount="4" channel="statConsumables" duration="600" stat="DEX">StatBoostSelf</Activate>
+    <Activate amount="4" channel="statConsumables" duration="600" stat="DEF">StatBoostSelf</Activate>
+    <feedPower>600</feedPower>
+    <Consumable />
+    <Potion />
+    <Soulbound />
+  </Object>
+  <Object id="Steamed Clam" type="0x50fd">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>493</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A clam that has been steamed. It's an old family recipe!</Description>
+    <BagType>7</BagType>
+    <Activate amount="80" channel="statConsumables" duration="600" stat="MAXMP">StatBoostSelf</Activate>
+    <Activate amount="4" channel="statConsumables" duration="600" stat="WIS">StatBoostSelf</Activate>
+    <feedPower>600</feedPower>
+    <Consumable />
+    <Potion />
+    <Soulbound />
+  </Object>
+  <Object id="Sizzled Tentacle" type="0x50fe">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>494</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The origin of this tentacle is unknown. What we do know is that it's delicious!</Description>
+    <BagType>7</BagType>
+    <Activate amount="4" channel="statConsumables" duration="600" stat="ATT">StatBoostSelf</Activate>
+    <Activate amount="4" channel="statConsumables" duration="600" stat="SPD">StatBoostSelf</Activate>
+    <feedPower>600</feedPower>
+    <Consumable />
+    <Potion />
+    <Soulbound />
+  </Object>
+  <Object id="Barbecued Shrimp" type="0x50ff">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>495</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Gotta throw a shrimp on the barbie'! Not sure why though, it's fairly small.</Description>
+    <BagType>7</BagType>
+    <Activate amount="80" channel="statConsumables" duration="600" stat="MAXHP">StatBoostSelf</Activate>
+    <Activate amount="4" channel="statConsumables" duration="600" stat="VIT">StatBoostSelf</Activate>
+    <feedPower>600</feedPower>
+    <Consumable />
+    <Potion />
+    <Soulbound />
+  </Object>
+  <Object id="Sushi Roll" type="0x5100">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>496</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A sushi roll with a healthy mix of fish, egg and cucumber.</Description>
+    <BagType>7</BagType>
+    <Activate amount="6" channel="statConsumables" duration="600" stat="DEX">StatBoostSelf</Activate>
+    <Activate amount="6" channel="statConsumables" duration="600" stat="DEF">StatBoostSelf</Activate>
+    <feedPower>1200</feedPower>
+    <Consumable />
+    <Potion />
+    <Soulbound />
+  </Object>
+  <Object id="Tuna Nigiri" type="0x5101">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>497</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Fatty tuna served on top of rice as a bite sized snack.</Description>
+    <BagType>7</BagType>
+    <Activate amount="100" channel="statConsumables" duration="600" stat="MAXMP">StatBoostSelf</Activate>
+    <Activate amount="6" channel="statConsumables" duration="600" stat="WIS">StatBoostSelf</Activate>
+    <feedPower>1200</feedPower>
+    <Consumable />
+    <Potion />
+    <Soulbound />
+  </Object>
+  <Object id="Takoyaki" type="0x5102">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>498</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A delicious way to prepare octopus! Grilled to perfection and topped with a sweet and savoury sauce.</Description>
+    <BagType>7</BagType>
+    <Activate amount="6" channel="statConsumables" duration="600" stat="ATT">StatBoostSelf</Activate>
+    <Activate amount="6" channel="statConsumables" duration="600" stat="SPD">StatBoostSelf</Activate>
+    <feedPower>1200</feedPower>
+    <Consumable />
+    <Potion />
+    <Soulbound />
+  </Object>
+  <Object id="Grilled Fish" type="0x5103">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>499</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fish grilled over charcoal. The charred taste accentuates the flavour.</Description>
+    <BagType>7</BagType>
+    <Activate amount="100" channel="statConsumables" duration="600" stat="MAXHP">StatBoostSelf</Activate>
+    <Activate amount="6" channel="statConsumables" duration="600" stat="VIT">StatBoostSelf</Activate>
+    <feedPower>1200</feedPower>
+    <Consumable />
+    <Potion />
+    <Soulbound />
+  </Object>
+  <Object id="Akuma Ramen" type="0x5104">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>500</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Freshly caught fish served with ramen noodles in a spicy broth.</Description>
+    <BagType>7</BagType>
+    <Activate amount="8" channel="statConsumables" duration="600" stat="DEX">StatBoostSelf</Activate>
+    <Activate amount="8" channel="statConsumables" duration="600" stat="DEF">StatBoostSelf</Activate>
+    <feedPower>1800</feedPower>
+    <Consumable />
+    <Potion />
+    <Soulbound />
+  </Object>
+  <Object id="Seafood Bento" type="0x5105">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>501</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A carefully prepared bento box filled with various produce from the sea.</Description>
+    <BagType>7</BagType>
+    <Activate amount="120" channel="statConsumables" duration="600" stat="MAXMP">StatBoostSelf</Activate>
+    <Activate amount="8" channel="statConsumables" duration="600" stat="WIS">StatBoostSelf</Activate>
+    <feedPower>1800</feedPower>
+    <Consumable />
+    <Potion />
+    <Soulbound />
+  </Object>
+  <Object id="Salmon Roe" type="0x5106">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>502</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A substantial amount of glossy salmon eggs; it is lightly seasoned.</Description>
+    <BagType>7</BagType>
+    <Activate amount="8" channel="statConsumables" duration="600" stat="ATT">StatBoostSelf</Activate>
+    <Activate amount="8" channel="statConsumables" duration="600" stat="SPD">StatBoostSelf</Activate>
+    <feedPower>1800</feedPower>
+    <Consumable />
+    <Potion />
+    <Soulbound />
+  </Object>
+  <Object id="Unadon" type="0x5107">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>503</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A delicious rice bowl with a large slab of grilled eel glazed in a sweet sauce.</Description>
+    <BagType>7</BagType>
+    <Activate amount="120" channel="statConsumables" duration="600" stat="MAXHP">StatBoostSelf</Activate>
+    <Activate amount="8" channel="statConsumables" duration="600" stat="VIT">StatBoostSelf</Activate>
+    <feedPower>1800</feedPower>
+    <Consumable />
+    <Potion />
+    <Soulbound />
+  </Object>
+  <Object id="MV Book Dropper" type="0x5112">
+    <Class>Equipment</Class>
+    <DisplayId>The Princess and the Fox</DisplayId>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>532</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Open it to obtain a page from the Eastern folktale: "The Princess and the Fox".</Description>
+    <Sound>use_potion</Sound>
+    <Activate cooldown="3" hideEffect="true" objectId="MV Book Object 0">Pet</Activate>
+    <BagType>7</BagType>
+    <feedPower>5</feedPower>
+    <InvUse />
+    <Soulbound />
+    <Consumable />
+    <SuccessorId>MV Book 1</SuccessorId>
+  </Object>
+  <Object id="MV Book 1" type="0x510c">
+    <Class>Equipment</Class>
+    <DisplayId>The Princess and the Fox: Page 1</DisplayId>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>532</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A page from a book of an Eastern folktale.</Description>
+    <Sound>use_potion</Sound>
+    <Activate image="battleSummarySplash" text="A long time ago, there was a princess of the great heavens. Still very young and early in her training, she chose not to speak to people and focused only on her work. She would refuse her mentor's advice to meet and become friends with the villagers. \n\n'It's a waste of my time' the princess would often say. \n\nOne day, the princess would walk to her workshop and find a little orange fox at her doorway. \n\n'Why do you stand by my door every day?' the princess asked." title="Princess and the Fox">ShowInfoPopup</Activate>
+    <BagType>7</BagType>
+    <feedPower>5</feedPower>
+    <InvUse />
+    <Soulbound />
+  </Object>
+  <Object id="MV Book 2" type="0x510d">
+    <Class>Equipment</Class>
+    <DisplayId>The Princess and the Fox: Page 2</DisplayId>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>532</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A page from a book of an Eastern folktale.</Description>
+    <Sound>use_potion</Sound>
+    <Activate image="battleSummarySplash" text="The fox nervously scratched its fur as it responded, 'Oh dear princess, I am a bored and tired fox, and I yearn for someone to play with!' \n\n'Then go into the woods and play with some other creatures. I am very busy,' replied the princess. \n\n'But princess, I am sick and weak, and I cannot catch up with the other creatures. I see the light that you make from your work every night, and would love to play with your dancing lights!' The fox would approach her with a wistful curiosity. \n\nThe princess reaffirmed 'I will not play with you. Please go away and bother someone else.'" title="Princess and the Fox">ShowInfoPopup</Activate>
+    <BagType>7</BagType>
+    <feedPower>5</feedPower>
+    <InvUse />
+    <Soulbound />
+  </Object>
+  <Object id="MV Book 3" type="0x510e">
+    <Class>Equipment</Class>
+    <DisplayId>The Princess and the Fox: Page 3</DisplayId>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>532</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A page from a book of an Eastern folktale.</Description>
+    <Sound>use_potion</Sound>
+    <Activate image="battleSummarySplash" text="The fox worriedly spun in circles, chasing its tail. 'You are the only one with the dancing lights! If I don't get to play with you, I will cry and wail until you spend time with me!' \n\n'I don't want to play with foxes. Cry all you want, I will not come out to play with you,' and the princess would shut her door. \n\nThe princess would continue her work, and ignored the fox at her doorway every morning. And every night, she would hear the wailing and howling of a lonely fox outside her door. Every day she would see the orange fox, and every night she would hear the howling of the fox outside." title="Princess and the Fox">ShowInfoPopup</Activate>
+    <BagType>7</BagType>
+    <feedPower>5</feedPower>
+    <Soulbound />
+    <InvUse />
+  </Object>
+  <Object id="MV Book 4" type="0x510f">
+    <Class>Equipment</Class>
+    <DisplayId>The Princess and the Fox: Page 4</DisplayId>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>532</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A page from a book of an Eastern folktale.</Description>
+    <Sound>use_potion</Sound>
+    <Activate image="battleSummarySplash" text="One day, the princess tired herself out on a great project, and yearned for a good night's sleep. And when she heard the fox's crying, she decided that she had enough. She would pick a metal lantern from her workshop and walk out one night, looking for the fox. \n\n'Where are you?' the princess shouted. 'I am tired of your wailing and I need to sleep!' \n\nThe fox stopped howling, and curiously approached. 'Have you come out to play with me?' \n\n'No! I am going to take my lantern and chase you far away from this village, so I can sleep without your howling!'" title="Princess and the Fox">ShowInfoPopup</Activate>
+    <BagType>7</BagType>
+    <feedPower>5</feedPower>
+    <Soulbound />
+    <InvUse />
+  </Object>
+  <Object id="MV Book 5" type="0x5110">
+    <Class>Equipment</Class>
+    <DisplayId>The Princess and the Fox: Page 5</DisplayId>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>532</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A page from a book of an Eastern folktale.</Description>
+    <Sound>use_potion</Sound>
+    <Activate image="battleSummarySplash" text="The exhausted princess could not catch up to the fox as she chased it around the village. All around, the villagers awoke to the screaming of an angry princess accompanied by the happy yips of a fox. Every lantern lit up as villagers watched the fox joyfully lead the princess's lantern here and there and everywhere. \n\nThe princess tripped over her feet and dropped her lantern with a loud CLANG! And the fox would bite and pick up the lantern." title="Princess and the Fox">ShowInfoPopup</Activate>
+    <BagType>7</BagType>
+    <feedPower>5</feedPower>
+    <Soulbound />
+    <InvUse />
+  </Object>
+  <Object id="MV Book 6" type="0x5111">
+    <Class>Equipment</Class>
+    <DisplayId>The Princess and the Fox: Page 6</DisplayId>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>532</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A page from a book of an Eastern folktale.</Description>
+    <Sound>use_potion</Sound>
+    <Activate image="battleSummarySplash" text="'Now it's my turn to hold the dancing light!' \n\nThe villagers watched with great interest at the sudden performance of the princess and the fox. The princess would spend all night chasing the fox for her lantern, until she was too tired and gave up. And the next night, the fox would sit there with her stolen lantern, waiting to play with the princess once again." title="Princess and the Fox">ShowInfoPopup</Activate>
+    <BagType>7</BagType>
+    <feedPower>5</feedPower>
+    <Soulbound />
+    <InvUse />
+  </Object>
+  <Object id="MV Book Object 0" type="0x5113">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="MV Book 7" type="0x5123">
+    <Class>Equipment</Class>
+    <DisplayId>The Night Prince: Page 1</DisplayId>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>533</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A page from a book of an Eastern folktale. It's written in a foreign language that appears indecipherable</Description>
+    <Sound>use_potion</Sound>
+    <Activate cooldown="3" hideEffect="true" objectId="MV Book Object 1">Pet</Activate>
+    <BagType>7</BagType>
+    <feedPower>5</feedPower>
+    <Soulbound />
+    <InvUse />
+    <Consumable />
+  </Object>
+  <Object id="MV Book 8" type="0x5125">
+    <Class>Equipment</Class>
+    <DisplayId>The Night Prince: Page 2</DisplayId>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>533</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A page from a book of an Eastern folktale. It's written in a foreign language that appears indecipherable</Description>
+    <Sound>use_potion</Sound>
+    <Activate cooldown="3" hideEffect="true" objectId="MV Book Object 2">Pet</Activate>
+    <BagType>7</BagType>
+    <feedPower>5</feedPower>
+    <Soulbound />
+    <InvUse />
+  </Object>
+  <Object id="MV Book 9" type="0x5126">
+    <Class>Equipment</Class>
+    <DisplayId>The Night Prince: Page 3</DisplayId>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>533</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A page from a book of an Eastern folktale. It's written in a foreign language that appears indecipherable</Description>
+    <Sound>use_potion</Sound>
+    <Activate cooldown="3" hideEffect="true" objectId="MV Book Object 3">Pet</Activate>
+    <BagType>7</BagType>
+    <feedPower>5</feedPower>
+    <Soulbound />
+    <InvUse />
+  </Object>
+  <Object id="MV Book 10" type="0x5127">
+    <Class>Equipment</Class>
+    <DisplayId>The Night Prince: Page 4</DisplayId>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>533</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A page from a book of an Eastern folktale. It's written in a foreign language that appears indecipherable</Description>
+    <Sound>use_potion</Sound>
+    <Activate cooldown="3" hideEffect="true" objectId="MV Book Object 4">Pet</Activate>
+    <BagType>7</BagType>
+    <feedPower>5</feedPower>
+    <Soulbound />
+    <InvUse />
+  </Object>
+  <Object id="MV Book 11" type="0x5128">
+    <Class>Equipment</Class>
+    <DisplayId>The Night Prince: Page 5</DisplayId>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>533</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A page from a book of an Eastern folktale. It's written in a foreign language that appears indecipherable</Description>
+    <Sound>use_potion</Sound>
+    <Activate cooldown="3" hideEffect="true" objectId="MV Book Object 5">Pet</Activate>
+    <BagType>7</BagType>
+    <feedPower>5</feedPower>
+    <Soulbound />
+    <InvUse />
+  </Object>
+  <Object id="MV Book Object 1" type="0x5129">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="MV Book Object 2" type="0x512b">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="MV Book Object 3" type="0x512c">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="MV Book Object 4" type="0x5130">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="MV Book Object 5" type="0x5131">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="MV Book 12" type="0x5132">
+    <Class>Equipment</Class>
+    <DisplayId>The Night Prince</DisplayId>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>533</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The completed book of the Eastern folktale: The Night Prince</Description>
+    <Sound>use_potion</Sound>
+    <Activate cooldown="3" hideEffect="true" objectId="MV Book Object 6">Pet</Activate>
+    <BagType>7</BagType>
+    <feedPower>5</feedPower>
+    <Soulbound />
+    <InvUse />
+  </Object>
+  <Object id="MV Book Object 6" type="0x5133">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+</Objects>
