@@ -3231,7 +3231,7 @@
     <Labels>ENEMY,MINION</Labels>
   </Object>
   <Object type="0x4b2d" id="Keyper Initiator">
-    <DisplayId>The Keyper</DisplayId>
+    <DisplayId>The Skeyper</DisplayId>
     <Class>GameObject</Class>
     <Enemy />
     <Invincible />
@@ -3269,14 +3269,15 @@
     <DontFaceAttacks />
     <Level>20</Level>
     <TrackLoot />
+    <DisplayId>The Skeyper</DisplayId>
     <AnimatedTexture>
-      <File>crystalCaveChars16x16</File>
-      <Index>27</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>163</Index>
     </AnimatedTexture>
     <AltTexture id="1">
       <AnimatedTexture>
-        <File>crystalCaveChars16x16</File>
-        <Index>29</Index>
+        <File>chars16x16rEncounters</File>
+        <Index>164</Index>
       </AnimatedTexture>
     </AltTexture>
     <Size>1</Size>
@@ -6483,7 +6484,7 @@
     <Terrain>Mountains</Terrain>
   </Object>
   <Object type="0x80b9" id="The Appetizer Initiator">
-    <DisplayId>The Appetizer</DisplayId>
+    <DisplayId>The Santappetizer</DisplayId>
     <Class>GameObject</Class>
     <Enemy />
     <Invincible />
@@ -6503,9 +6504,10 @@
     <Quest />
     <Level>20</Level>
     <TrackLoot />
+    <DisplayId>The Santappetizer</DisplayId>
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
-      <Index>161</Index>
+      <Index>162</Index>
     </AnimatedTexture>
     <MaxHitPoints>150000</MaxHitPoints>
     <Defense>60</Defense>
@@ -7574,24 +7576,24 @@
     <TrackLoot />
     <RandomTexture>
       <Texture>
-        <File>santaWorkshopObjects16x16</File>
-        <Index>0x1a</Index>
+        <File>buffedBunnyObjects16x16</File>
+        <Index>0x0</Index>
       </Texture>
       <Texture>
-        <File>santaWorkshopObjects16x16</File>
-        <Index>0x1b</Index>
+        <File>buffedBunnyObjects16x16</File>
+        <Index>0x1</Index>
       </Texture>
       <Texture>
-        <File>santaWorkshopObjects16x16</File>
-        <Index>0x1c</Index>
+        <File>buffedBunnyObjects16x16</File>
+        <Index>0x2</Index>
       </Texture>
       <Texture>
-        <File>santaWorkshopObjects16x16</File>
-        <Index>0x1d</Index>
+        <File>buffedBunnyObjects16x16</File>
+        <Index>0x3</Index>
       </Texture>
       <Texture>
-        <File>santaWorkshopObjects16x16</File>
-        <Index>0x1e</Index>
+        <File>buffedBunnyObjects16x16</File>
+        <Index>0xc</Index>
       </Texture>
     </RandomTexture>
     <MaxHitPoints>20000</MaxHitPoints>
@@ -7726,6 +7728,7 @@
       <Magnitude>1.6</Magnitude>
     </Projectile>
       ​
+      --&gt;
       ​
       <HealthBarBoss radius="30" /><KillStat stat="HumanoidKills" /><KillStat stat="GodKills" /><Labels>ENEMY,MINIBOSS,HUMANOID,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels></Object>
   <Object type="0x8106" id="Bella Seed Encounter">

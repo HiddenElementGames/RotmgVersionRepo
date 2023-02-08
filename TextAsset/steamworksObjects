@@ -1655,7 +1655,7 @@
     <Size>100</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>650</Exp>
+    <Exp>767</Exp>
     <AlwaysPositiveHealth />
   </Object>
   <Object type="0xc09a" id="KSW Fl 1 Right Switch">
@@ -1670,7 +1670,7 @@
     <Size>100</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>650</Exp>
+    <Exp>767</Exp>
     <AlwaysPositiveHealth />
   </Object>
   <Object id="KSW Door Locked FL 2" type="0xc0b9">
@@ -1734,7 +1734,7 @@
     <Size>100</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>650</Exp>
+    <Exp>767</Exp>
     <AlwaysPositiveHealth />
   </Object>
   <Object type="0xc0bd" id="KSW Fl 2 Right Switch">
@@ -1749,7 +1749,7 @@
     <Size>100</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>650</Exp>
+    <Exp>767</Exp>
     <AlwaysPositiveHealth />
   </Object>
   <Object id="KSW Door Locked FL 3" type="0xc0be">
@@ -1813,7 +1813,7 @@
     <Size>100</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>650</Exp>
+    <Exp>767</Exp>
     <AlwaysPositiveHealth />
   </Object>
   <Object type="0xc0c2" id="KSW Fl 3 Right Switch">
@@ -1828,7 +1828,7 @@
     <Size>100</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>650</Exp>
+    <Exp>767</Exp>
     <AlwaysPositiveHealth />
   </Object>
   <Object id="KSW Base Wall 1" type="0xc097">
@@ -2179,7 +2179,8 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Invincible />
+    <Defense>25</Defense>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Projectile id="0">
       <ObjectId>KSW Red Bolt</ObjectId>
       <Damage>100</Damage>
@@ -2205,7 +2206,8 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Invincible />
+    <Defense>25</Defense>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Projectile id="0">
       <ObjectId>steamworks Steam Ball</ObjectId>
       <Damage>120</Damage>
@@ -2228,7 +2230,8 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Invincible />
+    <Defense>25</Defense>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Projectile id="0">
       <ObjectId>steamworks Fire Ball</ObjectId>
       <Damage>75</Damage>
@@ -2271,6 +2274,14 @@
     </Texture>
     <Size>-1</Size>
   </Object>
+  <Object type="0xc100" id="KSW Experiments Steam Ground Creator">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiEnvironment</File>
+      <Index>0xa4</Index>
+    </Texture>
+    <Size>-1</Size>
+  </Object>
   <Object type="0xc10a" id="KSW Steam Ground Creator No Invisible">
     <Class>GameObject</Class>
     <Texture>
@@ -2298,7 +2309,8 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Invincible />
+    <Defense>25</Defense>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Projectile id="0">
       <ObjectId>steamworks Fire Shield</ObjectId>
       <Damage>80</Damage>
@@ -2338,7 +2350,8 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Invincible />
+    <Defense>25</Defense>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Projectile id="0">
       <ObjectId>steamworks Fire Shield</ObjectId>
       <Damage>80</Damage>
@@ -2378,7 +2391,8 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Invincible />
+    <Defense>25</Defense>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Projectile id="0">
       <ObjectId>steamworks Fire Shield</ObjectId>
       <Damage>80</Damage>
@@ -2418,7 +2432,8 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Invincible />
+    <Defense>25</Defense>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Projectile id="0">
       <ObjectId>steamworks Fire Shield</ObjectId>
       <Damage>80</Damage>
@@ -2458,7 +2473,8 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Invincible />
+    <Defense>25</Defense>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Projectile id="0">
       <ObjectId>steamworks Fire Shield</ObjectId>
       <Damage>80</Damage>
@@ -2498,7 +2514,8 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Invincible />
+    <Defense>25</Defense>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Projectile id="0">
       <ObjectId>steamworks Fire Shield</ObjectId>
       <Damage>80</Damage>
@@ -3125,11 +3142,8 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>30</Defense>
     <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <Exp>650</Exp>
-    <BXP>3250</BXP>
+    <Exp>767</Exp>
+    <BXP>3835</BXP>
     <Size>140</Size>
     <Projectile id="0">
       <ObjectId>steamworks Large Fire Blast</ObjectId>
@@ -3164,9 +3178,6 @@
     <Enemy />
     <Class>Character</Class>
     <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
     <AnimatedTexture>
       <File>steamworksChars8x8</File>
       <Index>2</Index>
@@ -3176,8 +3187,8 @@
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>650</Exp>
-    <BXP>3250</BXP>
+    <Exp>767</Exp>
+    <BXP>3835</BXP>
     <Projectile id="0">
       <ObjectId>steamworks Golden Hammer 2</ObjectId>
       <Damage>120</Damage>
@@ -3202,16 +3213,13 @@
       <Index>5</Index>
     </AnimatedTexture>
     <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>130</Size>
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>25</Defense>
-    <Exp>650</Exp>
-    <BXP>3250</BXP>
+    <Exp>767</Exp>
+    <BXP>3835</BXP>
     <Projectile id="0">
       <ObjectId>steamworks Spinning Magnet</ObjectId>
       <Damage>150</Damage>
@@ -3238,15 +3246,12 @@
     </AnimatedTexture>
     <Size>140</Size>
     <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <MaxHitPoints>3200</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>650</Exp>
-    <BXP>3250</BXP>
+    <Exp>767</Exp>
+    <BXP>3835</BXP>
       KSW Small Sawblade
       <Projectile id="0"><ObjectId>KSW Fire Ball</ObjectId><Damage>85</Damage><Speed>50</Speed><LifetimeMS>2200</LifetimeMS><ArmorPiercing /><Size>110</Size></Projectile><Projectile id="1"><ObjectId>KSW Small Sawblade</ObjectId><Damage>90</Damage><Speed>40</Speed><LifetimeMS>2200</LifetimeMS><ArmorPiercing /><Size>110</Size></Projectile><Projectile id="2"><ObjectId>KSW Small Sawblade</ObjectId><Damage>90</Damage><Speed>50</Speed><LifetimeMS>2200</LifetimeMS><ArmorPiercing /><Size>110</Size></Projectile><KillStat stat="CONSTRUCTKills" /><Labels>ENEMY,MINION,CONSTRUCT,MINION_WEAK</Labels><SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn><SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn></Object>
   <Object id="Small Kogbold 5" type="0xc0ed">
@@ -3260,15 +3265,13 @@
     </AnimatedTexture>
     <StasisImmune />
     <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>650</Exp>
-    <BXP>3250</BXP>
+    <Exp>767</Exp>
+    <BXP>3835</BXP>
     <Size>130</Size>
     <WhileMoving>
       <Z>0.3</Z>
@@ -3343,16 +3346,14 @@
       <Index>0</Index>
     </AnimatedTexture>
     <StasisImmune />
-    <ParalyzeImmune />
     <StunImmune />
-    <DazedImmune />
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>6725</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>1000</Exp>
-    <BXP>5000</BXP>
+    <Exp>1180</Exp>
+    <BXP>5900</BXP>
     <Projectile id="0">
       <ObjectId>Screwdriver Projectile</ObjectId>
       <Damage>90</Damage>
@@ -3528,8 +3529,8 @@
     <Size>100</Size>
     <MaxHitPoints>5625</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>1000</Exp>
-    <BXP>5000</BXP>
+    <Exp>1180</Exp>
+    <BXP>5900</BXP>
     <Projectile id="0">
       <ObjectId>Abyss Sword Projectile</ObjectId>
       <Damage>1</Damage>
@@ -3553,7 +3554,7 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Exp>650</Exp>
+    <Exp>767</Exp>
   </Object>
   <Object type="0xc08b" id="KSW Destroyed Tinkerer Turret">
     <Class>Character</Class>
@@ -3580,12 +3581,10 @@
     <Size>100</Size>
     <MaxHitPoints>8200</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>1000</Exp>
-    <BXP>5000</BXP>
+    <Exp>1180</Exp>
+    <BXP>5900</BXP>
     <StasisImmune />
     <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
     <Projectile id="0">
       <ObjectId>steamworks Hammer Shot 1</ObjectId>
       <Damage>120</Damage>
@@ -3706,12 +3705,10 @@
     <Size>100</Size>
     <MaxHitPoints>7525</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>1000</Exp>
-    <BXP>5000</BXP>
+    <Exp>1180</Exp>
+    <BXP>5900</BXP>
     <StasisImmune />
     <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
     <Projectile id="0">
       <ObjectId>steamworks Water Ball</ObjectId>
       <Damage>120</Damage>
@@ -3778,14 +3775,13 @@
       <Index>13</Index>
     </AnimatedTexture>
     <StasisImmune />
-    <DazedImmune />
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>5625</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>2000</Exp>
-    <BXP>10000</BXP>
+    <Exp>2360</Exp>
+    <BXP>11800</BXP>
     <Projectile id="1">
       <ObjectId>steamworks Small Fire Drop</ObjectId>
       <Damage>120</Damage>
@@ -3827,7 +3823,7 @@
     <Size>100</Size>
     <MaxHitPoints>5625</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>650</Exp>
+    <Exp>767</Exp>
     <Projectile id="0">
       <ObjectId>White Bullet</ObjectId>
       <Damage>1</Damage>
@@ -3854,7 +3850,7 @@
     <Size>85</Size>
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>20</Defense>
-    <Exp>650</Exp>
+    <Exp>767</Exp>
     <StasisImmune />
     <ParalyzeImmune />
     <StunImmune />
@@ -3916,8 +3912,8 @@
     <Size>60</Size>
     <MaxHitPoints>5625</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>650</Exp>
-    <BXP>3088</BXP>
+    <Exp>767</Exp>
+    <BXP>3643</BXP>
     <Projectile id="0">
       <ObjectId>White Bullet</ObjectId>
       <Damage>1</Damage>
@@ -3948,8 +3944,8 @@
     <Size>100</Size>
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>20</Defense>
-    <Exp>650</Exp>
-    <BXP>3088</BXP>
+    <Exp>767</Exp>
+    <BXP>3643</BXP>
     <Projectile id="0">
       <ObjectId>steamworks Small Fire Drop</ObjectId>
       <Damage>75</Damage>
@@ -3981,8 +3977,8 @@
     <Size>100</Size>
     <MaxHitPoints>7500</MaxHitPoints>
     <Defense>45</Defense>
-    <Exp>1000</Exp>
-    <BXP>5000</BXP>
+    <Exp>1180</Exp>
+    <BXP>5900</BXP>
     <Projectile id="0">
       <ObjectId>Katana Slash</ObjectId>
       <Damage>140</Damage>
@@ -4795,8 +4791,8 @@
     <Size>100</Size>
     <MaxHitPoints>250000</MaxHitPoints>
     <Defense>40</Defense>
-    <Exp>80000</Exp>
-    <BXP>400000</BXP>
+    <Exp>94400</Exp>
+    <BXP>472000</BXP>
     <Quest />
     <HealthBarBoss radius="25" />
     <God />
@@ -5101,7 +5097,7 @@
       <Size>100</Size>
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,HPSCALEONENTRY</Labels>
     <SpecialSpawn category="Bis">Kogbold Steamworks Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Double Cheeseburger Deluxe</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Automaton Egg</SpecialSpawn>
@@ -5196,6 +5192,7 @@
   <Object type="0xc4c8" id="KSW Factory Maintenance Core">
     <Class>Character</Class>
     <Enemy />
+    <DisplayId>Factory Maintenance Core</DisplayId>
     <AnimatedTexture>
       <File>steamworksChars16x16</File>
       <Index>6</Index>
@@ -5566,7 +5563,7 @@
     <MaxHitPoints>10000</MaxHitPoints>
     <Defense>30</Defense>
     <StasisImmune />
-    <Exp>650</Exp>
+    <Exp>767</Exp>
     <Color>0x429EF5</Color>
     <Labels>ENEMY,BOSS_SPAWNED,CONSTRUCT</Labels>
   </Object>
@@ -6657,8 +6654,8 @@
     <Size>100</Size>
     <MaxHitPoints>65000</MaxHitPoints>
     <Defense>40</Defense>
-    <Exp>20000</Exp>
-    <BXP>100000</BXP>
+    <Exp>23600</Exp>
+    <BXP>118000</BXP>
     <Quest />
     <HealthBarBoss radius="25" />
     <God />
@@ -6804,7 +6801,7 @@
         </Texture>
       </Frame>
     </Animation>
-    <DisplayId>Jungle Flame</DisplayId>
+    <DisplayId>Mechanical Flame</DisplayId>
     <Size>100</Size>
     <Invincible />
     <Projectile id="0">

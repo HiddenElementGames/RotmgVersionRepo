@@ -22241,4 +22241,90 @@
     <feedPower>1000</feedPower>
     <Track />
   </Object>
+  <Object id="Model K999" type="0xC60D">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Canine</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Model K999 Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xC60E" id="Model K999 Pet Skin">
+    <PetSkin />
+    <DisplayId>Model K999</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Canine</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>241</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xC60F" id="Model K999 Pet Stone">
+    <DisplayId>Model K999 Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>241</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>01010000 01010010 01001111 01010100 01000101 01000011 01010100 00100000 01001101 01000001 01010011 01010100 01000101 01010010\n\nUnlocks Model K999 Pet Skin of the Canine family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="50702">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object id="Gentle Unicorn" type="0xC610">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Farm</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Gentle Unicorn Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xC611" id="Gentle Unicorn Pet Skin">
+    <PetSkin />
+    <DisplayId>Gentle Unicorn</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>2</ItemTier>
+    <Family>Farm</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>242</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xC612" id="Gentle Unicorn Pet Stone">
+    <DisplayId>Gentle Unicorn Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>2</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>242</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Unicorns were sought after for their majestic, powerful and magical nature, yet they would only make their presence known to those that live a life of purity.\n\nUnlocks Gentle Unicorn Pet Skin of the Farm family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="50705">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
 </Objects>

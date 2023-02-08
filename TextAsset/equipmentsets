@@ -1323,4 +1323,31 @@
     <ActivateOnEquip2 stat="DEF" amount="6">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="SPD" amount="4">IncrementStat</ActivateOnEquip2>
   </EquipmentSet>
+  <EquipmentSet type="0x425c" id="Onmyoji Ninja Set">
+    <Setpiece slot="0" itemtype="0x6869">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x686a">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x686b">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x686c">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0x3aec" size="80" color="0x93112d" bulletType="Sacred Ring Large">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="6">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="75">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="DEX" amount="4">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXHP" amount="75">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="ATT" amount="4">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEF" amount="4">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x425d" id="Plague Doctor Priest Set">
+    <Setpiece slot="0" itemtype="0x686d">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x686e">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x686f">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x6870">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0x3aeb" size="80" color="0xffcd56" bulletType="Plague Orb Large">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEX" amount="4">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="4">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="50">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="DEF" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXHP" amount="50">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="DEX" amount="3">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="SPD" amount="5">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
 </EquipmentSets>

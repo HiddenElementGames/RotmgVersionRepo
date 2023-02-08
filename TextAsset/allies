@@ -5213,4 +5213,115 @@
     <Enemy />
     <Invincible />
   </Object>
+  <Object type="0x4434" id="Plague Leech">
+    <Class>Summon</Class>
+    <NoMiniMap />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>195</Index>
+    </AnimatedTexture>
+    <Size>60</Size>
+    <ShadowSize>0</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Cat Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <LifetimeMS>0</LifetimeMS>
+      <Size>0</Size>
+    </Projectile>
+    <RepulsionRadius>0.8f</RepulsionRadius>
+    <OrbitCreepMaster minRadius="2.5" maxRadius="2.5" speed="0.8" clockwiseProb="1" radiusVariability="0.0" speedVariability="0.0" speedUpCoef="0.6" speedUpDistance="2.5" />
+  </Object>
+  <Object type="0x4435" id="Plague Leech Damage AOE">
+    <Class>Summon</Class>
+    <NoMiniMap />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>196</Index>
+    </AnimatedTexture>
+    <Size>80</Size>
+    <ShadowSize>0</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Cat Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <LifetimeMS>0</LifetimeMS>
+      <Size>0</Size>
+    </Projectile>
+    <RepulsionRadius>0.8f</RepulsionRadius>
+    <OrbitCreepMaster minRadius="2.5" maxRadius="2.5" speed="0.8" clockwiseProb="1" radiusVariability="0.0" speedVariability="0.0" speedUpCoef="0.6" speedUpDistance="2.5" />
+  </Object>
+  <Object type="0x4436" id="Plague Leech Heal Zap">
+    <Class>Summon</Class>
+    <NoMiniMap />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>196</Index>
+    </AnimatedTexture>
+    <Size>80</Size>
+    <ShadowSize>0</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Cat Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <LifetimeMS>0</LifetimeMS>
+      <Size>0</Size>
+    </Projectile>
+    <RepulsionRadius>0.8f</RepulsionRadius>
+    <OrbitCreepMaster minRadius="2.5" maxRadius="2.5" speed="0.8" clockwiseProb="1" radiusVariability="0.0" speedVariability="0.0" speedUpCoef="0.6" speedUpDistance="2.5" />
+  </Object>
+  <Object type="0x4437" id="Plague Leech Damage AOE and Zap">
+    <Class>Summon</Class>
+    <NoMiniMap />
+    <AnimatedTexture>
+      <File>oryxHordeChars16x16</File>
+      <Index>49</Index>
+    </AnimatedTexture>
+    <Size>80</Size>
+    <ShadowSize>0</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Cat Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <LifetimeMS>0</LifetimeMS>
+      <Size>0</Size>
+    </Projectile>
+    <RepulsionRadius>0.8f</RepulsionRadius>
+    <OrbitCreepMaster minRadius="2.5" maxRadius="2.5" speed="0.8" clockwiseProb="1" radiusVariability="0.0" speedVariability="0.0" speedUpCoef="0.6" speedUpDistance="2.5" />
+  </Object>
+  <Object type="0x4438" id="Invisileech">
+    <Class>Summon</Class>
+    <NoCollisionWhenMovement />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x4439" id="LeechAOE">
+    <Class>Summon</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x443a" id="LeechAOEUpgrade">
+    <Class>Summon</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
 </Objects>

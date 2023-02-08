@@ -14730,7 +14730,7 @@
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
     <CommonDungeon diff="7">The Nest</CommonDungeon>
-    <CommonDungeon diff="7">Deadwater Docks</CommonDungeon>
+    <CommonDungeon diff="6">Deadwater Docks</CommonDungeon>
   </Object>
   <Object type="0x236E" id="Greater Potion of Life">
     <Class>Equipment</Class>
@@ -41941,7 +41941,7 @@
       <Index>0x2fb</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A secret stash of 100 000 gold. Contact support to claim it, as they are the only ones to know its location.\n\nCan only be redeemed until the 16th of November 2021.</Description>
+    <Description>A secret stash of 100 000 gold. Contact support to claim it, as they are the only ones to know its location.\n\nCan only be redeemed until the 14th of March 2023.</Description>
     <Soulbound />
     <BagType>7</BagType>
     <Treasure />
@@ -41955,7 +41955,7 @@
       <Index>0x2fc</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A secret stash of 15 000 gold. Contact support to claim it, as they are the only ones to know its location.\n\nCan only be redeemed until the 16th of November 2021.</Description>
+    <Description>A secret stash of 15 000 gold. Contact support to claim it, as they are the only ones to know its location.\n\nCan only be redeemed until the 14th of March 2023.</Description>
     <Soulbound />
     <BagType>7</BagType>
     <Treasure />
@@ -41969,7 +41969,7 @@
       <Index>0x2fd</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>You only have time to grab an ST set before Beisa himself barges in! Contact support to claim it and escape the armory.\n\nCan only be redeemed until the 16th of November 2021.</Description>
+    <Description>You only have time to grab an ST set before Beisa himself barges in! Contact support to claim it and escape the armory.\n\nCan only be redeemed until the 14th of March 2023.</Description>
     <Soulbound />
     <BagType>7</BagType>
     <Treasure />
@@ -41983,7 +41983,7 @@
       <Index>0x2fe</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>Said to be a wish-granting mirror, but likely to be cursed. Contact support to claim three skins of choice, and be careful of your wishes.\n\nCan only be redeemed until the 16th of November 2021.</Description>
+    <Description>Said to be a wish-granting mirror, but likely to be cursed. Contact support to claim three skins of choice, and be careful of your wishes.\n\nCan only be redeemed until the 14th of March 2023.</Description>
     <Soulbound />
     <BagType>7</BagType>
     <Treasure />
@@ -50456,7 +50456,7 @@
     <feedPower>900</feedPower>
     <Soulbound />
     <UniqueID />
-    <Labels>EQUIPMENT,WEAPON,STAFF,ST,TAB_ST,ST_WEAPON,STGEN_3,POWERTIER_A,XPBONUS</Labels>
+    <Labels>EQUIPMENT,WEAPON,STAFF,ST,TAB_ST,ST_WEAPON,STGEN_3,POWERTIER_S,XPBONUS</Labels>
   </Object>
   <Object type="0x2251" id="3NecroST1" setType="0x425a" setName="Shaman Necromancer Set" collectionIcon="3">
     <DisplayId>Ritual Skull</DisplayId>
@@ -50534,7 +50534,7 @@
     <Soulbound />
     <XPBonus>6</XPBonus>
     <UniqueID />
-    <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_3,POWERTIER_C,XPBONUS</Labels>
+    <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_3,POWERTIER_B,XPBONUS</Labels>
   </Object>
   <Object type="0x2258" id="3NecroST4" setType="0x425a" setName="Shaman Necromancer Set" collectionIcon="3">
     <DisplayId>Soul Gem Amulet</DisplayId>
@@ -50590,7 +50590,7 @@
     <feedPower>900</feedPower>
     <XPBonus>6</XPBonus>
     <UniqueID />
-    <Labels>EQUIPMENT,WEAPON,DAGGER,ST,TAB_ST,ST_WEAPON,STGEN_3,POWERTIER_A,XPBONUS</Labels>
+    <Labels>EQUIPMENT,WEAPON,DAGGER,ST,TAB_ST,ST_WEAPON,STGEN_3,POWERTIER_S,XPBONUS</Labels>
   </Object>
   <Object type="0x2255" id="3AssassinST1" setType="0x425b" setName="Alchemist Assassin Set" collectionIcon="3">
     <DisplayId>Makeshift Blowpipe</DisplayId>
@@ -50634,7 +50634,7 @@
     <Soulbound />
     <XPBonus>6</XPBonus>
     <UniqueID />
-    <Labels>EQUIPMENT,ABILITY,POISON,ST,TAB_ST,ST_ABILITY,STGEN_3,POWERTIER_B,XPBONUS,MPCOST</Labels>
+    <Labels>EQUIPMENT,ABILITY,POISON,ST,TAB_ST,ST_ABILITY,STGEN_3,POWERTIER_A,XPBONUS,MPCOST</Labels>
   </Object>
   <Object type="0x2256" id="3AssassinST2" setType="0x425b" setName="Alchemist Assassin Set" collectionIcon="3">
     <DisplayId>Alchemist's Disheveled Garbs</DisplayId>
@@ -52948,5 +52948,350 @@
     <Track />
     <Soulbound />
     <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object type="0x6879" id="Heart Jewel Blades">
+    <DisplayId>Heart Jewel Blades</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x691</Index>
+    </Texture>
+    <Sound>weapon/fire_dagger</Sound>
+    <OldSound>daggerSwing</OldSound>
+    <SlotType>2</SlotType>
+    <Description>Jewel Encrusted blades, these weapons hold a special power to those that fight for love.</Description>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.9</RateOfFire>
+      <PosOffset>0.25,0</PosOffset>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.1</RateOfFire>
+      <PosOffset>-0.25,0</PosOffset>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Large Heart Slice</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>110</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Small Heart Slice</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>90</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <BagType>4</BagType>
+    <feedPower>233</feedPower>
+    <XPBonus>5</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,DUALBLADE,UT,TAB_UT,POWERTIER_D,TRADEABLE,RESKIN,XPBONUS</Labels>
+  </Object>
+  <Object type="0x687A" id="Anteros Longbow">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x694</Index>
+    </Texture>
+    <Sound>weapon/golden_bow</Sound>
+    <SlotType>3</SlotType>
+    <Description>Wielding this bow leads the user to become a defender of love. Helping people that are without love and smiting anyone that seeks to harm where love shines.</Description>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.96</RateOfFire>
+      <PosOffset>0,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.92</RateOfFire>
+      <PosOffset>-.5,-.5</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>5</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>.5,.5</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>-5</DefaultAngle>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Anteros Long Arrow</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>95</MinDamage>
+      <MaxDamage>115</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+    </Projectile>
+    <BagType>4</BagType>
+    <XPBonus>5</XPBonus>
+    <OldSound>arrowShoot</OldSound>
+    <feedPower>233</feedPower>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,LONGBOW,UT,TAB_UT,POWERTIER_D,TRADEABLE,RESKIN,XPBONUS</Labels>
+  </Object>
+  <Object type="0x687b" id="Love Heart Spellblade">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x696</Index>
+    </Texture>
+    <SlotType>17</SlotType>
+    <Description>Bestowed to trusted allies of the Love Hearts Guild, this spellblade conquers evil heart-breakers with the power of positive emotions.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/wand_of_death</Sound>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Small Heart Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>95</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Large Heart Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <MultiHit />
+      <Size>100</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <BagType>4</BagType>
+    <OldSound>magicShoot</OldSound>
+    <feedPower>233</feedPower>
+    <XPBonus>5</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SPELLBLADE,UT,TAB_UT,POWERTIER_D,NUMPROJ_2,XPBONUS,TRADEABLE,RESKIN</Labels>
+  </Object>
+  <Object type="0x687c" id="Morning Star Of Sweet Miracles">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x699</Index>
+    </Texture>
+    <Sound>weapon/wand_of_death</Sound>
+    <OldSound>magicShoot</OldSound>
+    <SlotType>8</SlotType>
+    <Description>Containing the power of pure heart and innocence, this morning star seeks to return compassion to the corrupted.</Description>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>4.41</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>8.82</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.60</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>-4.41</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>-8.82</DefaultAngle>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Miracle Sweet Star</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>380</LifetimeMS>
+      <Size>80</Size>
+    </Projectile>
+    <ArcGap>2.7</ArcGap>
+    <BagType>4</BagType>
+    <XPBonus>5</XPBonus>
+    <feedPower>233</feedPower>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,MORNINGSTAR,UT,TAB_UT,TRADEABLE,POWERTIER_D,XPBONUS,RESKIN</Labels>
+  </Object>
+  <Object type="0x687d" id="Lovestruck Yoyo">
+    <DisplayId>Lovestruck Yoyo</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x69F</Index>
+    </Texture>
+    <Sound>weapon/mithril_sword</Sound>
+    <OldSound>bladeSwing</OldSound>
+    <SlotType>1</SlotType>
+    <Description>Every swing of this weapon leaves enemies becoming less and less aggressive thanks to this toys magical properties (and being hit in the head multiple times).</Description>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Lovestruck Yoyo Ball</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>315</MinDamage>
+      <MaxDamage>375</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Boomerang />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Lovestruck Yoyo Chain</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>75</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Boomerang />
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Lovestruck Yoyo Chain</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>75</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Boomerang />
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <BagType>4</BagType>
+    <feedPower>233</feedPower>
+    <XPBonus>5</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,FLAIL,UT,TAB_UT,POWERTIER_D,XPBONUS,TRADEABLE,RESKIN</Labels>
+  </Object>
+  <Object type="0x687e" id="Sweetheart Taichi">
+    <DisplayId>Sweetheart Taichi</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0xBB8</Index>
+    </Texture>
+    <Sound>weapon/long_sword</Sound>
+    <OldSound>bladeSwing</OldSound>
+    <SlotType>24</SlotType>
+    <Description>Formerly wielded by lovers, their battle would end defending their home in the far lands of the realms. Both lovers are gone, but their blades remain and will never part.</Description>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>1,.75</PosOffset>
+      <DefaultAngle>-25</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>-1,.75</PosOffset>
+      <DefaultAngle>25</DefaultAngle>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Lovers Slash</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>105</MaxDamage>
+      <LifetimeMS>384</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <BagType>4</BagType>
+    <feedPower>233</feedPower>
+    <XPBonus>5</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,TACHI,UT,TAB_UT,POWERTIER_D,XPBONUS,TRADEABLE,RESKIN</Labels>
+  </Object>
+  <Object type="0x687f" id="Valentines Goodie Bag">
+    <DisplayId>Valentine's Goodie Bag</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x63f</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Open the goodie bag for a lovely reward!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Event" description="Valentine's Day" />
+    </ExtraTooltipData>
+    <Activate>MysteryDyes</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x6880" id="Valentines Gift">
+    <DisplayId>Valentine's Gift</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x640</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>As the plentiful bounty of a lovely Valentine is bestowed upon the Realm, see what the gift to you may be.\n\nItems contained in Valentine's Treasure can only be redeemed until the 14th of March 2023.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Event" description="Valentine's Bounty" />
+    </ExtraTooltipData>
+    <Activate>MysteryDyes</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x6881" id="Valentines Treasure">
+    <DisplayId>Valentine's Treasure</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0xBB9</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>An extravagant and golden gift, found in the most romantic corners of the Realm.\n\nItems contained in Valentine's Treasure can only be redeemed until the 14th of March 2023.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Event" description="Valentine's Bounty" />
+    </ExtraTooltipData>
+    <Activate>MysteryDyes</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
 </Objects>
