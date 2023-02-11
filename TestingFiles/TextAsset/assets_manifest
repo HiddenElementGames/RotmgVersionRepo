@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Manifest version="4.4">
+
+    <Importer>
+        <ImageSets>
+            <!-- No definitions for lofiChar8x8 because this bitmap is used for hallucinating effect -->
+            <ImageSet name="lofiChar8x8" resource="../../backend/dev/frontend/data/images/lofi_char_a.png" frameWidth="8" frameHeight="8" noDefinitions="1"/>
+
+            <ImageSet name="lofiChar16x8" resource="../../backend/dev/frontend/data/images/lofi_char_a.png" frameWidth="16" frameHeight="8" />
+            <ImageSet name="lofiChar16x16" resource="../../backend/dev/frontend/data/images/lofi_char_a.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="lofiChar28x8" resource="../../backend/dev/frontend/data/images/lofi_char2_a.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="lofiChar216x8" resource="../../backend/dev/frontend/data/images/lofi_char2_a.png" frameWidth="16" frameHeight="8" />
+            <ImageSet name="lofiChar216x16" resource="../../backend/dev/frontend/data/images/lofi_char2_a.png" frameWidth="16" frameHeight="16" />
+            <ImageSet name="lofiCharBig" resource="../../backend/dev/frontend/data/images/lofi_charBig_a.png" frameWidth="16" frameHeight="16" />
+            <ImageSet name="lofiEnvironment" resource="../../backend/dev/frontend/data/images/lofi_environment_a.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="lofiEnvironment2" resource="../../backend/dev/frontend/data/images/lofi_environment2_a.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="lofiEnvironment3" resource="../../backend/dev/frontend/data/images/lofi_environment3_a.png" frameWidth="8" frameHeight="8" alphaPadding="4"/>
+            <ImageSet name="lofiInterface" resource="../../backend/dev/frontend/data/images/lofi_interface_a.png" frameWidth="8" frameHeight="8" noDefinitions="1"/>
+            <ImageSet name="redLootBag" resource="../../backend/dev/frontend/data/images/redLootBag.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="lofiInterfaceBig" resource="../../backend/dev/frontend/data/images/lofi_interfaceBig_a.png" frameWidth="16" frameHeight="16" noDefinitions="1" alphaPadding="8"/>
+            <ImageSet name="lofiInterface2" resource="../../backend/dev/frontend/data/images/lofi_interface2_a.png" frameWidth="8" frameHeight="8" noDefinitions="1" alphaPadding="8"/>
+            <ImageSet name="ancientRuinsObjects8x8" resource="../../backend/dev/frontend/data/images/ancientRuinsObjects8x8.png" frameWidth="8" frameHeight="8" noDefinitions="1" alphaPadding="8"/>
+            <ImageSet name="ancientRuinsObjects16x16" resource="../../backend/dev/frontend/data/images/ancientRuinsObjects16x16.png" frameWidth="16" frameHeight="16" noDefinitions="1" alphaPadding="8"/>
+
+            <ImageSet name="lofiObj" resource="../../backend/dev/frontend/data/images/lofi_obj_a.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="lofiObj2" resource="../../backend/dev/frontend/data/images/lofi_obj2_a.png" frameWidth="8" frameHeight="8" noDefinitions="1"/>
+            <ImageSet name="lofiObj3" resource="../../backend/dev/frontend/data/images/lofi_obj3_a.png" frameWidth="8" frameHeight="8" noDefinitions="1" alphaPadding="4"/>
+            <ImageSet name="lofiObj4" resource="../../backend/dev/frontend/data/images/lofi_obj4_a.png" frameWidth="8" frameHeight="8" noDefinitions="1"/>
+            <ImageSet name="lofiObj5" resource="../../backend/dev/frontend/data/images/lofi_obj5_a.png" frameWidth="8" frameHeight="8" noDefinitions="1"/>
+            <ImageSet name="lofiObj5new" resource="../../backend/dev/frontend/data/images/lofi_obj5_b.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="lofiObj6" resource="../../backend/dev/frontend/data/images/lofi_obj6_a.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="lofiObjBig" resource="../../backend/dev/frontend/data/images/lofi_objBig_a.png" frameWidth="16" frameHeight="16" />
+            <ImageSet name="lofiObj40x40" resource="../../backend/dev/frontend/data/images/lofi_obj_40x40.png" frameWidth="40" frameHeight="40" />
+            <ImageSet name="lofiProjs" resource="../../backend/dev/frontend/data/images/lofi_projs_a.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="lofiParticlesShocker" resource="../../backend/dev/frontend/data/images/lofi_particlesShocker.png" frameWidth="16" frameHeight="16" noDefinitions="1"/>
+            <ImageSet name="lofiProjsBig" resource="../../backend/dev/frontend/data/images/lofi_projsBig_a.png" frameWidth="16" frameHeight="16" />
+            <ImageSet name="lofiParts" resource="../../backend/dev/frontend/data/images/lofi_parts_a.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="stars" resource="../../backend/dev/frontend/data/images/stars.png" frameWidth="5" frameHeight="5" noDefinitions="1"/>
+            <ImageSet name="textile4x4" resource="../../backend/dev/frontend/data/images/textile4x4.png" frameWidth="4" frameHeight="4" noDefinitions="1"/>
+            <ImageSet name="textile5x5" resource="../../backend/dev/frontend/data/images/textile5x5.png" frameWidth="5" frameHeight="5" noDefinitions="1"/>
+            <ImageSet name="textile9x9" resource="../../backend/dev/frontend/data/images/textile9x9.png" frameWidth="9" frameHeight="9" noDefinitions="1"/>
+            <ImageSet name="textile10x10" resource="../../backend/dev/frontend/data/images/textile10x10.png" frameWidth="10" frameHeight="10" noDefinitions="1"/>
+
+            <ImageSet name="inner_mask" resource="../../backend/dev/frontend/data/images/masks/mask-corner-inner.png" frameWidth="4" frameHeight="4" noDefinitions="1" pixelPadding="1"/>
+            <ImageSet name="sides_mask" resource="../../backend/dev/frontend/data/images/masks/mask-sides.png" frameWidth="4" frameHeight="4" noDefinitions="1" pixelPadding="1"/>
+            <ImageSet name="outer_mask" resource="../../backend/dev/frontend/data/images/masks/mask-corner-outer.png" frameWidth="4" frameHeight="4" noDefinitions="1" pixelPadding="1"/>
+            <ImageSet name="innerP1_mask" resource="../../backend/dev/frontend/data/images/masks/mask-corner-inner-p1.png" frameWidth="4" frameHeight="4" noDefinitions="1" pixelPadding="1"/>
+            <ImageSet name="innerP2_mask" resource="../../backend/dev/frontend/data/images/masks/mask-corner-inner-p2.png" frameWidth="4" frameHeight="4" noDefinitions="1" pixelPadding="1"/>
+
+            <ImageSet name="d3LofiObjEmbed" resource="../../backend/dev/frontend/data/images/d3_lofi_obj.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="d3LofiObjEmbed16" resource="../../backend/dev/frontend/data/images/d3_lofi_obj.png" frameWidth="16" frameHeight="16" />
+            <ImageSet name="d3LofiObjBigEmbed" resource="../../backend/dev/frontend/data/images/d3_lofi_objBig.png" frameWidth="16" frameHeight="16" />
+            <ImageSet name="d2LofiObjEmbed" resource="../../backend/dev/frontend/data/images/d2_lofi_obj.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="d2LofiObjBigEmbed" resource="../../backend/dev/frontend/data/images/d2_lofi_objBig.png" frameWidth="16" frameHeight="16" />
+            <ImageSet name="d1lofiObjBig" resource="../../backend/dev/frontend/data/images/d1_lofi_objBig.png" frameWidth="16" frameHeight="16" />
+            <ImageSet name="cursorsEmbed" resource="../../backend/dev/frontend/data/images/cursors_32x32.png" frameWidth="32" frameHeight="32" noDefinitions="1"/>
+
+            <ImageSet name="mountainTempleObjects8x8" resource="../../backend/dev/frontend/data/images/mountainTempleObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="mountainTempleObjects16x16" resource="../../backend/dev/frontend/data/images/mountainTempleObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="oryxHordeObjects8x8" resource="../../backend/dev/frontend/data/images/oryxHordeObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="oryxHordeObjects16x16" resource="../../backend/dev/frontend/data/images/oryxHordeObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="battleOryxObjects8x8" resource="../../backend/dev/frontend/data/images/battleOryxObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="battleOryxObjects16x16" resource="../../backend/dev/frontend/data/images/battleOryxObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="santaWorkshopObjects8x8" resource="../../backend/dev/frontend/data/images/santaWorkshopObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="santaWorkshopObjects16x16" resource="../../backend/dev/frontend/data/images/santaWorkshopObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="parasiteDenObjects8x8" resource="../../backend/dev/frontend/data/images/parasiteDenObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="parasiteDenObjects16x16" resource="../../backend/dev/frontend/data/images/parasiteDenObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="stPatricksObjects8x8" resource="../../backend/dev/frontend/data/images/stPatricksObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="stPatricksObjects16x16" resource="../../backend/dev/frontend/data/images/stPatricksObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="buffedBunnyObjects8x8" resource="../../backend/dev/frontend/data/images/buffedBunnyObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="buffedBunnyObjects16x16" resource="../../backend/dev/frontend/data/images/buffedBunnyObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="SakuraEnvironment16x16" resource="../../backend/dev/frontend/data/images/SakuraEnvironment16x16.png" frameWidth="16" frameHeight="16" />
+            <ImageSet name="SakuraEnvironment8x8" resource="../../backend/dev/frontend/data/images/SakuraEnvironment8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="HanamiParts" resource="../../backend/dev/frontend/data/images/HanamiParts.png" frameWidth="8" frameHeight="8" />
+
+            <ImageSet name="summerNexusObjects8x8" resource="../../backend/dev/frontend/data/images/summerNexusObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="summerNexusObjects16x16" resource="../../backend/dev/frontend/data/images/summerNexusObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="autumnNexusObjects8x8" resource="../../backend/dev/frontend/data/images/autumnNexusObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="autumnNexusObjects16x16" resource="../../backend/dev/frontend/data/images/autumnNexusObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="xmasNexusObjects8x8" resource="../../backend/dev/frontend/data/images/xmasNexusObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="xmasNexusObjects16x16" resource="../../backend/dev/frontend/data/images/xmasNexusObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="epicHiveObjects8x8" resource="../../backend/dev/frontend/data/images/epicHiveObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="epicHiveObjects16x16" resource="../../backend/dev/frontend/data/images/epicHiveObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="lostHallsObjects8x8" resource="../../backend/dev/frontend/data/images/lostHallsObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="lostHallsObjects16x16" resource="../../backend/dev/frontend/data/images/lostHallsObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="cnidarianReefObjects8x8" resource="../../backend/dev/frontend/data/images/cnidarianReefObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="cnidarianReefObjects16x16" resource="../../backend/dev/frontend/data/images/cnidarianReefObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="magicWoodsObjects8x8" resource="../../backend/dev/frontend/data/images/magicWoodsObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="magicWoodsObjects16x16" resource="../../backend/dev/frontend/data/images/magicWoodsObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="secludedThicketObjects8x8" resource="../../backend/dev/frontend/data/images/secludedThicketObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="secludedThicketObjects16x16" resource="../../backend/dev/frontend/data/images/secludedThicketObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="lofiGravestone8x8" resource="../../backend/dev/frontend/data/images/lofi_gravestone.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="lofiGravestone16x8" resource="../../backend/dev/frontend/data/images/lofi_gravestone.png" frameWidth="16" frameHeight="8" />
+            <ImageSet name="lofiGravestone16x16" resource="../../backend/dev/frontend/data/images/lofi_gravestone.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="theMachineObjects8x8" resource="../../backend/dev/frontend/data/images/theMachineObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="theMachineObjects16x16" resource="../../backend/dev/frontend/data/images/theMachineObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="cursedLibraryObjects8x8" resource="../../backend/dev/frontend/data/images/cursedLibraryObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="cursedLibraryObjects16x16" resource="../../backend/dev/frontend/data/images/cursedLibraryObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="lairOfShaitanObjects8x8" resource="../../backend/dev/frontend/data/images/lairOfShaitanObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="lairOfShaitanObjects16x16" resource="../../backend/dev/frontend/data/images/lairOfShaitanObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="lairOfDraconisObjects8x8" resource="../../backend/dev/frontend/data/images/lairOfDraconisObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="lairOfDraconisObjects16x16" resource="../../backend/dev/frontend/data/images/lairOfDraconisObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="alienInvasionObjects8x8" resource="../../backend/dev/frontend/data/images/alienInvasionObjects8x8.png" frameWidth="8" frameHeight="8" />
+            <ImageSet name="alienInvasionObjects16x16" resource="../../backend/dev/frontend/data/images/alienInvasionObjects16x16.png" frameWidth="16" frameHeight="16" />
+
+            <ImageSet name="fungalCavernObjects8x8" resource="../../backend/dev/frontend/data/images/fungalCavernObjects8x8.png" frameWidth="8" frameHeight="8"/>
+            <ImageSet name="fungalCavernObjects16x16" resource="../../backend/dev/frontend/data/images/fungalCavernObjects16x16.png" frameWidth="16" frameHeight="16"/>
+
+            <ImageSet name="crystalCaveObjects8x8" resource="../../backend/dev/frontend/data/images/crystalCaveObjects8x8.png" frameWidth="8" frameHeight="8"/>
+            <ImageSet name="crystalCaveObjects16x16" resource="../../backend/dev/frontend/data/images/crystalCaveObjects16x16.png" frameWidth="16" frameHeight="16"/>
+
+            <ImageSet name="pirateCaveObjects8x8" resource="../../backend/dev/frontend/data/images/pirateCaveObjects8x8.png" frameWidth="8" frameHeight="8"/>
+            <ImageSet name="pirateCaveObjects16x16" resource="../../backend/dev/frontend/data/images/pirateCaveObjects16x16.png" frameWidth="16" frameHeight="16"/>
+            <ImageSet name="pirateCaveObjects32x32" resource="../../backend/dev/frontend/data/images/pirateCaveObjects32x32.png" frameWidth="32" frameHeight="32"/>
+
+            <ImageSet name="spiderDenObjects8x8" resource="../../backend/dev/frontend/data/images/spiderDenObjects8x8.png" frameWidth="8" frameHeight="8"/>
+            <ImageSet name="spiderDenObjects16x16" resource="../../backend/dev/frontend/data/images/spiderDenObjects16x16.png" frameWidth="16" frameHeight="16"/>
+
+            <ImageSet name="undeadLairObjects8x8" resource="../../backend/dev/frontend/data/images/undeadLairObjects8x8.png" frameWidth="8" frameHeight="8"/>
+            <ImageSet name="undeadLairObjects16x16" resource="../../backend/dev/frontend/data/images/undeadLairObjects16x16.png" frameWidth="16" frameHeight="16"/>
+
+            <ImageSet name="abyssOfDemonsObjects8x8" resource="../../backend/dev/frontend/data/images/abyssOfDemonsObjects8x8.png" frameWidth="8" frameHeight="8"/>
+            <ImageSet name="abyssOfDemonsObjects16x16" resource="../../backend/dev/frontend/data/images/abyssOfDemonsObjects16x16.png" frameWidth="16" frameHeight="16"/>
+
+            <ImageSet name="innerWorkingsObjects8x8" resource="../../backend/dev/frontend/data/images/innerWorkingsObjects8x8.png" frameWidth="8" frameHeight="8"/>
+            <ImageSet name="innerWorkingsObjects16x16" resource="../../backend/dev/frontend/data/images/innerWorkingsObjects16x16.png" frameWidth="16" frameHeight="16"/>
+
+            <ImageSet name="highTechTerrorObjects8x8" resource="../../backend/dev/frontend/data/images/highTechTerrorObjects8x8.png" frameWidth="8" frameHeight="8"/>
+            <ImageSet name="highTechTerrorObjects16x16" resource="../../backend/dev/frontend/data/images/highTechTerrorObjects16x16.png" frameWidth="16" frameHeight="16"/>
+            
+            <ImageSet name="lofiParticlesBeam" resource="../../backend/dev/frontend/data/images/lofi_particlesBeam.png" frameWidth="16" frameHeight="32" noDefinitions="1">
+                <ColorTransform>
+                    <Transform frame="0" color="0xffdc73"/>
+                    <Transform frame="1" color="0xffdc73"/>
+                    <Transform frame="2" color="0xffdc73"/>
+                    <Transform frame="3" color="0xffdc73"/>
+                    <Transform frame="4" color="0xffdc73"/>
+                    <Transform frame="5" color="0xffdc73"/>
+                </ColorTransform>
+            </ImageSet>
+            <ImageSet name="lofiParticlesElectric" resource="../../backend/dev/frontend/data/images/lofi_particlesElectric.png" frameWidth="32" frameHeight="32" noDefinitions="1">
+                <ColorTransform>
+                    <Transform frame="0" color="0xFF9A00"/>
+                    <Transform frame="1" color="0xFF9A00"/>
+                    <Transform frame="2" color="0xFF9A00"/>
+                    <Transform frame="3" color="0xFF9A00"/>
+                    <Transform frame="4" color="0xFF9A00"/>
+                    <Transform frame="5" color="0xFF9A00"/>
+                    <Transform frame="6" color="0xFF9A00"/>
+                    <Transform frame="7" color="0xffffff"/>
+                    <Transform frame="8" color="0xffdc73"/>
+                    <Transform frame="9" color="0xFF9A00"/>
+                    <Transform frame="10" color="0xFF9A00"/>
+                    <Transform frame="11" color="0xFF9A00"/>
+                    <Transform frame="12" color="0xFF9A00"/>
+                </ColorTransform>
+            </ImageSet>
+            <ImageSet name="lofiParticlesSkull" resource="../../backend/dev/frontend/data/images/lofi_particlesSkull.png" frameWidth="16" frameHeight="32" noDefinitions="1">
+                <ColorTransform>
+                    <Transform frame="0" color="0x381460"/>
+                    <Transform frame="1" color="0x381460"/>
+                    <Transform frame="2" color="0x381460"/>
+                    <Transform frame="3" color="0x381460"/>
+                    <Transform frame="4" color="0x381460"/>
+                    <Transform frame="5" color="0x381460"/>
+                    <Transform frame="6" color="0x381460"/>
+                    <Transform frame="7" color="0xb21f66"/>
+                    <Transform frame="8" color="0x381460"/>
+                    <Transform frame="9" color="0x381460"/>
+                    <Transform frame="10" color="0x381460"/>
+                    <Transform frame="11" color="0x381460"/>
+                    <Transform frame="12" color="0x381460"/>
+                    <Transform frame="13" color="0x381460"/>
+                </ColorTransform>
+            </ImageSet>
+
+            <ImageSet name="lofiparticlesMusicNotes" resource="../../backend/dev/frontend/data/images/lofi_particlesMusicNotes.png" frameWidth="16" frameHeight="16" noDefinitions="1"/>
+
+            <ImageSet name="oryxSanctuaryObjects8x8" resource="../../backend/dev/frontend/data/images/oryxSanctuaryObjects8x8.png" frameWidth="8" frameHeight="8"/>
+            <ImageSet name="oryxSanctuaryObjects16x16" resource="../../backend/dev/frontend/data/images/oryxSanctuaryObjects16x16.png" frameWidth="16" frameHeight="16"/>
+            <ImageSet name="oryxSanctuaryObjects32x32" resource="../../backend/dev/frontend/data/images/oryxSanctuaryObjects32x32.png" frameWidth="32" frameHeight="32"/>
+
+            <ImageSet name="lofiParticlesHolyBeam" resource="../../backend/dev/frontend/data/images/lofi_particlesHolyBeam.png" frameWidth="16" frameHeight="32" noDefinitions="1"/>
+            <ImageSet name="lofiParticlesMeteor" resource="../../backend/dev/frontend/data/images/lofi_particlesMeteor.png" frameWidth="32" frameHeight="32" noDefinitions="1"/>
+            <ImageSet name="lofiParticlesTelegraph" resource="../../backend/dev/frontend/data/images/lofi_partTelegraph.png" frameWidth="32" frameHeight="32" noDefinitions="1"/>
+
+            <ImageSet name="archbishopObjects8x8" resource="../../backend/dev/frontend/data/images/archbishopObjects8x8.png" frameWidth="8" frameHeight="8"/>
+            <ImageSet name="archbishopObjects16x16" resource="../../backend/dev/frontend/data/images/archbishopObjects16x16.png" frameWidth="16" frameHeight="16"/>
+
+            <ImageSet name="archbishopObjects64x64" resource="../../backend/dev/frontend/data/images/archbishopObjects64x64.png" frameWidth="64" frameHeight="64"/>
+
+            <!-- Unity specific sprite sheets -->
+            <ImageSet name="defaultTile" resource="../../backend/dev/frontend/data/images/defaultTile.png" frameWidth="8" frameHeight="8" noDefinitions="1"/>
+            <ImageSet name="particle" resource="../../backend/dev/frontend/data/images/particle.png" frameWidth="1" frameHeight="1" noDefinitions="1"/>
+            <ImageSet name="invisible" resource="../../backend/dev/frontend/data/images/invisible.png" frameWidth="8" frameHeight="8" noDefinitions="1"/>
+            <ImageSet name="whiteTile" resource="../../backend/dev/frontend/data/images/whiteTile.png" frameWidth="8" frameHeight="8" noDefinitions="1"/>
+        </ImageSets>
+        <AnimatedImageSets>
+            <!-- Animations / direction 0 == right, direction 2 == down -->
+            <AnimatedImageSet name="chars8x8rBeach" resource="../../backend/dev/frontend/data/images/chars_8x8r_beach.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars8x8dBeach" resource="../../backend/dev/frontend/data/images/chars_8x8d_beach.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="2" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars8x8rLow1" resource="../../backend/dev/frontend/data/images/chars_8x8r_low1.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars8x8rLow2" resource="../../backend/dev/frontend/data/images/chars_8x8r_low2.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars8x8rMid" resource="../../backend/dev/frontend/data/images/chars_8x8r_mid.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars8x8rMid2" resource="../../backend/dev/frontend/data/images/chars_8x8r_mid2.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars8x8rHigh" resource="../../backend/dev/frontend/data/images/chars_8x8r_high.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars8x8rHero1" resource="../../backend/dev/frontend/data/images/chars_8x8r_hero1.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars8x8rHero2" resource="../../backend/dev/frontend/data/images/chars_8x8r_hero2.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars8x8dHero1" resource="../../backend/dev/frontend/data/images/chars_8x8d_hero1.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="2" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars16x16dMountains1" resource="../../backend/dev/frontend/data/images/chars_16x16d_mountains1.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="2" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars16x16dMountains2" resource="../../backend/dev/frontend/data/images/chars_16x16d_mountains2.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="2" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars8x8dEncounters" resource="../../backend/dev/frontend/data/images/chars_8x8d_encounters.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="2" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars8x8rEncounters" resource="../../backend/dev/frontend/data/images/chars_8x8r_encounters.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars16x8dEncounters" resource="../../backend/dev/frontend/data/images/chars_16x8d_encounters.png" mask="" charWidth="16" charHeight="8" frameWidth="112"
+                              frameHeight="8" firstDir="2" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars16x8rEncounters" resource="../../backend/dev/frontend/data/images/chars_16x8r_encounters.png" mask="" charWidth="16" charHeight="8" frameWidth="112"
+                              frameHeight="8" firstDir="2" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars16x16dEncounters" resource="../../backend/dev/frontend/data/images/chars_16x16d_encounters.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="2" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars16x16dEncounters2" resource="../../backend/dev/frontend/data/images/chars_16x16d_encounters2.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="2" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars16x16rEncounters" resource="../../backend/dev/frontend/data/images/chars_16x16r_encounters.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="2" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="d3Chars8x8rEmbed" resource="../../backend/dev/frontend/data/images/d3_chars_8x8r.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="d3Chars16x16rEmbed" resource="../../backend/dev/frontend/data/images/d3_chars_16x16r.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <!-- Looks like placeholders in flash-->
+            <AnimatedImageSet name="d2Chars8x8rEmbed" resource="../../backend/dev/frontend/data/images/d2_chars_8x8r.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="d2Chars16x16rEmbed" resource="../../backend/dev/frontend/data/images/d2_chars_16x16r.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="players" resource="../../backend/dev/frontend/data/images/players.png" mask="../../backend/dev/frontend/data/images/players_mask.png" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="24" firstDir="0" mergeAttackFrame="1" />
+            <AnimatedImageSet name="playerskins" resource="../../backend/dev/frontend/data/images/players_skins.png" mask="../../backend/dev/frontend/data/images/players_skins_mask.png" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="24" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="playerskins16" resource="../../backend/dev/frontend/data/images/players_skins_16.png" mask="../../backend/dev/frontend/data/images/players_skins_16_mask.png" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="48" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="chars8x8rPets1" resource="../../backend/dev/frontend/data/images/chars_8x8r_pets1.png" mask="../../backend/dev/frontend/data/images/chars_8x8r_pets1_mask.png" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1" alphaPadding="4"/>
+            <AnimatedImageSet name="chars8x8rPets2" resource="../../backend/dev/frontend/data/images/chars_8x8r_pets2.png" mask="../../backend/dev/frontend/data/images/chars_8x8r_pets1_mask.png" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1" alphaPadding="4"/>
+
+            <AnimatedImageSet name="petsDivine" resource="../../backend/dev/frontend/data/images/pets_divine.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1" alphaPadding="4"/>
+
+            <AnimatedImageSet name="d1chars16x16r" resource="../../backend/dev/frontend/data/images/d1_chars_16x16r.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="parasiteDenChars8x8" resource="../../backend/dev/frontend/data/images/parasiteDenChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="parasiteDenChars16x16" resource="../../backend/dev/frontend/data/images/parasiteDenChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="stPatricksChars8x8" resource="../../backend/dev/frontend/data/images/stPatricksChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="stPatricksChars16x16" resource="../../backend/dev/frontend/data/images/stPatricksChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="buffedBunnyChars16x16" resource="../../backend/dev/frontend/data/images/buffedBunnyChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="mountainTempleChars8x8" resource="../../backend/dev/frontend/data/images/mountainTempleChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="mountainTempleChars16x16" resource="../../backend/dev/frontend/data/images/mountainTempleChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="oryxHordeChars8x8" resource="../../backend/dev/frontend/data/images/oryxHordeChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="oryxHordeChars16x16" resource="../../backend/dev/frontend/data/images/oryxHordeChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="battleOryxChars8x8" resource="../../backend/dev/frontend/data/images/battleOryxChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="battleOryxChars16x16" resource="../../backend/dev/frontend/data/images/battleOryxChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="santaWorkshopChars8x8" resource="../../backend/dev/frontend/data/images/santaWorkshopChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="santaWorkshopChars16x16" resource="../../backend/dev/frontend/data/images/santaWorkshopChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="Hanami8x8chars" resource="../../backend/dev/frontend/data/images/Hanami8x8chars.png" mask="" charWidth="8" charHeight="8" frameWidth="64"
+                              frameHeight="8" firstDir="0"  mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="summerNexusChars8x8" resource="../../backend/dev/frontend/data/images/summerNexusChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="summerNexusChars16x16" resource="../../backend/dev/frontend/data/images/summerNexusChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="autumnNexusChars8x8" resource="../../backend/dev/frontend/data/images/autumnNexusChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="autumnNexusChars16x16" resource="../../backend/dev/frontend/data/images/autumnNexusChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="xmasNexusChars8x8" resource="../../backend/dev/frontend/data/images/xmasNexusChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="xmasNexusChars16x16" resource="../../backend/dev/frontend/data/images/xmasNexusChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="epicHiveChars8x8" resource="../../backend/dev/frontend/data/images/epicHiveChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="epicHiveChars16x16" resource="../../backend/dev/frontend/data/images/epicHiveChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="lostHallsChars8x8" resource="../../backend/dev/frontend/data/images/lostHallsChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="lostHallsChars16x16" resource="../../backend/dev/frontend/data/images/lostHallsChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="magicWoodsChars8x8" resource="../../backend/dev/frontend/data/images/magicWoodsChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="magicWoodsChars16x16" resource="../../backend/dev/frontend/data/images/magicWoodsChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="secludedThicketChars8x8" resource="../../backend/dev/frontend/data/images/secludedThicketChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="secludedThicketChars16x16" resource="../../backend/dev/frontend/data/images/secludedThicketChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="theMachineChars8x8" resource="../../backend/dev/frontend/data/images/theMachineChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="theMachineChars16x16" resource="../../backend/dev/frontend/data/images/theMachineChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="theGoldenArcher" resource="../../backend/dev/frontend/data/images/theGoldenArcher8x8.png" mask="../../backend/dev/frontend/data/images/theGoldenArcher8x8_mask.png" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="24" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="cursedLibraryChars8x8" resource="../../backend/dev/frontend/data/images/cursedLibraryChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="cursedLibraryChars16x16" resource="../../backend/dev/frontend/data/images/cursedLibraryChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="cursedLibraryCharsAvalon16x16" resource="../../backend/dev/frontend/data/images/cursedLibraryCharsAvalon16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="48" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="lairOfDraconisChars8x8" resource="../../backend/dev/frontend/data/images/lairOfDraconisChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="lairOfDraconisChars16x16" resource="../../backend/dev/frontend/data/images/lairOfDraconisChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="lairOfShaitanChars16x16" resource="../../backend/dev/frontend/data/images/lairOfShaitanChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="alienInvasionChars8x8" resource="../../backend/dev/frontend/data/images/alienInvasionChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="alienInvasionChars16x16" resource="../../backend/dev/frontend/data/images/alienInvasionChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="crystalCaveChars8x8" resource="../../backend/dev/frontend/data/images/crystalCaveChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="crystalCaveChars16x16" resource="../../backend/dev/frontend/data/images/crystalCaveChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="fungalCavernChars8x8" resource="../../backend/dev/frontend/data/images/fungalCavernChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="fungalCavernChars16x16" resource="../../backend/dev/frontend/data/images/fungalCavernChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="innerWorkingsChars8x8" resource="../../backend/dev/frontend/data/images/innerWorkingsChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="innerWorkingsChars16x16" resource="../../backend/dev/frontend/data/images/innerWorkingsChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="oryxSanctuaryChars8x8" resource="../../backend/dev/frontend/data/images/oryxSanctuaryChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="oryxSanctuaryChars16x16" resource="../../backend/dev/frontend/data/images/oryxSanctuaryChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="oryxSanctuaryChars32x32" resource="../../backend/dev/frontend/data/images/oryxSanctuaryChars32x32.png" mask="" charWidth="32" charHeight="32" frameWidth="224"
+                              frameHeight="32" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="archbishopChars8x8" resource="../../backend/dev/frontend/data/images/archbishopChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="archbishopChars16x16" resource="../../backend/dev/frontend/data/images/archbishopChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="ancientRuinsChars8x8" resource="../../backend/dev/frontend/data/images/ancientRuinsChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="ancientRuinsChars16x16" resource="../../backend/dev/frontend/data/images/ancientRuinsChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="pirateCaveChars8x8" resource="../../backend/dev/frontend/data/images/pirateCaveChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="pirateCaveChars16x16" resource="../../backend/dev/frontend/data/images/pirateCaveChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="spiderDenChars8x8" resource="../../backend/dev/frontend/data/images/spiderDenChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="spiderDenChars16x16" resource="../../backend/dev/frontend/data/images/spiderDenChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="undeadLairChars8x8" resource="../../backend/dev/frontend/data/images/undeadLairChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="undeadLairChars16x16" resource="../../backend/dev/frontend/data/images/undeadLairChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="abyssOfDemonsChars8x8" resource="../../backend/dev/frontend/data/images/abyssOfDemonsChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="abyssOfDemonsChars16x16" resource="../../backend/dev/frontend/data/images/abyssOfDemonsChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+
+            <AnimatedImageSet name="highTechTerrorChars8x8" resource="../../backend/dev/frontend/data/images/highTechTerrorChars8x8.png" mask="" charWidth="8" charHeight="8" frameWidth="56"
+                              frameHeight="8" firstDir="0" mergeAttackFrame="1"/>
+            <AnimatedImageSet name="highTechTerrorChars16x16" resource="../../backend/dev/frontend/data/images/highTechTerrorChars16x16.png" mask="" charWidth="16" charHeight="16" frameWidth="112"
+                              frameHeight="16" firstDir="0" mergeAttackFrame="1"/>
+        </AnimatedImageSets>
+        <ImporterSettings outputPath="../data/images/sprites"/>
+    </Importer>
+
+    <AssetSettings>
+        <!-- FOR NOW WE ARE ONLY SUPPORTING 1px PIXEL PADDING-->
+        <AtlasSettings type="allInOne" sourcePath="../data/images/sprites" outputPath="Assets/Resources/Sprite Atlases" defaultAlphaPadding="2" groundTilesPixelPadding="1"/>
+    </AssetSettings>
+
+    <Definitions>
+        <DefinitionSettings sourcePath="../../backend/dev/frontend/data" outputPath="Assets/Resources/xml" resourcePath="xml"/>
+    </Definitions>
+
+    <!-- GROUND TILES -->
+    <TilesLibrary path="ground"/>
+    <TilesLibrary path="dungeons/parasiteDen/parasiteDenGround"/>
+    <TilesLibrary path="dungeons/iceCave/iceCaveGround"/>
+    <TilesLibrary path="dungeons/stPatricks/stPatricksGround"/>
+    <TilesLibrary path="dungeons/hanamiNexus/hanaminexusGround"/>
+    <TilesLibrary path="dungeons/mountain_temple/mountainTempleGround"/>
+    <TilesLibrary path="dungeons/oryxHorde/oryxHordeGround"/>
+    <TilesLibrary path="dungeons/battleOryx/battleOryxGround"/>
+    <TilesLibrary path="dungeons/summerNexus/summerNexusGround"/>
+    <TilesLibrary path="dungeons/autumnNexus/autumnNexusGround"/>
+    <TilesLibrary path="dungeons/xmasNexus/xmasNexusGround"/>
+    <TilesLibrary path="dungeons/epicHive/epicHiveGround"/>
+    <TilesLibrary path="dungeons/lostHalls/lostHallsGround"/>
+    <TilesLibrary path="dungeons/santaWorkshop/santaWorkshopGround"/>
+    <TilesLibrary path="dungeons/magicWoods/magicWoodsGround"/>
+    <TilesLibrary path="dungeons/cnidarianReef/cnidarianReefGround"/>
+    <TilesLibrary path="dungeons/secludedThicket/secludedThicketGround"/>
+    <TilesLibrary path="dungeons/theMachine/theMachineGround"/>
+    <TilesLibrary path="dungeons/cursedLibrary/cursedLibraryGround"/>
+    <TilesLibrary path="dungeons/alienInvasion/alienInvasionGround"/>
+    <TilesLibrary path="dungeons/lairOfDraconis/lairOfDraconisGround"/>
+    <TilesLibrary path="dungeons/crystalCave/crystalCaveGround"/>
+    <TilesLibrary path="dungeons/fungalCavern/fungalCavernGround"/>
+    <TilesLibrary path="dungeons/innerWorkings/innerWorkingsGround"/>
+    <TilesLibrary path="dungeons/archbishop/archbishopGround"/>
+    <TilesLibrary path="dungeons/oryxSanctuary/oryxSanctuaryGround"/>
+    <TilesLibrary path="dungeons/ancientRuins/ancientRuinsGround"/>
+    <TilesLibrary path="dungeons/pirateCave/pirateCaveGround"/>
+    <TilesLibrary path="dungeons/spiderDen/spiderDenGround"/>
+    <TilesLibrary path="dungeons/abyssOfDemons/abyssOfDemonsGround"/>
+    <TilesLibrary path="dungeons/undeadLair/undeadLairGround"/>
+    <TilesLibrary path="dungeons/highTechTerror/highTechTerrorGround"/>
+
+    <!-- GAME OBJECTS -->
+    <ObjectsLibrary path="projectiles"/>
+    <ObjectsLibrary path="equipEggs"/>
+    <ObjectsLibrary path="equipKeys"/>
+    <ObjectsLibrary path="equipSkins"/>
+    <ObjectsLibrary path="equip"/>
+    <ObjectsLibrary path="dyes"/>
+    <ObjectsLibrary path="textiles"/>
+    <ObjectsLibrary path="permapets"/>
+    <ObjectsLibrary path="token"/>
+    <ObjectsLibrary path="gravestones"/>
+    <ObjectsLibrary path="testing/willemTesting"/>
+    <ObjectsLibrary path="testing/tTesting"/>
+    <ObjectsLibrary path="testing/bTesting"/>
+    <ObjectsLibrary path="testing/sTesting"/>
+    <ObjectsLibrary path="testing/mTesting"/>
+    <ObjectsLibrary path="testing/kTesting"/>
+    <ObjectsLibrary path="players"/>
+    <ObjectsLibrary path="containers"/>
+    <ObjectsLibrary path="objects"/>
+    <ObjectsLibrary path="portals"/>
+    <ObjectsLibrary path="testing/_helpers"/>
+    <ObjectsLibrary path="staticobjects"/>
+    <ObjectsLibrary path="tutorial/tutorial_objects"/>
+    <ObjectsLibrary path="tutorial/tutorial_monsters"/>
+    <ObjectsLibrary path="allies"/>
+    <ObjectsLibrary path="realm/heroes"/>
+    <ObjectsLibrary path="players_zombies"/>
+    <ObjectsLibrary path="pets"/>
+    <ObjectsLibrary path="npc"/>
+    <ObjectsLibrary path="realm/shore"/>
+    <ObjectsLibrary path="realm/low"/>
+    <ObjectsLibrary path="realm/mid"/>
+    <ObjectsLibrary path="realm/high"/>
+    <ObjectsLibrary path="realm/mountains"/>
+    <ObjectsLibrary path="realm/encounters"/>
+    <ObjectsLibrary path="dungeons/arena"/>
+    <ObjectsLibrary path="dungeons/oryxCastle"/>
+    <ObjectsLibrary path="dungeons/tombOfTheAncients"/>
+    <ObjectsLibrary path="dungeons/spriteWorld"/>
+    <ObjectsLibrary path="dungeons/undeadLair"/>
+    <ObjectsLibrary path="dungeons/oceanTrench"/>
+    <ObjectsLibrary path="dungeons/forbiddenJungle"/>
+    <ObjectsLibrary path="dungeons/oryxChamber"/>
+    <ObjectsLibrary path="dungeons/oryxChickenChamber"/>
+    <ObjectsLibrary path="dungeons/oryxWineCellar"/>
+    <ObjectsLibrary path="dungeons/manorOfTheImmortals"/>
+    <ObjectsLibrary path="dungeons/pirateCave"/>
+    <ObjectsLibrary path="dungeons/snakePit"/>
+    <ObjectsLibrary path="dungeons/spiderDen"/>
+    <ObjectsLibrary path="dungeons/abyssOfDemons"/>
+    <ObjectsLibrary path="dungeons/ghostShip"/>
+    <ObjectsLibrary path="dungeons/madLab"/>
+    <ObjectsLibrary path="dungeons/caveOfAThousandTreasures"/>
+    <ObjectsLibrary path="dungeons/candyLand"/>
+    <ObjectsLibrary path="dungeons/hauntedCemetery"/>
+    <ObjectsLibrary path="dungeons/forestMaze"/>
+    <ObjectsLibrary path="dungeons/epicforestMaze"/>
+    <ObjectsLibrary path="dungeons/epicpirateCave"/>
+    <ObjectsLibrary path="dungeons/epicspiderDen"/>
+    <ObjectsLibrary path="dungeons/nexusDestroyed"/>
+    <ObjectsLibrary path="dungeons/miniDungeonHub"/>
+    <ObjectsLibrary path="dungeons/lairOfDraconis"/>
+    <ObjectsLibrary path="dungeons/lairOfShaitan"/>
+    <ObjectsLibrary path="dungeons/shatters"/>
+    <ObjectsLibrary path="dungeons/belladonna"/>
+    <ObjectsLibrary path="dungeons/puppetMaster"/>
+    <ObjectsLibrary path="dungeons/iceCave/iceCaveObjects"/>
+    <ObjectsLibrary path="dungeons/thehive"/>
+    <ObjectsLibrary path="dungeons/toxicsewers"/>
+    <ObjectsLibrary path="dungeons/puppetMasterEncore"/>
+    <ObjectsLibrary path="dungeons/iceTomb"/>
+    <ObjectsLibrary path="dungeons/permaFrostLord"/>
+    <ObjectsLibrary path="dungeons/parasiteDen/parasiteDenObjects"/>
+    <ObjectsLibrary path="dungeons/stPatricks/stPatricksObjects"/>
+    <ObjectsLibrary path="dungeons/buffedBunny/buffedBunnyObjects"/>
+    <ObjectsLibrary path="dungeons/hanamiNexus/hanaminexusObjects"/>
+    <ObjectsLibrary path="dungeons/mountain_temple/mountainTempleObject"/>
+    <ObjectsLibrary path="dungeons/oryxHorde/oryxHordeObjects"/>
+    <ObjectsLibrary path="dungeons/battleOryx/battleOryxObjects"/>
+    <ObjectsLibrary path="dungeons/summerNexus/summerNexusObjects"/>
+    <ObjectsLibrary path="dungeons/autumnNexus/autumnNexusObjects"/>
+    <ObjectsLibrary path="dungeons/xmasNexus/xmasNexusObjects"/>
+    <ObjectsLibrary path="dungeons/epicHive/epicHiveObjects"/>
+    <ObjectsLibrary path="dungeons/lostHalls/lostHallsObjects"/>
+    <ObjectsLibrary path="dungeons/santaWorkshop/santaWorkshopObjects"/>
+    <ObjectsLibrary path="dungeons/magicWoods/magicWoodsObjects"/>
+    <ObjectsLibrary path="dungeons/cnidarianReef/cnidarianReefObjects"/>
+    <ObjectsLibrary path="dungeons/secludedThicket/secludedThicketObjects"/>
+    <ObjectsLibrary path="events/eventChestObjects"/>
+    <ObjectsLibrary path="dungeons/theMachine/theMachineObjects"/>
+    <ObjectsLibrary path="dungeons/cursedLibrary/cursedLibraryObjects"/>
+    <ObjectsLibrary path="dungeons/alienInvasion/alienInvasionObjects"/>
+    <ObjectsLibrary path="dungeons/lairOfDraconis/lairOfDraconisObjects"/>
+    <ObjectsLibrary path="dungeons/lairOfShaitan/lairOfShaitanObjects"/>
+    <ObjectsLibrary path="dungeons/crystalCave/crystalCaveObjects"/>
+    <ObjectsLibrary path="dungeons/fungalCavern/fungalCavernObjects"/>
+    <ObjectsLibrary path="skins"/>
+    <ObjectsLibrary path="equipTest"/>
+    <ObjectsLibrary path="dungeons/innerWorkings/innerWorkingsObjects"/>
+    <ObjectsLibrary path="dungeons/oryxSanctuary/oryxSanctuaryObjects"/>
+    <ObjectsLibrary path="dungeons/oryxSanctuary/oryxSanctuaryUObjects"/>
+    <ObjectsLibrary path="dungeons/archbishop/archbishopObjects"/>
+    <ObjectsLibrary path="dungeons/archbishop/archbishopObjectsMen"/>
+    <ObjectsLibrary path="dungeons/ancientRuins/ancientRuinsObjects"/>
+    <ObjectsLibrary path="dungeons/pirateCave/pirateCaveObjects"/>
+    <ObjectsLibrary path="dungeons/spiderDen/spiderDenObjects"/>
+    <ObjectsLibrary path="dungeons/abyssOfDemons/abyssOfDemonsObjects"/>
+    <ObjectsLibrary path="dungeons/undeadLair/undeadLairObjects"/>
+    <ObjectsLibrary path="dungeons/highTechTerror/highTechTerrorObjects"/>
+    
+    <ParticleLibrary path="xml/particles"/>
+
+    <SetLibrary path="equipmentsets"/>
+
+    <CharactersLibrary path="players"/>
+    <SkinsLibrary path="skins"/>
+    <TutorialLibrary path="tutorial/tutorial_script"/>
+
+    <TutorialLibrary path="tutorial/tutorial_script"/>
+
+    <ProtipsLibrary path="protips"/>
+
+</Manifest>

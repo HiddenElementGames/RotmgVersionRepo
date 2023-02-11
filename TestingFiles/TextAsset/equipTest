@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0x190" id="Apple">
+    <DisplayId>Apple of Extreme Maxening</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x0f</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It's healthy!\nMaxes any class to 8/8 and adds a Backpack.</Description>
+    <Sound>use_potion</Sound>
+    <Activate stat="XP" amount="18050">IncrementStat</Activate>
+    <Activate stat="MAXHP" amount="2000">IncrementStat</Activate>
+    <Activate stat="MAXMP" amount="2000">IncrementStat</Activate>
+    <Activate stat="ATT" amount="2000">IncrementStat</Activate>
+    <Activate stat="DEF" amount="2000">IncrementStat</Activate>
+    <Activate stat="SPD" amount="2000">IncrementStat</Activate>
+    <Activate stat="VIT" amount="2000">IncrementStat</Activate>
+    <Activate stat="WIS" amount="2000">IncrementStat</Activate>
+    <Activate stat="DEX" amount="2000">IncrementStat</Activate>
+    <Consumable />
+    <Backpack />
+    <Potion />
+    <BagType>8</BagType>
+    <Soulbound />
+  </Object>
+  <Object type="0x18f" id="Gift">
+    <DisplayId>Gift of Krathan</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiEnvironment3</File>
+      <Index>0x22</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use it and simply hit the class you need equipment for! Recommended to be used in your vault.\n\nConsume responsibly!</Description>
+    <Sound>use_potion</Sound>
+    <Activate objectId="Testing Gift Spawner">Pet</Activate>
+    <Consumable />
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>50000</feedPower>
+    <AdminOnly />
+  </Object>
+  <Object type="0x641" id="Keys">
+    <DisplayId>Skeleton Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x21</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Opens everything! For testing purposes.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Key Spawner">Create</Activate>
+    <Consumable />
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>50000</feedPower>
+    <AdminOnly />
+  </Object>
+  <Object type="0x933" id="TKeys">
+    <DisplayId>Testing Gift</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x20</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Spawns an object that drops keys and items. For testing purposes.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Testing Key Dropper">Create</Activate>
+    <Consumable />
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>50000</feedPower>
+    <AdminOnly />
+  </Object>
+  <Object type="0x174f" id="Test TP">
+    <DisplayId>Godlands Teleporter</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xf2</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Teleports the user near the mountains.</Description>
+    <Soulbound />
+    <Activate id="Death Flower">TeleportToObject</Activate>
+    <BagType>8</BagType>
+    <InvUse />
+    <AdminOnly />
+  </Object>
+  <Object type="0x10fa" id="Test Close">
+    <DisplayId>Realm Closer</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xf4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Kills 1 Heroes of Oryx.</Description>
+    <Soulbound />
+    <Activate amount="1">KillRealmHeroes</Activate>
+    <BagType>8</BagType>
+    <InvUse />
+    <AdminOnly />
+  </Object>
+  <Object type="0x0249" id="Test Ring">
+    <DisplayId>Creator's Ring</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="2">
+      <File>lofiObj</File>
+      <Index>0x2d</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A ring worn by powerful creators in the goal to observe their brand new creation.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="99999">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="99999">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="5000">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>1500</feedPower>
+    <Soulbound />
+    <UniqueID />
+    <AdminOnly />
+  </Object>
+  <Object type="0x705e" id="InvinceMe">
+    <DisplayId>Testosterone</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x15a</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Renders the user invincible for a day through sheer confidence.</Description>
+    <InvUse />
+    <BagType>6</BagType>
+    <Activate effect="Invincible" duration="86400">ConditionEffectSelf</Activate>
+    <Soulbound />
+    <AdminOnly />
+  </Object>
+  <Object type="0x47e" id="Campaign Points Test">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="-2">
+      <File>lofiObj2</File>
+      <Index>0xac</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this item to gain 10 Campaign Points.\n\nSprite Credits: Artauris</Description>
+    <Soulbound />
+    <Activate amount="10">GrantSupporterPoints</Activate>
+    <BagType>7</BagType>
+    <Treasure />
+    <Track />
+    <Consumable />
+  </Object>
+  <Object type="0xff3b" id="Trick Mace">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10e</Index>
+    </Texture>
+    <SlotType>29</SlotType>
+    <Projectile>
+      <ObjectId>AoO Beam Base</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>275</MaxDamage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NumProjectiles>1</NumProjectiles>
+    <Description>A wicked mace constructed by Dr. Terrible to impose the Mad God's will. It stands as one of Oryx's greatest attempts at merging magic and technology.</Description>
+    <Sound>spell/magic_nova</Sound>
+    <Ability>
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0x10d</Index>
+      </Texture>
+      <Activate objectId="AoO Summon" maxSpawnDistance="2.0">SpawnCreep</Activate>
+      <OnPlayerAbilityActivate cooldown="30" damageThreshold="0" proc="1" objectId="AoO Summon Big">SpawnCreep</OnPlayerAbilityActivate>
+      <OnSwitchAbilityActivate cooldown="30" damageThreshold="0" proc="1" objectId="AoO Summon Big">SpawnCreep</OnSwitchAbilityActivate>
+      <Cooldown>3</Cooldown>
+      <MpCost>100</MpCost>
+      <SwitchTime>2</SwitchTime>
+      <ExtraTooltipData>
+        <EffectInfo name="Summon" description="Orbiting Oryx Eye." />
+        <EffectInfo name="Lifetime" description="10.2 seconds" />
+        <EffectInfo name="On Ability Use" description="Summons an exalted Oryx Eye." />
+        <EffectInfo name="Cooldown" description="30 seconds." />
+        <EffectInfo name="Damage" description="375 - 525" />
+      </ExtraTooltipData>
+    </Ability>
+    <Ability name="Spawn Unicorns">
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0x10f</Index>
+      </Texture>
+      <Activate objectId="Summon Steed" maxSpawnDistance="8.0">SpawnCreep</Activate>
+      <Cooldown>1</Cooldown>
+      <MpCost>100</MpCost>
+      <SwitchTime>2</SwitchTime>
+      <OnSwitchAbilityActivate proc="1" duration="5" effect="Armored">ConditionEffectSelf</OnSwitchAbilityActivate>
+      <ExtraTooltipData>
+        <EffectInfo name="Summons" description="Wandering steed, click or hold your Summon Control button to move it." />
+        <EffectInfo name="Lifetime" description="10 seconds" />
+      </ExtraTooltipData>
+    </Ability>
+    <ActivateOnEquip stat="MAXHP" amount="80">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>100</MpCost>
+    <feedPower>700</feedPower>
+    <XPBonus>7</XPBonus>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,MACE,UT,TAB_UT,POWERTIER_A,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0xff3a" id="Trick Sheath">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x124</Index>
+    </Texture>
+    <SlotType>30</SlotType>
+    <Tier>10</Tier>
+    <Description>A standard, lightweight sheath fit for enabling quick draws in a forward dash.</Description>
+    <OnSwitchAbilityActivate proc="1" targetMouse="false" maxSpawnDistance="2.0" cooldown="0.0" objectId="Kensei ST Summon">SpawnCreep</OnSwitchAbilityActivate>
+    <ExtraTooltipData>
+      <EffectInfo name="Max Dash Distance" description="3.5 tiles" />
+      <EffectInfo name="Trail Damage" description="200" />
+      <EffectInfo name="Multiplier" description="1/5/10/16/23 % to ATT" />
+      <EffectInfo name="" description="Each stack lasts for 10 seconds" />
+    </ExtraTooltipData>
+    <Projectile>
+      <ObjectId>Tier 7 Sheath Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>450</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <MultiHit />
+      <Size>120</Size>
+    </Projectile>
+    <Ability>
+      <Texture>
+        <File>lofiObj6</File>
+        <Index>0x137</Index>
+      </Texture>
+      <Activate amount="3" duration="20" channelTime="500">ChannelDash</Activate>
+      <StartUse>
+        <Activate speed="50" minDistance="1" maxDistance="3.5" damage="200" color="0x7A4646" postCondDuration="0.16" effect="Multiplied" stat="ATT" amountPerEnemy="1,5,10,16,23" effectDuration="10" cooldown="0.4">Dash</Activate>
+      </StartUse>
+      <EndUse>
+        <Activate>Shoot</Activate>
+      </EndUse>
+      <Cooldown>3</Cooldown>
+      <MpCost>60</MpCost>
+    </Ability>
+    <Ability name="Quick Dash">
+      <Texture>
+        <File>lofiObj6</File>
+        <Index>0x126</Index>
+      </Texture>
+      <Cooldown>3</Cooldown>
+      <MpCost>30</MpCost>
+      <Activate amount="5" duration="20" channelTime="1500">ChannelDash</Activate>
+      <StartUse>
+        <Activate speed="50" minDistance="1" maxDistance="5.5" damage="200" color="0x7AFF46" postCondDuration="0.16" effect="Multiplied" stat="ATT" amountPerEnemy="1,5,10,16,23" effectDuration="10" cooldown="0.4">Dash</Activate>
+      </StartUse>
+    </Ability>
+    <Usable />
+    <UniqueID />
+    <BagType>1</BagType>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <Labels>EQUIPMENT,ABILITY,SHEATH,TIERED,T0,NUMPROJ_1,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0xff3c" id="Trick Star">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x22e</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Tier>10</Tier>
+    <Description>A beautifully crafted shuriken.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile id="0">
+      <ObjectId>Ninja Star Silver</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>120</Size>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Ninja Star Wind</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>550</MinDamage>
+      <MaxDamage>650</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>120</Size>
+      <PassesCover />
+    </Projectile>
+    <Subattack projectileId="0"></Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>2</NumProjectiles>
+    </Subattack>
+    <ActivateOnEquip stat="VIT" amount="6">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>2</BagType>
+    <Ability attackIndex="1">
+      <MpCost>0</MpCost>
+      <MpEndCost>60</MpEndCost>
+      <MultiPhase />
+      <Activate>ShurikenAbility</Activate>
+      <ExtraTooltipData>
+        <EffectInfo name="While Key Held" description="" />
+        <EffectInfo name="" description="Speedy on self" />
+        <EffectInfo name="" description="Drain 10 MP/sec" />
+        <EffectInfo name="When Key Released" description="" />
+      </ExtraTooltipData>
+    </Ability>
+    <Ability name="Spawn Unicorns">
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0x10f</Index>
+      </Texture>
+      <Activate objectId="Summon Steed" maxSpawnDistance="8.0">SpawnCreep</Activate>
+      <Cooldown>1</Cooldown>
+      <MpCost>100</MpCost>
+      <ExtraTooltipData>
+        <EffectInfo name="Summons" description="Wandering steed, click or hold your Summon Control button to move it." />
+        <EffectInfo name="Lifetime" description="10 seconds" />
+      </ExtraTooltipData>
+    </Ability>
+    <feedPower>34</feedPower>
+    <DropTradable />
+    <XPBonus>1</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,TIERED,T3,MPCOST,XPBONUS,TRADEABLE</Labels>
+  </Object>
+  <Object id="Trick Poison" type="0xff3d">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x205</Index>
+    </Texture>
+    <SlotType>18</SlotType>
+    <Description>Exposure to this ferocious concoction is so intensely lethal that it acts instantaneously. Its deceptively small vial allows for easy use.</Description>
+    <Usable />
+    <BagType>8</BagType>
+    <Ability name="Jar Throw">
+      <MpCost>70</MpCost>
+      <Activate color="0xADC718" impactDamage="700" radius="3" throwTime="0.8" totalDamage="0" damageBoost="1" scalingStat="DEF" statModScalingMin="25" statModDamage="0" statModImpactDamage="180" statModRadius="0.025" statModDamageBoost="0">PoisonGrenade</Activate>
+    </Ability>
+    <Ability name="Poison Counter">
+      <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x282</Index>
+      </Texture>
+      <ExtraTooltipData>
+        <EffectInfo description="Throw a poison when hit" name="Toxic Terror" />
+        <EffectInfo description="1 seconds" name="Poison Cooldown" />
+      </ExtraTooltipData>
+      <OnPlayerHitActivate proc="1" manaCost="5" cooldown="1" duration="0" impactDamage="700" radius="3" throwTime="0.8" totalDamage="0" color="0xADC718" damageBoost="1" scalingStat="DEF" statModScalingMin="25" statModDamage="0" statModImpactDamage="180" statModRadius="0.025" statModDamageBoost="0">PoisonGrenade</OnPlayerHitActivate>
+    </Ability>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,POISON,ST,TAB_ST,ST_ABILITY,STGEN_2,POWERTIER_B,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0xff3e" id="Trick Lute">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>lofiObj6</File>
+      <Index>0xd0</Index>
+    </Texture>
+    <SlotType>28</SlotType>
+    <Tier>8</Tier>
+    <Description>A magical lute with multiple modes.</Description>
+    <Sound>spell/major_heal</Sound>
+    <Usable />
+    <UniqueID />
+    <Ability>
+      <ExtraTooltipData>
+        <EffectInfo name="Party Effect" description=" Within 4.5 sqrs Inspired for 3 seconds." />
+        <EffectInfo name="Projectile Speed Multiplier" description="x1.25" />
+      </ExtraTooltipData>
+      <Activate radius="4.5" speedBoost="1.25" lifeBoost="1" duration="3" targeted="false">BoostRange</Activate>
+      <Activate range="4.5" stat="DEF" amount="1" duration="2" channel="maxStack">StatBoostAura</Activate>
+      <MpCost>70</MpCost>
+    </Ability>
+    <Ability>
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0xd5</Index>
+      </Texture>
+      <ExtraTooltipData>
+        <EffectInfo name="Party Effect" description=" Within 4.5 sqrs Inspired for 5.5 seconds." />
+        <EffectInfo name="Projectile Speed Multiplier" description="x1.25" />
+      </ExtraTooltipData>
+      <Activate radius="4.5" duration="5.5" speedBoost="1.25" lifeBoost="1" targeted="false">BoostRange</Activate>
+      <Activate range="4.5" stat="MAXHP" amount="80" duration="4.5" channel="maxStack">StatBoostAura</Activate>
+      <MpCost>90</MpCost>
+    </Ability>
+    <Ability name="Spawn Unicorns">
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0x10f</Index>
+      </Texture>
+      <Activate objectId="Summon Steed" maxSpawnDistance="8.0">SpawnCreep</Activate>
+      <Cooldown>1</Cooldown>
+      <MpCost>100</MpCost>
+      <ExtraTooltipData>
+        <EffectInfo name="Summons" description="Wandering steed, click or hold your Summon Control button to move it." />
+        <EffectInfo name="Lifetime" description="10 seconds" />
+      </ExtraTooltipData>
+      <MpCost>110</MpCost>
+    </Ability>
+    <BagType>1</BagType>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T0,MPCOST,APPLY_STAT_EFF,TRADEABLE</Labels>
+  </Object>
+</Objects>

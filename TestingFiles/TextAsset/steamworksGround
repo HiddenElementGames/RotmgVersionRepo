@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GroundTypes>
+  <Ground type="0x6437" id="KSW Conveyor Right">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>209</Index>
+    </Texture>
+    <Animate dx="-2.5">Flow</Animate>
+    <Alpha />
+    <Push />
+    <Color>0x595959</Color>
+  </Ground>
+  <Ground type="0x6438" id="KSW Conveyor Left">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>212</Index>
+    </Texture>
+    <Animate dx="2.5">Flow</Animate>
+    <Alpha />
+    <Push />
+    <Color>0x595959</Color>
+  </Ground>
+  <Ground type="0x6439" id="KSW Conveyor Down">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>210</Index>
+    </Texture>
+    <Animate dy="-2.5">Flow</Animate>
+    <Alpha />
+    <Push />
+    <Color>0x595959</Color>
+  </Ground>
+  <Ground type="0x643a" id="KSW Conveyor Up">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>211</Index>
+    </Texture>
+    <Animate dy="2.5">Flow</Animate>
+    <Alpha />
+    <Push />
+    <Color>0x595959</Color>
+  </Ground>
+  <Ground type="0x643b" id="KSW Steam Vent">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>532</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6445" id="KSW Steam Vent Active">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>535</Index>
+    </Texture>
+    <MinDamage>55</MinDamage>
+    <MaxDamage>55</MaxDamage>
+    <Speed>0.7</Speed>
+  </Ground>
+  <Ground type="0x643c" id="KSW Base Tile 1">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>348</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x64a3" id="KSW Start Wood">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>726</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xc0b8" id="KSW Base Tile Mini">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>348</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x643d" id="KSW Turret Right">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>516</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x643e" id="KSW Turret Left">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>516</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x643f" id="KSW Turret Up">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>516</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6440" id="KSW Turret Down">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>516</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6441" id="KSW Turret Down Left">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>516</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6442" id="KSW Turret Down Right">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>516</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6443" id="KSW Turret Up Left">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>516</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6444" id="KSW Turret Up Right">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>516</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x644a" id="KSW Metal Ground Top Edge">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>196</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6446" id="KSW Metal Ground Bottom Edge">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>199</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6447" id="KSW Metal Ground Left Edge">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>197</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6448" id="KSW Metal Ground Right Edge">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>198</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6449" id="KSW Metal Rug">
+    <RandomTexture>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>193</Index>
+      </Texture>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>194</Index>
+      </Texture>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>195</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0x644b" id="KSW Metal Rug Corners">
+    <SameTypeEdgeMode />
+    <RandomTexture>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>193</Index>
+      </Texture>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>194</Index>
+      </Texture>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>195</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>197</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>200</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>204</Index>
+      </Texture>
+    </Corner>
+  </Ground>
+  <Ground type="0x644c" id="KSW Rusted Square Groove">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>145</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x644d" id="KSW Rusted Horizontal Groove">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>146</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x644e" id="KSW Rusted Vertical Groove">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>147</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x644f" id="KSW Rusted Small Top 1">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>148</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6450" id="KSW Rusted Small Top 2">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>149</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6451" id="KSW Rusted Small Bottom 1">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>150</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6452" id="KSW Rusted Small Bottom 2">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>151</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6453" id="KSW Rusted Large 1">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>152</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6454" id="KSW Rusted Large 2">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>153</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6455" id="KSW Rusted Large 3">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>154</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6456" id="KSW Rusted Large 4">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>155</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6457" id="KSW Rusted Large 5">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>156</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6458" id="KSW Rusted Large 6">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>157</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6459" id="KSW Rusted Large 7">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>158</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x645a" id="KSW Rusted Large 8">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>159</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x645b" id="KSW Rusted Large 9">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>160</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x645c" id="KSW Green Holes">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>177</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x645d" id="KSW Green Bricks">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>178</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x645e" id="KSW Green Cracked Random">
+    <RandomTexture>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>162</Index>
+      </Texture>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>163</Index>
+      </Texture>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>164</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0x645f" id="KSW Green Holes 2">
+    <RandomTexture>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>165</Index>
+      </Texture>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>166</Index>
+      </Texture>
+      <Texture>
+        <File>steamworksObjects8x8</File>
+        <Index>167</Index>
+      </Texture>
+    </RandomTexture>
+  </Ground>
+  <Ground type="0x6460" id="KSW Green Dirty">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>161</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6461" id="KSW Large Cracked Green 1">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>168</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6462" id="KSW Large Cracked Green 2">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>169</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6463" id="KSW Large Cracked Green 3">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>170</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6464" id="KSW Large Cracked Green 4">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>171</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6465" id="KSW Large Cracked Green 5">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>172</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6466" id="KSW Large Cracked Green 6">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>173</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6467" id="KSW Large Cracked Green 7">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>174</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6468" id="KSW Large Cracked Green 8">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>175</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6469" id="KSW Large Cracked Green 9">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>176</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x646a" id="KSW Large Steel Cover 1">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>331</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x646b" id="KSW Large Steel Cover 2">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>332</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x646c" id="KSW Large Steel Cover 3">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>333</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x646d" id="KSW Large Steel Cover 4">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>334</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x646e" id="KSW Large Steel Cover 5">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>335</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x646f" id="KSW Large Steel Cover 6">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>336</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6470" id="KSW Large Steel Cover 7">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>337</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6471" id="KSW Large Steel Cover 8">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>338</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6472" id="KSW Large Steel Cover 9">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>339</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6473" id="KSW Small Steel Cover 1">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>340</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6474" id="KSW Small Steel Cover 2">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>341</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6475" id="KSW Small Steel Cover 3">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>342</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6476" id="KSW Small Steel Cover 4">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>343</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6477" id="KSW Steel Grate Single">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>344</Index>
+    </Texture>
+    <Color>0x7B3F00</Color>
+  </Ground>
+  <Ground type="0x6478" id="KSW Steel Grate Horizontal">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>345</Index>
+    </Texture>
+    <Color>0x7B3F00</Color>
+  </Ground>
+  <Ground type="0x6479" id="KSW Steel Grate Vertical">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>346</Index>
+    </Texture>
+    <Color>0x7B3F00</Color>
+  </Ground>
+  <Ground type="0x647a" id="KSW Steel Grate Uncovered">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>347</Index>
+    </Texture>
+    <Color>0x7B3F00</Color>
+    <Speed>0.8</Speed>
+  </Ground>
+  <Ground type="0x647b" id="KSW Standard Dirt Light">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>348</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x647c" id="KSW Standard Dirt Dark">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>349</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x647d" id="KSW Pipe Border Horizontal">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>350</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x647e" id="KSW Pipe Border Horizontal Dirty">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>351</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x647f" id="KSW Pipe Border Vertical">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>352</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6480" id="KSW Pipe Border Vertical Dirty">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>353</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6481" id="KSW Pipe Border Corner Alt">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>354</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6482" id="KSW Pipe Border Corner Alt Dirty">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>355</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6483" id="KSW Pipe Border End">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>356</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6484" id="KSW Pipe Border End Dirty">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>357</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6485" id="KSW Pipe Border Corner">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>358</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6486" id="KSW Pipe Border Corner Dirty">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>359</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6487" id="KSW Pipe TL Corner">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>360</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6488" id="KSW Pipe TR Corner">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>361</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6489" id="KSW Pipe BL Corner">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>362</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x648a" id="KSW Pipe BR Corner">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>363</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x648b" id="KSW Pipe Horizontal">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>365</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x648c" id="KSW Pipe Horizontal Fitting">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>364</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x648d" id="KSW Pipe Vertical">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>366</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x648e" id="KSW Pipe Vertical Fitting">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>367</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6497" id="KSW Iron Center">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>516</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6498" id="KSW Iron Bend TR">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>518</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6499" id="KSW Iron Bend TL">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>517</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x649a" id="KSW Iron Bend BL">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>519</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x649b" id="KSW Iron Bend BR">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>520</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x649c" id="KSW Iron Edge Top">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>521</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x649d" id="KSW Iron Edge Left">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>522</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x649e" id="KSW Iron Edge Right">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>523</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x649f" id="KSW Iron Edge Bottom">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>524</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x648f" id="KSW Steam Vent Active Fake">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>532</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6490" id="KSW Conveyor Right Fake">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>209</Index>
+    </Texture>
+    <Animate dx="-2.5">Flow</Animate>
+    <Alpha />
+  </Ground>
+  <Ground type="0x6491" id="KSW Conveyor Left Fake">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>212</Index>
+    </Texture>
+    <Animate dx="2.5">Flow</Animate>
+    <Alpha />
+  </Ground>
+  <Ground type="0x6492" id="KSW Conveyor Down Fake">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>210</Index>
+    </Texture>
+    <Animate dy="-2.5">Flow</Animate>
+    <Alpha />
+  </Ground>
+  <Ground type="0x6493" id="KSW Conveyor Up Fake">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>211</Index>
+    </Texture>
+    <Animate dy="2.5">Flow</Animate>
+    <Alpha />
+  </Ground>
+  <Ground type="0x6494" id="KSW Opening Ground Tile">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>515</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6495" id="KSW Boss Steam Vent">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>532</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6496" id="KSW Boss Steam Vent Active">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>535</Index>
+    </Texture>
+    <MinDamage>80</MinDamage>
+    <MaxDamage>80</MaxDamage>
+    <Speed>0.7</Speed>
+  </Ground>
+  <Ground type="0x6500" id="KSW Caution Tile">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>525</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6506" id="KSW Rusty Iron Center">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>526</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6501" id="KSW Steel Plate">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>527</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6502" id="KSW Rusted Plate">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>528</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6503" id="KSW Iron Path Vertical">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>530</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6504" id="KSW Iron Path Horizontal">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>529</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6505" id="KSW Iron Path Corner">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>531</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x6510" id="KSW Ground Cover">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>544</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x64a0" id="KSW Grate With Alpha">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>564</Index>
+    </Texture>
+  </Ground>
+  <Ground id="KSW Void" type="0x64a1">
+    <Texture>
+      <File>thirdDimensionObjects8x8</File>
+      <Index>0xbe</Index>
+    </Texture>
+    <NoBlend />
+  </Ground>
+  <Ground id="KSW Void No Walk" type="0x64a2">
+    <Texture>
+      <File>thirdDimensionObjects8x8</File>
+      <Index>0xbe</Index>
+    </Texture>
+    <Alpha />
+    <NoWalk />
+  </Ground>
+  <Ground type="0x938a" id="KSW Train Dirt Tile">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>591</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x938b" id="KSW Train Little Rocks Tile">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>592</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x938c" id="KSW Train Rocks Tile">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>593</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x938d" id="KSW Train Bronze Edge">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>594</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x938e" id="KSW Train Bronze Tile Horizontal">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>595</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x938f" id="KSW Train Bronze Tile Vertical">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>596</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x9390" id="KSW Train Bronze TL">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>597</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x9391" id="KSW Train Bronze Top">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>598</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x9392" id="KSW Train Bronze TR">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>599</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x9393" id="KSW Train Bronze Left">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>600</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x9394" id="KSW Train Bronze Center">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>601</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x9395" id="KSW Train Bronze Right">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>602</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x9396" id="KSW Train Bronze BL">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>603</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x9397" id="KSW Train Bronze Bottom">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>604</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x9398" id="KSW Train Bronze BR">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>605</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x9399" id="KSW Train Silver Edge">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>606</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x939a" id="KSW Train Silver Tile Horizontal">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>607</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x939b" id="KSW Train Silver Tile Vertical">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>608</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x939c" id="KSW Train Silver TL">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>609</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x939d" id="KSW Train Silver Top">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>610</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x939e" id="KSW Train Silver TR">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>611</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x939f" id="KSW Train Silver Left">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>612</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93a0" id="KSW Train Silver Center">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>613</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93a1" id="KSW Train Silver Right">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>614</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93a2" id="KSW Train Silver BL">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>615</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93a3" id="KSW Train Silver Bottom">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>616</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93a4" id="KSW Train Silver BR">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>617</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93a5" id="KSW Train Steel Ground Bronze">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>618</Index>
+    </Texture>
+    <Color>0x7B3F00</Color>
+  </Ground>
+  <Ground type="0x93a6" id="KSW Train Steel Ground Silver">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>619</Index>
+    </Texture>
+    <Color>0x7B3F00</Color>
+  </Ground>
+  <Ground type="0x93a7" id="KSW Train Rock Ground 1">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>620</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93a8" id="KSW Train Rock Ground 2">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>621</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93a9" id="KSW Train Rock Ground 3">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>622</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93aa" id="KSW Train Rock Ground 4">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>623</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93ab" id="KSW Train Rock Brick 1">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>624</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93ac" id="KSW Train Rock Brick 2">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>625</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93ad" id="KSW Train Rock Brick 3">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>626</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93ae" id="KSW Train Rock Brick 4">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>627</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93af" id="KSW Train Rock Brick 5">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>628</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93b0" id="KSW Train Rock Brick 6">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>629</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93b1" id="KSW Train Rock Brick 7">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>630</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93b2" id="KSW Train Rock Brick 8">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>631</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93b3" id="KSW Train Rock Brick Rock 1">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>632</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93b4" id="KSW Train Rock Brick Rock 2">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>633</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x93b6" id="KSW Train Rock Brick Rock 3">
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>634</Index>
+    </Texture>
+  </Ground>
+</GroundTypes>
