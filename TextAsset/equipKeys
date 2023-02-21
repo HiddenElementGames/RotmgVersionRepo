@@ -4208,4 +4208,49 @@
     <BagType>7</BagType>
     <Track />
   </Object>
+  <Object type="0x5201" id="The Nest Solo Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <DisplayId>The Nest Key</DisplayId>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x15B</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Nest. Home of the Killer Bee Queen and the pinnacle of insect evolution.</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+    </ExtraTooltipData>
+    <Activate id="The Epic Hive Portal" predefinedDungeonMods="S|;TOKENDROPC" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x5202" id="Shaitan's Solo Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x15C</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A molten key that links directly to the Lair of Shaitan. Oryx's unstable advisor dwells near the unbearably hot core of the realm.</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+    </ExtraTooltipData>
+    <Activate id="Lair of Shaitan Portal" predefinedDungeonMods="S|;TOKENDROPB" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
 </Objects>

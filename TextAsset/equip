@@ -52949,6 +52949,605 @@
     <Soulbound />
     <Labels>CONSUMABLE,TAB_ALL</Labels>
   </Object>
+  <Object type="0x6869" id="3NinjaST0" setType="0x425c" setName="Onmyoji Ninja Set" collectionIcon="3">
+    <DisplayId>Shakujo</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>172</Index>
+    </Texture>
+    <SlotType>24</SlotType>
+    <Description>A short copper cane adorned with interlocking rings. The jangling of the rings can be heard whenever the Onmyoji approaches.</Description>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile id="0">
+      <ObjectId>Sacred Ring Small</ObjectId>
+      <Speed>200</Speed>
+      <LifetimeMS>525</LifetimeMS>
+      <MinDamage>140</MinDamage>
+      <MaxDamage>190</MaxDamage>
+      <Acceleration>-800</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.5</RateOfFire>
+      <ArcGap>0</ArcGap>
+      <DefaultAngle>00</DefaultAngle>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.5</BurstDelay>
+      <BurstMinDelay>0.5</BurstMinDelay>
+    </Subattack>
+    <BagType>8</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <Soulbound />
+    <feedPower>700</feedPower>
+    <XPBonus>5</XPBonus>
+    <Labels>EQUIPMENT,WEAPON,KATANA,ST,TAB_ST,ST_WEAPON,STGEN_3,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object type="0x686a" id="3NinjaST1" setType="0x425c" setName="Onmyoji Ninja Set" collectionIcon="3">
+    <DisplayId>Invocation Scroll</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>173</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>An ancient scroll inscribed with an incantation to summon the wrath of the gods.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Usable />
+    <BagType>8</BagType>
+    <Ability name="Yin">
+      <ExtraTooltipData>
+        <EffectInfo name="While Key Held" description="" />
+        <EffectInfo name="" description="Drain 60 MP/sec" />
+        <EffectInfo name="" description="Your weapon fires two more bullets towards the center, each dealing 32-40 armor piercing damage" />
+      </ExtraTooltipData>
+      <SwitchTime>0.75</SwitchTime>
+      <MpCost>0</MpCost>
+      <MpEndCost>0</MpEndCost>
+      <MpCostPerSecond>60</MpCostPerSecond>
+      <Activate effect="Stasis Immune" enablePetManaHealing="false">ShurikenAbility</Activate>
+      <OnPlayerShootActivate proc="1" targetMouse="true" requiredConditions="Stasis Immune" cooldown="0" minDistance="5.3" maxDistance="5.3" offsetAngle="0" numShots="2" gapAngle="90" gapTiles="1.5" arcGap="-12" type="0x6871" mustNotWear="0x686b">BulletCreate</OnPlayerShootActivate>
+      <OnPlayerShootActivate proc="1" targetMouse="true" requiredConditions="Stasis Immune" cooldown="0" minDistance="5.3" maxDistance="5.3" offsetAngle="0" numShots="2" gapAngle="90" gapTiles="2.5" arcGap="-24" type="0x6882" mustNotWear="0x686b" mustWear="0x6869;0x686c">BulletCreate</OnPlayerShootActivate>
+      <OnPlayerShootActivate proc="1" targetMouse="true" requiredConditions="Stasis Immune" cooldown="0" minDistance="5.3" maxDistance="5.3" offsetAngle="0" numShots="2" gapAngle="90" gapTiles="1.5" arcGap="-12" type="0x6872" mustNotWear="0x6869;0x686b;0x686c">BulletCreate</OnPlayerShootActivate>
+      <OnPlayerShootActivate proc="1" targetMouse="true" requiredConditions="Stasis Immune" cooldown="0" minDistance="5.3" maxDistance="5.3" offsetAngle="0" numShots="2" gapAngle="90" gapTiles="2.5" arcGap="-24" type="0x6883" mustNotWear="0x6869;0x686b;0x686c" mustWear="0x6869;0x686c">BulletCreate</OnPlayerShootActivate>
+      <OnPlayerShootActivate proc="1" targetMouse="true" requiredConditions="Stasis Immune" cooldown="0" minDistance="5.3" maxDistance="5.3" offsetAngle="0" numShots="2" gapAngle="90" gapTiles="1.5" arcGap="-12" type="0x6877" mustWear="0x6869;0x686b;0x686c">BulletCreate</OnPlayerShootActivate>
+      <OnPlayerShootActivate proc="1" targetMouse="true" requiredConditions="Stasis Immune" cooldown="0" minDistance="5.3" maxDistance="5.3" offsetAngle="0" numShots="2" gapAngle="90" gapTiles="2.5" arcGap="-24" type="0x6884" mustWear="0x6869;0x686b;0x686c">BulletCreate</OnPlayerShootActivate>
+      <MultiPhase />
+    </Ability>
+    <Ability name="Yang">
+      <ExtraTooltipData>
+        <EffectInfo name="While Key Held" description="" />
+        <EffectInfo name="" description="Drain 60 MP/sec" />
+        <EffectInfo name="" description="Your weapon fires two more bullets fanning out from the player, each dealing 40-48 armor piercing damage" />
+      </ExtraTooltipData>
+      <SwitchTime>0.75</SwitchTime>
+      <MpCost>0</MpCost>
+      <MpEndCost>0</MpEndCost>
+      <MpCostPerSecond>60</MpCostPerSecond>
+      <Activate effect="Stasis Immune" enablePetManaHealing="false">ShurikenAbility</Activate>
+      <OnPlayerShootActivate proc="1" targetMouse="true" requiredConditions="Stasis Immune" cooldown="0" minDistance="5.3" maxDistance="5.3" offsetAngle="0" numShots="2" gapAngle="0" gapTiles="0" arcGap="24" type="0x6873" mustNotWear="0x686b">BulletCreate</OnPlayerShootActivate>
+      <OnPlayerShootActivate proc="1" targetMouse="true" requiredConditions="Stasis Immune" cooldown="0" minDistance="5.3" maxDistance="5.3" offsetAngle="0" numShots="2" gapAngle="0" gapTiles="0" arcGap="48" type="0x6885" mustNotWear="0x686b" mustWear="0x6869;0x686c">BulletCreate</OnPlayerShootActivate>
+      <OnPlayerShootActivate proc="1" targetMouse="true" requiredConditions="Stasis Immune" cooldown="0" minDistance="5.3" maxDistance="5.3" offsetAngle="0" numShots="2" gapAngle="0" gapTiles="0" arcGap="24" type="0x6874" mustNotWear="0x6869;0x686b;0x686c">BulletCreate</OnPlayerShootActivate>
+      <OnPlayerShootActivate proc="1" targetMouse="true" requiredConditions="Stasis Immune" cooldown="0" minDistance="5.3" maxDistance="5.3" offsetAngle="0" numShots="2" gapAngle="0" gapTiles="0" arcGap="48" type="0x6886" mustNotWear="0x6869;0x686b;0x686c" mustWear="0x6869;0x686c">BulletCreate</OnPlayerShootActivate>
+      <OnPlayerShootActivate proc="1" targetMouse="true" requiredConditions="Stasis Immune" cooldown="0" minDistance="5.3" maxDistance="5.3" offsetAngle="0" numShots="2" gapAngle="0" gapTiles="0" arcGap="24" type="0x6878" mustWear="0x6869;0x686b;0x686c">BulletCreate</OnPlayerShootActivate>
+      <OnPlayerShootActivate proc="1" targetMouse="true" requiredConditions="Stasis Immune" cooldown="0" minDistance="5.3" maxDistance="5.3" offsetAngle="0" numShots="2" gapAngle="0" gapTiles="0" arcGap="48" type="0x6887" mustWear="0x6869;0x686b;0x686c">BulletCreate</OnPlayerShootActivate>
+      <MultiPhase />
+    </Ability>
+    <NumProjectiles>0</NumProjectiles>
+    <ArcGap>45</ArcGap>
+    <feedPower>950</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,ST,TAB_ST,ST_ABILITY,STGEN_3,POWERTIER_S,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x686b" id="3NinjaST2" setType="0x425c" setName="Onmyoji Ninja Set" collectionIcon="3">
+    <DisplayId>Divination Cloak</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>174</Index>
+    </Texture>
+    <SlotType>6</SlotType>
+    <Description>A ritualistic garment worn to protect the wearer from harmful spirits.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Divine Rage" description="" />
+      <EffectInfo name="" description="Invocation Scroll Yin shots now do 48-60 armor piercing damage" />
+      <EffectInfo name="" description="Invocation Scroll Yang shots now do 60-72 armor piercing damage" />
+    </ExtraTooltipData>
+    <ActivateOnEquip stat="DEF" amount="15">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEX" amount="5">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXMP" amount="50">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>650</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,LEATHER,ST,TAB_ST,ST_ARMOR,STGEN_3,POWERTIER_B,XPBONUS</Labels>
+  </Object>
+  <Object type="0x686c" id="3NinjaST3" setType="0x425c" setName="Onmyoji Ninja Set" collectionIcon="3">
+    <DisplayId>Omamori</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>175</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A paper amulet dedicated to the deities. It is said to bring luck and protection to its holder.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Divine Strike" description="Invocation Scroll creates an additional 2 shots if used with the Shakujo" />
+      <EffectInfo name="" description="These shots deal 25% more damage, but are not armor piercing" />
+    </ExtraTooltipData>
+    <ActivateOnEquip stat="MAXHP" amount="50">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXMP" amount="50">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEX" amount="5">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>550</feedPower>
+    <Soulbound />
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_3,POWERTIER_B,XPBONUS</Labels>
+  </Object>
+  <Object type="0x686d" id="3PriestST0" setType="0x425d" setName="Plague Doctor Priest Set" collectionIcon="3">
+    <DisplayId>Cane of Caduceus</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>162</Index>
+    </Texture>
+    <SlotType>8</SlotType>
+    <Description>A short cane adorned with an ornamental golden tip, used to poke and prod at those who had passed - and those who were soon to join them...</Description>
+    <Sound>weapon/missile_wand</Sound>
+    <Projectile id="0">
+      <ObjectId>Plague Orb Small</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>42</MinDamage>
+      <MaxDamage>78</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <Amplitude>0.9</Amplitude>
+      <Frequency>2.7</Frequency>
+      <Size>70</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Plague Snake Large</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>105</MinDamage>
+      <MaxDamage>135</MaxDamage>
+      <LifetimeMS>583</LifetimeMS>
+      <Size>70</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Plague Snake Large</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <LifetimeMS>0</LifetimeMS>
+      <Size>0</Size>
+    </Projectile>
+    <Subattack projectileId="0">
+      <NumProjectiles>2</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+      <ArcGap>10</ArcGap>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.4</RateOfFire>
+      <ArcGap>0</ArcGap>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.4</RateOfFire>
+      <ArcGap>0</ArcGap>
+    </Subattack>
+    <BagType>8</BagType>
+    <OldSound>magicShoot</OldSound>
+    <feedPower>500</feedPower>
+    <XPBonus>5</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,WAND,ST,TAB_ST,ST_WEAPON,STGEN_3,POWERTIER_A,TRADEABLE,XPBONUS</Labels>
+  </Object>
+  <Object type="0x686e" id="3PriestST1" setType="0x425d" setName="Plague Doctor Priest Set" collectionIcon="3">
+    <DisplayId>Bloodletting Leeches</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>163</Index>
+    </Texture>
+    <SlotType>4</SlotType>
+    <Description>A leech a day keeps the plague at bay.</Description>
+    <Sound>spell/light_heal</Sound>
+    <Usable />
+    <BagType>8</BagType>
+    <ExtraTooltipData>
+      <EffectInfo name="" description="Summons a leech that drains enemy health" />
+      <EffectInfo name="" description="Leeches explodes with an AOE Heal" />
+      <EffectInfo name="" description="Switch abilities to immediately detonate Leeches" />
+    </ExtraTooltipData>
+    <Ability name="Leeching">
+      <SwitchTime>0.5</SwitchTime>
+      <MpCost>100</MpCost>
+      <OnSwitchAbilityActivate proc="1" maxSpawnDistance="2.0" cooldown="0.0" objectId="Invisileech">SpawnCreep</OnSwitchAbilityActivate>
+      <OnSwitchAbilityActivate proc="1" maxSpawnDistance="2.0" cooldown="0.0" objectId="Invisileech">SpawnCreep</OnSwitchAbilityActivate>
+      <OnSwitchAbilityActivate proc="1" maxSpawnDistance="2.0" cooldown="0.0" objectId="Invisileech">SpawnCreep</OnSwitchAbilityActivate>
+      <Activate effect="Bleeding" duration="0" color="-1" ignoreOnTooltip="true">ConditionEffectSelf</Activate>
+      <OnPlayerAbilityActivate proc="1" targetMouse="true" mustNotWearOR="0x686f;0x6870" maxSpawnDistance="2.0" cooldown="0.0" objectId="Plague Leech">SpawnCreep</OnPlayerAbilityActivate>
+      <OnPlayerAbilityActivate proc="1" targetMouse="true" mustNotWear="0x6870" mustWear="0x686f" maxSpawnDistance="2.0" cooldown="0.0" objectId="Plague Leech Heal Zap">SpawnCreep</OnPlayerAbilityActivate>
+      <OnPlayerAbilityActivate proc="1" targetMouse="true" mustNotWear="0x686f" mustWear="0x6870" maxSpawnDistance="2.0" cooldown="0.0" objectId="Plague Leech Damage AOE">SpawnCreep</OnPlayerAbilityActivate>
+      <OnPlayerAbilityActivate proc="1" targetMouse="true" mustWear="0x686f;0x6870" maxSpawnDistance="2.0" cooldown="0.0" objectId="Plague Leech Damage AOE and Zap">SpawnCreep</OnPlayerAbilityActivate>
+    </Ability>
+    <Ability name="Leeching">
+      <SwitchTime>0.5</SwitchTime>
+      <MpCost>100</MpCost>
+      <OnSwitchAbilityActivate proc="1" maxSpawnDistance="2.0" cooldown="0.0" objectId="Invisileech">SpawnCreep</OnSwitchAbilityActivate>
+      <OnSwitchAbilityActivate proc="1" maxSpawnDistance="2.0" cooldown="0.0" objectId="Invisileech">SpawnCreep</OnSwitchAbilityActivate>
+      <OnSwitchAbilityActivate proc="1" maxSpawnDistance="2.0" cooldown="0.0" objectId="Invisileech">SpawnCreep</OnSwitchAbilityActivate>
+      <Activate effect="Bleeding" duration="0" color="-1" ignoreOnTooltip="true">ConditionEffectSelf</Activate>
+      <OnPlayerAbilityActivate proc="1" targetMouse="true" mustNotWearOR="0x686f;0x6870" maxSpawnDistance="2.0" cooldown="0.0" objectId="Plague Leech">SpawnCreep</OnPlayerAbilityActivate>
+      <OnPlayerAbilityActivate proc="1" targetMouse="true" mustNotWear="0x6870" mustWear="0x686f" maxSpawnDistance="2.0" cooldown="0.0" objectId="Plague Leech Heal Zap">SpawnCreep</OnPlayerAbilityActivate>
+      <OnPlayerAbilityActivate proc="1" targetMouse="true" mustNotWear="0x686f" mustWear="0x6870" maxSpawnDistance="2.0" cooldown="0.0" objectId="Plague Leech Damage AOE">SpawnCreep</OnPlayerAbilityActivate>
+      <OnPlayerAbilityActivate proc="1" targetMouse="true" mustWear="0x686f;0x6870" maxSpawnDistance="2.0" cooldown="0.0" objectId="Plague Leech Damage AOE and Zap">SpawnCreep</OnPlayerAbilityActivate>
+    </Ability>
+    <ActivateOnEquip stat="DEF" amount="5">IncrementStat</ActivateOnEquip>
+    <feedPower>800</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TOME,ST,TAB_ST,ST_ABILITY,STGEN_3,POWERTIER_S,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x686f" id="3PriestST2" setType="0x425d" setName="Plague Doctor Priest Set" collectionIcon="3">
+    <DisplayId>Doctor's Overcoat</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>164</Index>
+    </Texture>
+    <SlotType>14</SlotType>
+    <Description>The dark black hue hides the various bodily fluids that taint the material.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Nice Leeches" description="Leeches will heal players throughout their lifetime" />
+    </ExtraTooltipData>
+    <ActivateOnEquip stat="DEF" amount="14">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEX" amount="5">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="WIS" amount="7">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>650</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,ROBE,ST,TAB_ST,ST_ARMOR,STGEN_3,POWERTIER_B,TRADEABLE,XPBONUS</Labels>
+  </Object>
+  <Object type="0x6870" id="3PriestST3" setType="0x425d" setName="Plague Doctor Priest Set" collectionIcon="3">
+    <DisplayId>Plague Mask</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>165</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>It smells of lavender and roses, but it looks like death.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Plump Leeches" description="Leeches inflict 100% more damage and deal a damaging AOE blast when they decay" />
+    </ExtraTooltipData>
+    <ActivateOnEquip stat="MAXHP" amount="65">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEX" amount="6">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="WIS" amount="6">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>400</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_3,POWERTIER_B,TRADEABLE,XPBONUS</Labels>
+  </Object>
+  <Object type="0x6871" id="Ninja Katana Proc Ability 1 Base">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile id="0">
+      <ObjectId>Scroll Bolt Small</ObjectId>
+      <Speed>210</Speed>
+      <LifetimeMS>525</LifetimeMS>
+      <MinDamage>32</MinDamage>
+      <MaxDamage>40</MaxDamage>
+      <Acceleration>-800</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x6882" id="Ninja Katana Proc Ability 1 Base Ring">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile id="0">
+      <ObjectId>Scroll Bolt Small</ObjectId>
+      <Speed>210</Speed>
+      <LifetimeMS>525</LifetimeMS>
+      <MinDamage>40</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <Acceleration>-800</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x6872" id="Ninja Katana Proc Ability 1 Armor">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile id="0">
+      <ObjectId>Scroll Bolt Small</ObjectId>
+      <Speed>210</Speed>
+      <LifetimeMS>525</LifetimeMS>
+      <MinDamage>48</MinDamage>
+      <MaxDamage>60</MaxDamage>
+      <Acceleration>-800</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x6883" id="Ninja Katana Proc Ability 1 Armor Ring">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile id="0">
+      <ObjectId>Scroll Bolt Small</ObjectId>
+      <Speed>210</Speed>
+      <LifetimeMS>525</LifetimeMS>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>75</MaxDamage>
+      <Acceleration>-800</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x6877" id="Ninja Katana Proc Ability 1 Full Set">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile id="0">
+      <ObjectId>Scroll Bolt Large</ObjectId>
+      <Speed>210</Speed>
+      <LifetimeMS>525</LifetimeMS>
+      <MinDamage>48</MinDamage>
+      <MaxDamage>60</MaxDamage>
+      <Acceleration>-800</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x6884" id="Ninja Katana Proc Ability 1 Full Set Ring">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile id="0">
+      <ObjectId>Scroll Bolt Large</ObjectId>
+      <Speed>210</Speed>
+      <LifetimeMS>525</LifetimeMS>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>75</MaxDamage>
+      <Acceleration>-800</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x6873" id="Ninja Katana Proc Ability 2 Base">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile id="0">
+      <ObjectId>Scroll Bolt Small</ObjectId>
+      <Speed>210</Speed>
+      <LifetimeMS>525</LifetimeMS>
+      <MinDamage>40</MinDamage>
+      <MaxDamage>48</MaxDamage>
+      <Acceleration>-800</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x6885" id="Ninja Katana Proc Ability 2 Base Ring">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile id="0">
+      <ObjectId>Scroll Bolt Small</ObjectId>
+      <Speed>210</Speed>
+      <LifetimeMS>525</LifetimeMS>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>60</MaxDamage>
+      <Acceleration>-800</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x6874" id="Ninja Katana Proc Ability 2 Armor">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile id="0">
+      <ObjectId>Scroll Bolt Small</ObjectId>
+      <Speed>210</Speed>
+      <LifetimeMS>525</LifetimeMS>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>72</MaxDamage>
+      <Acceleration>-800</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x6886" id="Ninja Katana Proc Ability 2 Armor Ring">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile id="0">
+      <ObjectId>Scroll Bolt Small</ObjectId>
+      <Speed>210</Speed>
+      <LifetimeMS>525</LifetimeMS>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>90</MaxDamage>
+      <Acceleration>-800</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x6878" id="Ninja Katana Proc Ability 2 Full Set">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile id="0">
+      <ObjectId>Scroll Bolt Large</ObjectId>
+      <Speed>210</Speed>
+      <LifetimeMS>525</LifetimeMS>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>72</MaxDamage>
+      <Acceleration>-800</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x6887" id="Ninja Katana Proc Ability 2 Full Set Ring">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile id="0">
+      <ObjectId>Scroll Bolt Large</ObjectId>
+      <Speed>210</Speed>
+      <LifetimeMS>525</LifetimeMS>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>90</MaxDamage>
+      <Acceleration>-800</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x6875" id="3NinjaSTToken">
+    <DisplayId>Onmyoji Ninja Set Token</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>160</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Can be used in the Forge to craft Onmyoji Ninja Items.</Description>
+    <BagType>5</BagType>
+    <feedPower>50</feedPower>
+    <Soulbound />
+    <Labels>TAB_ST</Labels>
+  </Object>
+  <Object type="0x6876" id="3PriestSTToken">
+    <DisplayId>Plague Doctor Priest Set Token</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>161</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Can be used in the Forge to craft Plague Doctor Priest Items.</Description>
+    <BagType>5</BagType>
+    <feedPower>50</feedPower>
+    <Soulbound />
+    <Labels>TAB_ST</Labels>
+  </Object>
   <Object type="0x6879" id="Heart Jewel Blades">
     <DisplayId>Heart Jewel Blades</DisplayId>
     <Class>Equipment</Class>
