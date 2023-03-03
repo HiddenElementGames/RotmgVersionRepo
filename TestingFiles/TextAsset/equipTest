@@ -443,4 +443,212 @@
     <DropTradable />
     <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T0,MPCOST,APPLY_STAT_EFF,TRADEABLE</Labels>
   </Object>
+  <DisplayId />
+  <InventoryAnimation />
+  <Object id="3ArcherST0" type="0xc67d" setName="Kogbold Inventor Archer Set" setType="0x425e" collectionIcon="3">
+    <DisplayId>Experimental Cannon</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x5f5</Index>
+    </Texture>
+    <SlotType>3</SlotType>
+    <Description>Temp - Item functions like a longbow with burst fire, but puts the bullets as a line instead using of the longbow offsets.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Temp - If worn, Gun Turrets fire faster and use slowing bullets more often." name="Gun Boost" />
+    </ExtraTooltipData>
+    <OldSound>arrowShoot</OldSound>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>0,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.4</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>-0.35,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.4</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>0.35,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.4</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Cannonball</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>90</MinDamage>
+      <MaxDamage>110</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <Size>60</Size>
+      <FaceDir />
+    </Projectile>
+    <NumProjectiles>2</NumProjectiles>
+    <ArcGap>0</ArcGap>
+    <BagType>8</BagType>
+    <feedPower>800</feedPower>
+    <Soulbound />
+    <XPBonus>5</XPBonus>
+    <UniqueID />
+    <ActivateOnEquip amount="3" stat="WIS">IncrementStat</ActivateOnEquip>
+    <Labels>EQUIPMENT,WEAPON,BOW,ST,TAB_ST,ST_WEAPON,STGEN_3,POWERTIER_C,XPBONUS</Labels>
+  </Object>
+  <Object id="3ArcherST1" type="0xc67e" setName="Kogbold Inventor Archer Set" setType="0x425e" collectionIcon="3">
+    <DisplayId>Sentry Turret</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x5f6</Index>
+    </Texture>
+    <Projectile id="0">
+      <ObjectId>Cannonball</ObjectId>
+      <Speed>0</Speed>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <LifetimeMS>0</LifetimeMS>
+      <Size>0</Size>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <SlotType>15</SlotType>
+    <Description>Temp - Turret has different firing modes, described in tooltip data.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Turret rapidly fires towards foes" name="Gun Mode" />
+      <EffectInfo description="Creates a spinning flail." name="Flail Mode" />
+      <EffectInfo description="Fires slower, heavier bullets." name="Heavy Mode" />
+    </ExtraTooltipData>
+    <Usable />
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>850</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <ActivateOnEquip amount="5" stat="WIS">IncrementStat</ActivateOnEquip>
+    <Labels>EQUIPMENT,ABILITY,QUIVER,ST,TAB_ST,ST_ABILITY,STGEN_3,POWERTIER_C,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object id="3ArcherST2" type="0xc67f" setName="Kogbold Inventor Archer Set" setType="0x425e" collectionIcon="3">
+    <Class>Equipment</Class>
+    <Item />
+    <DisplayId>Robe of Many Pockets</DisplayId>
+    <Description>Temp - Adds to MP and WIS.  Allows for deploying the turret quickly and without waiting on a recharge.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Temp - If worn, Flail Turrets have five links." name="Flail Boost" />
+    </ExtraTooltipData>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x5f7</Index>
+    </Texture>
+    <SlotType>6</SlotType>
+    <ActivateOnEquip amount="50" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="WIS">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="3" stat="SPD">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>700</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,LEATHER,ST,TAB_ST,ST_ARMOR,STGEN_3,POWERTIER_B,XPBONUS</Labels>
+  </Object>
+  <Object id="3ArcherST3" type="0xc680" setName="Kogbold Inventor Archer Set" setType="0x425e" collectionIcon="3">
+    <Class>Equipment</Class>
+    <Item />
+    <DisplayId>Targeting Monocular</DisplayId>
+    <Texture xOffset="-2" yOffset="0">
+      <File>lofiObj3</File>
+      <Index>0x5f8</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>Temp - Adds a bulk bonus of WIS and some of the set's DEF total.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Temp - If worn, Heavy Turrets do more damage and use paralysis bullets more often." name="Heavy Boost" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="50" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="12" stat="WIS">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="2" stat="DEF">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>600</feedPower>
+    <Soulbound />
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_3,POWERTIER_C,XPBONUS</Labels>
+  </Object>
+  <Object type="0xc990" id="Blueprint_Test_1">
+    <DisplayId>Special Test Blueprint 1</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This Blueprint must only be used by Seasonal Characters. Both the recipe and the Blueprint will disappear at the end of the season. It cannot be transferred to Regular.</Description>
+    <SeasonalOnly />
+    <NoSeasonalToRegularConversion />
+    <Sound>use_potion</Sound>
+    <Activate id="Divinity" seasonal-only="true">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object type="0xc991" id="Blueprint_Test_2">
+    <DisplayId>Special Test Blueprint 2</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b3</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This Blueprint can be used by both Seasonal and Regular characters. This Blueprint won't disappear at the end of a season and it can be transferred anytime to Regular.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Midnight Star">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object type="0xc992" id="Test Apple Special">
+    <DisplayId>Test Seasonal Apple</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x11e</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It's healthy!\nMaxes any class to 8/8 and adds a Backpack. It cannot be transferred to a regular character until the end of the season</Description>
+    <Sound>use_potion</Sound>
+    <Activate stat="XP" amount="18050">IncrementStat</Activate>
+    <Activate stat="MAXHP" amount="2000">IncrementStat</Activate>
+    <Activate stat="MAXMP" amount="2000">IncrementStat</Activate>
+    <Activate stat="ATT" amount="2000">IncrementStat</Activate>
+    <Activate stat="DEF" amount="2000">IncrementStat</Activate>
+    <Activate stat="SPD" amount="2000">IncrementStat</Activate>
+    <Activate stat="VIT" amount="2000">IncrementStat</Activate>
+    <Activate stat="WIS" amount="2000">IncrementStat</Activate>
+    <Activate stat="DEX" amount="2000">IncrementStat</Activate>
+    <Consumable />
+    <Backpack />
+    <Potion />
+    <BagType>8</BagType>
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
 </Objects>

@@ -1709,6 +1709,7 @@
   <Object id="KSW Placeholder" type="0xc124">
     <Class>GameObject</Class>
     <Enemy />
+    <Exp>195</Exp>
     <MaxHitPoints>30000</MaxHitPoints>
     <Defense>30</Defense>
     <HealthBarBoss />
@@ -1859,6 +1860,7 @@
   </Object>
   <Object type="0xc117" id="KSW Laser Turret">
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <DisplayId>Kogbold Laser</DisplayId>
     <AnimatedTexture>
@@ -1885,6 +1887,7 @@
   </Object>
   <Object type="0xc096" id="KSW Automatic Boomerang Turret">
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <DisplayId>Boomerang Turret</DisplayId>
     <AnimatedTexture>
@@ -1912,6 +1915,7 @@
   </Object>
   <Object type="0xc0b1" id="KSW Automatic Steam Turret">
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <DisplayId>Kogbold Turret</DisplayId>
     <AnimatedTexture>
@@ -1936,6 +1940,7 @@
   </Object>
   <Object type="0xc0b7" id="KSW Automatic Steam Turret Offset">
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <DisplayId>Kogbold Turret</DisplayId>
     <AnimatedTexture>
@@ -2015,6 +2020,7 @@
   </Object>
   <Object type="0xc11e" id="KSW Automatic Fire Turret">
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <DisplayId>Kogbold Turret</DisplayId>
     <AnimatedTexture>
@@ -2056,6 +2062,7 @@
   </Object>
   <Object type="0xc11f" id="KSW Automatic Fire Turret Offset 4">
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <DisplayId>Kogbold Turret</DisplayId>
     <AnimatedTexture>
@@ -2097,6 +2104,7 @@
   </Object>
   <Object type="0xc120" id="KSW Automatic Fire Turret Offset 3">
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <DisplayId>Kogbold Turret</DisplayId>
     <AnimatedTexture>
@@ -2138,6 +2146,7 @@
   </Object>
   <Object type="0xc121" id="KSW Automatic Fire Turret Offset 2">
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <DisplayId>Kogbold Turret</DisplayId>
     <AnimatedTexture>
@@ -2179,6 +2188,7 @@
   </Object>
   <Object type="0xc122" id="KSW Automatic Fire Turret Offset 1">
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <DisplayId>Kogbold Turret</DisplayId>
     <AnimatedTexture>
@@ -2220,6 +2230,7 @@
   </Object>
   <Object type="0xc123" id="KSW Automatic Fire Turret Offset">
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <DisplayId>Kogbold Turret</DisplayId>
     <AnimatedTexture>
@@ -3228,6 +3239,11 @@
     <KillStat stat="CONSTRUCTKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
   <Object type="0xc089" id="KSW Tinkerer">
@@ -3257,6 +3273,11 @@
     <KillStat stat="CONSTRUCTKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
   <Object type="0xc08a" id="KSW Tinkerer Turret">
@@ -3404,6 +3425,11 @@
     <KillStat stat="CONSTRUCTKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
   <Object type="0xc08d" id="KSW Stemwalker">
@@ -3463,6 +3489,11 @@
     <KillStat stat="CONSTRUCTKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
   <Object type="0xc0c4" id="KSW Serpent Orbit">
@@ -3522,6 +3553,11 @@
     </Projectile>
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
   <Object type="0xc118" id="KSW Steam Serpent Head fake">
@@ -3550,6 +3586,11 @@
     <KillStat stat="CONSTRUCTKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
   <Object type="0xc08f" id="KSW Steam Serpent Body 1">
@@ -3582,6 +3623,11 @@
     <KillStat stat="CONSTRUCTKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
   <Object type="0xc0c3" id="KSW Steam Serpent Body 2">
@@ -3640,6 +3686,11 @@
     <KillStat stat="CONSTRUCTKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
   <Object type="0xc090" id="KSW Steam Serpent Tail">
@@ -3672,6 +3723,11 @@
     <KillStat stat="CONSTRUCTKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
   <Object type="0xc091" id="KSW Overseer">
@@ -3705,6 +3761,11 @@
     <KillStat stat="CONSTRUCTKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
   <Object type="0xc4d7" id="KSW Factory Control Core">
@@ -4812,7 +4873,7 @@
       <Size>100</Size>
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,HPSCALEONENTRY,STGEMDROP</Labels>
     <SpecialSpawn category="Bis">Kogbold Steamworks Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Double Cheeseburger Deluxe</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Automaton Egg</SpecialSpawn>
@@ -6464,6 +6525,7 @@
   <Object type="0xc4ac" id="KSW Mini Missile">
     <Class>Character</Class>
     <Enemy />
+    <Exp>150</Exp>
     <AnimatedTexture>
       <File>steamworksChars16x16</File>
       <Index>19</Index>

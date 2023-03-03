@@ -265,6 +265,7 @@
     <DisplayId>Totalia's Bat Swarm</DisplayId>
     <Class>Character</Class>
     <Enemy />
+    <Exp>195</Exp>
     <AnimatedTexture>
       <File>autumnNexusChars16x16</File>
       <Index>0x3</Index>
@@ -289,6 +290,11 @@
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
   <Object type="0xafb" id="New Ability Dropper">
@@ -336,6 +342,7 @@
   <Object type="0x108f" id="TG TP">
     <Class>GameObject</Class>
     <Enemy />
+    <Exp>195</Exp>
     <AnimatedTexture>
       <File>chars16x16dEncounters2</File>
       <Index>54</Index>
@@ -345,12 +352,18 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
   <Object type="0xcf2" id="TG">
     <DisplayId>Test Guill</DisplayId>
     <Class>Character</Class>
     <Enemy />
+    <Exp>195</Exp>
     <AnimatedTexture>
       <File>d3Chars8x8rEmbed</File>
       <Index>17</Index>
@@ -422,6 +435,11 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
   <Object type="0x63d" id="Decaract">
@@ -443,6 +461,7 @@
   <Object type="0xc0c" id="0Def">
     <Class>Character</Class>
     <Enemy />
+    <Exp>195</Exp>
     <AnimatedTexture>
       <File>d3Chars8x8rEmbed</File>
       <Index>17</Index>
@@ -453,11 +472,17 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
   <Object type="0xc0d" id="20Def">
     <Class>Character</Class>
     <Enemy />
+    <Exp>195</Exp>
     <AnimatedTexture>
       <File>d3Chars8x8rEmbed</File>
       <Index>17</Index>
@@ -468,11 +493,17 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
   <Object type="0xc0e" id="60Def">
     <Class>Character</Class>
     <Enemy />
+    <Exp>195</Exp>
     <AnimatedTexture>
       <File>d3Chars8x8rEmbed</File>
       <Index>17</Index>
@@ -483,6 +514,11 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0752" id="Stat Baloon">
@@ -503,6 +539,11 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d0e" id="Head">
@@ -566,6 +607,11 @@
       </Style>
     </Presentation>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
   <Object type="0x97a" id="Admin Blade">
@@ -741,7 +787,7 @@
     <NumProjectiles>2</NumProjectiles>
     <ArcGap>0</ArcGap>
     <BagType>6</BagType>
-    <feedPower>100000</feedPower>
+    <feedPower>1000000</feedPower>
     <Soulbound />
     <UniqueID />
     <AdminOnly />
@@ -768,9 +814,75 @@
     <NumProjectiles>2</NumProjectiles>
     <ArcGap>2</ArcGap>
     <BagType>6</BagType>
-    <feedPower>100000</feedPower>
+    <feedPower>1000000</feedPower>
     <Soulbound />
     <UniqueID />
     <AdminOnly />
+  </Object>
+  <Object type="0xc320" id="DPS TG 0">
+    <DisplayId>DPS Guill 0</DisplayId>
+    <Class>InteractiveInfoObject</Class>
+    <Enemy />
+    <Exp>195</Exp>
+    <Texture>
+      <File>lofiEnvironment3</File>
+      <Index>0x97</Index>
+    </Texture>
+    <Size>130</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <ShadowSize>50</ShadowSize>
+    <AlwaysPositiveHealth />
+    <InteractInfo distance="2" title="DPS Dummy 0 Def" text="This DPS dummmy has 0 defense. Say 'Start' to start a 5 second vulnerability period. The dummy will then heal to show you the amount of damage you did in that time!" />
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc321" id="DPS TG 15">
+    <DisplayId>DPS Guill 15</DisplayId>
+    <Class>InteractiveInfoObject</Class>
+    <Enemy />
+    <Exp>130</Exp>
+    <Texture>
+      <File>lofiEnvironment3</File>
+      <Index>0x97</Index>
+    </Texture>
+    <Size>130</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <InteractInfo distance="2" title="DPS Dummy 15 Def" text="This DPS dummmy has 15 defense. Say 'Start' to start a 5 second vulnerability period. The dummy will then heal to show you the amount of damage you did in that time!" />
+    <ShadowSize>50</ShadowSize>
+    <Defense>15</Defense>
+    <AlwaysPositiveHealth />
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc322" id="DPS TG 50">
+    <DisplayId>DPS Guill 50</DisplayId>
+    <Class>InteractiveInfoObject</Class>
+    <Enemy />
+    <Exp>195</Exp>
+    <Texture>
+      <File>lofiEnvironment3</File>
+      <Index>0x96</Index>
+    </Texture>
+    <Size>130</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <InteractInfo distance="2" title="DPS Dummy 50 Def" text="This DPS dummmy has 50 defense. Say 'Start' to start a 5 second vulnerability period. The dummy will then heal to show you the amount of damage you did in that time!" />
+    <ShadowSize>50</ShadowSize>
+    <Defense>50</Defense>
+    <AlwaysPositiveHealth />
+    <NoMiniMap />
+  </Object>
+  <Object type="0xc323" id="DPS TG Speaker">
+    <DisplayId>DPS Tester</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Exp>195</Exp>
+    <Texture>
+      <File>lofiEnvironment3</File>
+      <Index>0x97</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <Defense>0</Defense>
+    <AlwaysPositiveHealth />
+    <NoMiniMap />
+    <Invincible />
   </Object>
 </Objects>

@@ -469,6 +469,11 @@
     <Labels>ENEMY,MINION_MID,MINION,CONSTRUCT</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <Projectile id="0">
       <ObjectId>Cursed Slash</ObjectId>
       <Damage>75</Damage>
@@ -509,6 +514,11 @@
     <Labels>ENEMY,MINION_MID,MINION,HUMANOID</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <Projectile id="0">
       <ObjectId>Spear Bolt</ObjectId>
       <Damage>90</Damage>
@@ -546,6 +556,11 @@
     <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <Projectile id="0">
       <ObjectId>Bowman arrow</ObjectId>
       <Damage>90</Damage>
@@ -623,6 +638,11 @@
     <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <Projectile id="0">
       <ObjectId>Monk Mini Flame</ObjectId>
       <Damage>100</Damage>
@@ -845,6 +865,23 @@
       <LifetimeMS>6000</LifetimeMS>
       <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
     </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt5">
+        <StyleStep altTextureId="5">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
     <SpecialSpawn category="Bis">Mountain Temple Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Feline Egg</SpecialSpawn>
