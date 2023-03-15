@@ -1699,9 +1699,9 @@
       <SpecialSpawnOnDeath category="Speed_Orb" reqLabels="MINION" excludeLabels="SPECIAL" prob="0.025" />
     </Mutators>
   </DungeonModifier>
-  <DungeonModifier id="LEPRECHAUN_YELLOW" type="0x013f">
+  <DungeonModifier id="LEPRECHAUN_YELLOW" type="0x0157">
     <DisplayId>Golden Luck</DisplayId>
-    <PowerLevel>4</PowerLevel>
+    <PowerLevel>999</PowerLevel>
     <Description>Fight the Yellow Leprechaun after the final boss of the dungeon.</Description>
     <Labels>EXTRABOSS</Labels>
     <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
@@ -1709,9 +1709,9 @@
       <SpecialSpawnOnDeath category="Leprechaun_Yellow" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
     </Mutators>
   </DungeonModifier>
-  <DungeonModifier id="LEPRECHAUN_PURPLE" type="0x0140">
+  <DungeonModifier id="LEPRECHAUN_PURPLE" type="0x0158">
     <DisplayId>Amethyst Luck</DisplayId>
-    <PowerLevel>4</PowerLevel>
+    <PowerLevel>999</PowerLevel>
     <Description>Fight the Purple Leprechaun after the final boss of the dungeon.</Description>
     <Labels>EXTRABOSS</Labels>
     <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
@@ -1719,9 +1719,9 @@
       <SpecialSpawnOnDeath category="Leprechaun_Purple" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
     </Mutators>
   </DungeonModifier>
-  <DungeonModifier id="XPANDREWARDSBOOSTALL_1" type="0x0141">
+  <DungeonModifier id="XPANDREWARDSBOOSTALL_1" type="0x0159">
     <DisplayId>XP and Rewards Boost (All)  I</DisplayId>
-    <PowerLevel>1</PowerLevel>
+    <PowerLevel>999</PowerLevel>
     <Description>Boss enemies and Minions give 50% more XP and Loot</Description>
     <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP,LOOT,REWARD,BOSS,REWARD_LOW</Labels>
     <IncompatibleLabels>XP,LOOT,REWARD</IncompatibleLabels>
@@ -1733,9 +1733,9 @@
       <EntityDropMultiplier amount="1.50" reqLabels="MINION" />
     </Mutators>
   </DungeonModifier>
-  <DungeonModifier id="XPANDREWARDSBOOSTALL_2" type="0x0142">
+  <DungeonModifier id="XPANDREWARDSBOOSTALL_2" type="0x015a">
     <DisplayId>XP and Rewards Boost (All)  II</DisplayId>
-    <PowerLevel>2</PowerLevel>
+    <PowerLevel>999</PowerLevel>
     <Description>Boss enemies and Minions give 100% more XP and Loot</Description>
     <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP,LOOT,REWARD,BOSS,REWARD_LOW</Labels>
     <IncompatibleLabels>XP,LOOT,REWARD</IncompatibleLabels>
