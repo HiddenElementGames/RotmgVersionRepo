@@ -708,14 +708,29 @@
     <ShadowSize>65</ShadowSize>
   </Object>
   <Object type="0x58b" id="Friendly Neighborhood Gemstone">
-    <Class>GameObject</Class>
+    <Class>Summon</Class>
     <Texture>
       <File>crystalCaveObjects8x8</File>
       <Index>0x88</Index>
     </Texture>
+    <Projectile id="0">
+      <ObjectId>Refraction Bolt</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>250</MinDamage>
+      <MaxDamage>300</MaxDamage>
+      <AccelerationDelay>250</AccelerationDelay>
+      <Acceleration>-200</Acceleration>
+      <LifetimeMS>400</LifetimeMS>
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+      <Size>80</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
     <Flying />
+    <NoCollisionWhenMovement />
     <Size>80</Size>
     <Z>0.3</Z>
+    <OrbitCreepMaster minRadius="3" maxRadius="3.5" speed="1.1" clockwiseProb="0.5" radiusVariability="0.25" speedVariability="0" speedUpCoef="0.4" />
   </Object>
   <Object type="0x4b35" id="Mimicry Decoy">
     <Class>Character</Class>
@@ -1441,11 +1456,13 @@
   <Object type="0x6dc3" id="Genesis Spell Portal Rand">
     <Class>GameObject</Class>
     <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x2a1</Index>
     </Texture>
-    <Size>0</Size>
-    <ShadowSize>0</ShadowSize>
+    <Size>100</Size>
+    <ShadowSize>60</ShadowSize>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
   </Object>
   <Object type="0x70ad" id="Cranium Effect">
     <Class>GameObject</Class>
@@ -2123,16 +2140,16 @@
     <Z>0.2</Z>
     <Projectile>
       <ObjectId>Summon Bee Projectile</ObjectId>
-      <Speed>50</Speed>
+      <Speed>65</Speed>
       <MinDamage>240</MinDamage>
       <MaxDamage>310</MaxDamage>
-      <LifetimeMS>1700</LifetimeMS>
+      <LifetimeMS>1350</LifetimeMS>
       <MultiHit />
       <PassesCover />
     </Projectile>
     <NoMiniMap />
     <RepulsionRadius>1.0f</RepulsionRadius>
-    <OrbitCreepMaster minRadius="1" maxRadius="2" speed="1.4" clockwiseProb="1" radiusVariability="0.0" speedVariability="0.2" speedUpCoef="0.4" />
+    <OrbitCreepMaster minRadius="2" maxRadius="2.5" speed="1.2" clockwiseProb="1" radiusVariability="0.0" speedVariability="0.2" speedUpCoef="0.4" />
   </Object>
   <Object type="0x89b8" id="Summon Rabbit">
     <Class>Summon</Class>
@@ -5324,246 +5341,69 @@
     <Size>0</Size>
     <NoMiniMap />
   </Object>
-  <Object type="0x20f3" id="Gun Turret">
+  <Object type="0x20f3" id="EH Ability Bee 1 Shiny">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>epicHiveChars8x8</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Size>80</Size>
+    <Z>0.2</Z>
+    <RepulsionRadius>0.1f</RepulsionRadius>
+  </Object>
+  <Object type="0x20f4" id="EH Ability Bee 2 Shiny">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>epicHiveChars8x8</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Size>80</Size>
+    <Z>0.2</Z>
+    <RepulsionRadius>0.1f</RepulsionRadius>
+  </Object>
+  <Object type="0x20f5" id="EH Ability Bee 3 Shiny">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>epicHiveChars8x8</File>
+      <Index>17</Index>
+    </AnimatedTexture>
+    <Flying />
+    <Size>80</Size>
+    <Z>0.2</Z>
+    <RepulsionRadius>0.1f</RepulsionRadius>
+  </Object>
+  <Object type="0x4575" id="Fairy Helper">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>magicWoodsChars8x8</File>
+      <Index>28</Index>
+    </AnimatedTexture>
+    <Size>60</Size>
+    <Flying />
+    <Z>0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x44e5" id="2RogueSTBat">
     <Class>Summon</Class>
     <AnimatedTexture>
       <File>chars8x8rEncounters</File>
-      <Index>167</Index>
+      <Index>26</Index>
     </AnimatedTexture>
-    <ShadowSize>50</ShadowSize>
-    <NoMiniMap />
-    <RepulsionRadius>0.5f</RepulsionRadius>
-    <Projectile id="0">
-      <ObjectId>Cannonball</ObjectId>
+    <Projectile>
+      <ObjectId>Coffin Bullet</ObjectId>
       <Speed>100</Speed>
-      <MinDamage>200</MinDamage>
-      <MaxDamage>300</MaxDamage>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
       <LifetimeMS>600</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>50</Size>
+      <Size>80</Size>
     </Projectile>
-  </Object>
-  <Object type="0x20f4" id="Shield Turret">
-    <Class>Summon</Class>
-    <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>164</Index>
-    </AnimatedTexture>
-    <ShadowSize>50</ShadowSize>
-    <NoMiniMap />
-    <RepulsionRadius>0.5f</RepulsionRadius>
-    <Projectile id="0">
-      <ObjectId>Cannonball</ObjectId>
-      <Speed>100</Speed>
-      <MinDamage>200</MinDamage>
-      <MaxDamage>300</MaxDamage>
-      <LifetimeMS>9000</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>70</Size>
-      <CircleTurnDelay>350</CircleTurnDelay>
-      <CircleTurnAngle>90</CircleTurnAngle>
-    </Projectile>
-    <Projectile id="1">
-      <ObjectId>Cannonball</ObjectId>
-      <Speed>75</Speed>
-      <MinDamage>200</MinDamage>
-      <MaxDamage>300</MaxDamage>
-      <LifetimeMS>9000</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>70</Size>
-      <CircleTurnDelay>350</CircleTurnDelay>
-      <CircleTurnAngle>90</CircleTurnAngle>
-      <Acceleration>100</Acceleration>
-      <AccelerationDelay>350</AccelerationDelay>
-    </Projectile>
-    <Projectile id="2">
-      <ObjectId>Cannonball</ObjectId>
-      <Speed>50</Speed>
-      <MinDamage>200</MinDamage>
-      <MaxDamage>300</MaxDamage>
-      <LifetimeMS>9000</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>70</Size>
-      <CircleTurnDelay>350</CircleTurnDelay>
-      <CircleTurnAngle>90</CircleTurnAngle>
-      <Acceleration>100</Acceleration>
-      <AccelerationDelay>350</AccelerationDelay>
-    </Projectile>
-  </Object>
-  <Object type="0x20fa" id="Heavy Gun Turret">
-    <Class>Summon</Class>
-    <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>170</Index>
-    </AnimatedTexture>
-    <ShadowSize>50</ShadowSize>
-    <NoMiniMap />
-    <RepulsionRadius>0.5f</RepulsionRadius>
-    <Projectile id="0">
-      <ObjectId>Bilgewater Cannonball Skull</ObjectId>
-      <Speed>120</Speed>
-      <MinDamage>325</MinDamage>
-      <MaxDamage>425</MaxDamage>
-      <LifetimeMS>1000</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>100</Size>
-    </Projectile>
-    <Projectile id="1">
-      <ObjectId>Bilgewater Cannonball Skull Red</ObjectId>
-      <Speed>120</Speed>
-      <MinDamage>325</MinDamage>
-      <MaxDamage>425</MaxDamage>
-      <LifetimeMS>1000</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>100</Size>
-      <ConditionEffect duration="3">Paralyzed</ConditionEffect>
-    </Projectile>
-  </Object>
-  <Object type="0x20fe" id="Gun Turret Boost">
-    <Class>Summon</Class>
-    <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>167</Index>
-    </AnimatedTexture>
-    <ShadowSize>50</ShadowSize>
-    <NoMiniMap />
-    <RepulsionRadius>0.5f</RepulsionRadius>
-    <Projectile id="0">
-      <ObjectId>Cannonball</ObjectId>
-      <Speed>120</Speed>
-      <MinDamage>200</MinDamage>
-      <MaxDamage>300</MaxDamage>
-      <LifetimeMS>600</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>50</Size>
-      <ConditionEffect duration="1">Slowed</ConditionEffect>
-    </Projectile>
-    <Projectile id="1">
-      <ObjectId>XMAS Cannonball</ObjectId>
-      <Speed>120</Speed>
-      <MinDamage>200</MinDamage>
-      <MaxDamage>300</MaxDamage>
-      <LifetimeMS>600</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>50</Size>
-      <ConditionEffect duration="0.2">Slowed</ConditionEffect>
-    </Projectile>
-  </Object>
-  <Object type="0x20ff" id="Shield Turret Boost">
-    <Class>Summon</Class>
-    <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>164</Index>
-    </AnimatedTexture>
-    <ShadowSize>50</ShadowSize>
-    <NoMiniMap />
-    <RepulsionRadius>0.5f</RepulsionRadius>
-    <Projectile id="0">
-      <ObjectId>Cannonball</ObjectId>
-      <Speed>150</Speed>
-      <MinDamage>200</MinDamage>
-      <MaxDamage>300</MaxDamage>
-      <LifetimeMS>9000</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>70</Size>
-      <CircleTurnDelay>350</CircleTurnDelay>
-      <CircleTurnAngle>90</CircleTurnAngle>
-    </Projectile>
-    <Projectile id="1">
-      <ObjectId>Cannonball</ObjectId>
-      <Speed>125</Speed>
-      <MinDamage>200</MinDamage>
-      <MaxDamage>300</MaxDamage>
-      <LifetimeMS>9000</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>70</Size>
-      <CircleTurnDelay>350</CircleTurnDelay>
-      <CircleTurnAngle>90</CircleTurnAngle>
-      <Acceleration>100</Acceleration>
-      <AccelerationDelay>350</AccelerationDelay>
-    </Projectile>
-    <Projectile id="2">
-      <ObjectId>Cannonball</ObjectId>
-      <Speed>100</Speed>
-      <MinDamage>200</MinDamage>
-      <MaxDamage>300</MaxDamage>
-      <LifetimeMS>9000</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>70</Size>
-      <CircleTurnDelay>350</CircleTurnDelay>
-      <CircleTurnAngle>90</CircleTurnAngle>
-      <Acceleration>100</Acceleration>
-      <AccelerationDelay>350</AccelerationDelay>
-    </Projectile>
-    <Projectile id="3">
-      <ObjectId>Cannonball</ObjectId>
-      <Speed>75</Speed>
-      <MinDamage>200</MinDamage>
-      <MaxDamage>300</MaxDamage>
-      <LifetimeMS>9000</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>70</Size>
-      <CircleTurnDelay>350</CircleTurnDelay>
-      <CircleTurnAngle>90</CircleTurnAngle>
-      <Acceleration>100</Acceleration>
-      <AccelerationDelay>350</AccelerationDelay>
-    </Projectile>
-    <Projectile id="4">
-      <ObjectId>Cannonball</ObjectId>
-      <Speed>50</Speed>
-      <MinDamage>200</MinDamage>
-      <MaxDamage>300</MaxDamage>
-      <LifetimeMS>9000</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>70</Size>
-      <CircleTurnDelay>350</CircleTurnDelay>
-      <CircleTurnAngle>90</CircleTurnAngle>
-      <Acceleration>100</Acceleration>
-      <AccelerationDelay>350</AccelerationDelay>
-    </Projectile>
-  </Object>
-  <Object type="0x2a10" id="Heavy Gun Turret Boost">
-    <Class>Summon</Class>
-    <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>170</Index>
-    </AnimatedTexture>
-    <ShadowSize>50</ShadowSize>
-    <NoMiniMap />
-    <RepulsionRadius>0.5f</RepulsionRadius>
-    <Projectile id="0">
-      <ObjectId>Bilgewater Cannonball Skull</ObjectId>
-      <Speed>120</Speed>
-      <MinDamage>350</MinDamage>
-      <MaxDamage>440</MaxDamage>
-      <LifetimeMS>1000</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>100</Size>
-    </Projectile>
-    <Projectile id="1">
-      <ObjectId>Bilgewater Cannonball Skull Red</ObjectId>
-      <Speed>120</Speed>
-      <MinDamage>350</MinDamage>
-      <MaxDamage>450</MaxDamage>
-      <LifetimeMS>1000</LifetimeMS>
-      <MultiHit />
-      <PassesCover />
-      <Size>100</Size>
-      <ConditionEffect duration="3">Paralyzed</ConditionEffect>
-    </Projectile>
+    <Flying />
+    <Size>80</Size>
+    <Z>0.2</Z>
+    <RepulsionRadius>0.25</RepulsionRadius>
   </Object>
 </Objects>

@@ -538,7 +538,7 @@
       <LifetimeMS>2400</LifetimeMS>
       <Size>100</Size>
       <MultiHit />
-      <ConditionEffect duration="4">Slowed</ConditionEffect>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
       <ArmorPiercing />
     </Projectile>
     <Projectile id="1">
@@ -548,7 +548,7 @@
       <LifetimeMS>2400</LifetimeMS>
       <Size>100</Size>
       <MultiHit />
-      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <ConditionEffect duration="2">Silenced</ConditionEffect>
       <ArmorPiercing />
     </Projectile>
     <HitSound>monster/cubes_hit</HitSound>
@@ -1798,7 +1798,7 @@
       <Size>100</Size>
       <Boomerang />
       <MultiHit />
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
+      <ConditionEffect duration="1.4">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>tD Border</ObjectId>
@@ -1809,7 +1809,7 @@
       <Size>100</Size>
       <Boomerang />
       <MultiHit />
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
+      <ConditionEffect duration="1.4">Slowed</ConditionEffect>
     </Projectile>
     <Labels>ENEMY,MINION,STASISIMMUNE,CUBE,MINION_STRONG</Labels>
     <Presentation>
@@ -3174,7 +3174,7 @@
       <Size>100</Size>
       <MultiHit />
       <ArmorPiercing />
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
+      <ConditionEffect duration="1.4">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>tD Border</ObjectId>
@@ -3186,7 +3186,7 @@
       <Size>100</Size>
       <MultiHit />
       <ArmorPiercing />
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
+      <ConditionEffect duration="1.4">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>tD Powerful Magic</ObjectId>
@@ -3702,6 +3702,7 @@
     <DisplayId>Tesseract Goddess</DisplayId>
     <Group>The Third Dimension</Group>
     <Enemy />
+    <Exp>195</Exp>
     <NoCollisionWhenMovement />
     <AlwaysPositiveHealth />
     <Class>Character</Class>
@@ -3788,6 +3789,7 @@
     <DisplayId>Tesseract Goddess</DisplayId>
     <Group>The Third Dimension</Group>
     <Enemy />
+    <Exp>195</Exp>
     <NoCollisionWhenMovement />
     <Class>Character</Class>
     <AlwaysPositiveHealth />

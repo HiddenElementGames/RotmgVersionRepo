@@ -770,6 +770,7 @@
     <SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn>
     <SpecialSpawn category="AgentOfOryx_Ring">Shard of the Advisor x1</SpecialSpawn>
     <SpecialSpawn category="Souvenir_HIG">EH Hivemaster Helm</SpecialSpawn>
+    <SpecialSpawn category="Shiny_HIG">EH Hivemaster Helm Shiny</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Hard</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Killer Bee Queen Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn>
@@ -1280,6 +1281,7 @@
   <Object type="0x1ac4" id="EH Queen Yellow Bees">
     <DisplayId>Enraged Yellow Killer Bee</DisplayId>
     <Enemy />
+    <Exp>195</Exp>
     <StunImmune />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1317,6 +1319,7 @@
   <Object type="0x10b9" id="EH Queen Blue Bees">
     <DisplayId>Enraged Blue Killer Bee</DisplayId>
     <Enemy />
+    <Exp>195</Exp>
     <StunImmune />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -3479,6 +3482,7 @@
     <Size>60</Size>
     <ShadowSize>0</ShadowSize>
     <Enemy />
+    <Exp>1</Exp>
     <StasisImmune />
     <ParalyzeImmune />
     <KillStat stat="StructureKills" />

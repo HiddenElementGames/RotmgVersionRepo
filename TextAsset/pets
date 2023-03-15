@@ -22327,4 +22327,90 @@
     <feedPower>1000</feedPower>
     <Track />
   </Object>
+  <Object id="Genie Lamp" type="0xC613">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Genie Lamp Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xC614" id="Genie Lamp Pet Skin">
+    <PetSkin />
+    <DisplayId>Genie Lamp</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>243</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xC615" id="Genie Lamp Pet Stone">
+    <DisplayId>Genie Lamp Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>243</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This feisty Genie wants nothing more than to find the monster who cursed them to permanently reside in their lamp, but that wont stop this Genie from hopping about and slugging foes left and right!\n\nUnlocks Genie Lamp Pet Skin of the Humanoid family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="50708">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object id="Flying Carpet" type="0xC6136">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Spooky</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Flying Carpet Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xC617" id="Flying Carpet Pet Skin">
+    <PetSkin />
+    <DisplayId>Flying Carpet</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>2</ItemTier>
+    <Family>Spooky</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>244</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xC618" id="Flying Carpet Pet Stone">
+    <DisplayId>Flying Carpet Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>2</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>244</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This magic carpet has a mind of its own thanks to the development of magic over the years and it wants revenge! All the years of being trampled on this carpet can finally exact their justice for all inanimate objects treated unfairly.\n\nUnlocks Flying Carpet Pet Skin of the Spooky family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="50711">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
 </Objects>

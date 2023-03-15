@@ -145,6 +145,7 @@
   <Object type="0x675" id="Phoenix Lord">
     <Group>Heros</Group>
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <Texture>
       <File>lofiChar216x16</File>
@@ -239,6 +240,7 @@
   <Object type="0x6c1" id="Phoenix Reborn">
     <Group>Heros</Group>
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <Texture>
       <File>lofiChar216x16</File>
@@ -299,6 +301,7 @@
   <Object type="0x67d" id="Cyclops God">
     <Group>Heros</Group>
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <Texture>
       <File>lofiChar16x16</File>
@@ -521,6 +524,7 @@
   <Object type="0x0928" id="Ghost King">
     <Group>Heros</Group>
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rHero1</File>
@@ -592,6 +596,7 @@
     <DisplayId>Ghost King</DisplayId>
     <Group>Heros</Group>
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rHero1</File>
@@ -629,6 +634,7 @@
   <Object type="0x092a" id="Small Ghost">
     <Group>Ghosts</Group>
     <Enemy />
+    <Exp>100</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rHero1</File>
@@ -660,6 +666,7 @@
   <Object type="0x092b" id="Medium Ghost">
     <Group>Ghosts</Group>
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rHero1</File>
@@ -691,6 +698,7 @@
   <Object type="0x092c" id="Large Ghost">
     <Group>Ghosts</Group>
     <Enemy />
+    <Exp>195</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rHero1</File>
@@ -1597,6 +1605,16 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
+  <Object type="0x456a" id="KageSpawner">
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>lostHallsObjects8x8</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Invincible />
+  </Object>
   <Object type="0x6db" id="Kage Kami">
     <Enemy />
     <Class>Character</Class>
@@ -1729,6 +1747,16 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x456b" id="CoilSpawner">
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>lostHallsObjects8x8</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Invincible />
   </Object>
   <Object type="0x0dc2" id="Great Coil Snake">
     <Class>Character</Class>

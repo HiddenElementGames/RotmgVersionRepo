@@ -865,6 +865,23 @@
       <LifetimeMS>6000</LifetimeMS>
       <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
     </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt5">
+        <StyleStep altTextureId="5">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
     <SpecialSpawn category="Bis">Mountain Temple Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Feline Egg</SpecialSpawn>
@@ -883,6 +900,8 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Possessed Lantern Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
+    <SpecialSpawn category="Leprechaun_Purple">Purple Leprechaun</SpecialSpawn>
   </Object>
   <Object type="0x6fe7" id="chasingHorror">
     <DisplayId>Soulblast</DisplayId>

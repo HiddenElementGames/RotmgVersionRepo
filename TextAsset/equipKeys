@@ -4253,4 +4253,52 @@
     <Track />
     <UniqueID />
   </Object>
+  <Object type="0x5203" id="Davy's Lucky Guild Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <DisplayId>Davy's Lucky Guild Key</DisplayId>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x4bb</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key that opens the way to Davy Jones' Locker.  No crew members bailed from Davy's ghost ship, trapping their souls in the vessel beneath the waves.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Soulbound />
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <Consumable />
+    <Activate id="Davy Jones' Locker Portal" predefinedDungeonMods="S|;LEPRECHAUN_PURPLE;XPANDREWARDSBOOSTALL_2" readonlymods="true" inheritableMods="false" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">CreatePortal</Activate>
+    <Activate id="Davy's Guild Chest" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">Create</Activate>
+    <UniqueID />
+  </Object>
+  <Object type="0x5204" id="Mountain Temple Lucky Guild Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <DisplayId>Mountain Temple Lucky Guild Key</DisplayId>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x4bc</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Mountain Temple. Steep, distant cliffs conceal a clan of demon-worshipping monks.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Mountain Temple Portal" predefinedDungeonMods="S|;LEPRECHAUN_PURPLE;XPANDREWARDSBOOSTALL_2" readonlymods="true" inheritableMods="false" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">CreatePortal</Activate>
+    <Activate id="Mountain Temple Guild Chest" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">Create</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
 </Objects>

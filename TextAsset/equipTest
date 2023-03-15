@@ -443,6 +443,8 @@
     <DropTradable />
     <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T0,MPCOST,APPLY_STAT_EFF,TRADEABLE</Labels>
   </Object>
+  <DisplayId />
+  <InventoryAnimation />
   <Object id="3ArcherST0" type="0xc67d" setName="Kogbold Inventor Archer Set" setType="0x425e" collectionIcon="3">
     <DisplayId>Experimental Cannon</DisplayId>
     <Class>Equipment</Class>
@@ -525,27 +527,6 @@
       <EffectInfo description="Creates a spinning flail." name="Flail Mode" />
       <EffectInfo description="Fires slower, heavier bullets." name="Heavy Mode" />
     </ExtraTooltipData>
-    <Ability name="Gun">
-      <Activate mustNotWear="0xc67d" maxSpawnDistance="1.0" objectId="Gun Turret" proc="1" targetMouse="true">SpawnCreep</Activate>
-      <Activate mustWear="0xc67d" maxSpawnDistance="1.0" objectId="Gun Turret Boost" proc="1" targetMouse="true">SpawnCreep</Activate>
-      <SwitchTime>2</SwitchTime>
-      <Cooldown>9</Cooldown>
-      <MpCost>175</MpCost>
-    </Ability>
-    <Ability name="Flail">
-      <Activate mustNotWear="0xc67f" maxSpawnDistance="1.0" objectId="Shield Turret" proc="1" targetMouse="true">SpawnCreep</Activate>
-      <Activate mustWear="0xc67f" maxSpawnDistance="1.0" objectId="Shield Turret Boost" proc="1" targetMouse="true">SpawnCreep</Activate>
-      <SwitchTime>2</SwitchTime>
-      <Cooldown>9</Cooldown>
-      <MpCost>175</MpCost>
-    </Ability>
-    <Ability name="Heavy">
-      <Activate mustNotWear="0xc680" maxSpawnDistance="1.0" objectId="Heavy Gun Turret" proc="1" targetMouse="true">SpawnCreep</Activate>
-      <Activate mustWear="0xc680" maxSpawnDistance="1.0" objectId="Heavy Gun Turret Boost" proc="1" targetMouse="true">SpawnCreep</Activate>
-      <SwitchTime>2</SwitchTime>
-      <Cooldown>9</Cooldown>
-      <MpCost>175</MpCost>
-    </Ability>
     <Usable />
     <BagType>8</BagType>
     <Soulbound />
@@ -601,5 +582,73 @@
     <XPBonus>4</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_3,POWERTIER_C,XPBONUS</Labels>
+  </Object>
+  <Object type="0xc990" id="Blueprint_Test_1">
+    <DisplayId>Special Test Blueprint 1</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This Blueprint must only be used by Seasonal Characters. Both the recipe and the Blueprint will disappear at the end of the season. It cannot be transferred to Regular.</Description>
+    <SeasonalOnly />
+    <NoSeasonalToRegularConversion />
+    <Sound>use_potion</Sound>
+    <Activate id="Divinity" seasonal-only="true">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object type="0xc991" id="Blueprint_Test_2">
+    <DisplayId>Special Test Blueprint 2</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b3</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This Blueprint can be used by both Seasonal and Regular characters. This Blueprint won't disappear at the end of a season and it can be transferred anytime to Regular.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Midnight Star">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object type="0xc992" id="Test Apple Special">
+    <DisplayId>Test Seasonal Apple</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x11e</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It's healthy!\nMaxes any class to 8/8 and adds a Backpack. It cannot be transferred to a regular character until the end of the season</Description>
+    <Sound>use_potion</Sound>
+    <Activate stat="XP" amount="18050">IncrementStat</Activate>
+    <Activate stat="MAXHP" amount="2000">IncrementStat</Activate>
+    <Activate stat="MAXMP" amount="2000">IncrementStat</Activate>
+    <Activate stat="ATT" amount="2000">IncrementStat</Activate>
+    <Activate stat="DEF" amount="2000">IncrementStat</Activate>
+    <Activate stat="SPD" amount="2000">IncrementStat</Activate>
+    <Activate stat="VIT" amount="2000">IncrementStat</Activate>
+    <Activate stat="WIS" amount="2000">IncrementStat</Activate>
+    <Activate stat="DEX" amount="2000">IncrementStat</Activate>
+    <Consumable />
+    <Backpack />
+    <Potion />
+    <BagType>8</BagType>
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
 </Objects>

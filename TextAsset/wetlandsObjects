@@ -1081,7 +1081,7 @@
       <ArmorPiercing />
       <FaceDir />
     </Projectile>
-    <MaxHitPoints>6500</MaxHitPoints>
+    <MaxHitPoints>4000</MaxHitPoints>
     <MinSize>110</MinSize>
     <MaxSize>130</MaxSize>
     <SizeStep>4</SizeStep>
@@ -1156,13 +1156,9 @@
       <SpeedClamp>75</SpeedClamp>
     </Projectile>
     <MaxHitPoints>5000</MaxHitPoints>
-    <MinSize>130</MinSize>
-    <MaxSize>150</MaxSize>
-    <SizeStep>2</SizeStep>
     <Defense>20</Defense>
     <Exp>1000</Exp>
     <BXP>5000</BXP>
-    <NoMiniMap />
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -1269,8 +1265,7 @@
       <Acceleration>-1000</Acceleration>
       <AccelerationDelay>1500</AccelerationDelay>
       <SpeedClamp>0</SpeedClamp>
-      <ConditionEffect duration="1.0">Exposed</ConditionEffect>
-      <ConditionEffect duration="3.0">Slowed</ConditionEffect>
+      <ConditionEffect duration="3.0">Exposed</ConditionEffect>
     </Projectile>
     <Presentation>
       <Style id="SetAlt1">
@@ -2011,7 +2006,7 @@
     <Projectile id="0">
       <ObjectId>SulfW Chomper Proj</ObjectId>
       <Speed>0</Speed>
-      <Damage>75</Damage>
+      <Damage>65</Damage>
       <LifetimeMS>1000</LifetimeMS>
       <Acceleration>10000</Acceleration>
       <AccelerationDelay>250</AccelerationDelay>
@@ -2024,7 +2019,7 @@
     <Projectile id="1">
       <ObjectId>SulfW Chomper Proj</ObjectId>
       <Speed>0</Speed>
-      <Damage>75</Damage>
+      <Damage>65</Damage>
       <LifetimeMS>1000</LifetimeMS>
       <Acceleration>10000</Acceleration>
       <AccelerationDelay>250</AccelerationDelay>
@@ -2254,7 +2249,7 @@
       <Size>100</Size>
       <LifetimeMS>2200</LifetimeMS>
       <ArmorPiercing />
-      <ConditionEffect duration="4">Sick</ConditionEffect>
+      <ConditionEffect duration="2.4">Sick</ConditionEffect>
     </Projectile>
     <MaxHitPoints>1500</MaxHitPoints>
     <MinSize>100</MinSize>
@@ -2663,7 +2658,7 @@
     </Projectile>
     <MaxHitPoints>12500</MaxHitPoints>
     <Size>120</Size>
-    <Defense>15</Defense>
+    <Defense>10</Defense>
     <Exp>350</Exp>
     <BXP>1750</BXP>
     <Terrain>Mountains</Terrain>
@@ -3080,7 +3075,7 @@
     <Defense>25</Defense>
     <Exp>8000</Exp>
     <BXP>40000</BXP>
-    <NoMiniMap />
+    <Color>0xA52A2A</Color>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />

@@ -3,6 +3,7 @@
   <Object type="0x620" id="Tawny Warg">
     <Group>Wargs</Group>
     <Enemy />
+    <Exp>3</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rLow2</File>
@@ -34,6 +35,7 @@
   <Object type="0x622" id="Demon Warg">
     <Group>Wargs</Group>
     <Enemy />
+    <Exp>4</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rLow2</File>
@@ -428,6 +430,7 @@
   <Object type="0x6c6" id="Nomadic Shaman">
     <Group>Nomads</Group>
     <Enemy />
+    <Exp>14</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rMid2</File>
@@ -512,6 +515,7 @@
   <Object type="0x624" id="Fire Sprite">
     <Group>Sprites</Group>
     <Enemy />
+    <Exp>10</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>spriteWorldChars8x8</File>
@@ -545,6 +549,7 @@
   <Object type="0x625" id="Ice Sprite">
     <Group>Sprites</Group>
     <Enemy />
+    <Exp>10</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>spriteWorldChars8x8</File>
@@ -580,6 +585,7 @@
   <Object type="0x626" id="Magic Sprite">
     <Group>Sprites</Group>
     <Enemy />
+    <Exp>10</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>spriteWorldChars8x8</File>
@@ -614,6 +620,7 @@
   <Object type="0x629" id="Orc Warrior">
     <Group>Orcs</Group>
     <Enemy />
+    <Exp>9</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rMid</File>
@@ -645,6 +652,7 @@
   <Object type="0x62a" id="Orc Mage">
     <Group>Orcs</Group>
     <Enemy />
+    <Exp>8</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rMid</File>
@@ -676,6 +684,7 @@
   <Object type="0x62b" id="Orc Queen">
     <Group>Orcs</Group>
     <Enemy />
+    <Exp>13</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rMid</File>
@@ -701,6 +710,7 @@
   <Object type="0x62c" id="Orc King">
     <Group>OrcKings</Group>
     <Enemy />
+    <Exp>24</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rMid</File>
@@ -734,6 +744,7 @@
   <Object type="0x62f" id="Earth Golem">
     <Group>Golems</Group>
     <Enemy />
+    <Exp>22</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rMid</File>
@@ -768,6 +779,7 @@
   <Object type="0x631" id="Paper Golem">
     <Group>Golems</Group>
     <Enemy />
+    <Exp>22</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rMid</File>
@@ -801,6 +813,7 @@
   </Object>
   <Object type="0x0205" id="Pink Blob">
     <Enemy />
+    <Exp>10</Exp>
     <Class>Character</Class>
     <Texture>
       <File>lofiChar8x8</File>
@@ -838,6 +851,7 @@
   <Object type="0x020d" id="Gray Blob">
     <Class>Character</Class>
     <Enemy />
+    <Exp>3</Exp>
     <Texture>
       <File>lofiChar8x8</File>
       <Index>0xb8</Index>
@@ -897,6 +911,7 @@
       <LifetimeMS>1200</LifetimeMS>
     </Projectile>
     <Enemy />
+    <Exp>15</Exp>
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -926,6 +941,7 @@
       <LifetimeMS>1200</LifetimeMS>
     </Projectile>
     <Enemy />
+    <Exp>5</Exp>
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -1260,6 +1276,7 @@
   <Object type="0x61c" id="Dwarf Axebearer">
     <Group>Dwarves</Group>
     <Enemy />
+    <Exp>8</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rLow1</File>
@@ -1292,6 +1309,7 @@
   <Object type="0x61d" id="Dwarf Mage">
     <Group>Dwarves</Group>
     <Enemy />
+    <Exp>8</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rLow1</File>
@@ -1326,6 +1344,7 @@
   <Object type="0x61e" id="Dwarf Veteran">
     <Group>Dwarves</Group>
     <Enemy />
+    <Exp>10</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rLow1</File>
@@ -1427,6 +1446,7 @@
   <Object type="0x62e" id="Clockwork Golem">
     <Group>Golems</Group>
     <Enemy />
+    <Exp>22</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rMid</File>
@@ -1561,6 +1581,7 @@
   </Object>
   <Object type="0x637" id="Werelion">
     <Enemy />
+    <Exp>40</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rMid2</File>
@@ -1680,6 +1701,7 @@
     <MaxHitPoints>150</MaxHitPoints>
     <BXP>71</BXP>
     <Enemy />
+    <Exp>15</Exp>
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
     <Terrain>MidForest</Terrain>
@@ -1718,6 +1740,7 @@
     <MaxHitPoints>50</MaxHitPoints>
     <BXP>23</BXP>
     <Enemy />
+    <Exp>5</Exp>
     <Size>50</Size>
     <Z>0.3</Z>
     <BloodProb>0.5</BloodProb>
