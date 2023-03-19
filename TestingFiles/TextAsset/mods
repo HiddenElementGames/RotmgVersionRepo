@@ -1699,4 +1699,62 @@
       <SpecialSpawnOnDeath category="Speed_Orb" reqLabels="MINION" excludeLabels="SPECIAL" prob="0.025" />
     </Mutators>
   </DungeonModifier>
+  <DungeonModifier id="LEPRECHAUN_YELLOW" type="0x0157">
+    <DisplayId>Golden Luck</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Fight the Yellow Leprechaun after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Leprechaun_Yellow" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="LEPRECHAUN_PURPLE" type="0x0158">
+    <DisplayId>Amethyst Luck</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Fight the Purple Leprechaun after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Leprechaun_Purple" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="XPANDREWARDSBOOSTALL_1" type="0x0159">
+    <DisplayId>XP and Rewards Boost (All)  I</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss enemies and Minions give 50% more XP and Loot</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP,LOOT,REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>XP,LOOT,REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="XP" amount="1.50" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="XP" amount="1.50" reqLabels="MINIBOSS" />
+      <EntityStatMultiplier stat="XP" amount="1.50" reqLabels="MINION" />
+      <EntityDropMultiplier amount="1.50" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="1.50" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="XPANDREWARDSBOOSTALL_2" type="0x015a">
+    <DisplayId>XP and Rewards Boost (All)  II</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss enemies and Minions give 100% more XP and Loot</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP,LOOT,REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>XP,LOOT,REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="XP" amount="2.00" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="XP" amount="2.00" reqLabels="MINIBOSS" />
+      <EntityStatMultiplier stat="XP" amount="2.00" reqLabels="MINION" />
+      <EntityDropMultiplier amount="2.00" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="2.00" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MOONLIT_FISHING" type="0x013F">
+    <DisplayId>Fishy Business</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Umi is guaranteed to guide players to fish after the dance.</Description>
+    <Labels>MOONLIGHT</Labels>
+    <IncompatibleLabels>MOONLIGHT</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>MoonlightFishing</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
 </DungeonModifiers>

@@ -10764,4 +10764,72 @@
     <NoMiniMap />
     <StasisImmune />
   </Object>
+  <Object type="0x225f" id="Purple Leprechaun">
+    <DisplayId>Purple Leprechaun</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>stPatricksChars8x8</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/dwarves_hit</HitSound>
+    <DeathSound>monster/dwarves_death</DeathSound>
+    <Size>120</Size>
+    <ShadowSize>0</ShadowSize>
+    <MaxHitPoints>60000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>487</Exp>
+    <BXP>2313</BXP>
+    <Quest />
+    <Level>20</Level>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <TrackLoot />
+    <Projectile id="0">
+      <ObjectId>Razorlight</ObjectId>
+      <Speed>10</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>2500</LifetimeMS>
+      <FaceDir />
+      <Parametric />
+      <Magnitude>3.0</Magnitude>
+      <Size>110</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1.0">Quiet</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Razorlight</ObjectId>
+      <Speed>10</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>110</Size>
+      <MultiHit />
+      <PassesCover />
+      <Wavy />
+      <ConditionEffect duration="1.0">Quiet</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Rainbow Rod Beam</ObjectId>
+      <Speed>70</Speed>
+      <Damage>70</Damage>
+      <LifetimeMS>2600</LifetimeMS>
+      <Size>130</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="2.0">Hexed</ConditionEffect>
+    </Projectile>
+    <KillStat stat="HumanoidKills" />
+    <KillStat stat="GodKills" />
+    <KillStat stat="EncounterKills" />
+    <Labels>ENEMY,MINION,HUMANOID,GOD,QUEST,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
 </Objects>

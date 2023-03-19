@@ -304,7 +304,7 @@
     <SlotTypes>3, 20, 6, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
     <Equipment>0xa1a, 0xab1, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</Equipment>
     <MaxHitPoints max="700">130</MaxHitPoints>
-    <MaxMagicPoints max="252">100</MaxMagicPoints>
+    <MaxMagicPoints max="305">100</MaxMagicPoints>
     <Attack max="65">12</Attack>
     <Defense max="25">0</Defense>
     <Speed max="50">12</Speed>
@@ -312,7 +312,7 @@
     <HpRegen max="40">12</HpRegen>
     <MpRegen max="50">10</MpRegen>
     <LevelIncrease min="20" max="30">MaxHitPoints</LevelIncrease>
-    <LevelIncrease min="2" max="8">MaxMagicPoints</LevelIncrease>
+    <LevelIncrease min="3" max="9">MaxMagicPoints</LevelIncrease>
     <LevelIncrease min="1" max="2">Attack</LevelIncrease>
     <LevelIncrease min="0" max="0">Defense</LevelIncrease>
     <LevelIncrease min="0" max="2">Speed</LevelIncrease>
@@ -677,6 +677,7 @@
   <PlayerStat id="SulfurousWetlandsCompleted" index="93" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Sulfurous Wetlands" />
   <PlayerStat id="InterregnumsCompleted" index="92" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Hidden Interregnum" />
   <PlayerStat id="KogboldSteamworksCompleted" index="94" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Kogbold Steamworks" />
+  <PlayerStat id="MoonlightVillageCompleted" index="95" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Moonlight Village" />
   <FameBonus id="Ancestor" code="1">
     <DisplayGroup>Stats Bonuses</DisplayGroup>
     <DisplayCategory>Special</DisplayCategory>
@@ -3890,6 +3891,53 @@
     <ShortDisplayName>Master {0}</ShortDisplayName>
     <MaxRepeatCount>20</MaxRepeatCount>
     <Condition stat="KogboldSteamworksCompleted" threshold="100">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="MoonlightVillageScout" code="431">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Moonlight Village</DisplayCategory>
+    <DisplayName>Moonlight Village Scout</DisplayName>
+    <AbsoluteBonus>300</AbsoluteBonus>
+    <Description>Complete Moonlight Village 1 time</Description>
+    <ShortDisplayName>Scout</ShortDisplayName>
+    <Condition stat="MoonlightVillageCompleted" threshold="1">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="moonlightVillageExplorer" code="432">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Moonlight Village</DisplayCategory>
+    <DisplayName>Moonlight Village Explorer</DisplayName>
+    <AbsoluteBonus>600</AbsoluteBonus>
+    <Description>Complete Moonlight Village 10 times</Description>
+    <ShortDisplayName>Explorer</ShortDisplayName>
+    <Condition stat="MoonlightVillageCompleted" threshold="10">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="moonlightVillageAdventurer" code="433">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Moonlight Village</DisplayCategory>
+    <DisplayName>Moonlight Village Adventurer</DisplayName>
+    <AbsoluteBonus>1200</AbsoluteBonus>
+    <Description>Complete Moonlight Village 20 times</Description>
+    <ShortDisplayName>Adventurer</ShortDisplayName>
+    <Condition stat="MoonlightVillageCompleted" threshold="20">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="moonlightVillageConqueror" code="434">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Moonlight Village</DisplayCategory>
+    <DisplayName>Moonlight Village Conqueror</DisplayName>
+    <AbsoluteBonus>2400</AbsoluteBonus>
+    <Description>Complete Moonlight Village 40 times</Description>
+    <ShortDisplayName>Conqueror</ShortDisplayName>
+    <Condition stat="MoonlightVillageCompleted" threshold="40">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="moonlightVillageMaster" code="435">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Moonlight Village</DisplayCategory>
+    <DisplayName>Moonlight Village Master {0}</DisplayName>
+    <Repeatable>true</Repeatable>
+    <AbsoluteBonus>6000</AbsoluteBonus>
+    <Description>Complete Moonlight Village 100 times</Description>
+    <ShortDisplayName>Master {0}</ShortDisplayName>
+    <MaxRepeatCount>20</MaxRepeatCount>
+    <Condition stat="MoonlightVillageCompleted" threshold="100">StatValue</Condition>
   </FameBonus>
   <FameBonus id="Oryx'sCastleScout" code="317">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>

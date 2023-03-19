@@ -1,0 +1,1768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonTemplates>
+  <DungeonModTemplate id="Pirate Cave">
+    <GradeOption id="D" prob="0.2" />
+    <GradeOption id="C" prob="0.15" />
+    <GradeOption id="B" prob="0.05" />
+    <GradeOption id="A" prob="0.05" />
+    <GradeOption id="S" prob="0.05" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Forest Maze">
+    <GradeOption id="D" prob="0.2" />
+    <GradeOption id="C" prob="0.15" />
+    <GradeOption id="B" prob="0.05" />
+    <GradeOption id="A" prob="0.05" />
+    <GradeOption id="S" prob="0.05" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Spider Den">
+    <GradeOption id="D" prob="0.2" />
+    <GradeOption id="C" prob="0.15" />
+    <GradeOption id="B" prob="0.05" />
+    <GradeOption id="A" prob="0.05" />
+    <GradeOption id="S" prob="0.05" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Forbidden Jungle">
+    <GradeOption id="D" prob="0.2" />
+    <GradeOption id="C" prob="0.15" />
+    <GradeOption id="B" prob="0.05" />
+    <GradeOption id="A" prob="0.05" />
+    <GradeOption id="S" prob="0.05" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="The Hive">
+    <GradeOption id="D" prob="0.2" />
+    <GradeOption id="C" prob="0.15" />
+    <GradeOption id="B" prob="0.05" />
+    <GradeOption id="A" prob="0.05" />
+    <GradeOption id="S" prob="0.05" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Sprite World">
+    <GradeOption id="D" prob="0.2" />
+    <GradeOption id="C" prob="0.15" />
+    <GradeOption id="B" prob="0.05" />
+    <GradeOption id="A" prob="0.05" />
+    <GradeOption id="S" prob="0.05" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Snake Pit">
+    <GradeOption id="D" prob="0.2" />
+    <GradeOption id="C" prob="0.15" />
+    <GradeOption id="B" prob="0.05" />
+    <GradeOption id="A" prob="0.05" />
+    <GradeOption id="S" prob="0.05" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Magic Woods">
+    <GradeOption id="D" prob="0.2" />
+    <GradeOption id="C" prob="0.15" />
+    <GradeOption id="B" prob="0.05" />
+    <GradeOption id="A" prob="0.05" />
+    <GradeOption id="S" prob="0.05" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Cave of A Thousand Treasures">
+    <GradeOption id="D" prob="0.1" />
+    <GradeOption id="C" prob="0.25" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.0500000000000001" />
+    <GradeOption id="S" prob="0.0500000000000001" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Ancient Ruins">
+    <GradeOption id="D" prob="0.1" />
+    <GradeOption id="C" prob="0.25" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.0500000000000001" />
+    <GradeOption id="S" prob="0.0500000000000001" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Candyland Hunting Grounds">
+    <GradeOption id="D" prob="0.1" />
+    <GradeOption id="C" prob="0.25" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.0500000000000001" />
+    <GradeOption id="S" prob="0.0500000000000001" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Undead Lair">
+    <GradeOption id="D" prob="0.1" />
+    <GradeOption id="C" prob="0.25" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.0500000000000001" />
+    <GradeOption id="S" prob="0.0500000000000001" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Manor of the Immortals">
+    <GradeOption id="D" prob="0.1" />
+    <GradeOption id="C" prob="0.25" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.0500000000000001" />
+    <GradeOption id="S" prob="0.0500000000000001" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Mad Lab">
+    <GradeOption id="D" prob="0.1" />
+    <GradeOption id="C" prob="0.25" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.0500000000000001" />
+    <GradeOption id="S" prob="0.0500000000000001" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Abyss of Demons">
+    <GradeOption id="D" prob="0.1" />
+    <GradeOption id="C" prob="0.25" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.0500000000000001" />
+    <GradeOption id="S" prob="0.0500000000000001" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Puppet Master's Theatre">
+    <GradeOption id="D" prob="0.1" />
+    <GradeOption id="C" prob="0.25" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.0500000000000001" />
+    <GradeOption id="S" prob="0.0500000000000001" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Toxic Sewers">
+    <GradeOption id="D" prob="0.1" />
+    <GradeOption id="C" prob="0.25" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.0500000000000001" />
+    <GradeOption id="S" prob="0.0500000000000001" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Cursed Library">
+    <GradeOption id="D" prob="0.1" />
+    <GradeOption id="C" prob="0.25" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.0500000000000001" />
+    <GradeOption id="S" prob="0.0500000000000001" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Haunted Cemetery">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.2">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Davy Jones' Locker">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.2">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Bilgewater's Grotto">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.2">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Untaris">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="The Machine">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="The Inner Workings">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="The Inner Sanctum">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="The Third Dimension">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Malogia">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="The Crawling Depths">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Ice Cave">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Katalund">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Woodland Labyrinth">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Battle for the Nexus">
+    <GradeOption id="D" prob="0.0500000000000001" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Forax">
+    <GradeOption id="D" prob="0.0500000000000001" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Ocean Trench">
+    <GradeOption id="D" prob="0.0500000000000001" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.33">
+      <ApplyModifierWithLabel>OCEAN_TRENCH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Puppet Master's Encore">
+    <GradeOption id="D" prob="0.0500000000000001" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Mountain Temple">
+    <GradeOption id="D" prob="0.0500000000000001" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Parasite Chambers">
+    <GradeOption id="D" prob="0.0500000000000002" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Deadwater Docks">
+    <GradeOption id="D" prob="0.0500000000000002" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>DDOCKS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Cnidarian Reef">
+    <GradeOption id="D" prob="0.0500000000000002" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Lair of Draconis">
+    <GradeOption id="D" prob="0.0500000000000002" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Belladonna's Garden">
+    <GradeOption id="D" prob="0.0500000000000003" />
+    <GradeOption id="C" prob="0.0999999999999999" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.0999999999999999" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Tomb of the Ancients">
+    <GradeOption id="D" prob="0.0500000000000003" />
+    <GradeOption id="C" prob="0.0999999999999999" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.0999999999999999" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Oryx Pandemonium Decaract">
+    <GradeOption id="D" prob="0.0500000000000003" />
+    <GradeOption id="C" prob="0.0999999999999999" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.0999999999999999" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Oryx's Chamber">
+    <GradeOption id="D" prob="0.0500000000000004" />
+    <GradeOption id="C" prob="0.0999999999999999" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.0999999999999999" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Oryx's Castle">
+    <GradeOption id="D" prob="0.0500000000000004" />
+    <GradeOption id="C" prob="0.0999999999999999" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.0999999999999999" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="High Tech Terror">
+    <GradeOption id="D" prob="0.0500000000000004" />
+    <GradeOption id="C" prob="0.0999999999999999" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.2" />
+    <GradeOption id="S" prob="0.0999999999999999" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Wine Cellar">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Ice Tomb">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Heroic Undead Lair">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Lair of Shaitan">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Wine Cellar Short">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Secluded Thicket">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Heroic Abyss of Demons">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="The Shatters">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.6">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Crystal Cavern">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.6">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Cultist Hideout">
+    <GradeOption id="D" prob="0.0500000000000001" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.6">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Fungal Cavern">
+    <GradeOption id="D" prob="0.0500000000000001" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.6">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="The Nest">
+    <GradeOption id="D" prob="0.0500000000000001" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.33">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.6">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Lost Halls">
+    <GradeOption id="D" prob="0.0500000000000001" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.6">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>LOST_HALLS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="The Void">
+    <GradeOption id="D" prob="0.0500000000000001" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.6">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="The Void">
+    <GradeOption id="D" prob="0.0500000000000002" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.6">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+</DungeonTemplates>
