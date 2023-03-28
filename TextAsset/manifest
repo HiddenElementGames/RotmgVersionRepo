@@ -132,6 +132,9 @@
     },
     {
       "path": "dungeons/wetlands/wetlandsGround.xml"
+    },
+    {
+      "path": "dungeons/moonlightVillage/moonlightVillageGround.xml"
     }
   ],
   "objects": [
@@ -503,6 +506,9 @@
     },   
     {
       "path": "emotes.xml"
+    },
+    {
+      "path": "dungeons/moonlightVillage/moonlightVillageObjects.xml"
     }
   ],
   "particles": [
@@ -1808,6 +1814,27 @@
     {
       "name": "wetlandsObjects32x32",
       "path": "wetlandsObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "moonlightVillageObjects8x8",
+      "path": "moonlightVillageObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "moonlightVillageObjects16x16",
+      "path": "moonlightVillageObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "moonlightVillageObjects32x32",
+      "path": "moonlightVillageObjects32x32.png",
       "frameWidth": 32,
       "frameHeight": 32,
       "noDefinition": false
@@ -3129,6 +3156,39 @@
     {
       "name": "wetlandsChars8x8",
       "path": "wetlandsChars8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "moonlightVillageChars32x32",
+      "path": "moonlightVillageChars32x32.png",
+      "mask": "",
+      "frameWidth": 224,
+      "frameHeight": 32,
+      "charWidth": 32,
+      "charHeight": 32,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "moonlightVillageChars16x16",
+      "path": "moonlightVillageChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "moonlightVillageChars8x8",
+      "path": "moonlightVillageChars8x8.png",
       "mask": "",
       "frameWidth": 56,
       "frameHeight": 8,

@@ -624,4 +624,32 @@
     <UniqueID />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
+  <Object id="NPC Title Unlocker" type="0xc371">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-1" yOffset="0">
+      <File>moonlightVillageObjects8x8</File>
+      <Index>575</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>You can use this item in the Vault to unlock the title 'NPC'.</Description>
+    <Activate titleType="0xc370">UnlockTitle</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+  </Object>
+  <Object id="Fisherman Title Unlocker" type="0x5161">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-1" yOffset="0">
+      <File>moonlightVillageObjects8x8</File>
+      <Index>575</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>You can use this item in the Vault to unlock the title 'Fisherman'.</Description>
+    <Activate titleType="0x518f">UnlockTitle</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+  </Object>
 </Objects>

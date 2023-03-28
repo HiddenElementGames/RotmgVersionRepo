@@ -1747,4 +1747,14 @@
       <EntityDropMultiplier amount="2.00" reqLabels="MINION" />
     </Mutators>
   </DungeonModifier>
+  <DungeonModifier id="MOONLIT_FISHING" type="0x013F">
+    <DisplayId>Fishy Business</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Umi is guaranteed to guide players to fish after the dance.</Description>
+    <Labels>MOONLIGHT</Labels>
+    <IncompatibleLabels>MOONLIGHT</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>MoonlightFishing</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
 </DungeonModifiers>
