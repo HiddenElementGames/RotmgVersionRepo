@@ -417,6 +417,7 @@
       <File>lofiProjs</File>
       <Index>0x81</Index>
     </Texture>
+    <SharedCooldownChannel id="65516" />
     <Description>A lightweight blade that seems to dance in your hands.</Description>
     <Projectile>
       <ObjectId>Leviathan Bolt</ObjectId>
@@ -3948,6 +3949,7 @@
       <File>undeadLairObjects8x8</File>
       <Index>0x00</Index>
     </Texture>
+    <SharedCooldownChannel id="65514" />
     <SlotType>3</SlotType>
     <Description>No mortal can fire this dreaded bow without resting in between shots. It requires tremendous skill to wield.</Description>
     <RateOfFire>0.33</RateOfFire>
@@ -6298,6 +6300,7 @@
       <File>theShattersObjects8x8</File>
       <Index>0x03</Index>
     </Texture>
+    <SharedCooldownChannel id="65512" />
     <SlotType>9</SlotType>
     <Description>A peculiar stone, tremendously heavy for its size and seemingly not of this world. Its very presence in the realm raises a great deal more questions than answers, yet the uncanny energy it emanates provides only one haunting clue.</Description>
     <ExtraTooltipData>
@@ -7193,6 +7196,7 @@
       <File>spriteWorldObjects8x8</File>
       <Index>0x77</Index>
     </Texture>
+    <SharedCooldownChannel id="65515" />
     <SlotType>13</SlotType>
     <Description>An enchanted cloak crafted by an ancient guild of timeshifter thieves.</Description>
     <Sound>spell/fire_nova</Sound>
@@ -10088,7 +10092,8 @@
     </Texture>
     <SlotType>9</SlotType>
     <ExtraTooltipData>
-      <EffectInfo description="5% chance to regain 5 MP" name="On Shoot" />
+      <EffectInfo description="10% chance to regain 5 MP" name="On Shoot" />
+      <EffectInfo description="0.4 Seconds" name="Cooldown" />
     </ExtraTooltipData>
     <Description>A ring made from a splinter of crystallized sacrificial bone.</Description>
     <ActivateOnEquip stat="DEX" amount="4">IncrementStat</ActivateOnEquip>
@@ -10196,8 +10201,8 @@
     </Texture>
     <SlotType>20</SlotType>
     <Description>A long lost artifact recovered by Davy Jones, believed to have been cursed by the gods of the seven seas themselves.</Description>
-    <ActivateOnEquip stat="ATT" amount="4">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip stat="SPD" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="5">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="SPD" amount="5">IncrementStat</ActivateOnEquip>
     <Usable />
     <BagType>6</BagType>
     <MpCost>90</MpCost>
@@ -10265,6 +10270,7 @@
       <File>lofiObj2</File>
       <Index>0x1d</Index>
     </Texture>
+    <SharedCooldownChannel id="65518" />
     <SlotType>4</SlotType>
     <Description>An ancient tome cloaked in white leather, created to aid in the struggle against the ultimate evil.</Description>
     <Sound>spell/major_heal</Sound>
@@ -10637,6 +10643,7 @@
       <File>lofiObj3</File>
       <Index>0x1b1</Index>
     </Texture>
+    <SharedCooldownChannel id="65517" />
     <SlotType>14</SlotType>
     <Description>A well-worn robe used for Science!</Description>
     <ActivateOnEquip stat="DEF" amount="12">IncrementStat</ActivateOnEquip>
@@ -11024,6 +11031,7 @@
       <File>lofiObj3</File>
       <Index>0x21d</Index>
     </Texture>
+    <SharedCooldownChannel id="65531" />
     <SlotType>24</SlotType>
     <Tier>1</Tier>
     <Description>Suitable for practice.</Description>
@@ -17578,6 +17586,7 @@
       <File>epicHiveObjects8x8</File>
       <Index>0x62</Index>
     </Texture>
+    <SharedCooldownChannel id="65510" />
     <SlotType>16</SlotType>
     <Description>A nefarious helm combining pheromones and Killer Honey to captivate Killer Bees into servitude.</Description>
     <Sound>spell/fire_spray</Sound>
@@ -18173,6 +18182,7 @@
       <File>lostHallsObjects8x8</File>
       <Index>0xa7</Index>
     </Texture>
+    <SharedCooldownChannel id="65509" />
     <SlotType>3</SlotType>
     <Description>Every shot that hits a target frees the soul of a forgotten hero. Every shot that misses is trapped for eternity.</Description>
     <RateOfFire>1.05</RateOfFire>
@@ -22714,7 +22724,7 @@
       <Index>0x9c</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>Grants a random Key when used!\n\n*Kogbold Steamworks Key\n*Sulfurous Wetlands Key\n*Secluded Thicket Key\n*Draconis Key\n*Tomb of the Ancients Key\n*Fungal Cavern Key\n*The Nest Key\n*Shatters Key\n*Lost Halls Key\n*Parasite Chambers Key\n*Candy Key\n\nSprite Credits: Lovens</Description>
+    <Description>Grants a random Key when used!\n\n*Moonlight Village Key\n*Kogbold Steamworks Key\n*Sulfurous Wetlands Key\n*Secluded Thicket Key\n*Draconis Key\n*Tomb of the Ancients Key\n*Fungal Cavern Key\n*The Nest Key\n*Shatters Key\n*Lost Halls Key\n*Parasite Chambers Key\n*Candy Key\n\nSprite Credits: Lovens</Description>
     <Activate>MysteryDyes</Activate>
     <Consumable />
     <Soulbound />
@@ -25996,6 +26006,7 @@
       <EffectInfo name="" description="Create a Healing Mushroom that lasts 3 seconds." />
       <EffectInfo name="Max Heal" description="75" />
       <EffectInfo name="Max Targets" description="15" />
+      <EffectInfo description="Grants the healing buff." name="While within range" />
       <EffectInfo name="Range" description="5" />
     </ExtraTooltipData>
     <Usable />
@@ -26261,6 +26272,7 @@
       <File>crystalCaveObjects8x8</File>
       <Index>0x85</Index>
     </Texture>
+    <SharedCooldownChannel id="65513" />
     <SlotType>25</SlotType>
     <Description>A perfectly cut crystal encasing light from the oldest stars in the universe. All who hold it are filled with a sense of peace and concentration.</Description>
     <Sound>spell/fire_spray</Sound>
@@ -32237,6 +32249,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x290</Index>
     </Texture>
+    <SharedCooldownChannel id="65508" />
     <SlotType>2</SlotType>
     <Description>The pride of Treasurer Gemsbok, this gilded knife has backstabbed countless traders in shady dealings.</Description>
     <RateOfFire>1</RateOfFire>
@@ -32339,6 +32352,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x294</Index>
     </Texture>
+    <SharedCooldownChannel id="65505" />
     <SlotType>8</SlotType>
     <Description>This ceremonial mace controls the forces of light and darkness. Archbishop Leucoryx uses it for distinguished offerings in the name of his god.</Description>
     <RateOfFire>1.5</RateOfFire>
@@ -32441,6 +32455,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x2a0</Index>
     </Texture>
+    <SharedCooldownChannel id="65506" />
     <SlotType>17</SlotType>
     <Description>This aptly named staff is the manifestation of Chancellor Dammah's assertions of grandeur. Although he seldom uses it for actual combat purposes, it is no less potent as a legitimate weapon.</Description>
     <RateOfFire>1.0</RateOfFire>
@@ -32549,6 +32564,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x2a4</Index>
     </Texture>
+    <SharedCooldownChannel id="65507" />
     <SlotType>24</SlotType>
     <Description>Chief Beisa designed and forged this sawtoothed blade himself to be granted admission as a gladiator. Its shattering strikes are amplified by his own slashing techniques.</Description>
     <RateOfFire>1</RateOfFire>
@@ -32693,6 +32709,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x2b0</Index>
     </Texture>
+    <SharedCooldownChannel id="65504" />
     <SlotType>1</SlotType>
     <Description>The chosen blade of Oryx the Mad God, charged with an unrelenting energy to subdue all that lies before it.</Description>
     <ExtraTooltipData>
@@ -44433,6 +44450,7 @@
     <Soulbound />
     <XPBonus>8</XPBonus>
     <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,CLOAK,UT,TAB_UT,POWERTIER_S,RESKIN,XPBONUS,MPCOST,COOLDOWN</Labels>
   </Object>
   <Object id="2BardST0" type="0x3811" setType="0x3816" setName="Storm Caller Bard Set" collectionIcon="2">
     <DisplayId>Hailstorm</DisplayId>
@@ -52524,7 +52542,7 @@
       <Index>0x21F</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>Expands your seasonal vault once. If unused, it gets destroyed at the end of the season.</Description>
+    <Description>Expands your seasonal vault once. After the season ends, it expands your normal vault once. If you acquire this item with a non-seasonal character, it will expand your non-seasonal item vault.</Description>
     <Sound>use_potion</Sound>
     <Consumable />
     <Soulbound />
@@ -52533,6 +52551,7 @@
     <BagType>7</BagType>
     <feedPower>100</feedPower>
     <Potion />
+    <Track />
     <Activate>ExpandSeasonalVault</Activate>
     <Labels>EQUIPMENT,CONSUMABLE</Labels>
   </Object>
@@ -53214,6 +53233,7 @@
       <File>steamworksObjects8x8</File>
       <Index>37</Index>
     </Texture>
+    <SharedCooldownChannel id="65511" />
     <SlotType>8</SlotType>
     <Description>Early prototype versions of the KI470 Laser pointing device came with no inbuilt limiter on their power output. First batch testing resulted in many schematics cut clean in half, as well as multiple layers of steel wall.</Description>
     <Sound>weapon/wand_of_death</Sound>
@@ -55299,6 +55319,7 @@
       <File>lofiObjShiny</File>
       <Index>0x0</Index>
     </Texture>
+    <SharedCooldownChannel id="65504" />
     <SlotType>1</SlotType>
     <Description>The chosen blade of Oryx the Mad God, charged with an unrelenting energy to subdue all that lies before it.</Description>
     <ExtraTooltipData>
@@ -55336,6 +55357,7 @@
       <File>lofiObjShiny</File>
       <Index>0x1</Index>
     </Texture>
+    <SharedCooldownChannel id="65505" />
     <SlotType>8</SlotType>
     <Description>This ceremonial mace controls the forces of light and darkness. Archbishop Leucoryx uses it for distinguished offerings in the name of his god.</Description>
     <RateOfFire>1.5</RateOfFire>
@@ -55369,6 +55391,7 @@
       <File>lofiObjShiny</File>
       <Index>0x2</Index>
     </Texture>
+    <SharedCooldownChannel id="65506" />
     <SlotType>17</SlotType>
     <Description>This aptly named staff is the manifestation of Chancellor Dammah's assertions of grandeur. Although he seldom uses it for actual combat purposes, it is no less potent as a legitimate weapon.</Description>
     <RateOfFire>1.0</RateOfFire>
@@ -55402,6 +55425,7 @@
       <File>lofiObjShiny</File>
       <Index>0x3</Index>
     </Texture>
+    <SharedCooldownChannel id="65507" />
     <SlotType>24</SlotType>
     <Description>Chief Beisa designed and forged this sawtoothed blade himself to be granted admission as a gladiator. Its shattering strikes are amplified by his own slashing techniques.</Description>
     <RateOfFire>1</RateOfFire>
@@ -55431,6 +55455,7 @@
       <File>lofiObjShiny</File>
       <Index>0x4</Index>
     </Texture>
+    <SharedCooldownChannel id="65508" />
     <SlotType>2</SlotType>
     <Description>The pride of Treasurer Gemsbok, this gilded knife has backstabbed countless traders in shady dealings.</Description>
     <RateOfFire>1</RateOfFire>
@@ -55463,6 +55488,7 @@
       <File>lofiObjShiny</File>
       <Index>0x5</Index>
     </Texture>
+    <SharedCooldownChannel id="65509" />
     <SlotType>3</SlotType>
     <Description>Every shot that hits a target frees the soul of a forgotten hero. Every shot that misses is trapped for eternity.</Description>
     <RateOfFire>1.05</RateOfFire>
@@ -55495,6 +55521,7 @@
       <File>lofiObjShiny</File>
       <Index>0x6</Index>
     </Texture>
+    <SharedCooldownChannel id="65510" />
     <SlotType>16</SlotType>
     <Description>A nefarious helm combining pheromones and Killer Honey to captivate Killer Bees into servitude.</Description>
     <Sound>spell/fire_spray</Sound>
@@ -55528,6 +55555,7 @@
       <File>lofiObjShiny</File>
       <Index>0x7</Index>
     </Texture>
+    <SharedCooldownChannel id="65511" />
     <SlotType>8</SlotType>
     <Description>Early prototype versions of the KI470 Laser pointing device came with no inbuilt limiter on their power output. First batch testing resulted in many schematics cut clean in half, as well as multiple layers of steel wall.</Description>
     <Sound>weapon/wand_of_death</Sound>
@@ -55576,6 +55604,7 @@
       <File>lofiObjShiny</File>
       <Index>0x8</Index>
     </Texture>
+    <SharedCooldownChannel id="65512" />
     <SlotType>9</SlotType>
     <Description>A peculiar stone, tremendously heavy for its size and seemingly not of this world. Its very presence in the realm raises a great deal more questions than answers, yet the uncanny energy it emanates provides only one haunting clue.</Description>
     <ExtraTooltipData>
@@ -55602,6 +55631,7 @@
       <File>lofiObjShiny</File>
       <Index>0x9</Index>
     </Texture>
+    <SharedCooldownChannel id="65513" />
     <SlotType>25</SlotType>
     <Description>A perfectly cut crystal encasing light from the oldest stars in the universe. All who hold it are filled with a sense of peace and concentration.</Description>
     <Sound>spell/fire_spray</Sound>
@@ -55644,6 +55674,7 @@
       <File>lofiObjShiny</File>
       <Index>0xa</Index>
     </Texture>
+    <SharedCooldownChannel id="65514" />
     <SlotType>3</SlotType>
     <Description>No mortal can fire this dreaded bow without resting in between shots. It requires tremendous skill to wield.</Description>
     <RateOfFire>0.33</RateOfFire>
@@ -55674,6 +55705,7 @@
       <File>lofiObjShiny</File>
       <Index>0xb</Index>
     </Texture>
+    <SharedCooldownChannel id="65515" />
     <SlotType>13</SlotType>
     <Description>An enchanted cloak crafted by an ancient guild of timeshifter thieves.</Description>
     <Sound>spell/fire_nova</Sound>
@@ -55699,6 +55731,7 @@
       <File>lofiObjShiny</File>
       <Index>0xc</Index>
     </Texture>
+    <SharedCooldownChannel id="65516" />
     <Description>A lightweight blade that seems to dance in your hands.</Description>
     <Projectile>
       <ObjectId>Leviathan Bolt Shiny</ObjectId>
@@ -55729,6 +55762,7 @@
       <File>lofiObjShiny</File>
       <Index>0xd</Index>
     </Texture>
+    <SharedCooldownChannel id="65517" />
     <SlotType>14</SlotType>
     <Description>A well-worn robe used for Science!</Description>
     <ActivateOnEquip stat="DEF" amount="12">IncrementStat</ActivateOnEquip>
@@ -55754,6 +55788,7 @@
       <File>lofiObjShiny</File>
       <Index>0xe</Index>
     </Texture>
+    <SharedCooldownChannel id="65518" />
     <SlotType>4</SlotType>
     <Description>An ancient tome cloaked in white leather, created to aid in the struggle against the ultimate evil.</Description>
     <Sound>spell/major_heal</Sound>
@@ -55780,6 +55815,7 @@
       <File>lofiObjShiny</File>
       <Index>0x1a</Index>
     </Texture>
+    <SharedCooldownChannel id="65531" />
     <SlotType>24</SlotType>
     <Tier>1</Tier>
     <Description>Suitable for practice.</Description>
@@ -56192,9 +56228,11 @@
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
+    <Activate id="Moonlight Village Portal" readonlymods="true">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>4</BagType>
-    <Activate id="Moonlight Village Portal">CreatePortal</Activate>
+    <Track />
+    <UniqueID />
   </Object>
   <Object id="Mark of the Kitsune" type="0x516c">
     <Class>Equipment</Class>
@@ -57484,8 +57522,8 @@
     <ExtraTooltipData>
       <EffectInfo description="40 MP cost to summon an orbiting Friendly Spirit which heals allies." name="On Ability Use" />
       <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
-      <EffectInfo description="12 seconds" name="Maximum Lifetime" />
-      <EffectInfo description="10 seconds" name="Cooldown" />
+      <EffectInfo description="15 seconds" name="Maximum Lifetime" />
+      <EffectInfo description="15 seconds" name="Cooldown" />
     </ExtraTooltipData>
     <BagType>6</BagType>
     <XPBonus>7</XPBonus>
@@ -57495,7 +57533,7 @@
     <ActivateOnEquip amount="120" stat="MAXMP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="12" stat="WIS">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="7" stat="SPD">IncrementStat</ActivateOnEquip>
-    <OnPlayerAbilityActivate color="-1" cooldown="10" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Kimono Summon">SpawnCreep</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate color="-1" cooldown="15" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Kimono Summon">SpawnCreep</OnPlayerAbilityActivate>
     <Labels>EQUIPMENT,WEAPON,ORG_MOONLIGHT_S,UT,TAB_UT,POWERTIER_S,XPBONUS</Labels>
   </Object>
   <Object id="MV Kimono Summon" type="0x500a">
@@ -57567,8 +57605,8 @@
       <EffectInfo description="When shooting, reduce SPD by 25." name="Focus" />
       <EffectInfo description="40 MP cost to summon an orbiting Friendly Spirit which curses enemies." name="On Ability Use" />
       <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
-      <EffectInfo description="12 seconds" name="Maximum Lifetime" />
-      <EffectInfo description="10 seconds" name="Cooldown" />
+      <EffectInfo description="15 seconds" name="Maximum Lifetime" />
+      <EffectInfo description="15 seconds" name="Cooldown" />
     </ExtraTooltipData>
     <BagType>6</BagType>
     <XPBonus>7</XPBonus>
@@ -57577,7 +57615,7 @@
     <ActivateOnEquip amount="15" stat="DEF">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="15" stat="SPD">IncrementStat</ActivateOnEquip>
     <OnPlayerShootActivate color="-1" cooldown="0" proc="1" stat="SPD" amount="-25" duration="1" channel="noStack">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerAbilityActivate color="-1" cooldown="10" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Happi Summon">SpawnCreep</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate color="-1" cooldown="15" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Happi Summon">SpawnCreep</OnPlayerAbilityActivate>
     <Labels>EQUIPMENT,WEAPON,ORG_MOONLIGHT_S,UT,TAB_UT,POWERTIER_S,XPBONUS</Labels>
   </Object>
   <Object id="MV Happi Summon" type="0x50f9">
@@ -57648,8 +57686,8 @@
     <ExtraTooltipData>
       <EffectInfo description="40 MP cost to summon an orbiting Friendly Spirit which impedes enemy movement." name="On Ability Use" />
       <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
-      <EffectInfo description="12 seconds" name="Maximum Lifetime" />
-      <EffectInfo description="10 seconds" name="Cooldown" />
+      <EffectInfo description="15 seconds" name="Maximum Lifetime" />
+      <EffectInfo description="15 seconds" name="Cooldown" />
     </ExtraTooltipData>
     <BagType>6</BagType>
     <XPBonus>7</XPBonus>
@@ -57658,7 +57696,7 @@
     <ActivateOnEquip amount="20" stat="DEF">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="15" stat="VIT">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="15" stat="WIS">IncrementStat</ActivateOnEquip>
-    <OnPlayerAbilityActivate color="-1" cooldown="10" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Wakibiki Summon">SpawnCreep</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate color="-1" cooldown="15" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Wakibiki Summon">SpawnCreep</OnPlayerAbilityActivate>
     <Labels>EQUIPMENT,WEAPON,ORG_MOONLIGHT_S,UT,TAB_UT,POWERTIER_S,XPBONUS</Labels>
   </Object>
   <Object id="MV Wakibiki Summon" type="0x50fa">
@@ -57898,10 +57936,10 @@
       <ExtraTooltipData>
         <EffectInfo description="Summon an orbiting Friendly Spirit which chases and attacks enemies." name="On Ability Use" />
         <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
-        <EffectInfo description="6 seconds" name="Cooldown" />
+        <EffectInfo description="10 seconds" name="Cooldown" />
       </ExtraTooltipData>
       <Activate aoeActivationCount="3" aoeDamage="250" aoeMaxTargets="2" aoeRange="2" aoeTime="1" arcDegrees="60" color="0xf94545" colorMissed="0xec9006" maxTargets="5" scalingStat="VIT" statModDamage="0" statModPerTarget="15" statModRadius="0.02" statModScalingMin="60" totalDamage="175" wisDamageBase="75" wisMin="50" wisPerTarget="7" aoeArmorPierce="true">Lightning</Activate>
-      <OnPlayerAbilityActivate color="-1" proc="1" targetMouse="false" maxSpawnDistance="12" objectId="MV Hanabi Summon" cooldown="6">SpawnCreep</OnPlayerAbilityActivate>
+      <OnPlayerAbilityActivate color="-1" proc="1" targetMouse="false" maxSpawnDistance="12" objectId="MV Hanabi Summon" cooldown="10">SpawnCreep</OnPlayerAbilityActivate>
       <MpCost>100</MpCost>
       <SwitchTime>0.7</SwitchTime>
     </Ability>
@@ -57912,10 +57950,10 @@
       </Texture>
       <ExtraTooltipData>
         <EffectInfo description="Build up a stockpile which invigorates and strengthens nearby spirits." name="On Shoot" />
-        <EffectInfo description="3 seconds" name="Cooldown" />
+        <EffectInfo description="5 seconds" name="Cooldown" />
       </ExtraTooltipData>
       <Activate aoeActivationCount="3" aoeDamage="250" aoeMaxTargets="2" aoeRange="2" aoeTime="1" arcDegrees="60" color="0xf94545" colorMissed="0xec9006" maxTargets="5" scalingStat="VIT" statModDamage="0" statModPerTarget="15" statModRadius="0.02" statModScalingMin="60" totalDamage="175" wisDamageBase="75" wisMin="50" wisPerTarget="7" aoeArmorPierce="true">Lightning</Activate>
-      <OnPlayerShootActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi Object 0" throwTime="0" color="-1" cooldown="3">ObjectToss</OnPlayerShootActivate>
+      <OnPlayerShootActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi Object 0" throwTime="0" color="-1" cooldown="5">ObjectToss</OnPlayerShootActivate>
       <MpCost>100</MpCost>
       <SwitchTime>0.7</SwitchTime>
     </Ability>
@@ -58013,6 +58051,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <NoMiniMap />
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
   </Object>
@@ -58175,10 +58214,10 @@
       <ExtraTooltipData>
         <EffectInfo description="Summon an orbiting Friendly Spirit which chases and attacks enemies." name="On Ability Use" />
         <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
-        <EffectInfo description="6 seconds" name="Cooldown" />
+        <EffectInfo description="8 seconds" name="Cooldown" />
       </ExtraTooltipData>
       <Activate aoeActivationCount="3" aoeDamage="250" aoeMaxTargets="2" aoeRange="2" aoeTime="1" arcDegrees="65" color="0xF6D56D" colorMissed="0xD19906" maxTargets="5" scalingStat="VIT" statModDamage="0" statModPerTarget="15" statModRadius="0.02" statModScalingMin="60" totalDamage="175" wisDamageBase="75" wisMin="50" wisPerTarget="7" aoeArmorPierce="true">Lightning</Activate>
-      <OnPlayerAbilityActivate proc="1" targetMouse="false" maxSpawnDistance="12" objectId="MV Hanabi Summon" cooldown="6">SpawnCreep</OnPlayerAbilityActivate>
+      <OnPlayerAbilityActivate proc="1" targetMouse="false" maxSpawnDistance="12" objectId="MV Hanabi Summon" cooldown="8">SpawnCreep</OnPlayerAbilityActivate>
       <MpCost>100</MpCost>
       <SwitchTime>0.7</SwitchTime>
     </Ability>
@@ -58189,11 +58228,11 @@
       </Texture>
       <ExtraTooltipData>
         <EffectInfo description="Build up a stockpile which invigorates and strengthens nearby spirits." name="On Shoot" />
-        <EffectInfo description="2.5 seconds" name="Cooldown" />
+        <EffectInfo description="4 seconds" name="Cooldown" />
       </ExtraTooltipData>
       <Activate aoeActivationCount="3" aoeDamage="250" aoeMaxTargets="2" aoeRange="2" aoeTime="1" arcDegrees="65" color="0xF6D56D" colorMissed="0xD19906" maxTargets="5" scalingStat="VIT" statModDamage="0" statModPerTarget="15" statModRadius="0.02" statModScalingMin="60" totalDamage="175" wisDamageBase="75" wisMin="50" wisPerTarget="7" aoeArmorPierce="true">Lightning</Activate>
-      <OnPlayerShootActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi 2 Object" throwTime="0" color="-1" cooldown="2.5">ObjectToss</OnPlayerShootActivate>
-      <OnPlayerShootActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi Object 0" throwTime="0" color="-1" cooldown="2.5">ObjectToss</OnPlayerShootActivate>
+      <OnPlayerShootActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi 2 Object" throwTime="0" color="-1" cooldown="4">ObjectToss</OnPlayerShootActivate>
+      <OnPlayerShootActivate targetMouse="true" maxDistance="0" proc="1" objectId="Tezutsu Hanabi Object 0" throwTime="0" color="-1" cooldown="4">ObjectToss</OnPlayerShootActivate>
       <MpCost>100</MpCost>
       <SwitchTime>0.7</SwitchTime>
     </Ability>
@@ -58968,13 +59007,13 @@
     <ExtraTooltipData>
       <EffectInfo description="When above 50% MP, 10% chance to summon an orbiting Friendly Spirit at the cost of 80 MP" name="On Shoot" />
       <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
-      <EffectInfo description="10 seconds" name="Cooldown" />
+      <EffectInfo description="15 seconds" name="Cooldown" />
     </ExtraTooltipData>
     <ActivateOnEquip amount="100" stat="MAXHP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="100" stat="MAXMP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="5" stat="VIT">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="5" stat="WIS">IncrementStat</ActivateOnEquip>
-    <OnPlayerShootActivate color="-1" cooldown="10" objectId="MV Kagenohikari Summon" proc="0.1" maxSpawnDistance="0.0" manaRequiredRelative="0.5" manaCost="80">SpawnCreep</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" cooldown="15" objectId="MV Kagenohikari Summon" proc="0.1" maxSpawnDistance="0.0" manaRequiredRelative="0.5" manaCost="80">SpawnCreep</OnPlayerShootActivate>
     <BagType>6</BagType>
     <XPBonus>8</XPBonus>
     <feedPower>1400</feedPower>
@@ -59171,13 +59210,13 @@
     <Description>An ethereal lantern charged with the extiguished hopes and memories of bygone souls. Its blacklight flickers with restlessness and resentment.</Description>
     <ExtraTooltipData>
       <EffectInfo description="When above 50% MP, 10% chance to summon an orbiting Malevolent Spirit at the cost of 80 MP" name="On Shoot" />
-      <EffectInfo description="10 seconds" name="Cooldown" />
+      <EffectInfo description="15 seconds" name="Cooldown" />
     </ExtraTooltipData>
     <ActivateOnEquip amount="110" stat="MAXHP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="110" stat="MAXMP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="6" stat="VIT">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="6" stat="WIS">IncrementStat</ActivateOnEquip>
-    <OnPlayerShootActivate color="-1" cooldown="10" objectId="MV Kagenohikari 2 Summon" proc="0.1" maxSpawnDistance="0.0" manaRequiredRelative="0.5" manaCost="80">SpawnCreep</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" cooldown="15" objectId="MV Kagenohikari 2 Summon" proc="0.1" maxSpawnDistance="0.0" manaRequiredRelative="0.5" manaCost="80">SpawnCreep</OnPlayerShootActivate>
     <BagType>6</BagType>
     <XPBonus>9</XPBonus>
     <feedPower>1500</feedPower>
@@ -59939,7 +59978,6 @@
     <Soulbound />
     <BagType>2</BagType>
     <Treasure />
-    <feedPower>2000</feedPower>
   </Object>
   <Object id="MV Blue Gift" type="0x5170">
     <DisplayId>Umi's Blue Parcel</DisplayId>
@@ -60231,5 +60269,120 @@
     <Track />
     <Soulbound />
     <Labels>CONSUMABLE,TAB_ALL,ORG_MOONLIGHT_S</Labels>
+  </Object>
+  <Object id="MV Basic Fishing Rod" type="0x50df">
+    <DisplayId>Basic Fishing Rod</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>486</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A fishing rod fashioned from a tree branch and string. It is suitable for beginners.</Description>
+    <SharedCooldownChannel id="20703" />
+    <ExtraTooltipData>
+      <EffectInfo description="Only usable in the Moonlight Village. Aim at ripples in the water to catch fish!" name="Fishing" />
+      <EffectInfo name="On Equip:" description="" />
+      <EffectInfo name="" description="+1 Fishing" />
+    </ExtraTooltipData>
+    <BagType>4</BagType>
+    <FameBonus>4</FameBonus>
+    <feedPower>0</feedPower>
+    <Soulbound />
+    <OnPlayerShootActivate cooldown="1.8" proc="1" objectId="MV Basic Bait" throwTime="1.6" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="1.8" duration="1.2">ConditionEffectSelf</OnPlayerShootActivate>
+  </Object>
+  <Object id="MV Intermediate Fishing Rod" type="0x50f2">
+    <DisplayId>Intermediate Fishing Rod</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>487</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A sturdy fishing rod reinforced with metal. It is an adequete tool for any fishing activities.</Description>
+    <SharedCooldownChannel id="20703" />
+    <ExtraTooltipData>
+      <EffectInfo description="Only usable in the Moonlight Village. Aim at ripples in the water to catch fish!" name="Fishing" />
+      <EffectInfo name="On Equip:" description="" />
+      <EffectInfo name="" description="+3 Fishing" />
+    </ExtraTooltipData>
+    <BagType>4</BagType>
+    <FameBonus>5</FameBonus>
+    <feedPower>250</feedPower>
+    <Soulbound />
+    <OnPlayerShootActivate cooldown="1.6" proc="1" objectId="MV Intermediate Bait" throwTime="1.6" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="1.6" duration="1.2">ConditionEffectSelf</OnPlayerShootActivate>
+  </Object>
+  <Object id="MV Expert Fishing Rod" type="0x514a">
+    <DisplayId>Expert Fishing Rod</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>563</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A fishing rod with a steel alloy frame. Its light weight allows for faster casting.</Description>
+    <SharedCooldownChannel id="20703" />
+    <ExtraTooltipData>
+      <EffectInfo description="Only usable in the Moonlight Village. Aim at ripples in the water to catch fish!" name="Fishing" />
+      <EffectInfo name="On Equip:" description="" />
+      <EffectInfo name="" description="+5 Fishing" />
+    </ExtraTooltipData>
+    <BagType>4</BagType>
+    <FameBonus>5</FameBonus>
+    <feedPower>500</feedPower>
+    <Soulbound />
+    <OnPlayerShootActivate cooldown="1.6" proc="1" objectId="MV Expert Bait" throwTime="1.4" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="1.6" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
+  </Object>
+  <Object id="MV Master Fishing Rod" type="0x50f3">
+    <DisplayId>Master Fishing Rod</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>488</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A fishing rod used by master fishers. It requires skill and precision to use to its full potential.</Description>
+    <SharedCooldownChannel id="20703" />
+    <ExtraTooltipData>
+      <EffectInfo description="Only usable in the Moonlight Village. Aim at ripples in the water to catch fish!" name="Fishing" />
+      <EffectInfo name="On Equip:" description="" />
+      <EffectInfo name="" description="+7 Fishing" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <OnPlayerShootActivate cooldown="1.4" proc="1" objectId="MV Master Bait" throwTime="1.4" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="1.4" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
+  </Object>
+  <Object id="MV Legendary Fishing Rod" type="0x50f6">
+    <DisplayId>Legendary Fishing Rod</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>491</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A legendary fishing rod only passed down to those who are worthy. It is unrivalled in effectiveness.</Description>
+    <SharedCooldownChannel id="20703" />
+    <ExtraTooltipData>
+      <EffectInfo description="Only usable in the Moonlight Village. Aim at ripples in the water to catch fish!" name="Fishing" />
+      <EffectInfo name="On Equip:" description="" />
+      <EffectInfo name="" description="+10 Fishing" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <FameBonus>7</FameBonus>
+    <feedPower>1000</feedPower>
+    <Soulbound />
+    <OnPlayerShootActivate cooldown="1.4" proc="1" objectId="MV Legendary Bait" throwTime="1.2" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="1.4" duration="0.8">ConditionEffectSelf</OnPlayerShootActivate>
   </Object>
 </Objects>

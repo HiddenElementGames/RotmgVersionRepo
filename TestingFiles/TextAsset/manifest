@@ -5,7 +5,7 @@
   },
   "xmlKeys": ["tiles", "objects", "particles", "sets", "characters",
     "skins", "tutorial", "protips", "forge", "dungeonGrades", "dungeonTemplates", 
-    "refineTemplates", "mods", "titles", "gravestones", "emotes", "playerDiscoveryIcons"],
+    "refineTemplates", "mods", "titles", "gravestones", "emotes", "playerDiscoveryIcons", "terrains"],
   "tiles": [
     {
       "path": "ground.xml"
@@ -509,6 +509,18 @@
     },
     {
       "path": "dungeons/moonlightVillage/moonlightVillageObjects.xml"
+    },
+    {
+      "path": "newRealm/rookie.xml"
+    },
+    {
+      "path": "newRealm/adept.xml"
+    },
+    {
+      "path": "newRealm/veteran.xml"
+    },
+    {
+      "path": "newRealm/expert.xml"
     }
   ],
   "particles": [
@@ -3022,6 +3034,17 @@
       "mergeAttackFrame": 1
     },
     {
+      "name": "charsRookie8x8",
+      "path": "charsRookie8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
       "name": "steamworksChars64x64",
       "path": "steamworksChars64x64.png",
       "mask": "",
@@ -3242,5 +3265,10 @@
       {
         "path": "playerDiscoveryIcons.xml"
       }
-  ]
+  ],
+  "terrains": [
+    {
+      "path": "terrains.xml"
+    }
+]
 }

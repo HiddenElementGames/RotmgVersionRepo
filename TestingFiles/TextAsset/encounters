@@ -201,6 +201,7 @@
     <ParalyzeImmune />
     <DazedImmune />
     <Encounter />
+    <RealmScore>1500</RealmScore>
     <PerRealmMax>1</PerRealmMax>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
@@ -1906,6 +1907,7 @@
     <DontFaceAttacks />
     <StasisImmune />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <TrackLoot />
@@ -2511,6 +2513,7 @@
     <Enemy />
     <Class>Character</Class>
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
@@ -2673,8 +2676,8 @@
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>d3Chars16x16rEmbed</File>
-      <Index>30</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>4</Index>
     </AnimatedTexture>
     <HitSound>monster/ghost_god_hit</HitSound>
     <DeathSound>monster/ghost_god_death</DeathSound>
@@ -2684,6 +2687,7 @@
     <God />
     <StasisImmune />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <Encounter />
@@ -2738,8 +2742,8 @@
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>d3Chars8x8rEmbed</File>
-      <Index>15</Index>
+      <File>chars8x8dEncounters</File>
+      <Index>8</Index>
     </AnimatedTexture>
     <HitSound>monster/trees_hit</HitSound>
     <DeathSound>monster/trees_death</DeathSound>
@@ -2767,10 +2771,10 @@
   </Object>
   <Object type="0x0d56" id="Skull Shrine">
     <Class>Character</Class>
-    <DisplayId>Cool Shrine</DisplayId>
+    <DisplayId>Skull Shrine</DisplayId>
     <Texture>
-      <File>d3LofiObjEmbed16</File>
-      <Index>0x2f</Index>
+      <File>lofiChar216x16</File>
+      <Index>0x35</Index>
     </Texture>
     <HitSound>monster/skull_shrine_hit</HitSound>
     <DeathSound>monster/skull_shrine_death</DeathSound>
@@ -2781,6 +2785,7 @@
     <Defense>40</Defense>
     <Enemy />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
@@ -2803,10 +2808,10 @@
     <Group>Flaming Skulls</Group>
     <Class>Character</Class>
     <Enemy />
-    <DisplayId>Cool Skull</DisplayId>
+    <DisplayId>Red Flaming Skull</DisplayId>
     <Texture>
-      <File>d3LofiObjEmbed</File>
-      <Index>0x7e</Index>
+      <File>lofiChar8x8</File>
+      <Index>0x65</Index>
     </Texture>
     <HitSound>monster/flaming_skulls_hit</HitSound>
     <DeathSound>monster/flaming_skulls_death</DeathSound>
@@ -2828,10 +2833,10 @@
     <Group>Flaming Skulls</Group>
     <Class>Character</Class>
     <Enemy />
-    <DisplayId>Cooler Skull</DisplayId>
+    <DisplayId>Blue Flaming Skull</DisplayId>
     <Texture>
-      <File>d3LofiObjEmbed</File>
-      <Index>0x7f</Index>
+      <File>lofiChar8x8</File>
+      <Index>0x66</Index>
     </Texture>
     <HitSound>monster/flaming_skulls_hit</HitSound>
     <DeathSound>monster/flaming_skulls_death</DeathSound>
@@ -2864,6 +2869,7 @@
     <Defense>40</Defense>
     <Enemy />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <TrackLoot />
@@ -2931,10 +2937,9 @@
   </Object>
   <Object type="0x0d59" id="Cube God">
     <Class>Character</Class>
-    <DisplayId>Sphere God</DisplayId>
     <Texture>
-      <File>d3LofiObjEmbed16</File>
-      <Index>0x4c</Index>
+      <File>lofiChar216x16</File>
+      <Index>0x37</Index>
     </Texture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
@@ -2943,6 +2948,7 @@
     <Exp>15000</Exp>
     <BXP>75000</BXP>
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
@@ -2973,10 +2979,9 @@
   <Object type="0x0d5a" id="Cube Overseer">
     <Class>Character</Class>
     <Enemy />
-    <DisplayId>Sphere Overseer</DisplayId>
     <Texture>
-      <File>d3LofiObjEmbed</File>
-      <Index>0x12a</Index>
+      <File>lofiChar28x8</File>
+      <Index>0x40</Index>
     </Texture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
@@ -3003,10 +3008,9 @@
     <Group>Cube Minions</Group>
     <Class>Character</Class>
     <Enemy />
-    <DisplayId>Sphere Defender</DisplayId>
     <Texture>
-      <File>d3LofiObjEmbed</File>
-      <Index>0x12b</Index>
+      <File>lofiChar28x8</File>
+      <Index>0x41</Index>
     </Texture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
@@ -3028,10 +3032,9 @@
     <Group>Cube Minions</Group>
     <Class>Character</Class>
     <Enemy />
-    <DisplayId>Sphere Blaster</DisplayId>
     <Texture>
-      <File>d3LofiObjEmbed</File>
-      <Index>0x12c</Index>
+      <File>lofiChar28x8</File>
+      <Index>0x42</Index>
     </Texture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
@@ -3069,6 +3072,7 @@
     <Exp>15000</Exp>
     <BXP>75000</BXP>
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <TrackLoot />
@@ -3283,6 +3287,7 @@
     </Texture>
     <Size>0</Size>
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <Encounter />
@@ -3367,6 +3372,7 @@
       </Frame>
     </Animation>
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <Level>20</Level>
@@ -3392,6 +3398,7 @@
     <Enemy />
     <Class>Character</Class>
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
@@ -3402,13 +3409,13 @@
     <PerRealmMax>2</PerRealmMax>
     <KeepDamageRecord />
     <AnimatedTexture>
-      <File>d3Chars16x16rEmbed</File>
-      <Index>31</Index>
+      <File>chars16x16dEncounters2</File>
+      <Index>11</Index>
     </AnimatedTexture>
     <Portrait>
       <AnimatedTexture>
-        <File>d3Chars16x16rEmbed</File>
-        <Index>31</Index>
+        <File>chars16x16dEncounters2</File>
+        <Index>11</Index>
       </AnimatedTexture>
     </Portrait>
     <AltTexture id="1">
@@ -3431,8 +3438,8 @@
     </AltTexture>
     <AltTexture id="4">
       <AnimatedTexture>
-        <File>d3Chars16x16rEmbed</File>
-        <Index>32</Index>
+        <File>chars16x16dEncounters2</File>
+        <Index>14</Index>
       </AnimatedTexture>
     </AltTexture>
     <HitSound>monster/skeletons_hit</HitSound>
@@ -3502,8 +3509,8 @@
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <AnimatedTexture>
-      <File>d3Chars8x8rEmbed</File>
-      <Index>16</Index>
+      <File>chars8x8rEncounters</File>
+      <Index>21</Index>
     </AnimatedTexture>
     <Projectile id="0">
       <ObjectId>Snake Shot Yellow</ObjectId>
@@ -3631,6 +3638,7 @@
     <Exp>0</Exp>
     <God />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <TrackLoot />
     <Level>20</Level>
@@ -3803,10 +3811,10 @@
   <Object type="0x0e4f" id="Water Mine">
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>Soap Mine</DisplayId>
+    <DisplayId>Water Mine</DisplayId>
     <AnimatedTexture>
-      <File>d3Chars16x16rEmbed</File>
-      <Index>29</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>38</Index>
     </AnimatedTexture>
     <HitSound>monster/traps_hit</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -3851,10 +3859,10 @@
   <Object type="0x0e3d" id="Beach Spectre">
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>Beach Towel</DisplayId>
+    <DisplayId>Beach Spectre</DisplayId>
     <AnimatedTexture>
-      <File>d3Chars8x8rEmbed</File>
-      <Index>14</Index>
+      <File>chars8x8rEncounters</File>
+      <Index>35</Index>
     </AnimatedTexture>
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
@@ -3892,59 +3900,59 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <DisplayId>Tempest Sponge</DisplayId>
+    <DisplayId>Tempest Cloud</DisplayId>
     <AltTexture id="1">
       <Texture>
-        <File>d3LofiObjEmbed16</File>
-        <Index>0x23</Index>
+        <File>lofiObjBig</File>
+        <Index>0x33</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="2">
       <Texture>
-        <File>d3LofiObjEmbed16</File>
-        <Index>0x23</Index>
+        <File>lofiObjBig</File>
+        <Index>0x33</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="3">
       <Texture>
-        <File>d3LofiObjEmbed16</File>
-        <Index>0x24</Index>
+        <File>lofiObjBig</File>
+        <Index>0x34</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="4">
       <Texture>
-        <File>d3LofiObjEmbed16</File>
-        <Index>0x25</Index>
+        <File>lofiObjBig</File>
+        <Index>0x35</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="5">
       <Texture>
-        <File>d3LofiObjEmbed16</File>
-        <Index>0x26</Index>
+        <File>lofiObjBig</File>
+        <Index>0x36</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="6">
       <Texture>
-        <File>d3LofiObjEmbed16</File>
-        <Index>0x27</Index>
+        <File>lofiObjBig</File>
+        <Index>0x37</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="7">
       <Texture>
-        <File>d3LofiObjEmbed16</File>
-        <Index>0x2b</Index>
+        <File>lofiObjBig</File>
+        <Index>0x38</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="8">
       <Texture>
-        <File>d3LofiObjEmbed16</File>
-        <Index>0x2c</Index>
+        <File>lofiObjBig</File>
+        <Index>0x39</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="9">
       <Texture>
-        <File>d3LofiObjEmbed16</File>
-        <Index>0x2d</Index>
+        <File>lofiObjBig</File>
+        <Index>0x3a</Index>
       </Texture>
     </AltTexture>
     <Invincible />
@@ -3992,10 +4000,10 @@
   </Object>
   <Object type="0x0e39" id="Vengeful Spirit">
     <Class>Character</Class>
-    <DisplayId>Vengeful Shampoo</DisplayId>
+    <DisplayId>Vengeful Spirit</DisplayId>
     <AnimatedTexture>
-      <File>d3Chars16x16rEmbed</File>
-      <Index>28</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>39</Index>
     </AnimatedTexture>
     <HitSound>monster/flaming_skulls_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
@@ -4045,21 +4053,21 @@
   <Object type="0x0e37" id="Ghost Ship">
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>Rubber Ducky</DisplayId>
+    <DisplayId>Ghost Ship</DisplayId>
     <AnimatedTexture>
-      <File>d3Chars16x16rEmbed</File>
-      <Index>27</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>37</Index>
     </AnimatedTexture>
     <AltTexture id="1">
       <AnimatedTexture>
-        <File>d3Chars16x16rEmbed</File>
-        <Index>26</Index>
+        <File>chars16x16rEncounters</File>
+        <Index>36</Index>
       </AnimatedTexture>
     </AltTexture>
     <AltTexture id="2">
       <AnimatedTexture>
-        <File>d3Chars16x16rEmbed</File>
-        <Index>27</Index>
+        <File>chars16x16rEncounters</File>
+        <Index>37</Index>
       </AnimatedTexture>
       <Effect particle="SwirlingMist" cooldown="0.2">XMLEffect</Effect>
     </AltTexture>
@@ -4073,6 +4081,7 @@
     <BXP>175000</BXP>
     <Flying />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -4589,7 +4598,7 @@
     <Enemy />
     <AnimatedTexture>
       <File>steamworksChars32x32</File>
-      <Index>46</Index>
+      <Index>0</Index>
     </AnimatedTexture>
     <AltTexture id="1">
       <Texture>
@@ -4599,6 +4608,7 @@
     </AltTexture>
     <God />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <TrackLoot />
@@ -7180,5 +7190,114 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xc101" id="Realm 1 Master">
+    <MasterObject />
+    <Class>MasterObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <Labels>REALM,MASTER</Labels>
+  </Object>
+  <Object type="0xc102" id="Realm 1 Mountains Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e7" id="Realm 1 Tundra Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e8" id="Realm 1 Deep Sea Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e9" id="Realm 1 Sprite Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1ea" id="Realm 1 Hell Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e3" id="Low Beach Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e4" id="Low Forest Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e5" id="Undead Forest Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e6" id="Plains Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
   </Object>
 </Objects>
