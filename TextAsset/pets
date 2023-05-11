@@ -2435,6 +2435,7 @@
     <PetSkin />
     <DisplayId>Sprite Star</DisplayId>
     <Class>PetSkin</Class>
+    <ItemTier>2</ItemTier>
     <Family>? ? ? ?</Family>
     <Rarity>Common</Rarity>
     <AnimatedTexture>
@@ -13826,6 +13827,7 @@
     <PetSkin />
     <DisplayId>Malogian Saucer</DisplayId>
     <Class>PetSkin</Class>
+    <ItemTier>2</ItemTier>
     <AnimatedTexture>
       <File>petsDivine</File>
       <Index>109</Index>
@@ -13836,6 +13838,7 @@
   <Object type="0x75b9" id="Malogian Saucer Pet Stone">
     <DisplayId>Malogian Saucer Pet Skin</DisplayId>
     <Class>Equipment</Class>
+    <ItemTier>2</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>petsDivine</File>
@@ -13868,7 +13871,7 @@
     <PetSkin />
     <DisplayId>Untarian Saucer</DisplayId>
     <Class>PetSkin</Class>
-    <ItemTier>3</ItemTier>
+    <ItemTier>2</ItemTier>
     <AnimatedTexture>
       <File>petsDivine</File>
       <Index>110</Index>
@@ -13879,7 +13882,7 @@
   <Object type="0x75bc" id="Untarian Saucer Pet Stone">
     <DisplayId>Untarian Saucer Pet Skin</DisplayId>
     <Class>Equipment</Class>
-    <ItemTier>3</ItemTier>
+    <ItemTier>2</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>petsDivine</File>
@@ -13912,7 +13915,7 @@
     <PetSkin />
     <DisplayId>Foraxian Saucer</DisplayId>
     <Class>PetSkin</Class>
-    <ItemTier>3</ItemTier>
+    <ItemTier>2</ItemTier>
     <AnimatedTexture>
       <File>petsDivine</File>
       <Index>111</Index>
@@ -13923,7 +13926,7 @@
   <Object type="0x75bf" id="Foraxian Saucer Pet Stone">
     <DisplayId>Foraxian Saucer Pet Skin</DisplayId>
     <Class>Equipment</Class>
-    <ItemTier>3</ItemTier>
+    <ItemTier>2</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>petsDivine</File>
@@ -17306,6 +17309,7 @@
     <PetSkin />
     <DisplayId>Mini 'Odonna</DisplayId>
     <Class>PetSkin</Class>
+    <ItemTier>3</ItemTier>
     <Family>? ? ? ?</Family>
     <Rarity>Rare</Rarity>
     <AnimatedTexture>
@@ -17316,6 +17320,7 @@
   <Object type="0x76ac" id="Mini 'Odonna Pet Stone">
     <DisplayId>Mini 'Odonna Pet Skin</DisplayId>
     <Class>Equipment</Class>
+    <ItemTier>3</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>chars8x8rPets1</File>
@@ -20337,6 +20342,7 @@
     <PetSkin />
     <DisplayId>George the Turkey</DisplayId>
     <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
     <Family>Farm</Family>
     <Rarity>Divine</Rarity>
     <AnimatedTexture>
@@ -20347,6 +20353,7 @@
   <Object type="0x7902" id="George the Turkey Pet Stone">
     <DisplayId>George the Turkey Pet Skin</DisplayId>
     <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>petsDivine</File>
@@ -22407,6 +22414,92 @@
     <SlotType>10</SlotType>
     <Description>This magic carpet has a mind of its own thanks to the development of magic over the years and it wants revenge! All the years of being trampled on this carpet can finally exact their justice for all inanimate objects treated unfairly.\n\nUnlocks Flying Carpet Pet Skin of the Spooky family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
     <Activate skinType="50711">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object id="King Cobra" type="0xC619">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Reptile</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>King Cobra Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xC61a" id="King Cobra Pet Skin">
+    <PetSkin />
+    <DisplayId>King Cobra</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Reptile</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>245</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xC61b" id="King Cobra Pet Stone">
+    <DisplayId>King Cobra Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>245</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Tales speak of this Cobra that is said to carry with it mythical powers within itself from all the monsters this beast has slain and eaten. This Cobra decides to tag along in search for powerful foes that would be a worthy meal for this picky king.\n\nUnlocks King Cobra Pet Skin of the Reptile family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="50714">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object id="Chibi Kitsune Umi" type="0xC61c">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Chibi Kitsune Umi Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xC61d" id="Chibi Kitsune Umi Pet Skin">
+    <PetSkin />
+    <DisplayId>Chibi Kitsune Umi</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>5</ItemTier>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>246</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xC61e" id="Chibi Kitsune Umi Pet Stone">
+    <DisplayId>Chibi Kitsune Umi Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>5</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>246</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This adorable fox loves to play chase and is willing to trail you to the ends of the realm to catch you. See how long you can outrun her without getting tagged.\n\nUnlocks Chibi Kitsune Umi Pet Skin of the Humanoid family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="50717">UnlockPetSkin</Activate>
     <Consumable />
     <Soulbound />
     <BagType>7</BagType>

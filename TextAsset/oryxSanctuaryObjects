@@ -1896,6 +1896,7 @@
       <Index>0x04</Index>
     </Texture>
     <Size>100</Size>
+    <NoCollisionWhenMovement />
     <Invincible />
     <Labels>ENEMY,BOSS_SPAWNED</Labels>
   </Object>
@@ -1908,6 +1909,7 @@
       <Index>0x05</Index>
     </Texture>
     <Size>80</Size>
+    <NoCollisionWhenMovement />
     <Invincible />
     <Labels>ENEMY,BOSS_SPAWNED</Labels>
   </Object>
@@ -2384,6 +2386,24 @@
       <Index>0x5f</Index>
     </Texture>
     <Size>100</Size>
+  </Object>
+  <Object type="0x44cc" id="O3 Extra Exalt">
+    <DisplayId>Exalt Granter</DisplayId>
+    <Enemy />
+    <Exp />
+    <BXP>0</BXP>
+    <Class>Character</Class>
+    <Size>-1</Size>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <NoMiniMap />
+    <Invincible />
+    <PowerUpLife />
   </Object>
   <Object type="0x21f7" id="Treasurer Anchor Mid">
     <Class>GameObject</Class>

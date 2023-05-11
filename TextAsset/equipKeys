@@ -3273,7 +3273,7 @@
     <Item />
     <Texture>
       <File>d2LofiObjEmbed</File>
-      <Index>1150</Index>
+      <Index>1151</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which generates a wormhole to Forax, a planet consumed by acid water leaving just a few livable isles.</Description>
@@ -3295,7 +3295,7 @@
     <Item />
     <Texture>
       <File>d2LofiObjEmbed</File>
-      <Index>1151</Index>
+      <Index>1150</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which generates a wormhole to Katalund, a planet coated in low flying clouds of unbreathable gas where only metallic, inorganic creatures can survive.</Description>
@@ -4296,6 +4296,71 @@
     <Soulbound />
     <Activate id="Mountain Temple Portal" predefinedDungeonMods="S|;LEPRECHAUN_PURPLE;XPANDREWARDSBOOSTALL_2" readonlymods="true" inheritableMods="false" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">CreatePortal</Activate>
     <Activate id="Mountain Temple Guild Chest" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">Create</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x20ed" id="Moonlight Village Solo Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>578</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens a gate to the Moonlight Village. Accept the welcoming call of the spirits and join in on the festival's dance! \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone." />
+    </ExtraTooltipData>
+    <Activate id="Moonlight Village Portal" readonlymods="true" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object id="Moonlight Village Enchanted Key" type="0x20ee">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>579</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens a gate to the Moonlight Village. Accept the welcoming call of the spirits and join in on the festival's dance! \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <Sound>use_key</Sound>
+    <ExtraTooltipData>
+      <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+    </ExtraTooltipData>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Moonlight Village Portal" readonlymods="true">CreatePortal</Activate>
+    <Activate id="Mystery ST Crate">Exchange</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x20ef" id="Moonlight Village Augmented Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>580</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens a gate to the Moonlight Village. Accept the welcoming call of the spirits and join in on the festival's dance! \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Moonlight Village Portal" readonlymods="true">CreatePortal</Activate>
+    <Activate id="3STKeyMysteryChest">Exchange</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />

@@ -3205,7 +3205,7 @@
     </Projectile>
     <Projectile id="4">
       <ObjectId>MV Flame Bolt</ObjectId>
-      <Damage>75</Damage>
+      <Damage>70</Damage>
       <Speed>0</Speed>
       <LifetimeMS>8364</LifetimeMS>
       <Acceleration>100</Acceleration>
@@ -3218,7 +3218,7 @@
     </Projectile>
     <Projectile id="5">
       <ObjectId>MV Firework Vortex</ObjectId>
-      <Damage>125</Damage>
+      <Damage>120</Damage>
       <Speed>0</Speed>
       <LifetimeMS>2500</LifetimeMS>
       <Size>90</Size>
@@ -3228,7 +3228,7 @@
     </Projectile>
     <Projectile id="6">
       <ObjectId>MV Flame Wave</ObjectId>
-      <Damage>90</Damage>
+      <Damage>80</Damage>
       <Speed>27</Speed>
       <LifetimeMS>5185</LifetimeMS>
       <Size>100</Size>
@@ -4735,7 +4735,7 @@
     </Projectile>
     <Projectile id="30">
       <ObjectId>MV Water Bolt Variant</ObjectId>
-      <Damage>200</Damage>
+      <Damage>100</Damage>
       <Speed>25</Speed>
       <LifetimeMS>10000</LifetimeMS>
       <Size>160</Size>
@@ -9804,7 +9804,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>140</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
     <NoCollisionWhenMovement />
@@ -9877,7 +9877,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>140</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
     <NoCollisionWhenMovement />
@@ -14175,6 +14175,19 @@
       </Style>
     </Presentation>
   </Object>
+  <Object id="MV Lantern System Main Support" type="0x5191">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Invincible />
+    <NoCollisionWhenMovement />
+      &gt;
+   </Object>
   <Object id="MV Lantern System Support" type="0x50e4">
     <Enemy />
     <Class>Character</Class>
@@ -14992,6 +15005,7 @@
     <NoMiniMap />
     <Invincible />
     <EventChestBoss />
+    <TrackLoot />
     <Labels>ENEMY,BOSS,HUMANOID,MINION_STRONG</Labels>
     <SpecialSpawn category="Bis">Moonlight Village Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Double Cheeseburger Deluxe</SpecialSpawn>
@@ -15007,6 +15021,22 @@
     <SpecialSpawn category="Souvenir_MID">Rain Maker</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Hard</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn>
+  </Object>
+  <Object id="MV Umi Complete" type="0xc0bb">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>moonlightVillageObjects16x16</File>
+      <Index>0x69</Index>
+    </Texture>
+    <Exp>0</Exp>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Invincible />
+    <EventChestBoss />
+    <TrackLoot />
+    <Labels>ENEMY,BOSS,HUMANOID,MINION_STRONG</Labels>
   </Object>
   <Object id="MV Exaltation Object 1" type="0x517b">
     <Enemy />
@@ -15973,116 +16003,6 @@
     <EnemyOccupySquare />
     <BlocksSight />
     <Color>0x171B26</Color>
-  </Object>
-  <Object id="MV Basic Fishing Rod" type="0x50df">
-    <DisplayId>Basic Fishing Rod</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>moonlightVillageObjects8x8</File>
-      <Index>486</Index>
-    </Texture>
-    <SlotType>9</SlotType>
-    <Description>A fishing rod fashioned from a tree branch and string. It is suitable for beginners.</Description>
-    <ExtraTooltipData>
-      <EffectInfo description="Only usable in the Moonlight Village. Aim at ripples in the water to catch fish!" name="Fishing" />
-      <EffectInfo name="On Equip:" description="" />
-      <EffectInfo name="" description="+1 Fishing" />
-    </ExtraTooltipData>
-    <BagType>4</BagType>
-    <FameBonus>4</FameBonus>
-    <feedPower>0</feedPower>
-    <Soulbound />
-    <OnPlayerShootActivate cooldown="1.8" proc="1" objectId="MV Basic Bait" throwTime="1.6" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="1.2">ConditionEffectSelf</OnPlayerShootActivate>
-  </Object>
-  <Object id="MV Intermediate Fishing Rod" type="0x50f2">
-    <DisplayId>Intermediate Fishing Rod</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>moonlightVillageObjects8x8</File>
-      <Index>487</Index>
-    </Texture>
-    <SlotType>9</SlotType>
-    <Description>A sturdy fishing rod reinforced with metal. It is an adequete tool for any fishing activities.</Description>
-    <ExtraTooltipData>
-      <EffectInfo description="Only usable in the Moonlight Village. Aim at ripples in the water to catch fish!" name="Fishing" />
-      <EffectInfo name="On Equip:" description="" />
-      <EffectInfo name="" description="+3 Fishing" />
-    </ExtraTooltipData>
-    <BagType>4</BagType>
-    <FameBonus>5</FameBonus>
-    <feedPower>250</feedPower>
-    <Soulbound />
-    <OnPlayerShootActivate cooldown="1.6" proc="1" objectId="MV Intermediate Bait" throwTime="1.6" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="1.2">ConditionEffectSelf</OnPlayerShootActivate>
-  </Object>
-  <Object id="MV Expert Fishing Rod" type="0x514a">
-    <DisplayId>Expert Fishing Rod</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>moonlightVillageObjects8x8</File>
-      <Index>563</Index>
-    </Texture>
-    <SlotType>9</SlotType>
-    <Description>A fishing rod with a steel alloy frame. Its light weight allows for faster casting.</Description>
-    <ExtraTooltipData>
-      <EffectInfo description="Only usable in the Moonlight Village. Aim at ripples in the water to catch fish!" name="Fishing" />
-      <EffectInfo name="On Equip:" description="" />
-      <EffectInfo name="" description="+5 Fishing" />
-    </ExtraTooltipData>
-    <BagType>4</BagType>
-    <FameBonus>5</FameBonus>
-    <feedPower>500</feedPower>
-    <Soulbound />
-    <OnPlayerShootActivate cooldown="1.6" proc="1" objectId="MV Expert Bait" throwTime="1.4" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
-  </Object>
-  <Object id="MV Master Fishing Rod" type="0x50f3">
-    <DisplayId>Master Fishing Rod</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>moonlightVillageObjects8x8</File>
-      <Index>488</Index>
-    </Texture>
-    <SlotType>9</SlotType>
-    <Description>A fishing rod used by master fishers. It requires skill and precision to use to its full potential.</Description>
-    <ExtraTooltipData>
-      <EffectInfo description="Only usable in the Moonlight Village. Aim at ripples in the water to catch fish!" name="Fishing" />
-      <EffectInfo name="On Equip:" description="" />
-      <EffectInfo name="" description="+7 Fishing" />
-    </ExtraTooltipData>
-    <BagType>6</BagType>
-    <FameBonus>6</FameBonus>
-    <feedPower>750</feedPower>
-    <Soulbound />
-    <OnPlayerShootActivate cooldown="1.4" proc="1" objectId="MV Master Bait" throwTime="1.4" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
-  </Object>
-  <Object id="MV Legendary Fishing Rod" type="0x50f6">
-    <DisplayId>Legendary Fishing Rod</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>moonlightVillageObjects8x8</File>
-      <Index>491</Index>
-    </Texture>
-    <SlotType>9</SlotType>
-    <Description>A legendary fishing rod only passed down to those who are worthy. It is unrivalled in effectiveness.</Description>
-    <ExtraTooltipData>
-      <EffectInfo description="Only usable in the Moonlight Village. Aim at ripples in the water to catch fish!" name="Fishing" />
-      <EffectInfo name="On Equip:" description="" />
-      <EffectInfo name="" description="+10 Fishing" />
-    </ExtraTooltipData>
-    <BagType>6</BagType>
-    <FameBonus>7</FameBonus>
-    <feedPower>1000</feedPower>
-    <Soulbound />
-    <OnPlayerShootActivate cooldown="1.4" proc="1" objectId="MV Legendary Bait" throwTime="1.2" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="0" duration="0.8">ConditionEffectSelf</OnPlayerShootActivate>
   </Object>
   <Object id="MV Basic Bait" type="0x50e6">
     <Class>Character</Class>
@@ -20279,6 +20199,7 @@
     <Defense>0</Defense>
     <Exp>30000</Exp>
     <EventChestBoss />
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Regular Loot 1" type="0x504a">
@@ -20293,6 +20214,7 @@
     <NoMiniMap />
     <Exp>20000</Exp>
     <Invincible />
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Regular Loot 2" type="0x504b">
@@ -20307,6 +20229,7 @@
     <NoMiniMap />
     <Exp>25000</Exp>
     <Invincible />
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Regular Loot 3" type="0x504c">
@@ -20321,6 +20244,7 @@
     <NoMiniMap />
     <Exp>30000</Exp>
     <Invincible />
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Regular Loot 4" type="0x504d">
@@ -20335,6 +20259,7 @@
     <NoMiniMap />
     <Exp>35000</Exp>
     <Invincible />
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Extra Loot 0" type="0x504f">
@@ -20421,6 +20346,7 @@
     <HitSound>monster/stone_walls_hit</HitSound>
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>0</Defense>
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Special Loot 1" type="0x5055">
@@ -20435,6 +20361,7 @@
     <NoMiniMap />
     <Exp>30000</Exp>
     <Invincible />
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Special Loot 2" type="0x5056">
@@ -20449,6 +20376,7 @@
     <NoMiniMap />
     <Exp>35000</Exp>
     <Invincible />
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Special Loot 3" type="0x5057">
@@ -20463,6 +20391,7 @@
     <NoMiniMap />
     <Exp>40000</Exp>
     <Invincible />
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Special Loot 4" type="0x5058">
@@ -20477,6 +20406,7 @@
     <NoMiniMap />
     <Exp>45000</Exp>
     <Invincible />
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Premium Loot 0" type="0x5059">
@@ -20576,6 +20506,7 @@
     <NoMiniMap />
     <Exp>15000</Exp>
     <Invincible />
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Basic Loot 2" type="0x5063">
@@ -20590,6 +20521,7 @@
     <NoMiniMap />
     <Exp>20000</Exp>
     <Invincible />
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Basic Loot 3" type="0x5064">
@@ -20604,6 +20536,7 @@
     <NoMiniMap />
     <Exp>25000</Exp>
     <Invincible />
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Basic Loot 4" type="0x5065">
@@ -20618,6 +20551,7 @@
     <NoMiniMap />
     <Exp>30000</Exp>
     <Invincible />
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Plain Loot 1" type="0x5066">
@@ -20688,6 +20622,7 @@
     <Defense>0</Defense>
     <Size>110</Size>
     <Exp>10000</Exp>
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Fishing Loot 2" type="0x5136">
@@ -20702,6 +20637,7 @@
     <Defense>0</Defense>
     <Size>110</Size>
     <Exp>15000</Exp>
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Fishing Loot 3" type="0x5137">
@@ -20716,6 +20652,7 @@
     <Defense>0</Defense>
     <Size>110</Size>
     <Exp>20000</Exp>
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Fishing Loot 4" type="0x5138">
@@ -20730,6 +20667,7 @@
     <Defense>0</Defense>
     <Size>110</Size>
     <Exp>25000</Exp>
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Fishing Loot 5" type="0x5139">
@@ -20744,6 +20682,7 @@
     <Defense>0</Defense>
     <Size>110</Size>
     <Exp>30000</Exp>
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Fishing Loot 6" type="0x513a">
@@ -20758,6 +20697,7 @@
     <Defense>0</Defense>
     <Size>110</Size>
     <Exp>35000</Exp>
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Fishing Loot 7" type="0x514c">
@@ -20772,6 +20712,7 @@
     <Defense>0</Defense>
     <Size>110</Size>
     <Exp>35000</Exp>
+    <TrackLoot />
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Book Dropper" type="0x5006">

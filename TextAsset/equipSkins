@@ -106,7 +106,6 @@
   </Object>
   <Object type="0x2581" id="Mini Geb Skin">
     <Class>Equipment</Class>
-    <ItemTier>3</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>playerskins</File>
@@ -389,7 +388,6 @@
   </Object>
   <Object type="0x7fbe" id="Dragon Tamer Skin">
     <Class>Equipment</Class>
-    <ItemTier>3</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>playerskins</File>
@@ -2807,7 +2805,7 @@
   </Object>
   <Object type="0x4aaf" id="Iceman Skin (SB)">
     <Class>Equipment</Class>
-    <ItemTier>2</ItemTier>
+    <ItemTier>3</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>playerskins</File>
@@ -2933,7 +2931,7 @@
   </Object>
   <Object type="0x4ab6" id="Hunchback Skin (SB)">
     <Class>Equipment</Class>
-    <ItemTier>1</ItemTier>
+    <ItemTier>2</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>playerskins</File>
@@ -3023,7 +3021,7 @@
   </Object>
   <Object type="0x4abb" id="Bashing Bride Skin (SB)">
     <Class>Equipment</Class>
-    <ItemTier>1</ItemTier>
+    <ItemTier>2</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>playerskins</File>
@@ -3167,7 +3165,7 @@
   </Object>
   <Object type="0x4ac3" id="Deadly Vixen Skin (SB)">
     <Class>Equipment</Class>
-    <ItemTier>1</ItemTier>
+    <ItemTier>2</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>playerskins</File>
@@ -7506,6 +7504,7 @@
   <Object type="0x280e" id="Stone Samurai Skin">
     <Class>Equipment</Class>
     <Item />
+    <ItemTier>1</ItemTier>
     <AnimatedTexture>
       <File>playerskins</File>
       <Index>378</Index>
@@ -7597,6 +7596,7 @@
   <Object type="0x2248" id="Slime Samurai Skin">
     <Class>Equipment</Class>
     <Item />
+    <ItemTier>1</ItemTier>
     <AnimatedTexture>
       <File>playerskins</File>
       <Index>383</Index>
@@ -8864,7 +8864,6 @@
   </Object>
   <Object type="0x5ecd" id="Mini Ghost Archer Skin">
     <Class>Equipment</Class>
-    <ItemTier>3</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>playerskins</File>
@@ -8972,7 +8971,6 @@
   </Object>
   <Object type="0x5ed9" id="Mini Totalia Mystic Skin">
     <Class>Equipment</Class>
-    <ItemTier>4</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>playerskins</File>
@@ -11010,6 +11008,7 @@
   <Object type="0x24a6" id="Slime Bard Skin">
     <Class>Equipment</Class>
     <Item />
+    <ItemTier>1</ItemTier>
     <AnimatedTexture>
       <File>playerskins</File>
       <Index>557</Index>
@@ -11111,6 +11110,7 @@
   <Object type="0x24b2" id="Stone Bard Skin">
     <Class>Equipment</Class>
     <Item />
+    <ItemTier>1</ItemTier>
     <AnimatedTexture>
       <File>playerskins</File>
       <Index>559</Index>
@@ -13635,6 +13635,7 @@
   <Object type="0x77fe" id="Stone Summoner Skin">
     <Class>Equipment</Class>
     <Item />
+    <ItemTier>1</ItemTier>
     <AnimatedTexture>
       <File>playerskins</File>
       <Index>667</Index>
@@ -13654,6 +13655,7 @@
   <Object type="0x7800" id="Slime Summoner Skin">
     <Class>Equipment</Class>
     <Item />
+    <ItemTier>1</ItemTier>
     <AnimatedTexture>
       <File>playerskins</File>
       <Index>668</Index>
@@ -15890,6 +15892,7 @@
   <Object type="0x78fb" id="Stone Kensei Skin">
     <Class>Equipment</Class>
     <Item />
+    <ItemTier>1</ItemTier>
     <AnimatedTexture>
       <File>playerskins</File>
       <Index>783</Index>
@@ -15963,6 +15966,7 @@
   </Object>
   <Object type="0x7a03" id="Slime Kensei Skin">
     <Class>Equipment</Class>
+    <ItemTier>1</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>playerskins</File>
@@ -16294,7 +16298,6 @@
   </Object>
   <Object type="0x7a29" id="Veteran Kensei Skin">
     <Class>Equipment</Class>
-    <ItemTier>4</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>playerskins</File>
@@ -16350,7 +16353,6 @@
   </Object>
   <Object type="0x7a2f" id="Antinomy Kensei Skin">
     <Class>Equipment</Class>
-    <ItemTier>4</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>playerskins</File>
@@ -16804,7 +16806,6 @@
   </Object>
   <Object type="0x3892" id="Mini Fiery Kensei Skin">
     <Class>Equipment</Class>
-    <ItemTier>4</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>playerskins</File>
@@ -18387,6 +18388,40 @@
     <BagType>7</BagType>
     <Soulbound />
     <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object type="0xc295" id="April Fools Summoner Skin">
+    <DisplayId>Mystery Summoner Skin</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>905</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Hold on, I was told this unlocks a random Summoner skin!</Description>
+    <Activate skinType="49812">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <UniqueID />
+    <Track />
+  </Object>
+  <Object type="0xc297" id="April Fools Kensei Skin">
+    <DisplayId>Mystery Kensei Skin</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>906</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Hold on, I was told this unlocks a random Kensei skin!</Description>
+    <Activate skinType="49814">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <UniqueID />
     <Track />
   </Object>
 </Objects>

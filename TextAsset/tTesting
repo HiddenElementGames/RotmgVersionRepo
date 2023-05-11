@@ -135,4 +135,50 @@
     <Size>200</Size>
     <ShadowSize>50</ShadowSize>
   </Object>
+  <Object type="0x445c" id="condtesttarget">
+    <Group>Pirates</Group>
+    <Enemy />
+    <Exp>1</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rBeach</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>0</Defense>
+    <BXP>2</BXP>
+    <Terrain>ShoreSand</Terrain>
+    <Projectile id="0">
+      <ObjectId>Blade</ObjectId>
+      <Damage>4</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>600</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x445e" id="condtestcheck">
+    <Group>Pirates</Group>
+    <Enemy />
+    <Exp>1</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rBeach</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>500000</MaxHitPoints>
+    <Defense>0</Defense>
+    <BXP>2</BXP>
+    <Terrain>ShoreSand</Terrain>
+    <Projectile id="0">
+      <ObjectId>Blade</ObjectId>
+      <Damage>4</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>600</LifetimeMS>
+    </Projectile>
+  </Object>
 </Objects>
