@@ -1356,5 +1356,37 @@
     <Setpiece slot="1" itemtype="0xc67e">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0xc67f">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0xc680">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0x1b64" size="80" color="0xb5ffbc" bulletType="Bilgewater Cannonball Skull">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="60">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="WIS" amount="10">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="5">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="SPD" amount="4">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="MAXMP" amount="35">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="WIS" amount="6">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="SPD" amount="2">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXMP" amount="25">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="WIS" amount="4">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEF" amount="1">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="SPD" amount="1">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x425f" id="Kogbold Pyrotechnician Wizard Set">
+    <Setpiece slot="0" itemtype="0xc681">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xc682">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xc683">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0xc684">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0x4f58" size="80" color="0x01FFFF" bulletType="Slurp Mega Magic" requiredItems="0xc681,0xc682,0xc683,0xc684">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="50">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="30">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEX" amount="8">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="3">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="MAXHP" amount="25">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXMP" amount="20">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEX" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="2">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXHP" amount="15">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXMP" amount="10">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEX" amount="3">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEF" amount="1">IncrementStat</ActivateOnEquip2>
   </EquipmentSet>
 </EquipmentSets>

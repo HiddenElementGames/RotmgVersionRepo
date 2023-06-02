@@ -389,200 +389,6 @@
     <UniqueID />
     <Labels>EQUIPMENT,ABILITY,POISON,ST,TAB_ST,ST_ABILITY,STGEN_2,POWERTIER_B,XPBONUS,MPCOST</Labels>
   </Object>
-  <Object type="0xff3e" id="Trick Lute">
-    <Class>Equipment</Class>
-    <Item />
-    <Texture xOffset="2" yOffset="0">
-      <File>lofiObj6</File>
-      <Index>0xd0</Index>
-    </Texture>
-    <SlotType>28</SlotType>
-    <Tier>8</Tier>
-    <Description>A magical lute with multiple modes.</Description>
-    <Sound>spell/major_heal</Sound>
-    <Usable />
-    <UniqueID />
-    <Ability>
-      <ExtraTooltipData>
-        <EffectInfo name="Party Effect" description=" Within 4.5 sqrs Inspired for 3 seconds." />
-        <EffectInfo name="Projectile Speed Multiplier" description="x1.25" />
-      </ExtraTooltipData>
-      <Activate radius="4.5" speedBoost="1.25" lifeBoost="1" duration="3" targeted="false">BoostRange</Activate>
-      <Activate range="4.5" stat="DEF" amount="1" duration="2" channel="maxStack">StatBoostAura</Activate>
-      <MpCost>70</MpCost>
-    </Ability>
-    <Ability>
-      <Texture xOffset="2" yOffset="0">
-        <File>lofiObj6</File>
-        <Index>0xd5</Index>
-      </Texture>
-      <ExtraTooltipData>
-        <EffectInfo name="Party Effect" description=" Within 4.5 sqrs Inspired for 5.5 seconds." />
-        <EffectInfo name="Projectile Speed Multiplier" description="x1.25" />
-      </ExtraTooltipData>
-      <Activate radius="4.5" duration="5.5" speedBoost="1.25" lifeBoost="1" targeted="false">BoostRange</Activate>
-      <Activate range="4.5" stat="MAXHP" amount="80" duration="4.5" channel="maxStack">StatBoostAura</Activate>
-      <MpCost>90</MpCost>
-    </Ability>
-    <Ability name="Spawn Unicorns">
-      <Texture xOffset="2" yOffset="0">
-        <File>lofiObj6</File>
-        <Index>0x10f</Index>
-      </Texture>
-      <Activate objectId="Summon Steed" maxSpawnDistance="8.0">SpawnCreep</Activate>
-      <Cooldown>1</Cooldown>
-      <MpCost>100</MpCost>
-      <ExtraTooltipData>
-        <EffectInfo name="Summons" description="Wandering steed, click or hold your Summon Control button to move it." />
-        <EffectInfo name="Lifetime" description="10 seconds" />
-      </ExtraTooltipData>
-      <MpCost>110</MpCost>
-    </Ability>
-    <BagType>1</BagType>
-    <feedPower>4</feedPower>
-    <DropTradable />
-    <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T0,MPCOST,APPLY_STAT_EFF,TRADEABLE</Labels>
-  </Object>
-  <DisplayId />
-  <InventoryAnimation />
-  <Object id="3ArcherST0" type="0xc67d" setName="Kogbold Inventor Archer Set" setType="0x425e" collectionIcon="3">
-    <DisplayId>Experimental Cannon</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>lofiObj3</File>
-      <Index>0x5f5</Index>
-    </Texture>
-    <SlotType>3</SlotType>
-    <Description>Temp - Item functions like a longbow with burst fire, but puts the bullets as a line instead using of the longbow offsets.</Description>
-    <ExtraTooltipData>
-      <EffectInfo description="Temp - If worn, Gun Turrets fire faster and use slowing bullets more often." name="Gun Boost" />
-    </ExtraTooltipData>
-    <OldSound>arrowShoot</OldSound>
-    <Subattack projectileId="0">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>1</RateOfFire>
-      <PosOffset>0,0</PosOffset>
-      <BurstCount>4</BurstCount>
-      <BurstDelay>1.4</BurstDelay>
-      <BurstMinDelay>0.8</BurstMinDelay>
-    </Subattack>
-    <Subattack projectileId="0">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>1</RateOfFire>
-      <PosOffset>-0.35,0</PosOffset>
-      <BurstCount>4</BurstCount>
-      <BurstDelay>1.4</BurstDelay>
-      <BurstMinDelay>0.8</BurstMinDelay>
-    </Subattack>
-    <Subattack projectileId="0">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>1</RateOfFire>
-      <PosOffset>0.35,0</PosOffset>
-      <BurstCount>4</BurstCount>
-      <BurstDelay>1.4</BurstDelay>
-      <BurstMinDelay>0.8</BurstMinDelay>
-    </Subattack>
-    <Projectile id="0">
-      <ObjectId>Cannonball</ObjectId>
-      <Speed>160</Speed>
-      <MinDamage>90</MinDamage>
-      <MaxDamage>110</MaxDamage>
-      <LifetimeMS>440</LifetimeMS>
-      <Size>60</Size>
-      <FaceDir />
-    </Projectile>
-    <NumProjectiles>2</NumProjectiles>
-    <ArcGap>0</ArcGap>
-    <BagType>8</BagType>
-    <feedPower>800</feedPower>
-    <Soulbound />
-    <XPBonus>5</XPBonus>
-    <UniqueID />
-    <ActivateOnEquip amount="3" stat="WIS">IncrementStat</ActivateOnEquip>
-    <Labels>EQUIPMENT,WEAPON,BOW,ST,TAB_ST,ST_WEAPON,STGEN_3,POWERTIER_C,XPBONUS</Labels>
-  </Object>
-  <Object id="3ArcherST1" type="0xc67e" setName="Kogbold Inventor Archer Set" setType="0x425e" collectionIcon="3">
-    <DisplayId>Sentry Turret</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>lofiObj3</File>
-      <Index>0x5f6</Index>
-    </Texture>
-    <Projectile id="0">
-      <ObjectId>Cannonball</ObjectId>
-      <Speed>0</Speed>
-      <MinDamage>0</MinDamage>
-      <MaxDamage>0</MaxDamage>
-      <LifetimeMS>0</LifetimeMS>
-      <Size>0</Size>
-      <MultiHit />
-      <FaceDir />
-    </Projectile>
-    <SlotType>15</SlotType>
-    <Description>Temp - Turret has different firing modes, described in tooltip data.</Description>
-    <ExtraTooltipData>
-      <EffectInfo description="Turret rapidly fires towards foes" name="Gun Mode" />
-      <EffectInfo description="Creates a spinning flail." name="Flail Mode" />
-      <EffectInfo description="Fires slower, heavier bullets." name="Heavy Mode" />
-    </ExtraTooltipData>
-    <Usable />
-    <BagType>8</BagType>
-    <Soulbound />
-    <feedPower>850</feedPower>
-    <XPBonus>7</XPBonus>
-    <UniqueID />
-    <ActivateOnEquip amount="5" stat="WIS">IncrementStat</ActivateOnEquip>
-    <Labels>EQUIPMENT,ABILITY,QUIVER,ST,TAB_ST,ST_ABILITY,STGEN_3,POWERTIER_C,XPBONUS,MPCOST</Labels>
-  </Object>
-  <Object id="3ArcherST2" type="0xc67f" setName="Kogbold Inventor Archer Set" setType="0x425e" collectionIcon="3">
-    <Class>Equipment</Class>
-    <Item />
-    <DisplayId>Robe of Many Pockets</DisplayId>
-    <Description>Temp - Adds to MP and WIS.  Allows for deploying the turret quickly and without waiting on a recharge.</Description>
-    <ExtraTooltipData>
-      <EffectInfo description="Temp - If worn, Flail Turrets have five links." name="Flail Boost" />
-    </ExtraTooltipData>
-    <Texture>
-      <File>lofiObj3</File>
-      <Index>0x5f7</Index>
-    </Texture>
-    <SlotType>6</SlotType>
-    <ActivateOnEquip amount="50" stat="MAXMP">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="5" stat="WIS">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="3" stat="SPD">IncrementStat</ActivateOnEquip>
-    <BagType>8</BagType>
-    <feedPower>700</feedPower>
-    <Soulbound />
-    <XPBonus>6</XPBonus>
-    <UniqueID />
-    <Labels>EQUIPMENT,ARMOR,LEATHER,ST,TAB_ST,ST_ARMOR,STGEN_3,POWERTIER_B,XPBONUS</Labels>
-  </Object>
-  <Object id="3ArcherST3" type="0xc680" setName="Kogbold Inventor Archer Set" setType="0x425e" collectionIcon="3">
-    <Class>Equipment</Class>
-    <Item />
-    <DisplayId>Targeting Monocular</DisplayId>
-    <Texture xOffset="-2" yOffset="0">
-      <File>lofiObj3</File>
-      <Index>0x5f8</Index>
-    </Texture>
-    <SlotType>9</SlotType>
-    <Description>Temp - Adds a bulk bonus of WIS and some of the set's DEF total.</Description>
-    <ExtraTooltipData>
-      <EffectInfo description="Temp - If worn, Heavy Turrets do more damage and use paralysis bullets more often." name="Heavy Boost" />
-    </ExtraTooltipData>
-    <ActivateOnEquip amount="50" stat="MAXHP">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="12" stat="WIS">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="2" stat="DEF">IncrementStat</ActivateOnEquip>
-    <BagType>8</BagType>
-    <feedPower>600</feedPower>
-    <Soulbound />
-    <XPBonus>4</XPBonus>
-    <UniqueID />
-    <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_3,POWERTIER_C,XPBONUS</Labels>
-  </Object>
   <Object type="0xc990" id="Blueprint_Test_1">
     <DisplayId>Special Test Blueprint 1</DisplayId>
     <Class>Equipment</Class>
@@ -650,5 +456,474 @@
     <Soulbound />
     <NoSeasonalToRegularConversion />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0xc995" id="Test Dust Charm">
+    <DisplayId>Test Dust Charm</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x11e</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Adds 5k of each dust type when consumed.</Description>
+    <Sound>use_potion</Sound>
+    <Activate dustType="greenDust" amount="2000">AddDust</Activate>
+    <Consumable />
+    <BagType>8</BagType>
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0xc996" id="Iron Plating Engraving">
+    <DisplayId>Iron Plating Engraving</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Iron Plating Engraving unlocker</Description>
+    <Sound>use_potion</Sound>
+    <BagType>8</BagType>
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>EQUIPMENT,ENGRAVING</Labels>
+  </Object>
+  <Object type="0xc997" id="Kogbold Spirit Engraving">
+    <DisplayId>Kogbold Spirit Engraving</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x1</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Kogbold Spirit Engraving unlocker</Description>
+    <Sound>use_potion</Sound>
+    <BagType>8</BagType>
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>EQUIPMENT,ENGRAVING</Labels>
+  </Object>
+  <Object type="0xc998" id="Heavy Hitter Engraving">
+    <DisplayId>Heavy Hitter Engraving</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x2</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Heavy Hitter Engraving unlocker</Description>
+    <Sound>use_potion</Sound>
+    <BagType>8</BagType>
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>EQUIPMENT,ENGRAVING</Labels>
+  </Object>
+  <Object type="0xc999" id="Gatling Shots Engraving">
+    <DisplayId>Gatling Shots Engraving</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x3</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Gatling Shots Engraving unlocker</Description>
+    <Sound>use_potion</Sound>
+    <BagType>8</BagType>
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>EQUIPMENT,ENGRAVING</Labels>
+  </Object>
+  <Object type="0xc99A" id="Subattacks Container">
+    <DisplayId>Subattacks Container</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b3</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Container for new subbatacks</Description>
+    <Sound>use_potion</Sound>
+    <Subattack projectileId="0">
+      <NumProjectiles>5</NumProjectiles>
+      <RateOfFire>5.0</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>2</NumProjectiles>
+      <RateOfFire>2.0</RateOfFire>
+    </Subattack>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+    </Projectile>
+    <BagType>8</BagType>
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>EQUIPMENT</Labels>
+  </Object>
+  <Object type="0xc99B" id="Shortbow 2">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="-2">
+      <File>lofiProjs</File>
+      <Index>0xdc</Index>
+    </Texture>
+    <SlotType>3</SlotType>
+    <Tier>0</Tier>
+    <Description>A well-made shortbow.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/poor_quality_bow</Sound>
+    <Subattack projectileId="0">
+      <ProjectilePattern projectileId="0">
+        <NumProjectiles>1</NumProjectiles>
+      </ProjectilePattern>
+      <ProjectilePattern projectileId="0">
+        <NumProjectiles>3</NumProjectiles>
+        <ArcGap>5</ArcGap>
+      </ProjectilePattern>
+      <ProjectilePattern projectileId="0">
+        <NumProjectiles>5</NumProjectiles>
+        <ArcGap>25</ArcGap>
+        <DefaultAngle>90</DefaultAngle>
+      </ProjectilePattern>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Large Standard Arrow</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>15</MinDamage>
+      <MaxDamage>20</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <MultiHit />
+      <Size>120</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Small T0 Arrow</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>5</MinDamage>
+      <MaxDamage>10</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <MultiHit />
+      <Size>60</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <BagType>1</BagType>
+    <OldSound>arrowShoot</OldSound>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,BOW,TIERED,T0,TRADEABLE,BASETYPE</Labels>
+  </Object>
+  <Object type="0xc898" id="Onhit Nova 1 Projectiles">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Lightning Bolt</ObjectId>
+      <Speed>100</Speed>
+      <LifetimeMS>300</LifetimeMS>
+      <Damage>100</Damage>
+      <Size>100</Size>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0xc89b" id="Onhit Fan 1 Projectiles">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Lightning Bolt</ObjectId>
+      <Speed>100</Speed>
+      <LifetimeMS>600</LifetimeMS>
+      <Damage>150</Damage>
+      <Size>100</Size>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0xc89e" id="Onhit Sniper 1 Projectiles">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Lightning Bolt</ObjectId>
+      <Speed>150</Speed>
+      <LifetimeMS>600</LifetimeMS>
+      <Damage>200</Damage>
+      <Size>100</Size>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d94" id="Onhit Quiver Projectile T6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>White Bolt</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>925</MinDamage>
+      <MaxDamage>1125</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>150</Size>
+      <ConditionEffect duration="3">Dazed</ConditionEffect>
+      <ParticleTrail />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d95" id="Onhit Quiver Projectile T7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Crimson Arrow</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>800</MinDamage>
+      <MaxDamage>900</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>150</Size>
+      <ConditionEffect duration="3">Paralyzed</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ParticleTrail />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d96" id="Onhit Spell Projectile T6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Purple Bolt</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>165</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d97" id="Onhit Spell Projectile T7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Red Bolt</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>95</MinDamage>
+      <MaxDamage>185</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d98" id="Onhit Shield Projectile T6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Silver Shield</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>360</MaxDamage>
+      <LifetimeMS>200</LifetimeMS>
+      <Size>140</Size>
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ParticleTrail />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d99" id="Onhit Shield Projectile T7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Silver Shield</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>340</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <LifetimeMS>200</LifetimeMS>
+      <Size>140</Size>
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ParticleTrail />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d9A" id="Onhit Star Projectile T6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Ninja Star Doom</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>1325</MinDamage>
+      <MaxDamage>1425</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>120</Size>
+      <PassesCover />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d9B" id="Onhit Star Projectile T7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Ninja Star Dynastic</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>1575</MinDamage>
+      <MaxDamage>1675</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>120</Size>
+      <PassesCover />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d9C" id="Onhit Wakizashi Projectile T6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Wakizashi Slash 6</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <ConditionEffect duration="3.5">Exposed</ConditionEffect>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d9D" id="Onhit Wakizashi Projectile T7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Wakizashi Slash 7</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>450</MinDamage>
+      <MaxDamage>600</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <ConditionEffect duration="4">Exposed</ConditionEffect>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d9E" id="Onhit Mace Projectile T6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Summon Bear Projectile</ObjectId>
+      <Speed>135</Speed>
+      <Size>100</Size>
+      <MinDamage>205</MinDamage>
+      <MaxDamage>230</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d9F" id="Onhit Mace Projectile T7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Summon Panther Projectile</ObjectId>
+      <Speed>135</Speed>
+      <Size>100</Size>
+      <MinDamage>240</MinDamage>
+      <MaxDamage>265</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
 </Objects>

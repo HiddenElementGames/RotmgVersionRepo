@@ -201,7 +201,6 @@
     <ParalyzeImmune />
     <DazedImmune />
     <Encounter />
-    <RealmScore>1500</RealmScore>
     <PerRealmMax>1</PerRealmMax>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
@@ -1907,7 +1906,6 @@
     <DontFaceAttacks />
     <StasisImmune />
     <Hero />
-    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <TrackLoot />
@@ -2513,7 +2511,6 @@
     <Enemy />
     <Class>Character</Class>
     <Hero />
-    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
@@ -2687,7 +2684,6 @@
     <God />
     <StasisImmune />
     <Hero />
-    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <Encounter />
@@ -2785,7 +2781,6 @@
     <Defense>40</Defense>
     <Enemy />
     <Hero />
-    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
@@ -2869,7 +2864,6 @@
     <Defense>40</Defense>
     <Enemy />
     <Hero />
-    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <TrackLoot />
@@ -2948,7 +2942,6 @@
     <Exp>15000</Exp>
     <BXP>75000</BXP>
     <Hero />
-    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
@@ -3072,7 +3065,6 @@
     <Exp>15000</Exp>
     <BXP>75000</BXP>
     <Hero />
-    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <TrackLoot />
@@ -3287,7 +3279,6 @@
     </Texture>
     <Size>0</Size>
     <Hero />
-    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <Encounter />
@@ -3372,7 +3363,6 @@
       </Frame>
     </Animation>
     <Hero />
-    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <Level>20</Level>
@@ -3398,7 +3388,6 @@
     <Enemy />
     <Class>Character</Class>
     <Hero />
-    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
@@ -3638,7 +3627,6 @@
     <Exp>0</Exp>
     <God />
     <Hero />
-    <RealmScore>1000</RealmScore>
     <Quest />
     <TrackLoot />
     <Level>20</Level>
@@ -4081,7 +4069,6 @@
     <BXP>175000</BXP>
     <Flying />
     <Hero />
-    <RealmScore>1000</RealmScore>
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -4608,7 +4595,6 @@
     </AltTexture>
     <God />
     <Hero />
-    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <TrackLoot />
@@ -7190,114 +7176,5 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
-  </Object>
-  <Object type="0xc101" id="Realm 1 Master">
-    <MasterObject />
-    <Class>MasterObject</Class>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <Size>0</Size>
-    <Labels>REALM,MASTER</Labels>
-  </Object>
-  <Object type="0xc102" id="Realm 1 Mountains Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <AnimatedTexture>
-      <File>playerskins</File>
-      <Index>142</Index>
-    </AnimatedTexture>
-    <Terrain>MidPlains</Terrain>
-    <Size>100</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
-  </Object>
-  <Object type="0xc1e7" id="Realm 1 Tundra Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <AnimatedTexture>
-      <File>playerskins</File>
-      <Index>142</Index>
-    </AnimatedTexture>
-    <Terrain>MidPlains</Terrain>
-    <Size>100</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
-  </Object>
-  <Object type="0xc1e8" id="Realm 1 Deep Sea Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <AnimatedTexture>
-      <File>playerskins</File>
-      <Index>142</Index>
-    </AnimatedTexture>
-    <Terrain>MidPlains</Terrain>
-    <Size>100</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
-  </Object>
-  <Object type="0xc1e9" id="Realm 1 Sprite Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <AnimatedTexture>
-      <File>playerskins</File>
-      <Index>142</Index>
-    </AnimatedTexture>
-    <Terrain>MidPlains</Terrain>
-    <Size>100</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
-  </Object>
-  <Object type="0xc1ea" id="Realm 1 Hell Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <AnimatedTexture>
-      <File>playerskins</File>
-      <Index>142</Index>
-    </AnimatedTexture>
-    <Terrain>MidPlains</Terrain>
-    <Size>100</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
-  </Object>
-  <Object type="0xc1e3" id="Low Beach Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <AnimatedTexture>
-      <File>playerskins</File>
-      <Index>142</Index>
-    </AnimatedTexture>
-    <Terrain>MidPlains</Terrain>
-    <Size>100</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
-  </Object>
-  <Object type="0xc1e4" id="Low Forest Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <AnimatedTexture>
-      <File>playerskins</File>
-      <Index>142</Index>
-    </AnimatedTexture>
-    <Terrain>MidPlains</Terrain>
-    <Size>100</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
-  </Object>
-  <Object type="0xc1e5" id="Undead Forest Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <AnimatedTexture>
-      <File>playerskins</File>
-      <Index>142</Index>
-    </AnimatedTexture>
-    <Terrain>MidPlains</Terrain>
-    <Size>100</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
-  </Object>
-  <Object type="0xc1e6" id="Plains Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <AnimatedTexture>
-      <File>playerskins</File>
-      <Index>142</Index>
-    </AnimatedTexture>
-    <Terrain>MidPlains</Terrain>
-    <Size>100</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
   </Object>
 </Objects>

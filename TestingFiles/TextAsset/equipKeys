@@ -128,7 +128,7 @@
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Abyss of Demons Portal">CreatePortal</Activate>
+    <Activate id="Abyss of Demons Portal" minLevel="4" maxLevel="5">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -223,7 +223,7 @@
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Ocean Trench Portal">CreatePortal</Activate>
+    <Activate id="Ocean Trench Portal" minLevel="6" maxLevel="6">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -885,7 +885,7 @@
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Mountain Temple Portal">CreatePortal</Activate>
+    <Activate id="Mountain Temple Portal" minLevel="6" maxLevel="6">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -1023,7 +1023,7 @@
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Parasite Chambers Portal">CreatePortal</Activate>
+    <Activate id="Parasite Chambers Portal" minLevel="6" maxLevel="6">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -1986,7 +1986,7 @@
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Abyss of Demons Portal" onlyIn="vault">CreatePortal</Activate>
+    <Activate id="Abyss of Demons Portal" onlyIn="vault" minLevel="4" maxLevel="5">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -2748,7 +2748,7 @@
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Abyss of Demons Portal">CreatePortal</Activate>
+    <Activate id="Abyss of Demons Portal" minLevel="4" maxLevel="5">CreatePortal</Activate>
     <Activate id="Mystery ST Crate">Exchange</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
@@ -3723,7 +3723,7 @@
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Abyss of Demons Portal">CreatePortal</Activate>
+    <Activate id="Abyss of Demons Portal" minLevel="4" maxLevel="5">CreatePortal</Activate>
     <Activate id="3STKeyMysteryChest">Exchange</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
@@ -4122,7 +4122,7 @@
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Kogbold Steamworks Portal">CreatePortal</Activate>
+    <Activate id="Kogbold Steamworks Portal" minLevel="11" maxLevel="11">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -4142,7 +4142,7 @@
     </ExtraTooltipData>
     <Consumable />
     <Soulbound />
-    <Activate id="Kogbold Steamworks Portal">CreatePortal</Activate>
+    <Activate id="Steamworks 11" minLevel="11" maxLevel="11">CreatePortal</Activate>
     <Activate id="Mystery ST Crate">Exchange</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
@@ -4365,5 +4365,29 @@
     <BagType>7</BagType>
     <Track />
     <UniqueID />
+  </Object>
+  <Object type="0x4530" id="Solo Parasite Chambers Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1220</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Parasite Chambers. Some of the realm's most foul and horrific creatures make their home in these chambers.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for higher chance at loot and more experience." />
+      <EffectInfo name="Seasonal Key" description="This key can only be used on seasonal characters and cannot be transferred to non seasonal characters." />
+      <EffectInfo name="Flash of Lightning" description="The dungeon boss has been charged with a faint electricity, defeating it has a chance for an extra reward." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Parasite Chambers Portal" predefinedDungeonMods="S|;XPANDREWARDSBOOSTALL_2;SPEEDRUN_REWARD" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+    <SeasonalOnly />
   </Object>
 </Objects>

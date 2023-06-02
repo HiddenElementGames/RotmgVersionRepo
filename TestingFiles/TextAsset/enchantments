@@ -1,0 +1,2699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Enchantments>
+  <Enchantment id="IRON_PLATING_DIPLOMATIC_ROBE" type="0x1">
+    <DisplayId>Iron Plating</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5 DEF.  When hit for more than 20 damage at less than half health applies Healing effect for 5 seconds.  20 seconds cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,ROBE,UT,POWERTIER_S,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="DEF" amount="5">IncrementStat</ActivateOnEquip>
+      <AddOnPlayerHitActivate hpMinThresholdRelative="0.5" damageThreshold="20" proc="1" cooldown="20" duration="5" effect="Healing">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Iron Plating Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="IRON_PLATING_GLADIATOR_GUARD" type="0x2">
+    <DisplayId>Iron Plating</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5 DEF.  When hit for more than 20 damage at less than half health applies Healing effect for 5 seconds.  20 seconds cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,HEAVY,UT,POWERTIER_SS,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="DEF" amount="5">IncrementStat</ActivateOnEquip>
+      <AddOnPlayerHitActivate hpMinThresholdRelative="0.5" damageThreshold="20" proc="1" cooldown="20" duration="5" effect="Healing">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Iron Plating Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="IRON_PLATING_VEST_OF_SHADOWS" type="0x3">
+    <DisplayId>Iron Plating</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5 DEF.  When hit for more than 20 damage at less than half health applies Healing effect for 5 seconds.  20 seconds cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,LEATHER,UT,POWERTIER_S,ORG_SHTT_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="DEF" amount="5">IncrementStat</ActivateOnEquip>
+      <AddOnPlayerHitActivate hpMinThresholdRelative="0.5" damageThreshold="20" proc="1" cooldown="20" duration="5" effect="Healing">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Iron Plating Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="KOGBOLD_SPIRIT" type="0x4">
+    <DisplayId>Kogbold Spirit</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +3 DEF and +25 HP.</Description>
+    <CompatibleWithItemLabels>RING,UT,ORG_KOGBOLD_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,WEAPON</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="DEF" amount="3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="MAXHP" amount="25">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Kogbold Spirit Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HEAVY_HITTER_STEAM_PIPE" type="0x5">
+    <DisplayId>Heavy Hitter</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5% damage, +25% projectile size.  Reduces projectile speed by 10% without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,SPELLBLADE,ORG_KOGBOLD_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="0">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="0">1.25</MultiplySize>
+      <MultiplyMinDamage projectileId="1">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="1">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="1">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="1">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="1">1.25</MultiplySize>
+      <MultiplyMinDamage projectileId="2">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="2">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="2">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="2">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="2">1.25</MultiplySize>
+      <MultiplyMinDamage projectileId="3">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="3">1.05</MultiplyMaxDamage>
+      <MultiplyLifetimeMS projectileId="3">1.10</MultiplyLifetimeMS>
+      <MultiplySpeed projectileId="3">0.9</MultiplySpeed>
+      <MultiplySize projectileId="3">1.25</MultiplySize>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Heavy Hitter Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HEAVY_HITTER_AVARICE" type="0x6">
+    <DisplayId>Heavy Hitter</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5% damage, +25% projectile size.  Reduces projectile speed by 10% without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,DAGGER,UT,POWERTIER_S,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="0">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="0">1.25</MultiplySize>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Heavy Hitter Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HEAVY_HITTER_LASER_POINTER" type="0x7">
+    <DisplayId>Heavy Hitter</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5% damage, +25% projectile size.  Reduces projectile speed by 10% without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,WAND,UT,ORG_KOGBOLD_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="0">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="0">1.25</MultiplySize>
+      <MultiplyMinDamage projectileId="1">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="1">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="1">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="1">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="1">1.25</MultiplySize>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Heavy Hitter Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HEAVY_HITTER_ENFORCER" type="0x8">
+    <DisplayId>Heavy Hitter</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5% damage, +25% projectile size.  Reduces projectile speed by 10% without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,KATANA,UT,POWERTIER_S,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="0">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="0">1.25</MultiplySize>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Heavy Hitter Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HEAVY_HITTER_DIVINITY" type="0x9">
+    <DisplayId>Heavy Hitter</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5% damage, +25% projectile size.  Reduces projectile speed by 10% without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,SWORD,UT,POWERTIER_SS,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="0">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="0">1.25</MultiplySize>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Heavy Hitter Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HEAVY_HITTER_VOID_BOW" type="0xA">
+    <DisplayId>Heavy Hitter</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5% damage, +25% projectile size.  Reduces projectile speed by 10% without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,BOW,UT,POWERTIER_S,ORG_VOID_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="0">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="0">1.25</MultiplySize>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Heavy Hitter Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="GATLING_SHOTS_STEAM_PIPE" type="0xB">
+    <DisplayId>Gatling Shots Steam Pipe</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +10% Rate of Fire, and +10% projectile speed without affecting range.  Reduces damage by 5% and projectile speed by 25%.</Description>
+    <CompatibleWithItemLabels>WEAPON,SPELLBLADE,ORG_KOGBOLD_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="0">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="0">0.75</MultiplySize>
+      <MultiplySpeed projectileId="0">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.9</MultiplyLifetimeMS>
+      <MultiplyMinDamage projectileId="1">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="1">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="1">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="1">0.75</MultiplySize>
+      <MultiplySpeed projectileId="1">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="1">0.9</MultiplyLifetimeMS>
+      <MultiplyMinDamage projectileId="2">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="2">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="2">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="2">0.75</MultiplySize>
+      <MultiplySpeed projectileId="2">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="2">0.9</MultiplyLifetimeMS>
+      <MultiplyMinDamage projectileId="3">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="3">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="3">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="3">0.75</MultiplySize>
+      <MultiplySpeed projectileId="3">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="3">0.9</MultiplyLifetimeMS>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Gatling Shots Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="GATLING_SHOTS_AVARICE" type="0xC">
+    <DisplayId>Gatling Shots</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +10% Rate of Fire, and +10% projectile speed without affecting range.  Reduces damage by 5% and projectile speed by 25%.</Description>
+    <CompatibleWithItemLabels>WEAPON,DAGGER,UT,POWERTIER_S,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="0">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="0">0.75</MultiplySize>
+      <MultiplySpeed projectileId="0">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.9</MultiplyLifetimeMS>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Gatling Shots Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="GATLING_SHOTS_LASER_POINTER" type="0xD">
+    <DisplayId>Gatling Shots</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +10% Rate of Fire, and +10% projectile speed without affecting range.  Reduces damage by 5% and projectile speed by 25%.</Description>
+    <CompatibleWithItemLabels>WEAPON,WAND,UT,ORG_KOGBOLD_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="0">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="0">0.75</MultiplySize>
+      <MultiplySpeed projectileId="0">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.9</MultiplyLifetimeMS>
+      <MultiplyMinDamage projectileId="1">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="1">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="1">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="1">0.75</MultiplySize>
+      <MultiplySpeed projectileId="1">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="1">0.9</MultiplyLifetimeMS>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Gatling Shots Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="GATLING_SHOTS_ENFORCER" type="0xE">
+    <DisplayId>Gatling Shots</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +10% Rate of Fire, and +10% projectile speed without affecting range.  Reduces damage by 5% and projectile speed by 25%.</Description>
+    <CompatibleWithItemLabels>WEAPON,KATANA,UT,POWERTIER_S,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="0">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="0">0.75</MultiplySize>
+      <MultiplySpeed projectileId="0">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.9</MultiplyLifetimeMS>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Gatling Shots Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="GATLING_SHOTS_DIVINITY" type="0xF">
+    <DisplayId>Gatling Shots</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +10% Rate of Fire, and +10% projectile speed without affecting range.  Reduces damage by 5% and projectile speed by 25%.</Description>
+    <CompatibleWithItemLabels>WEAPON,SWORD,UT,POWERTIER_SS,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="0">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="0">0.75</MultiplySize>
+      <MultiplySpeed projectileId="0">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.9</MultiplyLifetimeMS>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Gatling Shots Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="GATLING_SHOTS_VOID_BOW" type="0x10">
+    <DisplayId>Gatling Shots</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +10% Rate of Fire, and +10% projectile speed without affecting range.  Reduces damage by 5% and projectile speed by 25%.</Description>
+    <CompatibleWithItemLabels>WEAPON,BOW,UT,POWERTIER_S,ORG_VOID_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="0">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="0">0.75</MultiplySize>
+      <MultiplySpeed projectileId="0">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.9</MultiplyLifetimeMS>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Gatling Shots Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ATTACK_BONUS_1" type="0x11">
+    <DisplayId>Attack Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +3 Attack</Description>
+    <CompatibleWithItemLabels>EQUIPMENT,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,ATT</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ATT</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="ATT" amount="3">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="DEXTERITY_BONUS_1" type="0x12">
+    <DisplayId>Dexterity Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +3 Dexterity</Description>
+    <CompatibleWithItemLabels>EQUIPMENT,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,DEX</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>DEX</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="DEX" amount="3">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="VITALITY_BONUS_1" type="0x13">
+    <DisplayId>Vitality Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +3 Vitality</Description>
+    <CompatibleWithItemLabels>EQUIPMENT,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,VIT</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>VIT</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="VIT" amount="3">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="WISDOM_BONUS_1" type="0x14">
+    <DisplayId>Wisdom Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +3 Wisdom</Description>
+    <CompatibleWithItemLabels>EQUIPMENT,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,WIS</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>WIS</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="WIS" amount="3">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="SPEED_BONUS_1" type="0x15">
+    <DisplayId>Speed Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +3 Speed</Description>
+    <CompatibleWithItemLabels>EQUIPMENT,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,SPD</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SPD</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="SPD" amount="3">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="DEFENSE_BONUS_1" type="0x16">
+    <DisplayId>Defense Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +3 Defense</Description>
+    <CompatibleWithItemLabels>EQUIPMENT,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,DEF</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>DEF</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="DEF" amount="3">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HP_BONUS_1" type="0x17">
+    <DisplayId>HP Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +30 HP</Description>
+    <CompatibleWithItemLabels>EQUIPMENT,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,MAXHP</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>MAXHP</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="MAXHP" amount="30">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="MP_BONUS_1" type="0x18">
+    <DisplayId>MP Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +30 MP</Description>
+    <CompatibleWithItemLabels>EQUIPMENT,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,MAXMP</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>MAXMP</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="MAXMP" amount="30">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PROJECTILE_SIZE_1PROJ_1" type="0x19">
+    <DisplayId>Projectile Size I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Increases projectile size by 15%.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING,FLAIL,DUALBLADE,SPELLBLADE,BOW</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UTILITY,PROJ_UPGRADE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>PROJ_UPGRADE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplySize projectileId="0">1.15</MultiplySize>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PROJECTILE_SIZE_2PROJ1" type="0x1A">
+    <DisplayId>Projectile Size I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Increases projectile size by 15%.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING,SWORD,FLAIL,DAGGER,STAFF,WAND,MORNINGSTAR,LONGBOW,KATANA,TACHI</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UTILITY,PROJ_UPGRADE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>PROJ_UPGRADE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplySize projectileId="0">1.15</MultiplySize>
+      <MultiplySize projectileId="1">1.15</MultiplySize>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PROJECTILE_SIZE_3PROJ1" type="0x1B">
+    <DisplayId>Projectile Size I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Increases projectile size by 15%.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,FLAIL</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UTILITY,PROJ_UPGRADE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>PROJ_UPGRADE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplySize projectileId="0">1.15</MultiplySize>
+      <MultiplySize projectileId="1">1.15</MultiplySize>
+      <MultiplySize projectileId="2">1.15</MultiplySize>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="INCREASED_RANGE_1PROJ_1" type="0x1C">
+    <DisplayId>Increased Range I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Adds 15% Range</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING,FLAIL,DUALBLADE,SPELLBLADE,BOW</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>RANGE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>RANGE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyLifetimeMS projectileId="0">1.15</MultiplyLifetimeMS>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="INCREASED_RANGE_2PROJ_1" type="0x1D">
+    <DisplayId>Increased Range I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Adds 15% Range</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING,SWORD,FLAIL,DAGGER,STAFF,WAND,MORNINGSTAR,LONGBOW,KATANA,TACHI</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>RANGE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>RANGE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyLifetimeMS projectileId="0">1.15</MultiplyLifetimeMS>
+      <MultiplyLifetimeMS projectileId="1">1.15</MultiplyLifetimeMS>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="INCREASED_RANGE_3PROJ_1" type="0x1E">
+    <DisplayId>Increased Range I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Adds 15% Range</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,FLAIL</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>RANGE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>RANGE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyLifetimeMS projectileId="0">1.15</MultiplyLifetimeMS>
+      <MultiplyLifetimeMS projectileId="1">1.15</MultiplyLifetimeMS>
+      <MultiplyLifetimeMS projectileId="2">1.15</MultiplyLifetimeMS>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="INCREASED_PROJSPEED_1PROJ_1" type="0x1F">
+    <DisplayId>Increased Projectile Speed I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Adds 15% Projectile Speed</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING,FLAIL,DUALBLADE,SPELLBLADE,BOW</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>PROJSPEED</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>PROJSPEED</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplySpeed projectileId="0">1.15</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.85</MultiplyLifetimeMS>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="INCREASED_PROJSPEED_2PROJ_1" type="0x20">
+    <DisplayId>Increased Projectile Speed I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Adds 15% Projectile Speed</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING,SWORD,FLAIL,DAGGER,STAFF,WAND,MORNINGSTAR,LONGBOW,KATANA,TACHI</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>PROJSPEED</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>PROJSPEED</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplySpeed projectileId="0">1.15</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.85</MultiplyLifetimeMS>
+      <MultiplySpeed projectileId="1">1.15</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="2">0.85</MultiplyLifetimeMS>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="INCREASED_PROJSPEED_3PROJ_1" type="0x21">
+    <DisplayId>Increased Projectile Speed I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Adds 15% Projectile Speed</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,FLAIL</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>PROJSPEED</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>PROJSPEED</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplySpeed projectileId="0">1.15</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.85</MultiplyLifetimeMS>
+      <MultiplySpeed projectileId="1">1.15</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="1">0.85</MultiplyLifetimeMS>
+      <MultiplySpeed projectileId="2">1.15</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="2">0.85</MultiplyLifetimeMS>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PASSCOVER_1PROJ" type="0x25">
+    <DisplayId>Cover Passing Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Adds Pass Cover to the primary projectile.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING,FLAIL,DUALBLADE,SPELLBLADE,BOW</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>PASS_COVER</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>PASS_COVER</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetPassesCover projectileId="0" />
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PASSCOVER_2PROJ" type="0x26">
+    <DisplayId>Cover Passing Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Adds Pass Cover to the primary projectile.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING,SWORD,FLAIL,DAGGER,STAFF,WAND,MORNINGSTAR,LONGBOW,KATANA,TACHI</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>PASS_COVER</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>PASS_COVER</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetPassesCover projectileId="0" />
+      <SetPassesCover projectileId="1" />
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PASSCOVER_3PROJ" type="0x27">
+    <DisplayId>Cover Passing Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Adds Pass Cover to the primary projectile.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,FLAIL</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>PASS_COVER</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>PASS_COVER</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetPassesCover projectileId="0" />
+      <SetPassesCover projectileId="1" />
+      <SetPassesCover projectileId="2" />
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_HEAL_1" type="0x28">
+    <DisplayId>Onhit Heal I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers a Healing effect (50 HP) when hit for more than 20 damage while below 50% health.  30 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING,LEATHER</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="1" amount="50" cooldown="30" damageThreshold="20" hpMinThresholdRelative="0.5">Heal</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_STATBOOST_ATT_1" type="0x29">
+    <DisplayId>Onhit Stat Boost (ATT) I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers a +3 ATT boost for 5 seconds when hit for more than 20 damage. 6 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING,ROBE</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate amount="3" cooldown="6" damageThreshold="20" duration="5" proc="1" stat="ATT" channel="noStackItm">StatBoostSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_STATBOOST_DEX_1" type="0x2A">
+    <DisplayId>Onhit Stat Boost (DEX) I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers a +3 DEX boost for 5 seconds when hit for more than 20 damage. 6 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING,ROBE</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate amount="3" cooldown="6" damageThreshold="20" duration="5" proc="1" stat="DEX" channel="noStackItm">StatBoostSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_STATBOOST_DEF_1" type="0x2B">
+    <DisplayId>Onhit Stat Boost (DEF) I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers a +3 DEF boost for 5 seconds when hit for more than 20 damage. 6 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING,HEAVY</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate amount="3" cooldown="6" damageThreshold="20" duration="5" proc="1" stat="DEF" channel="noStackItm">StatBoostSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_STATBOOST_VIT_1" type="0x2C">
+    <DisplayId>Onhit Stat Boost (VIT) I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers a +3 VIT boost for 5 seconds when hit for more than 20 damage. 6 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING,LEATHER</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate amount="3" cooldown="6" damageThreshold="20" duration="5" proc="1" stat="VIT" channel="noStackItm">StatBoostSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_STATBOOST_SPD_1" type="0x2D">
+    <DisplayId>Onhit Stat Boost (SPD) I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers a +3 SPD boost for 5 seconds when hit for more than 20 damage. 6 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING,HEAVY</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate amount="3" cooldown="6" damageThreshold="20" duration="5" proc="1" stat="SPD" channel="noStackItm">StatBoostSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_STATBOOST_WIS_1" type="0x2E">
+    <DisplayId>Onhit Stat Boost (WIS) I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers a +3 WIS boost for 5 seconds when hit for more than 20 damage. 6 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING,LEATHER</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate amount="3" cooldown="6" damageThreshold="20" duration="5" proc="1" stat="WIS" channel="noStackItm">StatBoostSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_ARMORED_1" type="0x2F">
+    <DisplayId>Onhit Armoured I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers the Armored condition for 3 seconds when hit for more than 20 damage.   10 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING,HEAVY</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="1" cooldown="10" duration="3" effect="Armored" damageThreshold="20">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BERSERK_1" type="0x30">
+    <DisplayId>Onhit Berserk I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers the Berserk condition for 3 seconds when hit for more than 20 damage.  10 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING,ROBE</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="1" cooldown="10" duration="3" effect="Berserk" damageThreshold="20">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_DAMAGING_1" type="0x31">
+    <DisplayId>Onhit Damaging I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers the Damaging condition for 3 seconds when hit for more than 20 damage.  10 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING,ROBE</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="1" cooldown="10" duration="3" effect="Damaging" damageThreshold="20">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_ENERGIZED_1" type="0x32">
+    <DisplayId>Onhit Energized I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers the Energized condition for 3 seconds when hit for more than 20 damage.  10 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING,LEATHER</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="1" cooldown="10" duration="3" effect="Energized" damageThreshold="20">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_SPEEDY_1" type="0x33">
+    <DisplayId>Onhit Speedy I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers the Speedy condition for 3 seconds when hit for more than 20 damage.  10 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING,HEAVY</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="1" cooldown="10" duration="3" effect="Speedy" damageThreshold="20">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_SHORT_1" type="0x34">
+    <DisplayId>Onhit Bullet Create (Short) I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers the Bullet Create proc when hit for more than 20 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="1" cooldown="5" type="0xc898" damageThreshold="20" numShots="10" minDistance="1.5" maxDistance="1.5" offsetAngle="0" gapAngle="0" gapTiles="0" arcGap="36">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_MID_1" type="0x35">
+    <DisplayId>Onhit Bullet Create (Mid) I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers the Bullet Create proc when hit for more than 20 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="1" cooldown="5" type="0xc89b" damageThreshold="20" numShots="5" minDistance="3" maxDistance="3" offsetAngle="0" gapAngle="0" gapTiles="0" arcGap="15">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_LONG_1" type="0x36">
+    <DisplayId>Onhit Bullet Create (Long) I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>Triggers the Bullet Create proc when hit for more than 20 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,TIERED</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="1" cooldown="5" type="0xc89e" damageThreshold="20" numShots="1" minDistance="4" maxDistance="4" offsetAngle="0" gapAngle="0" gapTiles="0" arcGap="0">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ATTACK_BONUS_1_UT_RING" type="0x39">
+    <DisplayId>Attack Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +3 Attack</Description>
+    <CompatibleWithItemLabels>RING,UT,ENCHANTABLE</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,ATT</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ATT</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="ATT" amount="3">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="DEXTERITY_BONUS_1_UT_RING" type="0x3A">
+    <DisplayId>Dexterity Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +3 Dexterity</Description>
+    <CompatibleWithItemLabels>RING,UT,ENCHANTABLE</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,DEX</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>DEX</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="DEX" amount="3">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="VITALITY_BONUS_1_UT_RING" type="0x3B">
+    <DisplayId>Vitality Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +3 Vitality</Description>
+    <CompatibleWithItemLabels>RING,UT,ENCHANTABLE</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,VIT</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>VIT</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="VIT" amount="3">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="WISDOM_BONUS_1_UT_RING" type="0x3C">
+    <DisplayId>Wisdom Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +3 Wisdom</Description>
+    <CompatibleWithItemLabels>RING,UT,ENCHANTABLE</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,WIS</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>WIS</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="WIS" amount="3">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="SPEED_BONUS_1_UT_RING" type="0x3D">
+    <DisplayId>Speed Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +3 Speed</Description>
+    <CompatibleWithItemLabels>RING,UT,ENCHANTABLE</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,SPD</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SPD</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="SPD" amount="3">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="DEFENSE_BONUS_1_UT_RING" type="0x3E">
+    <DisplayId>Defense Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +3 Defense</Description>
+    <CompatibleWithItemLabels>RING,UT,ENCHANTABLE</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,DEF</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>DEF</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="DEF" amount="3">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HP_BONUS_1_UT_RING" type="0x3F">
+    <DisplayId>HP Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +30 HP</Description>
+    <CompatibleWithItemLabels>RING,UT,ENCHANTABLE</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,MAXHP</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>MAXHP</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="MAXHP" amount="30">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="MP_BONUS_1_UT_RING" type="0x40">
+    <DisplayId>MP Bonus I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x6</Index>
+    </Texture>
+    <Description>Adds +30 MP</Description>
+    <CompatibleWithItemLabels>RING,UT,ENCHANTABLE</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>STAT,MAXMP</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>MAXMP</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="MAXMP" amount="30">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_SWORD_T12" type="0x43">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,SWORD,T12</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Sword Subattack Item" subAttackIndex="1">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_SWORD_T13" type="0x45">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,SWORD,T13</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Sword Subattack Item" subAttackIndex="3">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_SWORD_T14" type="0x47">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,SWORD,T14</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Sword Subattack Item" subAttackIndex="5">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="NO_BOOMERANG_FLAIL_T12" type="0x49">
+    <DisplayId>Non-Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles no longer boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,FLAIL,T12</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Flail Subattack Item" subAttackIndex="1">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Flail Subattack Item" subAttackIndex="2">1</SetSubAttack>
+      <SetSubAttack subAttackObject="Flail Subattack Item" subAttackIndex="3">2</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="NO_BOOMERANG_FLAIL_T13" type="0x4B">
+    <DisplayId>Non-Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles no longer boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,FLAIL,T13</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Flail Subattack Item" subAttackIndex="5">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Flail Subattack Item" subAttackIndex="6">1</SetSubAttack>
+      <SetSubAttack subAttackObject="Flail Subattack Item" subAttackIndex="7">2</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="NO_BOOMERANG_FLAIL_T14" type="0x4D">
+    <DisplayId>Non-Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles no longer boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,FLAIL,T14</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Flail Subattack Item" subAttackIndex="9">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Flail Subattack Item" subAttackIndex="10">1</SetSubAttack>
+      <SetSubAttack subAttackObject="Flail Subattack Item" subAttackIndex="11">2</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_DAGGER_T12_1" type="0x4E">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,DAGGER,T12</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Dagger Subattack Item" subAttackIndex="0">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_DAGGER_T13_1" type="0x4F">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,DAGGER,T13</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Dagger Subattack Item" subAttackIndex="1">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_DAGGER_T14_1" type="0x50">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,DAGGER,T14</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Dagger Subattack Item" subAttackIndex="2">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_DUALBLADE_T12_1" type="0x51">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,DUALBLADE,T12</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Dualblade Subattack Item" subAttackIndex="0">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Dualblade Subattack Item" subAttackIndex="1">1</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_DUALBLADE_T13_1" type="0x52">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,DUALBLADE,T13</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Dualblade Subattack Item" subAttackIndex="2">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Dualblade Subattack Item" subAttackIndex="3">1</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_DUALBLADE_T14_1" type="0x53">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,DUALBLADE,T14</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Dualblade Subattack Item" subAttackIndex="4">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Dualblade Subattack Item" subAttackIndex="5">1</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_STAFF_T12_1" type="0x54">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,STAFF,T12</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Staff Subattack Item" subAttackIndex="0">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_STAFF_T13_1" type="0x55">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,STAFF,T13</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Staff Subattack Item" subAttackIndex="1">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_STAFF_T14_1" type="0x56">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,STAFF,T14</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Staff Subattack Item" subAttackIndex="2">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_SPELLBLADE_T12" type="0x58">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,SPELLBLADE,T12</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Spellblade Subattack Item" subAttackIndex="2">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Spellblade Subattack Item" subAttackIndex="3">1</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_SPELLBLADE_T13" type="0x5A">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,SPELLBLADE,T13</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Spellblade Subattack Item" subAttackIndex="6">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Spellblade Subattack Item" subAttackIndex="7">1</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_SPELLBLADE_T14" type="0x5C">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,SPELLBLADE,T14</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Spellblade Subattack Item" subAttackIndex="10">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Spellblade Subattack Item" subAttackIndex="11">1</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_WAND_T12_1" type="0x5D">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,WAND,T12</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Wand Subattack Item" subAttackIndex="0">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_WAND_T13_1" type="0x5E">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,WAND,T13</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Wand Subattack Item" subAttackIndex="1">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_WAND_T14_1" type="0x5F">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,WAND,T14</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Wand Subattack Item" subAttackIndex="2">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="NARROW_CONE_MORNINGSTAR_T12_1" type="0x60">
+    <DisplayId>Narrow Cone</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Narrows the firing angle of the projectiles.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,MORNINGSTAR,T12</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="0">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="1">1</SetSubAttack>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="2">2</SetSubAttack>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="3">3</SetSubAttack>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="4">4</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="NARROW_CONE_MORNINGSTAR_T13_1" type="0x62">
+    <DisplayId>Narrow Cone</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Narrows the firing angle of the projectiles.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,MORNINGSTAR,T13</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="10">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="11">1</SetSubAttack>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="12">2</SetSubAttack>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="13">3</SetSubAttack>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="14">4</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="NARROW_CONE_MORNINGSTAR_T14_1" type="0x64">
+    <DisplayId>Narrow Cone</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Narrows the firing angle of the projectiles.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,MORNINGSTAR,T14</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="20">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="21">1</SetSubAttack>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="22">2</SetSubAttack>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="23">3</SetSubAttack>
+      <SetSubAttack subAttackObject="Morningstar Subattack Item" subAttackIndex="24">4</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="NARROW_CONE_BOW_T12_1" type="0x66">
+    <DisplayId>Narrow Cone</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Narrows the firing angle of the projectiles.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,BOW,T12</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Bow Subattack Item" subAttackIndex="0">1</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="NARROW_CONE_BOW_T13_1" type="0x67">
+    <DisplayId>Narrow Cone</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Narrows the firing angle of the projectiles.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,BOW,T13</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Bow Subattack Item" subAttackIndex="1">1</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="NARROW_CONE_BOW_T14_1" type="0x68">
+    <DisplayId>Narrow Cone</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Narrows the firing angle of the projectiles.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,BOW,T14</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Bow Subattack Item" subAttackIndex="2">1</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="NARROW_CONE_LONGBOW_T12_1" type="0x69">
+    <DisplayId>Narrow Cone</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Narrows the firing angle of the projectiles.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,LONGBOW,T12</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Longbow Subattack Item" subAttackIndex="0">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Longbow Subattack Item" subAttackIndex="1">1</SetSubAttack>
+      <SetSubAttack subAttackObject="Longbow Subattack Item" subAttackIndex="2">2</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="NARROW_CONE_LONGBOW_T13_1" type="0x6A">
+    <DisplayId>Narrow Cone</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Narrows the firing angle of the projectiles.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,LONGBOW,T13</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Longbow Subattack Item" subAttackIndex="3">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Longbow Subattack Item" subAttackIndex="4">1</SetSubAttack>
+      <SetSubAttack subAttackObject="Longbow Subattack Item" subAttackIndex="5">2</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="NARROW_CONE_LONGBOW_T14_1" type="0x6B">
+    <DisplayId>Narrow Cone</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Narrows the firing angle of the projectiles.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,LONGBOW,T14</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Longbow Subattack Item" subAttackIndex="6">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Longbow Subattack Item" subAttackIndex="7">1</SetSubAttack>
+      <SetSubAttack subAttackObject="Longbow Subattack Item" subAttackIndex="8">2</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_KATANA_T12_1" type="0x6C">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,KATANA,T12</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Katana Subattack Item" subAttackIndex="0">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_KATANA_T13_1" type="0x6D">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,KATANA,T13</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Katana Subattack Item" subAttackIndex="1">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_KATANA_T14_1" type="0x6E">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,KATANA,T14</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Katana Subattack Item" subAttackIndex="2">0</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_TACHI_T12_1" type="0x6F">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,TACHI,T12</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Tachi Subattack Item" subAttackIndex="0">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Tachi Subattack Item" subAttackIndex="1">1</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_TACHI_T13_1" type="0x70">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,TACHI,T13</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Tachi Subattack Item" subAttackIndex="2">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Tachi Subattack Item" subAttackIndex="3">1</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="BOOMERANG_TACHI_T14_1" type="0x71">
+    <DisplayId>Boomerang Projectiles</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x3</Index>
+    </Texture>
+    <Description>Projectiles boomerang without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,TIERED,TACHI,T14</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ABILITY,ARMOR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>SUBATTACK_REPLACE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>SUBATTACK_REPLACE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="Tachi Subattack Item" subAttackIndex="4">0</SetSubAttack>
+      <SetSubAttack subAttackObject="Tachi Subattack Item" subAttackIndex="5">1</SetSubAttack>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_INVISIBLE_CLOAK_T6" type="0x72">
+    <DisplayId>Onhit Invisible I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to trigger the Invisible condition for 2.5 seconds when hit for more than 35 damage.   6.5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,CLOAK,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="6.5" duration="5.5" effect="Invisible" damageThreshold="35">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_INVISIBLE_CLOAK_T7" type="0x73">
+    <DisplayId>Onhit Invisible I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to trigger the Invisible condition for 3 seconds when hit for more than 35 damage.   7 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,CLOAK,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="7" duration="6" effect="Invisible" damageThreshold="35">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_QUIVER_T6" type="0x74">
+    <DisplayId>Onhit Fire Arrow I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to fire the Quiver projectile when hit for more than 35 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,QUIVER,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" type="0x1d94" damageThreshold="35" numShots="1" minDistance="7.5" maxDistance="7.5" offsetAngle="0" gapAngle="0" gapTiles="0" arcGap="36">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_QUIVER_T7" type="0x75">
+    <DisplayId>Onhit Fire Arrow I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to fire the Quiver projectile when hit for more than 35 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,QUIVER,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" type="0x1d95" damageThreshold="35" numShots="1" minDistance="7.5" maxDistance="7.5" offsetAngle="0" gapAngle="0" gapTiles="0" arcGap="36">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_SPELL_T6" type="0x76">
+    <DisplayId>Onhit Fire Spell I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to fire the Spell nova when hit for more than 35 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SPELL,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" type="0x1d96" damageThreshold="35" numShots="20" minDistance="8" maxDistance="8" offsetAngle="0" gapAngle="0" gapTiles="0" arcGap="18">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_SPELL_T7" type="0x77">
+    <DisplayId>Onhit Fire Spell I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to fire the Spell nova when hit for more than 35 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SPELL,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" type="0x1d97" damageThreshold="35" numShots="20" minDistance="8" maxDistance="8" offsetAngle="0" gapAngle="0" gapTiles="0" arcGap="18">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_HEALING_TOME_T6" type="0x78">
+    <DisplayId>Onhit Healing I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to trigger the Healing condition for 5 seconds when hit for more than 35 damage.   6 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,TOME,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="6" duration="5" effect="Healing" damageThreshold="35">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_HEALING_TOME_T7" type="0x79">
+    <DisplayId>Onhit Healing I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to trigger the Healing condition for 5.5 seconds when hit for more than 35 damage.   6.5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,TOME,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="6.5" duration="5.5" effect="Healing" damageThreshold="35">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BERSERK_HELM_T6" type="0x7A">
+    <DisplayId>Onhit Berserk I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to trigger the Berserk condition for 4 seconds when hit for more than 35 damage.   5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,HELM,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" duration="4" effect="Berserk" damageThreshold="35">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BERSERK_HELM_T7" type="0x7B">
+    <DisplayId>Onhit Berserk I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to trigger the Berserk condition for 4.5 seconds when hit for more than 35 damage.   5.5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,HELM,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5.5" duration="4.5" effect="Berserk" damageThreshold="35">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_SHIELD_T6" type="0x7C">
+    <DisplayId>Onhit Fire Shield I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to fire the Shield projectiles when hit for more than 35 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SHIELD,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" type="0x1d98" damageThreshold="35" numShots="5" minDistance="1.5" maxDistance="1.5" offsetAngle="0" gapAngle="0" gapTiles="0" arcGap="9">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_SHIELD_T7" type="0x7D">
+    <DisplayId>Onhit Fire Shield I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to fire the Shield projectiles when hit for more than 35 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SHIELD,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" type="0x1d99" damageThreshold="35" numShots="5" minDistance="1.5" maxDistance="1.5" offsetAngle="0" gapAngle="0" gapTiles="0" arcGap="9">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_DAMAGING_SEAL_T6" type="0x7E">
+    <DisplayId>Onhit Damaging I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to trigger the Damaging condition for 4 seconds when hit for more than 35 damage.   5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SEAL,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" duration="4" effect="Healing" damageThreshold="35">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_DAMAGING_SEAL_T7" type="0x7F">
+    <DisplayId>Onhit Damaging I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to trigger the Damaging condition for 4.5 seconds when hit for more than 35 damage.   5.5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SEAL,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5.5" duration="4.5" effect="Healing" damageThreshold="35">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_POISON_GRENADE_T6" type="0x80">
+    <DisplayId>Onhit Throw Poison I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to throw the Poison when hit for more than 35 damage.   5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,POISON,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" radius="5" color="0xbababa" impactDamage="200" totalDamage="900" duration="4.5" throwTime="0.8" damageBoost="1.08" scalingStat="WIS" statModScalingMin="50" statModDamage="150" statModImpactDamage="30" statModRadius="0.025" statModDamageBoost="0.002" cooldown="5" damageThreshold="35">PoisonGrenade</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_POISON_GRENADE_T7" type="0x81">
+    <DisplayId>Onhit Throw Poison I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to throw the Poison when hit for more than 35 damage.   5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,POISON,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" radius="5.5" color="0x35406b" impactDamage="230" totalDamage="1030" duration="4.8" throwTime="0.8" damageBoost="1.09" scalingStat="WIS" statModScalingMin="50" statModDamage="180" statModImpactDamage="36" statModRadius="0.025" statModDamageBoost="0.002" cooldown="5" damageThreshold="35">PoisonGrenade</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_SKULL_DAMAGE_T6" type="0x82">
+    <DisplayId>Onhit Skull Damage I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to activate Skull damage when hit for more than 35 damage.   5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SKULL,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" damageThreshold="35" throwTime="0.0" objectId="Skull Enchantment Explosion T6">ObjectToss</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_SKULL_DAMAGE_T7" type="0x83">
+    <DisplayId>Onhit Skull Damage I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to activate Skull damage when hit for more than 35 damage.   5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SKULL,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" damageThreshold="35" throwTime="0.0" objectId="Skull Enchantment Explosion T7">ObjectToss</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_SKULL_HEAL_T6" type="0x84">
+    <DisplayId>Onhit Skull Healing I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to activate Skull healing when hit for more than 35 damage at less than 50% hitpoints.   30 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SKULL,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" amount="110" cooldown="30" damageThreshold="35" hpMinThresholdRelative="0.5">Heal</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_SKULL_HEAL_T7" type="0x85">
+    <DisplayId>Onhit Skull Healing I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to activate Skull healing when hit for more than 35 damage at less than 50% hitpoints.   30 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SKULL,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" amount="120" cooldown="30" damageThreshold="35" hpMinThresholdRelative="0.5">Heal</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_TRAP_DAMAGE_T6" type="0x86">
+    <DisplayId>Onhit Trap Damage I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to activate Trap damage when hit for more than 35 damage.   5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,TRAP,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" damageThreshold="35" throwTime="0.0" objectId="Trap Enchantment Explosion T6">ObjectToss</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_TRAP_DAMAGE_T7" type="0x87">
+    <DisplayId>Onhit Trap Damage I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to activate Trap damage when hit for more than 35 damage.   5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,TRAP,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" damageThreshold="35" throwTime="0.0" objectId="Trap Enchantment Explosion T7">ObjectToss</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_PRISM_DECOY_T6" type="0x88">
+    <DisplayId>Onhit Decoy I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to activate Decoy when hit for more than 35 damage.   10 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,PRISM,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="10" damageThreshold="35" duration="9" speed="1.25" distance="8" angleOffset="180">Decoy</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_PRISM_DECOY_T7" type="0x89">
+    <DisplayId>Onhit Decoy I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to activate Decoy when hit for more than 35 damage.   11 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,PRISM,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="11" damageThreshold="35" duration="10" speed="1.30" distance="8" angleOffset="180">Decoy</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_ORB_CURSE_T6" type="0x8A">
+    <DisplayId>Onhit Curse I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to activate Orb Curse when hit for more than 35 damage.   6 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,ORB,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="6" damageThreshold="35" throwTime="0.0" objectId="Orb Enchantment Curse T7">ObjectToss</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_ORB_CURSE_T7" type="0x8B">
+    <DisplayId>Onhit Curse I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to activate Orb Curse when hit for more than 35 damage.   6.5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,ORB,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="6.5" damageThreshold="35" throwTime="0.0" objectId="Orb Enchantment Curse T7">ObjectToss</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_SHURIKEN_T6" type="0x8C">
+    <DisplayId>Onhit Fire Shuriken I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to fire the Shuriken projectile when hit for more than 35 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SHURIKEN,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" type="0x1d9A" damageThreshold="35" numShots="1" minDistance="8" maxDistance="8" offsetAngle="0" gapAngle="0" gapTiles="0" arcGap="9">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_SHURIKEN_T7" type="0x8D">
+    <DisplayId>Onhit Fire Shuriken I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to fire the Shuriken projectile when hit for more than 35 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SHURIKEN,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" type="0x1d9B" damageThreshold="35" numShots="1" minDistance="8" maxDistance="8" offsetAngle="0" gapAngle="0" gapTiles="0" arcGap="9">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_WAKIZASHI_T6" type="0x8E">
+    <DisplayId>Onhit Fire Wakizashi I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to fire the Wakizashi projectiles when hit for more than 35 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,WAKIZASHI,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" type="0x1d9C" damageThreshold="35" numShots="4" minDistance="4" maxDistance="4" gapAngle="45" gapTiles="0.4" offsetAngle="90">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_WAKIZASHI_T7" type="0x8F">
+    <DisplayId>Onhit Fire Wakizashi I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to fire the Wakizashi projectiles when hit for more than 35 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,WAKIZASHI,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" type="0x1d9D" damageThreshold="35" numShots="4" minDistance="4" maxDistance="4" gapAngle="45" gapTiles="0.4" offsetAngle="90">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_INSPIRED_LUTE_T6" type="0x90">
+    <DisplayId>Onhit Inspiration I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to trigger Inspiration for 6 seconds when hit for more than 35 damage.   7 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,LUTE,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="7" radius="4.5" duration="6" speedBoost="1.25" lifeBoost="1" targeted="false">BoostRange</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_INSPIRED_LUTE_T7" type="0x91">
+    <DisplayId>Onhit Inspiration I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to trigger Inspiration for 6.5 seconds when hit for more than 35 damage.   7.5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,LUTE,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="7.5" radius="4.5" duration="6.5" speedBoost="1.25" lifeBoost="1" targeted="false">BoostRange</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_SCEPTER_DAMAGE_T6" type="0x92">
+    <DisplayId>Onhit Scepter Damage I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to activate Scepter damage when hit for more than 35 damage.   5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SCEPTER,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" damageThreshold="35" throwTime="0.0" objectId="Scepter Enchantment Explosion T6">ObjectToss</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_SCEPTER_DAMAGE_T7" type="0x93">
+    <DisplayId>Onhit Scepter Damage I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to activate Scepter damage when hit for more than 35 damage.   5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SCEPTER,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" damageThreshold="35" throwTime="0.0" objectId="Scepter Enchantment Explosion T7">ObjectToss</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_MACE_T6" type="0x94">
+    <DisplayId>Onhit Mace Shots I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to fire Mace Summons projectiles when hit for more than 35 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,MACE,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" type="0x1d9E" damageThreshold="35" numShots="5" minDistance="1.5" maxDistance="1.5" offsetAngle="0" gapAngle="0" gapTiles="0" arcGap="9">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_BULLET_CREATE_MACE_T7" type="0x95">
+    <DisplayId>Onhit Mace Shots I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to fire Mace Summons projectiles when hit for more than 35 damage.  5 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,MACE,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="0.2" cooldown="5" type="0x1d9F" damageThreshold="35" numShots="5" minDistance="1.5" maxDistance="1.5" offsetAngle="0" gapAngle="0" gapTiles="0" arcGap="9">BulletCreate</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_SHEATH_BOOST_T6" type="0x96">
+    <DisplayId>Onhit Sheath ATT Boost I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to trigger a +7 ATT boost when hit for more than 35 damage. 11 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SHEATH,T6</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate amount="7" cooldown="11" damageThreshold="35" duration="10" proc="0.2" stat="ATT" channel="noStackItm">StatBoostSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="ONHIT_SHEATH_BOOST_T7" type="0x97">
+    <DisplayId>Onhit Sheath ATT Boost I</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0xC</Index>
+    </Texture>
+    <Description>20% chance to trigger a +8 ATT boost when hit for more than 35 damage. 11 second cooldown.</Description>
+    <CompatibleWithItemLabels>ABILITY,TIERED,SHEATH,T7</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,AMOUR,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>ONHITPROC</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>ONHITPROC</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate amount="8" cooldown="11" damageThreshold="35" duration="10" proc="1" stat="ATT" channel="noStackItm">StatBoostSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <UnlockCost purchaseDust="greenDust" purchaseCost="1000" />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+</Enchantments>

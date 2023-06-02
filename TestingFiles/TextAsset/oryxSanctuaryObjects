@@ -1343,6 +1343,7 @@
     <KillStat stat="OryxKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
+    <SoulboundDust threshold="0.002" prob="1" dustMin="125" dustMax="175" seasonalBonus="0.15">greenDust</SoulboundDust>
     <Labels>ENEMY,BOSS,GOD,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY</Labels>
     <SpecialSpawn category="Bis">Oryx's Sanctuary Portal Appear</SpecialSpawn>
     <SpecialSpawn category="Chef">Ambrosia</SpecialSpawn>
@@ -1896,7 +1897,6 @@
       <Index>0x04</Index>
     </Texture>
     <Size>100</Size>
-    <NoCollisionWhenMovement />
     <Invincible />
     <Labels>ENEMY,BOSS_SPAWNED</Labels>
   </Object>
@@ -1909,7 +1909,6 @@
       <Index>0x05</Index>
     </Texture>
     <Size>80</Size>
-    <NoCollisionWhenMovement />
     <Invincible />
     <Labels>ENEMY,BOSS_SPAWNED</Labels>
   </Object>

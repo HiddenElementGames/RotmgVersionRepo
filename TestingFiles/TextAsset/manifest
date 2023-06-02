@@ -5,7 +5,7 @@
   },
   "xmlKeys": ["tiles", "objects", "particles", "sets", "characters",
     "skins", "tutorial", "protips", "forge", "dungeonGrades", "dungeonTemplates", 
-    "refineTemplates", "mods", "titles", "gravestones", "emotes", "playerDiscoveryIcons", "terrains"],
+    "refineTemplates", "mods", "titles", "gravestones", "emotes", "playerDiscoveryIcons", "enchantments"],
   "tiles": [
     {
       "path": "ground.xml"
@@ -158,6 +158,9 @@
     },
     {
       "path": "equip.xml"
+    },
+    {
+      "path": "equipSubs.xml"
     },
     {
       "path": "dyes.xml"
@@ -509,18 +512,6 @@
     },
     {
       "path": "dungeons/moonlightVillage/moonlightVillageObjects.xml"
-    },
-    {
-      "path": "newRealm/rookie.xml"
-    },
-    {
-      "path": "newRealm/adept.xml"
-    },
-    {
-      "path": "newRealm/veteran.xml"
-    },
-    {
-      "path": "newRealm/expert.xml"
     }
   ],
   "particles": [
@@ -1850,6 +1841,22 @@
       "frameWidth": 32,
       "frameHeight": 32,
       "noDefinition": false
+    },
+    {
+      "name": "enchantments8x8",
+      "path": "enchantments8x8.png",    
+    "atlasWidth": 256,
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "enchantments16x16",
+      "path": "enchantments16x16.png",    
+    "atlasWidth": 256,
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
     }
   ],
   "animatedImageSet": [
@@ -3034,17 +3041,6 @@
       "mergeAttackFrame": 1
     },
     {
-      "name": "charsRookie8x8",
-      "path": "charsRookie8x8.png",
-      "mask": "",
-      "frameWidth": 56,
-      "frameHeight": 8,
-      "charWidth": 8,
-      "charHeight": 8,
-      "firstDir": 0,
-      "mergeAttackFrame": 1
-    },
-    {
       "name": "steamworksChars64x64",
       "path": "steamworksChars64x64.png",
       "mask": "",
@@ -3266,9 +3262,9 @@
         "path": "playerDiscoveryIcons.xml"
       }
   ],
-  "terrains": [
+  "enchantments" : [
     {
-      "path": "terrains.xml"
+      "path": "enchantments.xml"
     }
-]
+  ]
 }

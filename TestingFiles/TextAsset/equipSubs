@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0x1d88" id="Sword Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Description>This item contains all the sword subattacks in game.</Description>
+    <Projectile id="0">
+      <ObjectId>Purple Bolt</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>210</MinDamage>
+      <MaxDamage>265</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Purple Bolt</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>220</MinDamage>
+      <MaxDamage>275</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+      <Boomerang />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Projectile id="2">
+      <ObjectId>Splendor Bolt</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>225</MinDamage>
+      <MaxDamage>280</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Splendor Bolt</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>235</MinDamage>
+      <MaxDamage>290</MaxDamage>
+      <LifetimeMS>700</LifetimeMS>
+      <Boomerang />
+    </Projectile>
+    <Subattack index="2" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Subattack index="3" projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Projectile id="4">
+      <ObjectId>Majesty Bolt</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>240</MinDamage>
+      <MaxDamage>295</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Majesty Bolt</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>250</MinDamage>
+      <MaxDamage>305</MaxDamage>
+      <LifetimeMS>700</LifetimeMS>
+      <Boomerang />
+    </Projectile>
+    <Subattack index="4" projectileId="4">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Subattack index="5" projectileId="5">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x1d89" id="Flail Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Description>This item contains all the Flail subattacks in game.</Description>
+    <Projectile id="0">
+      <ObjectId>Purple Flail Ball</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>315</MinDamage>
+      <MaxDamage>375</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Boomerang />
+      <MultiHit />
+      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Purple Flail Ball</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>325</MinDamage>
+      <MaxDamage>385</MaxDamage>
+      <MultiHit />
+      <LifetimeMS>750</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>325</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Purple Flail Chain</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>325</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Purple Flail Chain</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>325</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack index="2" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack index="3" projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="4">
+      <ObjectId>Silver Flail Ball</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>330</MinDamage>
+      <MaxDamage>390</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Boomerang />
+      <MultiHit />
+      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Silver Flail Ball</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>340</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>325</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Gold Flail Chain</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>90</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>325</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Gold Flail Chain</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>90</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>325</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Subattack index="4" projectileId="4">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack index="5" projectileId="5">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack index="6" projectileId="6">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack index="7" projectileId="7">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="8">
+      <ObjectId>Black Flail Ball</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>345</MinDamage>
+      <MaxDamage>405</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Boomerang />
+      <MultiHit />
+      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Black Flail Ball</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>355</MinDamage>
+      <MaxDamage>415</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>325</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Black Flail Chain</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>325</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Black Flail Chain</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>325</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Subattack index="8" projectileId="8">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack index="9" projectileId="9">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack index="10" projectileId="10">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack index="11" projectileId="11">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x1d8A" id="Dagger Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Description>This item contains all the dagger subattacks in game.</Description>
+    <Projectile id="0">
+      <ObjectId>Purple Magic</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>115</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <Boomerang />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Orange Magic</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>125</MinDamage>
+      <MaxDamage>220</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <Boomerang />
+    </Projectile>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Projectile id="2">
+      <ObjectId>Black Magic</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>140</MinDamage>
+      <MaxDamage>235</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <Boomerang />
+    </Projectile>
+    <Subattack index="2" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x1d8B" id="Dualblade Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Description>This item contains all the Dualblade subattacks in game.</Description>
+    <Projectile id="0">
+      <ObjectId>Large Red Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Small Red Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>95</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Large Red Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Small Red Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>95</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>0.9</RateOfFire>
+      <PosOffset>0.25,0</PosOffset>
+      <ProjectilePattern projectileId="0">
+        <NumProjectiles>1</NumProjectiles>
+      </ProjectilePattern>
+      <ProjectilePattern projectileId="2">
+        <NumProjectiles>1</NumProjectiles>
+      </ProjectilePattern>
+    </Subattack>
+    <Subattack index="1" projectileId="0">
+      <RateOfFire>1.1</RateOfFire>
+      <PosOffset>-0.25,0</PosOffset>
+      <ProjectilePattern projectileId="3">
+        <NumProjectiles>1</NumProjectiles>
+      </ProjectilePattern>
+      <ProjectilePattern projectileId="1">
+        <NumProjectiles>1</NumProjectiles>
+      </ProjectilePattern>
+    </Subattack>
+    <Projectile id="4">
+      <ObjectId>Large Orange Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>90</MinDamage>
+      <MaxDamage>130</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Small Orange Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>105</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Large Orange Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>90</MinDamage>
+      <MaxDamage>130</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Small Orange Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>105</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="0" projectileId="4">
+      <RateOfFire>0.9</RateOfFire>
+      <PosOffset>0.25,0</PosOffset>
+      <ProjectilePattern projectileId="4">
+        <NumProjectiles>1</NumProjectiles>
+      </ProjectilePattern>
+      <ProjectilePattern projectileId="6">
+        <NumProjectiles>1</NumProjectiles>
+      </ProjectilePattern>
+    </Subattack>
+    <Subattack index="1" projectileId="4">
+      <RateOfFire>1.1</RateOfFire>
+      <PosOffset>-0.25,0</PosOffset>
+      <ProjectilePattern projectileId="7">
+        <NumProjectiles>1</NumProjectiles>
+      </ProjectilePattern>
+      <ProjectilePattern projectileId="5">
+        <NumProjectiles>1</NumProjectiles>
+      </ProjectilePattern>
+    </Subattack>
+    <Projectile id="8">
+      <ObjectId>Large Dark Blue Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>140</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Small Dark Blue Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>110</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Large Dark Blue Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>140</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Small Dark Blue Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>110</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="0" projectileId="8">
+      <RateOfFire>0.9</RateOfFire>
+      <PosOffset>0.25,0</PosOffset>
+      <ProjectilePattern projectileId="8">
+        <NumProjectiles>1</NumProjectiles>
+      </ProjectilePattern>
+      <ProjectilePattern projectileId="10">
+        <NumProjectiles>1</NumProjectiles>
+      </ProjectilePattern>
+    </Subattack>
+    <Subattack index="1" projectileId="8">
+      <RateOfFire>1.1</RateOfFire>
+      <PosOffset>-0.25,0</PosOffset>
+      <ProjectilePattern projectileId="11">
+        <NumProjectiles>1</NumProjectiles>
+      </ProjectilePattern>
+      <ProjectilePattern projectileId="9">
+        <NumProjectiles>1</NumProjectiles>
+      </ProjectilePattern>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x1d8C" id="Staff Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Description>This item contains all the staff subattacks in game.</Description>
+    <Projectile id="0">
+      <ObjectId>Fire Missile</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>950</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+      <Boomerang />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Orange Missile</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>110</MaxDamage>
+      <LifetimeMS>950</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+      <Boomerang />
+    </Projectile>
+    <Subattack index="1" projectileId="1">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+    </Subattack>
+    <Projectile id="2">
+      <ObjectId>Blue Missile</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>115</MaxDamage>
+      <LifetimeMS>950</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+      <Boomerang />
+    </Projectile>
+    <Subattack index="2" projectileId="2">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x1d8D" id="Spellblade Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Description>This item contains all the Spellblade subattacks in game.</Description>
+    <Projectile id="0">
+      <ObjectId>Small Redder Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Large Redder Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>45</MinDamage>
+      <MaxDamage>60</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <MultiHit />
+      <Size>100</Size>
+      <ArmorPiercing />
+      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Small Redder Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>95</MaxDamage>
+      <LifetimeMS>880</LifetimeMS>
+      <Size>100</Size>
+      <Boomerang />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Large Redder Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>880</LifetimeMS>
+      <MultiHit />
+      <Size>100</Size>
+      <ArmorPiercing />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Subattack index="2" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Subattack index="3" projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Projectile id="4">
+      <ObjectId>Small Yellow Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>95</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Large Yellow Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>60</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <MultiHit />
+      <Size>100</Size>
+      <ArmorPiercing />
+      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Small Yellow Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>105</MaxDamage>
+      <LifetimeMS>880</LifetimeMS>
+      <Size>100</Size>
+      <Boomerang />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Large Yellow Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>880</LifetimeMS>
+      <MultiHit />
+      <Size>100</Size>
+      <ArmorPiercing />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="4" projectileId="4">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Subattack index="5" projectileId="5">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Subattack index="6" projectileId="6">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Subattack index="7" projectileId="7">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Projectile id="8">
+      <ObjectId>Small Bluer Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Large Bluer Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <MultiHit />
+      <Size>100</Size>
+      <ArmorPiercing />
+      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Small Bluer Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>90</MinDamage>
+      <MaxDamage>110</MaxDamage>
+      <LifetimeMS>880</LifetimeMS>
+      <Size>100</Size>
+      <Boomerang />
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Large Bluer Missle</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <LifetimeMS>880</LifetimeMS>
+      <MultiHit />
+      <Size>100</Size>
+      <ArmorPiercing />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="8" projectileId="8">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Subattack index="9" projectileId="9">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Subattack index="10" projectileId="10">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Subattack index="11" projectileId="11">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x1d8E" id="Wand Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Description>This item contains all the wand subattacks in game.</Description>
+    <Projectile id="0">
+      <ObjectId>Blue Magic</ObjectId>
+      <Speed>180</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <MinDamage>130</MinDamage>
+      <MaxDamage>175</MaxDamage>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>1</NumProjectiles>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Evocation Magic</ObjectId>
+      <Speed>180</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <MinDamage>145</MinDamage>
+      <MaxDamage>180</MaxDamage>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="1" projectileId="1">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>1</NumProjectiles>
+    </Subattack>
+    <Projectile id="2">
+      <ObjectId>Retribution Magic</ObjectId>
+      <Speed>180</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>195</MaxDamage>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="2" projectileId="2">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>1</NumProjectiles>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x1d8F" id="Morningstar Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Description>This item contains all the Morningstar subattacks in game.</Description>
+    <Projectile id="0">
+      <ObjectId>Bluer Morning Star</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <LifetimeMS>380</LifetimeMS>
+      <Size>80</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Bluer Morning Star</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>380</LifetimeMS>
+      <Size>80</Size>
+      <ConditionEffect duration="3.0" bleedDamage="5">Bleeding</ConditionEffect>
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>3.41</DefaultAngle>
+    </Subattack>
+    <Subattack index="1" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>7.82</DefaultAngle>
+    </Subattack>
+    <Subattack index="2" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.60</RateOfFire>
+    </Subattack>
+    <Subattack index="3" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>-3.41</DefaultAngle>
+    </Subattack>
+    <Subattack index="4" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>-7.82</DefaultAngle>
+    </Subattack>
+    <Subattack index="5" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>4.41</DefaultAngle>
+    </Subattack>
+    <Subattack index="6" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>8.82</DefaultAngle>
+    </Subattack>
+    <Subattack index="7" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.60</RateOfFire>
+    </Subattack>
+    <Subattack index="8" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>-4.41</DefaultAngle>
+    </Subattack>
+    <Subattack index="9" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>-8.82</DefaultAngle>
+    </Subattack>
+    <Projectile id="2">
+      <ObjectId>Orange Morning Star</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>380</LifetimeMS>
+      <Size>80</Size>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Orange Morning Star</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>75</MaxDamage>
+      <LifetimeMS>380</LifetimeMS>
+      <Size>80</Size>
+      <ConditionEffect duration="3.0" bleedDamage="5">Bleeding</ConditionEffect>
+    </Projectile>
+    <Subattack index="0" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>3.41</DefaultAngle>
+    </Subattack>
+    <Subattack index="1" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>7.82</DefaultAngle>
+    </Subattack>
+    <Subattack index="2" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.60</RateOfFire>
+    </Subattack>
+    <Subattack index="3" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>-3.41</DefaultAngle>
+    </Subattack>
+    <Subattack index="4" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>-7.82</DefaultAngle>
+    </Subattack>
+    <Subattack index="15" projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>4.41</DefaultAngle>
+    </Subattack>
+    <Subattack index="16" projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>8.82</DefaultAngle>
+    </Subattack>
+    <Subattack index="17" projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.60</RateOfFire>
+    </Subattack>
+    <Subattack index="18" projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>-4.41</DefaultAngle>
+    </Subattack>
+    <Subattack index="19" projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>-8.82</DefaultAngle>
+    </Subattack>
+    <Projectile id="4">
+      <ObjectId>Purple Morning Star</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>90</MaxDamage>
+      <LifetimeMS>380</LifetimeMS>
+      <Size>80</Size>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Purple Morning Star</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <LifetimeMS>380</LifetimeMS>
+      <Size>80</Size>
+      <ConditionEffect duration="3.0" bleedDamage="5">Bleeding</ConditionEffect>
+    </Projectile>
+    <Subattack index="0" projectileId="4">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>3.41</DefaultAngle>
+    </Subattack>
+    <Subattack index="1" projectileId="4">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>7.82</DefaultAngle>
+    </Subattack>
+    <Subattack index="2" projectileId="4">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.60</RateOfFire>
+    </Subattack>
+    <Subattack index="3" projectileId="4">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>-3.41</DefaultAngle>
+    </Subattack>
+    <Subattack index="4" projectileId="4">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>-7.82</DefaultAngle>
+    </Subattack>
+    <Subattack index="25" projectileId="5">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>4.41</DefaultAngle>
+    </Subattack>
+    <Subattack index="26" projectileId="5">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>8.82</DefaultAngle>
+    </Subattack>
+    <Subattack index="27" projectileId="5">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.60</RateOfFire>
+    </Subattack>
+    <Subattack index="28" projectileId="5">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>-4.41</DefaultAngle>
+    </Subattack>
+    <Subattack index="29" projectileId="5">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>-8.82</DefaultAngle>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x1d90" id="Bow Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Description>This item contains all the bow subattacks in game.</Description>
+    <Projectile id="0">
+      <ObjectId>Small T12 Arrow</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>25</MinDamage>
+      <MaxDamage>35</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <MultiHit />
+      <Size>80</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>7</ArcGap>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Small T13 Arrow</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>35</MinDamage>
+      <MaxDamage>45</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <MultiHit />
+      <Size>80</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>7</ArcGap>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Projectile id="2">
+      <ObjectId>Small T14 Arrow</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>35</MinDamage>
+      <MaxDamage>45</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <MultiHit />
+      <Size>80</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <Subattack index="2" projectileId="2">
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>7</ArcGap>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x1d91" id="Longbow Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Description>This item contains all the Longbow subattacks in game.</Description>
+    <Projectile id="0">
+      <ObjectId>Blue Long Arrow</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>125</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.96</RateOfFire>
+      <PosOffset>0,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+    </Subattack>
+    <Subattack index="1" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.92</RateOfFire>
+      <PosOffset>-.3,-.5</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>3</DefaultAngle>
+    </Subattack>
+    <Subattack index="2" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>.3,.5</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>-3</DefaultAngle>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Yellow Long Arrow</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>105</MinDamage>
+      <MaxDamage>130</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+    </Projectile>
+    <Subattack index="3" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.96</RateOfFire>
+      <PosOffset>0,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+    </Subattack>
+    <Subattack index="4" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.92</RateOfFire>
+      <PosOffset>-.3,-.5</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>3</DefaultAngle>
+    </Subattack>
+    <Subattack index="5" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>.3,.5</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>-3</DefaultAngle>
+    </Subattack>
+    <Projectile id="2">
+      <ObjectId>Black Long Arrow</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>110</MinDamage>
+      <MaxDamage>145</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+    </Projectile>
+    <Subattack index="6" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.96</RateOfFire>
+      <PosOffset>0,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+    </Subattack>
+    <Subattack index="7" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.92</RateOfFire>
+      <PosOffset>-.3,-.5</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>3</DefaultAngle>
+    </Subattack>
+    <Subattack index="8" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>.3,.5</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>-3</DefaultAngle>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x1d92" id="Katana Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Description>This item contains all the Katana subattacks in game.</Description>
+    <Projectile id="0">
+      <ObjectId>Masamune Slash</ObjectId>
+      <Speed>130</Speed>
+      <LifetimeMS>730</LifetimeMS>
+      <MinDamage>140</MinDamage>
+      <MaxDamage>190</MaxDamage>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Sadamune Slash</ObjectId>
+      <Speed>130</Speed>
+      <LifetimeMS>730</LifetimeMS>
+      <MinDamage>155</MinDamage>
+      <MaxDamage>205</MaxDamage>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Projectile id="2">
+      <ObjectId>Kusanagi Slash</ObjectId>
+      <Speed>130</Speed>
+      <LifetimeMS>730</LifetimeMS>
+      <MinDamage>170</MinDamage>
+      <MaxDamage>220</MaxDamage>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="2" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x1d93" id="Tachi Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Description>This item contains all the Tachi subattacks in game.</Description>
+    <Projectile id="0">
+      <ObjectId>Gold Cross Slash</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>768</LifetimeMS>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.95</RateOfFire>
+      <PosOffset>1,.75</PosOffset>
+      <DefaultAngle>-25</DefaultAngle>
+    </Subattack>
+    <Subattack index="1" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.95</RateOfFire>
+      <PosOffset>-1,.75</PosOffset>
+      <DefaultAngle>25</DefaultAngle>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Pink Cross Slash</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>130</MaxDamage>
+      <LifetimeMS>768</LifetimeMS>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="2" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.95</RateOfFire>
+      <PosOffset>1,.75</PosOffset>
+      <DefaultAngle>-25</DefaultAngle>
+    </Subattack>
+    <Subattack index="3" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.95</RateOfFire>
+      <PosOffset>-1,.75</PosOffset>
+      <DefaultAngle>25</DefaultAngle>
+    </Subattack>
+    <Projectile id="2">
+      <ObjectId>Cyan Cross Slash</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>135</MaxDamage>
+      <LifetimeMS>768</LifetimeMS>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Subattack index="4" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.95</RateOfFire>
+      <PosOffset>1,.75</PosOffset>
+      <DefaultAngle>-25</DefaultAngle>
+    </Subattack>
+    <Subattack index="5" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.95</RateOfFire>
+      <PosOffset>-1,.75</PosOffset>
+      <DefaultAngle>25</DefaultAngle>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+</Objects>
