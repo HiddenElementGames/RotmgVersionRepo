@@ -4366,4 +4366,28 @@
     <Track />
     <UniqueID />
   </Object>
+  <Object type="0x4530" id="Solo Parasite Chambers Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1220</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Parasite Chambers. Some of the realm's most foul and horrific creatures make their home in these chambers.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for higher chance at loot and more experience." />
+      <EffectInfo name="Seasonal Key" description="This key can only be used on seasonal characters and cannot be transferred to non seasonal characters." />
+      <EffectInfo name="Flash of Lightning" description="The dungeon boss has been charged with a faint electricity, defeating it has a chance for an extra reward." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Parasite Chambers Portal" predefinedDungeonMods="S|;XPANDREWARDSBOOSTALL_2;SPEEDRUN_REWARD" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+    <SeasonalOnly />
+  </Object>
 </Objects>

@@ -5364,6 +5364,7 @@
       <File>spiderDenObjects8x8</File>
       <Index>0x53</Index>
     </Texture>
+    <SharedCooldownChannel id="65550" />
     <SlotType>9</SlotType>
     <ExtraTooltipData>
       <EffectInfo description="Speedy for 2 seconds" name="On Ability Use" />
@@ -26363,6 +26364,7 @@
     <Soulbound />
     <BagType>8</BagType>
     <Treasure />
+    <UniqueID />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
   <Object type="0x73d6" id="Silver Reward Chest">
@@ -26391,6 +26393,7 @@
     <Soulbound />
     <BagType>8</BagType>
     <Treasure />
+    <UniqueID />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
   <Object type="0x73d8" id="Platinum Reward Chest">
@@ -60384,5 +60387,205 @@
     <Soulbound />
     <OnPlayerShootActivate cooldown="1.4" proc="1" objectId="MV Legendary Bait" throwTime="1.2" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
     <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="1.4" duration="0.8">ConditionEffectSelf</OnPlayerShootActivate>
+  </Object>
+  <Object type="0xc993" id="Drop Boost Accelerator">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>1697</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>You will always get compatible loot for your currently selected class until the end of season.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Drop Boost" description="100% chance drops will be class-specific items (entire season)" />
+    </ExtraTooltipData>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>100</feedPower>
+    <Track />
+    <Potion />
+    <Activate acceleratorId="TIEREDLOOTBOOST" duration="-1" amount="0" dropChanceClassBias="1" display="100% class specific drop rate.">StartAccelerator</Activate>
+    <NoSeasonalToRegularConversion />
+    <Labels>EQUIPMENT,CONSUMABLE</Labels>
+  </Object>
+  <Object type="0xc994" id="Seasonal XP Accelerator">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>1696</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>+20% XP bonus until end of season.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="XP Bonus" description="+20% XP (entire season)" />
+    </ExtraTooltipData>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>100</feedPower>
+    <Track />
+    <Potion />
+    <Activate acceleratorId="XPBOOST" duration="-1" mult="0.2" display="+20% XP (entire season)">StartAccelerator</Activate>
+    <Labels>EQUIPMENT,CONSUMABLE</Labels>
+  </Object>
+  <Object id="Beekeeper's Flamethrower Shiny" type="0x4524" collectionIcon="13">
+    <Class>Equipment</Class>
+    <InventoryAnimation />
+    <DisplayId>Beekeeper's Flamethrower</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>541</Index>
+    </Texture>
+    <SlotType>8</SlotType>
+    <Description>Equipped with a mechanical combustion technology few may understand, this weapon projects flames boasting temperatures capable of melting their target before they're able to retaliate.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/wand_of_death</Sound>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.55</RateOfFire>
+      <DefaultAngle>8.82</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.75</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.65</RateOfFire>
+      <DefaultAngle>-8.82</DefaultAngle>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Fire Morning Star Shiny</ObjectId>
+      <Speed>60</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>1200</LifetimeMS>
+      <Amplitude>0</Amplitude>
+      <Frequency>0.25</Frequency>
+      <ArmorPiercing />
+    </Projectile>
+    <BagType>6</BagType>
+    <OldSound>magicShoot</OldSound>
+    <feedPower>1000</feedPower>
+    <XPBonus>7</XPBonus>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,WAND,UT,TAB_UT,XPBONUS,ORG_NEST_S,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x4536" id="Tome of Holy Protection Shiny">
+    <Class>Equipment</Class>
+    <InventoryAnimation />
+    <DisplayId>Tome of Holy Protection</DisplayId>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>lofiProjs</File>
+      <Index>545</Index>
+    </Texture>
+    <SlotType>4</SlotType>
+    <Description>A tome dedicated to the works of a forgotten god. It is written in a strange script that glows with a pure white light.</Description>
+    <Sound>spell/major_heal</Sound>
+    <ActivateOnEquip stat="DEF" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXHP" amount="40">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>130</MpCost>
+    <Activate range="6" amount="120" wisMin="50" wisPerIncrease="10" wisHealBase="30" splitHealing="true">HealNova</Activate>
+    <Activate effect="Armored" duration="4" wisMin="50">ConditionEffectSelf</Activate>
+    <feedPower>1250</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TOME,UT,TAB_UT,POWERTIER_A,TRADEABLE,XPBONUS,MPCOST,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x4537" id="pD Scepter Shiny">
+    <DisplayId>Scepter of Devastation</DisplayId>
+    <InventoryAnimation />
+    <Description>A loathsome scepter that converges the life energy of parasites into a soul-rotting bolt of destruction.</Description>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>546</Index>
+    </Texture>
+    <SlotType>23</SlotType>
+    <Sound>spell/magic_nova</Sound>
+    <ActivateOnEquip stat="ATT" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="WIS" amount="2">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXHP" amount="-20">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="-5">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>80</MpCost>
+    <Activate arcDegrees="15" totalDamage="200" wisDamageBase="100" maxTargets="1" color="0xE28A8A" wisPerTarget="15" wisMin="50" aoeActivationCount="1" aoeTime="1" aoeDamage="250" statModDamage="250" aoeRange="0.5" statModRadius="0.05" aoeMaxTargets="1" scalingStat="ATT" statModScalingMin="65" statModPerTarget="15">Lightning</Activate>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SCEPTER,UT,TAB_UT,POWERTIER_A,XPBONUS,MPCOST,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x4538" id="Penetrating Blast Spell Shiny">
+    <Class>Equipment</Class>
+    <Item />
+    <DisplayId>Penetrating Blast Spell</DisplayId>
+    <InventoryAnimation />
+    <Texture xOffset="0" yOffset="2">
+      <File>lofiProjs</File>
+      <Index>539</Index>
+    </Texture>
+    <SlotType>11</SlotType>
+    <Description>This spell's destructive power is so notorious that casting it was banned for many generations.</Description>
+    <Sound>spell/magic_nova</Sound>
+    <Projectile>
+      <ObjectId>Volt Bolt Shiny</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <LifetimeMS>2200</LifetimeMS>
+      <CircleTurnDelay>125</CircleTurnDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <ActivateOnEquip stat="ATT" amount="2">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXHP" amount="40">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>85</MpCost>
+    <Activate numShots="6">BulletNova</Activate>
+    <feedPower>1000</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SPELL,UT,TAB_UT,POWERTIER_A,XPBONUS,MPCOST,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x451b" id="Amulet of Lightning">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1222</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <SharedCooldownChannel id="65550" />
+    <ExtraTooltipData>
+      <EffectInfo description="Speedy for 3 seconds" name="On Ability Use" />
+      <EffectInfo description="6 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <Description>A fine silk necklace with a bolt shaped medallion, channeling energy through it briefly grants the user the speed of lightning itself.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="70">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXMP" amount="70">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="SPD" amount="5">IncrementStat</ActivateOnEquip>
+    <OnPlayerAbilityActivate cooldown="6" duration="3" effect="Speedy" proc="1">ConditionEffectSelf</OnPlayerAbilityActivate>
+    <BagType>6</BagType>
+    <XPBonus>7</XPBonus>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,TAB_UT</Labels>
   </Object>
 </Objects>
