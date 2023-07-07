@@ -57525,6 +57525,10 @@
     <ExtraTooltipData>
       <EffectInfo description="40 MP cost to summon an orbiting Friendly Spirit which heals allies." name="On Ability Use" />
       <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
+      <EffectInfo description="" name="Upgrade Levels" />
+      <EffectInfo description="Healing buff within 4.5 squares." name="1" />
+      <EffectInfo description="Healing buff and heals 20 HP/sec within 4.5 squares." name="2" />
+      <EffectInfo description="Healing buff and heals 40 HP/sec within 4.5 squares." name="3" />
       <EffectInfo description="15 seconds" name="Maximum Lifetime" />
       <EffectInfo description="15 seconds" name="Cooldown" />
     </ExtraTooltipData>
@@ -57608,6 +57612,10 @@
       <EffectInfo description="When shooting, reduce SPD by 25." name="Focus" />
       <EffectInfo description="40 MP cost to summon an orbiting Friendly Spirit which curses enemies." name="On Ability Use" />
       <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
+      <EffectInfo description="" name="Upgrade Levels" />
+      <EffectInfo description="Curses within 4.5 squares." name="1" />
+      <EffectInfo description="Curses and deals 300 damage/sec within 4.5 squares." name="2" />
+      <EffectInfo description="Curses and deals 600 damage/sec within 4.5 squares." name="3" />
       <EffectInfo description="15 seconds" name="Maximum Lifetime" />
       <EffectInfo description="15 seconds" name="Cooldown" />
     </ExtraTooltipData>
@@ -57689,6 +57697,10 @@
     <ExtraTooltipData>
       <EffectInfo description="40 MP cost to summon an orbiting Friendly Spirit which impedes enemy movement." name="On Ability Use" />
       <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
+      <EffectInfo description="" name="Upgrade Levels" />
+      <EffectInfo description="Slows within 4.5 squares." name="1" />
+      <EffectInfo description="Slows and deals 300 damage/sec within 4.5 squares." name="2" />
+      <EffectInfo description="Slows, paralyzes and deals 300 damage/sec within 4.5 squares." name="3" />
       <EffectInfo description="15 seconds" name="Maximum Lifetime" />
       <EffectInfo description="15 seconds" name="Cooldown" />
     </ExtraTooltipData>
@@ -57939,6 +57951,10 @@
       <ExtraTooltipData>
         <EffectInfo description="Summon an orbiting Friendly Spirit which chases and attacks enemies." name="On Ability Use" />
         <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
+        <EffectInfo description="" name="Upgrade Levels" />
+        <EffectInfo description="150-200 damage shotgun." name="1" />
+        <EffectInfo description="150-200 damage shotgun and infrequent 70-100 damage novas." name="2" />
+        <EffectInfo description="150-200 damage shotgun and frequent 70-100 damage novas." name="3" />
         <EffectInfo description="10 seconds" name="Cooldown" />
       </ExtraTooltipData>
       <Activate aoeActivationCount="3" aoeDamage="250" aoeMaxTargets="2" aoeRange="2" aoeTime="1" arcDegrees="60" color="0xf94545" colorMissed="0xec9006" maxTargets="5" scalingStat="VIT" statModDamage="0" statModPerTarget="15" statModRadius="0.02" statModScalingMin="60" totalDamage="175" wisDamageBase="75" wisMin="50" wisPerTarget="7" aoeArmorPierce="true">Lightning</Activate>
@@ -58217,6 +58233,10 @@
       <ExtraTooltipData>
         <EffectInfo description="Summon an orbiting Friendly Spirit which chases and attacks enemies." name="On Ability Use" />
         <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
+        <EffectInfo description="" name="Upgrade Levels" />
+        <EffectInfo description="150-200 damage shotgun." name="1" />
+        <EffectInfo description="150-200 damage shotgun and infrequent 70-100 damage novas." name="2" />
+        <EffectInfo description="150-200 damage shotgun and frequent 70-100 damage novas." name="3" />
         <EffectInfo description="8 seconds" name="Cooldown" />
       </ExtraTooltipData>
       <Activate aoeActivationCount="3" aoeDamage="250" aoeMaxTargets="2" aoeRange="2" aoeTime="1" arcDegrees="65" color="0xF6D56D" colorMissed="0xD19906" maxTargets="5" scalingStat="VIT" statModDamage="0" statModPerTarget="15" statModRadius="0.02" statModScalingMin="60" totalDamage="175" wisDamageBase="75" wisMin="50" wisPerTarget="7" aoeArmorPierce="true">Lightning</Activate>
@@ -59008,7 +59028,7 @@
     <SlotType>9</SlotType>
     <Description>An ethereal lantern charged with the hundreds of hopes and memories of bygone souls. Its light seeks to guide and protect those still dwelling within the mortal plane.</Description>
     <ExtraTooltipData>
-      <EffectInfo description="When above 50% MP, 10% chance to summon an orbiting Friendly Spirit at the cost of 80 MP" name="On Shoot" />
+      <EffectInfo description="10% chance to summon a level 2 assorted orbiting Friendly Spirit at the cost of 80 MP" name="On Shoot" />
       <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
       <EffectInfo description="15 seconds" name="Cooldown" />
     </ExtraTooltipData>
@@ -59016,7 +59036,7 @@
     <ActivateOnEquip amount="100" stat="MAXMP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="5" stat="VIT">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="5" stat="WIS">IncrementStat</ActivateOnEquip>
-    <OnPlayerShootActivate color="-1" cooldown="15" objectId="MV Kagenohikari Summon" proc="0.1" maxSpawnDistance="0.0" manaRequiredRelative="0.5" manaCost="80">SpawnCreep</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" cooldown="15" objectId="MV Kagenohikari Summon" proc="0.1" maxSpawnDistance="0.0" manaCost="80">SpawnCreep</OnPlayerShootActivate>
     <BagType>6</BagType>
     <XPBonus>8</XPBonus>
     <feedPower>1400</feedPower>
@@ -59212,14 +59232,14 @@
     <SlotType>9</SlotType>
     <Description>An ethereal lantern charged with the extiguished hopes and memories of bygone souls. Its blacklight flickers with restlessness and resentment.</Description>
     <ExtraTooltipData>
-      <EffectInfo description="When above 50% MP, 10% chance to summon an orbiting Malevolent Spirit at the cost of 80 MP" name="On Shoot" />
+      <EffectInfo description="10% chance to summon an orbiting Malevolent Spirit at the cost of 80 MP" name="On Shoot" />
       <EffectInfo description="15 seconds" name="Cooldown" />
     </ExtraTooltipData>
     <ActivateOnEquip amount="110" stat="MAXHP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="110" stat="MAXMP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="6" stat="VIT">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="6" stat="WIS">IncrementStat</ActivateOnEquip>
-    <OnPlayerShootActivate color="-1" cooldown="15" objectId="MV Kagenohikari 2 Summon" proc="0.1" maxSpawnDistance="0.0" manaRequiredRelative="0.5" manaCost="80">SpawnCreep</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" cooldown="15" objectId="MV Kagenohikari 2 Summon" proc="0.1" maxSpawnDistance="0.0" manaCost="80">SpawnCreep</OnPlayerShootActivate>
     <BagType>6</BagType>
     <XPBonus>9</XPBonus>
     <feedPower>1500</feedPower>
@@ -60294,7 +60314,6 @@
     <feedPower>0</feedPower>
     <Soulbound />
     <OnPlayerShootActivate cooldown="1.8" proc="1" objectId="MV Basic Bait" throwTime="1.6" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="1.8" duration="1.2">ConditionEffectSelf</OnPlayerShootActivate>
   </Object>
   <Object id="MV Intermediate Fishing Rod" type="0x50f2">
     <DisplayId>Intermediate Fishing Rod</DisplayId>
@@ -60317,7 +60336,6 @@
     <feedPower>250</feedPower>
     <Soulbound />
     <OnPlayerShootActivate cooldown="1.6" proc="1" objectId="MV Intermediate Bait" throwTime="1.6" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="1.6" duration="1.2">ConditionEffectSelf</OnPlayerShootActivate>
   </Object>
   <Object id="MV Expert Fishing Rod" type="0x514a">
     <DisplayId>Expert Fishing Rod</DisplayId>
@@ -60340,7 +60358,6 @@
     <feedPower>500</feedPower>
     <Soulbound />
     <OnPlayerShootActivate cooldown="1.6" proc="1" objectId="MV Expert Bait" throwTime="1.4" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="1.6" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
   </Object>
   <Object id="MV Master Fishing Rod" type="0x50f3">
     <DisplayId>Master Fishing Rod</DisplayId>
@@ -60363,7 +60380,6 @@
     <feedPower>750</feedPower>
     <Soulbound />
     <OnPlayerShootActivate cooldown="1.4" proc="1" objectId="MV Master Bait" throwTime="1.4" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="1.4" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
   </Object>
   <Object id="MV Legendary Fishing Rod" type="0x50f6">
     <DisplayId>Legendary Fishing Rod</DisplayId>
@@ -60386,7 +60402,6 @@
     <feedPower>1000</feedPower>
     <Soulbound />
     <OnPlayerShootActivate cooldown="1.4" proc="1" objectId="MV Legendary Bait" throwTime="1.2" color="0xDEF0F2" targetMouse="true" targetMouseRange="4" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Stunned" cooldown="1.4" duration="0.8">ConditionEffectSelf</OnPlayerShootActivate>
   </Object>
   <Object type="0xc993" id="Drop Boost Accelerator">
     <Class>Equipment</Class>
@@ -60497,6 +60512,7 @@
     <MpCost>130</MpCost>
     <Activate range="6" amount="120" wisMin="50" wisPerIncrease="10" wisHealBase="30" splitHealing="true">HealNova</Activate>
     <Activate effect="Armored" duration="4" wisMin="50">ConditionEffectSelf</Activate>
+    <Soulbound />
     <feedPower>1250</feedPower>
     <XPBonus>7</XPBonus>
     <UniqueID />
@@ -60587,5 +60603,384 @@
     <Soulbound />
     <UniqueID />
     <Labels>EQUIPMENT,RING,UT,TAB_UT</Labels>
+  </Object>
+  <Object id="3ArcherST0" type="0xc67d" setName="Kogbold Turretsmith Archer Set" setType="0x425e" collectionIcon="3">
+    <DisplayId>Experimental Cannon</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xDF</Index>
+    </Texture>
+    <SlotType>3</SlotType>
+    <Description>This firearm was created as an experiment by welding two double-barrelled cannons together. One of the barrels fell off when it was first fired, but the other three work fine.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="When worn, Gun Turrets will fire 2 projectiles, and every 3rd shot will Slow enemies for 0.2 seconds." name="Spare Barrel" />
+    </ExtraTooltipData>
+    <OldSound>arrowShoot</OldSound>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>0,0.40</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.4</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>-0.40,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.4</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>0.40,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.4</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Kogbold Rifle</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>95</MinDamage>
+      <MaxDamage>115</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <Size>70</Size>
+      <ArmorPiercing />
+      <FaceDir />
+    </Projectile>
+    <NumProjectiles>2</NumProjectiles>
+    <ArcGap>0</ArcGap>
+    <BagType>8</BagType>
+    <feedPower>800</feedPower>
+    <Soulbound />
+    <XPBonus>5</XPBonus>
+    <UniqueID />
+    <ActivateOnEquip amount="2" stat="SPD">IncrementStat</ActivateOnEquip>
+    <Labels>EQUIPMENT,WEAPON,BOW,ST,TAB_ST,ST_WEAPON,STGEN_3,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object id="3ArcherST1" type="0xc67e" setName="Kogbold Turretsmith Archer Set" setType="0x425e" collectionIcon="3">
+    <DisplayId>Sentry Turret</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2">
+      <File>gen3SetObjects</File>
+      <Index>0xE0</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Description>Turretsmiths innovate new automated defence measures to help protect the Steamworks, from rapid firing cannons to multiple flails attached to a spinning post.</Description>
+    <Ability name="Gun Turret">
+      <ExtraTooltipData>
+        <EffectInfo description="This turret rapidly fires towards enemies." name="Gun Turret" />
+        <EffectInfo description="Bullets deal 195-295 damage. Turret remains for 6 seconds." name="" />
+      </ExtraTooltipData>
+      <Activate mustNotWear="0xc67d" maxSpawnDistance="1.0" objectId="Gun Turret" proc="1" targetMouse="true">SpawnCreep</Activate>
+      <Activate mustWear="0xc67d" maxSpawnDistance="1.0" objectId="Gun Turret Boost" proc="1" targetMouse="true">SpawnCreep</Activate>
+      <SwitchTime>1</SwitchTime>
+      <Cooldown>3</Cooldown>
+      <MpCost>150</MpCost>
+    </Ability>
+    <Ability name="Flail Turret">
+      <ExtraTooltipData>
+        <EffectInfo description="Creates 4 spinning flails around the spawn point." name="Flail Turret" />
+        <EffectInfo description="The heads deal 285-335 damage, chain links deal 225-295. Turret remains for 6 seconds." name="" />
+      </ExtraTooltipData>
+      <Activate mustNotWear="0xc67f" maxSpawnDistance="1.0" objectId="Shield Turret" proc="1" targetMouse="true">SpawnCreep</Activate>
+      <Activate mustWear="0xc67f" maxSpawnDistance="1.0" objectId="Shield Turret Boost" proc="1" targetMouse="true">SpawnCreep</Activate>
+      <SwitchTime>1</SwitchTime>
+      <Cooldown>3</Cooldown>
+      <MpCost>150</MpCost>
+    </Ability>
+    <Ability name="Heavy Turret">
+      <ExtraTooltipData>
+        <EffectInfo description="This turret fires 3 larger, heavier bullets in a cone." name="Heavy Turret" />
+        <EffectInfo description="Bullets deal 300-350 damage. Turret remains for 6 seconds." name="" />
+      </ExtraTooltipData>
+      <Activate mustNotWear="0xc680" maxSpawnDistance="1.0" objectId="Heavy Gun Turret" proc="1" targetMouse="true">SpawnCreep</Activate>
+      <Activate mustWear="0xc680" maxSpawnDistance="1.0" objectId="Heavy Gun Turret Boost" proc="1" targetMouse="true">SpawnCreep</Activate>
+      <SwitchTime>1</SwitchTime>
+      <Cooldown>3</Cooldown>
+      <MpCost>150</MpCost>
+    </Ability>
+    <Usable />
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>850</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
+    <Labels>EQUIPMENT,ABILITY,QUIVER,ST,TAB_ST,ST_ABILITY,STGEN_3,POWERTIER_S,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object id="3ArcherST2" type="0xc67f" setName="Kogbold Turretsmith Archer Set" setType="0x425e" collectionIcon="3">
+    <Class>Equipment</Class>
+    <Item />
+    <DisplayId>Tinkerers Apron</DisplayId>
+    <Description>This apron has many pockets containing supplies, pencils, blueprints and plenty of reloads. Each of those pockets has its own leather pocket protector.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="When worn, Flail Turrets have longer chains, and the heads will Slow enemies for 0.2 seconds." name="Longer Links" />
+    </ExtraTooltipData>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xE1</Index>
+    </Texture>
+    <SlotType>6</SlotType>
+    <ActivateOnEquip amount="80" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="16" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="4" stat="SPD">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>700</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,LEATHER,ST,TAB_ST,ST_ARMOR,STGEN_3,POWERTIER_B,XPBONUS</Labels>
+  </Object>
+  <Object id="3ArcherST3" type="0xc680" setName="Kogbold Turretsmith Archer Set" setType="0x425e" collectionIcon="3">
+    <Class>Equipment</Class>
+    <Item />
+    <DisplayId>Targeting Monocular</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xE2</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>Wearing this brass monocle allows a Turretsmith to see down their turret's sights, granting them greater accuracy at the expense of personal style.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="When worn, Heavy Turrets increase damage to 350-525, and every other shot will Slow enemies for 0.2 seconds." name="Target Analysis" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="50" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="8" stat="DEF">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>600</feedPower>
+    <Soulbound />
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_3,POWERTIER_B,XPBONUS</Labels>
+  </Object>
+  <Object type="0xc681" id="3WizardST0" setType="0x425f" setName="Kogbold Pyrotechnician Wizard Set" collectionIcon="3">
+    <DisplayId>Rocket Launcher</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xB6</Index>
+    </Texture>
+    <SlotType>17</SlotType>
+    <Description>Kogbold rockets are highly explosive.  The inaccurate nature of the weapon is made up for by the sheer volume of shots they can launch at once.</Description>
+    <Sound>weapon/wand_of_death</Sound>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.85</RateOfFire>
+      <DefaultAngleIncr maxAngle="2" minAngle="-2">1</DefaultAngleIncr>
+      <PosOffset>0,0.5</PosOffset>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.85</RateOfFire>
+      <DefaultAngleIncr maxAngle="2" minAngle="-2">1</DefaultAngleIncr>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Kogbold Rocket Shot Small</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <MultiHit />
+      <Size>100</Size>
+      <ArmorPiercing />
+      <Amplitude>0.1</Amplitude>
+      <Frequency>1</Frequency>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Kogbold Rocket Shot Sparkles</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>85</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <Size>100</Size>
+      <Amplitude>-0.1</Amplitude>
+      <Frequency>1</Frequency>
+    </Projectile>
+    <BagType>8</BagType>
+    <feedPower>1000</feedPower>
+    <OldSound>magicShoot</OldSound>
+    <Soulbound />
+    <XPBonus>5</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,STAFF,ST,TAB_ST,ST_WEAPON,STGEN_3,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object type="0xc682" id="3WizardST1" setType="0x425f" setName="Kogbold Pyrotechnician Wizard Set" collectionIcon="3">
+    <DisplayId>Unstable Firework</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xB7</Index>
+    </Texture>
+    <SlotType>11</SlotType>
+    <Description>The Pyrotechnicians are supposed to work on things like blasting caps and landmines, but often get distracted by the pretty colours of a violently detonating firework.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="The firework shoots novas dealing 45-75 armor-piercing damage per projectile." name="Grenade Barrage" />
+      <EffectInfo description="It also throws random Nova Grenades which fire 65-130 damage projectiles." name="" />
+    </ExtraTooltipData>
+    <Sound>spell/magic_nova</Sound>
+    <Activate objectId="Kogbold Firework" maxSpawnDistance="11.0">SpawnCreep</Activate>
+    <ActivateOnEquip amount="3" stat="DEX">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>8</BagType>
+    <feedPower>850</feedPower>
+    <MpCost>120</MpCost>
+    <Cooldown>1</Cooldown>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SPELL,ST,TAB_ST,ST_ABILITY,STGEN_3,POWERTIER_S,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0xc683" id="3WizardST2" setType="0x425f" setName="Kogbold Pyrotechnician Wizard Set" collectionIcon="3">
+    <DisplayId>Blast Proof Robes</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xB8</Index>
+    </Texture>
+    <SlotType>14</SlotType>
+    <Description>You are not a true Pyrotechnician until you can prove your robes can withstand several exploding experiments.</Description>
+    <ActivateOnEquip amount="2" stat="DEX">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="10" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="70" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>800</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,ROBE,ST,TAB_ST,ST_ARMOR,STGEN_3,POWERTIER_B,XPBONUS</Labels>
+  </Object>
+  <Object type="0xc684" id="3WizardST3" setType="0x425f" setName="Kogbold Pyrotechnician Wizard Set" collectionIcon="3">
+    <DisplayId>Lucky Grenade</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xB9</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>This grenade was launched from a firework and failed to explode. It will release deadly sparks when shaken violently enough, but until then it serves as a potent good-luck charm.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="When placing an Unstable Firework, releases a cone of bullets towards the mouse pointer." name="High Explosive" />
+      <EffectInfo description="Bullets deal 150-175 damage. 1 second cooldown." name="" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="5" stat="DEX">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="75" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <OnPlayerAbilityActivate type="0xc685" mustWear="0xc682" arcGap="15" minDistance="2" maxDistance="2" gapAngle="0" gapTiles="0" numShots="8" offsetAngle="0" proc="1" cooldown="1" ignoreOnTooltip="true" targetMouse="true">BulletCreate</OnPlayerAbilityActivate>
+    <BagType>8</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_3,POWERTIER_B,XPBONUS</Labels>
+  </Object>
+  <Object type="0xc685" id="3WizardST3 Effect">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>highTechTerrorObjects8x8</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile id="0">
+      <ObjectId>Kogbold Firework Ring</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>175</MaxDamage>
+      <LifetimeMS>275</LifetimeMS>
+      <ArmorPiercing />
+      <Size>50</Size>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0xc686" id="3ArcherSTToken">
+    <DisplayId>Kogbold Inventor Archer Set Token</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xB4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Can be used in the Forge to craft Kogbold Turretsmith Archer Items.</Description>
+    <BagType>5</BagType>
+    <feedPower>50</feedPower>
+    <Soulbound />
+    <Labels>TAB_ST</Labels>
+  </Object>
+  <Object type="0xc687" id="3WizardSTToken">
+    <DisplayId>Kogbold Pyrotechnician Wizard Set Token</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xB5</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Can be used in the Forge to craft Kogbold Pyrotechnician Wizard Items.</Description>
+    <BagType>5</BagType>
+    <feedPower>50</feedPower>
+    <Soulbound />
+    <Labels>TAB_ST</Labels>
+  </Object>
+  <Object type="0x451c" id="Test Chest 1">
+    <Chest />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>518</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Chest 2.0 test</Description>
+    <Consumable />
+    <ChestType>1</ChestType>
+    <Activate>OpenChest</Activate>
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x451d" id="Test Chest 2">
+    <Chest />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>518</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Chest 2.0 test</Description>
+    <Consumable />
+    <ChestType>2</ChestType>
+    <Activate>OpenChest</Activate>
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x451e" id="Test Chest 3">
+    <Chest />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>518</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Chest 2.0 test</Description>
+    <Consumable />
+    <ChestType>3</ChestType>
+    <Activate>OpenChest</Activate>
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
 </Objects>

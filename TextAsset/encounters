@@ -2784,7 +2784,7 @@
     <Quest />
     <HealthBarBoss />
     <God />
-    <Encounter />
+    <Encounter terrain="HauntedHallows" />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -2945,7 +2945,7 @@
     <Quest />
     <HealthBarBoss />
     <God />
-    <Encounter />
+    <Encounter terrain="SpriteForest" />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -7176,5 +7176,70 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xc101" id="Realm 1 Master">
+    <MasterObject />
+    <Class>MasterObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <Labels>REALM,MASTER</Labels>
+  </Object>
+  <Object type="0xc102" id="Realm 1 Mountains Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Terrain>MidPlains</Terrain>
+    <Size>1</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e3" id="Low Beach Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Terrain>MidPlains</Terrain>
+    <Size>1</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e4" id="Low Forest Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Terrain>MidPlains</Terrain>
+    <Size>1</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e5" id="Undead Forest Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Terrain>MidPlains</Terrain>
+    <Size>1</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e6" id="Plains Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Terrain>MidPlains</Terrain>
+    <Size>1</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
   </Object>
 </Objects>

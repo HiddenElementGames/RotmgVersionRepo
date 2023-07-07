@@ -22635,4 +22635,90 @@
     <feedPower>1000</feedPower>
     <Track />
   </Object>
+  <Object id="Void Child" type="0xC628">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Void Child Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xC629" id="Void Child Pet Skin">
+    <PetSkin />
+    <DisplayId>Void Child</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>250</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xC62a" id="Void Child Pet Stone">
+    <DisplayId>Void Child Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>250</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Two powerful heroes a Priest and Paladin have no way of escaping the sea of corruption from spreading, so they put all their strength and magic onto their child in hopes of being one of the very few to survive the corruptions wrath.\n\nUnlocks Void Child Pet Skin of the Humanoid family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="50729">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object id="Gelatinous Warrior" type="0xC62b">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>? ? ? ?</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Gelatinous Warrior Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xC62c" id="Gelatinous Warrior Pet Skin">
+    <PetSkin />
+    <DisplayId>Gelatinous Warrior</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>3</ItemTier>
+    <Family>? ? ? ?</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>251</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xC62d" id="Gelatinous Warrior Pet Stone">
+    <DisplayId>Gelatinous Warrior Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>3</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>251</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This cube jiggles there way beyond the shoreline of the realms sporting nothing but a plastic bucket and rake. This hero may be small and frail but that wont stop this courageous warrior.\n\nUnlocks Gelatinous Warrior Pet Skin of the ? ? ? ? family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="50732">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
 </Objects>

@@ -5406,4 +5406,445 @@
     <Z>0.2</Z>
     <RepulsionRadius>0.25</RepulsionRadius>
   </Object>
+  <Object type="0x20f6" id="Gun Turret">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>d3Chars16x16rEmbed</File>
+      <Index>73</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <NoMiniMap />
+    <RepulsionRadius>0.5f</RepulsionRadius>
+    <Projectile id="0">
+      <ObjectId>Kogbold Gun Turret</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>195</MinDamage>
+      <MaxDamage>295</MaxDamage>
+      <LifetimeMS>840</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <Size>50</Size>
+    </Projectile>
+  </Object>
+  <Object type="0x20f7" id="Shield Turret">
+    <Class>Summon</Class>
+    <Texture>
+      <File>d3LofiObjEmbed16</File>
+      <Index>0x80</Index>
+    </Texture>
+    <Animation prob="1" id="A1">
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed16</File>
+          <Index>0x80</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed16</File>
+          <Index>0x81</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed16</File>
+          <Index>0x82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed16</File>
+          <Index>0x83</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="A1">
+        <StyleStep id="A1">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <SetStyle>A1</SetStyle>
+    <ShadowSize>50</ShadowSize>
+    <NoMiniMap />
+    <RepulsionRadius>0.5f</RepulsionRadius>
+    <Projectile id="0">
+      <ObjectId>Kogbold Flail Ball</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>285</MinDamage>
+      <MaxDamage>335</MaxDamage>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Size>125</Size>
+      <CircleTurnDelay>200</CircleTurnDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <Acceleration>150</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Kogbold Flail Chain</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>225</MinDamage>
+      <MaxDamage>295</MaxDamage>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Size>70</Size>
+      <CircleTurnDelay>200</CircleTurnDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <Acceleration>150</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Kogbold Flail Chain</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>225</MinDamage>
+      <MaxDamage>295</MaxDamage>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Size>70</Size>
+      <CircleTurnDelay>200</CircleTurnDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <Acceleration>150</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+    </Projectile>
+  </Object>
+  <Object type="0x20f8" id="Kogbold Firework">
+    <Class>Summon</Class>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xBA</Index>
+    </Texture>
+    <Animation prob="1" id="A1">
+      <Frame time="0.1">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>0xBA</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>0xBB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>0xBC</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>0xBD</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>0xBE</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>0xBF</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>0xC0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>0xC1</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="A1">
+        <StyleStep id="A1">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <ShadowSize>50</ShadowSize>
+    <NoMiniMap />
+    <RepulsionRadius>0.5f</RepulsionRadius>
+    <Projectile id="0">
+      <ObjectId>Kogbold Firework Projectile 1</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>130</MaxDamage>
+      <LifetimeMS>275</LifetimeMS>
+      <Size>50</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Kogbold Firework Projectile 2</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>130</MaxDamage>
+      <LifetimeMS>250</LifetimeMS>
+      <Size>50</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Kogbold Firework Projectile 3</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>130</MaxDamage>
+      <LifetimeMS>225</LifetimeMS>
+      <Size>50</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Kogbold Firework Projectile 4</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>130</MaxDamage>
+      <LifetimeMS>200</LifetimeMS>
+      <Size>50</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Kogbold Firework Projectile 5</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>45</MinDamage>
+      <MaxDamage>75</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <ArmorPiercing />
+      <Size>50</Size>
+    </Projectile>
+    <SetStyle>A1</SetStyle>
+  </Object>
+  <Object type="0x20f9" id="Firework Effect 1">
+    <Class>GameObject</Class>
+    <Effect color="0xFFCA3F">Fountain</Effect>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xC7</Index>
+    </Texture>
+    <Size>50</Size>
+  </Object>
+  <Object type="0x20fa" id="Firework Effect 2">
+    <Class>GameObject</Class>
+    <Effect color="0x51D7FF">Fountain</Effect>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xCB</Index>
+    </Texture>
+    <Size>50</Size>
+  </Object>
+  <Object type="0x20fb" id="Firework Effect 3">
+    <Class>GameObject</Class>
+    <Effect color="0xFF82E0">Fountain</Effect>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xCF</Index>
+    </Texture>
+    <Size>50</Size>
+  </Object>
+  <Object type="0x20fc" id="Firework Effect 4">
+    <Class>GameObject</Class>
+    <Effect color="0x3FFF61">Fountain</Effect>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xD7</Index>
+    </Texture>
+    <Size>50</Size>
+  </Object>
+  <Object type="0x20fd" id="Heavy Gun Turret">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>d3Chars16x16rEmbed</File>
+      <Index>74</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <NoMiniMap />
+    <RepulsionRadius>0.5f</RepulsionRadius>
+    <Projectile id="0">
+      <ObjectId>Kogbold Cannon</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>350</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <PassesCover />
+      <Size>100</Size>
+    </Projectile>
+  </Object>
+  <Object type="0x20fe" id="Gun Turret Boost">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>d3Chars16x16rEmbed</File>
+      <Index>73</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <NoMiniMap />
+    <RepulsionRadius>0.5f</RepulsionRadius>
+    <Projectile id="0">
+      <ObjectId>Kogbold Gun Turret</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>195</MinDamage>
+      <MaxDamage>295</MaxDamage>
+      <LifetimeMS>840</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <Size>50</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Kogbold Gun Turret Plus</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>195</MinDamage>
+      <MaxDamage>295</MaxDamage>
+      <LifetimeMS>840</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <Size>50</Size>
+      <ConditionEffect duration="1">Slowed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0x20ff" id="Shield Turret Boost">
+    <Class>Summon</Class>
+    <Texture>
+      <File>d3LofiObjEmbed16</File>
+      <Index>0x80</Index>
+    </Texture>
+    <Animation prob="1" id="A1">
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed16</File>
+          <Index>0x80</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed16</File>
+          <Index>0x81</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed16</File>
+          <Index>0x82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>d3LofiObjEmbed16</File>
+          <Index>0x83</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="A1">
+        <StyleStep id="A1">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <SetStyle>A1</SetStyle>
+    <ShadowSize>50</ShadowSize>
+    <NoMiniMap />
+    <RepulsionRadius>0.5f</RepulsionRadius>
+    <Projectile id="0">
+      <ObjectId>Kogbold Flail Ball Plus</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>285</MinDamage>
+      <MaxDamage>335</MaxDamage>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Size>125</Size>
+      <CircleTurnDelay>200</CircleTurnDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <ConditionEffect duration="1">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Kogbold Flail Chain</ObjectId>
+      <Speed>125</Speed>
+      <MinDamage>225</MinDamage>
+      <MaxDamage>295</MaxDamage>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Size>70</Size>
+      <CircleTurnDelay>200</CircleTurnDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <Acceleration>150</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Kogbold Flail Chain</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>225</MinDamage>
+      <MaxDamage>295</MaxDamage>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Size>70</Size>
+      <CircleTurnDelay>200</CircleTurnDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <Acceleration>150</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Kogbold Flail Chain</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>225</MinDamage>
+      <MaxDamage>295</MaxDamage>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Size>70</Size>
+      <CircleTurnDelay>200</CircleTurnDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <Acceleration>150</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Kogbold Flail Chain</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>225</MinDamage>
+      <MaxDamage>295</MaxDamage>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Size>70</Size>
+      <CircleTurnDelay>200</CircleTurnDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <Acceleration>150</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+    </Projectile>
+  </Object>
+  <Object type="0x2a10" id="Heavy Gun Turret Boost">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>d3Chars16x16rEmbed</File>
+      <Index>74</Index>
+    </AnimatedTexture>
+    <ShadowSize>50</ShadowSize>
+    <NoMiniMap />
+    <RepulsionRadius>0.5f</RepulsionRadius>
+    <Projectile id="0">
+      <ObjectId>Kogbold Cannon</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>525</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <PassesCover />
+      <Size>100</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Kogbold Cannon Plus</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>525</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <PassesCover />
+      <Size>100</Size>
+      <ConditionEffect duration="1">Slowed</ConditionEffect>
+    </Projectile>
+  </Object>
 </Objects>

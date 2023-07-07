@@ -13,6 +13,7 @@
     <SizeStep>5</SizeStep>
     <Static />
     <OccupySquare />
+    <StaticSpawn region="LowForest,MidForest" prob="0.075" />
   </Object>
   <Object type="0x0101" id="Tree B">
     <Class>GameObject</Class>
@@ -27,6 +28,7 @@
     <SizeStep>5</SizeStep>
     <Static />
     <OccupySquare />
+    <StaticSpawn region="HighForest" prob="0.0375" />
   </Object>
   <Object type="0x0102" id="Tree Leafless">
     <Class>GameObject</Class>
@@ -40,6 +42,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.0075" />
     <OccupySquare />
   </Object>
   <Object type="0x0103" id="Tree Dead">
@@ -54,6 +57,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.00375" />
     <OccupySquare />
   </Object>
   <Object type="0x0104" id="Tree Jungle">
@@ -69,6 +73,7 @@
     <SizeStep>5</SizeStep>
     <Static />
     <OccupySquare />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.125" />
   </Object>
   <Object type="0x0105" id="Bush">
     <Class>GameObject</Class>
@@ -78,6 +83,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x0106" id="Shrub">
     <Class>GameObject</Class>
@@ -87,6 +93,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x0107" id="Rock Grey">
     <Class>GameObject</Class>
@@ -181,6 +188,7 @@
     <DeathSound>monster/rocks_death</DeathSound>
     <Static />
     <OccupySquare />
+    <StaticSpawn region="MidForest,HighForest" prob="0.030" />
   </Object>
   <Object type="0x0109" id="Small Mushroom">
     <Class>GameObject</Class>
@@ -190,6 +198,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest" prob="0.040" />
   </Object>
   <Object type="0x010a" id="Tree Stump">
     <Class>GameObject</Class>
@@ -225,6 +234,7 @@
       <Index>0x6d</Index>
     </Texture>
     <Static />
+    <StaticSpawn region="LowForest" prob="0.020" />
   </Object>
   <Object type="0x0111" id="White Flowers">
     <Class>GameObject</Class>
@@ -234,6 +244,7 @@
     </Texture>
     <DrawOnGround />
     <Static />
+    <StaticSpawn region="MidForest" prob="0.060" />
   </Object>
   <Object type="0x0112" id="Pink Flowers">
     <Class>GameObject</Class>
@@ -243,6 +254,7 @@
     </Texture>
     <DrawOnGround />
     <Static />
+    <StaticSpawn region="LowForest,MidForest" prob="0.010" />
   </Object>
   <Object type="0x0113" id="Large Lilypads">
     <Class>GameObject</Class>
@@ -252,6 +264,7 @@
     </Texture>
     <DrawOnGround />
     <Static />
+    <StaticSpawn region="LowOcean" prob="0.02" />
   </Object>
   <Object type="0x0114" id="Small Lilypads">
     <Class>GameObject</Class>
@@ -261,6 +274,7 @@
     </Texture>
     <DrawOnGround />
     <Static />
+    <StaticSpawn region="LowOcean" prob="0.02" />
   </Object>
   <Object type="0x0120" id="Grey Wall">
     <Class>Wall</Class>
@@ -1205,6 +1219,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a1" id="Green Bush 1">
     <Class>GameObject</Class>
@@ -1214,6 +1229,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a2" id="Green Bush 2">
     <Class>GameObject</Class>
@@ -1223,6 +1239,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a3" id="Green Bush 3">
     <Class>GameObject</Class>
@@ -1232,6 +1249,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a4" id="Green Bush 4">
     <Class>GameObject</Class>
@@ -1241,6 +1259,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a5" id="Green Bush 5">
     <Class>GameObject</Class>
@@ -1250,6 +1269,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a6" id="Green Bush 6">
     <Class>GameObject</Class>
@@ -1259,6 +1279,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a7" id="Green Bush 7">
     <Class>GameObject</Class>
@@ -1268,6 +1289,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a8" id="Green Bush 8">
     <Class>GameObject</Class>
@@ -1277,6 +1299,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a9" id="Large Light Green Bush">
     <Class>GameObject</Class>
@@ -1286,6 +1309,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01aa" id="Light Green Bush 1">
     <Class>GameObject</Class>
@@ -1295,6 +1319,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01ab" id="Light Green Bush 2">
     <Class>GameObject</Class>
@@ -1304,6 +1329,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01ac" id="Light Green Bush 3">
     <Class>GameObject</Class>
@@ -1313,6 +1339,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01ad" id="Light Green Bush 4">
     <Class>GameObject</Class>
@@ -1322,6 +1349,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01ae" id="Light Green Bush 5">
     <Class>GameObject</Class>
@@ -1331,6 +1359,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01af" id="Light Green Bush 6">
     <Class>GameObject</Class>
@@ -1340,6 +1369,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01b0" id="Light Green Bush 7">
     <Class>GameObject</Class>
@@ -1349,6 +1379,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01b1" id="Light Green Bush 8">
     <Class>GameObject</Class>
@@ -1358,6 +1389,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01b2" id="Large Yellow Bush">
     <Class>GameObject</Class>
@@ -1367,6 +1399,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.005" />
   </Object>
   <Object type="0x01b3" id="Yellow Bush 1">
     <Class>GameObject</Class>
@@ -1376,6 +1409,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.005" />
   </Object>
   <Object type="0x01b4" id="Yellow Bush 2">
     <Class>GameObject</Class>
@@ -1385,6 +1419,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.005" />
   </Object>
   <Object type="0x01b5" id="Yellow Bush 3">
     <Class>GameObject</Class>
@@ -1394,6 +1429,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.005" />
   </Object>
   <Object type="0x01b6" id="Yellow Bush 4">
     <Class>GameObject</Class>
@@ -1403,6 +1439,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.005" />
   </Object>
   <Object type="0x01b7" id="Yellow Bush 5">
     <Class>GameObject</Class>
@@ -1412,6 +1449,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.005" />
   </Object>
   <Object type="0x01b8" id="Yellow Bush 6">
     <Class>GameObject</Class>
@@ -1421,6 +1459,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.005" />
   </Object>
   <Object type="0x01b9" id="Yellow Bush 7">
     <Class>GameObject</Class>
@@ -1430,6 +1469,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.005" />
   </Object>
   <Object type="0x01ba" id="Yellow Bush 8">
     <Class>GameObject</Class>
@@ -1439,6 +1479,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.005" />
   </Object>
   <Object type="0x01bb" id="Large Dead Bush">
     <Class>GameObject</Class>
@@ -1448,6 +1489,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.001" />
   </Object>
   <Object type="0x01bc" id="Dead Bush 1">
     <Class>GameObject</Class>
@@ -1457,6 +1499,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.001" />
   </Object>
   <Object type="0x01bd" id="Dead Bush 2">
     <Class>GameObject</Class>
@@ -1466,6 +1509,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.001" />
   </Object>
   <Object type="0x01be" id="Dead Bush 3">
     <Class>GameObject</Class>
@@ -1475,6 +1519,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.001" />
   </Object>
   <Object type="0x01bf" id="Dead Bush 4">
     <Class>GameObject</Class>
@@ -1484,6 +1529,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.001" />
   </Object>
   <Object type="0x01c0" id="Dead Bush 5">
     <Class>GameObject</Class>
@@ -1493,6 +1539,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.001" />
   </Object>
   <Object type="0x01c1" id="Dead Bush 6">
     <Class>GameObject</Class>
@@ -1502,6 +1549,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.001" />
   </Object>
   <Object type="0x01c2" id="Dead Bush 7">
     <Class>GameObject</Class>
@@ -1511,6 +1559,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.001" />
   </Object>
   <Object type="0x01c3" id="Dead Bush 8">
     <Class>GameObject</Class>
@@ -1520,6 +1569,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest" prob="0.001" />
   </Object>
   <Object type="0x01c4" id="Road Marker">
     <Class>GameObject</Class>
@@ -8953,6 +9003,18 @@
     <OccupySquare />
   </Object>
   <Object type="0x65a4" id="Motmg Stay Banner">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiObjBig</File>
+      <Index>0x1de</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>30</ShadowSize>
+    <NoMiniMap />
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0xc2b2" id="Realm Encounter Location">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiObjBig</File>

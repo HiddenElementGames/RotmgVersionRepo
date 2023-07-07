@@ -2460,6 +2460,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object type="0x37fb" id="Admin Arena Key">
     <Class>Equipment</Class>
@@ -2834,7 +2835,7 @@
     <Description>A key which opens a passage to the Lost Halls. Forgotten for centuries, those long identical halls are said to house evil itself. All that is truly known is that hope, reason and purpose are no more within those walls.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
-      <EffectInfo name="Mythical ST Gem" description="The Gem will drop from Malus in the Cultist Hideout." />
+      <EffectInfo name="Mythical ST Gem" description="The Gems will drop from Malus in the Cultist Hideout and the Void Entity in The Void." />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3707,6 +3708,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object type="0x7e1d" id="Abyss of Demons Augmented Key">
     <Class>Equipment</Class>
@@ -4065,6 +4067,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object id="Sulfurous Wetlands Enchanted Key" type="0x3926">
     <Class>Equipment</Class>
@@ -4086,6 +4089,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object type="0x3927" id="Sulfurous Wetlands Guild Key">
     <Class>Equipment</Class>
@@ -4126,6 +4130,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object id="Kogbold Steamworks Enchanted Key" type="0xc176">
     <Class>Equipment</Class>
@@ -4147,6 +4152,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object id="Kogbold Steamworks Augmented Key" type="0xc177">
     <Class>Equipment</Class>
@@ -4168,6 +4174,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object id="Kogbold Steamworks Solo Key" type="0xc178">
     <Class>Equipment</Class>
@@ -4189,6 +4196,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object id="Kogbold Steamworks Key Encore" type="0x5200">
     <DisplayId>Kogbold Steamworks Key</DisplayId>
@@ -4207,6 +4215,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object type="0x5201" id="The Nest Solo Key">
     <Class>Equipment</Class>
@@ -4389,5 +4398,48 @@
     <Track />
     <UniqueID />
     <SeasonalOnly />
+  </Object>
+  <Object id="Sulfurous Wetlands Augmented Key" type="0x4531">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>846</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Sulfurous Wetlands, a desolate village once bustling with human activity. Corruption has ravaged the land, and culled its denizens. The buildings and roadways many once called home are now dominated by vicious flora and fauna and a seemingly endless corrosive swamp.\n\nKeys can only be used once you have 10 or more stars!</Description>
+    <Sound>use_key</Sound>
+    <ExtraTooltipData>
+      <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+    </ExtraTooltipData>
+    <Consumable />
+    <Soulbound />
+    <Activate id="SulfW Portal">CreatePortal</Activate>
+    <Activate id="3STKeyMysteryChest">Exchange</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x4532" id="The Third Dimension Solo Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>thirdDimensionObjects8x8</File>
+      <Index>0x104</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Third Dimension, an otherworldly place containing many violent cuboid creatures.</Description>
+    <Sound>use_key</Sound>
+    <Soulbound />
+    <Consumable />
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+    </ExtraTooltipData>
+    <Activate id="The Third Dimension Portal" predefinedDungeonMods="S|;TOKENDROPB" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
+    <Track />
+    <UniqueID />
   </Object>
 </Objects>
