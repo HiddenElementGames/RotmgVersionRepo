@@ -22721,4 +22721,47 @@
     <feedPower>1000</feedPower>
     <Track />
   </Object>
+  <Object id="Karate Pug" type="0xC62E">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Canine</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Karate Pug Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xC62F" id="Karate Pug Pet Skin">
+    <PetSkin />
+    <DisplayId>Karate Pug</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Canine</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>252</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xC630" id="Karate Pug Pet Stone">
+    <DisplayId>Karate Pug Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>252</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This pug took advantage of their adorable appearance and created a cute and deadly combat style. They travel around the realm to teach other animals how to defend themselves by using their cuteness to their advantage.\n\nUnlocks Karate Pug Pet Skin of the Canine family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="50735">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
 </Objects>

@@ -342,15 +342,18 @@
     <SlotType>1</SlotType>
     <Tier>12</Tier>
     <Description>A great sword of recognition, forged by the gods for the champions of humankind.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/mithril_sword</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Purple Bolt</ObjectId>
       <Speed>100</Speed>
       <MinDamage>220</MinDamage>
       <MaxDamage>275</MaxDamage>
       <LifetimeMS>350</LifetimeMS>
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>1</NumProjectiles>
+    </Subattack>
     <BagType>4</BagType>
     <OldSound>bladeSwing</OldSound>
     <feedPower>450</feedPower>
@@ -368,15 +371,18 @@
     <SlotType>1</SlotType>
     <Tier>13</Tier>
     <Description>An exalted weapon of the august kings of old, hallowed with the spirit of nations and yearning to grant power anew.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/mithril_sword</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Splendor Bolt</ObjectId>
       <Speed>100</Speed>
       <MinDamage>235</MinDamage>
       <MaxDamage>290</MaxDamage>
       <LifetimeMS>350</LifetimeMS>
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
     <BagType>9</BagType>
     <OldSound>bladeSwing</OldSound>
     <feedPower>650</feedPower>
@@ -394,7 +400,6 @@
     <SlotType>1</SlotType>
     <Tier>14</Tier>
     <Description>A gleaming obsidian sword of imperial power, fashioned by enslaved demons for the personal use of a world-conquering leader of mortals.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/mithril_sword</Sound>
     <Projectile>
       <ObjectId>Majesty Bolt</ObjectId>
@@ -403,6 +408,10 @@
       <MaxDamage>305</MaxDamage>
       <LifetimeMS>350</LifetimeMS>
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
     <BagType>9</BagType>
     <OldSound>bladeSwing</OldSound>
     <feedPower>950</feedPower>
@@ -853,9 +862,8 @@
     <SlotType>8</SlotType>
     <Tier>12</Tier>
     <Description>A great golden wand of the heavens, created by angels to wreak justice on the slayers of the innocent.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/wand_of_death</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
       <Speed>180</Speed>
       <LifetimeMS>500</LifetimeMS>
@@ -863,6 +871,10 @@
       <MaxDamage>175</MaxDamage>
       <MultiHit />
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>1</NumProjectiles>
+    </Subattack>
     <BagType>4</BagType>
     <OldSound>magicShoot</OldSound>
     <feedPower>450</feedPower>
@@ -880,9 +892,8 @@
     <SlotType>8</SlotType>
     <Tier>13</Tier>
     <Description>A shining gold wand of force, built by a diabolic archmagus to channel vast corrupting energies into the material plane.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/wand_of_death</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Evocation Magic</ObjectId>
       <Speed>180</Speed>
       <LifetimeMS>500</LifetimeMS>
@@ -890,6 +901,10 @@
       <MaxDamage>180</MaxDamage>
       <MultiHit />
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>1</NumProjectiles>
+    </Subattack>
     <BagType>9</BagType>
     <OldSound>magicShoot</OldSound>
     <feedPower>650</feedPower>
@@ -907,9 +922,8 @@
     <SlotType>8</SlotType>
     <Tier>14</Tier>
     <Description>A golden wand of breathtaking power, created by elemental forces from the realms of ice and flame to unleash revenge on their enemies.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/wand_of_death</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Retribution Magic</ObjectId>
       <Speed>180</Speed>
       <LifetimeMS>500</LifetimeMS>
@@ -917,6 +931,10 @@
       <MaxDamage>195</MaxDamage>
       <MultiHit />
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>1</NumProjectiles>
+    </Subattack>
     <BagType>9</BagType>
     <OldSound>magicShoot</OldSound>
     <feedPower>950</feedPower>
@@ -2344,7 +2362,7 @@
     <Description>A short sword blade mounted on a dagger hilt.</Description>
     <RateOfFire>1</RateOfFire>
     <Sound>weapon/dirk</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Speed>140</Speed>
       <MinDamage>25</MinDamage>
@@ -2655,15 +2673,18 @@
     <SlotType>2</SlotType>
     <Tier>12</Tier>
     <Description>A crimson felsteel dagger saturated with evil magic and primordial hatreds.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/fire_dagger</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Purple Magic</ObjectId>
       <Speed>140</Speed>
       <MinDamage>115</MinDamage>
       <MaxDamage>200</MaxDamage>
       <LifetimeMS>400</LifetimeMS>
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
     <BagType>4</BagType>
     <OldSound>daggerSwing</OldSound>
     <feedPower>450</feedPower>
@@ -2681,15 +2702,18 @@
     <SlotType>2</SlotType>
     <Tier>13</Tier>
     <Description>A moonsteel dagger of the underworld, corrupted by loathsome enchantments and profane spells.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/fire_dagger</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Orange Magic</ObjectId>
       <Speed>140</Speed>
       <MinDamage>125</MinDamage>
       <MaxDamage>220</MaxDamage>
       <LifetimeMS>400</LifetimeMS>
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>1</NumProjectiles>
+    </Subattack>
     <BagType>9</BagType>
     <OldSound>daggerSwing</OldSound>
     <feedPower>650</feedPower>
@@ -2707,15 +2731,18 @@
     <SlotType>2</SlotType>
     <Tier>14</Tier>
     <Description>A jagged, wickedly barbed blade of evil, charged with the unreasoning rage of ancestral vendettas.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/fire_dagger</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Black Magic</ObjectId>
       <Speed>140</Speed>
       <MinDamage>140</MinDamage>
       <MaxDamage>235</MaxDamage>
       <LifetimeMS>400</LifetimeMS>
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>1</NumProjectiles>
+    </Subattack>
     <BagType>9</BagType>
     <OldSound>daggerSwing</OldSound>
     <feedPower>950</feedPower>
@@ -5364,7 +5391,6 @@
       <File>spiderDenObjects8x8</File>
       <Index>0x53</Index>
     </Texture>
-    <SharedCooldownChannel id="65550" />
     <SlotType>9</SlotType>
     <ExtraTooltipData>
       <EffectInfo description="Speedy for 2 seconds" name="On Ability Use" />
@@ -6256,7 +6282,7 @@
     <feedPower>350</feedPower>
     <XPBonus>5</XPBonus>
     <UniqueID />
-    <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_A,TRADEABLE,XPBONUS</Labels>
+    <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_A,TRADEABLE,XPBONUS,ENCHANTABLE</Labels>
   </Object>
   <Object type="0xbaa" id="Ring of Unbound Magic">
     <Class>Equipment</Class>
@@ -8326,9 +8352,8 @@
     <Description>A golden staff of transcendent understanding, made from crystals present at the formation of the universe.</Description>
     <SlotType>17</SlotType>
     <Tier>12</Tier>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/wand_of_death</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Fire Missile</ObjectId>
       <Speed>180</Speed>
       <MinDamage>60</MinDamage>
@@ -8337,8 +8362,11 @@
       <Amplitude>0.5</Amplitude>
       <Frequency>2</Frequency>
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>2</NumProjectiles>
+    </Subattack>
     <BagType>4</BagType>
-    <NumProjectiles>2</NumProjectiles>
     <ArcGap>0</ArcGap>
     <OldSound>magicShoot</OldSound>
     <feedPower>450</feedPower>
@@ -8356,9 +8384,8 @@
     <SlotType>17</SlotType>
     <Tier>13</Tier>
     <Description>A golden staff of elysian consciousness, shining with the base power of empyrean truths.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/wand_of_death</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Orange Missile</ObjectId>
       <Speed>180</Speed>
       <MinDamage>65</MinDamage>
@@ -8367,8 +8394,11 @@
       <Amplitude>0.5</Amplitude>
       <Frequency>2</Frequency>
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>2</NumProjectiles>
+    </Subattack>
     <BagType>9</BagType>
-    <NumProjectiles>2</NumProjectiles>
     <ArcGap>0</ArcGap>
     <OldSound>magicShoot</OldSound>
     <feedPower>650</feedPower>
@@ -8386,9 +8416,8 @@
     <SlotType>17</SlotType>
     <Tier>14</Tier>
     <Description>An otherworldly staff of omnipresent elation, embodied of cardinal essence and the power of deathless peace.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/wand_of_death</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Blue Missile</ObjectId>
       <Speed>180</Speed>
       <MinDamage>75</MinDamage>
@@ -8397,8 +8426,11 @@
       <Amplitude>0.5</Amplitude>
       <Frequency>2</Frequency>
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>2</NumProjectiles>
+    </Subattack>
     <BagType>9</BagType>
-    <NumProjectiles>2</NumProjectiles>
     <ArcGap>0</ArcGap>
     <OldSound>magicShoot</OldSound>
     <feedPower>950</feedPower>
@@ -11313,6 +11345,7 @@
     <OldSound>bladeSwing</OldSound>
     <feedPower>233</feedPower>
     <XPBonus>5</XPBonus>
+    <UniqueID />
     <Labels>EQUIPMENT,WEAPON,KATANA,TIERED,T11,XPBONUS,BASETYPE</Labels>
   </Object>
   <Object type="0xc50" id="Masamune">
@@ -11325,7 +11358,6 @@
     <SlotType>24</SlotType>
     <Tier>12</Tier>
     <Description>A magnificent legendary blade which only cuts those who deserve death.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/long_sword</Sound>
     <Projectile>
       <ObjectId>Masamune Slash</ObjectId>
@@ -11335,10 +11367,15 @@
       <MaxDamage>190</MaxDamage>
       <MultiHit />
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>1</NumProjectiles>
+    </Subattack>
     <BagType>4</BagType>
     <OldSound>bladeSwing</OldSound>
     <feedPower>450</feedPower>
     <XPBonus>6</XPBonus>
+    <UniqueID />
     <Labels>EQUIPMENT,WEAPON,KATANA,TIERED,T12,XPBONUS,BASETYPE</Labels>
   </Object>
   <Object type="0x024a" id="Sadamune">
@@ -11351,7 +11388,6 @@
     <SlotType>24</SlotType>
     <Tier>13</Tier>
     <Description>A formidable blade that was meticulously crafted over the course of several centuries by the most renowned masters in history.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/long_sword</Sound>
     <Projectile>
       <ObjectId>Sadamune Slash</ObjectId>
@@ -11361,6 +11397,10 @@
       <MaxDamage>205</MaxDamage>
       <MultiHit />
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>1</NumProjectiles>
+    </Subattack>
     <BagType>9</BagType>
     <OldSound>bladeSwing</OldSound>
     <UniqueID />
@@ -11378,7 +11418,6 @@
     <SlotType>24</SlotType>
     <Tier>14</Tier>
     <Description>An awe-inspiring sword gifted to only the most worthy mortals from the highest heavens, channeling gales of wind in the hands of the blameless.</Description>
-    <RateOfFire>1</RateOfFire>
     <Sound>weapon/long_sword</Sound>
     <Projectile>
       <ObjectId>Kusanagi Slash</ObjectId>
@@ -11388,11 +11427,16 @@
       <MaxDamage>220</MaxDamage>
       <MultiHit />
     </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>1</NumProjectiles>
+    </Subattack>
     <BagType>9</BagType>
     <OldSound>bladeSwing</OldSound>
     <Soulbound />
     <feedPower>950</feedPower>
     <XPBonus>8</XPBonus>
+    <UniqueID />
     <Labels>EQUIPMENT,WEAPON,KATANA,TIERED,T14,XPBONUS,BASETYPE</Labels>
   </Object>
   <Object type="0x914" id="Useless Katana">
@@ -12954,6 +12998,7 @@
   <Object type="0x7563" id="Water Dragon Silk Robe">
     <Class>Equipment</Class>
     <Item />
+    <SharedCooldownChannel id="65551" />
     <Texture>
       <File>lofiObj3</File>
       <Index>0x3d1</Index>
@@ -18188,7 +18233,7 @@
     <Description>Every shot that hits a target frees the soul of a forgotten hero. Every shot that misses is trapped for eternity.</Description>
     <RateOfFire>1.05</RateOfFire>
     <Sound>weapon/golden_bow</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Void Arrow</ObjectId>
       <Speed>160</Speed>
       <MinDamage>175</MinDamage>
@@ -18206,6 +18251,7 @@
     <XPBonus>7</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,BOW,UT,TAB_UT,POWERTIER_S,XPBONUS,ORG_VOID_S</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0x024d" id="Quiver of the Shadows" collectionIcon="17">
     <Class>Equipment</Class>
@@ -26364,7 +26410,6 @@
     <Soulbound />
     <BagType>8</BagType>
     <Treasure />
-    <UniqueID />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
   <Object type="0x73d6" id="Silver Reward Chest">
@@ -26393,7 +26438,6 @@
     <Soulbound />
     <BagType>8</BagType>
     <Treasure />
-    <UniqueID />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
   <Object type="0x73d8" id="Platinum Reward Chest">
@@ -32257,7 +32301,7 @@
     <Description>The pride of Treasurer Gemsbok, this gilded knife has backstabbed countless traders in shady dealings.</Description>
     <RateOfFire>1</RateOfFire>
     <Sound>weapon/fire_dagger</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Avarice Projectile</ObjectId>
       <Speed>133</Speed>
       <MinDamage>190</MinDamage>
@@ -32275,6 +32319,7 @@
     <XPBonus>8</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,DAGGER,UT,TAB_UT,POWERTIER_S,XPBONUS,ORG_OSANC_S</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0x709e" id="Gambler's Fate" collectionIcon="18">
     <Class>Equipment</Class>
@@ -32535,6 +32580,7 @@
     <XPBonus>8</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,ARMOR,ROBE,UT,TAB_UT,POWERTIER_S,XPBONUS,ORG_OSANC_S</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0x70ac" id="Chancellor's Cranium" collectionIcon="18">
     <Class>Equipment</Class>
@@ -32572,7 +32618,7 @@
     <Description>Chief Beisa designed and forged this sawtoothed blade himself to be granted admission as a gladiator. Its shattering strikes are amplified by his own slashing techniques.</Description>
     <RateOfFire>1</RateOfFire>
     <Sound>weapon/long_sword</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Enforcer Projectile</ObjectId>
       <Speed>130</Speed>
       <MinDamage>100</MinDamage>
@@ -32586,7 +32632,9 @@
     <feedPower>1200</feedPower>
     <Soulbound />
     <XPBonus>8</XPBonus>
+    <UniqueID />
     <Labels>EQUIPMENT,WEAPON,KATANA,UT,TAB_UT,POWERTIER_S,XPBONUS,ORG_OSANC_S</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0x70af" id="Ballistic Star" collectionIcon="18">
     <Class>Equipment</Class>
@@ -32723,7 +32771,7 @@
     </ExtraTooltipData>
     <RateOfFire>0.6</RateOfFire>
     <Sound>weapon/mithril_sword</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Divinity Projectile</ObjectId>
       <Speed>150</Speed>
       <MinDamage>275</MinDamage>
@@ -32740,6 +32788,7 @@
     <XPBonus>8</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,SWORD,UT,TAB_UT,POWERTIER_SS,XPBONUS,ORG_OSANC_S</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0x70b5" id="Oryx's Escutcheon" collectionIcon="18">
     <Class>Equipment</Class>
@@ -32788,6 +32837,7 @@
     <XPBonus>8</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,ARMOR,HEAVY,UT,TAB_UT,POWERTIER_SS,XPBONUS,ORG_OSANC_S</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0x70b8" id="Exalted God's Horn" collectionIcon="18">
     <Class>Equipment</Class>
@@ -42359,6 +42409,7 @@
     <XPBonus>8</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,ARMOR,LEATHER,UT,TAB_UT,POWERTIER_S,XPBONUS,ORG_SHTT_S</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0x3888" id="Royal Guard's Cuirass" collectionIcon="14">
     <Class>Equipment</Class>
@@ -42419,7 +42470,7 @@
     <feedPower>350</feedPower>
     <XPBonus>5</XPBonus>
     <UniqueID />
-    <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_A,TRADEABLE,RESKIN,XPBONUS</Labels>
+    <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_A,TRADEABLE,RESKIN,XPBONUS,ENCHANTABLE</Labels>
   </Object>
   <Object type="0x38c4" id="Gift of the Void">
     <Class>Equipment</Class>
@@ -53007,7 +53058,8 @@
     <XPBonus>7</XPBonus>
     <UniqueID />
     <Soulbound />
-    <Labels>EQUIPMENT,RING,UT,XPBONUS,TAB_UT</Labels>
+    <Labels>EQUIPMENT,RING,UT,XPBONUS,TAB_UT,ORG_KOGBOLD_S</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0x445d" id="Steam Pipe" collectionIcon="19">
     <Class>Equipment</Class>
@@ -53083,6 +53135,7 @@
     <XPBonus>7</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,SPELLBLADE,UNTIERED,NUMPROJ_2,XPBONUS,WAVEFORM,TAB_UT,ORG_KOGBOLD_S</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0xc21a" id="Kogbold Cower Shield" collectionIcon="19">
     <Class>Equipment</Class>
@@ -53275,6 +53328,7 @@
     <XPBonus>7</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,WAND,UT,XPBONUS,ORG_KOGBOLD_S,TAB_UT</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0xd229" id="Boomerang Blades">
     <DisplayId>Boomerang Blades</DisplayId>
@@ -55333,7 +55387,7 @@
     </ExtraTooltipData>
     <RateOfFire>0.6</RateOfFire>
     <Sound>weapon/mithril_sword</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Divinity Projectile Shiny</ObjectId>
       <Speed>150</Speed>
       <MinDamage>275</MinDamage>
@@ -55350,6 +55404,7 @@
     <XPBonus>8</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,SWORD,UT,TAB_UT,POWERTIER_SS,XPBONUS,ORG_OSANC_S,RESKIN,SHINY</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0xffe1" id="Lumiaire Shiny" collectionIcon="18">
     <DisplayId>Lumiaire</DisplayId>
@@ -55433,7 +55488,7 @@
     <Description>Chief Beisa designed and forged this sawtoothed blade himself to be granted admission as a gladiator. Its shattering strikes are amplified by his own slashing techniques.</Description>
     <RateOfFire>1</RateOfFire>
     <Sound>weapon/long_sword</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Enforcer Projectile Shiny</ObjectId>
       <Speed>130</Speed>
       <MinDamage>100</MinDamage>
@@ -55447,7 +55502,9 @@
     <feedPower>1200</feedPower>
     <Soulbound />
     <XPBonus>8</XPBonus>
+    <UniqueID />
     <Labels>EQUIPMENT,WEAPON,KATANA,UT,TAB_UT,POWERTIER_S,XPBONUS,ORG_OSANC_S,RESKIN,SHINY</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0xffe4" id="Avarice Shiny" collectionIcon="18">
     <DisplayId>Avarice</DisplayId>
@@ -55463,7 +55520,7 @@
     <Description>The pride of Treasurer Gemsbok, this gilded knife has backstabbed countless traders in shady dealings.</Description>
     <RateOfFire>1</RateOfFire>
     <Sound>weapon/fire_dagger</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Avarice Projectile Shiny</ObjectId>
       <Speed>133</Speed>
       <MinDamage>190</MinDamage>
@@ -55481,6 +55538,7 @@
     <XPBonus>8</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,DAGGER,UT,TAB_UT,POWERTIER_S,XPBONUS,ORG_OSANC_S,RESKIN,SHINY</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0xffe5" id="Bow of the Void Shiny" collectionIcon="17">
     <DisplayId>Bow of the Void</DisplayId>
@@ -55496,7 +55554,7 @@
     <Description>Every shot that hits a target frees the soul of a forgotten hero. Every shot that misses is trapped for eternity.</Description>
     <RateOfFire>1.05</RateOfFire>
     <Sound>weapon/golden_bow</Sound>
-    <Projectile>
+    <Projectile id="0">
       <ObjectId>Void Arrow Shiny</ObjectId>
       <Speed>160</Speed>
       <MinDamage>175</MinDamage>
@@ -55514,6 +55572,7 @@
     <XPBonus>7</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,BOW,UT,TAB_UT,POWERTIER_S,XPBONUS,ORG_VOID_S,RESKIN,SHINY</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0xffe6" id="EH Hivemaster Helm Shiny" collectionIcon="13">
     <DisplayId>Hivemaster Helm</DisplayId>
@@ -55597,6 +55656,7 @@
     <XPBonus>7</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,WAND,UT,XPBONUS,ORG_KOGBOLD_S,TAB_UT,RESKIN,SHINY</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1950" />
   </Object>
   <Object type="0xffe8" id="The Twilight Gemstone Shiny" collectionIcon="14">
     <DisplayId>The Twilight Gemstone</DisplayId>
@@ -60587,7 +60647,6 @@
       <Index>1222</Index>
     </Texture>
     <SlotType>9</SlotType>
-    <SharedCooldownChannel id="65550" />
     <ExtraTooltipData>
       <EffectInfo description="Speedy for 3 seconds" name="On Ability Use" />
       <EffectInfo description="6 seconds" name="Cooldown" />
@@ -60981,6 +61040,1410 @@
     <Activate>OpenChest</Activate>
     <BagType>8</BagType>
     <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x45b0" id="Demon Blade Shiny">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1249</Index>
+    </Texture>
+    <DisplayId>Demon Blade</DisplayId>
+    <InventoryAnimation />
+    <SlotType>1</SlotType>
+    <Description>A swift and hungry blade that is never satisfied with just one kill.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/glass_sword</Sound>
+    <Projectile>
+      <ObjectId>Abyss Imp Projectile Shiny</ObjectId>
+      <Speed>130</Speed>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>175</MaxDamage>
+      <LifetimeMS>260</LifetimeMS>
+    </Projectile>
+    <BagType>6</BagType>
+    <NumProjectiles>2</NumProjectiles>
+    <ArcGap>25</ArcGap>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>700</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SWORD,UT,TAB_UT,POWERTIER_B,TRADEABLE,XPBONUS,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x45b2" id="Fractal Blades Shiny" collectionIcon="12">
+    <DisplayId>Fractal Blades</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <InventoryAnimation />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1251</Index>
+    </Texture>
+    <Sound>weapon/fire_dagger</Sound>
+    <OldSound>daggerSwing</OldSound>
+    <SlotType>2</SlotType>
+    <Description>An impossibly intricate pattern belies these blades, carved from a self-perfecting crystalline deity.</Description>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.9</RateOfFire>
+      <PosOffset>0.25,0</PosOffset>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.9</RateOfFire>
+      <PosOffset>-0.25,0</PosOffset>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.9</RateOfFire>
+      <PosOffset>-0.25,2.4</PosOffset>
+      <DefaultAngle>-135</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="4">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.9</RateOfFire>
+      <PosOffset>-0.25,4.8</PosOffset>
+      <DefaultAngle>-135</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.45</RateOfFire>
+      <PosOffset>0.25,2.4</PosOffset>
+      <DefaultAngle>135</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="5">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.45</RateOfFire>
+      <PosOffset>0.25,4.8</PosOffset>
+      <DefaultAngle>135</DefaultAngle>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Left Fractal Blade Shiny</ObjectId>
+      <Speed>200</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>240</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Right Fractal Blade Shiny</ObjectId>
+      <Speed>200</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>240</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Left Fractal Blade Shiny</ObjectId>
+      <Speed>80</Speed>
+      <MinDamage>35</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>125</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Right Fractal Blade Shiny</ObjectId>
+      <Speed>80</Speed>
+      <MinDamage>35</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>125</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Left Fractal Blade Shiny</ObjectId>
+      <Speed>80</Speed>
+      <MinDamage>35</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>125</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Right Fractal Blade Shiny</ObjectId>
+      <Speed>80</Speed>
+      <MinDamage>35</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>125</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <BagType>6</BagType>
+    <feedPower>970</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,DUALBLADE,UT,TAB_UT,POWERTIER_S,XPBONUS,ORG_CRYSTAL_S ,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x45b5" id="Plague Poison Shiny">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1254</Index>
+    </Texture>
+    <InventoryAnimation />
+    <DisplayId>Plague Poison</DisplayId>
+    <SlotType>18</SlotType>
+    <Description>A foul poison harvested from the corpses of plague victims. It infects many targets, but kills slowly.</Description>
+    <ActivateOnEquip stat="ATT" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="WIS" amount="4">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>90</MpCost>
+    <Activate radius="9" totalDamage="800" duration="10" color="3fab2e" throwTime="1.2" damageBoost="1.075" scalingStat="WIS" statModScalingMin="50" statModDamage="120" statModImpactDamage="0" statModRadius="0.05" statModDamageBoost="0.001">PoisonGrenade</Activate>
+    <feedPower>1000</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,POISON,UT,TAB_UT,POWERTIER_B,TRADEABLE,XPBONUS,MPCOST,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x45b6" id="Water Dragon Silk Robe Shiny">
+    <Class>Equipment</Class>
+    <Item />
+    <DisplayId>Water Dragon Silk Robe</DisplayId>
+    <InventoryAnimation />
+    <SharedCooldownChannel id="65551" />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1255</Index>
+    </Texture>
+    <SlotType>14</SlotType>
+    <Description>A magic robe woven from enchanted threads of water harvested from a great Water Dragon's body.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="On Ability Use" description="Heals 100 HP and applies healing for 3 seconds when under 75% HP." />
+      <EffectInfo name="Cooldown" description="15 seconds" />
+    </ExtraTooltipData>
+    <ActivateOnEquip stat="ATT" amount="6">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="13">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="SPD" amount="6">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="5">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <OnPlayerAbilityActivate hpMinThresholdRelative="0.75" cooldown="15" duration="3" effect="Healing" proc="1">ConditionEffectSelf</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate hpMinThresholdRelative="0.75" cooldown="15" amount="100" proc="1">Heal</OnPlayerAbilityActivate>
+    <feedPower>700</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,ROBE,UT,TAB_UT,POWERTIER_A,XPBONUS,SHINY,RESKIN</Labels>
+  </Object>
+  <Object type="0x4521" id="Acc Engravings Day">
+    <DisplayId>Daily Engravings Drop Potion (250%)</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x1c</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Extra 250% chance of obtaining an Engraving from enemies that drop them. Lasts 24 hours.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Loot Bonus" description="+250% drop rate (Engravings)" />
+      <EffectInfo name="Caution" description="The timer is not paused by leaving the Realm or going offline." />
+    </ExtraTooltipData>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>0</feedPower>
+    <Potion />
+    <Track />
+    <Activate acceleratorId="DROPLOOTBOOST" duration="1440" mult="2.5" labels="ENGRAVINGCHEST" display="+250% drop rate (Engravings)">StartAccelerator</Activate>
+    <Labels>EQUIPMENT,CONSUMABLE</Labels>
+  </Object>
+  <Object type="0x4522" id="Acc Engravings Week">
+    <DisplayId>Weekly Engravings Drop Potion (250%)</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Extra 250% chance of obtaining an Engraving from enemies that drop them. Lasts 1 week.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Loot Bonus" description="+250% drop rate (Engravings)" />
+      <EffectInfo name="Caution" description="The timer is not paused by leaving the Realm or going offline." />
+    </ExtraTooltipData>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>0</feedPower>
+    <Potion />
+    <Track />
+    <Activate acceleratorId="DROPLOOTBOOST" duration="10080" mult="2.5" labels="ENGRAVINGCHEST" display="+250% drop rate (Engravings)">StartAccelerator</Activate>
+    <Labels>EQUIPMENT,CONSUMABLE</Labels>
+  </Object>
+  <Object type="0xc996" id="Iron Plating Engraving">
+    <DisplayId>Iron Plating Engraving</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x1</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Iron Plating Engraving unlocker</Description>
+    <Sound>use_potion</Sound>
+    <BagType>8</BagType>
+    <Soulbound />
+    <Treasure />
+    <Labels>MATERIAL,ENGRAVING</Labels>
+  </Object>
+  <Object type="0xc997" id="Kogbold Spirit Engraving">
+    <DisplayId>Kogbold Spirit Engraving</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Kogbold Spirit Engraving unlocker</Description>
+    <Sound>use_potion</Sound>
+    <BagType>8</BagType>
+    <Soulbound />
+    <Treasure />
+    <Labels>MATERIAL,ENGRAVING</Labels>
+  </Object>
+  <Object type="0xc998" id="Heavy Hitter Engraving">
+    <DisplayId>Heavy Hitter Engraving</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x2</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Heavy Hitter Engraving unlocker</Description>
+    <Sound>use_potion</Sound>
+    <BagType>8</BagType>
+    <Soulbound />
+    <Treasure />
+    <Labels>MATERIAL,ENGRAVING</Labels>
+  </Object>
+  <Object type="0xc999" id="Gatling Shots Engraving">
+    <DisplayId>Gatling Shots Engraving</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x3</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Gatling Shots Engraving unlocker</Description>
+    <Sound>use_potion</Sound>
+    <BagType>8</BagType>
+    <Soulbound />
+    <Treasure />
+    <Labels>MATERIAL,ENGRAVING</Labels>
+  </Object>
+  <Object type="0xc898" id="Onhit Nova 1 Projectiles">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Lightning Bolt</ObjectId>
+      <Speed>100</Speed>
+      <LifetimeMS>300</LifetimeMS>
+      <Damage>100</Damage>
+      <Size>100</Size>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0xc89b" id="Onhit Fan 1 Projectiles">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Lightning Bolt</ObjectId>
+      <Speed>100</Speed>
+      <LifetimeMS>600</LifetimeMS>
+      <Damage>150</Damage>
+      <Size>100</Size>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0xc89e" id="Onhit Sniper 1 Projectiles">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Lightning Bolt</ObjectId>
+      <Speed>150</Speed>
+      <LifetimeMS>600</LifetimeMS>
+      <Damage>200</Damage>
+      <Size>100</Size>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d94" id="Onhit Quiver Projectile T6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>White Bolt</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>925</MinDamage>
+      <MaxDamage>1125</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>150</Size>
+      <ConditionEffect duration="3">Dazed</ConditionEffect>
+      <ParticleTrail />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d95" id="Onhit Quiver Projectile T7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Crimson Arrow</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>800</MinDamage>
+      <MaxDamage>900</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>150</Size>
+      <ConditionEffect duration="3">Paralyzed</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ParticleTrail />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d96" id="Onhit Spell Projectile T6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Purple Bolt</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>165</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d97" id="Onhit Spell Projectile T7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Red Bolt</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>95</MinDamage>
+      <MaxDamage>185</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d98" id="Onhit Shield Projectile T6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Silver Shield</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>360</MaxDamage>
+      <LifetimeMS>200</LifetimeMS>
+      <Size>140</Size>
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ParticleTrail />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d99" id="Onhit Shield Projectile T7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Silver Shield</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>340</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <LifetimeMS>200</LifetimeMS>
+      <Size>140</Size>
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ParticleTrail />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d9A" id="Onhit Star Projectile T6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Ninja Star Doom</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>1325</MinDamage>
+      <MaxDamage>1425</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>120</Size>
+      <PassesCover />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d9B" id="Onhit Star Projectile T7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Ninja Star Dynastic</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>1575</MinDamage>
+      <MaxDamage>1675</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>120</Size>
+      <PassesCover />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d9C" id="Onhit Wakizashi Projectile T6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Wakizashi Slash 6</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <ConditionEffect duration="3.5">Exposed</ConditionEffect>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d9D" id="Onhit Wakizashi Projectile T7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Wakizashi Slash 7</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>450</MinDamage>
+      <MaxDamage>600</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <ConditionEffect duration="4">Exposed</ConditionEffect>
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d9E" id="Onhit Mace Projectile T6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Summon Bear Projectile</ObjectId>
+      <Speed>135</Speed>
+      <Size>100</Size>
+      <MinDamage>205</MinDamage>
+      <MaxDamage>230</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x1d9F" id="Onhit Mace Projectile T7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Summon Panther Projectile</ObjectId>
+      <Speed>135</Speed>
+      <Size>100</Size>
+      <MinDamage>240</MinDamage>
+      <MaxDamage>265</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0x452a" id="Aspirant's Sword">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1225</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>A steel sword with an aquamarine guard, the blade has been perfectly balanced to allow the user to attack as swiftly as possible. Those who wish to become heroes will find this weapon grows with them as they continue down their chosen path.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can be further improved by inscribing it with an engraving from the Path of the Stalwart, Sniper, Swiftblade, or Magus." name="Aspirant's Set" />
+    </ExtraTooltipData>
+    <Sound>weapon/mithril_sword</Sound>
+    <Projectile id="0">
+      <ObjectId>Aspirant Sword Slash</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>210</MinDamage>
+      <MaxDamage>255</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.1</RateOfFire>
+    </Subattack>
+    <BagType>6</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>450</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SWORD,UT,MOTMG2023</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="0" />
+  </Object>
+  <Object type="0x452b" id="Aspirant's Bow">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1248</Index>
+    </Texture>
+    <SlotType>3</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can be further improved by inscribing it with an engraving from the Path of the Stalwart, Sniper, Swiftblade, or Magus." name="Aspirant's Set" />
+    </ExtraTooltipData>
+    <Description>A precisely tuned compound bow with aquamarine filigree, the bow fires arrows tipped with the very same gemstone. Those who wish to become heroes will find this weapon grows with them as they continue down their chosen path.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/golden_bow</Sound>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>14</ArcGap>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Aspirant Large Arrow</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>110</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <MultiHit />
+      <Size>120</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Aspirant Small Arrow</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>35</MinDamage>
+      <MaxDamage>45</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <MultiHit />
+      <Size>80</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <BagType>6</BagType>
+    <OldSound>arrowShoot</OldSound>
+    <feedPower>450</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,BOW,UT,MOTMG2023</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="0" />
+  </Object>
+  <Object type="0x452c" id="Aspirant's Wand">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1227</Index>
+    </Texture>
+    <SlotType>8</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can be further improved by inscribing it with an engraving from the Path of the Stalwart, Sniper, Swiftblade, or Magus." name="Aspirant's Set" />
+    </ExtraTooltipData>
+    <Description>A traditional warmages wand with an aquamarine focus, this particular type of gemstone can draw in more energy before discharging. Those who wish to become heroes will find this weapon grows with them as they continue down their chosen path.</Description>
+    <Sound>weapon/wand_of_death</Sound>
+    <Projectile id="0">
+      <ObjectId>Aspirant Wand Magic</ObjectId>
+      <Speed>180</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <MinDamage>175</MinDamage>
+      <MaxDamage>215</MaxDamage>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Aspirant Wand Magic</ObjectId>
+      <Speed>0</Speed>
+      <LifetimeMS>0</LifetimeMS>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <MultiHit />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>0.8</RateOfFire>
+      <NumProjectiles>1</NumProjectiles>
+    </Subattack>
+    <Subattack index="1" projectileId="1">
+      <RateOfFire>0.8</RateOfFire>
+      <NumProjectiles>0</NumProjectiles>
+    </Subattack>
+    <BagType>6</BagType>
+    <OldSound>magicShoot</OldSound>
+    <feedPower>450</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,WAND,UT,MOTMG2023</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="0" />
+  </Object>
+  <Object type="0x452d" id="Aspirant's Dagger">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1226</Index>
+    </Texture>
+    <SlotType>2</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can be further improved by inscribing it with an engraving from the Path of the Stalwart, Sniper, Swiftblade, or Magus." name="Aspirant's Set" />
+    </ExtraTooltipData>
+    <Description>This dagger is crafted with a sharp aquamarine spike fitted with steel edges to form a blade. Its usage requires additional precision but its sting is heavy. Those who wish to become heroes will find this weapon grows with them as they continue down their chosen path.</Description>
+    <Sound>weapon/fire_dagger</Sound>
+    <Projectile id="0">
+      <ObjectId>Aspirant Dagger Slash</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>140</MinDamage>
+      <MaxDamage>215</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.9</RateOfFire>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Aspirant Dagger Slash</ObjectId>
+      <Speed>0</Speed>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <LifetimeMS>0</LifetimeMS>
+    </Projectile>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>0</NumProjectiles>
+      <RateOfFire>0.9</RateOfFire>
+    </Subattack>
+    <Subattack index="2" projectileId="1">
+      <NumProjectiles>0</NumProjectiles>
+      <RateOfFire>0.9</RateOfFire>
+    </Subattack>
+    <BagType>6</BagType>
+    <OldSound>daggerSwing</OldSound>
+    <feedPower>450</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,DAGGER,UT,MOTMG2023</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="0" />
+  </Object>
+  <Object type="0x452e" id="Aspirant's Staff">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1224</Index>
+    </Texture>
+    <Description>A large oak staff set with an aquamarine gemstone, the focus on top causes it to fire more precisely than traditional staves. Those who wish to become heroes will find this weapon grows with them as they continue down their chosen path.</Description>
+    <SlotType>17</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can be further improved by inscribing it with an engraving from the Path of the Stalwart, Sniper, Swiftblade, or Magus." name="Aspirant's Set" />
+    </ExtraTooltipData>
+    <Sound>weapon/wand_of_death</Sound>
+    <Projectile id="0">
+      <ObjectId>Aspirant Staff Missile</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>475</LifetimeMS>
+      <Amplitude>0.35</Amplitude>
+      <Frequency>1.5</Frequency>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Aspirant Staff Meteor</ObjectId>
+      <Speed>0</Speed>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <LifetimeMS>0</LifetimeMS>
+    </Projectile>
+    <BagType>6</BagType>
+    <Subattack index="0" projectileId="0">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+    </Subattack>
+    <Subattack index="1" projectileId="1">
+      <RateOfFire>1</RateOfFire>
+      <NumProjectiles>0</NumProjectiles>
+      <ArcGap>0</ArcGap>
+    </Subattack>
+    <OldSound>magicShoot</OldSound>
+    <feedPower>450</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,STAFF,UT,MOTMG2023</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="0" />
+  </Object>
+  <Object type="0x452f" id="Aspirant's Blade">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1228</Index>
+    </Texture>
+    <SlotType>24</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can be further improved by inscribing it with an engraving from the Path of the Stalwart, Sniper, Swiftblade, or Magus." name="Aspirant's Set" />
+    </ExtraTooltipData>
+    <Description>The blade of this weapon is made entirely of aquamarine gemstone and sharpened to a lethal edge, the crystal is lighter than traditional metals allowing the user to draw their blade at incredible speed. Those who wish to become heroes will find this weapon grows with them as they continue down their chosen path.</Description>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile id="0">
+      <ObjectId>Aspirant Katana Slash</ObjectId>
+      <Speed>130</Speed>
+      <LifetimeMS>365</LifetimeMS>
+      <MinDamage>120</MinDamage>
+      <MaxDamage>165</MaxDamage>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Aspirant Katana Slash</ObjectId>
+      <Speed>130</Speed>
+      <LifetimeMS>365</LifetimeMS>
+      <MinDamage>120</MinDamage>
+      <MaxDamage>170</MaxDamage>
+      <MultiHit />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.2</RateOfFire>
+    </Subattack>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>0</NumProjectiles>
+      <RateOfFire>1.2</RateOfFire>
+    </Subattack>
+    <UniqueID />
+    <BagType>6</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>450</feedPower>
+    <XPBonus>6</XPBonus>
+    <Labels>EQUIPMENT,WEAPON,KATANA,UT,MOTMG2023</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="0" />
+  </Object>
+  <Object type="0x44e0" id="Aspirant's Plate">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1239</Index>
+    </Texture>
+    <SlotType>7</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can be further improved by inscribing it with an engraving from the Path of the Stalwart, Sniper, Swiftblade, or Magus." name="Aspirant's Set" />
+    </ExtraTooltipData>
+    <Description>Traditional steel plate mail with inlaid gemstones that boost the wearers endurance. With great use this armor will shape to the user's fighting style.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="30">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="20">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>900</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,HEAVY,UT,MOTMG2023</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="0" />
+  </Object>
+  <Object type="0x44e1" id="Aspirant's Robes">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1238</Index>
+    </Texture>
+    <SlotType>14</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can be further improved by inscribing it with an engraving from the Path of the Stalwart, Sniper, Swiftblade, or Magus." name="Aspirant's Set" />
+    </ExtraTooltipData>
+    <Description>Reinforced warmages robes, the threads of which have been interwoven with a fine gemstone that boosts the wearer’s endurance. With great use this armor will shape to the user's fighting style.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXMP" amount="55">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="11">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="WIS" amount="6">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>900</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,ROBE,UT,MOTMG2023</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="0" />
+  </Object>
+  <Object type="0x44e2" id="Aspirant's Hide">
+    <Class>Equipment</Class>
+    <Item />
+    <Description>Mastercrafted hide armor jeweled with many small gemstones that boost the wearer's endurance. With great use this armor will shape to the user's fighting style.</Description>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1237</Index>
+    </Texture>
+    <SlotType>6</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can be further improved by inscribing it with an engraving from the Path of the Stalwart, Sniper, Swiftblade, or Magus." name="Aspirant's Set" />
+    </ExtraTooltipData>
+    <ActivateOnEquip stat="MAXHP" amount="25">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="14">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEX" amount="5">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>900</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,LEATHER,UT,MOTMG2023</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="0" />
+  </Object>
+  <Object type="0x44e3" id="Ring of the Stalwart" setType="0x4560" setName="Path of the Stalwart">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1240</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can be further improved by inscribing it with an engraving from the Path of the Stalwart." name="Aspirant's Set" />
+    </ExtraTooltipData>
+    <Description>A sigil ring with a carved gemstone signifying the wearer's dedication to the Path of the Stalwart. An aspiring hero who wears this ring will become an insurmountable warrior capable of taking the force of any foe.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="120">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="6">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>300</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,MOTMG2023,STALWART</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="0" />
+  </Object>
+  <Object type="0x44e4" id="Ring of the Magus" setType="0x4561" setName="Path of the Magus">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1241</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can be further improved by inscribing it with an engraving from the Path of the Magus." name="Aspirant's Set" />
+    </ExtraTooltipData>
+    <Description>A sigil ring with a carved gemstone signifying the wearer's dedication to the Path of the Magus. An aspiring hero who wears this ring will shape magic to their will and unleash an arcane torrent upon any that oppose them.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="60">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXMP" amount="120">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="WIS" amount="6">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>300</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,MOTMG2023,MAGUS</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="0" />
+  </Object>
+  <Object type="0x44c1" id="Ring of the Sniper" setType="0x4562" setName="Path of the Sniper">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1242</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can be further improved by inscribing it with an engraving from the Path of the Sniper." name="Aspirant's Set" />
+    </ExtraTooltipData>
+    <Description>A sigil ring with a carved gemstone signifying the wearer's dedication to the Path of the Sniper. An aspiring hero who wears this ring will strike true and with a force great enough to topple even the greatest of adversaries. </Description>
+    <ActivateOnEquip stat="MAXHP" amount="60">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="8">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>300</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,MOTMG2023,SNIPER</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="0" />
+  </Object>
+  <Object type="0x44c2" id="Ring of the Swiftblade" setType="0x4563" setName="Path of the Swiftblade">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1243</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="This item can be further improved by inscribing it with an engraving from the Path of the Swiftblade." name="Aspirant's Set" />
+    </ExtraTooltipData>
+    <Description>A sigil ring with a carved gemstone signifying the wearer's dedication to the Path of the Swiftblade. An aspiring hero who wears this ring will move faster than their enemies can perceive and strike before they even have a chance to react.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="80">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEX" amount="6">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="SPD" amount="6">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>300</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,MOTMG2023,SWIFTBLADE</Labels>
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="0" />
+  </Object>
+  <Object type="0x44ee" id="Path of the Magus Engraving">
+    <DisplayId>Path of the Magus Engraving</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1245</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use at the enchanter to apply the Path of the Magus engraving to an Aspirant's Item or Ring of the Magus.</Description>
+    <Sound>use_potion</Sound>
+    <BagType>6</BagType>
+    <Soulbound />
+    <Labels>EQUIPMENT,ENGRAVING</Labels>
+  </Object>
+  <Object type="0x44ef" id="Path of the Sniper Engraving">
+    <DisplayId>Path of the Sniper Engraving</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1246</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use at the enchanter to apply the Path of the Sniper engraving to an Aspirant's Item or Ring of the Sniper.</Description>
+    <Sound>use_potion</Sound>
+    <BagType>6</BagType>
+    <Soulbound />
+    <Labels>EQUIPMENT,ENGRAVING</Labels>
+  </Object>
+  <Object type="0x44f0" id="Path of the Stalwart Engraving">
+    <DisplayId>Path of the Stalwart Engraving</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1244</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use at the enchanter to apply the Path of the Stalwart engraving to an Aspirant's Item or Ring of the Stalwart.</Description>
+    <Sound>use_potion</Sound>
+    <BagType>6</BagType>
+    <Soulbound />
+    <Labels>EQUIPMENT,ENGRAVING</Labels>
+  </Object>
+  <Object type="0x44f1" id="Path of the Swiftblade Engraving">
+    <DisplayId>Path of the Swiftblade Engraving</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1247</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use at the enchanter to apply the Path of the Swiftblade engraving to an Aspirant's Item or Ring of the Swiftblade.</Description>
+    <Sound>use_potion</Sound>
+    <BagType>6</BagType>
+    <Soulbound />
+    <Labels>EQUIPMENT,ENGRAVING</Labels>
+  </Object>
+  <Object id="Mark of the Advanced Control Core" type="0x7998">
+    <Class>Equipment</Class>
+    <Item />
+    <SlotType>10</SlotType>
+    <Texture xOffset="2" yOffset="0">
+      <File>steamworksObjects8x8</File>
+      <Index>843</Index>
+    </Texture>
+    <Description>A medallion infused with the essence of the Factory Control Core.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Quest item" name="Type" />
+      <EffectInfo description="Obtained by defeating the Factory Control Core in the Advanced Kogbold Steamworks" name="Drop location" />
+    </ExtraTooltipData>
+    <Sound>spell/fire_nova</Sound>
+    <BagType>2</BagType>
+    <Treasure />
+    <Mark />
+    <feedPower>50</feedPower>
+    <Soulbound />
+    <Labels>MARK,TAB_ALL</Labels>
+  </Object>
+  <Object type="0x2ee" id="Steamworks Engraving Chest">
+    <Chest />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>845</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>You can open this in the Vault to select a Steamworks Engraving.</Description>
+    <Consumable />
+    <ChestType>1</ChestType>
+    <Activate>OpenChest</Activate>
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT,ENGRAVINGCHEST</Labels>
+  </Object>
+  <Object type="0x44b0" id="Aspirant's Sword Dropper Item">
+    <DisplayId>Aspirant's Sword Dropper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1256</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this in your vault to recieve the Aspirant's Sword.</Description>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Aspirant's Sword Dropper" onlyIn="vault">Create</Activate>
+    <ExtraTooltipData>
+      <EffectInfo name="Info" description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." />
+    </ExtraTooltipData>
+    <feedPower>0</feedPower>
+    <BagType>8</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x44b1" id="Aspirant's Wand Dropper Item">
+    <DisplayId>Aspirant's Wand Dropper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1256</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this in your vault to recieve the Aspirant's Wand.</Description>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Aspirant's Wand Dropper" onlyIn="vault">Create</Activate>
+    <ExtraTooltipData>
+      <EffectInfo name="Info" description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." />
+    </ExtraTooltipData>
+    <feedPower>0</feedPower>
+    <BagType>8</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x44b2" id="Aspirant's Blade Dropper Item">
+    <DisplayId>Aspirant's Blade Dropper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1256</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this in your vault to recieve the Aspirant's Blade.</Description>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Aspirant's Blade Dropper" onlyIn="vault">Create</Activate>
+    <ExtraTooltipData>
+      <EffectInfo name="Info" description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." />
+    </ExtraTooltipData>
+    <feedPower>0</feedPower>
+    <BagType>8</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x44b3" id="Aspirant's Dagger Dropper Item">
+    <DisplayId>Aspirant's Dagger Dropper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1256</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this in your vault to recieve the Aspirant's Dagger.</Description>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Aspirant's Dagger Dropper" onlyIn="vault">Create</Activate>
+    <ExtraTooltipData>
+      <EffectInfo name="Info" description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." />
+    </ExtraTooltipData>
+    <feedPower>0</feedPower>
+    <BagType>8</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x44b4" id="Aspirant's Staff Dropper Item">
+    <DisplayId>Aspirant's Staff Dropper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1256</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this in your vault to recieve the Aspirant's Staff.</Description>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Aspirant's Staff Dropper" onlyIn="vault">Create</Activate>
+    <ExtraTooltipData>
+      <EffectInfo name="Info" description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." />
+    </ExtraTooltipData>
+    <feedPower>0</feedPower>
+    <BagType>8</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x44b5" id="Aspirant's Bow Dropper Item">
+    <DisplayId>Aspirant's Bow Dropper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1256</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this in your vault to recieve the Aspirant's Bow.</Description>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Aspirant's Bow Dropper" onlyIn="vault">Create</Activate>
+    <ExtraTooltipData>
+      <EffectInfo name="Info" description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." />
+    </ExtraTooltipData>
+    <feedPower>0</feedPower>
+    <BagType>8</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x44b6" id="Aspirant's Plate Dropper Item">
+    <DisplayId>Aspirant's Plate Dropper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1256</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this in your vault to recieve the Aspirant's Plate.</Description>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Aspirant's Plate Dropper" onlyIn="vault">Create</Activate>
+    <ExtraTooltipData>
+      <EffectInfo name="Info" description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." />
+    </ExtraTooltipData>
+    <feedPower>0</feedPower>
+    <BagType>8</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x44b7" id="Aspirant's Hide Dropper Item">
+    <DisplayId>Aspirant's Hide Dropper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1256</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this in your vault to recieve the Aspirant's Hide.</Description>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Aspirant's Hide Dropper" onlyIn="vault">Create</Activate>
+    <ExtraTooltipData>
+      <EffectInfo name="Info" description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." />
+    </ExtraTooltipData>
+    <feedPower>0</feedPower>
+    <BagType>8</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x44b8" id="Aspirant's Robes Dropper Item">
+    <DisplayId>Aspirant's Robes Dropper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1256</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this in your vault to recieve the Aspirant's Robes.</Description>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Aspirant's Robes Dropper" onlyIn="vault">Create</Activate>
+    <ExtraTooltipData>
+      <EffectInfo name="Info" description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." />
+    </ExtraTooltipData>
+    <feedPower>0</feedPower>
+    <BagType>8</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x44b9" id="Ring of the Stalwart Dropper Item">
+    <DisplayId>Ring of the Stalwart Dropper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1256</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this in your vault to recieve the Ring of the Stalwart.</Description>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Ring of the Stalwart Dropper" onlyIn="vault">Create</Activate>
+    <ExtraTooltipData>
+      <EffectInfo name="Info" description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." />
+    </ExtraTooltipData>
+    <feedPower>0</feedPower>
+    <BagType>8</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x44ba" id="Ring of the Magus Dropper Item">
+    <DisplayId>Ring of the Magus Dropper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1256</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this in your vault to recieve the Ring of the Magus.</Description>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Ring of the Magus Dropper" onlyIn="vault">Create</Activate>
+    <ExtraTooltipData>
+      <EffectInfo name="Info" description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." />
+    </ExtraTooltipData>
+    <feedPower>0</feedPower>
+    <BagType>8</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x44bb" id="Ring of the Sniper Dropper Item">
+    <DisplayId>Ring of the Sniper Dropper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1256</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this in your vault to recieve the Ring of the Sniper.</Description>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Ring of the Sniper Dropper" onlyIn="vault">Create</Activate>
+    <ExtraTooltipData>
+      <EffectInfo name="Info" description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." />
+    </ExtraTooltipData>
+    <feedPower>0</feedPower>
+    <BagType>8</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x44bc" id="Ring of the Swiftblade Dropper Item">
+    <DisplayId>Ring of the Swiftblade Dropper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1256</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this in your vault to recieve the Ring of the Swiftblade.</Description>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Ring of the Swiftblade Dropper" onlyIn="vault">Create</Activate>
+    <ExtraTooltipData>
+      <EffectInfo name="Info" description="Only usable in the Vault. Use to spawn a destructible chest containing rewards." />
+    </ExtraTooltipData>
+    <feedPower>0</feedPower>
+    <BagType>8</BagType>
+    <Track />
+    <UniqueID />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
 </Objects>

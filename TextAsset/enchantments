@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Enchantments>
+  <Enchantment id="IRON_PLATING_DIPLOMATIC_ROBE" type="0x1">
+    <DisplayId>Iron Plating</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5 DEF.  When hit for more than 20 damage at less than half health applies Healing effect for 5 seconds.  20 seconds cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,ROBE,UT,POWERTIER_S,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="DEF" amount="5">IncrementStat</ActivateOnEquip>
+      <AddOnPlayerHitActivate hpMinThresholdRelative="0.5" damageThreshold="20" proc="1" cooldown="20" duration="5" effect="Healing">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Iron Plating Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="IRON_PLATING_GLADIATOR_GUARD" type="0x2">
+    <DisplayId>Iron Plating</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5 DEF.  When hit for more than 20 damage at less than half health applies Healing effect for 5 seconds.  20 seconds cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,HEAVY,UT,POWERTIER_SS,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="DEF" amount="5">IncrementStat</ActivateOnEquip>
+      <AddOnPlayerHitActivate hpMinThresholdRelative="0.5" damageThreshold="20" proc="1" cooldown="20" duration="5" effect="Healing">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Iron Plating Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="IRON_PLATING_VEST_OF_SHADOWS" type="0x3">
+    <DisplayId>Iron Plating</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5 DEF.  When hit for more than 20 damage at less than half health applies Healing effect for 5 seconds.  20 seconds cooldown.</Description>
+    <CompatibleWithItemLabels>ARMOR,LEATHER,UT,POWERTIER_S,ORG_SHTT_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="DEF" amount="5">IncrementStat</ActivateOnEquip>
+      <AddOnPlayerHitActivate hpMinThresholdRelative="0.5" damageThreshold="20" proc="1" cooldown="20" duration="5" effect="Healing">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Iron Plating Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="KOGBOLD_SPIRIT" type="0x4">
+    <DisplayId>Kogbold Spirit</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +3 DEF and +25 HP.</Description>
+    <CompatibleWithItemLabels>RING,UT,ORG_KOGBOLD_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,WEAPON</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="DEF" amount="3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="MAXHP" amount="25">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Kogbold Spirit Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HEAVY_HITTER_STEAM_PIPE" type="0x5">
+    <DisplayId>Heavy Hitter</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5% damage, +25% projectile size.  Reduces projectile speed by 10% without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,SPELLBLADE,ORG_KOGBOLD_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="0">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="0">1.25</MultiplySize>
+      <MultiplyMinDamage projectileId="1">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="1">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="1">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="1">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="1">1.25</MultiplySize>
+      <MultiplyMinDamage projectileId="2">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="2">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="2">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="2">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="2">1.25</MultiplySize>
+      <MultiplyMinDamage projectileId="3">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="3">1.05</MultiplyMaxDamage>
+      <MultiplyLifetimeMS projectileId="3">1.10</MultiplyLifetimeMS>
+      <MultiplySpeed projectileId="3">0.9</MultiplySpeed>
+      <MultiplySize projectileId="3">1.25</MultiplySize>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Heavy Hitter Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HEAVY_HITTER_AVARICE" type="0x6">
+    <DisplayId>Heavy Hitter</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5% damage, +25% projectile size.  Reduces projectile speed by 10% without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,DAGGER,UT,POWERTIER_S,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="0">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="0">1.25</MultiplySize>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Heavy Hitter Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HEAVY_HITTER_LASER_POINTER" type="0x7">
+    <DisplayId>Heavy Hitter</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5% damage, +25% projectile size.  Reduces projectile speed by 10% without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,WAND,UT,ORG_KOGBOLD_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="0">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="0">1.25</MultiplySize>
+      <MultiplyMinDamage projectileId="1">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="1">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="1">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="1">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="1">1.25</MultiplySize>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Heavy Hitter Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HEAVY_HITTER_ENFORCER" type="0x8">
+    <DisplayId>Heavy Hitter</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5% damage, +25% projectile size.  Reduces projectile speed by 10% without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,KATANA,UT,POWERTIER_S,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="0">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="0">1.25</MultiplySize>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Heavy Hitter Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HEAVY_HITTER_DIVINITY" type="0x9">
+    <DisplayId>Heavy Hitter</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5% damage, +25% projectile size.  Reduces projectile speed by 10% without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,SWORD,UT,POWERTIER_SS,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="0">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="0">1.25</MultiplySize>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Heavy Hitter Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="HEAVY_HITTER_VOID_BOW" type="0xA">
+    <DisplayId>Heavy Hitter</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +5% damage, +25% projectile size.  Reduces projectile speed by 10% without affecting range.</Description>
+    <CompatibleWithItemLabels>WEAPON,BOW,UT,POWERTIER_S,ORG_VOID_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">1.05</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">1.05</MultiplyMaxDamage>
+      <MultiplySpeed projectileId="0">0.9</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">1.10</MultiplyLifetimeMS>
+      <MultiplySize projectileId="0">1.25</MultiplySize>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Heavy Hitter Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="GATLING_SHOTS_STEAM_PIPE" type="0xB">
+    <DisplayId>Gatling Shots Steam Pipe</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +10% Rate of Fire, and +10% projectile speed without affecting range.  Reduces damage by 5% and projectile size by 25%.</Description>
+    <CompatibleWithItemLabels>WEAPON,SPELLBLADE,ORG_KOGBOLD_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="0">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="0">0.75</MultiplySize>
+      <MultiplySpeed projectileId="0">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.83</MultiplyLifetimeMS>
+      <MultiplyMinDamage projectileId="1">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="1">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="1">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="1">0.75</MultiplySize>
+      <MultiplySpeed projectileId="1">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="1">0.83</MultiplyLifetimeMS>
+      <MultiplyMinDamage projectileId="2">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="2">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="2">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="2">0.75</MultiplySize>
+      <MultiplySpeed projectileId="2">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="2">0.83</MultiplyLifetimeMS>
+      <MultiplyMinDamage projectileId="3">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="3">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="3">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="3">0.75</MultiplySize>
+      <MultiplySpeed projectileId="3">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="3">0.83</MultiplyLifetimeMS>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Gatling Shots Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="GATLING_SHOTS_AVARICE" type="0xC">
+    <DisplayId>Gatling Shots</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +10% Rate of Fire, and +10% projectile speed without affecting range.  Reduces damage by 5% and projectile size by 25%.</Description>
+    <CompatibleWithItemLabels>WEAPON,DAGGER,UT,POWERTIER_S,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="0">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="0">0.75</MultiplySize>
+      <MultiplySpeed projectileId="0">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.9</MultiplyLifetimeMS>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Gatling Shots Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="GATLING_SHOTS_LASER_POINTER" type="0xD">
+    <DisplayId>Gatling Shots</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +10% Rate of Fire, and +10% projectile speed without affecting range.  Reduces damage by 10% and projectile size by 25%.</Description>
+    <CompatibleWithItemLabels>WEAPON,WAND,UT,ORG_KOGBOLD_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">0.9</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">0.9</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="0">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="0">0.75</MultiplySize>
+      <MultiplySpeed projectileId="0">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.9</MultiplyLifetimeMS>
+      <MultiplyMinDamage projectileId="1">0.9</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="1">0.9</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="1">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="1">0.75</MultiplySize>
+      <MultiplySpeed projectileId="1">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="1">0.9</MultiplyLifetimeMS>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Gatling Shots Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="GATLING_SHOTS_ENFORCER" type="0xE">
+    <DisplayId>Gatling Shots</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +10% Rate of Fire, and +10% projectile speed without affecting range.  Reduces damage by 5% and projectile size by 25%.</Description>
+    <CompatibleWithItemLabels>WEAPON,KATANA,UT,POWERTIER_S,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="0">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="0">0.75</MultiplySize>
+      <MultiplySpeed projectileId="0">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.9</MultiplyLifetimeMS>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Gatling Shots Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="GATLING_SHOTS_DIVINITY" type="0xF">
+    <DisplayId>Gatling Shots</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +10% Rate of Fire, and +10% projectile speed without affecting range.  Reduces damage by 5% and projectile size by 25%.</Description>
+    <CompatibleWithItemLabels>WEAPON,SWORD,UT,POWERTIER_SS,ORG_OSANC_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="0">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="0">0.75</MultiplySize>
+      <MultiplySpeed projectileId="0">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.9</MultiplyLifetimeMS>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Gatling Shots Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="GATLING_SHOTS_VOID_BOW" type="0x10">
+    <DisplayId>Gatling Shots</DisplayId>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x12</Index>
+    </Texture>
+    <Description>Adds +10% Rate of Fire, and +10% projectile speed without affecting range.  Reduces damage by 5% and projectile size by 25%.</Description>
+    <CompatibleWithItemLabels>WEAPON,BOW,UT,POWERTIER_S,ORG_VOID_S</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <MultiplyMinDamage projectileId="0">0.95</MultiplyMinDamage>
+      <MultiplyMaxDamage projectileId="0">0.95</MultiplyMaxDamage>
+      <MultiplyRateOfFire projectileId="0">1.1</MultiplyRateOfFire>
+      <MultiplySize projectileId="0">0.75</MultiplySize>
+      <MultiplySpeed projectileId="0">1.1</MultiplySpeed>
+      <MultiplyLifetimeMS projectileId="0">0.9</MultiplyLifetimeMS>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Gatling Shots Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_MAGUS_STAFF" type="0x200">
+    <DisplayId>Path of the Magus</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>32</Index>
+    </Texture>
+    <Description>Fires two staff shots and one meteor. The staff shots deal 20-40 armor piercing damage. The Meteor shot deals 300-400 damage at a 33% fire rate.</Description>
+    <CompatibleWithItemLabels>WEAPON,STAFF,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item" subAttackIndex="0">0</SetSubAttack>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item" subAttackIndex="1">1</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Magus Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SNIPER_STAFF" type="0x201">
+    <DisplayId>Path of the Sniper</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>33</Index>
+    </Texture>
+    <Description>Fires two long range accelerating shots that deal 100-165 damage at a 70% rate of fire.</Description>
+    <CompatibleWithItemLabels>WEAPON,STAFF,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item" subAttackIndex="2">0</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Sniper Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_STALWART_STAFF" type="0x202">
+    <DisplayId>Path of the Stalwart</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>31</Index>
+    </Texture>
+    <Description>Fires one shorter range shot that deals 170-215 damage.</Description>
+    <CompatibleWithItemLabels>WEAPON,STAFF,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item" subAttackIndex="3">0</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Stalwart Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SWIFTBLADE_STAFF" type="0x203">
+    <DisplayId>Path of the Swiftblade</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>34</Index>
+    </Texture>
+    <Description>Fires three shots, the outer two deal 50-75 damage. The inner shot deals 70-75 damage.</Description>
+    <CompatibleWithItemLabels>WEAPON,STAFF,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item" subAttackIndex="4">0</SetSubAttack>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item" subAttackIndex="5">1</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Swiftblade Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_MAGUS_SWORD" type="0x204">
+    <DisplayId>Path of the Magus</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>32</Index>
+    </Texture>
+    <Description>Fires two shots that 130-160 damage.</Description>
+    <CompatibleWithItemLabels>WEAPON,SWORD,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item" subAttackIndex="6">0</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Magus Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SNIPER_SWORD" type="0x205">
+    <DisplayId>Path of the Sniper</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>33</Index>
+    </Texture>
+    <Description>Fires one long range accelerating shot that deals 350-400 damage at a 70% rate of fire.</Description>
+    <CompatibleWithItemLabels>WEAPON,SWORD,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item" subAttackIndex="7">0</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Sniper Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_STALWART_SWORD" type="0x206">
+    <DisplayId>Path of the Stalwart</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>31</Index>
+    </Texture>
+    <Description>Fires two shots that deal 140-190 damage at a 90% rate of fire. These shots decelerate and linger briefly.</Description>
+    <CompatibleWithItemLabels>WEAPON,SWORD,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item" subAttackIndex="8">0</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Stalwart Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SWIFTBLADE_SWORD" type="0x207">
+    <DisplayId>Path of the Swiftblade</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>34</Index>
+    </Texture>
+    <Description>Fires one shot that deals 160-170 damage at a 175% rate of fire.</Description>
+    <CompatibleWithItemLabels>WEAPON,SWORD,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item" subAttackIndex="9">0</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Swiftblade Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_MAGUS_DAGGER" type="0x208">
+    <DisplayId>Path of the Magus</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>32</Index>
+    </Texture>
+    <Description>Fires two shots the center shot deals 100-135 damage. The outer shot deals 100-175 damage. Both shots have a 75% rate of fire.</Description>
+    <CompatibleWithItemLabels>WEAPON,DAGGER,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 2" subAttackIndex="0">0</SetSubAttack>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 2" subAttackIndex="1">1</SetSubAttack>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 2" subAttackIndex="2">2</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Magus Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SNIPER_DAGGER" type="0x209">
+    <DisplayId>Path of the Sniper</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>33</Index>
+    </Texture>
+    <Description>Fires one long range accelerating shot that deals 180-260 damage at an 80% fire rate.</Description>
+    <CompatibleWithItemLabels>WEAPON,DAGGER,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 2" subAttackIndex="3">0</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Sniper Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_STALWART_DAGGER" type="0x20a">
+    <DisplayId>Path of the Stalwart</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>31</Index>
+    </Texture>
+    <Description>Fires three shots that deal 110-150 damage at a 50% fire rate. These shots decelerate and linger briefly.</Description>
+    <CompatibleWithItemLabels>WEAPON,DAGGER,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 2" subAttackIndex="4">0</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Stalwart Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SWIFTBLADE_DAGGER" type="0x20b">
+    <DisplayId>Path of the Swiftblade</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>34</Index>
+    </Texture>
+    <Description>Fires three parallel shots that deal 80-110 damage. The center shot has a fire rate of 120% while the outer shots have a rate of 60%.</Description>
+    <CompatibleWithItemLabels>WEAPON,DAGGER,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 2" subAttackIndex="5">0</SetSubAttack>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 2" subAttackIndex="6">1</SetSubAttack>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 2" subAttackIndex="7">2</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Swiftblade Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_MAGUS_WAND" type="0x20c">
+    <DisplayId>Path of the Magus</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>32</Index>
+    </Texture>
+    <Description>Fires two parallel shots that deal 80-120 damage at an 80% rate of fire.</Description>
+    <CompatibleWithItemLabels>WEAPON,WAND,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 2" subAttackIndex="8">0</SetSubAttack>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 2" subAttackIndex="9">1</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Magus Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SNIPER_WAND" type="0x20d">
+    <DisplayId>Path of the Sniper</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>33</Index>
+    </Texture>
+    <Description>Fires one long range accelerating shot that deals 175-215 damage at an 80% rate of fire.</Description>
+    <CompatibleWithItemLabels>WEAPON,WAND,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 2" subAttackIndex="10">0</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Sniper Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_STALWART_WAND" type="0x20e">
+    <DisplayId>Path of the Stalwart</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>31</Index>
+    </Texture>
+    <Description>Fires three shots that deal 60-110 damage at a 70% fire rate. These shots decelerate and linger briefly.</Description>
+    <CompatibleWithItemLabels>WEAPON,WAND,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 2" subAttackIndex="11">0</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Stalwart Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SWIFTBLADE_WAND" type="0x20f">
+    <DisplayId>Path of the Swiftblade</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>34</Index>
+    </Texture>
+    <Description>Fires one shot that deals 90-115 damage at 175% rate of fire.</Description>
+    <CompatibleWithItemLabels>WEAPON,WAND,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 2" subAttackIndex="12">0</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Swiftblade Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_MAGUS_BOW" type="0x210">
+    <DisplayId>Path of the Magus</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>32</Index>
+    </Texture>
+    <Description>Fires two outer and one inner shot. The outer shots converge at the middle and end of the weapons range and deal 30-40 armor piercing damage. The inner shot deals 120-150 damage.</Description>
+    <CompatibleWithItemLabels>WEAPON,BOW,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="0">0</SetSubAttack>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="1">1</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Magus Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SNIPER_BOW" type="0x211">
+    <DisplayId>Path of the Sniper</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>33</Index>
+    </Texture>
+    <Description>Fires two outer and one inner shots that accelerate and have a tight spread. The outer shots deal 40-60 damage at an 80% rate of fire. The inner shot does 200-420 damage at a 40% rate of fire.</Description>
+    <CompatibleWithItemLabels>WEAPON,BOW,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="2">0</SetSubAttack>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="3">1</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Sniper Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_STALWART_BOW" type="0x212">
+    <DisplayId>Path of the Stalwart</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>31</Index>
+    </Texture>
+    <Description>Fires four outer and one inner shot. The outer shots do 20-30 armor piercing damage but do not pierce enemies. The inner shot deals 100-190 damage.</Description>
+    <CompatibleWithItemLabels>WEAPON,BOW,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="4">0</SetSubAttack>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="5">1</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Stalwart Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SWIFTBLADE_BOW" type="0x213">
+    <DisplayId>Path of the Swiftblade</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>34</Index>
+    </Texture>
+    <Description>Fires two outer and one inner shot. The outer shots deal 20-30 armor piercing damage. The inner shot deals 80-110 damage. All shots are fired at a rate of 150%.</Description>
+    <CompatibleWithItemLabels>WEAPON,BOW,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="6">0</SetSubAttack>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="7">1</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Swiftblade Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_MAGUS_KATANA" type="0x214">
+    <DisplayId>Path of the Magus</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>32</Index>
+    </Texture>
+    <Description>Fires three shots, two of which have a wide amplitude and deal 85-135 damage. One shot fires straight and deals 70-110 armor piercing damage at a 50% rate of fire.</Description>
+    <CompatibleWithItemLabels>WEAPON,KATANA,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="8">0</SetSubAttack>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="9">1</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Magus Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SNIPER_KATANA" type="0x215">
+    <DisplayId>Path of the Sniper</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>33</Index>
+    </Texture>
+    <Description>Fires one long range accelerating shot that deals 235-300 damage at 70% fire rate.</Description>
+    <CompatibleWithItemLabels>WEAPON,KATANA,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="10">0</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Sniper Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_STALWART_KATANA" type="0x216">
+    <DisplayId>Path of the Stalwart</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>31</Index>
+    </Texture>
+    <Description>Fires two shots dealing 130-165 damage at 70% fire rate. These shots decelerate to a stop and linger briefly.</Description>
+    <CompatibleWithItemLabels>WEAPON,KATANA,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="11">0</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Stalwart Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SWIFTBLADE_KATANA" type="0x217">
+    <DisplayId>Path of the Swiftblade</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>34</Index>
+    </Texture>
+    <Description>Fires two parallel shots that deal 80-100 damage at 115% fire rate.</Description>
+    <CompatibleWithItemLabels>WEAPON,KATANA,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>ARMOR,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="12">0</SetSubAttack>
+      <SetSubAttack subAttackObject="MotMG 2023 Subattack Item 3" subAttackIndex="13">1</SetSubAttack>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Swiftblade Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_MAGUS_ARMOR" type="0x218">
+    <DisplayId>Path of the Magus</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>32</Index>
+    </Texture>
+    <Description>Gain 4 Wisdom and 40 MP</Description>
+    <CompatibleWithItemLabels>ARMOR,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="MAXMP" amount="40">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="WIS" amount="4">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Magus Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SNIPER_ARMOR" type="0x219">
+    <DisplayId>Path of the Sniper</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>33</Index>
+    </Texture>
+    <Description>Gain 4 Attack and 4 Vitality</Description>
+    <CompatibleWithItemLabels>ARMOR,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="VIT" amount="4">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="ATT" amount="4">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Sniper Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_STALWART_ARMOR" type="0x21a">
+    <DisplayId>Path of the Stalwart</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>31</Index>
+    </Texture>
+    <Description>Gain 4 Defense and 20 HP</Description>
+    <CompatibleWithItemLabels>ARMOR,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="DEF" amount="4">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Stalwart Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SWIFTBLADE_ARMOR" type="0x21b">
+    <DisplayId>Path of the Swiftblade</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>34</Index>
+    </Texture>
+    <Description>Gain 4 Dexterity and 4 Speed</Description>
+    <CompatibleWithItemLabels>ARMOR,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,RING</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip stat="DEX" amount="4">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="SPD" amount="4">IncrementStat</ActivateOnEquip>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Swiftblade Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_MAGUS_RING" type="0x21c">
+    <DisplayId>Path of the Magus</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>32</Index>
+    </Texture>
+    <Description>Surge of power: While wearing an Apirant's Armor and Weapon and hit for at least 20 damage while above 80% hp, gain Energized and +10 Wisdom for 5 seconds. Cooldown 20 seconds.</Description>
+    <CompatibleWithItemLabels>RING,MAGUS,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e0" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" effect="Energized">ConditionEffectSelf</AddOnPlayerHitActivate>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e1" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" effect="Energized">ConditionEffectSelf</AddOnPlayerHitActivate>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e2" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" effect="Energized">ConditionEffectSelf</AddOnPlayerHitActivate>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e0" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" amount="10" stat="WIS" channel="noStackItm">StatBoostSelf</AddOnPlayerHitActivate>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e1" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" amount="10" stat="WIS" channel="noStackItm">StatBoostSelf</AddOnPlayerHitActivate>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e2" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" amount="10" stat="WIS" channel="noStackItm">StatBoostSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Magus Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SNIPER_RING" type="0x21d">
+    <DisplayId>Path of the Sniper</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>33</Index>
+    </Texture>
+    <Description>Focused counter: While wearing an Apirant's Armor and Weapon and hit for at least 20 damage while above 80% hp, gain Damaging for 5 seconds. Cooldown 20 seconds.</Description>
+    <CompatibleWithItemLabels>RING,SNIPER,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e0" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" effect="Damaging">ConditionEffectSelf</AddOnPlayerHitActivate>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e1" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" effect="Damaging">ConditionEffectSelf</AddOnPlayerHitActivate>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e2" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" effect="Damaging">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Sniper Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_STALWART_RING" type="0x21e">
+    <DisplayId>Path of the Stalwart</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>31</Index>
+    </Texture>
+    <Description>Steel resolve: While wearing an Apirant's Armor and Weapon and hit for at least 20 damage while above 80% hp, gain Armored for 5 seconds. Cooldown 20 seconds.</Description>
+    <CompatibleWithItemLabels>RING,STALWART,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e0" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" effect="Armored">ConditionEffectSelf</AddOnPlayerHitActivate>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e1" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" effect="Armored">ConditionEffectSelf</AddOnPlayerHitActivate>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e2" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" effect="Armored">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Stalwart Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+  <Enchantment id="PATH_OF_THE_SWIFTBLADE_RING" type="0x21f">
+    <DisplayId>Path of the Swiftblade</DisplayId>
+    <Texture>
+      <File>d3LofiObjBigEmbed</File>
+      <Index>34</Index>
+    </Texture>
+    <Description>Swift counter: While wearing an Apirant's Armor and Weapon and hit for at least 20 damage while above 80% hp, gain Berserk for 5 seconds. Cooldown 20 seconds.</Description>
+    <CompatibleWithItemLabels>RING,SWIFTBLADE,UT,MOTMG2023</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e0" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" effect="Berserk">ConditionEffectSelf</AddOnPlayerHitActivate>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e1" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" effect="Berserk">ConditionEffectSelf</AddOnPlayerHitActivate>
+      <AddOnPlayerHitActivate proc="1" mustWearOR="0x452a;0x452b;0x452c;0x452d;0x452e;0x452f" mustWear="0x44e2" hpMinThresholdRelative=".80" damageThreshold="20" duration="5" cooldown="20" effect="Berserk">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Path of the Swiftblade Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
+</Enchantments>

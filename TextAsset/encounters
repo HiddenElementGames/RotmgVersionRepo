@@ -2784,7 +2784,7 @@
     <Quest />
     <HealthBarBoss />
     <God />
-    <Encounter terrain="HauntedHallows" />
+    <Encounter />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -2945,7 +2945,7 @@
     <Quest />
     <HealthBarBoss />
     <God />
-    <Encounter terrain="SpriteForest" />
+    <Encounter />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -4464,6 +4464,22 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xc1e7" id="Kogbold Hard Creator">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>80</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
   </Object>
   <Object type="0xc110" id="Train Invulnerability Teleporter">
     <Enemy />
