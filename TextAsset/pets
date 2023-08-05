@@ -22764,4 +22764,47 @@
     <feedPower>1000</feedPower>
     <Track />
   </Object>
+  <Object id="Echo of a Hero" type="0xC631">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Echo of a Hero Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xC632" id="Echo of a Hero Pet Skin">
+    <PetSkin />
+    <DisplayId>Echo of a Hero</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>5</ItemTier>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>253</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xC633" id="Echo of a Hero Pet Stone">
+    <DisplayId>Echo of a Hero Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>5</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>253</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>An extraordinary pet skin that echoes the essence of heroes past, possessing the rare ability to morph between different classes. With each transformation, it channels the skills and traits of the chosen class, faithfully serving as a versatile and loyal companion to its master on the path of greatness.</Description>
+    <Activate skinType="50738">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
 </Objects>

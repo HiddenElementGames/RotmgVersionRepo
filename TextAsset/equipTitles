@@ -834,4 +834,19 @@
     <Soulbound />
     <BagType>7</BagType>
   </Object>
+  <Object id="Mangry Title Unlocker" type="0xC5E4">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-1" yOffset="0">
+      <File>interregnumObjects8x8</File>
+      <Index>0x4b</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>You can use this item in the Vault to unlock the title 'Mangry'.</Description>
+    <Activate titleType="0xC5E5">UnlockTitle</Activate>
+    <Consumable />
+    <AdminOnly />
+    <Soulbound />
+    <BagType>7</BagType>
+  </Object>
 </Objects>

@@ -513,21 +513,4 @@
     <NoSeasonalToRegularConversion />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
-  <Object type="0xc995" id="Test Dust Charm">
-    <DisplayId>Test Dust Charm</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>lofiObj</File>
-      <Index>0x11e</Index>
-    </Texture>
-    <SlotType>10</SlotType>
-    <Description>Adds 5k of each dust type when consumed.</Description>
-    <Sound>use_potion</Sound>
-    <Activate dustType="greenDust" amount="2000">AddDust</Activate>
-    <Consumable />
-    <BagType>8</BagType>
-    <Soulbound />
-    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
-  </Object>
 </Objects>

@@ -2077,4 +2077,30 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
+  <Object type="0x7220" id="Oryx Horde Initiator">
+    <Class>GameObject</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0x7221" id="Oryx Horde Spawner">
+    <Class>GameObject</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <SpawnProb>1</SpawnProb>
+    <PerRealmMax>1</PerRealmMax>
+    <Terrain>Mountains</Terrain>
+  </Object>
 </Objects>

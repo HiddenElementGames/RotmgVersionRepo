@@ -311,6 +311,17 @@
       <LifetimeMS>950</LifetimeMS>
       <ConditionEffect duration="5">Quiet</ConditionEffect>
     </Projectile>
+    <Projectile id="5">
+      <ObjectId>EH Blue Ball</ObjectId>
+      <Damage>35</Damage>
+      <Speed>50</Speed>
+      <Size>80</Size>
+      <LifetimeMS>600</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="1.2">Weak</ConditionEffect>
+      <ConditionEffect duration="4" target="1">Stasis</ConditionEffect>
+      <ArmorPiercing />
+    </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="LesserGodKills" />
     <Labels>ENEMY,BOSS_SPAWNED,BEAST,STASISIMMUNE,TRACKLOOT</Labels>
@@ -360,6 +371,15 @@
       <LifetimeMS>3000</LifetimeMS>
       <MultiHit />
       <ArmorPiercing />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>EH Hive Green Shot</ObjectId>
+      <Size>100</Size>
+      <Speed>30</Speed>
+      <Damage>150</Damage>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="LesserGodKills" />
@@ -750,6 +770,195 @@
       <MultiHit />
       <ConditionEffect duration="0.8">Slowed</ConditionEffect>
     </Projectile>
+    <Projectile id="24">
+      <ObjectId>EH Queen Green Stinger Large</ObjectId>
+      <Damage>130</Damage>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing />
+      <ConditionEffect duration="4">Unstable</ConditionEffect>
+    </Projectile>
+    <Projectile id="25">
+      <ObjectId>EH Queen Green Stinger Large</ObjectId>
+      <Damage>130</Damage>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3800</LifetimeMS>
+      <ArmorPiercing />
+      <FaceDir />
+      <TurnRate>70</TurnRate>
+      <ConditionEffect duration="3">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="26">
+      <ObjectId>EH Queen Green Stinger Small</ObjectId>
+      <Damage>120</Damage>
+      <Speed>80</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1118</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="27">
+      <ObjectId>EH Green Ball</ObjectId>
+      <Damage>120</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1750</LifetimeMS>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="28">
+      <ObjectId>EH Queen Green Stinger Large</ObjectId>
+      <Damage>130</Damage>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3800</LifetimeMS>
+      <ArmorPiercing />
+      <FaceDir />
+      <TurnRate>-70</TurnRate>
+      <ConditionEffect duration="3">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="29">
+      <ObjectId>EH Green Glaive</ObjectId>
+      <Damage>80</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="30">
+      <ObjectId>EH Queen Green Stinger Large</ObjectId>
+      <Damage>140</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <TurnRate>-20</TurnRate>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="31">
+      <ObjectId>EH Green Ball</ObjectId>
+      <Damage>120</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>90</Size>
+      <TurnRate>20</TurnRate>
+      <ConditionEffect duration="4">Unstable</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="32">
+      <ObjectId>EH Green Glaive</ObjectId>
+      <Damage>100</Damage>
+      <Speed>30</Speed>
+      <Size>90</Size>
+      <LifetimeMS>4500</LifetimeMS>
+      <ConditionEffect duration="3">Sick</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="33">
+      <ObjectId>EH Hive Green Shot</ObjectId>
+      <Damage>130</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1800</LifetimeMS>
+      <Size>120</Size>
+      <Amplitude>0.8</Amplitude>
+      <Frequency>1</Frequency>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="34">
+      <ObjectId>EH Hive Green Shot</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="35">
+      <ObjectId>EH Green Ball</ObjectId>
+      <Damage>80</Damage>
+      <Speed>20</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>50</Size>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="36">
+      <ObjectId>EH Green Ball</ObjectId>
+      <Damage>100</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="37">
+      <ObjectId>EH Yellow Glaive</ObjectId>
+      <Damage>70</Damage>
+      <Size>100</Size>
+      <Speed>45</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration=".8">Paralyzed</ConditionEffect>
+      <ConditionEffect duration="3">Dazed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="38">
+      <ObjectId>EH Red Glaive</ObjectId>
+      <Damage>90</Damage>
+      <Size>100</Size>
+      <Speed>45</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="39">
+      <ObjectId>EH Blue Glaive</ObjectId>
+      <Damage>80</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="2">Quiet</ConditionEffect>
+      <ConditionEffect duration="6" target="1">Stasis</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="40">
+      <ObjectId>EH Hive Green Shot</ObjectId>
+      <Damage>130</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="41">
+      <ObjectId>EH Hive Spiral Shot</ObjectId>
+      <Damage>130</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <ConditionEffect duration="3">Curse</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="42">
+      <ObjectId>EH Hive Range Shot</ObjectId>
+      <Damage>130</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <ConditionEffect duration="3">Weak</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="43">
+      <ObjectId>EH Hive Shot</ObjectId>
+      <Damage>130</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <ConditionEffect duration="3">Dazed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.335" dustMin="9" dustMax="13" seasonalBonus="0.15" minLevel="7" maxLevel="7">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.38462" dustMin="20" dustMax="26" seasonalBonus="0.15" minLevel="10" maxLevel="10">greenDust</SoulboundDust>
     <HealthBarBoss radius="20" />
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
@@ -4413,5 +4622,514 @@
     </Texture>
     <Size>-1</Size>
     <Effect color="0xFFDF3F" rate="20" life=".2" lifeVariance="0.1" speed="0" speedVariance="0" size="3" rise="0" riseAcc="0" riseVariance="0" rangeX="1" rangeY="1">CustomParticles</Effect>
+  </Object>
+  <Object type="0x43fd" id="EH Green Arrow Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>122</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x43fe" id="EH Hive Green Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>120</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x43ff" id="EH Green Stinger Small">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>114</Index>
+    </Texture>
+  </Object>
+  <Object type="0x4406" id="EH Green Stinger Large">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>115</Index>
+    </Texture>
+  </Object>
+  <Object type="0x4409" id="EH Green Glaive">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>118</Index>
+    </Texture>
+    <Rotation>100</Rotation>
+  </Object>
+  <Object type="0x440b" id="EH Queen Green Stinger Small">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>116</Index>
+    </Texture>
+  </Object>
+  <Object type="0x443b" id="EH Queen Green Stinger Large">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>117</Index>
+    </Texture>
+  </Object>
+  <Object type="0x443c" id="EH Green Ball">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>119</Index>
+    </Texture>
+    <Rotation>50</Rotation>
+  </Object>
+  <Object type="0x443d" id="EH Large Green Bee Object">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0x443e" id="EH Large Green Bee">
+    <Group>Leader Bee Hard</Group>
+    <Class>Character</Class>
+    <DisplayId>Green Soldier Bee</DisplayId>
+    <Enemy />
+    <StasisImmune />
+    <TrackLoot />
+    <AnimatedTexture>
+      <File>epicHiveChars16x16</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <MaxHitPoints>6000</MaxHitPoints>
+    <Defense>60</Defense>
+    <Exp>2500</Exp>
+    <BXP>12500</BXP>
+    <Flying />
+    <Z>0.24</Z>
+    <Projectile id="0">
+      <ObjectId>EH Green Stinger Small</ObjectId>
+      <Damage>140</Damage>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>EH Green Stinger Large</ObjectId>
+      <Damage>150</Damage>
+      <Speed>50</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>EH Green Ball</ObjectId>
+      <Damage>60</Damage>
+      <Speed>50</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>EH Green Glaive</ObjectId>
+      <Damage>100</Damage>
+      <Speed>40</Speed>
+      <Size>100</Size>
+      <ArmorPiercing />
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>EH Green Ball</ObjectId>
+      <Damage>70</Damage>
+      <Speed>30</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>EH Green Glaive</ObjectId>
+      <Damage>100</Damage>
+      <Speed>40</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="LesserGodKills" />
+    <Labels>ENEMY,BOSS_SPAWNED,BEAST,STASISIMMUNE,TRACKLOOT</Labels>
+  </Object>
+  <Object type="0x443f" id="EH Green Fat Bees">
+    <Group>Busy Bees Hard</Group>
+    <DisplayId>Green Killer Bee</DisplayId>
+    <Enemy />
+    <ParalyzeImmune />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>epicHiveChars8x8</File>
+      <Index>18</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pythons_hit</HitSound>
+    <DeathSound>monster/pythons_death</DeathSound>
+    <Size>80</Size>
+    <ShadowSize>80</ShadowSize>
+    <MaxHitPoints>600</MaxHitPoints>
+    <Defense>25</Defense>
+    <Flying />
+    <Exp>5</Exp>
+    <BXP>23</BXP>
+    <Z>0.24</Z>
+    <Projectile id="0">
+      <ObjectId>EH Green Stinger Small</ObjectId>
+      <Damage>100</Damage>
+      <Speed>50</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,BOSS_SPAWNED,CRITTER</Labels>
+  </Object>
+  <Object type="0x445f" id="EH Queen Green Hive">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>epicHiveChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <StasisImmune />
+    <DisplayId>Killer Bee Nest</DisplayId>
+    <Sound id="0">monster/wooden_walls_death</Sound>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <MaxHitPoints>400000</MaxHitPoints>
+    <Exp>300</Exp>
+    <BXP>1425</BXP>
+    <Size>100</Size>
+    <DontFaceAttacks />
+    <Projectile id="0">
+      <ObjectId>EH Hive Green Shot</ObjectId>
+      <Damage>120</Damage>
+      <Speed>45</Speed>
+      <Size>90</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="StructureKills" />
+    <KillStat stat="LesserGodKills" />
+    <Labels>ENEMY,BOSS_SPAWNED,STASISIMMUNE</Labels>
+  </Object>
+  <Object type="0x4485" id="EH QGH Corpse">
+    <Class>Character</Class>
+    <Enemy />
+    <DisplayId>Killer Bee Nest</DisplayId>
+    <AnimatedTexture>
+      <File>epicHiveChars16x16</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <NoMiniMap />
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>EH Green Ball</ObjectId>
+      <Damage>60</Damage>
+      <Speed>25</Speed>
+      <Size>80</Size>
+      <LifetimeMS>750</LifetimeMS>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Invincible />
+    <Labels>ENEMY,BOSS_SPAWNED</Labels>
+  </Object>
+  <Object type="0x4486" id="EH Green Maggots">
+    <DisplayId>Green Larva Hard</DisplayId>
+    <Group>EH Larves</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>epicHiveChars8x8</File>
+      <Index>19</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <Size>80</Size>
+    <ShadowSize>80</ShadowSize>
+    <MaxHitPoints>400</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>5</Exp>
+    <BXP>23</BXP>
+    <Projectile id="0">
+      <ObjectId>EH Green Ball</ObjectId>
+      <Damage>40</Damage>
+      <Speed>25</Speed>
+      <Size>40</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <ConditionEffect duration="1">Sick</ConditionEffect>
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,BOSS_SPAWNED,CRITTER</Labels>
+  </Object>
+  <Object type="0x4487" id="EH Green Leader Healer">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0x448e" id="EH Queen Green Bees">
+    <DisplayId>Enraged Green Killer Bee</DisplayId>
+    <Enemy />
+    <Exp>195</Exp>
+    <StunImmune />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>epicHiveChars8x8</File>
+      <Index>20</Index>
+    </AnimatedTexture>
+    <HitSound>monster/scorpions_hit</HitSound>
+    <DeathSound>monster/scorpions_death</DeathSound>
+    <Size>100</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>2500</MaxHitPoints>
+    <BXP>926</BXP>
+    <Defense>25</Defense>
+    <Flying />
+    <Z>0.24</Z>
+    <Projectile id="0">
+      <ObjectId>EH Green Stinger Small</ObjectId>
+      <Damage>125</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1750</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <StasisImmune />
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MINION,CRITTER,STASISIMMUNE,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x448f" id="EH SLBG">
+    <Group>SLB</Group>
+    <Class>Character</Class>
+    <DisplayId>Experimental Green Soldier Bee 2.0</DisplayId>
+    <Enemy />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <AnimatedTexture>
+      <File>epicHiveChars16x16</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <Size>120</Size>
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <MaxHitPoints>40000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>195</Exp>
+    <BXP>926</BXP>
+    <Flying />
+    <Z>0.24</Z>
+    <Projectile id="0">
+      <ObjectId>EH Green Stinger Small</ObjectId>
+      <Damage>125</Damage>
+      <Speed>40</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>EH Green Stinger Large</ObjectId>
+      <Damage>150</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>EH Green Glaive</ObjectId>
+      <Damage>80</Damage>
+      <Speed>30</Speed>
+      <Size>80</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <ConditionEffect duration="3">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>EH Green Ball</ObjectId>
+      <Damage>50</Damage>
+      <Speed>50</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="LesserGodKills" />
+    <Labels>ENEMY,MINION,BEAST,STASISIMMUNE,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x449a" id="EH Secret Green Fat Bees">
+    <Group>EH Secret Bees Hard</Group>
+    <DisplayId>Green Killer Bee</DisplayId>
+    <Enemy />
+    <ParalyzeImmune />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>epicHiveChars8x8</File>
+      <Index>18</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pythons_hit</HitSound>
+    <DeathSound>monster/pythons_death</DeathSound>
+    <Size>80</Size>
+    <ShadowSize>80</ShadowSize>
+    <MaxHitPoints>600</MaxHitPoints>
+    <Defense>25</Defense>
+    <Flying />
+    <Exp>5</Exp>
+    <BXP>23</BXP>
+    <Z>0.24</Z>
+    <Projectile id="0">
+      <ObjectId>EH Green Stinger Small</ObjectId>
+      <Damage>100</Damage>
+      <Speed>50</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1700</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x44db" id="EH QLB Green">
+    <Class>Character</Class>
+    <DisplayId>Adolescent Green Beehemoth</DisplayId>
+    <Enemy />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <TrackLoot />
+    <AnimatedTexture>
+      <File>epicHiveChars16x16</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Exp>195</Exp>
+    <BXP>926</BXP>
+    <Flying />
+    <Z>0.24</Z>
+    <Projectile id="0">
+      <ObjectId>EH Green Stinger Large</ObjectId>
+      <Damage>120</Damage>
+      <Speed>65</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <ConditionEffect duration="2">Weak</ConditionEffect>
+      <ConditionEffect duration="3" target="1">Sick</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>EH Green Glaive</ObjectId>
+      <Damage>60</Damage>
+      <Speed>75</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1400</LifetimeMS>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="LesserGodKills" />
+    <Labels>ENEMY,MINION,BOSS_SPAWNED,BEAST,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x44a2" id="Advanced Nest Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <DisplayId>Advanced Nest</DisplayId>
+    <DungeonName>Advanced Nest</DungeonName>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>125</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x449f" id="Nest Hard Creator">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+  </Object>
+  <Object type="0x449e" id="Advanced Nest Enable">
+    <Class>Character</Class>
+    <Texture>
+      <File>steamworksObjects16x16</File>
+      <Index>25</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x44d9" id="Advanced Nest Loot">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>251</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Exp>10</Exp>
+    <Invincible />
+    <TrackLoot />
   </Object>
 </Objects>
