@@ -201,6 +201,7 @@
     <ParalyzeImmune />
     <DazedImmune />
     <Encounter />
+    <RealmScore>1500</RealmScore>
     <PerRealmMax>1</PerRealmMax>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
@@ -1906,6 +1907,7 @@
     <DontFaceAttacks />
     <StasisImmune />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <TrackLoot />
@@ -2508,9 +2510,11 @@
   <Object type="0x0d50" id="Lord of the Lost Lands">
     <DisplayId>Lord of the Lost Lands</DisplayId>
     <Group>Knights of the Lost Lands</Group>
+    <QuestPowerLevel>580</QuestPowerLevel>
     <Enemy />
     <Class>Character</Class>
     <Hero />
+    <RealmScore>885</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
@@ -2684,6 +2688,7 @@
     <God />
     <StasisImmune />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <Encounter />
@@ -2781,13 +2786,14 @@
     <Defense>40</Defense>
     <Enemy />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
     <Encounter />
     <TrackLoot />
     <StasisImmune />
-    <Level>20</Level>
+    <QuestPowerLevel>200</QuestPowerLevel>
     <Projectile>
       <ObjectId>Purple Magic</ObjectId>
       <Speed>100</Speed>
@@ -2864,6 +2870,7 @@
     <Defense>40</Defense>
     <Enemy />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <TrackLoot />
@@ -2942,13 +2949,14 @@
     <Exp>15000</Exp>
     <BXP>75000</BXP>
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
     <Encounter />
     <TrackLoot />
     <StasisImmune />
-    <Level>20</Level>
+    <QuestPowerLevel>185</QuestPowerLevel>
     <Cube />
     <Projectile id="0">
       <ObjectId>Dark Blue Magic</ObjectId>
@@ -3065,6 +3073,7 @@
     <Exp>15000</Exp>
     <BXP>75000</BXP>
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <TrackLoot />
@@ -3279,6 +3288,7 @@
     </Texture>
     <Size>0</Size>
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <Encounter />
@@ -3363,6 +3373,7 @@
       </Frame>
     </Animation>
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <God />
     <Level>20</Level>
@@ -3388,6 +3399,7 @@
     <Enemy />
     <Class>Character</Class>
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
@@ -3627,6 +3639,7 @@
     <Exp>0</Exp>
     <God />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <TrackLoot />
     <Level>20</Level>
@@ -4069,6 +4082,7 @@
     <BXP>175000</BXP>
     <Flying />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -4465,6 +4479,22 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
+  <Object type="0xc1e7" id="Kogbold Hard Creator">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>80</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+  </Object>
   <Object type="0xc110" id="Train Invulnerability Teleporter">
     <Enemy />
     <Class>Character</Class>
@@ -4595,6 +4625,7 @@
     </AltTexture>
     <God />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <TrackLoot />
@@ -7176,5 +7207,2816 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xc101" id="Realm 1 Master">
+    <MasterObject />
+    <Class>MasterObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <Labels>REALM,MASTER</Labels>
+  </Object>
+  <Object type="0xc102" id="Realm 1 Mountains Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Color>0x7FFFFF</Color>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e7" id="Realm 1 Tundra Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Color>0x7FFFFF</Color>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e8" id="Realm 1 Deep Sea Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+    <Color>0x7FFFFF</Color>
+  </Object>
+  <Object type="0xc1e9" id="Realm 1 Sprite Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Labels>MOUNTAINS,BEACON</Labels>
+    <Color>0x7FFFFF</Color>
+  </Object>
+  <Object type="0xc1ea" id="Realm 1 Hell Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Color>0x7FFFFF</Color>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc2f7" id="Realm 1 Hallows Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Color>0x7FFFFF</Color>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc2f8" id="Realm 1 Church Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Color>0x7FFFFF</Color>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc2f9" id="Realm 1 Shipwreck Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Color>0x7FFFFF</Color>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc2fa" id="Realm 1 Floral Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Color>0x7FFFFF</Color>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc2fb" id="Realm 1 Sanguine Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Color>0x7FFFFF</Color>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e3" id="Low Beach Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Color>0x7FFFFF</Color>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e4" id="Low Forest Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Color>0x7FFFFF</Color>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e5" id="Undead Forest Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Color>0x7FFFFF</Color>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1e6" id="Plains Beacon">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Terrain>MidPlains</Terrain>
+    <Size>100</Size>
+    <Color>0x7FFFFF</Color>
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc2fc" id="Realm Encounter Location">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiEnvironment</File>
+      <Index>0x4e</Index>
+    </Texture>
+    <Static />
+    <StaticSpawn region="CoralReefs,ShipWreck,HauntedHallows,Abandoned,RisenHell,DeadChurch,SpriteForest,HighSand,HighPlains,HighForest,Mountains,DeepSea,FloralEscape,Carboniferous,SanguineForest,RunicTundra" prob="0.001" />
+  </Object>
+  <Object id="Bilgewater's Galleon" type="0x4ffb">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Bilgewater's Galleon</DisplayId>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>36</Index>
+    </AnimatedTexture>
+    <HitSound>monster/stone_walls_death</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <Size>220</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>150000</MaxHitPoints>
+    <Defense>70</Defense>
+    <Exp>50000</Exp>
+    <BXP>250</BXP>
+    <Encounter terrain="ShipWreck" />
+    <Flying />
+    <Hero />
+    <Level>20</Level>
+    <Quest />
+    <HealthBarBoss />
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <NoCollisionWhenMovement />
+    <KeepDamageRecord />
+    <AlwaysPositiveHealth />
+    <Projectile id="0">
+      <ObjectId>Cannonball</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <Size>110</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="5">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Giant Cannonball</ObjectId>
+      <Damage>140</Damage>
+      <Speed>45</Speed>
+      <Size>160</Size>
+      <LifetimeMS>6650</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Bilgewater Cannonball Skull S</ObjectId>
+      <Damage>100</Damage>
+      <Speed>80</Speed>
+      <Size>90</Size>
+      <LifetimeMS>6700</LifetimeMS>
+      <MultiHit />
+      <Acceleration>-15</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>35</SpeedClamp>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>O3 Battleaxe MRot</ObjectId>
+      <Damage>80</Damage>
+      <Speed>0</Speed>
+      <Size>200</Size>
+      <LifetimeMS>20000</LifetimeMS>
+      <MultiHit />
+      <Parametric />
+      <Magnitude>15</Magnitude>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Bilgewater Cannonball Skull Red</ObjectId>
+      <Damage>160</Damage>
+      <Speed>80</Speed>
+      <Size>170</Size>
+      <LifetimeMS>3800</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="4">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Bilgewater Cannonball Skull</ObjectId>
+      <Damage>120</Damage>
+      <Speed>80</Speed>
+      <Size>150</Size>
+      <LifetimeMS>3800</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="4">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>MV Warning Projectile</ObjectId>
+      <Damage>0</Damage>
+      <Speed>85</Speed>
+      <Size>200</Size>
+      <LifetimeMS>3600</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Effect cooldown="0.2" particle="SwirlingMist">XMLEffect</Effect>
+  </Object>
+  <Object id="Galleon Shoot Helper A" type="0x518b">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+    <ShadowSize>0</ShadowSize>
+    <Flying />
+  </Object>
+  <Object id="Galleon Shoot Helper B" type="0x51b4">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+    <ShadowSize>0</ShadowSize>
+    <Flying />
+  </Object>
+  <Object id="Galleon Parrot" type="0x420b">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/cave_pirates_hit</HitSound>
+    <DeathSound>monster/cave_pirates_death</DeathSound>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Exp>0</Exp>
+    <NoCollisionWhenMovement />
+    <Flying />
+  </Object>
+  <Object id="Galleon Cannon Target" type="0x51ba">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="Beached Cannon" type="0x421e">
+    <DisplayId>Beached Cannon</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>theGoldenArcher</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <AlwaysPositiveHealth />
+    <StunImmune />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Cannonball</ObjectId>
+      <Damage>0</Damage>
+      <Speed>0</Speed>
+      <Size>100</Size>
+      <LifetimeMS>0</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Enemy />
+    <Size>130</Size>
+  </Object>
+  <Object id="Beached Cannon Ball" type="0x4222">
+    <DisplayId>Beached Cannon Ball</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x15d</Index>
+    </Texture>
+    <NoMiniMap />
+    <Size>80</Size>
+  </Object>
+  <Object id="Beached Cannon Explosion" type="0x4223">
+    <DisplayId>Beached Cannon Explosion</DisplayId>
+    <Class>GameObject</Class>
+    <Enemy />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Invincible />
+    <Sound id="0">spell/fire_nova</Sound>
+    <Effect amount="100" color="0xFF9000" life="0.35" maxRadius="3.7" minRadius="0.5" size="100">ExplosionComplex</Effect>
+  </Object>
+  <Object id="Flying Behemoth" type="0x5108">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Flying Behemoth</DisplayId>
+    <AnimatedTexture>
+      <File>lairOfDraconisChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/dragons_hit</HitSound>
+    <DeathSound>monster/dragons_death</DeathSound>
+    <Size>200</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>120000</MaxHitPoints>
+    <Defense>60</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <Encounter terrain="Carboniferous" />
+    <Flying />
+    <Hero />
+    <Level>20</Level>
+    <Quest />
+    <HealthBarBoss />
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <DazedImmune />
+    <AlwaysPositiveHealth />
+    <KeepDamageRecord />
+    <Projectile id="0">
+      <ObjectId>Deadwater Bartholomew Feather</ObjectId>
+      <Damage>160</Damage>
+      <Speed>70</Speed>
+      <Size>130</Size>
+      <LifetimeMS>2900</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="5">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Feather</ObjectId>
+      <Damage>60</Damage>
+      <Speed>5</Speed>
+      <Size>90</Size>
+      <LifetimeMS>6500</LifetimeMS>
+      <Acceleration>-5</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ConditionEffect duration="4" target="1">Stasis</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Damage>90</Damage>
+      <Speed>25</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <CircleTurnAngle>-15</CircleTurnAngle>
+      <CircleTurnDelay>800</CircleTurnDelay>
+      <MultiHit />
+      <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Damage>90</Damage>
+      <Speed>50</Speed>
+      <Size>110</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <CircleTurnAngle>-15</CircleTurnAngle>
+      <CircleTurnDelay>800</CircleTurnDelay>
+      <MultiHit />
+      <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Damage>90</Damage>
+      <Speed>75</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <CircleTurnAngle>-15</CircleTurnAngle>
+      <CircleTurnDelay>800</CircleTurnDelay>
+      <MultiHit />
+      <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Damage>90</Damage>
+      <Speed>100</Speed>
+      <Size>130</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <CircleTurnAngle>-15</CircleTurnAngle>
+      <CircleTurnDelay>800</CircleTurnDelay>
+      <MultiHit />
+      <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Damage>90</Damage>
+      <Speed>25</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>800</CircleTurnDelay>
+      <MultiHit />
+      <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Damage>90</Damage>
+      <Speed>50</Speed>
+      <Size>110</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>800</CircleTurnDelay>
+      <MultiHit />
+      <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Damage>90</Damage>
+      <Speed>75</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>800</CircleTurnDelay>
+      <MultiHit />
+      <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>SulfW Thornier Thorn</ObjectId>
+      <Damage>90</Damage>
+      <Speed>100</Speed>
+      <Size>130</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>800</CircleTurnDelay>
+      <MultiHit />
+      <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>MV Warning Projectile</ObjectId>
+      <Damage>0</Damage>
+      <Speed>100</Speed>
+      <Size>200</Size>
+      <LifetimeMS>800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>MV Leaf Scythe</ObjectId>
+      <Damage>65</Damage>
+      <Speed>50</Speed>
+      <Size>110</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>LOD White Blast</ObjectId>
+      <Damage>160</Damage>
+      <Speed>65</Speed>
+      <Size>125</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>LOD White Shot</ObjectId>
+      <Damage>90</Damage>
+      <Speed>30</Speed>
+      <Size>110</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <ArmorPiercing />
+      <Acceleration>10</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>55</SpeedClamp>
+      <ConditionEffect duration="5">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>Corsair Crab Claw</ObjectId>
+      <Damage>120</Damage>
+      <Speed>55</Speed>
+      <Size>250</Size>
+      <LifetimeMS>4500</LifetimeMS>
+      <ArmorPiercing />
+      <Wavy />
+      <Acceleration>-35</Acceleration>
+      <AccelerationDelay>2000</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ConditionEffect duration="3">Darkness</ConditionEffect>
+    </Projectile>
+    <Projectile id="15">
+      <ObjectId>Corsair Crab Orb</ObjectId>
+      <Damage>60</Damage>
+      <Speed>55</Speed>
+      <Size>130</Size>
+      <LifetimeMS>4500</LifetimeMS>
+      <ArmorPiercing />
+      <Wavy />
+      <Acceleration>-35</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="16">
+      <ObjectId>Corsair Crab Orb</ObjectId>
+      <Damage>60</Damage>
+      <Speed>55</Speed>
+      <Size>130</Size>
+      <LifetimeMS>4500</LifetimeMS>
+      <ArmorPiercing />
+      <Wavy />
+      <Acceleration>-35</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="17">
+      <ObjectId>Corsair Crab Orb</ObjectId>
+      <Damage>60</Damage>
+      <Speed>55</Speed>
+      <Size>130</Size>
+      <LifetimeMS>4500</LifetimeMS>
+      <ArmorPiercing />
+      <Wavy />
+      <Acceleration>-35</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="18">
+      <ObjectId>Corsair Crab Orb</ObjectId>
+      <Damage>60</Damage>
+      <Speed>55</Speed>
+      <Size>130</Size>
+      <LifetimeMS>4500</LifetimeMS>
+      <ArmorPiercing />
+      <Wavy />
+      <Acceleration>-35</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+  </Object>
+  <Object id="Flying Behemoth Egg" type="0x513f">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Behemoth's Egg</DisplayId>
+    <Texture>
+      <File>lofiObjBig</File>
+      <Index>0x27</Index>
+    </Texture>
+    <HitSound>monster/stone_walls_death</HitSound>
+    <DeathSound>monster/dragons_death</DeathSound>
+    <Size>200</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>120000</MaxHitPoints>
+    <Defense>100</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <Flying />
+    <Hero />
+    <Level>20</Level>
+    <Quest />
+    <HealthBarBoss />
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <DazedImmune />
+    <AlwaysPositiveHealth />
+    <KeepDamageRecord />
+    <Projectile id="0">
+      <ObjectId>EH Red Ball</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <Size>110</Size>
+      <LifetimeMS>5700</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="5">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Flame Bolt</ObjectId>
+      <Damage>110</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <ConditionEffect duration="3" target="1">Stasis</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Cattail Fluff</ObjectId>
+      <Damage>110</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>4700</LifetimeMS>
+      <Size>130</Size>
+      <MultiHit />
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>SulfW Cattail Fluff</ObjectId>
+      <Damage>110</Damage>
+      <Speed>37</Speed>
+      <LifetimeMS>6600</LifetimeMS>
+      <Size>115</Size>
+      <MultiHit />
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>SulfW Cattail Fluff</ObjectId>
+      <Damage>110</Damage>
+      <Speed>44</Speed>
+      <LifetimeMS>4500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Flying Behemoth Tornado" type="0x4225">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Tornado</DisplayId>
+    <Texture>
+      <File>lairOfDraconisObjects16x16</File>
+      <Index>0x3e</Index>
+    </Texture>
+    <Size>140</Size>
+    <ShadowSize>100</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>LOD Black Spin</ObjectId>
+      <Damage>100</Damage>
+      <Speed>50</Speed>
+      <Size>150</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="4" target="1">Stasis</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Void Shockwave</ObjectId>
+      <Damage>60</Damage>
+      <Speed>20</Speed>
+      <Size>110</Size>
+      <LifetimeMS>4500</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Void Spear</ObjectId>
+      <Damage>120</Damage>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <AlwaysPositiveHealth />
+    <SetStyle>Tornado</SetStyle>
+    <Animation period="0.8" prob="1" id="TornadoAnimation">
+      <Frame time="0.4">
+        <Texture>
+          <File>lairOfDraconisObjects16x16</File>
+          <Index>0x3e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>lairOfDraconisObjects16x16</File>
+          <Index>0x3f</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Tornado">
+        <StyleStep id="TornadoAnimation">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Flying Behemoth Egg Helper" type="0x51b3">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+    <ShadowSize>0</ShadowSize>
+    <Flying />
+  </Object>
+  <Object id="Sentient Monolith" type="0x4227">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Sentient Monolith</DisplayId>
+    <AnimatedTexture>
+      <File>crystalCaveChars16x16</File>
+      <Index>28</Index>
+    </AnimatedTexture>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Size>180</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>175000</MaxHitPoints>
+    <Defense>100</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <Encounter terrain="RunicTundra" />
+    <Hero />
+    <Level>20</Level>
+    <Quest />
+    <HealthBarBoss />
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <DazedImmune />
+    <AlwaysPositiveHealth />
+    <KeepDamageRecord />
+    <Projectile id="0">
+      <ObjectId>Runes of Horror</ObjectId>
+      <Damage>150</Damage>
+      <Speed>0</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2600</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>InvisibleLaser</ObjectId>
+      <Laser>20</Laser>
+      <Damage>60</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>200</LifetimeMS>
+      <Size>80</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>King Defend Star Whole</ObjectId>
+      <Damage>110</Damage>
+      <Speed>35</Speed>
+      <Size>120</Size>
+      <LifetimeMS>6300</LifetimeMS>
+      <MultiHit />
+      <ProtectFromSink />
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Crystal Large Missile Red</ObjectId>
+      <Damage>130</Damage>
+      <Speed>0</Speed>
+      <Size>150</Size>
+      <LifetimeMS>8500</LifetimeMS>
+      <MultiHit />
+      <FaceDir />
+      <Amplitude>15</Amplitude>
+      <Frequency>0.5</Frequency>
+      <ConditionEffect duration="5">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>InvisibleLaser</ObjectId>
+      <Laser>20</Laser>
+      <Damage>60</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>700</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Cultist Basaran Shot</ObjectId>
+      <Damage>85</Damage>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Cultist Basaran Shot</ObjectId>
+      <Damage>85</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <Acceleration>-20</Acceleration>
+      <SpeedClamp>40</SpeedClamp>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Cultist Basaran Shot</ObjectId>
+      <Damage>85</Damage>
+      <Speed>68</Speed>
+      <Size>120</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <Acceleration>-20</Acceleration>
+      <SpeedClamp>40</SpeedClamp>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>InvisibleLaser</ObjectId>
+      <Laser>20</Laser>
+      <Damage>0</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>400</LifetimeMS>
+      <Size>50</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>O3 White Big Bolt</ObjectId>
+      <Damage>140</Damage>
+      <Speed>20</Speed>
+      <Size>140</Size>
+      <LifetimeMS>4200</LifetimeMS>
+      <MultiHit />
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>60</SpeedClamp>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>O3 White Blast</ObjectId>
+      <Damage>120</Damage>
+      <Speed>20</Speed>
+      <Size>125</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <MultiHit />
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>60</SpeedClamp>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>O3 White Bolt</ObjectId>
+      <Damage>100</Damage>
+      <Speed>20</Speed>
+      <Size>110</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <MultiHit />
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>60</SpeedClamp>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>MV Warning Projectile</ObjectId>
+      <Damage>0</Damage>
+      <Speed>0</Speed>
+      <Size>90</Size>
+      <LifetimeMS>600</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>MV Warning Projectile</ObjectId>
+      <Damage>0</Damage>
+      <Speed>0</Speed>
+      <Size>90</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>MV Warning Projectile</ObjectId>
+      <Damage>0</Damage>
+      <Speed>0</Speed>
+      <Size>220</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object id="Sentient Monolith Siphon 1" type="0x4228">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Monolith Siphon</DisplayId>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Size>150</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>17500</MaxHitPoints>
+    <Defense>60</Defense>
+    <Level>20</Level>
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <AlwaysPositiveHealth />
+    <Color>0xC224F6</Color>
+    <Projectile id="0">
+      <ObjectId>Pillar Blast</ObjectId>
+      <Damage>125</Damage>
+      <Speed>35</Speed>
+      <Size>110</Size>
+      <LifetimeMS>4000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object id="Sentient Monolith Siphon 2" type="0x4229">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Monolith Siphon</DisplayId>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Size>150</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>17500</MaxHitPoints>
+    <Defense>40</Defense>
+    <Level>20</Level>
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <AlwaysPositiveHealth />
+    <Color>0x24F667</Color>
+    <Projectile id="0">
+      <ObjectId>Pillar Blast</ObjectId>
+      <Damage>125</Damage>
+      <Speed>35</Speed>
+      <Size>110</Size>
+      <LifetimeMS>4000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object id="Sentient Monolith Siphon 3" type="0x422a">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Monolith Siphon</DisplayId>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Size>150</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>17500</MaxHitPoints>
+    <Defense>60</Defense>
+    <Level>20</Level>
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <AlwaysPositiveHealth />
+    <Color>0x24B1F6</Color>
+    <Projectile id="0">
+      <ObjectId>Pillar Blast</ObjectId>
+      <Damage>125</Damage>
+      <Speed>35</Speed>
+      <Size>110</Size>
+      <LifetimeMS>4000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object id="Sentient Monolith Siphon 4" type="0x424a">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Monolith Siphon</DisplayId>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Size>150</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>17500</MaxHitPoints>
+    <Defense>60</Defense>
+    <Level>20</Level>
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <AlwaysPositiveHealth />
+    <Color>0xF64024</Color>
+    <Projectile id="0">
+      <ObjectId>Pillar Blast</ObjectId>
+      <Damage>125</Damage>
+      <Speed>35</Speed>
+      <Size>110</Size>
+      <LifetimeMS>4000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object id="Sentient Monolith Protector" type="0x424b">
+    <DisplayId>Monolith Protector</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <MaxHitPoints>6000</MaxHitPoints>
+    <Size>85</Size>
+    <Projectile id="0">
+      <ObjectId>O3 White Wheel MRot</ObjectId>
+      <Speed>0</Speed>
+      <Damage>70</Damage>
+      <LifetimeMS>2500</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 White Wheel SRot</ObjectId>
+      <Speed>35</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>6000</LifetimeMS>
+      <Size>90</Size>
+      <MultiHit />
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <NoMiniMap />
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <ParalyzeImmune />
+    <SetStyle>Spin</SetStyle>
+    <Animation id="SpinAnimation" period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x20</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x21</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x24</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x25</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x26</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x27</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Spin">
+        <StyleStep id="SpinAnimation">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Sentient Monolith Explosion" type="0x424c">
+    <DisplayId>Sentient Monolith</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Projectile id="0">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Size>120</Size>
+      <Speed>30</Speed>
+      <Damage>140</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <Boomerang />
+    </Projectile>
+    <Invincible />
+    <NoMiniMap />
+  </Object>
+  <Object id="Monolith Shoot Helper A" type="0x424d">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+    <ShadowSize>0</ShadowSize>
+    <Flying />
+  </Object>
+  <Object id="Monolith Shoot Helper B" type="0x4258">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+    <ShadowSize>0</ShadowSize>
+    <Flying />
+  </Object>
+  <Object id="Monolith Laser Target" type="0x425a">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="Ravenous Rot" type="0x425e">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Ravenous Rot</DisplayId>
+    <Texture>
+      <File>antinomyNexusObjects64x64</File>
+      <Index>0xa</Index>
+    </Texture>
+    <HitSound>monster/eggs_hit</HitSound>
+    <DeathSound>monster/blobs_death</DeathSound>
+    <Size>85</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>180000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <Encounter terrain="SanguineForest" />
+    <Hero />
+    <Level>20</Level>
+    <Quest />
+    <HealthBarBoss />
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <DazedImmune />
+    <AlwaysPositiveHealth />
+    <KeepDamageRecord />
+    <Projectile id="0">
+      <ObjectId>pD Maw Shot 3</ObjectId>
+      <Damage>45</Damage>
+      <Speed>25</Speed>
+      <Size>120</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="2.5">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>pD Maw Shot 3</ObjectId>
+      <Damage>55</Damage>
+      <Speed>30</Speed>
+      <Size>130</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="2.5">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>pD Maw Shot 3</ObjectId>
+      <Damage>65</Damage>
+      <Speed>35</Speed>
+      <Size>140</Size>
+      <LifetimeMS>4300</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="2.5">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>KSW Large Red Wave</ObjectId>
+      <Size>180</Size>
+      <Speed>10</Speed>
+      <Damage>140</Damage>
+      <LifetimeMS>8000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>20</SpeedClamp>
+      <MultiHit />
+      <ConditionEffect duration="2">Curse</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>SulfW Thorn Ring</ObjectId>
+      <Size>90</Size>
+      <Speed>25</Speed>
+      <Damage>80</Damage>
+      <LifetimeMS>6000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="4">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>pD Maw Shot 3</ObjectId>
+      <Damage>80</Damage>
+      <Speed>35</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <Wavy />
+      <ConditionEffect duration="2.5">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>pD Maw Shot 3</ObjectId>
+      <Damage>60</Damage>
+      <Speed>30</Speed>
+      <Size>140</Size>
+      <LifetimeMS>6666</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <Boomerang />
+      <FaceDir />
+      <ConditionEffect duration="3.5">Sick</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Ravenous Rot Cyst" type="0x425f">
+    <DisplayId>Explosive Cyst</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>parasiteDenObjects8x8</File>
+        <Index>0x90</Index>
+      </Texture>
+    </AltTexture>
+    <MinSize>100</MinSize>
+    <MaxSize>140</MaxSize>
+    <Projectile id="0">
+      <ObjectId>KSW Large Red Wave</ObjectId>
+      <Size>115</Size>
+      <Speed>15</Speed>
+      <Damage>80</Damage>
+      <LifetimeMS>10000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>25</SpeedClamp>
+      <MultiHit />
+      <ConditionEffect duration="4">Bleeding</ConditionEffect>
+    </Projectile>
+    <Invincible />
+    <NoMiniMap />
+    <Presentation>
+      <Style id="Active">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Ravenous Rot Path" type="0x4260">
+    <DisplayId>Ravenous Rot</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>antinomyNexusObjects16x16</File>
+      <Index>0xc7</Index>
+    </Texture>
+    <Size>140</Size>
+    <Projectile id="0">
+      <ObjectId>Shade Bolt Red</ObjectId>
+      <Size>110</Size>
+      <Speed>30</Speed>
+      <Damage>60</Damage>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="5">Curse</ConditionEffect>
+    </Projectile>
+    <Invincible />
+    <NoMiniMap />
+  </Object>
+  <Object id="Ravenous Rot Overgrowth" type="0x4261">
+    <DisplayId>Ravenous Rot</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>antinomyNexusObjects16x16</File>
+      <Index>0xc7</Index>
+    </Texture>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <Size>80</Size>
+    <Projectile id="0">
+      <ObjectId>SulfW Cattail Fluff</ObjectId>
+      <Size>110</Size>
+      <Speed>25</Speed>
+      <Damage>30</Damage>
+      <LifetimeMS>6500</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="3">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>pD Boss Shot</ObjectId>
+      <Size>100</Size>
+      <Speed>20</Speed>
+      <Damage>0</Damage>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="4">Sick</ConditionEffect>
+      <ConditionEffect duration="4">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>pD Wall Shot</ObjectId>
+      <Size>90</Size>
+      <Speed>15</Speed>
+      <Damage>60</Damage>
+      <LifetimeMS>5500</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+    </Projectile>
+    <StasisImmune />
+  </Object>
+  <Object id="Ravenous Rot Target" type="0x4262">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="Insurgent Rebel Commander" type="0x4263">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>interregnumChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Quest />
+    <Level>20</Level>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <StunImmune />
+    <Projectile id="0">
+      <ObjectId>Bilgewater Cannonball Spike</ObjectId>
+      <Damage>70</Damage>
+      <Speed>0</Speed>
+      <Size>120</Size>
+      <LifetimeMS>6500</LifetimeMS>
+      <Parametric />
+      <Magnitude>5.5</Magnitude>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Deadwater White Banana</ObjectId>
+      <Damage>50</Damage>
+      <Speed>55</Speed>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>steamworks Fire Shield</ObjectId>
+      <Damage>100</Damage>
+      <Speed>70</Speed>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Insurgent Rebel Mechanic" type="0x4264">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>856</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <Projectile id="0">
+      <ObjectId>steamworks Spinning Wrench</ObjectId>
+      <Damage>80</Damage>
+      <Speed>0</Speed>
+      <Size>85</Size>
+      <LifetimeMS>1500</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>steamworks Spinning Wrench</ObjectId>
+      <Damage>120</Damage>
+      <Speed>20</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>-8</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+  </Object>
+  <Object id="Insurgent Rebel Sniper" type="0x4265">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>859</Index>
+    </AnimatedTexture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/elves_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>7500</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <Projectile id="0">
+      <ObjectId>Green Arrow</ObjectId>
+      <Damage>60</Damage>
+      <Speed>100</Speed>
+      <Size>90</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Purple Arrow</ObjectId>
+      <Damage>90</Damage>
+      <Speed>60</Speed>
+      <Size>90</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="1">Slowed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Insurgent Rebel Brawler" type="0x4266">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>857</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/cyclops_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>14000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <Projectile id="0">
+      <ObjectId>Skeleton Attack</ObjectId>
+      <Damage>50</Damage>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <LifetimeMS>450</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="Alluring Blossom" type="0x4267">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>218</Index>
+    </AnimatedTexture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/elves_death</DeathSound>
+    <Size>165</Size>
+    <MaxHitPoints>50000</MaxHitPoints>
+    <Defense>60</Defense>
+    <Quest />
+    <Level>20</Level>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <StunImmune />
+    <DazedImmune />
+    <LeachHealth />
+    <Projectile id="0">
+      <ObjectId>MV Autumn Leaves</ObjectId>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <Size>110</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="5">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Petal Spike</ObjectId>
+      <Damage>160</Damage>
+      <Speed>30</Speed>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>60</SpeedClamp>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Red Star New</ObjectId>
+      <Damage>110</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Red Star New</ObjectId>
+      <Damage>70</Damage>
+      <Speed>50</Speed>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>-20</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <ConditionEffect duration="5">Armor Broken</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>MV Flower Bolt</ObjectId>
+      <Damage>80</Damage>
+      <Speed>30</Speed>
+      <Size>90</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <TurnRate>80</TurnRate>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>MV Flower Bolt</ObjectId>
+      <Damage>80</Damage>
+      <Speed>40</Speed>
+      <Size>105</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <TurnRate>80</TurnRate>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>MV Flower Bolt</ObjectId>
+      <Damage>80</Damage>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <TurnRate>80</TurnRate>
+    </Projectile>
+  </Object>
+  <Object id="Alluring Blossom Minion Pink" type="0x4268">
+    <DisplayId>Pink Bloom</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Group>Alluring Blossom Minions</Group>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x5d5</Index>
+    </Texture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/elves_death</DeathSound>
+    <Size>150</Size>
+    <MaxHitPoints>7000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <SlowImmune />
+    <LeachHealth />
+    <AlwaysPositiveHealth />
+    <Projectile id="0">
+      <ObjectId>Pink Star</ObjectId>
+      <Damage>100</Damage>
+      <Speed>0</Speed>
+      <Size>90</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <ArmorPiercing />
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Petal Bolt</ObjectId>
+      <Damage>80</Damage>
+      <Speed>40</Speed>
+      <Size>90</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="4">Curse</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>MV Petal Bolt</ObjectId>
+      <Damage>80</Damage>
+      <Speed>30</Speed>
+      <Size>90</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="4">Curse</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Alluring Blossom Minion Purple" type="0x4269">
+    <DisplayId>Purple Bloom</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Group>Alluring Blossom Minions</Group>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x5e5</Index>
+    </Texture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/elves_death</DeathSound>
+    <Size>150</Size>
+    <MaxHitPoints>7000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <SlowImmune />
+    <LeachHealth />
+    <AlwaysPositiveHealth />
+    <Projectile id="0">
+      <ObjectId>Pink Star</ObjectId>
+      <Damage>100</Damage>
+      <Speed>0</Speed>
+      <Size>90</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <ArmorPiercing />
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Petal Bolt</ObjectId>
+      <Damage>80</Damage>
+      <Speed>40</Speed>
+      <Size>90</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="4">Curse</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>MV Petal Bolt</ObjectId>
+      <Damage>80</Damage>
+      <Speed>30</Speed>
+      <Size>90</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="4">Curse</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Alluring Blossom Minion Blue" type="0x426a">
+    <DisplayId>Blue Bloom</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Group>Alluring Blossom Minions</Group>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x5db</Index>
+    </Texture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/elves_death</DeathSound>
+    <Size>150</Size>
+    <MaxHitPoints>7000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <SlowImmune />
+    <LeachHealth />
+    <AlwaysPositiveHealth />
+    <Projectile id="0">
+      <ObjectId>Pink Star</ObjectId>
+      <Damage>100</Damage>
+      <Speed>0</Speed>
+      <Size>90</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <ArmorPiercing />
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Petal Bolt</ObjectId>
+      <Damage>80</Damage>
+      <Speed>40</Speed>
+      <Size>90</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="4">Curse</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>MV Petal Bolt</ObjectId>
+      <Damage>80</Damage>
+      <Speed>30</Speed>
+      <Size>90</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="4">Curse</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Alluring Blossom Minion Red" type="0x5dcb">
+    <DisplayId>Red Bloom</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Group>Alluring Blossom Minions</Group>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x5e5</Index>
+    </Texture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/elves_death</DeathSound>
+    <Size>150</Size>
+    <MaxHitPoints>7000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <SlowImmune />
+    <LeachHealth />
+    <AlwaysPositiveHealth />
+    <Projectile id="0">
+      <ObjectId>Pink Star</ObjectId>
+      <Damage>100</Damage>
+      <Speed>0</Speed>
+      <Size>90</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <ArmorPiercing />
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MV Petal Bolt</ObjectId>
+      <Damage>80</Damage>
+      <Speed>40</Speed>
+      <Size>90</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="4">Curse</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>MV Petal Bolt</ObjectId>
+      <Damage>80</Damage>
+      <Speed>30</Speed>
+      <Size>90</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="4">Curse</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Graverobber Digger" type="0x426b">
+    <DisplayId>Grave Digger</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Group>Graverobber Guild</Group>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>70</Index>
+    </AnimatedTexture>
+    <HitSound>monster/undead_dwarves_hit</HitSound>
+    <DeathSound>monster/undead_dwarves_death</DeathSound>
+    <Size>130</Size>
+    <MaxHitPoints>11000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>O3 Halberd SRot</ObjectId>
+      <Damage>70</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ArmorPiercing />
+      <PassesCover />
+      <Boomerang />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>UDL Bone</ObjectId>
+      <Damage>60</Damage>
+      <Speed>90</Speed>
+      <Size>90</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <ArmorPiercing />
+      <PassesCover />
+      <ConditionEffect duration="3">Curse</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Graverobber Lantern Holder" type="0x426c">
+    <DisplayId>Lantern Holder</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Group>Graverobber Guild</Group>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>85</Index>
+    </AnimatedTexture>
+    <HitSound>monster/undead_dwarves_hit</HitSound>
+    <DeathSound>monster/undead_dwarves_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>8500</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Fire Morning Star</ObjectId>
+      <Damage>60</Damage>
+      <Speed>45</Speed>
+      <Size>90</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ArmorPiercing />
+      <Amplitude>1</Amplitude>
+      <Frequency>5</Frequency>
+      <PassesCover />
+      <ConditionEffect duration="5">Exposed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Graverobber Lookout" type="0x426d">
+    <DisplayId>Graverobber Lookout</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Group>Graverobber Guild</Group>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>86</Index>
+    </AnimatedTexture>
+    <HitSound>monster/undead_dwarves_hit</HitSound>
+    <DeathSound>monster/undead_dwarves_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Skull Wave</ObjectId>
+      <Damage>80</Damage>
+      <Speed>60</Speed>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Acceleration>-25</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Skull Wave</ObjectId>
+      <Damage>70</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Acceleration>-25</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Graverobber Anchor" type="0x426e">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="Legion General" type="0x5dc5">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Legion General</DisplayId>
+    <AnimatedTexture>
+      <File>oryxSanctuaryChars16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>130</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>120000</MaxHitPoints>
+    <Defense>50</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <Encounter terrain="Abandoned" />
+    <Hero />
+    <Level>20</Level>
+    <Quest />
+    <HealthBarBoss />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <AlwaysPositiveHealth />
+    <KeepDamageRecord />
+    <Projectile id="0">
+      <ObjectId>O3 Exalted Big Bolt</ObjectId>
+      <Damage>180</Damage>
+      <Speed>20</Speed>
+      <Size>140</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 White Big Spinner MRot</ObjectId>
+      <Damage>120</Damage>
+      <Speed>40</Speed>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="4">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>O3 Exalted Big Wave</ObjectId>
+      <Damage>100</Damage>
+      <Speed>35</Speed>
+      <Size>130</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>O3 White Big Bash</ObjectId>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="4">Weak</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>O3 Red Big Spike</ObjectId>
+      <Damage>80</Damage>
+      <Speed>50</Speed>
+      <Size>140</Size>
+      <LifetimeMS>3200</LifetimeMS>
+      <FaceDir />
+      <Boomerang />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>O3 Red Big Spike</ObjectId>
+      <Damage>80</Damage>
+      <Speed>40</Speed>
+      <Size>140</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <FaceDir />
+      <Boomerang />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>O3 Red Big Spike</ObjectId>
+      <Damage>80</Damage>
+      <Speed>30</Speed>
+      <Size>140</Size>
+      <LifetimeMS>5300</LifetimeMS>
+      <FaceDir />
+      <Boomerang />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>O3 Red Big Spike</ObjectId>
+      <Damage>80</Damage>
+      <Speed>20</Speed>
+      <Size>140</Size>
+      <LifetimeMS>8000</LifetimeMS>
+      <FaceDir />
+      <Boomerang />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>LOD White Shot</ObjectId>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1600</LifetimeMS>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Ogmur Shield</ObjectId>
+      <Damage>150</Damage>
+      <Speed>45</Speed>
+      <Size>150</Size>
+      <LifetimeMS>700</LifetimeMS>
+      <ConditionEffect duration="4">Stunned</ConditionEffect>
+      <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>O3 White Stab</ObjectId>
+      <Damage>150</Damage>
+      <Speed>55</Speed>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="4">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>O3 Exalted Wheel MRot</ObjectId>
+      <Damage>160</Damage>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="4">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Mike's Gilded Arrow</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Gilded Arrow</ObjectId>
+      <Damage>50</Damage>
+      <Speed>40</Speed>
+      <Size>110</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>O3 White Glaive</ObjectId>
+      <Damage>140</Damage>
+      <Speed>40</Speed>
+      <Size>110</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>-20</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="15">
+      <ObjectId>O3 White Big Bolt</ObjectId>
+      <Damage>100</Damage>
+      <Speed>70</Speed>
+      <Size>160</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="16">
+      <ObjectId>O3 Exalted Bolt</ObjectId>
+      <Damage>130</Damage>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="17">
+      <ObjectId>O3 White Missile</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <Size>130</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="4">Armor Broken</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="18">
+      <ObjectId>O3 Black Bolt</ObjectId>
+      <Damage>100</Damage>
+      <Speed>45</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="19">
+      <ObjectId>O3 Black Bolt</ObjectId>
+      <Damage>100</Damage>
+      <Speed>55</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="20">
+      <ObjectId>O3 Black Bolt</ObjectId>
+      <Damage>100</Damage>
+      <Speed>65</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="21">
+      <ObjectId>O3 White Glaive</ObjectId>
+      <Damage>140</Damage>
+      <Speed>40</Speed>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>-40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="22">
+      <ObjectId>O3 Exalted Wheel FRot</ObjectId>
+      <Damage>150</Damage>
+      <Speed>0</Speed>
+      <Size>120</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Legion Footsoldier" type="0x5dc6">
+    <DisplayId>Legion Footsoldier</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>oryxSanctuaryChars16x16</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+      &gt;
+      <Size>120</Size><MaxHitPoints>7000</MaxHitPoints><Defense>40</Defense><Exp>0</Exp><BXP>0</BXP><StasisImmune /><ParalyzeImmune /><SlowImmune /><Color>0xCFB53B</Color><Projectile id="0"><ObjectId>O3 Claymore</ObjectId><Damage>110</Damage><Speed>50</Speed><Size>110</Size><LifetimeMS>2000</LifetimeMS><MultiHit /><ConditionEffect duration="3">Exposed</ConditionEffect></Projectile><Projectile id="1"><ObjectId>O3 Red Big Wave</ObjectId><Damage>110</Damage><Speed>30</Speed><Size>120</Size><LifetimeMS>1500</LifetimeMS><MultiHit /><ConditionEffect duration="2">Stunned</ConditionEffect><ConditionEffect duration="2">Slowed</ConditionEffect></Projectile><Projectile id="2"><ObjectId>O3 White Slash</ObjectId><Damage>90</Damage><Speed>60</Speed><Size>110</Size><LifetimeMS>1500</LifetimeMS><ConditionEffect duration="3">Armor Broken</ConditionEffect></Projectile><Projectile id="3"><ObjectId>O3 Blue Spear</ObjectId><Damage>120</Damage><Speed>60</Speed><Size>100</Size><LifetimeMS>2000</LifetimeMS><ConditionEffect duration="2">Slowed</ConditionEffect></Projectile></Object>
+  <Object id="Legion Major" type="0x5dc7">
+    <DisplayId>Legion Major</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>oryxSanctuaryChars16x16</File>
+      <Index>17</Index>
+    </AnimatedTexture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+      &gt;
+      <Size>130</Size><MaxHitPoints>15000</MaxHitPoints><Defense>50</Defense><Exp>0</Exp><BXP>0</BXP><StasisImmune /><ParalyzeImmune /><SlowImmune /><StunImmune /><Color>0xFE4B03</Color><Projectile id="0"><ObjectId>O3 White Bolt</ObjectId><Damage>120</Damage><Speed>45</Speed><Size>100</Size><LifetimeMS>2000</LifetimeMS><MultiHit /><ConditionEffect duration="3">Exposed</ConditionEffect></Projectile><Projectile id="1"><ObjectId>O3 White Big Star SRot</ObjectId><Damage>150</Damage><Speed>45</Speed><Size>130</Size><LifetimeMS>2500</LifetimeMS><ConditionEffect duration="1">Paralyzed</ConditionEffect></Projectile><Projectile id="2"><ObjectId>O3 Red Big Missile</ObjectId><Damage>110</Damage><Speed>30</Speed><Size>120</Size><LifetimeMS>6000</LifetimeMS><ArmorPiercing /><MultiHit /></Projectile><Projectile id="3"><ObjectId>Gilded Arrow</ObjectId><Damage>90</Damage><Speed>60</Speed><Size>110</Size><LifetimeMS>2000</LifetimeMS><ArmorPiercing /><MultiHit /><ConditionEffect duration="3">Exposed</ConditionEffect></Projectile></Object>
+  <Object id="Legion Spear" type="0x5dba">
+    <DisplayId>Spear Rain</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>theShattersObjects16x16</File>
+      <Index>0x00</Index>
+    </Texture>
+    <Size>110</Size>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>O3 Red Spinner NRot</ObjectId>
+      <Damage>50</Damage>
+      <Speed>10</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <Boomerang />
+    </Projectile>
+  </Object>
+  <Object id="Legion Spear Telegraph" type="0x5dbf">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0x00</Index>
+    </Texture>
+    <NoMiniMap />
+    <Size>-1</Size>
+  </Object>
+  <Object id="Legion Centre Anchor" type="0x5dca">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0x00</Index>
+    </Texture>
+    <NoMiniMap />
+    <Size>-1</Size>
+  </Object>
+  <Object id="Mutant Overgrowth" type="0x5dc8">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Mutant Overgrowth</DisplayId>
+    <AnimatedTexture>
+      <File>highTechTerrorChars16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>180</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>165000</MaxHitPoints>
+    <Defense>60</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <Encounter terrain="FloralEscape" />
+    <Hero />
+    <Level>20</Level>
+    <Quest />
+    <HealthBarBoss />
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <DazedImmune />
+    <AlwaysPositiveHealth />
+    <KeepDamageRecord />
+    <Projectile id="0">
+      <ObjectId>MV Petal Spike</ObjectId>
+      <Damage>120</Damage>
+      <Speed>45</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3800</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Goo Wheel</ObjectId>
+      <Damage>140</Damage>
+      <Speed>50</Speed>
+      <Size>100</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <MultiHit />
+      <Wavy />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Psychic Shot</ObjectId>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <Size>110</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="3">Curse</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Goo Wave</ObjectId>
+      <Damage>100</Damage>
+      <Speed>65</Speed>
+      <Size>120</Size>
+      <LifetimeMS>2300</LifetimeMS>
+      <ArmorPiercing />
+      <ConditionEffect duration="1">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Psychic Wheel</ObjectId>
+      <Damage>80</Damage>
+      <Speed>50</Speed>
+      <Size>105</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="3">Curse</ConditionEffect>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object id="Mutant Overgrowth Tendril" type="0x5dc9">
+    <DisplayId>Mutant Tendril</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>highTechTerrorObjects16x16</File>
+      <Index>0x22</Index>
+    </Texture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>1</Size>
+    <MaxHitPoints>7500</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <AlwaysPositiveHealth />
+    <Projectile id="0">
+      <ObjectId>Energy Spinner</ObjectId>
+      <Damage>60</Damage>
+      <Speed>0</Speed>
+      <Size>90</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ArmorPiercing />
+      <ConditionEffect duration="1">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Energy Charge</ObjectId>
+      <Damage>100</Damage>
+      <Speed>45</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Acceleration>-35</Acceleration>
+      <AccelerationDelay>50</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ConditionEffect duration="4">Curse</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Energy Splat</ObjectId>
+      <Damage>150</Damage>
+      <Speed>40</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1250</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Energy Splat</ObjectId>
+      <Damage>150</Damage>
+      <Speed>40</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2250</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Energy Splat</ObjectId>
+      <Damage>150</Damage>
+      <Speed>40</Speed>
+      <Size>100</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Energy Splat</ObjectId>
+      <Damage>150</Damage>
+      <Speed>40</Speed>
+      <Size>100</Size>
+      <LifetimeMS>500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Crystal Ball Green</ObjectId>
+      <Damage>50</Damage>
+      <Speed>30</Speed>
+      <Size>115</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <Boomerang />
+    </Projectile>
+  </Object>
+  <Object id="Alpha Werewolf" type="0x5dcc">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>playerskins16</File>
+      <Index>64</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/cyclops_death</DeathSound>
+    <Size>130</Size>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <Defense>50</Defense>
+    <Quest />
+    <Level>20</Level>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <Projectile id="0">
+      <ObjectId>White Cross Slash</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <Size>85</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <PassesCover />
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Basilisk Claw</ObjectId>
+      <Damage>60</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Black Thorn</ObjectId>
+      <Damage>70</Damage>
+      <Speed>80</Speed>
+      <Size>130</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <FaceDir />
+      <Amplitude>1.1</Amplitude>
+      <Frequency>0.5</Frequency>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>SulfW Black Thorn</ObjectId>
+      <Damage>70</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <FaceDir />
+      <Amplitude>0.9</Amplitude>
+      <Frequency>0.5</Frequency>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>SulfW Black Thorn</ObjectId>
+      <Damage>70</Damage>
+      <Speed>40</Speed>
+      <Size>110</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <FaceDir />
+      <Amplitude>0.7</Amplitude>
+      <Frequency>0.5</Frequency>
+    </Projectile>
+  </Object>
+  <Object id="Beta Werewolf" type="0x5dcd">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>79</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/cyclops_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>8000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Deadwater White Zap</ObjectId>
+      <Damage>70</Damage>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Gamma Werewolf" type="0x5dce">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rPets1</File>
+      <Index>63</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/cyclops_death</DeathSound>
+    <Size>90</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <Projectile id="0">
+      <ObjectId>Great Basilisk Wave</ObjectId>
+      <Damage>40</Damage>
+      <Speed>65</Speed>
+      <Size>90</Size>
+      <LifetimeMS>800</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="Shady Sect Leader" type="0x5dcf">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>lostHallsChars16x16</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <HitSound>monster/lizard_god_hit</HitSound>
+    <DeathSound>monster/lizard_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>18000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Quest />
+    <Level>20</Level>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Damage>80</Damage>
+      <Speed>35</Speed>
+      <Size>115</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Storm Swirl</ObjectId>
+      <Damage>50</Damage>
+      <Speed>50</Speed>
+      <Size>110</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="1">Curse</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Shady Sect Follower" type="0x5dd6">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>lostHallsChars8x8</File>
+      <Index>18</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16rEncounters</File>
+        <Index>75</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/mummies_hit</HitSound>
+    <DeathSound>monster/mummies_death</DeathSound>
+    <Size>90</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <Projectile id="0">
+      <ObjectId>Harp Notes Small</ObjectId>
+      <Damage>70</Damage>
+      <Speed>50</Speed>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Acceleration>-25</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Damage>90</Damage>
+      <Speed>60</Speed>
+      <Size>85</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object id="Shady Sect Spirit" type="0x5216">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>75</Index>
+    </AnimatedTexture>
+    <Size>85</Size>
+    <Projectile id="0">
+      <ObjectId>Ghost X</ObjectId>
+      <Damage>50</Damage>
+      <Speed>0</Speed>
+      <Size>90</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <Invincible />
+  </Object>
+  <Object id="Illegal Animal Merchant" type="0x5dd7">
+    <DisplayId>Animal Merchant</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars16x16</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/lizard_god_hit</HitSound>
+    <DeathSound>monster/lizard_god_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Quest />
+    <Level>20</Level>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <AlwaysPositiveHealth />
+    <Projectile id="0">
+      <ObjectId>Interregnum Flail 1</ObjectId>
+      <Damage>60</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1340</LifetimeMS>
+      <Boomerang />
+      <MultiHit />
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Interregnum Flail 2</ObjectId>
+      <Damage>60</Damage>
+      <Speed>45</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1340</LifetimeMS>
+      <Boomerang />
+      <MultiHit />
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Interregnum Flail 2</ObjectId>
+      <Damage>60</Damage>
+      <Speed>30</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1340</LifetimeMS>
+      <Boomerang />
+      <MultiHit />
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Interregnum Flail 2</ObjectId>
+      <Damage>60</Damage>
+      <Speed>15</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1340</LifetimeMS>
+      <Boomerang />
+      <MultiHit />
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Illegal Animal Cage" type="0x5dd2">
+    <Class>Character</Class>
+    <Texture>
+      <File>deadwaterDocksObjects16x16</File>
+      <Index>0x1f</Index>
+    </Texture>
+    <Size>80</Size>
+  </Object>
+  <Object id="Illegal Animal Parrot" type="0x5dd3">
+    <DisplayId>Captured Parrot</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars8x8</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cave_pirates_hit</HitSound>
+    <DeathSound>monster/cave_pirates_death</DeathSound>
+    <Size>90</Size>
+    <MaxHitPoints>800</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <Projectile id="0">
+      <ObjectId>Deadwater Parrot Feather</ObjectId>
+      <Damage>40</Damage>
+      <Speed>35</Speed>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="Illegal Animal Monkey" type="0x5dd4">
+    <DisplayId>Captured Monkey</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadwaterDocksChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/lizard_god_hit</HitSound>
+    <DeathSound>monster/ogres_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>8000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Deadwater Banana</ObjectId>
+      <Damage>90</Damage>
+      <Speed>60</Speed>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Illegal Animal Tiger" type="0x5dd5">
+    <DisplayId>Captured Tiger</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>00</Index>
+    </AnimatedTexture>
+    <HitSound>monster/dragons_hit</HitSound>
+    <DeathSound>monster/dragons_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>12000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>HellHoundAttack</ObjectId>
+      <Damage>100</Damage>
+      <Speed>100</Speed>
+      <Size>90</Size>
+      <LifetimeMS>840</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Basilisk Claw</ObjectId>
+      <Damage>60</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Great Basilisk Wave</ObjectId>
+      <Damage>80</Damage>
+      <Speed>80</Speed>
+      <Size>110</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Illegal Animal Anchor" type="0x5dd8">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <ShadowSize>0</ShadowSize>
   </Object>
 </Objects>

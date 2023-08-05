@@ -25,6 +25,7 @@
     </Spawn>
     <Flying />
     <God />
+    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>White Demon Spiral</ObjectId>
       <Damage>45</Damage>
@@ -63,6 +64,7 @@
     <SpawnProb>1.0</SpawnProb>
     <Flying />
     <God />
+    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>Sprite God Bolt</ObjectId>
       <Damage>100</Damage>
@@ -154,47 +156,6 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x654" id="Medusa">
-    <Group>Gods</Group>
-    <Enemy />
-    <Exp>195</Exp>
-    <Class>Character</Class>
-    <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>2</Index>
-    </AnimatedTexture>
-    <HitSound>monster/medusa_hit</HitSound>
-    <DeathSound>monster/medusa_death</DeathSound>
-    <Size>100</Size>
-    <MaxHitPoints>2000</MaxHitPoints>
-    <BXP>694</BXP>
-    <Defense>18</Defense>
-    <Terrain>Mountains</Terrain>
-    <SpawnProb>1.0</SpawnProb>
-    <Spawn>
-      <Mean>3</Mean>
-      <StdDev>1</StdDev>
-      <Min>2</Min>
-      <Max>5</Max>
-    </Spawn>
-    <God />
-    <Projectile id="0">
-      <ObjectId>Medusa Slash</ObjectId>
-      <Damage>100</Damage>
-      <Speed>70</Speed>
-      <LifetimeMS>2000</LifetimeMS>
-    </Projectile>
-    <KillStat stat="BeastKills" />
-    <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
-    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
-    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
-    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
-    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
-    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
-    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
-    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
-  </Object>
   <Object type="0x655" id="Ent God">
     <Group>Gods</Group>
     <Enemy />
@@ -219,6 +180,7 @@
       <Max>5</Max>
     </Spawn>
     <God />
+    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>Ent God Bolt</ObjectId>
       <Damage>70</Damage>
@@ -229,140 +191,6 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_WEAK</Labels>
-    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
-    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
-    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
-    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
-    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
-    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
-    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
-  </Object>
-  <Object type="0x656" id="Beholder">
-    <Group>Gods</Group>
-    <Enemy />
-    <Exp>150</Exp>
-    <Class>Character</Class>
-    <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>5</Index>
-    </AnimatedTexture>
-    <HitSound>monster/beholder_hit</HitSound>
-    <DeathSound>monster/beholder_death</DeathSound>
-    <Size>100</Size>
-    <MaxHitPoints>1500</MaxHitPoints>
-    <BXP>534</BXP>
-    <Defense>12</Defense>
-    <Terrain>Mountains</Terrain>
-    <SpawnProb>1.0</SpawnProb>
-    <Spawn>
-      <Mean>3</Mean>
-      <StdDev>1</StdDev>
-      <Min>2</Min>
-      <Max>7</Max>
-    </Spawn>
-    <Flying />
-    <God />
-    <Projectile id="0">
-      <ObjectId>Beholder Gaze</ObjectId>
-      <Damage>120</Damage>
-      <Speed>50</Speed>
-      <LifetimeMS>2700</LifetimeMS>
-      <Size>120</Size>
-    </Projectile>
-    <Projectile id="1">
-      <ObjectId>Sharp Pink Star</ObjectId>
-      <Damage>0</Damage>
-      <Speed>70</Speed>
-      <LifetimeMS>3000</LifetimeMS>
-      <ConditionEffect duration="5">Blind</ConditionEffect>
-    </Projectile>
-    <KillStat stat="GrotesqueKills" />
-    <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_MID</Labels>
-    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
-    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
-    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
-    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
-    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
-    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
-    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
-  </Object>
-  <Object type="0x657" id="Flying Brain">
-    <Group>Gods</Group>
-    <Enemy />
-    <Exp>100</Exp>
-    <Class>Character</Class>
-    <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>6</Index>
-    </AnimatedTexture>
-    <HitSound>monster/flying_brain_hit</HitSound>
-    <DeathSound>monster/flying_brain_death</DeathSound>
-    <Size>100</Size>
-    <MaxHitPoints>1000</MaxHitPoints>
-    <BXP>356</BXP>
-    <Defense>12</Defense>
-    <Terrain>Mountains</Terrain>
-    <SpawnProb>1.0</SpawnProb>
-    <Spawn>
-      <Mean>3</Mean>
-      <StdDev>1</StdDev>
-      <Min>2</Min>
-      <Max>5</Max>
-    </Spawn>
-    <Flying />
-    <God />
-    <Projectile id="0">
-      <ObjectId>Flying Brain Cortex</ObjectId>
-      <Damage>50</Damage>
-      <Speed>120</Speed>
-      <LifetimeMS>1800</LifetimeMS>
-    </Projectile>
-    <KillStat stat="GrotesqueKills" />
-    <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_WEAK</Labels>
-    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
-    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
-    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
-    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
-    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
-    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
-    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
-  </Object>
-  <Object type="0x658" id="Slime God">
-    <Group>Gods</Group>
-    <Enemy />
-    <Exp>100</Exp>
-    <Class>Character</Class>
-    <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>7</Index>
-    </AnimatedTexture>
-    <HitSound>monster/slimes_hit</HitSound>
-    <DeathSound>monster/slimes_death</DeathSound>
-    <Size>100</Size>
-    <MaxHitPoints>1000</MaxHitPoints>
-    <BXP>356</BXP>
-    <Defense>12</Defense>
-    <Terrain>Mountains</Terrain>
-    <SpawnProb>1.0</SpawnProb>
-    <God />
-    <Projectile id="0">
-      <ObjectId>Slime God Sludge</ObjectId>
-      <Damage>80</Damage>
-      <Speed>100</Speed>
-      <LifetimeMS>1100</LifetimeMS>
-    </Projectile>
-    <Projectile id="1">
-      <ObjectId>Sharp Green Star</ObjectId>
-      <Damage>0</Damage>
-      <Speed>70</Speed>
-      <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="3">Slowed</ConditionEffect>
-    </Projectile>
-    <KillStat stat="GrotesqueKills" />
-    <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -396,6 +224,7 @@
     </Spawn>
     <Flying />
     <God />
+    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>Ghost God Spike</ObjectId>
       <Damage>120</Damage>
@@ -438,6 +267,7 @@
     </Spawn>
     <Flying />
     <God />
+    <RealmScore>10</RealmScore>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Djinn Orb</ObjectId>
@@ -477,6 +307,7 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.55</SpawnProb>
     <God />
+    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>Leviathan Spray</ObjectId>
       <Damage>70</Damage>
@@ -518,6 +349,7 @@
     <BXP>534</BXP>
     <Terrain>Mountains</Terrain>
     <God />
+    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>Construct Rock Ball</ObjectId>
       <Speed>70</Speed>
@@ -1086,6 +918,7 @@
     <SpawnProb>0.01</SpawnProb>
     <Flying />
     <God />
+    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky White Demon Spiral</ObjectId>
       <Damage>60</Damage>
@@ -1160,6 +993,7 @@
     <SpawnProb>0.01</SpawnProb>
     <Flying />
     <God />
+    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Sprite God Bolt</ObjectId>
       <Damage>100</Damage>
@@ -1270,6 +1104,7 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
     <God />
+    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Medusa Slash</ObjectId>
       <Damage>120</Damage>
@@ -1315,6 +1150,7 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
     <God />
+    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Ent God Bolt</ObjectId>
       <Damage>100</Damage>
@@ -1359,6 +1195,7 @@
     <SpawnProb>0.01</SpawnProb>
     <Flying />
     <God />
+    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Beholder Gaze</ObjectId>
       <Damage>120</Damage>
@@ -1403,6 +1240,7 @@
     <SpawnProb>0.01</SpawnProb>
     <Flying />
     <God />
+    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Flying Brain Cortex</ObjectId>
       <Damage>70</Damage>
@@ -1440,6 +1278,7 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
     <God />
+    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Slime God Sludge</ObjectId>
       <Speed>60</Speed>
@@ -1498,6 +1337,7 @@
     <SpawnProb>0.01</SpawnProb>
     <Flying />
     <God />
+    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Ghost God Spike</ObjectId>
       <Size>100</Size>
@@ -1539,6 +1379,7 @@
     <SpawnProb>0.01</SpawnProb>
     <Flying />
     <God />
+    <RealmScore>50</RealmScore>
     <Projectile id="3">
       <ObjectId>Lucky Djinn Orb</ObjectId>
       <Damage>125</Damage>
@@ -1593,6 +1434,7 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
     <God />
+    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Leviathan Spray</ObjectId>
       <Damage>100</Damage>

@@ -67,6 +67,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to an Undead Lair. Septavius, once one of the most prominent combatants to ever live, now takes refuge in these abandoned catacombs.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="3.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -86,6 +89,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to a Pirate Cave. Dreadstump's personal cove for his ragtag pirate crew reeks of cheap rum.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="1" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -106,6 +112,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to a Spider Den. Home of Arachna the Spider Queen, she has gone undisturbed long enough to produce thousands of children.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="1.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -125,10 +134,13 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to an Abyss of Demons. Archdemon Malphas crafted his own fiery abode, which now torments the souls of the wicked.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="4" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Abyss of Demons Portal" minLevel="4" maxLevel="5">CreatePortal</Activate>
+    <Activate id="Abyss of Demons Portal">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -144,6 +156,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to a Snake Pit. Once a temple, these chambers are now overrun by the serpents of Medusa's sister.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="2.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -163,6 +178,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Tomb of the Ancients. Three of the realm's oldest gods lay dormant in this burial chamber, their powers contained by a series of rituals.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="6" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -201,6 +219,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to a Sprite World. As an entirely different plane of existence, it is meant to safeguard the sprites that watch over the realm's ecosystems.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="2.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -220,10 +241,13 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to an Ocean Trench. Many sailors met their ends in these waters from the deceptive songs of mermaids.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Ocean Trench Portal" minLevel="6" maxLevel="6">CreatePortal</Activate>
+    <Activate id="Ocean Trench Portal">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -239,6 +263,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>Enter this destroyed Nexus at your own peril. This legendary attack on the Nexus itself is locked in history forevermore.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -258,6 +285,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens a passage to the Forbidden Jungle. Pagan acolytes of Mixcoatl are exiled to these uncharted woods, said to be cursed by black magic.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="1.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -277,6 +307,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens a passage to the Ice Cave. Glaciers formed many eons ago became the residence of migrating yetis and a mysterious hermit of a man.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -334,6 +367,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens a passage to the Manor of the Immortals. Lord Ruthven's gothic mansion neighbor's Oryx's own castle in the dark, distant sea.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="4" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -353,6 +389,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key that opens the way to Davy Jones' Locker. No crew members bailed from Davy's ghost ship, trapping their souls in the vessel beneath the waves.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -372,6 +411,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens a portal to the Beachzone. It's the most exclusive seaside resort in the realm!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="1" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -391,6 +433,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which reveals the way to the Mad Lab. The grotesque beings inside have been produced by some sort of undiscovered alchemy methods.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="4" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -410,6 +455,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens the way to the Candyland Hunting Grounds. Among the most perplexing locations in the realm, this populated land is filled to the brim with sweets.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="3.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -429,6 +477,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens a portal to the Haunted Cemetery. Some of the oldest and most legendary heroes in history were buried along this sequence of graves, their spirits protected by masters of the afterlife.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="4.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -467,6 +518,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens the portal to the Lair of Draconis. Oryx has personally bred these captive dragons to wield immensely powerful elemental capabilities.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="6" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -486,6 +540,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Forest Maze. The dense layers of trees host a dusty menace.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="1" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -505,6 +562,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Woodland Labyrinth. An unprecedented metamorphosis of moths has taken form in the heart of the forest.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -524,6 +584,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to Deadwater Docks. In contrast to his rival, Dreadstump, Jon Bilgewater's crew made their hideout deeper inland at the belly of a peninsula. It still reeks of cheap rum, though.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -543,6 +606,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to The Crawling Depths. Arachna's lone son made a den of his own to wage war on his mother.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -562,6 +628,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to The Shatters. The gloomy and abandoned ruins, enveloped by twilight, are now the shelter of the shadows. Once a legendary kingdom, its walls are broken, its dwellers are forgotten. No living souls have entered these grounds, no noble creatures have stepped into it. The immense kingdom has fallen, its sentinels have turned to dust. No one remembers its name, and no one will.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="10" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -582,6 +651,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens a portal to The Machine. Accessing the rift to this hidden dimension may have severe consequences.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="4.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
     <Track />
@@ -601,6 +673,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to Belladonna's Garden. Formerly the property of a caretaker, Belladonna claimed these grounds and seized control of the roots within.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -620,6 +695,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A molten key that links directly to the Lair of Shaitan. Oryx's unstable advisor dwells near the unbearably hot core of the realm.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="6" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -639,6 +717,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Puppet Master's Theatre. This demented stage is the work of a crazed puppeteer, obsessed with his creations to the point of enchanting them with life.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="4" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -658,6 +739,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Puppet Master's Encore. The confines of this workshop are where the most powerful souls are bonded to puppets.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -678,6 +762,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Toxic Sewers. Going without proper maintenance for centuries, some of the most wretched monsters have taken these tunnels as their own.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="4" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -698,6 +785,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to The Hive. This severely enlarged beehive is allegedly the result of an unknown experiment.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="2" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -844,6 +934,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to Ice Tomb. When the glaciers of the Ice Cave formed, the spirits of three demigods were trapped together in a cavity within the ice.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="6" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -863,6 +956,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A map that reveals the way to hidden treasure. Crafty bandits developed lethal booby traps to scare off those who would plunder their hoard.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="2.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -882,10 +978,13 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Mountain Temple. Steep, distant cliffs conceal a clan of demon-worshipping monks.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="6" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Mountain Temple Portal" minLevel="6" maxLevel="6">CreatePortal</Activate>
+    <Activate id="Mountain Temple Portal">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -902,6 +1001,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which reveals the way to Rainbow Road. Treasures await at the end of the rainbow.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="0" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -922,6 +1024,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to The Nest. Home of the Killer Bee Queen and the pinnacle of insect evolution.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="7" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -962,6 +1067,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens a passage to the Lost Halls. Forgotten for centuries, those long identical halls are said to house evil itself. All that is truly known is that hope, reason and purpose are no more within those walls.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="8" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -1020,10 +1128,13 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Parasite Chambers. Some of the realm's most foul and horrific creatures make their home in these chambers.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Parasite Chambers Portal" minLevel="6" maxLevel="6">CreatePortal</Activate>
+    <Activate id="Parasite Chambers Portal">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -1059,6 +1170,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Santa's Workshop. Craig, Intern of the Mad God stores an array of goodies in this festive building. This solo dungeon can be opened only in your vault!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="0" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -1079,6 +1193,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Magic Woods. The spirits of ancient heroes congregate in this enchanted glade.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="3" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
     <Consumable />
@@ -1098,6 +1215,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens a passage to the Cnidarian Reef. Oryx's Master of the Depths awaits mortals foolish enough to stumble upon its lair in the deep reaches of the ocean.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -1118,6 +1238,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Mad God Mayhem event.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="6" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -1138,6 +1261,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens a passage to the Secluded Thicket. The most remote region of the realm houses a tropical rainforest filled with vicious animals, fierce natives, and a deity said to command lightning itself.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="6.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
     <Track />
@@ -1199,6 +1325,9 @@
 		</Description>
     <Sound>use_key</Sound>
     <Soulbound />
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="4" />
+    </ExtraTooltipData>
     <Track />
     <BagType>7</BagType>
     <Consumable />
@@ -1219,6 +1348,7 @@
     <Description>A key which generates a wormhole to Malogia, a planet with luscious red forests not unsimilar to our own.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Player limit" description="25 players" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -1242,6 +1372,7 @@
     <Description>A key which generates a wormhole to Untaris, a fragmented planet where ice has consumed all but a few areas.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Player limit" description="25 players" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -1265,6 +1396,7 @@
     <Description>A key which generates a wormhole to Forax, a planet consumed by acid water leaving just a few livable isles.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Player limit" description="25 players" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -1288,6 +1420,7 @@
     <Description>A key which generates a wormhole to Katalund, a planet coated in low flying clouds of unbreathable gas where only metallic, inorganic creatures can survive.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Player limit" description="25 players" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -1309,6 +1442,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Fungal Cavern. This forgotten mine has been taken over by mushroom tribes over the years.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="7.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
     <feedPower>200</feedPower>
@@ -1330,6 +1466,7 @@
     <Description>A key which opens an entrance to the Fungal Cavern. This forgotten mine has been taken over by mushroom tribes over the years.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="7.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -1353,6 +1490,7 @@
     <Description>A key which opens an entrance to the Tomb of the Ancients. Three of the realm's oldest gods lay dormant in this burial chamber, their powers contained by a series of rituals.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1376,6 +1514,7 @@
     <Description>A key which opens an entrance to The Nest. Home of the Killer Bee Queen and the pinnacle of insect evolution.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="7" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1399,6 +1538,7 @@
     <Description>A key which opens the portal to the Lair of Draconis. Oryx has personally bred these captive dragons to wield immensely powerful elemental capabilities.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1422,6 +1562,7 @@
     <Description>A key which opens an entrance to an Ocean Trench. Many sailors met their ends in these waters from the deceptive songs of mermaids.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1445,6 +1586,7 @@
     <Description>A key which opens a portal to the Haunted Cemetery. Some of the oldest and most legendary heroes in history were buried along this sequence of graves, their spirits protected by masters of the afterlife.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="4.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1469,6 +1611,7 @@
     <Description>A key which opens a passage to the Lost Halls. Forgotten for centuries, those long identical halls are said to house evil itself. All that is truly known is that hope, reason and purpose are no more within those walls.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="8" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1492,6 +1635,7 @@
     <Description>A key which opens an entrance to The Shatters. The gloomy and abandoned ruins, enveloped by twilight, are now the shelter of the shadows. Once a legendary kingdom, its walls are broken, its dwellers are forgotten. No living souls have entered these grounds, no noble creatures have stepped into it. The immense kingdom has fallen, its sentinels have turned to dust. No one remembers its name, and no one will.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="10" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1516,6 +1660,7 @@
     <Description>A key which opens an entrance to the Mountain Temple. Steep, distant cliffs conceal a clan of demon-worshipping monks.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1540,6 +1685,7 @@
     <Description>A key which opens a passage to the Secluded Thicket. The most remote region of the realm houses a tropical rainforest filled with vicious animals, fierce natives, and a deity said to command lightning itself.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="6.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -1564,6 +1710,7 @@
     <Description>A key which opens an entrance to the Parasite Chambers. Some of the realm's most foul and horrific creatures make their home in these chambers.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1586,6 +1733,7 @@
     <Description>A key which opens an entrance to an Ocean Trench. Many sailors met their ends in these waters from the deceptive songs of mermaids.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1608,6 +1756,7 @@
     <Description>A key which opens an entrance to The Crawling Depths.  Arachna's lone son made a den of his own to wage war on his mother.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1630,6 +1779,7 @@
     <Description>A key which opens an entrance to Deadwater Docks. In contrast to his rival, Dreadstump, Jon Bilgewater's crew made their hideout deeper inland at the belly of a peninsula. It still reeks of cheap rum, though.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1652,6 +1802,7 @@
     <Description>A key which opens an entrance to the Woodland Labyrinth. An unprecedented metamorphosis of moths has taken form in the heart of the forest.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1675,6 +1826,7 @@
     <Description>A key which opens an entrance to Ice Tomb.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1697,6 +1849,7 @@
     <Description>A key which opens a portal to the Haunted Cemetery. Some of the oldest and most legendary heroes in history were buried along this sequence of graves, their spirits protected by masters of the afterlife. and CrystalPX</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1719,6 +1872,7 @@
     <Description>A key which opens an entrance to the Fungal Cavern. This forgotten mine has been taken over by mushroom tribes over the years.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="7.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -1741,6 +1895,7 @@
     <Description>A key which opens a passage to the Ice Cave. Glaciers formed many eons ago became the residence of migrating yetis and a mysterious hermit of a man.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1764,6 +1919,7 @@
     <Description>A key which opens a passage to the Lost Halls. Forgotten for centuries, those long identical halls are said to house evil itself. All that is truly known is that hope, reason and purpose are no more within those walls.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="8" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1786,6 +1942,7 @@
     <Description>A key which opens an entrance to the Tomb of the Ancients. Three of the realm's oldest gods lay dormant in this burial chamber, their powers contained by a series of rituals.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1809,6 +1966,7 @@
     <Description>A key which opens an entrance to The Nest. Home of the Killer Bee Queen and the pinnacle of insect evolution.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="7" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1831,6 +1989,7 @@
     <Description>A key that opens the way to Davy Jones' Locker.  No crew members bailed from Davy's ghost ship, trapping their souls in the vessel beneath the waves.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1853,6 +2012,7 @@
     <Description>A key which opens an entrance to the Mountain Temple. Steep, distant cliffs conceal a clan of demon-worshipping monks.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -1875,6 +2035,7 @@
     <Description>A key which generates a wormhole to Malogia, a planet with luscious red forests not unsimilar to our own.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -1897,6 +2058,7 @@
     <Description>A key which generates a wormhole to Untaris, a fragmented planet where ice has consumed all but a few areas.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -1919,6 +2081,7 @@
     <Description>A key which generates a wormhole to Forax, a planet consumed by acid water leaving just a few livable isles.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -1941,6 +2104,7 @@
     <Description>A key which generates a wormhole to Katalund, a planet coated in low flying clouds of unbreathable gas where only metallic, inorganic creatures can survive.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -1986,7 +2150,7 @@
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Abyss of Demons Portal" onlyIn="vault" minLevel="4" maxLevel="5">CreatePortal</Activate>
+    <Activate id="Abyss of Demons Portal" onlyIn="vault">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -2003,6 +2167,7 @@
     <Description>A key which opens an entrance to a Snake Pit. Once a temple, these chambers are now overrun by the serpents of Medusa's sister.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="2.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2025,6 +2190,7 @@
     <Description>A molten key that links directly to the Lair of Shaitan. Oryx's unstable advisor dwells near the unbearably hot core of the realm.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2047,6 +2213,7 @@
     <Description>A key which opens an entrance to the Puppet Master's Encore. The confines of this workshop are where the most powerful souls are bonded to puppets.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2069,6 +2236,7 @@
     <Description>A key which opens a passage to the Cnidarian Reef. Oryx's Master of the Depths awaits mortals foolish enough to stumble upon its lair in the depths of the ocean.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2092,6 +2260,7 @@
     <Description>A key which opens a passage to the Secluded Thicket. The most remote region of the realm houses a tropical rainforest filled with vicious animals, fierce natives, and a deity said to command lightning itself.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2114,6 +2283,7 @@
     <Description>A key which opens an entrance to The Shatters. The gloomy and abandoned ruins, enveloped by twilight, are now the shelter of the shadows. Once a legendary kingdom, its walls are broken, its dwellers are forgotten. No living souls have entered these grounds, no noble creatures have stepped into it. The immense kingdom has fallen, its sentinels have turned to dust. No one remembers its name, and no one will.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="10" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2134,6 +2304,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens the way to the Ancient Ruins. What was once an ancient shrine linked to the world of spirits is now a desolate ruin.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="3" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
     <Consumable />
@@ -2152,6 +2325,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which reveals the way to High Tech Terror. This hidden chamber in Oryx's castle laboratory contains his so-called pet, a beastly creation of Dr. Terrible.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="6.5" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -2170,6 +2346,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to The Third Dimension, an otherworldly place containing many violent cuboid creatures.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="6" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
     <Consumable />
@@ -2190,6 +2369,7 @@
     <Description>A key which opens an entrance to The Third Dimension, an otherworldly place containing many violent cuboid creatures.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2212,6 +2392,7 @@
     <Description>A key which opens the way to the Ancient Ruins. What was once an ancient shrine linked to the world of spirits is now a desolate ruin.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="3" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2234,6 +2415,7 @@
     <Description>A key which opens an entrance to the Toxic Sewers. Going without proper maintenance for centuries, some of the most wretched monsters have taken these tunnels as their own.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2256,6 +2438,7 @@
     <Description>A key which opens an entrance to a Sprite World. As an entirely different plane of existence, it is meant to safeguard the sprites that watch over the realm's ecosystems.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="2.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2278,6 +2461,7 @@
     <Description>A key which opens the way to the Candyland Hunting Grounds. Among the most perplexing locations in the realm, this populated land is filled to the brim with sweets.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="3.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2300,6 +2484,7 @@
     <Description>A key which reveals the way to the Mad Lab. The grotesque beings inside have been produced by some sort of undiscovered alchemy methods.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2322,6 +2507,7 @@
     <Description>A key which opens a passage to the Manor of the Immortals. Lord Ruthven's gothic mansion neighbor's Oryx's own castle in the dark, distant sea.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2344,6 +2530,7 @@
     <Description>A key which opens a portal to The Machine. Accessing the rift to this hidden dimension may have severe consequences.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2385,6 +2572,7 @@
     <Description>A key which opens an entrance to the Parasite Chambers. Some of the realm's most foul and horrific creatures make their home in these chambers.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2407,6 +2595,7 @@
     <Description>A key which opens an entrance to an Undead Lair. Septavius, once one of the most prominent combatants to ever live, now takes refuge in these abandoned catacombs.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="3.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2429,6 +2618,7 @@
     <Description>A key which opens an entrance to the Cursed Library. Once a great hub of knowledge, these forsaken archives now hold something far more sinister.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2451,6 +2641,7 @@
     <Description>A key which reveals the way to High Tech Terror. This hidden chamber in Oryx's castle laboratory contains his so-called pet, a beastly creation of Dr. Terrible.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2460,6 +2651,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object type="0x37fb" id="Admin Arena Key">
     <Class>Equipment</Class>
@@ -2492,6 +2684,7 @@
     <Description>A key which reveals the way to the Mad Lab. The grotesque beings inside have been produced by some sort of undiscovered alchemy methods.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="4" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2515,6 +2708,7 @@
     <Description>A key that opens the way to Davy Jones' Locker.  No crew members bailed from Davy's ghost ship, trapping their souls in the vessel beneath the waves.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2538,6 +2732,7 @@
     <Description>A key which opens an entrance to Deadwater Docks. In contrast to his rival, Dreadstump, Jon Bilgewater's crew made their hideout deeper inland at the belly of a peninsula. It still reeks of cheap rum, though.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2561,6 +2756,7 @@
     <Description>A key which opens an entrance to the Woodland Labyrinth. An unprecedented metamorphosis of moths has taken form in the heart of the forest.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2584,6 +2780,7 @@
     <Description>A key which opens an entrance to The Crawling Depths.  Arachna's lone son made a den of his own to wage war on his mother.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2607,6 +2804,7 @@
     <Description>A key which opens a passage to the Ice Cave. Glaciers formed many eons ago became the residence of migrating yetis and a mysterious hermit of a man.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2630,6 +2828,7 @@
     <Description>A molten key that links directly to the Lair of Shaitan. Oryx's unstable advisor dwells near the unbearably hot core of the realm.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2653,6 +2852,7 @@
     <Description>A key which opens a passage to the Cnidarian Reef. Oryx's Master of the Depths awaits mortals foolish enough to stumble upon its lair in the deep reaches of the ocean.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2676,6 +2876,7 @@
     <Description>A key which opens an entrance to the Puppet Master's Encore. The confines of this workshop are where the most powerful souls are bonded to puppets.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2699,6 +2900,7 @@
     <Description>A key which opens an entrance to The Third Dimension, an otherworldly place containing many violent cuboid creatures.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2722,6 +2924,7 @@
     <Description>A key which reveals the way to High Tech Terror. This hidden chamber in Oryx's castle laboratory contains his so-called pet, a beastly creation of Dr. Terrible.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="6.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2744,11 +2947,12 @@
     <Description>A key which opens an entrance to an Abyss of Demons. Archdemon Malphas crafted his own fiery abode, which now torments the souls of the wicked.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Abyss of Demons Portal" minLevel="4" maxLevel="5">CreatePortal</Activate>
+    <Activate id="Abyss of Demons Portal">CreatePortal</Activate>
     <Activate id="Mystery ST Crate">Exchange</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
@@ -2766,6 +2970,7 @@
     <Description>A key which opens an entrance to the Puppet Master's Theatre. This demented stage is the work of a crazed puppeteer, obsessed with his creations to the point of enchanting them with life.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2788,6 +2993,7 @@
     <Description>A key which opens the portal to the Lair of Draconis. Oryx has personally bred these captive dragons to wield immensely powerful elemental capabilities.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2810,6 +3016,7 @@
     <Description>A key which opens an entrance to Belladonna's Garden. Formerly the property of a caretaker, Belladonna claimed these grounds and seized control of the roots within.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2833,8 +3040,9 @@
     <SlotType>10</SlotType>
     <Description>A key which opens a passage to the Lost Halls. Forgotten for centuries, those long identical halls are said to house evil itself. All that is truly known is that hope, reason and purpose are no more within those walls.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
-      <EffectInfo name="Mythical ST Gem" description="The Gem will drop from Malus in the Cultist Hideout." />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
+      <EffectInfo name="Mythical ST Gem" description="The Gems will drop from Malus in the Cultist Hideout and the Void Entity in The Void." />
+      <EffectInfo name="Dungeon Difficulty" description="8" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2857,7 +3065,8 @@
     <SlotType>10</SlotType>
     <Description>A key which opens a passage to the Secluded Thicket. The most remote region of the realm houses a tropical rainforest filled with vicious animals, fierce natives, and a deity said to command lightning itself.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
+      <EffectInfo name="Dungeon Difficulty" description="6.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2880,8 +3089,9 @@
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Fungal Cavern. This forgotten mine has been taken over by mushroom tribes over the years.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
       <EffectInfo name="Mythical ST Gem" description="The Gem will drop from the Crystal Worm Mother in the Fungal Cavern." />
+      <EffectInfo name="Dungeon Difficulty" description="7.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -2902,7 +3112,8 @@
     <SlotType>10</SlotType>
     <Description>A key which reveals the way to High Tech Terror. This hidden chamber in Oryx's castle laboratory contains his so-called pet, a beastly creation of Dr. Terrible.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
+      <EffectInfo name="Dungeon Difficulty" description="6.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2924,6 +3135,7 @@
     <Description>A key which opens an entrance to Belladonna's Garden. Formerly the property of a caretaker, Belladonna claimed these grounds and seized control of the roots within.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2946,6 +3158,7 @@
     <Description>A key which opens an entrance to an Ocean Trench. Many sailors met their ends in these waters from the deceptive songs of mermaids.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2968,6 +3181,7 @@
     <Description>A key which opens an entrance to The Crawling Depths.  Arachna's lone son made a den of his own to wage war on his mother.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -2990,6 +3204,7 @@
     <Description>A key which opens an entrance to Deadwater Docks. In contrast to his rival, Dreadstump, Jon Bilgewater's crew made their hideout deeper inland at the belly of a peninsula. It still reeks of cheap rum, though.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3012,6 +3227,7 @@
     <Description>A key which opens an entrance to the Woodland Labyrinth. An unprecedented metamorphosis of moths has taken form in the heart of the forest.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3035,6 +3251,7 @@
     <Description>A key which opens an entrance to Ice Tomb.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3057,6 +3274,7 @@
     <Description>A key which opens a portal to the Haunted Cemetery. Some of the oldest and most legendary heroes in history were buried along this sequence of graves, their spirits protected by masters of the afterlife. and CrystalPX</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3079,6 +3297,7 @@
     <Description>A key which opens an entrance to the Fungal Cavern. This forgotten mine has been taken over by mushroom tribes over the years.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="7.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -3101,6 +3320,7 @@
     <Description>A key which opens a passage to the Ice Cave. Glaciers formed many eons ago became the residence of migrating yetis and a mysterious hermit of a man.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3124,6 +3344,7 @@
     <Description>A key which opens a passage to the Lost Halls. Forgotten for centuries, those long identical halls are said to house evil itself. All that is truly known is that hope, reason and purpose are no more within those walls.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="8" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3146,6 +3367,7 @@
     <Description>A key which opens an entrance to the Tomb of the Ancients. Three of the realm's oldest gods lay dormant in this burial chamber, their powers contained by a series of rituals.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3169,6 +3391,7 @@
     <Description>A key which opens an entrance to The Nest. Home of the Killer Bee Queen and the pinnacle of insect evolution.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="7" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3191,6 +3414,7 @@
     <Description>A key that opens the way to Davy Jones' Locker.  No crew members bailed from Davy's ghost ship, trapping their souls in the vessel beneath the waves.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3213,6 +3437,7 @@
     <Description>A key which opens an entrance to the Mountain Temple. Steep, distant cliffs conceal a clan of demon-worshipping monks.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3235,6 +3460,7 @@
     <Description>A key which generates a wormhole to Malogia, a planet with luscious red forests not unsimilar to our own.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -3257,6 +3483,7 @@
     <Description>A key which generates a wormhole to Untaris, a fragmented planet where ice has consumed all but a few areas.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -3279,6 +3506,7 @@
     <Description>A key which generates a wormhole to Forax, a planet consumed by acid water leaving just a few livable isles.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -3301,6 +3529,7 @@
     <Description>A key which generates a wormhole to Katalund, a planet coated in low flying clouds of unbreathable gas where only metallic, inorganic creatures can survive.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -3323,6 +3552,7 @@
     <Description>A key which opens an entrance to a Snake Pit. Once a temple, these chambers are now overrun by the serpents of Medusa's sister.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="2.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3345,6 +3575,7 @@
     <Description>A molten key that links directly to the Lair of Shaitan. Oryx's unstable advisor dwells near the unbearably hot core of the realm.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3367,6 +3598,7 @@
     <Description>A key which opens an entrance to the Puppet Master's Encore. The confines of this workshop are where the most powerful souls are bonded to puppets.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3389,6 +3621,7 @@
     <Description>A key which opens a passage to the Cnidarian Reef. Oryx's Master of the Depths awaits mortals foolish enough to stumble upon its lair in the depths of the ocean.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3412,6 +3645,7 @@
     <Description>A key which opens a passage to the Secluded Thicket. The most remote region of the realm houses a tropical rainforest filled with vicious animals, fierce natives, and a deity said to command lightning itself.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -3434,6 +3668,7 @@
     <Description>A key which opens an entrance to The Shatters. The gloomy and abandoned ruins, enveloped by twilight, are now the shelter of the shadows. Once a legendary kingdom, its walls are broken, its dwellers are forgotten. No living souls have entered these grounds, no noble creatures have stepped into it. The immense kingdom has fallen, its sentinels have turned to dust. No one remembers its name, and no one will.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="10" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3456,6 +3691,7 @@
     <Description>A key which opens an entrance to The Third Dimension, an otherworldly place containing many violent cuboid creatures.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3478,6 +3714,7 @@
     <Description>A key which opens the way to the Ancient Ruins. What was once an ancient shrine linked to the world of spirits is now a desolate ruin.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="3" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3500,6 +3737,7 @@
     <Description>A key which opens an entrance to the Toxic Sewers. Going without proper maintenance for centuries, some of the most wretched monsters have taken these tunnels as their own.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3522,6 +3760,7 @@
     <Description>A key which opens an entrance to a Sprite World. As an entirely different plane of existence, it is meant to safeguard the sprites that watch over the realm's ecosystems.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="2.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3544,6 +3783,7 @@
     <Description>A key which opens the way to the Candyland Hunting Grounds. Among the most perplexing locations in the realm, this populated land is filled to the brim with sweets.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="3.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3566,6 +3806,7 @@
     <Description>A key which reveals the way to the Mad Lab. The grotesque beings inside have been produced by some sort of undiscovered alchemy methods.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3588,6 +3829,7 @@
     <Description>A key which opens a passage to the Manor of the Immortals. Lord Ruthven's gothic mansion neighbor's Oryx's own castle in the dark, distant sea.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3610,6 +3852,7 @@
     <Description>A key which opens a portal to The Machine. Accessing the rift to this hidden dimension may have severe consequences.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3632,6 +3875,7 @@
     <Description>A key which opens an entrance to the Parasite Chambers. Some of the realm's most foul and horrific creatures make their home in these chambers.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3654,6 +3898,7 @@
     <Description>A key which opens an entrance to an Undead Lair. Septavius, once one of the most prominent combatants to ever live, now takes refuge in these abandoned catacombs.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="3.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3676,6 +3921,7 @@
     <Description>A key which opens an entrance to the Cursed Library. Once a great hub of knowledge, these forsaken archives now hold something far more sinister.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3698,6 +3944,7 @@
     <Description>A key which reveals the way to High Tech Terror. This hidden chamber in Oryx's castle laboratory contains his so-called pet, a beastly creation of Dr. Terrible.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3707,6 +3954,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object type="0x7e1d" id="Abyss of Demons Augmented Key">
     <Class>Equipment</Class>
@@ -3719,11 +3967,12 @@
     <Description>A key which opens an entrance to an Abyss of Demons. Archdemon Malphas crafted his own fiery abode, which now torments the souls of the wicked.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Abyss of Demons Portal" minLevel="4" maxLevel="5">CreatePortal</Activate>
+    <Activate id="Abyss of Demons Portal">CreatePortal</Activate>
     <Activate id="3STKeyMysteryChest">Exchange</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
@@ -3741,6 +3990,7 @@
     <Description>A key which opens an entrance to the Puppet Master's Theatre. This demented stage is the work of a crazed puppeteer, obsessed with his creations to the point of enchanting them with life.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="4" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3763,6 +4013,7 @@
     <Description>A key which opens the portal to the Lair of Draconis. Oryx has personally bred these captive dragons to wield immensely powerful elemental capabilities.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3924,7 +4175,8 @@
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Puppet Master's Encore. The confines of this workshop are where the most powerful souls are bonded to puppets.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -3945,7 +4197,8 @@
     <SlotType>10</SlotType>
     <Description>A key which opens a passage to the Cnidarian Reef. Oryx's Master of the Depths awaits mortals foolish enough to stumble upon its lair in the deep reaches of the ocean.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3968,8 +4221,9 @@
     <SlotType>10</SlotType>
     <Description>A key which opens a passage to the Lost Halls. Forgotten for centuries, those long identical halls are said to house evil itself. All that is truly known is that hope, reason and purpose are no more within those walls.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
       <EffectInfo name="Mythical ST Gem" description="The Gem will drop from Malus in the Cultist Hideout." />
+      <EffectInfo name="Dungeon Difficulty" description="8" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -3992,8 +4246,9 @@
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Fungal Cavern. This forgotten mine has been taken over by mushroom tribes over the years.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
       <EffectInfo name="Mythical ST Gem" description="The Gem will drop from the Crystal Worm Mother in the Fungal Cavern." />
+      <EffectInfo name="Dungeon Difficulty" description="7.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -4016,7 +4271,8 @@
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Puppet Master's Encore. The confines of this workshop are where the most powerful souls are bonded to puppets.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -4038,7 +4294,8 @@
     <SlotType>10</SlotType>
     <Description>A key which opens a passage to the Cnidarian Reef. Oryx's Master of the Depths awaits mortals foolish enough to stumble upon its lair in the deep reaches of the ocean.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -4058,6 +4315,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Sulfurous Wetlands, a desolate village once bustling with human activity. Corruption has ravaged the land, and culled its denizens. The buildings and roadways many once called home are now dominated by vicious flora and fauna and a seemingly endless corrosive swamp.\n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="6" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -4065,6 +4325,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object id="Sulfurous Wetlands Enchanted Key" type="0x3926">
     <Class>Equipment</Class>
@@ -4078,6 +4339,7 @@
     <Sound>use_key</Sound>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Consumable />
     <Soulbound />
@@ -4086,6 +4348,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object type="0x3927" id="Sulfurous Wetlands Guild Key">
     <Class>Equipment</Class>
@@ -4099,6 +4362,7 @@
     <Description>A key which opens an entrance to the Sulfurous Wetlands, a desolate village once bustling with human activity. Corruption has ravaged the land, and culled its denizens. The buildings and roadways many once called home are now dominated by vicious flora and fauna and a seemingly endless corrosive swamp.\n\nKeys can only be used once you have 10 or more stars!</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -4119,13 +4383,17 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Kogbold Steamworks, home to an ancient race long thought to be extinct. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="8" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Kogbold Steamworks Portal" minLevel="11" maxLevel="11">CreatePortal</Activate>
+    <Activate id="Kogbold Steamworks Portal">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object id="Kogbold Steamworks Enchanted Key" type="0xc176">
     <Class>Equipment</Class>
@@ -4139,14 +4407,16 @@
     <Sound>use_key</Sound>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="8" />
     </ExtraTooltipData>
     <Consumable />
     <Soulbound />
-    <Activate id="Steamworks 11" minLevel="11" maxLevel="11">CreatePortal</Activate>
+    <Activate id="Kogbold Steamworks Portal">CreatePortal</Activate>
     <Activate id="Mystery ST Crate">Exchange</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object id="Kogbold Steamworks Augmented Key" type="0xc177">
     <Class>Equipment</Class>
@@ -4160,6 +4430,7 @@
     <Sound>use_key</Sound>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="8" />
     </ExtraTooltipData>
     <Consumable />
     <Soulbound />
@@ -4168,6 +4439,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object id="Kogbold Steamworks Solo Key" type="0xc178">
     <Class>Equipment</Class>
@@ -4180,8 +4452,9 @@
     <Description>A key which opens an entrance to the Kogbold Steamworks, home to an ancient race long thought to be extinct. \n\nKeys can only be used once you have 10 or more stars!</Description>
     <Sound>use_key</Sound>
     <ExtraTooltipData>
-      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
       <EffectInfo name="Mythical ST Gem" description="The Gem will drop from Control Core in the Kogbold Steamworks." />
+      <EffectInfo name="Dungeon Difficulty" description="8" />
     </ExtraTooltipData>
     <Consumable />
     <Soulbound />
@@ -4189,6 +4462,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object id="Kogbold Steamworks Key Encore" type="0x5200">
     <DisplayId>Kogbold Steamworks Key</DisplayId>
@@ -4200,6 +4474,9 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key which opens an entrance to the Kogbold Steamworks, home to an ancient race long thought to be extinct. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="8" />
+    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
@@ -4207,6 +4484,7 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
   </Object>
   <Object type="0x5201" id="The Nest Solo Key">
     <Class>Equipment</Class>
@@ -4223,7 +4501,8 @@
     <Consumable />
     <Soulbound />
     <ExtraTooltipData>
-      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
+      <EffectInfo name="Dungeon Difficulty" description="7" />
     </ExtraTooltipData>
     <Activate id="The Epic Hive Portal" predefinedDungeonMods="S|;TOKENDROPC" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
     <feedPower>200</feedPower>
@@ -4245,7 +4524,8 @@
     <Consumable />
     <Soulbound />
     <ExtraTooltipData>
-      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Activate id="Lair of Shaitan Portal" predefinedDungeonMods="S|;TOKENDROPB" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
     <feedPower>200</feedPower>
@@ -4266,6 +4546,7 @@
     <Description>A key that opens the way to Davy Jones' Locker.  No crew members bailed from Davy's ghost ship, trapping their souls in the vessel beneath the waves.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -4290,6 +4571,7 @@
     <Description>A key which opens an entrance to the Mountain Temple. Steep, distant cliffs conceal a clan of demon-worshipping monks.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -4315,6 +4597,7 @@
     <Soulbound />
     <ExtraTooltipData>
       <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone." />
+      <EffectInfo name="Dungeon Difficulty" description="9" />
     </ExtraTooltipData>
     <Activate id="Moonlight Village Portal" readonlymods="true" onlyIn="vault">CreatePortal</Activate>
     <feedPower>200</feedPower>
@@ -4334,6 +4617,7 @@
     <Sound>use_key</Sound>
     <ExtraTooltipData>
       <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="9" />
     </ExtraTooltipData>
     <Consumable />
     <Soulbound />
@@ -4355,6 +4639,7 @@
     <Description>A key which opens a gate to the Moonlight Village. Accept the welcoming call of the spirits and join in on the festival's dance! \n\nKeys can only be used once you have 10 or more stars!</Description>
     <ExtraTooltipData>
       <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="9" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -4379,6 +4664,7 @@
       <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for higher chance at loot and more experience." />
       <EffectInfo name="Seasonal Key" description="This key can only be used on seasonal characters and cannot be transferred to non seasonal characters." />
       <EffectInfo name="Flash of Lightning" description="The dungeon boss has been charged with a faint electricity, defeating it has a chance for an extra reward." />
+      <EffectInfo name="Dungeon Difficulty" description="5.5" />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
@@ -4389,5 +4675,279 @@
     <Track />
     <UniqueID />
     <SeasonalOnly />
+  </Object>
+  <Object id="Sulfurous Wetlands Augmented Key" type="0x4531">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>846</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Sulfurous Wetlands, a desolate village once bustling with human activity. Corruption has ravaged the land, and culled its denizens. The buildings and roadways many once called home are now dominated by vicious flora and fauna and a seemingly endless corrosive swamp.\n\nKeys can only be used once you have 10 or more stars!</Description>
+    <Sound>use_key</Sound>
+    <ExtraTooltipData>
+      <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
+    </ExtraTooltipData>
+    <Consumable />
+    <Soulbound />
+    <Activate id="SulfW Portal">CreatePortal</Activate>
+    <Activate id="3STKeyMysteryChest">Exchange</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x4532" id="The Third Dimension Solo Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>thirdDimensionObjects8x8</File>
+      <Index>0x104</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Third Dimension, an otherworldly place containing many violent cuboid creatures.</Description>
+    <Sound>use_key</Sound>
+    <Soulbound />
+    <Consumable />
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at an ST crafting token." />
+      <EffectInfo name="Dungeon Difficulty" description="6" />
+    </ExtraTooltipData>
+    <Activate id="The Third Dimension Portal" predefinedDungeonMods="S|;TOKENDROPB" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x45a5" id="Crystal Cavern Solo Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>crystalCaveObjects8x8</File>
+      <Index>359</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Crystal Cavern. The gemstone beasts within protect their home from overworld invaders.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for higher chance at loot and more experience." />
+      <EffectInfo name="Seasonal Key" description="This key can only be used on seasonal characters and cannot be transferred to non seasonal characters." />
+      <EffectInfo name="Flash of Lightning" description="The dungeon boss has been charged with a faint electricity, defeating it has a chance for an extra reward." />
+      <EffectInfo name="Dungeon Difficulty" description="7.5" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Crystal Cave Portal" predefinedDungeonMods="S|;XPANDREWARDSBOOSTALL_2;SPEEDRUN_REWARD" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+    <SeasonalOnly />
+  </Object>
+  <Object id="Advanced Kogbold Steamworks Key" type="0x7009">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>844</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Advanced Kogbold Steamworks, home to an ancient race long thought to be extinct. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="10" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Advanced Kogbold Steamworks Portal" minLevel="10" maxLevel="10">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object id="Advanced Kogbold Steamworks Augmented Key" type="0x700a">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>847</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Advanced Kogbold Steamworks, home to an ancient race long thought to be extinct. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="10" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Advanced Kogbold Steamworks Portal" minLevel="10" maxLevel="10">CreatePortal</Activate>
+    <Activate id="3STKeyMysteryChest">Exchange</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object id="Advanced Kogbold Steamworks Solo Key" type="0x5214">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>848</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Advanced Kogbold Steamworks, home to an ancient race long thought to be extinct. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone." />
+      <EffectInfo name="Dungeon Difficulty" description="10" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Advanced Kogbold Steamworks Portal" readonlymods="true" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object id="Advanced Kogbold Steamworks Enchanted Key" type="0x5215">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>849</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Advanced Kogbold Steamworks, home to an ancient race long thought to be extinct. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="10" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Advanced Kogbold Steamworks Portal" readonlymods="true" onlyIn="vault">CreatePortal</Activate>
+    <Activate id="Mystery ST Crate">Exchange</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x44a0" id="Advanced Nest Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <DisplayId>Advanced Nest Key</DisplayId>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>124</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Advanced Nest. Home of the Killer Bee Queen and the pinnacle of insect evolution. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="10" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Advanced Nest Portal" minLevel="10" maxLevel="10">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object id="Advanced Nest Augmented Key" type="0x4513">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>127</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Advanced Nest. Home of the Killer Bee Queen and the pinnacle of insect evolution. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="10" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Advanced Nest Portal" minLevel="10" maxLevel="10">CreatePortal</Activate>
+    <Activate id="3STKeyMysteryChest">Exchange</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object id="Advanced Nest Solo Key" type="0x4514">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>128</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Advanced Nest. Home of the Killer Bee Queen and the pinnacle of insect evolution. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone." />
+      <EffectInfo name="Dungeon Difficulty" description="10" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Advanced Nest Portal" readonlymods="true" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object id="Advanced Nest Enchanted Key" type="0x4515">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>129</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Advanced Nest. Home of the Killer Bee Queen and the pinnacle of insect evolution. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+      <EffectInfo name="Dungeon Difficulty" description="10" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Advanced Nest Portal" readonlymods="true" onlyIn="vault">CreatePortal</Activate>
+    <Activate id="Mystery ST Crate">Exchange</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object id="Advanced Nest Guild Key" type="0x4516">
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>130</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Advanced Nest. Home of the Killer Bee Queen and the pinnacle of insect evolution. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+      <EffectInfo name="Dungeon Difficulty" description="10" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Soulbound />
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <Consumable />
+    <Activate id="Advanced Nest Portal" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">CreatePortal</Activate>
+    <Activate id="Nest Guild Chest" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">Create</Activate>
+    <UniqueID />
   </Object>
 </Objects>

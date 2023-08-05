@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0x7210" id="Big Squid">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>17</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>DeepSea</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LOD Green Bullet</ObjectId>
+      <Speed>55</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7211" id="Hydra">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deepSeaChars16x16</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>DeepSea</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>LOD Red Small Fireball</ObjectId>
+      <Damage>140</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LOD Red Small Fireball</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7212" id="Siren">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deepSeaChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3500</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>DeepSea</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>110</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 White Bolt</ObjectId>
+      <Speed>55</Speed>
+      <Damage>120</Damage>
+      <Size>80</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7214" id="Kraken">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deepSeaChars32x32</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>DeepSea</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Small Yellow Missle</ObjectId>
+      <Speed>55</Speed>
+      <Damage>150</Damage>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7215" id="Kraken Tornado E">
+    <Group>Gods</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0x81</Index>
+    </Texture>
+    <Animation period="0.0" prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x81</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x83</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x84</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <Invincible />
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7216" id="Kraken Tornado W">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0x81</Index>
+    </Texture>
+    <Animation period="0.0" prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x81</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x83</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x84</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <Invincible />
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7217" id="Kraken Tornado N">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0x81</Index>
+    </Texture>
+    <Animation period="0.0" prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x81</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x83</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x84</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <Invincible />
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7218" id="Kraken Tornado S">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0x81</Index>
+    </Texture>
+    <Animation period="0.0" prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x81</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x83</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x84</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Invincible />
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7219" id="JellyFish">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deepSeaChars16x16</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>DeepSea</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>2</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="1">
+      <ObjectId>LOD Blue Blast</ObjectId>
+      <Speed>80</Speed>
+      <Damage>140</Damage>
+      <Size>110</Size>
+      <LifetimeMS>3600</LifetimeMS>
+      <TurnRate>45</TurnRate>
+      <Acceleration>-100000</Acceleration>
+      <AccelerationDelay>1200</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7b15" id="Submarine">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deepSeaChars32x32</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2500</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>DeepSea</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>2</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>140</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 Green Spear</ObjectId>
+      <Speed>60</Speed>
+      <Damage>130</Damage>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>180</TurnRate>
+      <TurnStopTime>400</TurnStopTime>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>O3 Green Spear</ObjectId>
+      <Speed>70</Speed>
+      <Damage>130</Damage>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>-180</TurnRate>
+      <TurnStopTime>400</TurnStopTime>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>O3 Green Spear</ObjectId>
+      <Speed>80</Speed>
+      <Damage>130</Damage>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>-180</TurnRate>
+      <TurnRateDelay>400</TurnRateDelay>
+      <TurnStopTime>800</TurnStopTime>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x776a" id="Giant Mantis">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>charsVeteran16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>Carboniferous</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Pink White Big Petal</ObjectId>
+      <Speed>45</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>33</TurnRate>
+      <Acceleration>9000</Acceleration>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x776b" id="Scutosaurus">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>charsVeteran16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>Carboniferous</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>LOD Blue Blast</ObjectId>
+      <Speed>60</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>60</TurnRate>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x79be" id="Carnivorous Plant Enemy">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>charsVeteran16x16</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>Carboniferous</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>LOD Green Bullet</ObjectId>
+      <Speed>100</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>45</TurnRate>
+      <Acceleration>-10</Acceleration>
+      <TurnRateDelay>100</TurnRateDelay>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LOD Green Bullet</ObjectId>
+      <Speed>100</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>-45</TurnRate>
+      <Acceleration>-10</Acceleration>
+      <TurnRateDelay>100</TurnRateDelay>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x776d" id="Carboniferous Spider">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>charsVeteran16x16</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>Carboniferous</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x776e" id="Mini Carboniferous Spider">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>charsVeteran16x16</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>60</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>Carboniferous</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>LOD White Shot</ObjectId>
+      <Speed>100</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x776f" id="Sigillaria">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>charsVeteran16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>Carboniferous</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Yellow Missile</ObjectId>
+      <Speed>45</Speed>
+      <Damage>140</Damage>
+      <Size>160</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>33</TurnRate>
+      <Acceleration>9000</Acceleration>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x79e7" id="Thorn">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>147</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>SanguineForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Pink White Big Petal</ObjectId>
+      <Speed>35</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>-22.5</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnClamp>-45</TurnClamp>
+      <Acceleration>9000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Pink White Big Petal</ObjectId>
+      <Speed>55</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>22.5</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnClamp>45</TurnClamp>
+      <Acceleration>9000</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7b90" id="Ooze Enemy">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>111</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>SanguineForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LOD Green Bullet</ObjectId>
+      <Speed>55</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7b91" id="Blood Hound Enemy">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>45</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>SanguineForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Wind Spiral</ObjectId>
+      <Speed>65</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1800</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7b92" id="Treant">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>91</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>SanguineForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>LOD White Blast</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>45</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LOD White Blast</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>-45</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>LOD White Blast</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>45</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7b93" id="Shadow Lurker">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>52</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>SanguineForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Archer ST Arrow</ObjectId>
+      <Speed>55</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Amplitude>1.2</Amplitude>
+      <Frequency>1.0</Frequency>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Archer ST Arrow</ObjectId>
+      <Speed>35</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Amplitude>1.2</Amplitude>
+      <Frequency>1.0</Frequency>
+      <Acceleration>9999</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7b94" id="Harpy Enemy">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>102</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>SanguineForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Turkey Feather</ObjectId>
+      <Speed>70</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>5</TurnRate>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Turkey Feather</ObjectId>
+      <Speed>70</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>-5</TurnRate>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7b95" id="Ghoul Enemy">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>86</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>SanguineForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LOD Green Bullet</ObjectId>
+      <Speed>55</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7307" id="Sunflower Sentinel">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>85</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>FloralEscape</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Purple Slash Projectile</ObjectId>
+      <Speed>85</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <TurnRate>-45</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>800</TurnStopTime>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Purple Slash Projectile</ObjectId>
+      <Speed>85</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <TurnRate>45</TurnRate>
+      <TurnRateDelay>600</TurnRateDelay>
+      <TurnStopTime>800</TurnStopTime>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7308" id="Snapdragon">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>37</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>FloralEscape</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LOD Green Bullet</ObjectId>
+      <Speed>55</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7309" id="Tiger Enemy">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>00</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>FloralEscape</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>LOD Red Firewave</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <CircleTurnDelay>1600</CircleTurnDelay>
+      <CircleTurnAngle>22.5</CircleTurnAngle>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Violet Claw</ObjectId>
+      <Speed>85</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>45</TurnRate>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Violet Claw</ObjectId>
+      <Speed>85</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <TurnRate>-45</TurnRate>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7310" id="Rhino">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>FloralEscape</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Unicorn Horn</ObjectId>
+      <Speed>80</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3500</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7311" id="Palm Enemy">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>176</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>FloralEscape</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LOD Green Bullet</ObjectId>
+      <Speed>10</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Acceleration>9999</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7312" id="Monster Flower">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>38</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>FloralEscape</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Large Yellow Sprite Tree Summon Projectile</ObjectId>
+      <Speed>45</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>-45</TurnRate>
+      <TurnRateDelay>200</TurnRateDelay>
+      <TurnAcceleration>0.1</TurnAcceleration>
+      <TurnAccelerationDelay>500</TurnAccelerationDelay>
+      <TurnClamp>-90</TurnClamp>
+      <Acceleration>-9000</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>25</SpeedClamp>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7313" id="Big Lily">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>181</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>FloralEscape</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="4">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="0">
+      <ObjectId>Red Long Arrow</ObjectId>
+      <Speed>55</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <FaceDir />
+      <Amplitude>3.4</Amplitude>
+      <Frequency>0.4</Frequency>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Red Long Arrow</ObjectId>
+      <Speed>55</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <FaceDir />
+      <Amplitude>3.4</Amplitude>
+      <Frequency>0.4</Frequency>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Red Long Arrow</ObjectId>
+      <Speed>55</Speed>
+      <Damage>140</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <FaceDir />
+      <Amplitude>3.4</Amplitude>
+      <Frequency>0.4</Frequency>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7b14" id="Yeti">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>123</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>RunicTundra</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>O3 Red Star NRot</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Squid Shot</ObjectId>
+      <Speed>55</Speed>
+      <Damage>140</Damage>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Train Red Projectile</ObjectId>
+      <Speed>80</Speed>
+      <Size>200</Size>
+      <Size>160</Size>
+      <Damage>150</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnStopTime>1050</TurnStopTime>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Train Red Projectile</ObjectId>
+      <Speed>80</Speed>
+      <Size>200</Size>
+      <Size>160</Size>
+      <Damage>150</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnStopTime>1050</TurnStopTime>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7301" id="Snow Split">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0xb4</Index>
+    </Texture>
+    <Size>0</Size>
+    <Enemy />
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>Train Red Projectile</ObjectId>
+      <Damage>120</Damage>
+      <Speed>65</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x7302" id="Ice Giant">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>97</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>RunicTundra</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Wakizashi Slash Xmas</ObjectId>
+      <Damage>120</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Wakizashi Slash Xmas</ObjectId>
+      <Damage>120</Damage>
+      <Speed>65</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Wakizashi Slash Xmas</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Wakizashi Slash Xmas</ObjectId>
+      <Damage>120</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Wakizashi Slash Xmas</ObjectId>
+      <Speed>55</Speed>
+      <Damage>130</Damage>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7303" id="Frost Dragon">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>174</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3500</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>RunicTundra</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>115</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Blue Bolt</ObjectId>
+      <Speed>55</Speed>
+      <Damage>125</Damage>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7304" id="Troll">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>93</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>RunicTundra</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Sonic Bat Spinner</ObjectId>
+      <Speed>55</Speed>
+      <Damage>130</Damage>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <TurnRate>90</TurnRate>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7305" id="Runic Golem">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>74</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>4500</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>RunicTundra</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>1</Min>
+      <Max>2</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>140</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Runes of Horror</ObjectId>
+      <Speed>70</Speed>
+      <Damage>110</Damage>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x7306" id="Frost Wolf">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <RealmScore>15</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>02</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3500</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>RunicTundra</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>1</Mean>
+      <StdDev>1</StdDev>
+      <Min>1</Min>
+      <Max>1</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Damage>100</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Purple Star</ObjectId>
+      <Speed>0</Speed>
+      <Damage>140</Damage>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+  </Object>
+</Objects>

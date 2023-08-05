@@ -1351,12 +1351,12 @@
     <ActivateOnEquip2 stat="DEX" amount="3">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="SPD" amount="5">IncrementStat</ActivateOnEquip2>
   </EquipmentSet>
-  <EquipmentSet type="0x425e" id="Kogbold Inventor Archer Set">
+  <EquipmentSet type="0x425e" id="Kogbold Turretsmith Archer Set">
     <Setpiece slot="0" itemtype="0xc67d">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0xc67e">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0xc67f">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0xc680">Equipment</Setpiece>
-    <ActivateOnEquipAll skinType="0x1b64" size="80" color="0xb5ffbc" bulletType="Bilgewater Cannonball Skull">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll skinType="0x451f" size="80" color="0xFCDF38" bulletType="Kogbold Rifle Plus">ChangeSkin</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="MAXMP" amount="60">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="WIS" amount="10">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="DEF" amount="5">IncrementStat</ActivateOnEquipAll>
@@ -1375,7 +1375,7 @@
     <Setpiece slot="1" itemtype="0xc682">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0xc683">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0xc684">Equipment</Setpiece>
-    <ActivateOnEquipAll skinType="0x4f58" size="80" color="0x01FFFF" bulletType="Slurp Mega Magic" requiredItems="0xc681,0xc682,0xc683,0xc684">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll skinType="0xC2B6" size="80" color="0x63181E" bulletType="Kogbold Rocket Shot Large" requiredItems="0xc681,0xc682,0xc683,0xc684">ChangeSkin</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="MAXHP" amount="50">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="MAXMP" amount="30">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="DEX" amount="8">IncrementStat</ActivateOnEquipAll>
@@ -1388,5 +1388,74 @@
     <ActivateOnEquip2 stat="MAXMP" amount="10">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="DEX" amount="3">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="DEF" amount="1">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x4560" id="Path of the Stalwart">
+    <Setpiece slot="3" itemtype="0x44e3">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452a">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452b">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452c">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452d">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452e">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452f">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x44e0">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x44e1">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x44e2">Equipment</Setpiece>
+    <ActivateOnEquip3 stat="MAXHP" amount="60">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="VIT" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="VIT" amount="4">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEF" amount="4">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x4561" id="Path of the Magus">
+    <Setpiece slot="3" itemtype="0x44e4">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452a">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452b">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452c">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452d">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452e">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452f">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x44e0">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x44e1">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x44e2">Equipment</Setpiece>
+    <ActivateOnEquip3 stat="MAXHP" amount="40">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXMP" amount="60">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="WIS" amount="8">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXMP" amount="40">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="WIS" amount="5">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x4562" id="Path of the Sniper">
+    <Setpiece slot="3" itemtype="0x44c1">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452a">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452b">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452c">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452d">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452e">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452f">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x44e0">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x44e1">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x44e2">Equipment</Setpiece>
+    <ActivateOnEquip3 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="ATT" amount="6">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="VIT" amount="6">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="ATT" amount="4">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="VIT" amount="4">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x4563" id="Path of the Swiftblade">
+    <Setpiece slot="3" itemtype="0x44c2">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452a">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452b">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452c">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452d">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452e">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x452f">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x44e0">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x44e1">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x44e2">Equipment</Setpiece>
+    <ActivateOnEquip3 stat="MAXHP" amount="40">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="SPD" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEX" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="SPD" amount="4">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEX" amount="4">IncrementStat</ActivateOnEquip2>
   </EquipmentSet>
 </EquipmentSets>

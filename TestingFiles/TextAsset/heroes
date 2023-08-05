@@ -16,6 +16,7 @@
     <TrackLoot />
     <Flying />
     <Hero />
+    <RealmScore>750</RealmScore>
     <Quest />
     <God />
     <Level>19</Level>
@@ -157,6 +158,7 @@
     <Defense>15</Defense>
     <Flying />
     <Hero />
+    <RealmScore>750</RealmScore>
     <Quest />
     <Level>17</Level>
     <Projectile id="0">
@@ -314,6 +316,7 @@
     <BXP>694</BXP>
     <Defense>8</Defense>
     <Hero />
+    <RealmScore>750</RealmScore>
     <Quest />
     <God />
     <Level>16</Level>
@@ -610,6 +613,7 @@
     <Defense>7</Defense>
     <StasisImmune />
     <Hero />
+    <RealmScore>750</RealmScore>
     <Quest />
     <Level>15</Level>
     <TrackLoot />
@@ -926,6 +930,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>15</Defense>
     <Hero />
+    <RealmScore>750</RealmScore>
     <Quest />
     <TrackLoot />
     <Level>13</Level>
@@ -1082,6 +1087,7 @@
     <Defense>7</Defense>
     <StasisImmune />
     <Hero />
+    <RealmScore>500</RealmScore>
     <TrackLoot />
     <Quest />
     <Level>11</Level>
@@ -1122,6 +1128,7 @@
     <Defense>15</Defense>
     <StasisImmune />
     <Hero />
+    <RealmScore>500</RealmScore>
     <Quest />
     <Level>11</Level>
     <Exp>384</Exp>
@@ -1406,6 +1413,7 @@
     <Defense>7</Defense>
     <StasisImmune />
     <Hero />
+    <RealmScore>500</RealmScore>
     <Quest />
     <Level>9</Level>
     <Exp>165</Exp>
@@ -1634,23 +1642,169 @@
         <Index>0x4c</Index>
       </Texture>
     </RandomTexture>
-    <Portrait>
-      <AnimatedTexture>
-        <File>chars16x16rEncounters</File>
-        <Index>17</Index>
-      </AnimatedTexture>
-    </Portrait>
+    <Animation period="0" prob="1" id="spawn">
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>1</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>4</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>5</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>7</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>8</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>9</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>13</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>14</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>15</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>17</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>18</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>19</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>20</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>21</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>24</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>deadChurchObjects16x16</File>
+          <Index>25</Index>
+        </Texture>
+      </Frame>
+    </Animation>
     <AltTexture id="1">
       <AnimatedTexture>
-        <File>chars16x16rEncounters</File>
-        <Index>17</Index>
+        <File>deadChurchChars16x16</File>
+        <Index>0x3</Index>
       </AnimatedTexture>
       <Effect particle="SwirlingMist" cooldown="0.1">XMLEffect</Effect>
     </AltTexture>
     <AltTexture id="2">
       <AnimatedTexture>
-        <File>chars16x16rEncounters</File>
-        <Index>18</Index>
+        <File>deadChurchChars16x16</File>
+        <Index>0x4</Index>
       </AnimatedTexture>
     </AltTexture>
     <HitSound>monster/medusa_hit</HitSound>
@@ -1681,6 +1835,9 @@
     <KillStat stat="UndeadKills" />
     <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
     <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep id="spawn" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
@@ -2133,6 +2290,7 @@
     <Defense>15</Defense>
     <StasisImmune />
     <Hero />
+    <RealmScore>1000</RealmScore>
     <Quest />
     <Level>11</Level>
     <Exp>384</Exp>

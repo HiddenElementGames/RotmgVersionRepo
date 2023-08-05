@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0xc0bc" id="Kingdra">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>75</Index>
+    </AnimatedTexture>
+    <HitSound>monster/elves_death</HitSound>
+    <DeathSound>monster/night_elves_death</DeathSound>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Exp>80</Exp>
+    <BXP>380</BXP>
+    <Flying />
+    <Z>0.26</Z>
+    <ShadowSize>80</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Sea Horse Spinner</ObjectId>
+      <Speed>75</Speed>
+      <Damage>90</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="1.6">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Sea Horse Spinner</ObjectId>
+      <Speed>70</Speed>
+      <Damage>90</Damage>
+      <Size>80</Size>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Size>100</Size>
+    <Defense>20</Defense>
+    <Terrain>CoralReefs</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <RealmScore>10</RealmScore>
+  </Object>
+  <Object type="0xc0bd" id="Enchanted Turtle">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>146</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/cubes_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>Spinning Bubble</ObjectId>
+      <Speed>90</Speed>
+      <Damage>90</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Spinning Bubble</ObjectId>
+      <Speed>85</Speed>
+      <Damage>85</Damage>
+      <Size>90</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Spinning Bubble</ObjectId>
+      <Speed>80</Speed>
+      <Damage>80</Damage>
+      <Size>80</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Spinning Bubble</ObjectId>
+      <Speed>75</Speed>
+      <Damage>75</Damage>
+      <Size>70</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <Size>100</Size>
+    <MaxHitPoints>2500</MaxHitPoints>
+    <Defense>25</Defense>
+    <Terrain>CoralReefs</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <RealmScore>10</RealmScore>
+  </Object>
+  <Object type="0xc0be" id="Smelly Octopus">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>187</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/cubes_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>16</Defense>
+    <Terrain>CoralReefs</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <Projectile id="0">
+      <ObjectId>Ink Blot</ObjectId>
+      <Speed>25</Speed>
+      <Damage>40</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3200</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="1">Blind</ConditionEffect>
+    </Projectile>
+    <RealmScore>10</RealmScore>
+  </Object>
+  <Object type="0xc0bf" id="Narwhal">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>92</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/cubes_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>16</Defense>
+    <Terrain>CoralReefs</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <Projectile id="0">
+      <ObjectId>Bubble</ObjectId>
+      <Speed>50</Speed>
+      <Damage>100</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <RealmScore>10</RealmScore>
+  </Object>
+  <Object type="0xc0c0" id="Obese Walrus">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rPets1</File>
+      <Index>199</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/cubes_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>16</Defense>
+    <Terrain>CoralReefs</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <RealmScore>10</RealmScore>
+    <Projectile id="0">
+      <ObjectId>Yeti Snowball</ObjectId>
+      <Speed>70</Speed>
+      <Damage>80</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0xc2ed" id="Sunken Soul">
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>shipwreckCoveChars8x8</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flaming_skulls_hit</HitSound>
+    <DeathSound>monster/beholder_death</DeathSound>
+    <Size>80</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>30</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>ShipWreck</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Z>0.3</Z>
+    <Flying />
+    <Projectile id="0">
+      <ObjectId>Ghostly Arrow</ObjectId>
+      <Damage>50</Damage>
+      <Speed>85</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>50</Size>
+    </Projectile>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+  </Object>
+  <Object type="0xc2ee" id="Undead Pirate">
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>shipwreckCoveChars8x8</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flaming_skulls_hit</HitSound>
+    <DeathSound>monster/beholder_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>30</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>ShipWreck</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Projectile id="0">
+      <ObjectId>Ghost Sr Slash</ObjectId>
+      <Damage>100</Damage>
+      <Speed>85</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+  </Object>
+  <Object type="0xc2ef" id="Sea Hag">
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>shipwreckCoveChars8x8</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flaming_skulls_hit</HitSound>
+    <DeathSound>monster/beholder_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>30</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>ShipWreck</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Projectile id="0">
+      <ObjectId>Troll 3 Attack 1</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>80</Size>
+      <Wavy />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Nature Wave</ObjectId>
+      <Damage>150</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>125</Size>
+    </Projectile>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+  </Object>
+  <Object type="0xc2f0" id="Hag Whirlpool">
+    <Group>Hermit God Encounter</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <StasisImmune />
+    <ShadowSize>0</ShadowSize>
+    <Flying />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <HitSound>monster/djinn_hit</HitSound>
+    <DeathSound>monster/blobs_death</DeathSound>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Exp>0</Exp>
+    <Size>110</Size>
+    <Defense>0</Defense>
+    <Projectile id="0">
+      <ObjectId>Water Shot</ObjectId>
+      <Speed>45</Speed>
+      <Damage>50</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <KillStat stat="NatureKills" />
+  </Object>
+  <Object type="0xc2f1" id="Drowned Sailor">
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>shipwreckCoveChars8x8</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flaming_skulls_hit</HitSound>
+    <DeathSound>monster/beholder_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>30</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>ShipWreck</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Projectile id="0">
+      <ObjectId>Blade</ObjectId>
+      <Speed>75</Speed>
+      <Damage>50</Damage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>90</Size>
+    </Projectile>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+  </Object>
+  <Object type="0xc2f2" id="Ancient Water Elemental">
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>shipwreckCoveChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flaming_skulls_hit</HitSound>
+    <DeathSound>monster/beholder_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>30</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>ShipWreck</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Projectile id="0">
+      <ObjectId>Cyan Sprite Magic</ObjectId>
+      <Damage>100</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Amplitude>1</Amplitude>
+      <Frequency>1.3</Frequency>
+      <FaceDir />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Cyan Sprite Twirl</ObjectId>
+      <Damage>0</Damage>
+      <Speed>85</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+      <Boomerang />
+    </Projectile>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+  </Object>
+  <Object type="0xd105" id="Haunted Treasure Chest">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>shipwreckCoveChars8x8</File>
+      <Index>2</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>750</MaxHitPoints>
+    <Exp>75</Exp>
+    <Defense>2</Defense>
+    <Sound id="0">monster/wooden_walls_death</Sound>
+    <AltTexture id="1">
+      <Texture>
+        <File>spiderDenObjects8x8</File>
+        <Index>0x47</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>spiderDenObjects8x8</File>
+        <Index>0x4e</Index>
+      </Texture>
+    </AltTexture>
+    <Animation period="0" prob="1" id="awaken">
+      <Frame time="0.2">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0x46</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0x47</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0x48</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0x49</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0x4a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0x4b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0x4c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0x4d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0x4e</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="WakeAnim">
+        <StyleStep id="awaken" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x999a" id="Sirenova">
+    <DisplayId>Sirenova</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>shipwreckCoveChars8x8</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>0</Defense>
+    <XpMult>1.0</XpMult>
+    <Projectile id="0">
+      <ObjectId>Thunder Swirl</ObjectId>
+      <Speed>30</Speed>
+      <Damage>50</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="0.5">Confused</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Thunder Swirl</ObjectId>
+      <Speed>25</Speed>
+      <Damage>80</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="1">Paralyzed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0x999c" id="InvisibleMap">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0x999b" id="Siren Sailor">
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>33</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flaming_skulls_hit</HitSound>
+    <DeathSound>monster/beholder_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>30</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>ShipWreck</Terrain>
+    <Projectile id="0">
+      <ObjectId>Blade</ObjectId>
+      <Speed>75</Speed>
+      <Damage>50</Damage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>90</Size>
+    </Projectile>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+  </Object>
+  <Object type="0xc106" id="Zombie Cleric">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadChurchChars8x8</File>
+      <Index>0x1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Terrain>DeadChurch</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <RealmScore>10</RealmScore>
+    <Projectile id="0">
+      <ObjectId>Directed Explosion</ObjectId>
+      <Damage>100</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>50</Size>
+    </Projectile>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+  </Object>
+  <Object type="0xc107" id="Skeletal Crusader">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadChurchChars8x8</File>
+      <Index>0x3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Terrain>DeadChurch</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <RealmScore>10</RealmScore>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Group>Dead Church Mobs</Group>
+    <Projectile id="0">
+      <ObjectId>UDL White Slash</ObjectId>
+      <Damage>150</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+  </Object>
+  <Object type="0xc108" id="Revanent">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadChurchChars16x16</File>
+      <Index>0x1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghosts_hit</HitSound>
+    <DeathSound>monster/ghosts_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Terrain>DeadChurch</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <RealmScore>10</RealmScore>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Group>Dead Church Mobs</Group>
+    <Projectile id="0">
+      <ObjectId>UDL Purple Bolt</ObjectId>
+      <Damage>105</Damage>
+      <Speed>85</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+  </Object>
+  <Object type="0xc1db" id="Skeleton Worshipper">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadChurchChars8x8</File>
+      <Index>0x2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Terrain>DeadChurch</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <RealmScore>10</RealmScore>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Group>Dead Church Mobs</Group>
+    <Projectile id="0">
+      <ObjectId>Gold Flail Ball</ObjectId>
+      <Speed>110</Speed>
+      <Damage>100</Damage>
+      <LifetimeMS>800</LifetimeMS>
+      <Boomerang />
+      <MultiHit />
+      <ParticleTrail intensity="0.3" lifetimeMS="200">0x999999</ParticleTrail>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Steel Flail Chain</ObjectId>
+      <Speed>85</Speed>
+      <Damage>40</Damage>
+      <LifetimeMS>800</LifetimeMS>
+      <Boomerang />
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Steel Flail Chain</ObjectId>
+      <Speed>60</Speed>
+      <Damage>20</Damage>
+      <LifetimeMS>800</LifetimeMS>
+      <Boomerang />
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+  </Object>
+  <Object type="0xc1dc" id="Vampire Man">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadChurchChars8x8</File>
+      <Index>0x4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/cubes_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Terrain>DeadChurch</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <RealmScore>10</RealmScore>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Group>Dead Church Mobs</Group>
+    <Projectile id="0">
+      <ObjectId>Vampire Magic</ObjectId>
+      <Damage>120</Damage>
+      <Speed>85</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>80</Size>
+    </Projectile>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+  </Object>
+  <Object type="0xc1dd" id="Sickly Bat">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadChurchChars8x8</File>
+      <Index>0x5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/bats_hit</HitSound>
+    <DeathSound>monster/bats_death</DeathSound>
+    <MaxHitPoints>500</MaxHitPoints>
+    <Defense>15</Defense>
+    <Z>0.24</Z>
+    <Flying />
+    <Size>80</Size>
+    <ShadowSize>80</ShadowSize>
+    <Terrain>DeadChurch</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <RealmScore>10</RealmScore>
+    <Spawn>
+      <Mean>10</Mean>
+      <StdDev>3</StdDev>
+      <Min>7</Min>
+      <Max>13</Max>
+    </Spawn>
+    <Projectile id="0">
+      <ObjectId>Invisible</ObjectId>
+      <Damage>40</Damage>
+      <Speed>0</Speed>
+      <Size>80</Size>
+      <LifetimeMS>100</LifetimeMS>
+      <ConditionEffect duration="3.6">Confused</ConditionEffect>
+    </Projectile>
+    <Group>Dead Church Mobs</Group>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+  </Object>
+  <Object type="0xc1de" id="Ghostly Nun">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>deadChurchChars8x8</File>
+      <Index>0x6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>150</Size>
+    <MaxHitPoints>2500</MaxHitPoints>
+    <Defense>30</Defense>
+    <Terrain>DeadChurch</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <RealmScore>10</RealmScore>
+    <Group>Dead Church Mobs</Group>
+    <Projectile id="0">
+      <ObjectId>Headless Halberd</ObjectId>
+      <Damage>100</Damage>
+      <Speed>70</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Headless Halberd</ObjectId>
+      <Damage>130</Damage>
+      <Speed>55</Speed>
+      <Size>150</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Headless Harbinger</ObjectId>
+      <Damage>155</Damage>
+      <Speed>40</Speed>
+      <Size>135</Size>
+      <LifetimeMS>1333</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+  </Object>
+  <Object type="0xc1df" id="Court Jester">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0xbe</Index>
+    </Texture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/cubes_death</DeathSound>
+    <Size>80</Size>
+    <MaxHitPoints>70</MaxHitPoints>
+    <Defense>0</Defense>
+    <Terrain>Abandoned</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <RealmScore>10</RealmScore>
+  </Object>
+  <Object type="0xc1e1" id="Royal Gladiator">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0xbe</Index>
+    </Texture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/cubes_death</DeathSound>
+    <Size>80</Size>
+    <MaxHitPoints>70</MaxHitPoints>
+    <Defense>0</Defense>
+    <Terrain>Abandoned</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <RealmScore>10</RealmScore>
+  </Object>
+  <Object type="0xc1e2" id="Satyr">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0xbe</Index>
+    </Texture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/cubes_death</DeathSound>
+    <Size>80</Size>
+    <MaxHitPoints>70</MaxHitPoints>
+    <Defense>0</Defense>
+    <Terrain>Abandoned</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>4</Exp>
+    <BXP>19</BXP>
+    <RealmScore>10</RealmScore>
+  </Object>
+  <Object type="0x654" id="Medusa">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>Mountains</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Medusa Slash</ObjectId>
+      <Damage>100</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x656" id="Beholder">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>150</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/beholder_hit</HitSound>
+    <DeathSound>monster/beholder_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <BXP>534</BXP>
+    <Defense>12</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>Mountains</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>7</Max>
+    </Spawn>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>Beholder Gaze</ObjectId>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>120</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Sharp Pink Star</ObjectId>
+      <Damage>0</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="5">Blind</ConditionEffect>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x657" id="Flying Brain">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>100</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flying_brain_hit</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>356</BXP>
+    <Defense>12</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>Mountains</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>Flying Brain Cortex</ObjectId>
+      <Damage>50</Damage>
+      <Speed>120</Speed>
+      <LifetimeMS>1800</LifetimeMS>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x658" id="Slime God">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>100</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>356</BXP>
+    <Defense>12</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>Mountains</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <RealmScore>10</RealmScore>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Slime God Sludge</ObjectId>
+      <Damage>80</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>1100</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Sharp Green Star</ObjectId>
+      <Damage>0</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x4535" id="New White Demon">
+    <DisplayId>White Demon</DisplayId>
+    <Group>Greater Demons</Group>
+    <Enemy />
+    <Exp>100</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/greater_demons_hit</HitSound>
+    <DeathSound>monster/greater_demons_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>356</BXP>
+    <Defense>12</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>RisenHell</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>2</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>4</Max>
+    </Spawn>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>White Demon Spiral</ObjectId>
+      <Damage>45</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>60</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_WEAK</Labels>
+  </Object>
+  <Object type="0xc2e8" id="Flaming Skeleton">
+    <Group>Lair Skeletons</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>undeadLairChars8x8</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>500</MaxHitPoints>
+    <Defense>10</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>RisenHell</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>50</Exp>
+    <BXP>237</BXP>
+    <Projectile id="0">
+      <ObjectId>Big Fireball</ObjectId>
+      <Damage>40</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>600</LifetimeMS>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+  </Object>
+  <Object type="0xc2e9" id="Tormented Soul">
+    <DisplayId>Tormented Soul</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <RandomTexture>
+      <AnimatedTexture>
+        <File>theShattersChars8x8</File>
+        <Index>75</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>theShattersChars8x8</File>
+        <Index>76</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>theShattersChars8x8</File>
+        <Index>77</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>theShattersChars8x8</File>
+        <Index>78</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>theShattersChars8x8</File>
+        <Index>79</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>theShattersChars8x8</File>
+        <Index>80</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>theShattersChars8x8</File>
+        <Index>81</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>theShattersChars8x8</File>
+        <Index>82</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>theShattersChars8x8</File>
+        <Index>83</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>theShattersChars8x8</File>
+        <Index>84</Index>
+      </AnimatedTexture>
+    </RandomTexture>
+    <Size>100</Size>
+    <ShadowSize>70</ShadowSize>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>15</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>RisenHell</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>0</Exp>
+    <HitSound>monster/beholder_hit</HitSound>
+    <DeathSound>spell/magic_nova</DeathSound>
+    <Sound id="0">spell/magic_nova</Sound>
+    <KillStat stat="HumanoidKills" />
+    <Projectile id="0">
+      <ObjectId>King Shade Blast</ObjectId>
+      <Speed>100</Speed>
+      <Damage>50</Damage>
+      <LifetimeMS>600</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <ConditionEffect duration="3">Sick</ConditionEffect>
+    </Projectile>
+    <Labels>ENEMY,HUMANOID,SHATTERS</Labels>
+  </Object>
+  <Object type="0xc2ea" id="Harrowed Fiend">
+    <DisplayId>Harrowed Fiend</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>21</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>30</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>RisenHell</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>200</Exp>
+    <BXP>950</BXP>
+    <Size>100</Size>
+    <ShadowSize>60</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>HellHoundAttack</ObjectId>
+      <Damage>55</Damage>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="3.6">Bleeding</ConditionEffect>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,BEAST,MINION_WEAK</Labels>
+  </Object>
+  <Object type="0xc2eb" id="New Hellhound">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>21</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <MaxHitPoints>600</MaxHitPoints>
+    <Defense>30</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>RisenHell</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>200</Exp>
+    <BXP>950</BXP>
+    <Size>100</Size>
+    <ShadowSize>60</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Fire Claw</ObjectId>
+      <Damage>75</Damage>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="3.6">Bleeding</ConditionEffect>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,BEAST,MINION_WEAK</Labels>
+  </Object>
+  <Object type="0xc2ec" id="Abyssal Wyvern">
+    <Class>Character</Class>
+    <Size>100</Size>
+    <AnimatedTexture>
+      <File>chars16x16dMountains2</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/dragons_hit</HitSound>
+    <DeathSound>monster/dragons_death</DeathSound>
+    <MaxHitPoints>600</MaxHitPoints>
+    <Exp>160</Exp>
+    <BXP>760</BXP>
+    <RealmScore>10</RealmScore>
+    <Terrain>RisenHell</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Enemy />
+    <Projectile>
+      <ObjectId>Red Fire</ObjectId>
+      <Speed>70</Speed>
+      <Damage>60</Damage>
+      <Size>120</Size>
+      <LifetimeMS>2200</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="LesserGodKills" />
+    <Labels>ENEMY,MINION,BEAST,MINION_WEAK</Labels>
+  </Object>
+  <Object type="0x4544" id="New Sprite God">
+    <Enemy />
+    <Exp>195</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprite_god_hit</HitSound>
+    <DeathSound>monster/sprite_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>12</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>SpriteForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>Sprite God Bolt</ObjectId>
+      <Damage>100</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Sprite God Boomerang</ObjectId>
+      <Damage>0</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2400</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
+  </Object>
+  <Object type="0x4545" id="New Sprite Child">
+    <Enemy />
+    <Exp>5</Exp>
+    <Class>Character</Class>
+    <Texture>
+      <File>spiderDenObjects8x8</File>
+      <Index>0xda</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0xda</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0xdb</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0xdc</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0xdd</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0xde</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>spiderDenObjects8x8</File>
+          <Index>0xdf</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>75</Size>
+    <MaxHitPoints>50</MaxHitPoints>
+    <BXP>17</BXP>
+    <Defense>0</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>SpriteForest</Terrain>
+    <Flying />
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,NATURE,GOD,MINION_WEAK</Labels>
+  </Object>
+  <Object type="0x4546" id="Blazing Sprite">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprite_god_hit</HitSound>
+    <DeathSound>monster/sprite_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>12</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>SpriteForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>250</Exp>
+    <BXP>1187</BXP>
+    <Flying />
+    <God />
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Projectile id="6">
+      <ObjectId>Orange Sprite Magic</ObjectId>
+      <Damage>50</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Wavy />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Orange Sprite Twirl</ObjectId>
+      <Size>85</Size>
+      <Damage>0</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Orange Sprite Twirl</ObjectId>
+      <Size>85</Size>
+      <Damage>0</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Orange Sprite Twirl</ObjectId>
+      <Size>85</Size>
+      <Damage>0</Damage>
+      <Speed>95</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+    </Projectile>
+    <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
+  </Object>
+  <Object type="0x4547" id="Noxious Sprite">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars16x16</File>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprite_god_hit</HitSound>
+    <DeathSound>monster/sprite_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>12</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>SpriteForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>250</Exp>
+    <BXP>1187</BXP>
+    <Flying />
+    <God />
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Projectile id="0">
+      <ObjectId>Black Sprite Magic</ObjectId>
+      <Damage>100</Damage>
+      <Speed>80</Speed>
+      <Acceleration>-200</Acceleration>
+      <AccelerationDelay>1300</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Black Sprite Twirl</ObjectId>
+      <Damage>0</Damage>
+      <Speed>90</Speed>
+      <Acceleration>-400</Acceleration>
+      <AccelerationDelay>800</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>2400</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+    </Projectile>
+    <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
+  </Object>
+  <Object type="0x4548" id="Hazardous Sprite">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars16x16</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprite_god_hit</HitSound>
+    <DeathSound>monster/sprite_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>12</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>SpriteForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>250</Exp>
+    <BXP>1187</BXP>
+    <Flying />
+    <God />
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Projectile id="4">
+      <ObjectId>Blue Sprite Twirl</ObjectId>
+      <Damage>10</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="1.6">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Cyan Sprite Twirl</ObjectId>
+      <Damage>0</Damage>
+      <Speed>65</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+    </Projectile>
+    <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
+  </Object>
+  <Object type="0x4549" id="Corrupt Sprite">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars16x16</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprite_god_hit</HitSound>
+    <DeathSound>monster/sprite_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>12</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>SpriteForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>250</Exp>
+    <BXP>1187</BXP>
+    <Flying />
+    <God />
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Projectile id="2">
+      <ObjectId>Cyan Sprite Magic</ObjectId>
+      <Damage>90</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Amplitude>1</Amplitude>
+      <Frequency>1.3</Frequency>
+      <FaceDir />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Cyan Sprite Twirl</ObjectId>
+      <Damage>0</Damage>
+      <Speed>65</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+      <Boomerang />
+    </Projectile>
+    <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
+  </Object>
+  <Object type="0x454a" id="Evergreen Sprite">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>spriteWorldChars16x16</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/sprite_god_hit</HitSound>
+    <DeathSound>monster/sprite_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>12</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>SpriteForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>250</Exp>
+    <BXP>1187</BXP>
+    <Flying />
+    <God />
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Projectile id="10">
+      <ObjectId>Green Sprite Magic</ObjectId>
+      <Size>100</Size>
+      <Damage>120</Damage>
+      <Speed>0</Speed>
+      <Acceleration>200</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>95</SpeedClamp>
+      <LifetimeMS>1700</LifetimeMS>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Green Sprite Twirl</ObjectId>
+      <Damage>0</Damage>
+      <Speed>20</Speed>
+      <Acceleration>400</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>110</SpeedClamp>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+      <ParticleTrail />
+      <Boomerang />
+    </Projectile>
+    <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
+  </Object>
+  <Object type="0xc32f" id="Sprite Beast">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>21</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>30</Defense>
+    <RealmScore>10</RealmScore>
+    <Terrain>SpriteForest</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Exp>200</Exp>
+    <BXP>950</BXP>
+    <Size>100</Size>
+    <ShadowSize>60</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Blue Mystic Shot</ObjectId>
+      <Damage>85</Damage>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="1.0">Slowed</ConditionEffect>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,BEAST,MINION_WEAK</Labels>
+  </Object>
+</Objects>

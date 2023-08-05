@@ -678,6 +678,8 @@
   <PlayerStat id="InterregnumsCompleted" index="92" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Hidden Interregnum" />
   <PlayerStat id="KogboldSteamworksCompleted" index="94" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Kogbold Steamworks" />
   <PlayerStat id="MoonlightVillageCompleted" index="95" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Moonlight Village" />
+  <PlayerStat id="AdvancedKogboldSteamworksCompleted" index="96" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Advanced Kogbold Steamworks" />
+  <PlayerStat id="AdvancedNestsCompleted" index="97" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Advanced Nest" />
   <FameBonus id="Ancestor" code="1">
     <DisplayGroup>Stats Bonuses</DisplayGroup>
     <DisplayCategory>Special</DisplayCategory>
@@ -3938,6 +3940,100 @@
     <ShortDisplayName>Master {0}</ShortDisplayName>
     <MaxRepeatCount>20</MaxRepeatCount>
     <Condition stat="MoonlightVillageCompleted" threshold="100">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="AdvancedKogboldSteamworksScout" code="437">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Advanced Kogbold Steamworks</DisplayCategory>
+    <DisplayName>Advanced Kogbold Steamworks Scout</DisplayName>
+    <AbsoluteBonus>400</AbsoluteBonus>
+    <Description>Complete Advanced Kogbold Steamworks 1 time</Description>
+    <ShortDisplayName>Scout</ShortDisplayName>
+    <Condition stat="AdvancedKogboldSteamworksCompleted" threshold="1">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="AdvancedKogboldSteamworksExplorer" code="438">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Advanced Kogbold Steamworks</DisplayCategory>
+    <DisplayName>Advanced Kogbold Steamworks Explorer</DisplayName>
+    <AbsoluteBonus>800</AbsoluteBonus>
+    <Description>Complete Advanced Kogbold Steamworks 10 times</Description>
+    <ShortDisplayName>Explorer</ShortDisplayName>
+    <Condition stat="AdvancedKogboldSteamworksCompleted" threshold="10">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="AdvancedKogboldSteamworksAdventurer" code="439">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Advanced Kogbold Steamworks</DisplayCategory>
+    <DisplayName>Advanced Kogbold Steamworks Adventurer</DisplayName>
+    <AbsoluteBonus>1600</AbsoluteBonus>
+    <Description>Complete Advanced Kogbold Steamworks 20 times</Description>
+    <ShortDisplayName>Adventurer</ShortDisplayName>
+    <Condition stat="AdvancedKogboldSteamworksCompleted" threshold="20">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="AdvancedKogboldSteamworksConqueror" code="440">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Advanced Kogbold Steamworks</DisplayCategory>
+    <DisplayName>Advanced Kogbold Steamworks Conqueror</DisplayName>
+    <AbsoluteBonus>3200</AbsoluteBonus>
+    <Description>Complete Advanced Kogbold Steamworks 40 times</Description>
+    <ShortDisplayName>Conqueror</ShortDisplayName>
+    <Condition stat="AdvancedKogboldSteamworksCompleted" threshold="40">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="AdvancedKogboldSteamworksMaster" code="441">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Advanced Kogbold Steamworks</DisplayCategory>
+    <DisplayName>Advanced Kogbold Steamworks Master {0}</DisplayName>
+    <Repeatable>true</Repeatable>
+    <AbsoluteBonus>8000</AbsoluteBonus>
+    <Description>Complete Advanced Kogbold Steamworks 100 times</Description>
+    <ShortDisplayName>Master {0}</ShortDisplayName>
+    <MaxRepeatCount>20</MaxRepeatCount>
+    <Condition stat="AdvancedKogboldSteamworksCompleted" threshold="100">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="AdvancedNestScout" code="287">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Advanced Nest</DisplayCategory>
+    <DisplayName>Advanced Nest Scout</DisplayName>
+    <AbsoluteBonus>200</AbsoluteBonus>
+    <Description>Complete Advanced Nest 1 time</Description>
+    <ShortDisplayName>Scout</ShortDisplayName>
+    <Condition stat="AdvancedNestsCompleted" threshold="1">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="AdvancedNestExplorer" code="288">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Advanced Nest</DisplayCategory>
+    <DisplayName>Advanced Nest Explorer</DisplayName>
+    <AbsoluteBonus>400</AbsoluteBonus>
+    <Description>Complete Advanced Nest 10 times</Description>
+    <ShortDisplayName>Explorer</ShortDisplayName>
+    <Condition stat="AdvancedNestsCompleted" threshold="10">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="AdvancedNestAdventurer" code="289">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Advanced Nest</DisplayCategory>
+    <DisplayName>Advanced Nest Adventurer</DisplayName>
+    <AbsoluteBonus>800</AbsoluteBonus>
+    <Description>Complete Advanced Nest 20 times</Description>
+    <ShortDisplayName>Adventurer</ShortDisplayName>
+    <Condition stat="AdvancedNestsCompleted" threshold="20">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="AdvancedNestConqueror" code="290">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Advanced Nest</DisplayCategory>
+    <DisplayName>Advanced Nest Conqueror</DisplayName>
+    <AbsoluteBonus>1600</AbsoluteBonus>
+    <Description>Complete Advanced Nest 40 times</Description>
+    <ShortDisplayName>Conqueror</ShortDisplayName>
+    <Condition stat="AdvancedNestsCompleted" threshold="40">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="AdvancedNestMaster" code="291">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Advanced Nest</DisplayCategory>
+    <DisplayName>Advanced Nest Master {0}</DisplayName>
+    <Repeatable>true</Repeatable>
+    <AbsoluteBonus>4000</AbsoluteBonus>
+    <Description>Complete Advanced Nest 100 times</Description>
+    <ShortDisplayName>Master {0}</ShortDisplayName>
+    <MaxRepeatCount>20</MaxRepeatCount>
+    <Condition stat="AdvancedNestsCompleted" threshold="100">StatValue</Condition>
   </FameBonus>
   <FameBonus id="Oryx'sCastleScout" code="317">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>

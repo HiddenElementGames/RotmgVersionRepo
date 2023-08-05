@@ -31,33 +31,51 @@
       </Frame>
     </Animation>
   </Object>
-  <Object type="0x7070" id="Steamworks 11">
+  <Object type="0x7096" id="Advanced Kogbold Steamworks Portal">
     <Class>Portal</Class>
     <IntergamePortal />
     <DungeonPortal />
-    <DungeonName>Steam Test Map</DungeonName>
-    <DisplayId>Steam Test Map</DisplayId>
+    <DungeonName>Advanced Kogbold Steamworks</DungeonName>
+    <DisplayId>Advanced Kogbold Steamworks</DisplayId>
     <Texture>
       <File>steamworksObjects16x16</File>
-      <Index>42</Index>
+      <Index>180</Index>
     </Texture>
     <Animation prob="1">
       <Frame time="0.1">
         <Texture>
           <File>steamworksObjects16x16</File>
-          <Index>42</Index>
+          <Index>180</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>steamworksObjects16x16</File>
-          <Index>43</Index>
+          <Index>181</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>steamworksObjects16x16</File>
-          <Index>44</Index>
+          <Index>182</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>steamworksObjects16x16</File>
+          <Index>183</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>steamworksObjects16x16</File>
+          <Index>184</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>steamworksObjects16x16</File>
+          <Index>185</Index>
         </Texture>
       </Frame>
     </Animation>
@@ -5219,10 +5237,91 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
+    <Projectile id="61">
+      <ObjectId>KSW Yellow Arrow</ObjectId>
+      <Damage>35</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>5</Acceleration>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="62">
+      <ObjectId>KSW Yellow Arrow</ObjectId>
+      <Damage>35</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="63">
+      <ObjectId>KSW Yellow Arrow</ObjectId>
+      <Damage>35</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="64">
+      <ObjectId>KSW Yellow Arrow</ObjectId>
+      <Damage>35</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="65">
+      <ObjectId>KSW Red Arrow</ObjectId>
+      <Damage>45</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>5</Acceleration>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="66">
+      <ObjectId>KSW Red Arrow</ObjectId>
+      <Damage>45</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="67">
+      <ObjectId>KSW Red Arrow</ObjectId>
+      <Damage>45</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="68">
+      <ObjectId>KSW Red Arrow</ObjectId>
+      <Damage>45</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
     <KillStat stat="ConstructKills" />
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,HPSCALEONENTRY,STGEMDROP</Labels>
-    <SoulboundDust threshold="0.002" prob="1" dustMin="125" dustMax="175" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SpecialSpawn category="Bis">Kogbold Steamworks Portal</SpecialSpawn>
+    <SoulboundDust threshold="0.002" prob="0.38462" dustMin="34" dustMax="45" seasonalBonus="0.15" minLevel="10" maxLevel="10">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.465" dustMin="21" dustMax="28" seasonalBonus="0.15" minLevel="8" maxLevel="8">greenDust</SoulboundDust>
+    <SpecialSpawn category="Bis">Steamworks Portal Spawner</SpecialSpawn>
     <SpecialSpawn category="Chef">Double Cheeseburger Deluxe</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Automaton Egg</SpecialSpawn>
     <SpecialSpawn category="Generous">Steampunk Quest Chest Item</SpecialSpawn>
@@ -5242,7 +5341,7 @@
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
     <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
     <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
-    <SpecialSpawn category="SteamworksEncore">Kogbold Steamworks Portal</SpecialSpawn>
+    <SpecialSpawn category="SteamworksEncore">Steamworks Portal Spawner</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep id="p1Idle">SetAnimation</StyleStep>
@@ -5279,17 +5378,62 @@
       </Style>
     </Presentation>
   </Object>
+  <Object type="0x3890" id="Hardmode Target Helper">
+    <Enemy />
+    <Class>Character</Class>
+    <HitSound>monster/orcs_hit</HitSound>
+    <DeathSound>monster/orcs_death</DeathSound>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoCollisionWhenMovement />
+    <Invincible />
+    <NoMiniMap />
+  </Object>
+  <Object type="0x799a" id="Steamworks Hardmode Loot">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>251</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Exp>10</Exp>
+    <Invincible />
+    <TrackLoot />
+  </Object>
+  <Object type="0x7070" id="Steamworks Portal Spawner">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Exp>10</Exp>
+    <Invincible />
+  </Object>
   <Object type="0x7276" id="Laser Object Right">
     <Enemy />
     <Class>Character</Class>
     <HitSound>monster/orcs_hit</HitSound>
     <DeathSound>monster/orcs_death</DeathSound>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>steamworksChars8x8</File>
+      <Index>3</Index>
+    </AnimatedTexture>
     <Size>100</Size>
     <NoCollisionWhenMovement />
+    <DisplayId>Factory Control Core</DisplayId>
     <Invincible />
     <Projectile id="40">
       <ObjectId>InvisibleLaser</ObjectId>
@@ -5297,7 +5441,40 @@
       <Damage>150</Damage>
       <Speed>0</Speed>
       <LifetimeMS>200</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="41">
+      <ObjectId>InvisibleLaser</ObjectId>
+      <Laser>40</Laser>
+      <Damage>0</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>200</LifetimeMS>
       <Size>120</Size>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x7277" id="Laser Object 45">
+    <Enemy />
+    <Class>Character</Class>
+    <HitSound>monster/orcs_hit</HitSound>
+    <DeathSound>monster/orcs_death</DeathSound>
+    <AnimatedTexture>
+      <File>steamworksChars8x8</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <NoCollisionWhenMovement />
+    <DisplayId>Factory Control Core</DisplayId>
+    <Invincible />
+    <Projectile id="40">
+      <ObjectId>InvisibleLaser</ObjectId>
+      <Laser>40</Laser>
+      <Damage>150</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>200</LifetimeMS>
+      <Size>100</Size>
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
@@ -5311,17 +5488,18 @@
       <MultiHit />
     </Projectile>
   </Object>
-  <Object type="0x7277" id="Laser Object Left">
+  <Object type="0x7278" id="Laser Object 135">
     <Enemy />
     <Class>Character</Class>
     <HitSound>monster/orcs_hit</HitSound>
     <DeathSound>monster/orcs_death</DeathSound>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>steamworksChars8x8</File>
+      <Index>3</Index>
+    </AnimatedTexture>
     <Size>100</Size>
     <NoCollisionWhenMovement />
+    <DisplayId>Factory Control Core</DisplayId>
     <Invincible />
     <Projectile id="40">
       <ObjectId>InvisibleLaser</ObjectId>
@@ -5329,39 +5507,7 @@
       <Damage>150</Damage>
       <Speed>0</Speed>
       <LifetimeMS>200</LifetimeMS>
-      <Size>120</Size>
-      <ArmorPiercing />
-      <MultiHit />
-    </Projectile>
-    <Projectile id="41">
-      <ObjectId>InvisibleLaser</ObjectId>
-      <Laser>40</Laser>
-      <Damage>0</Damage>
-      <Speed>0</Speed>
-      <LifetimeMS>200</LifetimeMS>
-      <Size>150</Size>
-      <MultiHit />
-    </Projectile>
-  </Object>
-  <Object type="0x7278" id="Laser Object Up">
-    <Enemy />
-    <Class>Character</Class>
-    <HitSound>monster/orcs_hit</HitSound>
-    <DeathSound>monster/orcs_death</DeathSound>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <Size>100</Size>
-    <NoCollisionWhenMovement />
-    <Invincible />
-    <Projectile id="40">
-      <ObjectId>InvisibleLaser</ObjectId>
-      <Laser>40</Laser>
-      <Damage>150</Damage>
-      <Speed>0</Speed>
-      <LifetimeMS>200</LifetimeMS>
-      <Size>120</Size>
+      <Size>100</Size>
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
@@ -5380,12 +5526,13 @@
     <Class>Character</Class>
     <HitSound>monster/orcs_hit</HitSound>
     <DeathSound>monster/orcs_death</DeathSound>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>steamworksChars8x8</File>
+      <Index>3</Index>
+    </AnimatedTexture>
     <Size>100</Size>
     <NoCollisionWhenMovement />
+    <DisplayId>Factory Control Core</DisplayId>
     <Invincible />
     <Projectile id="40">
       <ObjectId>InvisibleLaser</ObjectId>
@@ -5393,7 +5540,7 @@
       <Damage>150</Damage>
       <Speed>0</Speed>
       <LifetimeMS>200</LifetimeMS>
-      <Size>120</Size>
+      <Size>100</Size>
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
@@ -5417,8 +5564,25 @@
       <Index>0</Index>
     </Texture>
     <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
     <NoCollisionWhenMovement />
     <Invincible />
+    <NoMiniMap />
+  </Object>
+  <Object type="0x7b99" id="Circles Anchor 2">
+    <Enemy />
+    <Class>Character</Class>
+    <HitSound>monster/orcs_hit</HitSound>
+    <DeathSound>monster/orcs_death</DeathSound>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoCollisionWhenMovement />
+    <Invincible />
+    <NoMiniMap />
   </Object>
   <Object type="0x7286" id="HardmodeBots">
     <Enemy />
@@ -5461,6 +5625,7 @@
     <DeathSound>monster/orcs_death</DeathSound>
     <Size>160</Size>
     <NoCollisionWhenMovement />
+    <DisplayId>Factory Defense Drone</DisplayId>
     <ParalyzeImmune />
     <StasisImmune />
     <StunImmune />
@@ -5469,7 +5634,38 @@
     <Projectile id="1">
       <ObjectId>KSW Fire Ball</ObjectId>
       <Speed>45</Speed>
-      <Damage>70</Damage>
+      <Damage>50</Damage>
+      <LifetimeMS>1400</LifetimeMS>
+      <Size>120</Size>
+      <ArmorPiercing />
+      <MultiHit />
+      <ConditionEffect duration="3">Sick</ConditionEffect>
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
+    <Invincible />
+  </Object>
+  <Object type="0x7b9a" id="HardmodeBots Orbit 2">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>steamworksChars8x8</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/orcs_hit</HitSound>
+    <DeathSound>monster/orcs_death</DeathSound>
+    <Size>160</Size>
+    <DisplayId>Factory Defense Drone</DisplayId>
+    <NoCollisionWhenMovement />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <Projectile id="1">
+      <ObjectId>KSW Fire Ball</ObjectId>
+      <Speed>45</Speed>
+      <Damage>50</Damage>
       <LifetimeMS>1400</LifetimeMS>
       <Size>120</Size>
       <ArmorPiercing />
@@ -7305,28 +7501,6 @@
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
-    <Projectile id="9">
-      <ObjectId>steamworks Fire Shield</ObjectId>
-      <Damage>150</Damage>
-      <TurnRateDelay>0</TurnRateDelay>
-      <CircleTurnAngle>90</CircleTurnAngle>
-      <CircleTurnDelay>600</CircleTurnDelay>
-      <FaceDir />
-      <ProtectFromSink />
-      <MultiHit />
-      <PassesCover />
-    </Projectile>
-    <Projectile id="10">
-      <ObjectId>steamworks Fire Shield</ObjectId>
-      <Damage>150</Damage>
-      <TurnRateDelay>0</TurnRateDelay>
-      <CircleTurnAngle>-90</CircleTurnAngle>
-      <CircleTurnDelay>600</CircleTurnDelay>
-      <FaceDir />
-      <ProtectFromSink />
-      <MultiHit />
-      <PassesCover />
-    </Projectile>
     <Labels>ENEMY,MINIBOSS,STASISIMMUNE,QUEST,TRACKLOOT</Labels>
   </Object>
   <Object type="0xc4ac" id="KSW Mini Missile">
@@ -7471,6 +7645,7 @@
       <Index>0</Index>
     </Texture>
     <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
   </Object>
   <Object type="0xc479" id="KSW Note 1">
     <Class>InteractiveInfoObject</Class>
@@ -10252,7 +10427,7 @@
   </Object>
   <Object type="0xd1c7" id="KSW Overseer Serpent Head">
     <Enemy />
-    <Group>Kogbolds</Group>
+    <Group>KogboldsHard</Group>
     <Class>Character</Class>
     <DisplayId>Kogbold Master Overseer</DisplayId>
     <AnimatedTexture>
@@ -10486,7 +10661,7 @@
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
   <Object type="0xd1cd" id="KSW Battlesmith Hard">
-    <Group>Kogbolds</Group>
+    <Group>KogboldsHard</Group>
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Kogbold Battlesmith</DisplayId>
@@ -10656,7 +10831,7 @@
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
   <Object type="0xd1ce" id="KSW Tinkerer Turret Active">
-    <Group>Kogbolds</Group>
+    <Group>KogboldsHard</Group>
     <Enemy />
     <Class>Character</Class>
     <MaxHitPoints>9000</MaxHitPoints>
@@ -10683,7 +10858,7 @@
   </Object>
   <Object type="0xd1cf" id="KSW Worker Hard">
     <Enemy />
-    <Group>Kogbolds</Group>
+    <Group>KogboldsHard</Group>
     <Class>Character</Class>
     <DisplayId>Kogbold Worker</DisplayId>
     <AnimatedTexture>
@@ -10867,6 +11042,103 @@
       <MultiHit />
       <ConditionEffect duration="3">Stunned</ConditionEffect>
       <ConditionEffect duration="3">Confused</ConditionEffect>
+    </Projectile>
+    <KillStat stat="CONSTRUCTKills" />
+    <Labels>ENEMY,MINION,CONSTRUCT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xc458" id="KSW Stemwalker Hard">
+    <Group>KogboldsHard</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Kogbold Steamwalker</DisplayId>
+    <AnimatedTexture>
+      <File>steamworksChars32x32</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>7525</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>1180</Exp>
+    <BXP>5900</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <Projectile id="0">
+      <ObjectId>steamworks Water Ball</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <TurnRate>-45</TurnRate>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>steamworks Fire Ball</ObjectId>
+      <Damage>95</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <ArmorPiercing />
+      <TurnRate>45</TurnRate>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>steamworks Water Ball</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>steamworks Fire Ball</ObjectId>
+      <Damage>95</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <ArmorPiercing />
+      <TurnRate>90</TurnRate>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>steamworks Thin Water Bolt</ObjectId>
+      <Damage>145</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>steamworks Water Ball</ObjectId>
+      <Damage>135</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <TurnRate>-45</TurnRate>
+      <Size>110</Size>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>steamworks Fire Ball</ObjectId>
+      <Damage>105</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <ArmorPiercing />
+      <TurnRate>45</TurnRate>
+      <Size>110</Size>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>steamworks Thin Water Bolt</ObjectId>
+      <Damage>160</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>steamworks Fire Ball</ObjectId>
+      <Damage>45</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <ArmorPiercing />
+      <TurnRate>45</TurnRate>
+      <Size>110</Size>
     </Projectile>
     <KillStat stat="CONSTRUCTKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_STRONG</Labels>

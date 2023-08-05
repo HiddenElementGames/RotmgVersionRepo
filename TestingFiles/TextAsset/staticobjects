@@ -13,6 +13,7 @@
     <SizeStep>5</SizeStep>
     <Static />
     <OccupySquare />
+    <StaticSpawn region="LowForest,MidForest" prob="0.075" />
   </Object>
   <Object type="0x0101" id="Tree B">
     <Class>GameObject</Class>
@@ -27,6 +28,7 @@
     <SizeStep>5</SizeStep>
     <Static />
     <OccupySquare />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.0375" />
   </Object>
   <Object type="0x0102" id="Tree Leafless">
     <Class>GameObject</Class>
@@ -40,6 +42,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.0075" />
     <OccupySquare />
   </Object>
   <Object type="0x0103" id="Tree Dead">
@@ -54,6 +57,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.00375" />
     <OccupySquare />
   </Object>
   <Object type="0x0104" id="Tree Jungle">
@@ -69,6 +73,7 @@
     <SizeStep>5</SizeStep>
     <Static />
     <OccupySquare />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.125" />
   </Object>
   <Object type="0x0105" id="Bush">
     <Class>GameObject</Class>
@@ -78,6 +83,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x0106" id="Shrub">
     <Class>GameObject</Class>
@@ -87,6 +93,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x0107" id="Rock Grey">
     <Class>GameObject</Class>
@@ -95,6 +102,7 @@
       <Index>0x59</Index>
     </Texture>
     <Size>0</Size>
+    <StaticSpawn region="Mountains" prob="0.030" />
   </Object>
   <Object type="0xc042" id="Rock Grey Legacy">
     <Class>GameObject</Class>
@@ -181,6 +189,7 @@
     <DeathSound>monster/rocks_death</DeathSound>
     <Static />
     <OccupySquare />
+    <StaticSpawn region="MidForest,HighForest" prob="0.030" />
   </Object>
   <Object type="0x0109" id="Small Mushroom">
     <Class>GameObject</Class>
@@ -190,6 +199,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest" prob="0.040" />
   </Object>
   <Object type="0x010a" id="Tree Stump">
     <Class>GameObject</Class>
@@ -225,6 +235,7 @@
       <Index>0x6d</Index>
     </Texture>
     <Static />
+    <StaticSpawn region="LowForest" prob="0.020" />
   </Object>
   <Object type="0x0111" id="White Flowers">
     <Class>GameObject</Class>
@@ -234,6 +245,7 @@
     </Texture>
     <DrawOnGround />
     <Static />
+    <StaticSpawn region="MidForest" prob="0.060" />
   </Object>
   <Object type="0x0112" id="Pink Flowers">
     <Class>GameObject</Class>
@@ -243,6 +255,7 @@
     </Texture>
     <DrawOnGround />
     <Static />
+    <StaticSpawn region="LowForest,MidForest" prob="0.010" />
   </Object>
   <Object type="0x0113" id="Large Lilypads">
     <Class>GameObject</Class>
@@ -252,6 +265,7 @@
     </Texture>
     <DrawOnGround />
     <Static />
+    <StaticSpawn region="LowOcean" prob="0.02" />
   </Object>
   <Object type="0x0114" id="Small Lilypads">
     <Class>GameObject</Class>
@@ -261,6 +275,7 @@
     </Texture>
     <DrawOnGround />
     <Static />
+    <StaticSpawn region="LowOcean" prob="0.02" />
   </Object>
   <Object type="0x0120" id="Grey Wall">
     <Class>Wall</Class>
@@ -897,6 +912,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.010" />
     <OccupySquare />
   </Object>
   <Object type="0x0186" id="Fir Tree 2">
@@ -909,6 +925,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.030" />
     <OccupySquare />
   </Object>
   <Object type="0x0187" id="Fir Tree 3">
@@ -921,6 +938,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.030" />
     <OccupySquare />
   </Object>
   <Object type="0x0188" id="Small Fir Tree 1">
@@ -934,6 +952,7 @@
     <SizeStep>5</SizeStep>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.010" />
     <OccupySquare />
   </Object>
   <Object type="0x0189" id="Small Fir Tree 2">
@@ -947,6 +966,7 @@
     <SizeStep>5</SizeStep>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.010" />
     <OccupySquare />
   </Object>
   <Object type="0x018a" id="Dead Fir Tree 1">
@@ -959,6 +979,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.005" />
     <OccupySquare />
   </Object>
   <Object type="0x018b" id="Dead Fir Tree 2">
@@ -971,6 +992,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.005" />
     <OccupySquare />
   </Object>
   <Object type="0x018c" id="Dead Fir Tree 3">
@@ -983,6 +1005,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.005" />
     <OccupySquare />
   </Object>
   <Object type="0x018d" id="Dead Fir Tree 4">
@@ -995,6 +1018,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.005" />
     <OccupySquare />
   </Object>
   <Object type="0x018e" id="Palm Tree">
@@ -1095,6 +1119,7 @@
     <SizeStep>5</SizeStep>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.010" />
     <OccupySquare />
   </Object>
   <Object type="0x0198" id="Saguaro Cactus 2">
@@ -1107,6 +1132,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <ShadowSize>75</ShadowSize>
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.010" />
     <Static />
     <OccupySquare />
   </Object>
@@ -1121,6 +1147,7 @@
     <SizeStep>5</SizeStep>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.010" />
     <OccupySquare />
   </Object>
   <Object type="0x019a" id="Small Saguaro Cactus 1">
@@ -1134,6 +1161,7 @@
     <SizeStep>5</SizeStep>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.010" />
     <OccupySquare />
   </Object>
   <Object type="0x019b" id="Small Saguaro Cactus 2">
@@ -1147,6 +1175,7 @@
     <SizeStep>5</SizeStep>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.010" />
     <OccupySquare />
   </Object>
   <Object type="0x019c" id="Prickly Pear Cactus 1">
@@ -1159,6 +1188,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.010" />
     <OccupySquare />
   </Object>
   <Object type="0x019d" id="Prickly Pear Cactus 2">
@@ -1171,6 +1201,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.010" />
     <OccupySquare />
   </Object>
   <Object type="0x019e" id="Succulent Plant 1">
@@ -1183,6 +1214,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.010" />
     <OccupySquare />
   </Object>
   <Object type="0x019f" id="Succulent Plant 2">
@@ -1195,6 +1227,7 @@
     <MaxSize>160</MaxSize>
     <SizeStep>5</SizeStep>
     <Static />
+    <StaticSpawn region="LowSand,MidSand,HighSand" prob="0.010" />
     <OccupySquare />
   </Object>
   <Object type="0x01a0" id="Large Green Bush">
@@ -1205,6 +1238,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a1" id="Green Bush 1">
     <Class>GameObject</Class>
@@ -1214,6 +1248,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a2" id="Green Bush 2">
     <Class>GameObject</Class>
@@ -1223,6 +1258,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a3" id="Green Bush 3">
     <Class>GameObject</Class>
@@ -1232,6 +1268,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a4" id="Green Bush 4">
     <Class>GameObject</Class>
@@ -1241,6 +1278,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a5" id="Green Bush 5">
     <Class>GameObject</Class>
@@ -1250,6 +1288,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a6" id="Green Bush 6">
     <Class>GameObject</Class>
@@ -1259,6 +1298,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a7" id="Green Bush 7">
     <Class>GameObject</Class>
@@ -1268,6 +1308,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a8" id="Green Bush 8">
     <Class>GameObject</Class>
@@ -1277,6 +1318,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01a9" id="Large Light Green Bush">
     <Class>GameObject</Class>
@@ -1286,6 +1328,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01aa" id="Light Green Bush 1">
     <Class>GameObject</Class>
@@ -1295,6 +1338,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01ab" id="Light Green Bush 2">
     <Class>GameObject</Class>
@@ -1304,6 +1348,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01ac" id="Light Green Bush 3">
     <Class>GameObject</Class>
@@ -1313,6 +1358,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01ad" id="Light Green Bush 4">
     <Class>GameObject</Class>
@@ -1322,6 +1368,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01ae" id="Light Green Bush 5">
     <Class>GameObject</Class>
@@ -1331,6 +1378,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01af" id="Light Green Bush 6">
     <Class>GameObject</Class>
@@ -1340,6 +1388,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01b0" id="Light Green Bush 7">
     <Class>GameObject</Class>
@@ -1349,6 +1398,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01b1" id="Light Green Bush 8">
     <Class>GameObject</Class>
@@ -1358,6 +1408,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="LowForest,MidForest,HighForest" prob="0.005" />
   </Object>
   <Object type="0x01b2" id="Large Yellow Bush">
     <Class>GameObject</Class>
@@ -1367,6 +1418,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.005" />
   </Object>
   <Object type="0x01b3" id="Yellow Bush 1">
     <Class>GameObject</Class>
@@ -1376,6 +1428,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.005" />
   </Object>
   <Object type="0x01b4" id="Yellow Bush 2">
     <Class>GameObject</Class>
@@ -1385,6 +1438,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.005" />
   </Object>
   <Object type="0x01b5" id="Yellow Bush 3">
     <Class>GameObject</Class>
@@ -1394,6 +1448,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.005" />
   </Object>
   <Object type="0x01b6" id="Yellow Bush 4">
     <Class>GameObject</Class>
@@ -1403,6 +1458,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.005" />
   </Object>
   <Object type="0x01b7" id="Yellow Bush 5">
     <Class>GameObject</Class>
@@ -1412,6 +1468,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.005" />
   </Object>
   <Object type="0x01b8" id="Yellow Bush 6">
     <Class>GameObject</Class>
@@ -1421,6 +1478,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.005" />
   </Object>
   <Object type="0x01b9" id="Yellow Bush 7">
     <Class>GameObject</Class>
@@ -1430,6 +1488,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.005" />
   </Object>
   <Object type="0x01ba" id="Yellow Bush 8">
     <Class>GameObject</Class>
@@ -1439,6 +1498,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.005" />
   </Object>
   <Object type="0x01bb" id="Large Dead Bush">
     <Class>GameObject</Class>
@@ -1448,6 +1508,7 @@
     </Texture>
     <ShadowSize>75</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.001" />
   </Object>
   <Object type="0x01bc" id="Dead Bush 1">
     <Class>GameObject</Class>
@@ -1457,6 +1518,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.001" />
   </Object>
   <Object type="0x01bd" id="Dead Bush 2">
     <Class>GameObject</Class>
@@ -1466,6 +1528,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.001" />
   </Object>
   <Object type="0x01be" id="Dead Bush 3">
     <Class>GameObject</Class>
@@ -1475,6 +1538,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.001" />
   </Object>
   <Object type="0x01bf" id="Dead Bush 4">
     <Class>GameObject</Class>
@@ -1484,6 +1548,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.001" />
   </Object>
   <Object type="0x01c0" id="Dead Bush 5">
     <Class>GameObject</Class>
@@ -1493,6 +1558,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.001" />
   </Object>
   <Object type="0x01c1" id="Dead Bush 6">
     <Class>GameObject</Class>
@@ -1502,6 +1568,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.001" />
   </Object>
   <Object type="0x01c2" id="Dead Bush 7">
     <Class>GameObject</Class>
@@ -1511,6 +1578,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.001" />
   </Object>
   <Object type="0x01c3" id="Dead Bush 8">
     <Class>GameObject</Class>
@@ -1520,6 +1588,7 @@
     </Texture>
     <ShadowSize>50</ShadowSize>
     <Static />
+    <StaticSpawn region="HighForest,HighPlains" prob="0.001" />
   </Object>
   <Object type="0x01c4" id="Road Marker">
     <Class>GameObject</Class>
@@ -8963,5 +9032,520 @@
     <NoMiniMap />
     <Static />
     <OccupySquare />
+  </Object>
+  <Object type="0xc1eb" id="Low Forest Beacon 1">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Difficulty>0</Difficulty>
+    <Size>100</Size>
+    <StaticSpawn region="LowForest" prob="0.0005" />
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1ec" id="Mid Forest Beacon 1">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Difficulty>2</Difficulty>
+    <Size>100</Size>
+    <StaticSpawn region="MidForest" prob="0.0005" />
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1ed" id="High Forest Beacon 1">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Difficulty>3</Difficulty>
+    <Size>100</Size>
+    <StaticSpawn region="HighForest" prob="0.0005" />
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1ee" id="Low Plains Beacon 1">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Difficulty>0</Difficulty>
+    <Size>100</Size>
+    <StaticSpawn region="LowPlains" prob="0.0005" />
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1ef" id="Mid Plains Beacon 1">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Difficulty>2</Difficulty>
+    <Size>100</Size>
+    <StaticSpawn region="MidPlains" prob="0.0005" />
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1f8" id="High Plains Beacon 1">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Difficulty>3</Difficulty>
+    <Size>100</Size>
+    <StaticSpawn region="HighPlains" prob="0.0005" />
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1f9" id="Low Sand Beacon 1">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Difficulty>0</Difficulty>
+    <Size>100</Size>
+    <StaticSpawn region="LowSand" prob="0.0005" />
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1fa" id="Mid Sand Beacon 1">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Difficulty>2</Difficulty>
+    <Size>100</Size>
+    <StaticSpawn region="MidSand" prob="0.0005" />
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object type="0xc1fb" id="High Sand Beacon 1">
+    <Beacon />
+    <Class>Beacon</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>142</Index>
+    </AnimatedTexture>
+    <Difficulty>3</Difficulty>
+    <Size>100</Size>
+    <StaticSpawn region="HighSand" prob="0.0005" />
+    <Labels>MOUNTAINS,BEACON</Labels>
+  </Object>
+  <Object id="Deep Sea Geyser" type="0xc23d">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deepSeaObjects8x8</File>
+      <Index>31</Index>
+    </Texture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <MinSize>130</MinSize>
+    <MaxSize>160</MaxSize>
+    <SizeStep>5</SizeStep>
+    <Static />
+    <StaticSpawn region="DeepSea" prob="0.0015" />
+    <DrawOnGround />
+  </Object>
+  <Object id="Deep Sea Bones" type="0xc23e">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deepSeaObjects8x8</File>
+      <Index>32</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>deepSeaObjects8x8</File>
+        <Index>32</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects8x8</File>
+        <Index>33</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects8x8</File>
+        <Index>34</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects8x8</File>
+        <Index>35</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <MinSize>130</MinSize>
+    <MaxSize>160</MaxSize>
+    <SizeStep>5</SizeStep>
+    <StaticSpawn region="DeepSea" prob="0.015" />
+    <Static />
+  </Object>
+  <Object id="Deep Sea Large Geyser" type="0xc243">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deepSeaObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>1</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <Static />
+    <StaticSpawn region="DeepSea" prob="0.001" />
+  </Object>
+  <Object id="Deep Sea Large Bones" type="0xc244">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deepSeaObjects8x8</File>
+      <Index>2</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>2</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>3</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>4</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>5</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>6</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <Static />
+    <StaticSpawn region="DeepSea" prob="0.001" />
+  </Object>
+  <Object id="Deep Sea Large Dead Coral" type="0xc245">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deepSeaObjects8x8</File>
+      <Index>7</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>7</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>8</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>9</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <Static />
+    <StaticSpawn region="DeepSea" prob="0.001" />
+  </Object>
+  <Object id="Deep Sea Mushroom" type="0xc246">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deepSeaObjects8x8</File>
+      <Index>10</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>10</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>11</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>12</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <Static />
+    <StaticSpawn region="DeepSea" prob="0.001" />
+  </Object>
+  <Object id="Deep Sea Ghost Coral" type="0xc248">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deepSeaObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>13</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects16x16</File>
+        <Index>14</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <StaticSpawn region="DeepSea" prob="0.001" />
+    <Static />
+  </Object>
+  <Object id="Deep Sea Collassal Geyser" type="0xc249">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deepSeaObjects32x32</File>
+      <Index>0</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>deepSeaObjects32x32</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects32x32</File>
+        <Index>0</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <StaticSpawn region="DeepSea" prob="0.0001" />
+    <Static />
+  </Object>
+  <Object id="Deep Sea Collassal Bones" type="0xc24d">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deepSeaObjects32x32</File>
+      <Index>1</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>deepSeaObjects32x32</File>
+        <Index>1</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects32x32</File>
+        <Index>2</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <StaticSpawn region="DeepSea" prob="0.0001" />
+    <Static />
+  </Object>
+  <Object id="Deep Sea Collassal Mushroom" type="0xc24e">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>deepSeaObjects32x32</File>
+      <Index>1</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>deepSeaObjects32x32</File>
+        <Index>1</Index>
+      </Texture>
+      <Texture>
+        <File>deepSeaObjects32x32</File>
+        <Index>2</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <StaticSpawn region="DeepSea" prob="0.0001" />
+    <Static />
+  </Object>
+  <Object type="0x67a5" id="Enchanter Scenery 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x4</Index>
+    </Texture>
+  </Object>
+  <Object type="0x67a6" id="Enchanter Scenery 2">
+    <Class>GameObject</Class>
+    <Size>80</Size>
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x5</Index>
+    </Texture>
+  </Object>
+  <Object type="0x67a7" id="Enchanter Scenery 3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x6</Index>
+    </Texture>
+  </Object>
+  <Object type="0x67a8" id="Enchanter Scenery 4">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>enchantments28x16</File>
+      <Index>0x1</Index>
+    </Texture>
+  </Object>
+  <Object type="0x67a9" id="Enchanter Scenery 5">
+    <Class>GameObject</Class>
+    <Size>90</Size>
+    <Texture>
+      <File>enchantments28x16</File>
+      <Index>0x2</Index>
+    </Texture>
+  </Object>
+  <Object type="0x67aa" id="Enchanter Scenery 6">
+    <Class>GameObject</Class>
+    <Size>80</Size>
+    <Texture>
+      <File>enchantments28x16</File>
+      <Index>0x3</Index>
+    </Texture>
+  </Object>
+  <Object type="0x67ab" id="Enchanter Scenery 7">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>enchantments28x16</File>
+      <Index>0x4</Index>
+    </Texture>
+  </Object>
+  <Object type="0x67ac" id="Enchanter Scenery 8">
+    <Class>GameObject</Class>
+    <Size>90</Size>
+    <Texture>
+      <File>enchantments28x16</File>
+      <Index>0x5</Index>
+    </Texture>
+  </Object>
+  <Object type="0x67af" id="Enchanter Scenery 9">
+    <Class>GameObject</Class>
+    <Size>80</Size>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x13</Index>
+    </Texture>
+  </Object>
+  <Object type="0x67b0" id="Enchanter Scenery 10">
+    <Class>GameObject</Class>
+    <Size>80</Size>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x14</Index>
+    </Texture>
+  </Object>
+  <Object type="0x67b1" id="Enchanter Scenery 11">
+    <Class>GameObject</Class>
+    <Size>80</Size>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x15</Index>
+    </Texture>
+  </Object>
+  <Object type="0x67b2" id="Enchanter Scenery 12">
+    <Class>GameObject</Class>
+    <Size>80</Size>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x16</Index>
+    </Texture>
+  </Object>
+  <Object type="0x67b3" id="Enchanter Scenery 13">
+    <Class>GameObject</Class>
+    <Size>80</Size>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x17</Index>
+    </Texture>
+  </Object>
+  <Object type="0x67b4" id="Enchanter Scenery 14">
+    <Class>GameObject</Class>
+    <Size>80</Size>
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x18</Index>
+    </Texture>
+  </Object>
+  <Object id="Risen Hell Volcano" type="0xc324">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>risenHellObjects32x32</File>
+      <Index>1</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>risenHellObjects32x32</File>
+          <Index>0x01</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>risenHellObjects32x32</File>
+          <Index>0x02</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>risenHellObjects32x32</File>
+          <Index>0x03</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>risenHellObjects32x32</File>
+          <Index>0x04</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>risenHellObjects32x32</File>
+          <Index>0x05</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>risenHellObjects32x32</File>
+          <Index>0x06</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>risenHellObjects32x32</File>
+          <Index>0x07</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>risenHellObjects32x32</File>
+          <Index>0x08</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>risenHellObjects32x32</File>
+          <Index>0x09</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>risenHellObjects32x32</File>
+          <Index>0x0A</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/trees_hit</HitSound>
+    <StaticSpawn region="RisenHell" prob="0.0001" />
+    <Static />
   </Object>
 </Objects>
