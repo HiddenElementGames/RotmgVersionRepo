@@ -4950,4 +4950,23 @@
     <Activate id="Nest Guild Chest" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">Create</Activate>
     <UniqueID />
   </Object>
+  <Object type="0x4517" id="Oryxmania Rumble Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1266</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Oryxmania Rumble. Should you enter, be ready for a fight with any of the arena champions. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate predefinedDungeonMods="S|;ORYXMANIA_LOOT" readonlymods="true">MysteryPortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
 </Objects>

@@ -178,18 +178,18 @@
     <Labels>ENEMY</Labels>
   </Object>
   <Object type="0x1704" id="Thessal the Mermaid Goddess Wounded">
-    <DisplayId>Thessal the Mermaid Goddess</DisplayId>
+    <DisplayId>Deep Sea Diva</DisplayId>
     <Group>Ocean Trench</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dEncounters2</File>
-      <Index>18</Index>
+      <Index>113</Index>
     </AnimatedTexture>
     <AltTexture id="1">
       <AnimatedTexture>
         <File>chars16x16dEncounters2</File>
-        <Index>19</Index>
+        <Index>113</Index>
       </AnimatedTexture>
     </AltTexture>
     <ShadowSize>0</ShadowSize>
@@ -277,12 +277,13 @@
     </Presentation>
   </Object>
   <Object type="0x1706" id="Thessal the Mermaid Goddess">
+    <DisplayId>Deep Sea Diva</DisplayId>
     <Group>Ocean Trench</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dEncounters2</File>
-      <Index>16</Index>
+      <Index>112</Index>
     </AnimatedTexture>
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
@@ -356,6 +357,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Sea Slurp Skin Unlocker</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Oryxmania">Thessal Arena Portal</SpecialSpawn>
   </Object>
   <Object type="0x1554" id="Thessal Dropper">
     <Class>GameObject</Class>

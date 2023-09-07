@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
   <Object type="0x7461" id="Puppet Master v2">
-    <DisplayId>The Puppet Master</DisplayId>
+    <DisplayId>Mister Backstage</DisplayId>
     <Class>Character</Class>
     <Group>Master</Group>
     <Enemy />
     <AnimatedTexture>
-      <File>d3Chars16x16rEmbed</File>
-      <Index>0x02</Index>
+      <File>chars16x16dEncounters2</File>
+      <Index>110</Index>
     </AnimatedTexture>
     <AltTexture id="1">
       <AnimatedTexture>
-        <File>d3Chars16x16rEmbed</File>
-        <Index>0x01</Index>
+        <File>chars16x16dEncounters2</File>
+        <Index>110</Index>
       </AnimatedTexture>
     </AltTexture>
     <AltTexture id="2">
       <AnimatedTexture>
-        <File>d3Chars16x16rEmbed</File>
-        <Index>0x03</Index>
+        <File>chars16x16dEncounters2</File>
+        <Index>110</Index>
       </AnimatedTexture>
     </AltTexture>
     <HitSound>monster/skeletons_hit</HitSound>
@@ -99,6 +99,7 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Jaco Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
+    <SpecialSpawn category="Oryxmania">Puppet Arena Portal</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt2">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>

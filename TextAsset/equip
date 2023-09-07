@@ -11362,7 +11362,7 @@
     <feedPower>109</feedPower>
     <DropTradable />
     <XPBonus>3</XPBonus>
-    <Labels>EQUIPMENT,KATANA,TIERED,T9,XPBONUS,TRADEABLE,BASETYPE</Labels>
+    <Labels>EQUIPMENT,WEAPON,KATANA,TIERED,T9,XPBONUS,TRADEABLE,BASETYPE</Labels>
   </Object>
   <Object type="0xc4e" id="Ichimonji">
     <Class>Equipment</Class>
@@ -52237,6 +52237,7 @@
     </Projectile>
     <BagType>6</BagType>
     <Sound>weapon/wand_of_death</Sound>
+    <OldSound>magicShoot</OldSound>
     <Soulbound />
     <feedPower>800</feedPower>
     <XPBonus>7</XPBonus>
@@ -52737,7 +52738,7 @@
       <Index>0x11f</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>Expands your seasonal potion vault in 4 slots. If unused, it gets destroyed at the end of the season.</Description>
+    <Description>Expands your seasonal potion vault in 4 slots. Seasonal Potion Vault Slots do not get transfered over to the non-seasonal Potion Vault Slots and if unused, it gets destroyed at the end of the season.</Description>
     <Sound>use_potion</Sound>
     <Consumable />
     <SeasonalOnly />
@@ -56457,16 +56458,17 @@
     <Soulbound />
     <XPBonus>7</XPBonus>
     <Usable />
-    <ActivateOnEquip amount="5" stat="DEX">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="6" stat="DEX">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="6" stat="DEF">IncrementStat</ActivateOnEquip>
     <Ability name="Crescendo">
       <Texture>
         <File>moonlightVillageObjects8x8</File>
         <Index>562</Index>
       </Texture>
       <ExtraTooltipData>
-        <EffectInfo description="Greatly increases shot speed, whilst boosting effective weapon range" name="Blitz Rhythm" />
+        <EffectInfo description="Greatly increases your shot speed, whilst boosting effective weapon range" name="Blitz Rhythm" />
       </ExtraTooltipData>
+      <Activate duration="6.5" lifeBoost="1" radius="4.5" speedBoost="1.25" targeted="false">BoostRange</Activate>
       <Activate duration="5" speedBoost="1.625" lifeBoost="0.769" targeted="false" color="0xF7CF1D" selfOnly="true">BoostRange</Activate>
       <Activate color="-1" effect="Berserk" duration="5">ConditionEffectSelf</Activate>
       <MpCost>100</MpCost>
@@ -56480,8 +56482,10 @@
       <ExtraTooltipData>
         <EffectInfo description="Lowers your shot speed, whilst boosting effective weapon range" name="Tranquil Rhythm" />
       </ExtraTooltipData>
+      <Activate duration="6.5" lifeBoost="1" radius="4.5" speedBoost="1.25" targeted="false">BoostRange</Activate>
       <Activate duration="5" speedBoost="0.625" lifeBoost="1.99" targeted="false" color="0xF7CF1D" selfOnly="true">BoostRange</Activate>
       <Activate wisMin="50" range="4" effect="Healing" duration="5">ConditionEffectAura</Activate>
+      <Activate amount="60" range="3" splitHealing="true" wisHealBase="0" wisRangeBase="0">HealNova</Activate>
       <MpCost>100</MpCost>
       <SwitchTime>1</SwitchTime>
     </Ability>
@@ -56499,8 +56503,8 @@
     <Projectile id="0">
       <ObjectId>White Bullet</ObjectId>
       <Speed>500</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <MultiHit />
       <PassesCover />
       <LifetimeMS>150</LifetimeMS>
@@ -56510,11 +56514,11 @@
     </Projectile>
     <Description>The ornate umbrella carried by the gracious Miko. It never goes out of fashion, regardless of the season.</Description>
     <ExtraTooltipData>
-      <EffectInfo description="5.5 tiles" name="Min Dash Distance" />
       <EffectInfo description="7.5 tiles" name="Max Dash Distance" />
       <EffectInfo description="Call forth a line of diverging projectiles that paralyzes enemies" name="Trail of Seasons" />
       <EffectInfo description="10/15/20/25/30 % to VIT" name="Multiplier" />
       <EffectInfo description="Each stack lasts for 10 seconds" name="" />
+      <EffectInfo description="Release an explosion at the end of each dash dealing 500 base damage, scaling with VIT." name="Blossoming Power" />
     </ExtraTooltipData>
     <BagType>6</BagType>
     <feedPower>1000</feedPower>
@@ -56527,10 +56531,11 @@
     <ActivateOnEquip amount="8" stat="VIT">IncrementStat</ActivateOnEquip>
     <Activate amount="4" channelTime="200" duration="15">ChannelDash</Activate>
     <StartUse>
-      <Activate amountPerEnemy="10,15,20,25,30" color="-1" cooldown="0.3" damage="0" effect="Multiplied" effectDuration="10" minDistance="5.5" maxDistance="7.5" postCondDuration="0.1" speed="45" stat="VIT">Dash</Activate>
+      <Activate amountPerEnemy="10,15,20,25,30" color="-1" cooldown="0.3" damage="0" effect="Multiplied" effectDuration="10" minDistance="1" maxDistance="7.5" postCondDuration="0.1" speed="45" stat="VIT" width="2.5">Dash</Activate>
       <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="0.8" maxDistance="1.0" minDistance="1.0" numShots="2" offsetAngle="0" proc="1" targetMouse="true" type="0x507e">BulletCreate</OnPlayerAbilityActivate>
     </StartUse>
     <EndUse>
+      <OnPlayerAbilityActivate color="0xFFB7C5" cooldown="0" damageBoost="1" duration="0" impactDamage="600" proc="1" radius="7.5" scalingStat="VIT" statModDamage="0" statModDamageBoost="0" statModImpactDamage="120" statModRadius="0" statModScalingMin="60" targetMouse="false" throwTime="0" totalDamage="0">PoisonGrenade</OnPlayerAbilityActivate>
       <OnPlayerAbilityActivate creep="true" duration="0.3" distance="3.75" objectId="MV Sheath Summon Summer" proc="1" targetMouse="true" onDashIndex="1">Decoy</OnPlayerAbilityActivate>
       <OnPlayerAbilityActivate creep="true" duration="0.3" distance="3.75" objectId="MV Sheath Summon Autumn" proc="1" targetMouse="true" onDashIndex="2">Decoy</OnPlayerAbilityActivate>
       <OnPlayerAbilityActivate creep="true" duration="0.3" distance="3.75" objectId="MV Sheath Summon Winter" proc="1" targetMouse="true" onDashIndex="3">Decoy</OnPlayerAbilityActivate>
@@ -56550,8 +56555,8 @@
     <Projectile id="0">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>25</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56566,8 +56571,8 @@
     <Projectile id="1">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>50</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56585,8 +56590,8 @@
     <Projectile id="2">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>75</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56604,8 +56609,8 @@
     <Projectile id="3">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>100</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56623,8 +56628,8 @@
     <Projectile id="4">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>125</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56642,8 +56647,8 @@
     <Projectile id="5">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>150</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56661,8 +56666,8 @@
     <Projectile id="6">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>175</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56680,8 +56685,8 @@
     <Projectile id="7">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>200</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56699,8 +56704,8 @@
     <Projectile id="8">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>225</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56718,8 +56723,8 @@
     <Projectile id="9">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>250</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56737,8 +56742,8 @@
     <Projectile id="10">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>275</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56756,8 +56761,8 @@
     <Projectile id="11">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>300</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56775,8 +56780,8 @@
     <Projectile id="12">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>325</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56794,8 +56799,8 @@
     <Projectile id="13">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>350</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56813,8 +56818,8 @@
     <Projectile id="14">
       <ObjectId>MV Leaf Scythe</ObjectId>
       <Speed>375</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56839,8 +56844,8 @@
     <Projectile id="0">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>25</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56855,8 +56860,8 @@
     <Projectile id="1">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>50</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56874,8 +56879,8 @@
     <Projectile id="2">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>75</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56893,8 +56898,8 @@
     <Projectile id="3">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>100</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56912,8 +56917,8 @@
     <Projectile id="4">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>125</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56931,8 +56936,8 @@
     <Projectile id="5">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>150</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56950,8 +56955,8 @@
     <Projectile id="6">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>175</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56969,8 +56974,8 @@
     <Projectile id="7">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>200</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -56988,8 +56993,8 @@
     <Projectile id="8">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>225</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57007,8 +57012,8 @@
     <Projectile id="9">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>250</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57026,8 +57031,8 @@
     <Projectile id="10">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>275</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57045,8 +57050,8 @@
     <Projectile id="11">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>300</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57064,8 +57069,8 @@
     <Projectile id="12">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>325</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57083,8 +57088,8 @@
     <Projectile id="13">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>350</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57102,8 +57107,8 @@
     <Projectile id="14">
       <ObjectId>MV Autumn Leaves</ObjectId>
       <Speed>375</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57128,8 +57133,8 @@
     <Projectile id="0">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>25</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57144,8 +57149,8 @@
     <Projectile id="1">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>50</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57163,8 +57168,8 @@
     <Projectile id="2">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>75</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57182,8 +57187,8 @@
     <Projectile id="3">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>100</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57201,8 +57206,8 @@
     <Projectile id="4">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>125</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57220,8 +57225,8 @@
     <Projectile id="5">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>150</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57239,8 +57244,8 @@
     <Projectile id="6">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>175</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57258,8 +57263,8 @@
     <Projectile id="7">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>200</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57277,8 +57282,8 @@
     <Projectile id="8">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>225</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57296,8 +57301,8 @@
     <Projectile id="9">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>250</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57315,8 +57320,8 @@
     <Projectile id="10">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>275</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57334,8 +57339,8 @@
     <Projectile id="11">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>300</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57353,8 +57358,8 @@
     <Projectile id="12">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>325</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57372,8 +57377,8 @@
     <Projectile id="13">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>350</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57391,8 +57396,8 @@
     <Projectile id="14">
       <ObjectId>MV Snow Twirl</ObjectId>
       <Speed>375</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57417,8 +57422,8 @@
     <Projectile id="0">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>25</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57433,8 +57438,8 @@
     <Projectile id="1">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>50</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57452,8 +57457,8 @@
     <Projectile id="2">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>75</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57471,8 +57476,8 @@
     <Projectile id="3">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>100</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57490,8 +57495,8 @@
     <Projectile id="4">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>125</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57509,8 +57514,8 @@
     <Projectile id="5">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>150</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57528,8 +57533,8 @@
     <Projectile id="6">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>175</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57547,8 +57552,8 @@
     <Projectile id="7">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>200</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57566,8 +57571,8 @@
     <Projectile id="8">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>225</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57585,8 +57590,8 @@
     <Projectile id="9">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>250</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57604,8 +57609,8 @@
     <Projectile id="10">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>275</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57623,8 +57628,8 @@
     <Projectile id="11">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>300</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57642,8 +57647,8 @@
     <Projectile id="12">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>325</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57661,8 +57666,8 @@
     <Projectile id="13">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>350</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57680,8 +57685,8 @@
     <Projectile id="14">
       <ObjectId>MV Flower Star Variant</ObjectId>
       <Speed>375</Speed>
-      <MinDamage>250</MinDamage>
-      <MaxDamage>350</MaxDamage>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>300</MaxDamage>
       <ArmorPiercing />
       <MultiHit />
       <PassesCover />
@@ -57694,7 +57699,7 @@
       <ConditionEffect duration="3">Paralyzed</ConditionEffect>
     </Projectile>
   </Object>
-  <Object id="Flowering Kimono" type="0x50e2" collectionIcon="94">
+  <Object collectionIcon="94" id="Flowering Kimono" type="0x50e2">
     <DisplayId>Flowering Kimono</DisplayId>
     <Class>Equipment</Class>
     <Item />
@@ -57705,14 +57710,14 @@
     <SlotType>14</SlotType>
     <Description>A beautiful set of ornate ceremonial robes, filled with the energy of benevolent spirits from long ago.</Description>
     <ExtraTooltipData>
-      <EffectInfo description="40 MP cost to summon an orbiting Friendly Spirit which heals allies." name="On Ability Use" />
-      <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
+      <EffectInfo description="Summon a Friendly Spirit which heals allies and zaps enemies for 150 damage/sec." name="On Ability Use" />
+      <EffectInfo description="The spirit synergizes in the presence of different spirits." name="" />
       <EffectInfo description="" name="Upgrade Levels" />
-      <EffectInfo description="Healing buff within 4.5 squares." name="1" />
-      <EffectInfo description="Healing buff and heals 20 HP/sec within 4.5 squares." name="2" />
-      <EffectInfo description="Healing buff and heals 40 HP/sec within 4.5 squares." name="3" />
-      <EffectInfo description="15 seconds" name="Maximum Lifetime" />
-      <EffectInfo description="15 seconds" name="Cooldown" />
+      <EffectInfo description="Healing buff within 3 squares." name="1" />
+      <EffectInfo description="Healing buff and heals 10 HP/sec within 3 squares." name="2" />
+      <EffectInfo description="Healing buff and heals 20 HP/sec within 3 squares." name="3" />
+      <EffectInfo description="6 seconds" name="Lifetime" />
+      <EffectInfo description="1.5 seconds" name="Cooldown" />
     </ExtraTooltipData>
     <BagType>6</BagType>
     <XPBonus>7</XPBonus>
@@ -57722,20 +57727,20 @@
     <ActivateOnEquip amount="120" stat="MAXMP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="12" stat="WIS">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="7" stat="SPD">IncrementStat</ActivateOnEquip>
-    <OnPlayerAbilityActivate color="-1" cooldown="15" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Kimono Summon">SpawnCreep</OnPlayerAbilityActivate>
+    <ActivateOnEquip amount="6" stat="ATT" statRelativeTo="WIS">IncrementStatRelative</ActivateOnEquip>
+    <OnPlayerAbilityActivate color="-1" cooldown="1.5" proc="1" objectId="MV Kimono Summon">Pet</OnPlayerAbilityActivate>
     <Labels>EQUIPMENT,WEAPON,ORG_MOONLIGHT_S,UT,TAB_UT,POWERTIER_S,XPBONUS</Labels>
   </Object>
   <Object id="MV Kimono Summon" type="0x500a">
-    <Class>Summon</Class>
+    <Class>Character</Class>
     <Texture>
       <File>moonlightVillageObjects8x8</File>
       <Index>360</Index>
     </Texture>
     <ShadowSize>35</ShadowSize>
-    <Size>100</Size>
+    <Size>80</Size>
     <NoMiniMap />
     <SetStyle>Idle</SetStyle>
-    <OrbitCreepMaster clockwiseProb="1" maxRadius="2" minRadius="2" speed="0.6" />
     <Animation period="0" prob="1" id="IdleAnimation">
       <Frame time="0.15">
         <Texture>
@@ -57780,7 +57785,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object id="Ethereal Happi" type="0x507c" collectionIcon="94">
+  <Object collectionIcon="94" id="Ethereal Happi" type="0x507c">
     <DisplayId>Ethereal Happi</DisplayId>
     <Class>Equipment</Class>
     <Item />
@@ -57792,14 +57797,14 @@
     <Description>A festival coat woven from thin, spiritual threads. It allows the user to skirt the spirit realm in search of their destination.</Description>
     <ExtraTooltipData>
       <EffectInfo description="When shooting, reduce SPD by 25." name="Focus" />
-      <EffectInfo description="40 MP cost to summon an orbiting Friendly Spirit which curses enemies." name="On Ability Use" />
-      <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
+      <EffectInfo description="Summon a Friendly Spirit which curses enemies and zaps them for 150 damage/sec." name="On Ability Use" />
+      <EffectInfo description="The spirit synergizes in the presence of different spirits." name="" />
       <EffectInfo description="" name="Upgrade Levels" />
-      <EffectInfo description="Curses within 4.5 squares." name="1" />
-      <EffectInfo description="Curses and deals 300 damage/sec within 4.5 squares." name="2" />
-      <EffectInfo description="Curses and deals 600 damage/sec within 4.5 squares." name="3" />
-      <EffectInfo description="15 seconds" name="Maximum Lifetime" />
-      <EffectInfo description="15 seconds" name="Cooldown" />
+      <EffectInfo description="Curses within 3 squares." name="1" />
+      <EffectInfo description="Curses and deals 100 damage/sec within 3 squares." name="2" />
+      <EffectInfo description="Curses and deals 200 damage/sec within 3 squares." name="3" />
+      <EffectInfo description="6 seconds" name="Lifetime" />
+      <EffectInfo description="1.5 seconds" name="Cooldown" />
     </ExtraTooltipData>
     <BagType>6</BagType>
     <XPBonus>7</XPBonus>
@@ -57807,21 +57812,21 @@
     <Soulbound />
     <ActivateOnEquip amount="15" stat="DEF">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="15" stat="SPD">IncrementStat</ActivateOnEquip>
-    <OnPlayerShootActivate color="-1" cooldown="0" proc="1" stat="SPD" amount="-25" duration="1" channel="noStack">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerAbilityActivate color="-1" cooldown="15" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Happi Summon">SpawnCreep</OnPlayerAbilityActivate>
+    <ActivateOnEquip amount="10" stat="DEX" statRelativeTo="SPD">IncrementStatRelative</ActivateOnEquip>
+    <OnPlayerShootActivate color="-1" cooldown="0" proc="1" stat="SPD" amount="-25" duration="0.7" channel="noStack">StatBoostSelf</OnPlayerShootActivate>
+    <OnPlayerAbilityActivate color="-1" cooldown="1.5" proc="1" objectId="MV Happi Summon">Pet</OnPlayerAbilityActivate>
     <Labels>EQUIPMENT,WEAPON,ORG_MOONLIGHT_S,UT,TAB_UT,POWERTIER_S,XPBONUS</Labels>
   </Object>
   <Object id="MV Happi Summon" type="0x50f9">
-    <Class>Summon</Class>
+    <Class>Character</Class>
     <Texture>
       <File>moonlightVillageObjects8x8</File>
       <Index>348</Index>
     </Texture>
     <ShadowSize>35</ShadowSize>
-    <Size>100</Size>
+    <Size>80</Size>
     <NoMiniMap />
     <SetStyle>Idle</SetStyle>
-    <OrbitCreepMaster clockwiseProb="1" maxRadius="2" minRadius="2" speed="0.6" />
     <Animation period="0" prob="1" id="IdleAnimation">
       <Frame time="0.15">
         <Texture>
@@ -57866,7 +57871,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object id="Sage's Wakibiki" type="0x4ff4" collectionIcon="94">
+  <Object collectionIcon="94" id="Sage's Wakibiki" type="0x4ff4">
     <DisplayId>Sage's Wakibiki</DisplayId>
     <Class>Equipment</Class>
     <Item />
@@ -57877,14 +57882,14 @@
     <SlotType>7</SlotType>
     <Description>A worn plate from the Sage's armor. Its outwardly poor condition belies a strange, revitalizing effect still flowing within.</Description>
     <ExtraTooltipData>
-      <EffectInfo description="40 MP cost to summon an orbiting Friendly Spirit which impedes enemy movement." name="On Ability Use" />
-      <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
+      <EffectInfo description="Summon a Friendly Spirit which slows enemies and zaps them for 150 damage/sec." name="On Ability Use" />
+      <EffectInfo description="The spirit synergizes in the presence of different spirits." name="" />
       <EffectInfo description="" name="Upgrade Levels" />
-      <EffectInfo description="Slows within 4.5 squares." name="1" />
-      <EffectInfo description="Slows and deals 300 damage/sec within 4.5 squares." name="2" />
-      <EffectInfo description="Slows, paralyzes and deals 300 damage/sec within 4.5 squares." name="3" />
-      <EffectInfo description="15 seconds" name="Maximum Lifetime" />
-      <EffectInfo description="15 seconds" name="Cooldown" />
+      <EffectInfo description="Slows within 3 squares." name="1" />
+      <EffectInfo description="Slows and deals 100 damage/sec within 3 squares." name="2" />
+      <EffectInfo description="Slows and deals 200 damage/sec within 3 squares." name="3" />
+      <EffectInfo description="6 seconds" name="Lifetime" />
+      <EffectInfo description="1.5 seconds" name="Cooldown" />
     </ExtraTooltipData>
     <BagType>6</BagType>
     <XPBonus>7</XPBonus>
@@ -57893,20 +57898,20 @@
     <ActivateOnEquip amount="20" stat="DEF">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="15" stat="VIT">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="15" stat="WIS">IncrementStat</ActivateOnEquip>
-    <OnPlayerAbilityActivate color="-1" cooldown="15" proc="1" manaCost="40" manaRequired="40" maxSpawnDistance="0.0" objectId="MV Wakibiki Summon">SpawnCreep</OnPlayerAbilityActivate>
+    <ActivateOnEquip amount="80" stat="MAXHP" statRelativeTo="VIT">IncrementStatRelative</ActivateOnEquip>
+    <OnPlayerAbilityActivate color="-1" cooldown="1.5" proc="1" objectId="MV Wakibiki Summon">Pet</OnPlayerAbilityActivate>
     <Labels>EQUIPMENT,WEAPON,ORG_MOONLIGHT_S,UT,TAB_UT,POWERTIER_S,XPBONUS</Labels>
   </Object>
   <Object id="MV Wakibiki Summon" type="0x50fa">
-    <Class>Summon</Class>
+    <Class>Character</Class>
     <Texture>
       <File>moonlightVillageObjects8x8</File>
       <Index>251</Index>
     </Texture>
     <ShadowSize>35</ShadowSize>
-    <Size>100</Size>
+    <Size>80</Size>
     <NoMiniMap />
     <SetStyle>Idle</SetStyle>
-    <OrbitCreepMaster clockwiseProb="1" maxRadius="2" minRadius="2" speed="0.6" />
     <Animation period="0" prob="1" id="IdleAnimation">
       <Frame time="0.15">
         <Texture>
@@ -57996,10 +58001,9 @@
       <ArmorPiercing />
     </Projectile>
     <ExtraTooltipData>
-      <EffectInfo description="Forced in combat and slowed whilst shooting." name="Divine Disfavor" />
+      <EffectInfo description="Forced slowed whilst shooting." name="Divine Disfavor" />
     </ExtraTooltipData>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Slowed" cooldown="0" duration="0.8">ConditionEffectSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="In Combat" cooldown="0" duration="0.8">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Slowed" cooldown="0" duration="0.5">ConditionEffectSelf</OnPlayerShootActivate>
     <BagType>6</BagType>
     <NumProjectiles>1</NumProjectiles>
     <feedPower>1300</feedPower>
@@ -58060,10 +58064,9 @@
       <ArmorPiercing />
     </Projectile>
     <ExtraTooltipData>
-      <EffectInfo description="Forced in combat and slowed whilst shooting." name="Divine Disfavor" />
+      <EffectInfo description="Forced slowed whilst shooting." name="Divine Disfavor" />
     </ExtraTooltipData>
     <OnPlayerShootActivate color="-1" proc="1" effect="Slowed" cooldown="0" duration="0.5">ConditionEffectSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="In Combat" cooldown="0" duration="0.5">ConditionEffectSelf</OnPlayerShootActivate>
     <BagType>6</BagType>
     <NumProjectiles>1</NumProjectiles>
     <feedPower>1500</feedPower>
@@ -58507,7 +58510,7 @@
     </Projectile>
     <ExtraTooltipData>
       <EffectInfo description="" name="While Key Held and Shooting" />
-      <EffectInfo description="Rain falls 3 tiles away in the direction of your cursor" name="" />
+      <EffectInfo description="Rain falls 4.5 tiles away in the direction of your cursor" name="" />
       <EffectInfo description="" name="Mana Cost" />
       <EffectInfo description="Drain 30 MP/sec and 15 MP/shot" name="" />
       <EffectInfo description="Deals 250-300 armor piercing damage" name="Rain" />
@@ -58523,10 +58526,10 @@
     <Usable />
     <Cooldown>5</Cooldown>
     <ActivateOnEquip amount="100" stat="MAXMP">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="5" stat="DEX">IncrementStat</ActivateOnEquip>
-    <OnPlayerShootActivate requiredConditions="Stasis Immune" cooldown="0" proc="1" manaCost="15" objectId="MV Rain Maker Object" throwTime="0" color="-1" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <OnPlayerShootActivate requiredConditions="Stasis Immune" cooldown="0.4" proc="1" manaCost="15" objectId="MV Rain Maker Effect Thrower" throwTime="0" color="-1" maxDistance="3" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
-    <Activate effect="Stasis Immune" enableGenericManaHealing="true" enableManaRegen="true" enablePetManaHealing="false">ShurikenAbility</Activate>
+    <ActivateOnEquip amount="6" stat="DEX">IncrementStat</ActivateOnEquip>
+    <OnPlayerShootActivate requiredConditions="Stasis Immune" cooldown="0" proc="1" manaCost="15" objectId="MV Rain Maker Object" throwTime="0" color="-1" maxDistance="4.5" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <OnPlayerShootActivate requiredConditions="Stasis Immune" cooldown="0.4" proc="1" manaCost="15" objectId="MV Rain Maker Effect Thrower" throwTime="0" color="-1" maxDistance="4.5" targetMouse="true" centerObject="false">ObjectToss</OnPlayerShootActivate>
+    <Activate effect="Stasis Immune" enableGenericManaHealing="true" enableManaRegen="true" enablePetManaHealing="true">ShurikenAbility</Activate>
     <Labels>EQUIPMENT,WEAPON,ORG_MOONLIGHT_S,UT,TAB_UT,POWERTIER_S,XPBONUS</Labels>
   </Object>
   <Object id="MV Rain Maker Object" type="0x5001">
@@ -58582,8 +58585,8 @@
     <Description>The wand is able to conjure mighty encircling defenses. Given enough time, it is capable of instantly establishing fortifications.</Description>
     <ExtraTooltipData>
       <EffectInfo description="3" name="Burst Count" />
-      <EffectInfo description="20 seconds" name="Burst Delay" />
-      <EffectInfo description="15 second" name="Minimum Burst Delay" />
+      <EffectInfo description="18 seconds" name="Burst Delay" />
+      <EffectInfo description="12 second" name="Minimum Burst Delay" />
     </ExtraTooltipData>
     <RateOfFire>0.33</RateOfFire>
     <Sound>weapon/mithril_sword</Sound>
@@ -58630,7 +58633,7 @@
       <PosOffset>0,2</PosOffset>
       <BurstCount>1</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>90</DefaultAngle>
     </Subattack>
     <Subattack projectileId="0">
@@ -58639,7 +58642,7 @@
       <PosOffset>2,0</PosOffset>
       <BurstCount>1</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>180</DefaultAngle>
     </Subattack>
     <Subattack projectileId="0">
@@ -58648,7 +58651,7 @@
       <PosOffset>0,-2</PosOffset>
       <BurstCount>1</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>270</DefaultAngle>
     </Subattack>
     <Subattack projectileId="0">
@@ -58657,7 +58660,7 @@
       <PosOffset>-2,0</PosOffset>
       <BurstCount>1</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>0</DefaultAngle>
     </Subattack>
     <Subattack projectileId="1">
@@ -58666,7 +58669,7 @@
       <PosOffset>0,4</PosOffset>
       <BurstCount>2</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>270</DefaultAngle>
     </Subattack>
     <Subattack projectileId="1">
@@ -58675,7 +58678,7 @@
       <PosOffset>3.4641,2</PosOffset>
       <BurstCount>2</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>330</DefaultAngle>
     </Subattack>
     <Subattack projectileId="1">
@@ -58684,7 +58687,7 @@
       <PosOffset>3.4641,-2</PosOffset>
       <BurstCount>2</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>30</DefaultAngle>
     </Subattack>
     <Subattack projectileId="1">
@@ -58693,7 +58696,7 @@
       <PosOffset>0,-4</PosOffset>
       <BurstCount>2</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>90</DefaultAngle>
     </Subattack>
     <Subattack projectileId="1">
@@ -58702,7 +58705,7 @@
       <PosOffset>-3.4641,-2</PosOffset>
       <BurstCount>2</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>150</DefaultAngle>
     </Subattack>
     <Subattack projectileId="1">
@@ -58711,7 +58714,7 @@
       <PosOffset>-3.4641,2</PosOffset>
       <BurstCount>2</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>210</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -58720,7 +58723,7 @@
       <PosOffset>0,6</PosOffset>
       <BurstCount>3</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>90</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -58729,7 +58732,7 @@
       <PosOffset>4.2426,4.2426</PosOffset>
       <BurstCount>3</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>135</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -58738,7 +58741,7 @@
       <PosOffset>6,0</PosOffset>
       <BurstCount>3</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>180</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -58747,7 +58750,7 @@
       <PosOffset>4.2426,-4.2426</PosOffset>
       <BurstCount>3</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>225</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -58756,7 +58759,7 @@
       <PosOffset>0,-6</PosOffset>
       <BurstCount>3</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>270</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -58765,7 +58768,7 @@
       <PosOffset>-4.2426,-4.2426</PosOffset>
       <BurstCount>3</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>315</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -58774,7 +58777,7 @@
       <PosOffset>-6,0</PosOffset>
       <BurstCount>3</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>0</DefaultAngle>
     </Subattack>
     <Subattack projectileId="2">
@@ -58783,7 +58786,7 @@
       <PosOffset>-4.2426,4.2426</PosOffset>
       <BurstCount>3</BurstCount>
       <BurstDelay>18</BurstDelay>
-      <BurstMinDelay>15</BurstMinDelay>
+      <BurstMinDelay>12</BurstMinDelay>
       <DefaultAngle>45</DefaultAngle>
     </Subattack>
     <Soulbound />
@@ -58841,6 +58844,7 @@
     <Flying />
     <Z>0.4</Z>
     <NoMiniMap />
+    <SetStyle>GreenFlame</SetStyle>
     <Animation period="0" prob="1" id="BlackFlameAnimation">
       <Frame time="0.15">
         <Texture>
@@ -59105,8 +59109,8 @@
     <ActivateOnEquip amount="100" stat="MAXHP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="100" stat="MAXMP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="10" stat="WIS">IncrementStat</ActivateOnEquip>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Energized" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Slowed" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Energized" cooldown="0" duration="0.6">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Slowed" cooldown="0" duration="0.6">ConditionEffectSelf</OnPlayerShootActivate>
     <BagType>6</BagType>
     <XPBonus>7</XPBonus>
     <feedPower>750</feedPower>
@@ -59127,8 +59131,8 @@
     <ActivateOnEquip amount="100" stat="MAXHP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="100" stat="MAXMP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="10" stat="VIT">IncrementStat</ActivateOnEquip>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Healing" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate color="-1" proc="1" effect="Slowed" cooldown="0" duration="1.0">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Healing" cooldown="0" duration="0.6">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate color="-1" proc="1" effect="Slowed" cooldown="0" duration="0.6">ConditionEffectSelf</OnPlayerShootActivate>
     <BagType>6</BagType>
     <XPBonus>7</XPBonus>
     <feedPower>750</feedPower>
@@ -59199,7 +59203,7 @@
     <XPBonus>8</XPBonus>
     <Labels>EQUIPMENT,WEAPON,ORG_MOONLIGHT_S,UT,TAB_UT,POWERTIER_S,XPBONUS</Labels>
   </Object>
-  <Object id="Kagenohikari" type="0x513b" collectionIcon="94">
+  <Object collectionIcon="94" id="Kagenohikari" type="0x513b">
     <DisplayId>Kagenohikari</DisplayId>
     <Class>Equipment</Class>
     <Item />
@@ -59210,15 +59214,21 @@
     <SlotType>9</SlotType>
     <Description>An ethereal lantern charged with the hundreds of hopes and memories of bygone souls. Its light seeks to guide and protect those still dwelling within the mortal plane.</Description>
     <ExtraTooltipData>
-      <EffectInfo description="10% chance to summon a level 2 assorted orbiting Friendly Spirit at the cost of 80 MP" name="On Shoot" />
-      <EffectInfo description="The spirit synergizes in the presence of other spirits." name="" />
-      <EffectInfo description="15 seconds" name="Cooldown" />
+      <EffectInfo description="Reduces the Magic casting cost of your Ability by 10%" name="" />
+      <EffectInfo description="Summon a level 2 assorted Friendly Spirit." name="On Ability" />
+      <EffectInfo description="The spirit synergizes in the presence of different spirits." name="" />
+      <EffectInfo description="Heals allies and attacks enemies within 3 squares." name="Pink Spirit" />
+      <EffectInfo description="Slows and attacks enemies within 3 squares." name="Blue Spirit" />
+      <EffectInfo description="Curses and attacks enemies within 3 squares." name="Yellow Spirit" />
+      <EffectInfo description="6 seconds" name="Lifetime" />
+      <EffectInfo description="1.5 seconds" name="Cooldown" />
     </ExtraTooltipData>
+    <ActivateOnEquip multiplier="0.90">AbilityUseDiscount</ActivateOnEquip>
     <ActivateOnEquip amount="100" stat="MAXHP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="100" stat="MAXMP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="5" stat="VIT">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="5" stat="WIS">IncrementStat</ActivateOnEquip>
-    <OnPlayerShootActivate color="-1" cooldown="15" objectId="MV Kagenohikari Summon" proc="0.1" maxSpawnDistance="0.0" manaCost="80">SpawnCreep</OnPlayerShootActivate>
+    <OnPlayerAbilityActivate color="-1" cooldown="1.5" objectId="MV Kagenohikari Summon" proc="1">Pet</OnPlayerAbilityActivate>
     <BagType>6</BagType>
     <XPBonus>8</XPBonus>
     <feedPower>1400</feedPower>
@@ -59226,16 +59236,15 @@
     <Labels>EQUIPMENT,WEAPON,ORG_MOONLIGHT_S,UT,TAB_UT,POWERTIER_S,XPBONUS</Labels>
   </Object>
   <Object id="MV Kagenohikari Summon" type="0x5175">
-    <Class>Summon</Class>
+    <Class>Character</Class>
     <Texture>
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
     <ShadowSize>35</ShadowSize>
-    <Size>100</Size>
+    <Size>80</Size>
     <NoMiniMap />
     <SetStyle>Idle</SetStyle>
-    <OrbitCreepMaster clockwiseProb="1" maxRadius="2" minRadius="2" speed="0.6" />
     <Animation period="0" prob="1" id="IdleAnimation">
       <Frame time="0.15">
         <Texture>
@@ -59414,30 +59423,35 @@
     <SlotType>9</SlotType>
     <Description>An ethereal lantern charged with the extiguished hopes and memories of bygone souls. Its blacklight flickers with restlessness and resentment.</Description>
     <ExtraTooltipData>
-      <EffectInfo description="10% chance to summon an orbiting Malevolent Spirit at the cost of 80 MP" name="On Shoot" />
-      <EffectInfo description="15 seconds" name="Cooldown" />
+      <EffectInfo description="Reduces the Magic casting cost of your Ability by 10%" name="" />
+      <EffectInfo description="Summon a level 3 Malevolent Spirit at the cost of 40 MP." name="On Ability" />
+      <EffectInfo description="" name="Malevolent Spirit:" />
+      <EffectInfo description="Slows, curses and attacks enemies within 3 squares." name="" />
+      <EffectInfo description="Heals allies within 3 squares." name="" />
+      <EffectInfo description="6 seconds" name="Lifetime" />
+      <EffectInfo description="1 second" name="Cooldown" />
     </ExtraTooltipData>
+    <ActivateOnEquip multiplier="0.90">AbilityUseDiscount</ActivateOnEquip>
     <ActivateOnEquip amount="110" stat="MAXHP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="110" stat="MAXMP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="6" stat="VIT">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="6" stat="WIS">IncrementStat</ActivateOnEquip>
-    <OnPlayerShootActivate color="-1" cooldown="15" objectId="MV Kagenohikari 2 Summon" proc="0.1" maxSpawnDistance="0.0" manaCost="80">SpawnCreep</OnPlayerShootActivate>
+    <OnPlayerAbilityActivate color="-1" cooldown="1" objectId="MV Kagenohikari 2 Summon" proc="1">Pet</OnPlayerAbilityActivate>
     <BagType>6</BagType>
     <XPBonus>9</XPBonus>
     <feedPower>1500</feedPower>
     <Soulbound />
   </Object>
   <Object id="MV Kagenohikari 2 Summon" type="0x513e">
-    <Class>Summon</Class>
+    <Class>Character</Class>
     <Texture>
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
     <ShadowSize>35</ShadowSize>
-    <Size>120</Size>
+    <Size>100</Size>
     <NoMiniMap />
     <SetStyle>Idle</SetStyle>
-    <OrbitCreepMaster clockwiseProb="1" maxRadius="2" minRadius="2" speed="0.6" />
     <Animation period="0" prob="1" id="IdleAnimation">
       <Frame time="0.15">
         <Texture>
@@ -60511,7 +60525,7 @@
       <Index>487</Index>
     </Texture>
     <SlotType>9</SlotType>
-    <Description>A sturdy fishing rod reinforced with metal. It is an adequete tool for any fishing activities.</Description>
+    <Description>A sturdy fishing rod reinforced with metal. It is an adequete tool for any and all fishing activities.</Description>
     <SharedCooldownChannel id="20703" />
     <ExtraTooltipData>
       <EffectInfo description="Only usable in the Moonlight Village. Aim at ripples in the water to catch fish!" name="Fishing" />
@@ -63283,7 +63297,7 @@
       <Index>1262</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>Grants a random Key when used!\n\n*Moonlight Village Key\n*Advanced Kogbold Steamworks Key\n*Shatters Key\n\nSprite Credits: Lovens</Description>
+    <Description>Grants a random Key when used!\n\n*Moonlight Village Key\n*Advanced Kogbold Steamworks Key\n*Shatters Key\n*Advanced Nest Key\n\nSprite Credits: Lovens</Description>
     <Activate>MysteryDyes</Activate>
     <Consumable />
     <Soulbound />
@@ -63603,5 +63617,104 @@
     <BagType>7</BagType>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x312" id="Colossus Ring Melee">
+    <DisplayId>Crucible Melee Ring</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1269</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A ring to celebrate your victory in The Crucible.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="80">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="4">IncrementStat</ActivateOnEquip>
+    <Sound>spell/fire_spray</Sound>
+    <BagType>6</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object type="0x313" id="The Forgotten Ring Magic">
+    <DisplayId>Crucible Magic Ring</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1268</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A ring to celebrate your victory in The Crucible.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="80">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="WIS" amount="4">IncrementStat</ActivateOnEquip>
+    <Sound>spell/fire_spray</Sound>
+    <BagType>6</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object type="0x314" id="Control Core Ring Archer">
+    <DisplayId>Crucible Archer Ring</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1267</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A ring to celebrate your victory in The Crucible.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="80">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEX" amount="4">IncrementStat</ActivateOnEquip>
+    <Sound>spell/fire_spray</Sound>
+    <BagType>6</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object type="0x315" id="The Void Ring Tank">
+    <DisplayId>Crucible Tank Ring</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1270</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A ring to celebrate your victory in The Crucible.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="80">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="4">IncrementStat</ActivateOnEquip>
+    <Sound>spell/fire_spray</Sound>
+    <BagType>6</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object type="0x3FD" id="The Golden Forgotten Crown" collectionIcon="14">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1265</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A radiant artifact, bestowed upon those who have proven themselves. It symbolizes not only mastery, but also the unwavering determination of champions in their pursuit of glory.</Description>
+    <ActivateOnEquip stat="DEX" amount="6">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="6">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXHP" amount="110">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>1400</feedPower>
+    <Soulbound />
+    <XPBonus>8</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_S,RESKIN,XPBONUS,ORG_SHTT_S</Labels>
   </Object>
 </Objects>
