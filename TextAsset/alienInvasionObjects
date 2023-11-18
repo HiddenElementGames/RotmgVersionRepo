@@ -3258,6 +3258,35 @@
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,MINION_WEAK,STASISIMMUNE,GROTESQUE</Labels>
   </Object>
+  <Object type="0x7305" id="HAI Watchling">
+    <DisplayId>Watchling</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>alienInvasionChars8x8</File>
+      <Index>30</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <Size>100</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>900</MaxHitPoints>
+    <Exp>50</Exp>
+    <BXP>237</BXP>
+    <Defense>15</Defense>
+    <Z>0.24</Z>
+    <Flying />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>AI Forax Watcher Shot</ObjectId>
+      <Damage>80</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <Size>120</Size>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>HAI Watchling</Labels>
+  </Object>
   <Object type="0xb2f9" id="AI Watcher">
     <DisplayId>Watcher</DisplayId>
     <Enemy />

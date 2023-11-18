@@ -513,6 +513,41 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
+  <Object type="0x7309" id="HEscaped Experiment">
+    <DisplayId>Escaped Experiment</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Group>Mad Lab</Group>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>41</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_death</HitSound>
+    <DeathSound>monster/medusa_hit</DeathSound>
+    <Size>100</Size>
+    <ShadowSize>50</ShadowSize>
+    <MaxHitPoints>2750</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>300</Exp>
+    <BXP>1425</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Robot Attack</ObjectId>
+      <Damage>100</Damage>
+      <Speed>50</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>HEscaped Experiment</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
   <Object type="0x1e23" id="Dr Terrible Escaped Experiment">
     <Enemy />
     <DisplayId>Escaped Experiment</DisplayId>

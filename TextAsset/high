@@ -1488,36 +1488,4 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x657b" id="Beer Trigger">
-    <Class>Character</Class>
-    <Enemy />
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <SpawnProb>0.2</SpawnProb>
-    <Terrain>HighForest</Terrain>
-    <PerRealmMax>2</PerRealmMax>
-    <Size>100</Size>
-    <ShadowSize>0</ShadowSize>
-    <NoMiniMap />
-    <Invincible />
-    <Labels>ENEMY,MINION</Labels>
-  </Object>
-  <Object type="0x5e25" id="Beer God">
-    <Enemy />
-    <Class>Character</Class>
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <TrackLoot />
-      ​
-      <AnimatedTexture><File>chars16x16rEncounters</File><Index>52</Index></AnimatedTexture><AltTexture id="1"><AnimatedTexture><File>chars16x16rEncounters</File><Index>53</Index></AnimatedTexture></AltTexture><HitSound>monster/lizard_god_hit</HitSound><DeathSound>monster/lizard_god_death</DeathSound><Size>-1</Size><MaxHitPoints>40000</MaxHitPoints><Defense>10</Defense><Terrain>HighForest</Terrain><Level>20</Level><Exp>4000</Exp><BXP>15000</BXP><SpawnProb>0.35</SpawnProb><PerRealmMax>2</PerRealmMax>
-      ​
-      <Projectile id="0"><ObjectId>Beer Barrel</ObjectId><Damage>125</Damage><Speed>85</Speed><Size>130</Size><LifetimeMS>1400</LifetimeMS><PassesCover /><ConditionEffect duration="2">Drunk</ConditionEffect></Projectile><Projectile id="1"><ObjectId>Beer Shockwave</ObjectId><Damage>100</Damage><Speed>55</Speed><Size>140</Size><PassesCover /><LifetimeMS>1200</LifetimeMS></Projectile><Projectile id="2"><ObjectId>Beer Punch</ObjectId><Damage>125</Damage><Speed>65</Speed><Size>130</Size><LifetimeMS>1500</LifetimeMS><ConditionEffect duration="2">Drunk</ConditionEffect></Projectile>
-      ​
-      ​
-      ​
-      ​
-      <KillStat stat="HumanoidKills" /><KillStat stat="GodKills" /><Labels>ENEMY,MINION,HUMANOID,GOD,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels><Presentation><Style id="SetAlt1"><StyleStep altTextureId="1">SetAltTexture</StyleStep></Style></Presentation><SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn><SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn><SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn><SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn><SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn><SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn><SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn></Object>
 </Objects>

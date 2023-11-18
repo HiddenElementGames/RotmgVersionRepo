@@ -298,6 +298,38 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
+  <Object type="0x7304" id="HLair Skeleton">
+    <DisplayId>Lair Skeleton</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>undeadLairChars8x8</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>350</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>50</Exp>
+    <BXP>237</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>UDL Bone</ObjectId>
+      <Damage>40</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>600</LifetimeMS>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>HLair Skeleton</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
   <Object type="0x0d92" id="Lair Skeleton Swordsman">
     <Group>Lair Skeletons</Group>
     <Enemy />

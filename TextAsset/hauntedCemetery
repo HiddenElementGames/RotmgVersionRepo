@@ -1155,6 +1155,65 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
+  <Object type="0x7307" id="HZombie Hulk">
+    <DisplayId>Zombie Hulk</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>77</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16rEncounters</File>
+        <Index>78</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Size>110</Size>
+    <ShadowSize>80</ShadowSize>
+    <HitSound>monster/archdemon_hit</HitSound>
+    <DeathSound>monster/abyss_demons_death</DeathSound>
+    <MaxHitPoints>3600</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>400</Exp>
+    <BXP>1900</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Big Zombie Wave</ObjectId>
+      <Speed>55</Speed>
+      <Damage>45</Damage>
+      <Size>110</Size>
+      <LifetimeMS>400</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="2.4">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Big Zombie Blast</ObjectId>
+      <Speed>100</Speed>
+      <Damage>70</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="0.8">Slowed</ConditionEffect>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="LesserGodKills" />
+    <Labels>HZombie Hulk</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
   <Object type="0x600c" id="Mini Werewolf">
     <DisplayId>Werewolf Cub</DisplayId>
     <Group>Hallowrena</Group>

@@ -1,0 +1,2928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0x4550" id="The Tavern Portal">
+    <DisplayId>The Tavern</DisplayId>
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <DungeonName>The Tavern</DungeonName>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>37</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>37</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>38</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>39</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>40</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x45fd" id="Beer God Encounter Portal">
+    <DisplayId>The Tavern</DisplayId>
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <DungeonName>Beer Encounter Arena</DungeonName>
+    <Texture>
+      <File>lofiEnvironment</File>
+      <Index>0xdf</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4551" id="Tavern Barkeep">
+    <Class>Character</Class>
+    <DisplayId>Bradley the Barkeep</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>41</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>41</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>42</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <NoArticle />
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object type="0x4552" id="Tavern Barkeep Boss">
+    <Class>Character</Class>
+    <DisplayId>Bradley the Barkeep</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <AnimatedTexture>
+      <File>rollerRinkChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>60000</MaxHitPoints>
+    <Defense>65</Defense>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Quest />
+    <Exp>16000</Exp>
+    <BXP>80000</BXP>
+    <NoArticle />
+    <AlwaysPositiveHealth />
+    <TrackLoot />
+    <HealthBarBoss radius="30" />
+    <KillStat stat="HumanoidKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Projectile id="0">
+      <ObjectId>Tavern Beer Swirl</ObjectId>
+      <Damage>65</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Beer Bolt</ObjectId>
+      <Damage>145</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Tavern Mug Shot</ObjectId>
+      <Damage>130</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Tavern Beer Bolt</ObjectId>
+      <Damage>125</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Tavern Foam Small</ObjectId>
+      <Damage>120</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Tavern Foam Large</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1750</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
+  </Object>
+  <Object type="0x4525" id="Tavern Beer Barrel N">
+    <Class>Character</Class>
+    <DisplayId>Beer Barrel</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>20</Index>
+    </Texture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <RemainVisible />
+    <NoCollisionWhenMovement />
+    <Projectile id="0">
+      <ObjectId>Tavern Beer Shot</ObjectId>
+      <Damage>125</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Beer Shot</ObjectId>
+      <Damage>100</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED,STASISIMMUNE</Labels>
+  </Object>
+  <Object type="0x4526" id="Tavern Beer Barrel C">
+    <Class>Character</Class>
+    <DisplayId>Beer Barrel</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>20</Index>
+    </Texture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <RemainVisible />
+    <NoCollisionWhenMovement />
+    <Projectile id="0">
+      <ObjectId>Tavern Beer Wave</ObjectId>
+      <Damage>100</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Armor Broken</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Beer Wave</ObjectId>
+      <Damage>100</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>80</Size>
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Armor Broken</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED,STASISIMMUNE</Labels>
+  </Object>
+  <Object type="0x4527" id="Tavern Beer Barrel S">
+    <Class>Character</Class>
+    <DisplayId>Beer Barrel</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>20</Index>
+    </Texture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <RemainVisible />
+    <NoCollisionWhenMovement />
+    <Projectile id="0">
+      <ObjectId>Tavern Beer Shot</ObjectId>
+      <Damage>125</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Beer Shot</ObjectId>
+      <Damage>100</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED,STASISIMMUNE</Labels>
+  </Object>
+  <Object type="0x4528" id="Tavern Beer Barrel W">
+    <Class>Character</Class>
+    <DisplayId>Beer Barrel</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>20</Index>
+    </Texture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <RemainVisible />
+    <NoCollisionWhenMovement />
+    <Projectile id="0">
+      <ObjectId>Tavern Beer Shot</ObjectId>
+      <Damage>125</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Beer Shot</ObjectId>
+      <Damage>100</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED,STASISIMMUNE</Labels>
+  </Object>
+  <Object type="0x4529" id="Tavern Beer Barrel E">
+    <Class>Character</Class>
+    <DisplayId>Beer Barrel</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>20</Index>
+    </Texture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <RemainVisible />
+    <NoCollisionWhenMovement />
+    <Projectile id="0">
+      <ObjectId>Tavern Beer Shot</ObjectId>
+      <Damage>125</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Beer Shot</ObjectId>
+      <Damage>100</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED,STASISIMMUNE</Labels>
+  </Object>
+  <Object type="0x4553" id="Tavern Controller">
+    <Class>Character</Class>
+    <DisplayId>Bradley the Barkeep</DisplayId>
+    <Enemy />
+    <EventChestBoss />
+    <AnimatedTexture>
+      <File>theShattersChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+    <Invincible />
+    <NoMiniMap />
+    <Labels>ENEMY,BOSS_SPAWNED,CONSTRUCT</Labels>
+    <SpecialSpawn category="Bis">The Tavern Portal</SpecialSpawn>
+    <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
+    <SpecialSpawn category="PetCollector">Rare Reptile Egg</SpecialSpawn>
+    <SpecialSpawn category="Generous">Epic Quest Chest Item</SpecialSpawn>
+    <SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn>
+    <SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn>
+    <SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn>
+    <SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn>
+    <SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn>
+    <SpecialSpawn category="ExaltedBanner">ExaltationBanner</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Weapon">Shard of the Mad God x1</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Ability">Shard of the Intern x1</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn>
+    <SpecialSpawn category="Souvenir_MID">Brewer's Bangle</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
+    <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
+    <SpecialSpawn category="Leprechaun_Purple">Purple Leprechaun</SpecialSpawn>
+  </Object>
+  <Object type="0x4554" id="Tavern Left Anchor">
+    <Class>Character</Class>
+    <Texture>
+      <File>steamworksObjects16x16</File>
+      <Index>25</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x4555" id="Tavern Right Anchor">
+    <Class>Character</Class>
+    <Texture>
+      <File>steamworksObjects16x16</File>
+      <Index>25</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xc455" id="Tavern Tele Anchor">
+    <Class>Character</Class>
+    <Texture>
+      <File>steamworksObjects16x16</File>
+      <Index>25</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x4556" id="Tavern Snake Idle">
+    <Class>Character</Class>
+    <DisplayId>Snake Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>45</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>45</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>46</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <NoArticle />
+  </Object>
+  <Object type="0x4557" id="Tavern Snake Brawler">
+    <Class>Character</Class>
+    <DisplayId>Snake Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <AnimatedTexture>
+      <File>rollerRinkChars16x16</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Quest />
+    <Exp>4000</Exp>
+    <BXP>20000</BXP>
+    <NoArticle />
+    <TrackLoot />
+    <NoCollisionWhenMovement />
+    <HealthBarBoss radius="30" />
+    <KillStat stat="CritterKills" />
+    <KillStat stat="LesserGodKills" />
+    <Projectile id="0">
+      <ObjectId>Tavern Snake Knife</ObjectId>
+      <Damage>115</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2050</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Snake Shot</ObjectId>
+      <Damage>130</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2100</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Tavern Snake Spinner</ObjectId>
+      <Damage>125</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>8000</LifetimeMS>
+      <ConditionEffect duration="3">Dazed</ConditionEffect>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <AlwaysPositiveHealth />
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CRITTER</Labels>
+  </Object>
+  <Object type="0x4558" id="Tavern Snake Orbiter">
+    <Class>Character</Class>
+    <DisplayId>Snake Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <AnimatedTexture>
+      <File>rollerRinkChars16x16</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>80</Size>
+    <Enemy />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <NoCollisionWhenMovement />
+    <RemainVisible />
+    <Projectile id="0">
+      <ObjectId>Tavern Snake Bolt</ObjectId>
+      <Damage>75</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>1900</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED,STASISIMMUNE</Labels>
+  </Object>
+  <Object type="0x4559" id="Tavern Sprite Idle">
+    <Class>Character</Class>
+    <DisplayId>Sprite Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>47</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>47</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>48</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <NoArticle />
+  </Object>
+  <Object type="0x455a" id="Tavern Sprite Brawler">
+    <Class>Character</Class>
+    <DisplayId>Sprite Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <AnimatedTexture>
+      <File>rollerRinkChars16x16</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Exp>4000</Exp>
+    <BXP>20000</BXP>
+    <NoCollisionWhenMovement />
+    <AlwaysPositiveHealth />
+    <HealthBarBoss radius="30" />
+    <KillStat stat="NatureKills" />
+    <KillStat stat="LesserGodKills" />
+    <Projectile id="0">
+      <ObjectId>Tavern Sprite Bolt</ObjectId>
+      <Damage>70</Damage>
+      <Speed>10</Speed>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <Acceleration>2000</Acceleration>
+      <SpeedClamp>70</SpeedClamp>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Sprite Spinner</ObjectId>
+      <Damage>125</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="3">Silenced</ConditionEffect>
+      <CircleTurnAngle>-60</CircleTurnAngle>
+      <CircleTurnDelay>1300</CircleTurnDelay>
+      <Size>110</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Tavern Sprite Spinner</ObjectId>
+      <Damage>125</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="3">Silenced</ConditionEffect>
+      <CircleTurnAngle>60</CircleTurnAngle>
+      <CircleTurnDelay>1500</CircleTurnDelay>
+      <Size>110</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Tavern Sprite Spinner</ObjectId>
+      <Damage>125</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="3">Silenced</ConditionEffect>
+      <CircleTurnAngle>-60</CircleTurnAngle>
+      <CircleTurnDelay>1700</CircleTurnDelay>
+      <Size>110</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Tavern Sprite Spinner</ObjectId>
+      <Damage>180</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="3">Silenced</ConditionEffect>
+      <CircleTurnAngle>60</CircleTurnAngle>
+      <CircleTurnDelay>1100</CircleTurnDelay>
+      <Size>110</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,NATURE</Labels>
+  </Object>
+  <Object type="0x455b" id="Tavern Demon Mage Idle">
+    <Class>Character</Class>
+    <DisplayId>Demon Mage Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>55</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>55</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>56</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <NoArticle />
+  </Object>
+  <Object type="0x455c" id="Tavern Demon Brawler Mage">
+    <Class>Character</Class>
+    <DisplayId>Demon Mage Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <AnimatedTexture>
+      <File>rollerRinkChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <NoCollisionWhenMovement />
+    <Exp>3000</Exp>
+    <BXP>20000</BXP>
+    <AlwaysPositiveHealth />
+    <HealthBarBoss radius="30" />
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="LesserGodKills" />
+    <Projectile id="0">
+      <ObjectId>Tavern Mage Tail</ObjectId>
+      <Damage>150</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>8000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Mage Heart</ObjectId>
+      <Damage>140</Damage>
+      <Speed>100</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <Boomerang />
+      <FaceDir />
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE</Labels>
+  </Object>
+  <Object type="0x455d" id="Tavern Demon Brute Idle">
+    <Class>Character</Class>
+    <DisplayId>Demon Brute Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>53</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>53</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>54</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <NoArticle />
+  </Object>
+  <Object type="0x455e" id="Tavern Demon Brawler Brute">
+    <Class>Character</Class>
+    <DisplayId>Demon Brute Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <AnimatedTexture>
+      <File>rollerRinkChars16x16</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <Defense>50</Defense>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <NoCollisionWhenMovement />
+    <AlwaysPositiveHealth />
+    <Exp>3000</Exp>
+    <BXP>20000</BXP>
+    <HealthBarBoss radius="30" />
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="LesserGodKills" />
+    <Projectile id="0">
+      <ObjectId>Tavern Brute Wave</ObjectId>
+      <Damage>120</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>8000</LifetimeMS>
+      <Acceleration>-30</Acceleration>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Brute Bash</ObjectId>
+      <Damage>125</Damage>
+      <Speed>85</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Tavern Brute Spin</ObjectId>
+      <Damage>125</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE</Labels>
+  </Object>
+  <Object type="0x455f" id="Tavern Pirate Idle">
+    <Class>Character</Class>
+    <DisplayId>Pirate Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>51</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>51</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>52</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <NoArticle />
+  </Object>
+  <Object type="0x4560" id="Tavern Pirate Brawler">
+    <Class>Character</Class>
+    <DisplayId>Pirate Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <AnimatedTexture>
+      <File>rollerRinkChars16x16</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <AlwaysPositiveHealth />
+    <Exp>4000</Exp>
+    <BXP>20000</BXP>
+    <Projectile id="0">
+      <ObjectId>Tavern Hot Shot</ObjectId>
+      <Damage>200</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Pirate Shot</ObjectId>
+      <Damage>135</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Tavern Dark Ball</ObjectId>
+      <Damage>175</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <Amplitude>2</Amplitude>
+      <Frequency>1</Frequency>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Tavern Hot Ball</ObjectId>
+      <Damage>200</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="5">Armor Broken</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <NoCollisionWhenMovement />
+    <HealthBarBoss radius="30" />
+    <KillStat stat="BeastKills" />
+    <KillStat stat="LesserGodKills" />
+    <DamageBasedXP />
+    <NoCollisionWhenMovement />
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST</Labels>
+  </Object>
+  <Object type="0x4561" id="Tavern Pirate Cook">
+    <Enemy />
+    <Group>Tavern Pirates</Group>
+    <DisplayId>Tavern Cook</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>rollerRinkChars8x8</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/bats_hit</HitSound>
+    <DeathSound>monster/flayers_hit</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>200</Exp>
+    <BXP>950</BXP>
+    <KillStat stat="CritterKills" />
+    <Projectile id="0">
+      <ObjectId>Tavern Cook Shot</ObjectId>
+      <Damage>100</Damage>
+      <Size>100</Size>
+      <Speed>80</Speed>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED,CRITTER</Labels>
+  </Object>
+  <Object type="0x4562" id="Tavern Pirate Sharpshooter">
+    <Enemy />
+    <Group>Tavern Pirates</Group>
+    <DisplayId>Pirate Sharpshooter</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>rollerRinkChars8x8</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flying_brain_hit</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>200</Exp>
+    <BXP>950</BXP>
+    <NoCollisionWhenMovement />
+    <KillStat stat="BeastKills" />
+    <Projectile id="0">
+      <ObjectId>Tavern Sharpshooter Shot</ObjectId>
+      <Damage>80</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>120</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED,BEAST</Labels>
+  </Object>
+  <Object type="0x4563" id="Tavern Skeleton Idle">
+    <Class>Character</Class>
+    <DisplayId>Skeleton Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>43</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>43</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>44</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <NoArticle />
+  </Object>
+  <Object type="0x4564" id="Tavern Skeleton Brawler">
+    <Class>Character</Class>
+    <DisplayId>Skeleton Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <AnimatedTexture>
+      <File>rollerRinkChars16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Exp>4000</Exp>
+    <BXP>20000</BXP>
+    <NoCollisionWhenMovement />
+    <AlwaysPositiveHealth />
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="LesserGodKills" />
+    <DamageBasedXP />
+    <Projectile id="0">
+      <ObjectId>Tavern Skele Wave</ObjectId>
+      <Damage>80</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Skele Wave</ObjectId>
+      <Damage>60</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Tavern Skele Wave</ObjectId>
+      <Damage>40</Damage>
+      <Speed>85</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>60</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Tavern Skele Bolt</ObjectId>
+      <Damage>125</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1800</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,UNDEAD</Labels>
+  </Object>
+  <Object type="0x4565" id="Tavern Bone Spike 1s">
+    <Class>Character</Class>
+    <DisplayId>Skeleton Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Animation prob="1" id="rise">
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>62</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>63</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>64</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>65</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>66</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>67</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>68</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>69</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>70</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>71</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" id="spin">
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>57</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>58</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>59</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>60</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>61</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <RemainVisible />
+    <NoCollisionWhenMovement />
+    <Projectile id="0">
+      <ObjectId>UDL Bone</ObjectId>
+      <Damage>50</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>1900</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep id="rise">SetAnimation</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep id="spin">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x4566" id="Tavern Bone Spike 2s">
+    <Class>Character</Class>
+    <DisplayId>Skeleton Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Animation prob="1" id="rise">
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>62</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>63</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>64</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>65</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>66</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>67</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>68</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>69</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>70</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>71</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" id="spin">
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>57</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>58</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>59</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>60</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>61</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <NoCollisionWhenMovement />
+    <RemainVisible />
+    <Projectile id="0">
+      <ObjectId>UDL Bone</ObjectId>
+      <Damage>50</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>1900</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep id="rise">SetAnimation</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep id="spin">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x4567" id="Tavern Bone Spike 3s">
+    <Class>Character</Class>
+    <DisplayId>Skeleton Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Animation prob="1" id="rise">
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>62</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>63</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>64</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>65</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>66</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>67</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>68</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>69</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>70</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>71</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" id="spin">
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>57</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>58</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>59</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>60</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>61</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <NoCollisionWhenMovement />
+    <RemainVisible />
+    <Projectile id="0">
+      <ObjectId>UDL Bone</ObjectId>
+      <Damage>50</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>1900</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep id="rise">SetAnimation</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep id="spin">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x4568" id="Tavern Robot Idle">
+    <Class>Character</Class>
+    <DisplayId>Robot Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>49</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>49</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>50</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <NoArticle />
+  </Object>
+  <Object type="0x456d" id="Tavern Robot Brawler">
+    <Class>Character</Class>
+    <DisplayId>Robot Brawler</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <AnimatedTexture>
+      <File>rollerRinkChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>65</Defense>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Exp>4000</Exp>
+    <BXP>20000</BXP>
+    <NoCollisionWhenMovement />
+    <AlwaysPositiveHealth />
+    <HealthBarBoss radius="30" />
+    <KillStat stat="ConstructKills" />
+    <KillStat stat="LesserGodKills" />
+    <DamageBasedXP />
+    <Projectile id="0">
+      <ObjectId>Tavern Static Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>300</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Gear Blast</ObjectId>
+      <Damage>100</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT</Labels>
+  </Object>
+  <Object type="0x456e" id="Tavern Lightning Strike">
+    <Class>Character</Class>
+    <DisplayId>Lightning Spike</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <AnimatedTexture>
+      <File>mountainTempleChars16x16</File>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <NoCollisionWhenMovement />
+    <Sound id="0">lightning</Sound>
+    <Labels>ENEMY,BOSS_SPAWNED</Labels>
+  </Object>
+  <Object type="0x456f" id="Tavern Lightning Spike">
+    <Class>Character</Class>
+    <DisplayId>Lightning Spike</DisplayId>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>72</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>72</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>73</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>74</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>75</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>rollerRinkObjects16x16</File>
+          <Index>76</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>100</Size>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Invincible />
+    <NoCollisionWhenMovement />
+    <Projectile id="0">
+      <ObjectId>Tavern Static Bolt</ObjectId>
+      <Damage>50</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>1900</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Lightning Wave</ObjectId>
+      <Damage>125</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED</Labels>
+  </Object>
+  <Object type="0xc42f" id="Tavern Teleporter">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x03</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xc453" id="Tavern Teleporter small">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x03</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x4582" id="Tavern Small Plant">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>rollerRinkObjects8x8</File>
+        <Index>341</Index>
+      </Texture>
+      <Texture>
+        <File>rollerRinkObjects8x8</File>
+        <Index>342</Index>
+      </Texture>
+    </RandomTexture>
+  </Object>
+  <Object type="0x4583" id="Tavern Mug">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>343</Index>
+    </Texture>
+    <Z>0.45</Z>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4584" id="Tavern Stool">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>348</Index>
+    </Texture>
+  </Object>
+  <Object type="0x4585" id="Tavern Stool Fallen">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>349</Index>
+    </Texture>
+  </Object>
+  <Object type="0x4586" id="Tavern Food">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>rollerRinkObjects8x8</File>
+        <Index>344</Index>
+      </Texture>
+      <Texture>
+        <File>rollerRinkObjects8x8</File>
+        <Index>345</Index>
+      </Texture>
+    </RandomTexture>
+    <Z>0.45</Z>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4587" id="Tavern Candle">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>346</Index>
+    </Texture>
+    <Z>0.45</Z>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4588" id="Tavern Plates">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>rollerRinkObjects8x8</File>
+        <Index>353</Index>
+      </Texture>
+      <Texture>
+        <File>rollerRinkObjects8x8</File>
+        <Index>354</Index>
+      </Texture>
+    </RandomTexture>
+    <Z>0.45</Z>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4589" id="Tavern Cup">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>355</Index>
+    </Texture>
+    <Z>0.45</Z>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x458a" id="Tavern Pot">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>347</Index>
+    </Texture>
+    <Z>0.45</Z>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x458b" id="Tavern Small Barrel">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>350</Index>
+    </Texture>
+  </Object>
+  <Object type="0x458c" id="Tavern Small Barrel Fallen">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>351</Index>
+    </Texture>
+  </Object>
+  <Object type="0x459b" id="Tavern Table Outer">
+    <Class>GameObject</Class>
+    <Model>Table</Model>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>382</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>180</ShadowSize>
+  </Object>
+  <Object type="0x459c" id="Tavern Table Outer UL">
+    <Class>GameObject</Class>
+    <Model>Table Edge</Model>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>382</Index>
+    </Texture>
+    <Rotation>0</Rotation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>180</ShadowSize>
+  </Object>
+  <Object type="0x459d" id="Tavern Table Outer UR">
+    <Class>GameObject</Class>
+    <Model>Table Edge</Model>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>383</Index>
+    </Texture>
+    <Rotation>90</Rotation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>180</ShadowSize>
+  </Object>
+  <Object type="0x459e" id="Tavern Table Outer LR">
+    <Class>GameObject</Class>
+    <Model>Table Edge</Model>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>384</Index>
+    </Texture>
+    <Rotation>180</Rotation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>180</ShadowSize>
+  </Object>
+  <Object type="0x459f" id="Tavern Table Outer LL">
+    <Class>GameObject</Class>
+    <Model>Table Edge</Model>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>385</Index>
+    </Texture>
+    <Rotation>270</Rotation>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>180</ShadowSize>
+  </Object>
+  <Object type="0x45a0" id="Tavern Large Barrels">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>20</Index>
+      </Texture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>21</Index>
+      </Texture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>22</Index>
+      </Texture>
+    </RandomTexture>
+  </Object>
+  <Object type="0x45a1" id="Tavern Large Crates">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>23</Index>
+      </Texture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>24</Index>
+      </Texture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>25</Index>
+      </Texture>
+    </RandomTexture>
+  </Object>
+  <Object type="0x45a2" id="Tavern Small Crate Pile">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>26</Index>
+    </Texture>
+  </Object>
+  <Object type="0x45a3" id="Tavern Large Pots">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>27</Index>
+      </Texture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>28</Index>
+      </Texture>
+    </RandomTexture>
+  </Object>
+  <Object type="0x45ac" id="Tavern Plant Pots">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>12</Index>
+      </Texture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>13</Index>
+      </Texture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>14</Index>
+      </Texture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>15</Index>
+      </Texture>
+    </RandomTexture>
+  </Object>
+  <Object type="0x45a4" id="Tavern Shelf">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>29</Index>
+    </Texture>
+  </Object>
+  <Object type="0x45ab" id="Tavern Bookshelf">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>32</Index>
+    </Texture>
+  </Object>
+  <Object type="0x45a6" id="Tavern Wood">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>30</Index>
+    </Texture>
+  </Object>
+  <Object type="0x45a7" id="Tavern Oven">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>31</Index>
+    </Texture>
+  </Object>
+  <Object type="0x45a8" id="Tavern Lamp Left">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>16</Index>
+    </Texture>
+    <ShadowColor>FFCE00</ShadowColor>
+    <ShadowSize>80</ShadowSize>
+  </Object>
+  <Object type="0x45aa" id="Tavern Lamp Right">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>17</Index>
+    </Texture>
+    <ShadowColor>FFCE00</ShadowColor>
+    <ShadowSize>80</ShadowSize>
+  </Object>
+  <Object type="0x45a9" id="Tavern Lamp Standing">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>18</Index>
+      </Texture>
+      <Texture>
+        <File>rollerRinkObjects16x16</File>
+        <Index>19</Index>
+      </Texture>
+    </RandomTexture>
+  </Object>
+  <Object type="0x45af" id="Tavern Table Mug">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>cursedLibraryObjects8x8</File>
+      <Index>0x1e</Index>
+    </Texture>
+    <KillStat stat="StructureKills" />
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x45bb" id="Tavern Table Food">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>cursedLibraryObjects8x8</File>
+      <Index>0x1e</Index>
+    </Texture>
+    <KillStat stat="StructureKills" />
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x45bc" id="Tavern Table Candle">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>cursedLibraryObjects8x8</File>
+      <Index>0x1e</Index>
+    </Texture>
+    <KillStat stat="StructureKills" />
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x45bd" id="Tavern Table Xuo">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>cursedLibraryObjects8x8</File>
+      <Index>0x1e</Index>
+    </Texture>
+    <KillStat stat="StructureKills" />
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x45be" id="Tavern Table Plate">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>cursedLibraryObjects8x8</File>
+      <Index>0x1e</Index>
+    </Texture>
+    <KillStat stat="StructureKills" />
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x45c5" id="Tavern Keg">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>21</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc420" id="Tavern Orc 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>401</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>401</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>402</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc421" id="Tavern Orc 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>403</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>403</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>404</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc422" id="Tavern Skele 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>405</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>405</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>406</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc423" id="Tavern Skele 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>407</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>407</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>408</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc424" id="Tavern Pirate 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>409</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>409</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>410</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc425" id="Tavern Snake 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>411</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>411</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>412</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc426" id="Tavern Snake 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>413</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>413</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>414</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc427" id="Tavern Snake 3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>415</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>415</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>416</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc428" id="Tavern Sprite 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>417</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>417</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>418</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc429" id="Tavern Demon 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>419</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>419</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>420</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc42a" id="Tavern Sprite 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>421</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>421</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>422</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc42b" id="Tavern Robot 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>423</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>423</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>424</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc42c" id="Tavern Robot2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>425</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>425</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>426</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc42d" id="Tavern Pirate 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>427</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>427</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>428</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xc42e" id="Tavern Demon 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>429</Index>
+    </Texture>
+    <Animation prob="1">
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>429</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.5">
+        <Texture>
+          <File>rollerRinkObjects8x8</File>
+          <Index>430</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0x4572" id="Tavern DG Path 0">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>356</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x4573" id="Tavern DG Path 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>357</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x4574" id="Tavern DG Path 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>358</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x45bf" id="Tavern DG Path 3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>359</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x4576" id="Tavern DG Path 4">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>360</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x4577" id="Tavern DG Path 5">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>361</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x4578" id="Tavern DG Path 6">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>362</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x4579" id="Tavern DG Path 7">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>363</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x457a" id="Tavern DG Path 8">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>364</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x457b" id="Tavern DG Path 9">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>365</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x457c" id="Tavern DG Path 10">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>366</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x457d" id="Tavern DG Path 11">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>367</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x457e" id="Tavern DG Path 12">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>368</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x457f" id="Tavern DG Path 13">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>369</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x4580" id="Tavern DG Path 14">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>370</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x4581" id="Tavern DG Path 15">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>371</Index>
+    </Texture>
+    <DrawOnGround />
+  </Object>
+  <Object type="0x458d" id="Tavern Blank Wall">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>36</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x458e" id="Tavern Support Wall 1">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x458f" id="Tavern Support Wall 2">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>1</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4590" id="Tavern Window Wall 1">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>2</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4591" id="Tavern Window Wall 2">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>3</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4592" id="Tavern Notes Wall">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>4</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4593" id="Tavern Poster Wall 1">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>5</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4594" id="Tavern Poster Wall 2">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>6</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4595" id="Tavern Menu Wall 1">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>7</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4596" id="Tavern Menu Wall 2">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>8</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4597" id="Tavern Menu Wall 3">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>9</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4598" id="Tavern Door Wall 1">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>33</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x4599" id="Tavern Door Wall 2">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>34</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x459a" id="Tavern Door Wall 3">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>rollerRinkObjects16x16</File>
+      <Index>35</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0xc430" id="Tavern Mug Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>432</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc431" id="Tavern Mug Toss">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>431</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc432" id="Tavern Foam Small">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>433</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc433" id="Tavern Foam Large">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>434</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc434" id="Tavern Beer Swirl">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>435</Index>
+    </Texture>
+    <Rotation>100</Rotation>
+  </Object>
+  <Object type="0xc435" id="Tavern Beer Bolt">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>436</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc436" id="Tavern Beer Wave">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>437</Index>
+    </Texture>
+    <AngleCorrection>2</AngleCorrection>
+  </Object>
+  <Object type="0xc437" id="Tavern Beer Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>438</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc438" id="Tavern Bone Fist">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>439</Index>
+    </Texture>
+    <AngleCorrection>-2</AngleCorrection>
+  </Object>
+  <Object type="0xc439" id="Tavern Bone Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>440</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc43a" id="Tavern Skele Bolt">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>444</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc43b" id="Tavern Skele Wave">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>446</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc43d" id="Tavern Snake Knife">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>448</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc43e" id="Tavern Snake Spinner">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>450</Index>
+    </Texture>
+    <Rotation>80</Rotation>
+  </Object>
+  <Object type="0xc43f" id="Tavern Snake Wave">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>452</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc440" id="Tavern Snake Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>453</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc454" id="Tavern Snake Bolt">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>451</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc441" id="Tavern Sprite Bolt">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>456</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc442" id="Tavern Sprite Spinner">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>462</Index>
+    </Texture>
+    <Rotation>80</Rotation>
+  </Object>
+  <Object type="0xc443" id="Tavern Gear Blast">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>464</Index>
+    </Texture>
+    <Rotation>80</Rotation>
+  </Object>
+  <Object type="0xc444" id="Tavern Static Bolt">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>467</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc445" id="Tavern Lightning Wave">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>469</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc446" id="Tavern Pirate Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>478</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc447" id="Tavern Sharpshooter Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>477</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc448" id="Tavern Hot Ball">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>474</Index>
+    </Texture>
+    <Rotation>100</Rotation>
+  </Object>
+  <Object type="0xc449" id="Tavern Dark Ball">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>473</Index>
+    </Texture>
+    <Rotation>100</Rotation>
+  </Object>
+  <Object type="0xc452" id="Tavern Hot Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>476</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc44b" id="Tavern Cook Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>441</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc44d" id="Tavern Mage Tail">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>492</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc44e" id="Tavern Mage Heart">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>491</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc44f" id="Tavern Brute Wave">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>488</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xc450" id="Tavern Brute Bash">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>486</Index>
+    </Texture>
+  </Object>
+  <Object type="0xc451" id="Tavern Brute Spin">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>481</Index>
+    </Texture>
+    <Rotation>80</Rotation>
+  </Object>
+</Objects>

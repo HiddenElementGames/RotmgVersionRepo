@@ -2784,7 +2784,6 @@
     <Quest />
     <HealthBarBoss />
     <God />
-    <Encounter />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -7192,6 +7191,292 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x657b" id="Beer Encounter Spawner">
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Enemy />
+    <Encounter />
+    <PerRealmMax>2</PerRealmMax>
+    <Hero />
+    <Invincible />
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Invincible />
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0x5e25" id="Beer God">
+    <Enemy />
+    <Class>Character</Class>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <TrackLoot />
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>52</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16rEncounters</File>
+        <Index>53</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/lizard_god_hit</HitSound>
+    <DeathSound>monster/lizard_god_death</DeathSound>
+    <Size>140</Size>
+    <DamageBasedXP />
+    <HealthBarBoss radius="30" />
+    <MaxHitPoints>80000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Level>20</Level>
+    <Quest />
+    <Exp>4000</Exp>
+    <BXP>15000</BXP>
+    <Projectile id="0">
+      <ObjectId>Beer Barrel</ObjectId>
+      <Damage>125</Damage>
+      <Speed>60</Speed>
+      <Size>130</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <PassesCover />
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Beer Shockwave</ObjectId>
+      <Damage>60</Damage>
+      <Speed>55</Speed>
+      <Size>140</Size>
+      <PassesCover />
+      <ArmorPiercing />
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Beer Punch</ObjectId>
+      <Damage>155</Damage>
+      <Speed>65</Speed>
+      <Size>130</Size>
+      <LifetimeMS>1800</LifetimeMS>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Beer Shockwave</ObjectId>
+      <Damage>60</Damage>
+      <Speed>55</Speed>
+      <Size>140</Size>
+      <PassesCover />
+      <ArmorPiercing />
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="HumanoidKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,HUMANOID,GOD,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x657a" id="Beer God Slurp N">
+    <Class>GameObject</Class>
+    <Enemy />
+    <Invincible />
+    <RemainVisible />
+    <NoCollisionWhenMovement />
+    <DisplayId>Beer God Slurp</DisplayId>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>172</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16rEncounters</File>
+        <Index>51</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>Tavern Foam Small</ObjectId>
+      <Damage>100</Damage>
+      <Speed>0</Speed>
+      <Size>100</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Beer Bolt</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <PassesCover />
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x45c2" id="Beer God Slurp E">
+    <Class>GameObject</Class>
+    <Enemy />
+    <Invincible />
+    <RemainVisible />
+    <NoCollisionWhenMovement />
+    <DisplayId>Beer God Slurp</DisplayId>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>172</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16rEncounters</File>
+        <Index>51</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>Tavern Foam Small</ObjectId>
+      <Damage>100</Damage>
+      <Speed>0</Speed>
+      <Size>100</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Beer Bolt</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <PassesCover />
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x45c3" id="Beer God Slurp S">
+    <Class>GameObject</Class>
+    <Enemy />
+    <Invincible />
+    <RemainVisible />
+    <NoCollisionWhenMovement />
+    <DisplayId>Beer God Slurp</DisplayId>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>172</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16rEncounters</File>
+        <Index>51</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>Tavern Foam Small</ObjectId>
+      <Damage>100</Damage>
+      <Speed>0</Speed>
+      <Size>100</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Beer Bolt</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <PassesCover />
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x45c6" id="Beer God Slurp W">
+    <Class>GameObject</Class>
+    <Enemy />
+    <Invincible />
+    <RemainVisible />
+    <NoCollisionWhenMovement />
+    <DisplayId>Beer God Slurp</DisplayId>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>172</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16rEncounters</File>
+        <Index>51</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>Tavern Foam Small</ObjectId>
+      <Damage>100</Damage>
+      <Speed>0</Speed>
+      <Size>100</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Tavern Beer Bolt</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <PassesCover />
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x44a4" id="Beer God Anchor N">
+    <Class>Character</Class>
+    <Texture>
+      <File>steamworksObjects16x16</File>
+      <Index>25</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x44a5" id="Beer God Anchor E">
+    <Class>Character</Class>
+    <Texture>
+      <File>steamworksObjects16x16</File>
+      <Index>25</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x44a6" id="Beer God Anchor S">
+    <Class>Character</Class>
+    <Texture>
+      <File>steamworksObjects16x16</File>
+      <Index>25</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x44a7" id="Beer God Anchor W">
+    <Class>Character</Class>
+    <Texture>
+      <File>steamworksObjects16x16</File>
+      <Index>25</Index>
+    </Texture>
+    <Size>0</Size>
   </Object>
   <Object type="0xc101" id="Realm 1 Master">
     <MasterObject />

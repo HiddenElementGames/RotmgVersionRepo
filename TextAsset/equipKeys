@@ -4969,4 +4969,135 @@
     <Track />
     <UniqueID />
   </Object>
+  <Object type="0x451a" id="The Tavern Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <DisplayId>The Tavern Key</DisplayId>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>386</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Tavern, a place of recreation and merriment for Oryx's minions. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="The Tavern Portal">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object id="The Tavern Augmented Key" type="0x4523">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>389</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Tavern, a place of recreation and merriment for Oryx's minions. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="The Tavern Portal">CreatePortal</Activate>
+    <Activate id="3STKeyMysteryChest">Exchange</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object id="The Tavern Solo Key" type="0x454c">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>390</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Tavern, a place of recreation and merriment for Oryx's minions. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="The Tavern Portal" readonlymods="true" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object id="The Tavern Enchanted Key" type="0x454d">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>388</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Tavern, a place of recreation and merriment for Oryx's minions. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="The Tavern Portal" readonlymods="true" onlyIn="vault">CreatePortal</Activate>
+    <Activate id="Mystery ST Crate">Exchange</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object id="The Tavern Guild Key" type="0x454e">
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>387</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Tavern, a place of recreation and merriment for Oryx's minions. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Soulbound />
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <Consumable />
+    <Activate id="The Tavern Portal" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">CreatePortal</Activate>
+    <Activate id="Tavern Guild Chest" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">Create</Activate>
+    <UniqueID />
+  </Object>
+  <Object type="0x454F" id="Solo Manor Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>353</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens a passage to the Manor of the Immortals. Lord Ruthven's gothic mansion neighbor's Oryx's own castle in the dark, distant sea.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Dungeon Difficulty" description="4" />
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Manor of the Immortals Portal" readonlymods="true" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
 </Objects>

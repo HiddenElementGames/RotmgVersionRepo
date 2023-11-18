@@ -547,6 +547,52 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
+  <Object type="0x7308" id="HZombie Pirate Sr">
+    <DisplayId>Zombie Pirate Sr</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>34</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16rEncounters</File>
+        <Index>35</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <BloodProb>0.5</BloodProb>
+    <BloodColor>0x50d71b</BloodColor>
+    <Size>110</Size>
+    <MaxHitPoints>1200</MaxHitPoints>
+    <Defense>17</Defense>
+    <Exp>500</Exp>
+    <BXP>2375</BXP>
+    <StasisImmune />
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/undead_hobbits_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>Zombie Shot</ObjectId>
+      <Speed>55</Speed>
+      <Damage>66</Damage>
+      <LifetimeMS>1700</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>HZombie Pirate Sr</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
   <Object type="0x0e42" id="Zombie Pirate Jr">
     <Class>Character</Class>
     <Group>GhostShip Group</Group>

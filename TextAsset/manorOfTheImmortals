@@ -343,6 +343,49 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
+  <Object type="0x7311" id="HNosferatu">
+    <DisplayId>Nosferatu</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>19</Index>
+    </AnimatedTexture>
+    <HitSound>monster/mummies_death</HitSound>
+    <DeathSound>monster/cyclops_death</DeathSound>
+    <MaxHitPoints>1100</MaxHitPoints>
+    <Defense>45</Defense>
+    <Exp>200</Exp>
+    <BXP>950</BXP>
+    <Size>100</Size>
+    <ShadowSize>60</ShadowSize>
+    <StasisImmune />
+    <TrackLoot />
+    <Projectile id="0">
+      <ObjectId>Bone Swipe</ObjectId>
+      <Damage>80</Damage>
+      <Speed>40</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="3">Weak</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Vampire Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>55</Speed>
+      <Size>80</Size>
+      <LifetimeMS>1600</LifetimeMS>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>HNosferatu</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
   <Object type="0x1729" id="Armor Guard">
     <Enemy />
     <Class>Character</Class>
@@ -440,6 +483,41 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
+  <Object type="0x7323" id="HHellhound">
+    <DisplayId>Hellhound</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>21</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <MaxHitPoints>600</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>200</Exp>
+    <BXP>950</BXP>
+    <Size>100</Size>
+    <ShadowSize>60</ShadowSize>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>HellHoundAttack</ObjectId>
+      <Damage>65</Damage>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="3.6">Bleeding</ConditionEffect>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <Labels>HHellhound</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
   <Object type="0x172c" id="Lesser Bald Vampire">
     <Enemy />
     <Class>Character</Class>
@@ -464,6 +542,40 @@
     </Projectile>
     <KillStat stat="UndeadKills" />
     <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x7324" id="HLesser Bald Vampire">
+    <DisplayId>Lesser Bald Vampire</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>27</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/undead_dwarves_hit</DeathSound>
+    <MaxHitPoints>400</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>120</Exp>
+    <BXP>570</BXP>
+    <Size>100</Size>
+    <ShadowSize>100</ShadowSize>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Vampire Magic Ball</ObjectId>
+      <Damage>50</Damage>
+      <Speed>55</Speed>
+      <Size>80</Size>
+      <LifetimeMS>1600</LifetimeMS>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>HLesser Bald Vampire</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>

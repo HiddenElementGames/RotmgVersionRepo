@@ -4477,7 +4477,7 @@
     <BagType>2</BagType>
     <feedPower>80</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="3" />
     <Labels>EQUIPMENT,CONSUMABLE,TIERED,T3,TRADEABLE</Labels>
   </Object>
   <Object type="0xb35" id="Cream Spirit">
@@ -4491,13 +4491,13 @@
     <Tier>3</Tier>
     <Description>A potent draught from Oryx's wine cellar.</Description>
     <Sound>use_potion</Sound>
-    <Activate amount="150">Magic</Activate>
+    <Activate amount="230">Magic</Activate>
     <Consumable />
     <Potion />
     <BagType>2</BagType>
     <feedPower>80</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="3" />
     <Labels>EQUIPMENT,CONSUMABLE,TIERED,T3,TRADEABLE</Labels>
   </Object>
   <Object type="0xb36" id="Chardonnay">
@@ -4517,7 +4517,7 @@
     <BagType>2</BagType>
     <feedPower>80</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,TIERED,T3,TRADEABLE</Labels>
   </Object>
   <Object type="0xb37" id="Melon Liqueur">
@@ -4537,7 +4537,7 @@
     <BagType>2</BagType>
     <feedPower>80</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,TIERED,T3,TRADEABLE</Labels>
   </Object>
   <Object type="0xb38" id="Cabernet">
@@ -4557,7 +4557,7 @@
     <BagType>2</BagType>
     <feedPower>80</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,TIERED,T3,TRADEABLE</Labels>
   </Object>
   <Object type="0xb39" id="Vintage Port">
@@ -4577,7 +4577,7 @@
     <BagType>2</BagType>
     <feedPower>80</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,TIERED,T3,TRADEABLE</Labels>
   </Object>
   <Object type="0xb3a" id="Sauvignon Blanc">
@@ -4597,7 +4597,7 @@
     <BagType>2</BagType>
     <feedPower>80</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,TIERED,T3,TRADEABLE</Labels>
   </Object>
   <Object type="0xb3b" id="Muscat">
@@ -4617,7 +4617,7 @@
     <BagType>2</BagType>
     <feedPower>80</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,TIERED,T3,TRADEABLE</Labels>
   </Object>
   <Object type="0xb3c" id="Rice Wine">
@@ -4637,7 +4637,7 @@
     <BagType>2</BagType>
     <feedPower>80</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,TIERED,T3,TRADEABLE</Labels>
   </Object>
   <Object type="0xb3d" id="Shiraz">
@@ -4657,7 +4657,7 @@
     <BagType>2</BagType>
     <feedPower>80</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,TIERED,T3,TRADEABLE</Labels>
   </Object>
   <Object type="0xb14" id="Elixir of Health 7">
@@ -5000,7 +5000,7 @@
     <BagType>2</BagType>
     <feedPower>20</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <ForbidUseOnMaxHP />
     <Labels>EQUIPMENT,CONSUMABLE,UT,TAB_UT,TRADEABLE</Labels>
   </Object>
@@ -5421,6 +5421,7 @@
       <EffectInfo description="Speedy for 2 seconds" name="On Ability Use" />
       <EffectInfo description="5 seconds" name="Cooldown" />
     </ExtraTooltipData>
+    <SharedCooldownChannel id="1226" />
     <Description>A ring made from the eye of the Snake Queen.</Description>
     <ActivateOnEquip stat="ATT" amount="3">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip stat="SPD" amount="3">IncrementStat</ActivateOnEquip>
@@ -12165,7 +12166,7 @@
     <Activate effect="Drunk" duration="8">ConditionEffectSelf</Activate>
     <feedPower>10</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,UT,TAB_UT,TRADEABLE,APPLY_STAT_EFF</Labels>
   </Object>
   <Object type="0xc5c" id="Oryx Stout">
@@ -12185,7 +12186,7 @@
     <Activate effect="Drunk" duration="8">ConditionEffectSelf</Activate>
     <feedPower>10</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,UT,TAB_UT,TRADEABLE,APPLY_STAT_EFF</Labels>
   </Object>
   <Object type="0xc5d" id="Realm-wheat Hefeweizen">
@@ -12205,7 +12206,7 @@
     <Activate effect="Drunk" duration="8">ConditionEffectSelf</Activate>
     <feedPower>10</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,UT,TAB_UT,TRADEABLE,APPLY_STAT_EFF</Labels>
   </Object>
   <Object type="0x9cb" id="Def Test Sword">
@@ -12524,14 +12525,34 @@
       <Index>0x315</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A backpack that will double your inventory space!</Description>
+    <Description>Expands your Inventory space from 8 to 16 slots.</Description>
     <Sound>spell/light_heal</Sound>
     <Consumable />
-    <Backpack />
+    <Backpack slots="8" />
     <Soulbound />
     <BagType>2</BagType>
     <OldSound>use_potion</OldSound>
     <feedPower>200</feedPower>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0xFF00" id="Backpack Extender">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="0" yOffset="2">
+      <File>lofiObj3</File>
+      <Index>0xBBA</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Further extends your Inventory capacity from 16 to 24 slots.\nCan only be used after equipping the Backpack.</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable />
+    <Backpack slots="16" />
+    <Soulbound />
+    <UniqueID />
+    <BagType>5</BagType>
+    <OldSound>use_potion</OldSound>
+    <feedPower>500</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
@@ -13412,6 +13433,7 @@
       <Index>0xf3</Index>
     </Texture>
     <SlotType>24</SlotType>
+    <SharedCooldownChannel id="1228" />
     <Description>Stuck in the maw of the Son of Arachna, this katana is coated in the creature's poisonous venom. In the hands of the right person, this is a truly deadly weapon.</Description>
     <ExtraTooltipData>
       <EffectInfo name="On Shoot" description="Release a poison burst" />
@@ -16586,7 +16608,7 @@
     <Activate stat="DEX" amount="20">IncrementStat</Activate>
     <Activate stat="XP" amount="18050">IncrementStat</Activate>
     <Consumable />
-    <Backpack />
+    <Backpack slots="8" />
     <Potion />
     <BagType>8</BagType>
     <Soulbound />
@@ -20418,10 +20440,10 @@
       <Index>0xb8</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>Santa's magical bag that will double your inventory space!</Description>
+    <Description>Santa's magical bag that will expand your Inventory space from 8 to 16 slots!</Description>
     <Sound>spell/light_heal</Sound>
     <Consumable />
-    <Backpack />
+    <Backpack slots="8" />
     <Soulbound />
     <BagType>2</BagType>
     <OldSound>use_potion</OldSound>
@@ -20937,10 +20959,10 @@
     <BagType>2</BagType>
     <Activate amount="100">Heal</Activate>
     <Activate amount="100">Magic</Activate>
-    <Activate effect="Drunk" duration="18">ConditionEffectSelf</Activate>
+    <Activate effect="Drunk" duration="4">ConditionEffectSelf</Activate>
     <feedPower>10</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,UT,TAB_UT,TRADEABLE,APPLY_STAT_EFF</Labels>
   </Object>
   <Object type="0x2804" id="Grog">
@@ -20960,7 +20982,7 @@
     <Activate effect="Drunk" duration="8">ConditionEffectSelf</Activate>
     <feedPower>10</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,UT,TAB_UT,TRADEABLE,APPLY_STAT_EFF</Labels>
   </Object>
   <Object type="0x2805" id="Cranberry Punch">
@@ -20977,10 +20999,10 @@
     <Potion />
     <BagType>2</BagType>
     <Activate amount="200">Magic</Activate>
-    <Activate effect="Drunk" duration="2">ConditionEffectSelf</Activate>
+    <Activate effect="Drunk" duration="8">ConditionEffectSelf</Activate>
     <feedPower>10</feedPower>
     <DropTradable />
-    <QuickslotAllowed maxstack="6" />
+    <QuickslotAllowed maxstack="5" />
     <Labels>EQUIPMENT,CONSUMABLE,UT,TAB_UT,TRADEABLE,APPLY_STAT_EFF</Labels>
   </Object>
   <Object type="0x6066" id="Veteran of 2017">
@@ -22840,7 +22862,7 @@
       <Index>0x9b</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>Grants a random Key when used!\n\n*Shaitan's Key\n*Reef Key\n*Deadwater Docks Key\n*Woodland Labyrinth Key\n*The Crawling Depths Key\n*Davy's Key\n*Tomb of the Ancients Key\n*Mountain Temple Key\n*Ice Cave Key\n*Puppet Master's Encore Key\n*Ocean Trench Key\n*Sulfurous Wetlands Key\n*The Third Dimension Key\n*High Tech Terror Key\n*Secluded Thicket Key\n*Parasite Chambers Key\n*Draconis Key\n\nSprite Credits: Lovens</Description>
+    <Description>Grants a random Key when used!\n\n*Shaitan's Key\n*Reef Key\n*Deadwater Docks Key\n*Woodland Labyrinth Key\n*The Crawling Depths Key\n*Davy's Key\n*Tomb of the Ancients Key\n*Mountain Temple Key\n*Ice Cave Key\n*Puppet Master's Encore Key\n*Ocean Trench Key\n*Sulfurous Wetlands Key\n*The Third Dimension Key\n*High Tech Terror Key\n*Secluded Thicket Key\n*Parasite Chambers Key\n*Draconis Key\n*The Tavern Key\n\nSprite Credits: Lovens</Description>
     <Activate>MysteryDyes</Activate>
     <Consumable />
     <Soulbound />
@@ -25199,8 +25221,9 @@
     <Activate stat="WIS" amount="2000">IncrementStat</Activate>
     <Activate stat="DEX" amount="2000">IncrementStat</Activate>
     <Consumable />
-    <Backpack />
+    <Backpack slots="8" />
     <Potion />
+    <UniqueID />
     <BagType>8</BagType>
     <Soulbound />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
@@ -25693,6 +25716,7 @@
       <Index>0x108</Index>
     </Texture>
     <SlotType>24</SlotType>
+    <SharedCooldownChannel id="1228" />
     <Description>Though rather unremarkable as far as alien weapons go, Malogian clans swear by this weapon as a good luck charm. Some things never change.</Description>
     <RateOfFire>1.20</RateOfFire>
     <Sound>weapon/long_sword</Sound>
@@ -27228,20 +27252,18 @@
     <Class>Equipment</Class>
     <Item />
     <Texture>
-      <File>d2LofiObjEmbed</File>
-      <Index>0x179</Index>
+      <File>rollerRinkObjects8x8</File>
+      <Index>393</Index>
     </Texture>
     <SlotType>6</SlotType>
     <Description>A necessary component for any beer-drinking or sausage-eating in the month of October.\n\nSprite Credits: Dappertron</Description>
-    <ActivateOnEquip stat="DEF" amount="12">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip stat="ATT" amount="2">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip stat="DEX" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="15">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="8">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="15">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEX" amount="-7">IncrementStat</ActivateOnEquip>
     <OnPlayerHitActivate proc="0.05" cooldown="20" duration="1.5" effect="Hallucinating">ConditionEffectSelf</OnPlayerHitActivate>
-    <OnPlayerHitActivate proc="0.05" cooldown="20" stat="ATT" amount="10" duration="10" mustNotWear="0x4e05" channel="noStackItm">StatBoostSelf</OnPlayerHitActivate>
     <ExtraTooltipData>
       <EffectInfo name="On Taking Damage" description="5% chance to gain Hallucinating for 1.5 seconds" />
-      <EffectInfo name="On Taking Damage" description="5% chance to gain +10 ATT for 10 seconds" />
       <EffectInfo name="Cooldown" description="20 seconds" />
     </ExtraTooltipData>
     <BagType>6</BagType>
@@ -27254,13 +27276,13 @@
     <Class>Equipment</Class>
     <Item />
     <Texture>
-      <File>d2LofiObjEmbed</File>
-      <Index>0x17a</Index>
+      <File>rollerRinkObjects8x8</File>
+      <Index>392</Index>
     </Texture>
     <SlotType>18</SlotType>
     <Description>A mighty mug for a mighty drink! Be merry!\n\nSprite Credits: Dappertron</Description>
     <ActivateOnEquip stat="DEF" amount="2">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip stat="DEX" amount="2">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="2">IncrementStat</ActivateOnEquip>
     <Usable />
     <BagType>6</BagType>
     <MpCost>90</MpCost>
@@ -30366,6 +30388,7 @@
     <Soulbound />
     <XPBonus>5</XPBonus>
     <UniqueID />
+    <SharedCooldownChannel id="1220" />
     <Labels>EQUIPMENT,WEAPON,WAND,ST,TAB_ST,ST_WEAPON,STGEN_2,POWERTIER_A,XPBONUS</Labels>
   </Object>
   <Object type="0x4BA3" id="2SorcererST1" setType="0x4BA0" setName="Court Magician Sorcerer Set" collectionIcon="2">
@@ -30392,6 +30415,7 @@
     <Soulbound />
     <XPBonus>7</XPBonus>
     <UniqueID />
+    <SharedCooldownChannel id="1221" />
     <Labels>EQUIPMENT,ABILITY,SCEPTER,ST,TAB_ST,ST_ABILITY,STGEN_2,POWERTIER_B,XPBONUS,MPCOST</Labels>
   </Object>
   <Object type="0x4BA2" id="2SorcererST2" setType="0x4BA0" setName="Court Magician Sorcerer Set" collectionIcon="2">
@@ -30414,6 +30438,7 @@
     <Soulbound />
     <XPBonus>6</XPBonus>
     <UniqueID />
+    <SharedCooldownChannel id="1222" />
     <Labels>EQUIPMENT,ARMOR,ROBE,ST,TAB_ST,ST_ARMOR,STGEN_2,POWERTIER_B,XPBONUS</Labels>
   </Object>
   <Object type="0x4BA1" id="2SorcererST3" setType="0x4BA0" setName="Court Magician Sorcerer Set" collectionIcon="2">
@@ -30443,6 +30468,7 @@
     <Soulbound />
     <XPBonus>4</XPBonus>
     <UniqueID />
+    <SharedCooldownChannel id="1223" />
     <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_2,POWERTIER_B,XPBONUS</Labels>
   </Object>
   <Object type="0x2055" id="Burning Retribution Spell">
@@ -31877,6 +31903,7 @@
     </Projectile>
     <Description>All but Chancellor Dammah's own mages shun this blasphemous spell, channeling the dark energies of the earth to construct an explosive spike.</Description>
     <ExtraTooltipData>
+      <EffectInfo description="16 Shots on self" name="Spell" />
       <EffectInfo description="50% chance to boost defense by 15 for 3 seconds." name="Mayhem Aegis" />
     </ExtraTooltipData>
     <OnPlayerAbilityActivate manaRequired="0" proc="0.5" amount="15" duration="3" stat="DEF" channel="diminishingReturns">StatBoostSelf</OnPlayerAbilityActivate>
@@ -52726,6 +52753,7 @@
     <feedPower>100</feedPower>
     <Potion />
     <Track />
+    <UniqueID />
     <Activate>ExpandSeasonalVault</Activate>
     <Labels>EQUIPMENT,CONSUMABLE</Labels>
   </Object>
@@ -52746,6 +52774,7 @@
     <BagType>7</BagType>
     <feedPower>100</feedPower>
     <Potion />
+    <UniqueID />
     <Activate>ExpandSeasonalPotion</Activate>
     <Labels>EQUIPMENT,CONSUMABLE</Labels>
   </Object>
@@ -52770,10 +52799,11 @@
     <Activate stat="WIS" amount="2000">IncrementStat</Activate>
     <Activate stat="DEX" amount="2000">IncrementStat</Activate>
     <Consumable />
-    <Backpack />
+    <Backpack slots="8" />
     <Potion />
     <BagType>8</BagType>
     <Soulbound />
+    <UniqueID />
     <SeasonalOnly />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
@@ -60792,6 +60822,7 @@
       <EffectInfo description="Speedy for 3 seconds" name="On Ability Use" />
       <EffectInfo description="6 seconds" name="Cooldown" />
     </ExtraTooltipData>
+    <SharedCooldownChannel id="1226" />
     <Description>A fine silk necklace with a bolt shaped medallion, channeling energy through it briefly grants the user the speed of lightning itself.</Description>
     <ActivateOnEquip stat="MAXHP" amount="70">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip stat="MAXMP" amount="70">IncrementStat</ActivateOnEquip>
@@ -63461,7 +63492,7 @@
     <SlotType>10</SlotType>
     <Description>Extra 60% Green Dust from enemies that drop it. Lasts 24 hours.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="Loot Bonus" description="+60% drop rate (Green Dust)" />
+      <EffectInfo name="Loot Boost" description="+60% drop amount (Green Dust)" />
       <EffectInfo name="Caution" description="The timer is not paused by leaving the Realm or going offline." />
       <EffectInfo name="Time Stacking" description="Using this accelerator with another of the same type will extend the remaining time, not stack boost value." />
       <EffectInfo name="" description="The maximum cap for Time Stacking is 40 days." />
@@ -63487,7 +63518,7 @@
     <SlotType>10</SlotType>
     <Description>Extra 60% Green Dust from enemies that drop it. Lasts 1 week.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="Loot Bonus" description="+60% drop rate (Green Dust)" />
+      <EffectInfo name="Loot Boost" description="+60% drop amount (Green Dust)" />
       <EffectInfo name="Caution" description="The timer is not paused by leaving the Realm or going offline." />
       <EffectInfo name="Time Stacking" description="Using this accelerator with another of the same type will extend the remaining time, not stack boost value." />
       <EffectInfo name="" description="The maximum cap for Time Stacking is 40 days." />
@@ -63716,5 +63747,1574 @@
     <XPBonus>8</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_S,RESKIN,XPBONUS,ORG_SHTT_S</Labels>
+  </Object>
+  <Object type="0x45b7" id="Deadly Keg">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>396</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Description>A barrel filled to the brim with the cheapest ale money can buy. The cask is highly pressurized and must be handled with care, should it be dropped it is likely to explode violently.</Description>
+    <ActivateOnEquip stat="ATT" amount="2">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="8">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>95</MpCost>
+    <Activate radius="5.5" totalDamage="800" throwTime="0.5" sensitivity="0.65" duration="0" color="0x422c18" condEffect="Slowed" condDuration="1.6">Trap</Activate>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,UT,TAB_UT,POWERTIER_A,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x45b8" id="Tipsy Topper">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>397</Index>
+    </Texture>
+    <SlotType>16</SlotType>
+    <Description>This stylish felt cap has found itself at the helm of many tavern brawls, and atop the heads of many poor decision makers.</Description>
+    <ActivateOnEquip stat="DEF" amount="6">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="6">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>90</MpCost>
+    <Activate effect="Berserk" duration="2.5" range="4.5" wisMin="30">ConditionEffectAura</Activate>
+    <Activate effect="Unstable" duration="2.5" wisMin="30">ConditionEffectSelf</Activate>
+    <Activate stat="ATT" amount="10" channel="noStackItm" duration="4">StatBoostSelf</Activate>
+    <Activate stat="VIT" amount="10" channel="noStackItm" duration="4">StatBoostSelf</Activate>
+    <Activate stat="DEF" amount="10" channel="noStackItm" duration="4">StatBoostSelf</Activate>
+    <feedPower>800</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,HELM,UT,TAB_UT,POWERTIER_A,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x45b9" id="Double Vision Darts">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>398</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Description>A finely crafted leather bound quiver containing many small darts. The reduced size of the arrows in this quiver allow a specific firing pattern, confusing their target as if they were seeing double.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Drunk Darts</ObjectId>
+      <Speed>130</Speed>
+      <MinDamage>500</MinDamage>
+      <MaxDamage>700</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <Amplitude>0.75</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <ActivateOnEquip stat="DEX" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="4">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <NumProjectiles>2</NumProjectiles>
+    <BagType>6</BagType>
+    <MpCost>90</MpCost>
+    <ArcGap>0</ArcGap>
+    <Activate>Shoot</Activate>
+    <feedPower>850</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,QUIVER,UT,TAB_UT,POWERTIER_A,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x45ba" id="Cask Corslet">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>395</Index>
+    </Texture>
+    <SlotType>7</SlotType>
+    <Description>A cobbled together suit of armor made from a beer barrel, while lacking in real defensive properties, its alcoholic aura numbs the wearer's pain against attacks.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="+10 Defense, stacking with diminishing returns." name="On Taking at least 40 Damage" />
+      <EffectInfo description="3 seconds" name="Duration" />
+    </ExtraTooltipData>
+    <ActivateOnEquip stat="DEF" amount="18">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXHP" amount="50">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="10">IncrementStat</ActivateOnEquip>
+    <OnPlayerHitActivate cooldown="0" damageThreshold="40" proc="1" amount="10" duration="3" stat="DEF" channel="diminishingReturns50">StatBoostSelf</OnPlayerHitActivate>
+    <BagType>6</BagType>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,HEAVY,UT,TAB_UT,POWERTIER_A,TRADEABLE,XPBONUS</Labels>
+  </Object>
+  <Object type="0x45c0" id="The Right Hook">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>391</Index>
+    </Texture>
+    <SlotType>2</SlotType>
+    <Description>A famous boxer once said the secret to their victory was having a great right hook, this dagger’s craftsman took that literally.</Description>
+    <Sound>weapon/fire_dagger</Sound>
+    <Projectile id="0">
+      <ObjectId>Right Hook Shot</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>185</MinDamage>
+      <MaxDamage>300</MaxDamage>
+      <LifetimeMS>450</LifetimeMS>
+      <Amplitude>-0.75</Amplitude>
+      <Frequency>0.5</Frequency>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Right Hook Shot</ObjectId>
+      <Speed>0</Speed>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <LifetimeMS>0</LifetimeMS>
+    </Projectile>
+    <RateOfFire>0.6</RateOfFire>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.6</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.6</RateOfFire>
+    </Subattack>
+    <ActivateOnEquip stat="VIT" amount="6">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <OldSound>daggerSwing</OldSound>
+    <feedPower>950</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,DAGGER,UT,TAB_UT,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object type="0x45c1" id="Brewer's Bangle">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>394</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A small golden band meant to be worn on one’s ear. This mundane looking accessory appears to give the wearer an increased tolerance to intoxicants.</Description>
+    <ActivateOnEquip stat="ATT" amount="6">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="SPD" amount="-5">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="15" statRelativeTo="ATT">IncrementStatRelative</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXHP" amount="100">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>800</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_A,TRADEABLE,XPBONUS</Labels>
+  </Object>
+  <Object type="0x44af" id="Mark of the Barkeep">
+    <Class>Equipment</Class>
+    <Item />
+    <SlotType>10</SlotType>
+    <Texture xOffset="2" yOffset="0">
+      <File>rollerRinkObjects8x8</File>
+      <Index>495</Index>
+    </Texture>
+    <Description>A medallion infused with the essence of Bradley the Barkeep.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Type" description="Quest item" />
+      <EffectInfo name="Drop location" description="Obtained by defeating Bradley the Barkeep in the Tavern" />
+    </ExtraTooltipData>
+    <Sound>spell/fire_nova</Sound>
+    <BagType>2</BagType>
+    <Treasure />
+    <Mark />
+    <feedPower>50</feedPower>
+    <Soulbound />
+    <Labels>MARK,TAB_ALL</Labels>
+  </Object>
+  <Object id="Blueprint_264" type="0x450c">
+    <DisplayId>Deadly Keg Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Unlocks items in the Seasonal and regular Forges when used by Seasonal Characters." name="Seasonal Rules" />
+      <EffectInfo description="Cannot be transferred to the regular vault mid-season, but will do so automatically at the end of the season." name="" />
+    </ExtraTooltipData>
+    <Sound>use_potion</Sound>
+    <Activate id="Deadly Keg">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object id="Blueprint_265" type="0x450d">
+    <DisplayId>Tipsy Topper Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Unlocks items in the Seasonal and regular Forges when used by Seasonal Characters." name="Seasonal Rules" />
+      <EffectInfo description="Cannot be transferred to the regular vault mid-season, but will do so automatically at the end of the season." name="" />
+    </ExtraTooltipData>
+    <Sound>use_potion</Sound>
+    <Activate id="Tipsy Topper">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object id="Blueprint_266" type="0x450e">
+    <DisplayId>Double Vision Darts Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Unlocks items in the Seasonal and regular Forges when used by Seasonal Characters." name="Seasonal Rules" />
+      <EffectInfo description="Cannot be transferred to the regular vault mid-season, but will do so automatically at the end of the season." name="" />
+    </ExtraTooltipData>
+    <Sound>use_potion</Sound>
+    <Activate id="Double Vision Darts">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object id="Blueprint_267" type="0x450f">
+    <DisplayId>Cask Corslet Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Unlocks items in the Seasonal and regular Forges when used by Seasonal Characters." name="Seasonal Rules" />
+      <EffectInfo description="Cannot be transferred to the regular vault mid-season, but will do so automatically at the end of the season." name="" />
+    </ExtraTooltipData>
+    <Sound>use_potion</Sound>
+    <Activate id="Cask Corslet">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object id="Blueprint_268" type="0x4518">
+    <DisplayId>The Right Hook Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Unlocks items in the Seasonal and regular Forges when used by Seasonal Characters." name="Seasonal Rules" />
+      <EffectInfo description="Cannot be transferred to the regular vault mid-season, but will do so automatically at the end of the season." name="" />
+    </ExtraTooltipData>
+    <Sound>use_potion</Sound>
+    <Activate id="The Right Hook">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object id="Blueprint_269" type="0x4519">
+    <DisplayId>Brewer's Bangle Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Unlocks items in the Seasonal and regular Forges when used by Seasonal Characters." name="Seasonal Rules" />
+      <EffectInfo description="Cannot be transferred to the regular vault mid-season, but will do so automatically at the end of the season." name="" />
+    </ExtraTooltipData>
+    <Sound>use_potion</Sound>
+    <Activate id="Brewer's Bangle">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <NoSeasonalToRegularConversion />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object type="0x4BA" id="Dirk of Cronus Shiny">
+    <Class>Equipment</Class>
+    <Item />
+    <InventoryAnimation />
+    <Texture xOffset="-2" yOffset="-2">
+      <File>lofiProjs</File>
+      <Index>565</Index>
+    </Texture>
+    <DisplayId>Dirk of Cronus</DisplayId>
+    <SlotType>2</SlotType>
+    <Description>This legendary dagger was commissioned by a band of mad rogues to prove the worth of the Dirk.</Description>
+    <RateOfFire>0.9</RateOfFire>
+    <Sound>weapon/fire_dagger</Sound>
+    <Projectile>
+      <ObjectId>Cdirk Shiny Proj</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>290</MaxDamage>
+      <LifetimeMS>250</LifetimeMS>
+    </Projectile>
+    <ActivateOnEquip stat="WIS" amount="6">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <OldSound>daggerSwing</OldSound>
+    <feedPower>950</feedPower>
+    <Soulbound />
+    <XPBonus>8</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,DAGGER,UT,TAB_UT,POWERTIER_SS,XPBONUS</Labels>
+  </Object>
+  <Object type="0x4BB" id="Skull of Corrupted Souls Shiny">
+    <Class>Equipment</Class>
+    <Item />
+    <InventoryAnimation />
+    <Texture xOffset="0" yOffset="-2">
+      <File>lofiProjs</File>
+      <Index>566</Index>
+    </Texture>
+    <DisplayId>Skull of Corrupted Souls</DisplayId>
+    <Usable />
+    <SlotType>19</SlotType>
+    <Description>The cursed skull of a corrupted mind. Good intentions can go horribly wrong.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="66">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="6">IncrementStat</ActivateOnEquip>
+    <Activate radius="2.5" totalDamage="260" healRange="3.5" heal="80" ignoreDef="40" wisMin="50" wisPerRad="10" color="4C4C4C" incrRad="0.8" wisDamageBase="90" condEffect="Curse" condDuration="4">VampireBlast</Activate>
+    <MpCost>100</MpCost>
+    <BagType>6</BagType>
+    <feedPower>1300</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SKULL,UT,TAB_UT,POWERTIER_S,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x4BC" id="Leaf Bow Shiny">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>567</Index>
+    </Texture>
+    <InventoryAnimation />
+    <SlotType>3</SlotType>
+    <DisplayId>Leaf Bow</DisplayId>
+    <Description>Fashioned from the finest logs found within the Woodland Labyrinths, this bow uses sharp leaves instead of conventional arrows. Such lightweight ammunition allows for quick movement.</Description>
+    <RateOfFire>1.4</RateOfFire>
+    <Sound>weapon/golden_bow</Sound>
+    <Projectile>
+      <ObjectId>Leaf Arrow Shiny</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>120</MinDamage>
+      <MaxDamage>175</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <Size>60</Size>
+      <Wavy />
+    </Projectile>
+    <ActivateOnEquip stat="SPD" amount="5">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <OldSound>arrowShoot</OldSound>
+    <feedPower>800</feedPower>
+    <ArcGap>0</ArcGap>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1250" />
+    <Labels>EQUIPMENT,WEAPON,BOW,UT,TAB_UT,POWERTIER_A,XPBONUS,LEAFBOW</Labels>
+  </Object>
+  <Object type="0x4BD" id="Double Vision Darts Shiny">
+    <Class>Equipment</Class>
+    <Item />
+    <InventoryAnimation />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>568</Index>
+    </Texture>
+    <DisplayId>Double Vision Darts</DisplayId>
+    <SlotType>15</SlotType>
+    <Description>A finely crafted leather bound quiver containing many small darts. The reduced size of the arrows in this quiver allow a specific firing pattern, confusing their target as if they were seeing double.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Drunk Dart Shiny Proj</ObjectId>
+      <Speed>130</Speed>
+      <MinDamage>500</MinDamage>
+      <MaxDamage>700</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <Amplitude>0.75</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <ActivateOnEquip stat="DEX" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="4">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <NumProjectiles>2</NumProjectiles>
+    <BagType>6</BagType>
+    <MpCost>90</MpCost>
+    <ArcGap>0</ArcGap>
+    <Activate>Shoot</Activate>
+    <feedPower>850</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,QUIVER,UT,TAB_UT,POWERTIER_A,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object id="tD Seal Shiny" type="0x4BE">
+    <Class>Equipment</Class>
+    <DisplayId>Seal of Cubic Conundra</DisplayId>
+    <Item />
+    <InventoryAnimation />
+    <Soulbound />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>570</Index>
+    </Texture>
+    <SlotType>12</SlotType>
+    <Description>A seal granting the user access to other dimensions, though the means by which this is accomplished are unknown.</Description>
+    <Sound>spell/light_heal</Sound>
+    <Usable />
+    <BagType>6</BagType>
+    <XPBonus>7</XPBonus>
+    <MpCost>90</MpCost>
+    <Activate effect="Healing" duration="4" range="4.5" wisMin="50">ConditionEffectAura</Activate>
+    <Activate effect="Damaging" duration="4" range="4.5" wisMin="50">ConditionEffectAura</Activate>
+    <Activate center="player" color="0x9de4eb" duration="4" effect="Slowed" range="3.5" target="enemy" useWisMod="true" visualEffect="0">GenericActivate</Activate>
+    <ActivateOnEquip amount="50" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="3" stat="DEF">IncrementStat</ActivateOnEquip>
+    <feedPower>800</feedPower>
+    <UniqueID />
+    <Soulbound />
+    <Labels>EQUIPMENT,ABILITY,SEAL,UT,TAB_UT,POWERTIER_A,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x4BF" id="Jewel Eye Katana Shiny">
+    <Class>Equipment</Class>
+    <Item />
+    <InventoryAnimation />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>569</Index>
+    </Texture>
+    <DisplayId>Jewel Eye Katana</DisplayId>
+    <SlotType>24</SlotType>
+    <Description>A mighty katana with a crystal eye embedded in the hilt.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile>
+      <ObjectId>Jewel Eye Shiny Proj</ObjectId>
+      <Speed>130</Speed>
+      <LifetimeMS>365</LifetimeMS>
+      <MinDamage>105</MinDamage>
+      <MaxDamage>170</MaxDamage>
+      <MultiHit />
+    </Projectile>
+    <BagType>6</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>109</feedPower>
+    <Soulbound />
+    <XPBonus>3</XPBonus>
+    <Labels>EQUIPMENT,KATANA,TIERED,T9,XPBONUS,UNTRADEABLE</Labels>
+  </Object>
+  <Object id="Cdirk Shiny Proj" type="0x4C0">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>571</Index>
+    </Texture>
+  </Object>
+  <Object id="Drunk Dart Shiny Proj" type="0x4C1">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>572</Index>
+    </Texture>
+  </Object>
+  <Object id="Jewel Eye Shiny Proj" type="0x4C2">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>573</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object id="Leaf Arrow Shiny" type="0x4C3">
+    <Class>Projectile</Class>
+    <RandomTexture>
+      <Texture>
+        <File>lofiProjs</File>
+        <Index>582</Index>
+      </Texture>
+      <Texture>
+        <File>lofiProjs</File>
+        <Index>574</Index>
+      </Texture>
+      <Texture>
+        <File>lofiProjs</File>
+        <Index>575</Index>
+      </Texture>
+      <Texture>
+        <File>lofiProjs</File>
+        <Index>576</Index>
+      </Texture>
+      <Texture>
+        <File>lofiProjs</File>
+        <Index>577</Index>
+      </Texture>
+      <Texture>
+        <File>lofiProjs</File>
+        <Index>578</Index>
+      </Texture>
+      <Texture>
+        <File>lofiProjs</File>
+        <Index>579</Index>
+      </Texture>
+      <Texture>
+        <File>lofiProjs</File>
+        <Index>580</Index>
+      </Texture>
+      <Texture>
+        <File>lofiProjs</File>
+        <Index>581</Index>
+      </Texture>
+    </RandomTexture>
+    <Rotation>350</Rotation>
+  </Object>
+  <Object type="0x4CA" id="Snake Eye Ring Shiny">
+    <DisplayId>Snake Eye Ring</DisplayId>
+    <InventoryAnimation />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObjShiny</File>
+      <Index>28</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="Speedy for 2 seconds" name="On Ability Use" />
+      <EffectInfo description="5 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <SharedCooldownChannel id="1226" />
+    <Description>A ring made from the eye of the Snake Queen.</Description>
+    <ActivateOnEquip stat="ATT" amount="3">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="SPD" amount="3">IncrementStat</ActivateOnEquip>
+    <OnPlayerAbilityActivate cooldown="5" duration="2" effect="Speedy" proc="1">ConditionEffectSelf</OnPlayerAbilityActivate>
+    <BagType>4</BagType>
+    <XPBonus>2</XPBonus>
+    <feedPower>110</feedPower>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_D,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x4CB" id="Candy-Coated Armor Shiny">
+    <DisplayId>Candy-Coated Armor</DisplayId>
+    <InventoryAnimation />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObjShiny</File>
+      <Index>29</Index>
+    </Texture>
+    <SlotType>7</SlotType>
+    <Description>Reinforced with magical hard candy from the candy forest. Sticky but strong.</Description>
+    <ActivateOnEquip stat="DEF" amount="30">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEX" amount="-5">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>1000</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,HEAVY,UT,TAB_UT,POWERTIER_B,XPBONUS,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x4CC" id="Doku No Ken Shiny">
+    <DisplayId>Doku No Ken</DisplayId>
+    <InventoryAnimation />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObjShiny</File>
+      <Index>30</Index>
+    </Texture>
+    <SlotType>24</SlotType>
+    <SharedCooldownChannel id="1228" />
+    <Description>Stuck in the maw of the Son of Arachna, this katana is coated in the creature's poisonous venom. In the hands of the right person, this is a truly deadly weapon.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="On Shoot" description="Release a poison burst" />
+      <EffectInfo name="Total Damage" description="1000" />
+      <EffectInfo name="Radius" description="6 tiles" />
+      <EffectInfo name="Duration" description="6 seconds" />
+      <EffectInfo name="Cooldown" description="3 seconds" />
+    </ExtraTooltipData>
+    <RateOfFire>1.20</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile id="0">
+      <ObjectId>Doku Slash Shiny</ObjectId>
+      <Speed>130</Speed>
+      <MinDamage>125</MinDamage>
+      <MaxDamage>155</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>1</Frequency>
+      <Size>90</Size>
+      <MultiHit />
+    </Projectile>
+    <BagType>6</BagType>
+    <OnPlayerShootActivate proc="1" cooldown="3" radius="6" impactDamage="0" totalDamage="1000" duration="6" throwTime="0" color="0xFF55FF">PoisonGrenade</OnPlayerShootActivate>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>800</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" purchaseDust="greenDust" purchaseCost="1250" />
+    <Labels>EQUIPMENT,WEAPON,KATANA,UT,TAB_UT,POWERTIER_B,XPBONUS,DOKU,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x4CD" id="Doku Slash Shiny">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>587</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x4CE" id="Sword of the Colossus Shiny" collectionIcon="15">
+    <DisplayId>Sword of the Colossus</DisplayId>
+    <InventoryAnimation />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObjShiny</File>
+      <Index>31</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>A sword with an impossibly sharp edge. It has been designed with holy magic to slash like no other blade.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/golden_bow</Sound>
+    <Projectile>
+      <ObjectId>Colossus Slash Shiny</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>280</MinDamage>
+      <MaxDamage>295</MaxDamage>
+      <LifetimeMS>450</LifetimeMS>
+      <Amplitude>0.7</Amplitude>
+      <Frequency>0.5</Frequency>
+      <FaceDir />
+    </Projectile>
+    <BagType>6</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>1200</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SWORD,UT,TAB_UT,POWERTIER_S,XPBONUS,ORG_LH_S,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x4CF" id="Colossus Slash Shiny">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>588</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x61BC" id="Steamworks Compensation Chest">
+    <Chest />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>759</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this chest to receive a random reward.</Description>
+    <Consumable />
+    <Soulbound />
+    <ChestType>3</ChestType>
+    <Activate>OpenChest</Activate>
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x61BD" id="Crucible Mystery Chest">
+    <Chest />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>544</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this chest to receive a random reward.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Event" description="The Crucible" />
+    </ExtraTooltipData>
+    <Consumable />
+    <Soulbound />
+    <ChestType>3</ChestType>
+    <Activate>OpenChest</Activate>
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x61BE" id="Oryxtober Mystery Chest">
+    <Chest />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>545</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this chest to receive a random reward.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Event" description="Oryxtober" />
+    </ExtraTooltipData>
+    <Consumable />
+    <Soulbound />
+    <ChestType>3</ChestType>
+    <Activate>OpenChest</Activate>
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x3ff" id="Spooky Smasher">
+    <DisplayId>Spooky Smasher</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x24C</Index>
+    </Texture>
+    <Sound>weapon/mithril_sword</Sound>
+    <OldSound>bladeSwing</OldSound>
+    <SlotType>1</SlotType>
+    <Description>A candle-filled pumpkin attached to a gnarled stick using a length of vine. Very thematic for a spooky season of ghouls and goblins.\n\nSprite Credits: DynamoX</Description>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.4</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.4</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.4</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.4</RateOfFire>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Pumpkin Flail</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>375</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <LifetimeMS>1200</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <Size>120</Size>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Pumpkin Chain</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>1200</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Pumpkin Chain</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>1200</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Pumpkin Chain</ObjectId>
+      <Speed>25</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>1200</LifetimeMS>
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <BagType>6</BagType>
+    <feedPower>950</feedPower>
+    <Soulbound />
+    <XPBonus>8</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,FLAIL,UT,TAB_UT,POWERTIER_S,XPBONUS,RESKIN</Labels>
+  </Object>
+  <Object type="0x400" id="Longbow of Spirits and Shadows">
+    <DisplayId>Longbow of Spirits and Shadows</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x24D</Index>
+    </Texture>
+    <Sound>weapon/golden_bow</Sound>
+    <SlotType>3</SlotType>
+    <Description>This longbow does not fire normal arrows.  Instead each pull of the string creates an arrow which pierces the spirit of the target, and a sinister shadow which follows this divine projectile.\n\nSprite Credits: DynamoX</Description>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.96</RateOfFire>
+      <PosOffset>-.70,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>6</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.92</RateOfFire>
+      <PosOffset>-.25,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>2</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.96</RateOfFire>
+      <PosOffset>.7,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>-6</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.92</RateOfFire>
+      <PosOffset>.25,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>-2</DefaultAngle>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Spirit Long Arrow</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>120</MinDamage>
+      <MaxDamage>150</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Shadow Long Arrow</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <BagType>6</BagType>
+    <OldSound>arrowShoot</OldSound>
+    <XPBonus>8</XPBonus>
+    <feedPower>1200</feedPower>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,LONGBOW,UT,TAB_UT,POWERTIER_S,XPBONUS,RESKIN</Labels>
+  </Object>
+  <Object type="0x4c4" id="HSorcererST0" setType="0x4564" setName="Incubus Sorcerer Set" collectionIcon="2">
+    <DisplayId>Heartbreaker Wand</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x4FF</Index>
+    </Texture>
+    <SlotType>8</SlotType>
+    <Description>This wand can help you fall madly in love, with a heavy emphasis on the mad.</Description>
+    <RateOfFire>1.5</RateOfFire>
+    <Projectile>
+      <ObjectId>Incubus Hearts Small</ObjectId>
+      <Speed>240</Speed>
+      <LifetimeMS>600</LifetimeMS>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>165</MaxDamage>
+      <MultiHit />
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <BagType>8</BagType>
+    <OldSound>magicShoot</OldSound>
+    <feedPower>850</feedPower>
+    <Soulbound />
+    <XPBonus>5</XPBonus>
+    <UniqueID />
+    <SharedCooldownChannel id="1220" />
+    <Labels>EQUIPMENT,WEAPON,WAND,ST,TAB_ST,ST_WEAPON,STGEN_2,POWERTIER_A,XPBONUS,RESKIN</Labels>
+  </Object>
+  <Object type="0x4c5" id="HSorcererST1" setType="0x4564" setName="Incubus Sorcerer Set" collectionIcon="2">
+    <DisplayId>Lovesick Scepter</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x500</Index>
+    </Texture>
+    <SlotType>23</SlotType>
+    <Description>Anyone caught in the blast of this item find themselves longing for a lost love, a yearning which Incubi find delicious.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="-50 mana for 5 seconds" name="With Full Set" />
+    </ExtraTooltipData>
+    <Sound>spell/magic_nova</Sound>
+    <Usable />
+    <BagType>8</BagType>
+    <MpCost>100</MpCost>
+    <Activate amount="20" duration="5" stat="WIS" channel="diminishingReturns">StatBoostSelf</Activate>
+    <Activate arcDegrees="45" color="0xffffff" maxTargets="3" totalDamage="200" wisDamageBase="60" wisPerTarget="8" aoeActivationCount="3" aoeTime="1" aoeDamage="40" scalingStat="WIS" statModDamage="22" aoeRange="0.5" statModRadius="0.01" aoeMaxTargets="2" statModScalingMin="60" statModPerTarget="20">Lightning</Activate>
+    <OnPlayerAbilityActivate mustWear="0x4c4;0x4c5;0x4c6;0x4c7" duration="5" stat="MAXMP" amount="-50" proc="1" channel="diminishingReturns">StatBoostSelf</OnPlayerAbilityActivate>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <SharedCooldownChannel id="1221" />
+    <Labels>EQUIPMENT,ABILITY,SCEPTER,ST,TAB_ST,ST_ABILITY,STGEN_2,POWERTIER_B,XPBONUS,MPCOST,RESKIN</Labels>
+  </Object>
+  <Object type="0x4c6" id="HSorcererST2" setType="0x4564" setName="Incubus Sorcerer Set" collectionIcon="2">
+    <DisplayId>Devilish Robes</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x501</Index>
+    </Texture>
+    <SlotType>14</SlotType>
+    <Description>Made from the finest materials and tailored to show off the Incubus' physique.</Description>
+    <ActivateOnEquip amount="30" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="12" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="6" stat="DEX">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="6" stat="WIS">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="-50" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>800</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <SharedCooldownChannel id="1222" />
+    <Labels>EQUIPMENT,ARMOR,ROBE,ST,TAB_ST,ST_ARMOR,STGEN_2,POWERTIER_B,XPBONUS,RESKIN</Labels>
+  </Object>
+  <Object type="0x4c7" id="HSorcererST3" setType="0x4564" setName="Incubus Sorcerer Set" collectionIcon="2">
+    <DisplayId>Devil Horn Headband</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x502</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>The Incubus has real horns, but wearing these as well somehow makes him even more irresistible.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="20% chance to spawn a decoy Fallen Cherub for five seconds." name="On Taking Damage" />
+      <EffectInfo description="15 seconds." name="Cooldown" />
+      <EffectInfo description="20% chance to spawn an Impcubus to aid you in combat for five seconds." name="On Taking Damage" />
+      <EffectInfo description="200 damage every 0.5 seconds, within five tiles." name="Impcubus Combat" />
+      <EffectInfo description="15 seconds." name="Cooldown" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="77" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="4" stat="WIS">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="4" stat="DEX">IncrementStat</ActivateOnEquip>
+    <OnPlayerHitActivate angleOffset="180" cooldown="15" damageThreshold="0" distance="7" duration="5" objectId="Fallen Cherub" proc="0.20" speed="1.20">Decoy</OnPlayerHitActivate>
+    <OnPlayerHitActivate cooldown="15" damageThreshold="0" proc="0.20" objectId="Impcubus">Pet</OnPlayerHitActivate>
+    <BagType>8</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <SharedCooldownChannel id="1223" />
+    <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_2,POWERTIER_B,XPBONUS,RESKIN</Labels>
+  </Object>
+  <Object type="0x45E1" id="Teal Treat">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>553</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo name="" description="Warning:" />
+      <EffectInfo name="Buffs disappear when switching zone." description="" />
+    </ExtraTooltipData>
+    <Description>Affects allies around you. Boost your HP for 5 minutes or until you leave the area. A treat commonly given to young paladins of the Forgotten Era. Smells like toothpaste.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+    <Activate stat="MAXHP" amount="100" duration="300" range="6" channel="statConsumables">StatBoostAura</Activate>
+    <Activate>RemoveNegativeConditionsSelf</Activate>
+    <feedPower>10</feedPower>
+    <QuickslotAllowed maxstack="6" />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x45E2" id="Hazel Treat">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>546</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo name="" description="Warning:" />
+      <EffectInfo name="Buffs disappear when switching zone." description="" />
+    </ExtraTooltipData>
+    <Description>Affects allies around you. Boost your MP for 5 minutes or until you leave the area. A treat commonly given to young paladins of the Forgotten Era. Do not eat if allergic to nuts.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+    <Activate stat="MAXMP" amount="100" duration="300" range="6" channel="statConsumables">StatBoostAura</Activate>
+    <Activate>RemoveNegativeConditionsSelf</Activate>
+    <feedPower>10</feedPower>
+    <QuickslotAllowed maxstack="6" />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x45E3" id="Azure Treat">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>547</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo name="" description="Warning:" />
+      <EffectInfo name="Buffs disappear when switching zone." description="" />
+    </ExtraTooltipData>
+    <Description>Affects allies around you. Boost your WIS for 5 minutes or until you leave the area. A treat commonly given to young paladins of the Forgotten Era. Tastes like blueberries.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+    <Activate stat="WIS" amount="10" duration="300" range="6" channel="statConsumables">StatBoostAura</Activate>
+    <Activate>RemoveNegativeConditionsSelf</Activate>
+    <feedPower>10</feedPower>
+    <QuickslotAllowed maxstack="6" />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x45E4" id="Crimson Treat">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>548</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo name="" description="Warning:" />
+      <EffectInfo name="Buffs disappear when switching zone." description="" />
+    </ExtraTooltipData>
+    <Description>Affects allies around you. Boost your VIT for 5 minutes or until you leave the area. A treat commonly given to young paladins of the Forgotten Era. Has the strong smell of fresh strawberries.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+    <Activate stat="VIT" amount="10" duration="300" range="6" channel="statConsumables">StatBoostAura</Activate>
+    <Activate>RemoveNegativeConditionsSelf</Activate>
+    <feedPower>10</feedPower>
+    <QuickslotAllowed maxstack="6" />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x45E5" id="Scarlet Treat">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>549</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo name="" description="Warning:" />
+      <EffectInfo name="Buffs disappear when switching zone." description="" />
+    </ExtraTooltipData>
+    <Description>Affects allies around you. Boost your DEX for 5 minutes or until you leave the area. A treat commonly given to young paladins of the Forgotten Era. Despite the name, they taste like orange.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+    <Activate stat="DEX" amount="5" duration="300" range="6" channel="statConsumables">StatBoostAura</Activate>
+    <Activate>RemoveNegativeConditionsSelf</Activate>
+    <feedPower>10</feedPower>
+    <QuickslotAllowed maxstack="6" />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x45E6" id="Beryl Treat">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>550</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo name="" description="Warning:" />
+      <EffectInfo name="Buffs disappear when switching zone." description="" />
+    </ExtraTooltipData>
+    <Description>Affects allies around you. Boost your SPD for 5 minutes or until you leave the area. A treat commonly given to young paladins of the Forgotten Era. Has a really sour green apple flavor.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+    <Activate stat="SPD" amount="5" duration="300" range="6" channel="statConsumables">StatBoostAura</Activate>
+    <Activate>RemoveNegativeConditionsSelf</Activate>
+    <feedPower>10</feedPower>
+    <QuickslotAllowed maxstack="6" />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x45E7" id="Onyx Treat">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>551</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo name="" description="Warning:" />
+      <EffectInfo name="Buffs disappear when switching zone." description="" />
+    </ExtraTooltipData>
+    <Description>Affects allies around you. Boost your DEF for 5 minutes or until you leave the area. A treat commonly given to young paladins of the Forgotten Era. The taste is reminiscent of a very sugary fizzy drink.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+    <Activate stat="DEF" amount="5" duration="300" range="6" channel="statConsumables">StatBoostAura</Activate>
+    <Activate>RemoveNegativeConditionsSelf</Activate>
+    <feedPower>10</feedPower>
+    <QuickslotAllowed maxstack="6" />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x45E8" id="Amaranth Treat">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d3LofiObjEmbed</File>
+      <Index>552</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo name="" description="Warning:" />
+      <EffectInfo name="Buffs disappear when switching zone." description="" />
+    </ExtraTooltipData>
+    <Description>Affects allies around you. Boost your ATT for 5 minutes or until you leave the area. A treat commonly given to young paladins of the Forgotten Era. While it does taste like grapes, no grapes are used when making it.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+    <Activate stat="ATT" amount="5" duration="300" range="6" channel="statConsumables">StatBoostAura</Activate>
+    <Activate>RemoveNegativeConditionsSelf</Activate>
+    <feedPower>10</feedPower>
+    <QuickslotAllowed maxstack="6" />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x45F1" id="Halloween Mystery Chest">
+    <Chest />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1289</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this chest to receive a random spooky reward.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Event" description="Halloween" />
+    </ExtraTooltipData>
+    <Consumable />
+    <Soulbound />
+    <ChestType>3</ChestType>
+    <Activate>OpenChest</Activate>
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x45F2" id="Haunted Halloween Mystery Chest">
+    <Chest />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1289</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this chest to receive a random spooky reward of higher value.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Event" description="Halloween" />
+    </ExtraTooltipData>
+    <Consumable />
+    <Soulbound />
+    <ChestType>3</ChestType>
+    <Activate>OpenChest</Activate>
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x45F3" id="Possessed Halloween Mystery Chest">
+    <Chest />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1289</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this chest to receive a random spooky reward of even higher value.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Event" description="Halloween" />
+    </ExtraTooltipData>
+    <Consumable />
+    <Soulbound />
+    <ChestType>3</ChestType>
+    <Activate>OpenChest</Activate>
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0xFF02" id="3KnightST0" setType="0xFF01" setName="Mad Minotaur Set" collectionIcon="3">
+    <DisplayId>Fury Flail</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xF9</Index>
+    </Texture>
+    <Sound>weapon/mithril_sword</Sound>
+    <OldSound>bladeSwing</OldSound>
+    <SlotType>1</SlotType>
+    <Description>Unleash destruction with this brutal flail. Its massive anvil end shatters armor and crushes foes. Its craftsmanship whispers of an untamed, cataclysmic force.</Description>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.6</RateOfFire>
+      <PosOffset>0,-0.5</PosOffset>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.6</RateOfFire>
+      <PosOffset>0,-0.5</PosOffset>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.6</RateOfFire>
+      <PosOffset>0,-0.5</PosOffset>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Flail Anvil</ObjectId>
+      <Speed>230</Speed>
+      <MinDamage>375</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+      <Size>120</Size>
+      <ConditionEffect duration="3" bleedDamage="50">Bleeding</ConditionEffect>
+      <CircleTurnDelay>200</CircleTurnDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Flail Chain</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+      <Size>100</Size>
+      <CircleTurnDelay>200</CircleTurnDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <Acceleration>300</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Flail Chain</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+      <Size>80</Size>
+      <CircleTurnDelay>200</CircleTurnDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <Acceleration>300</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+      <PassesCover />
+    </Projectile>
+    <BagType>8</BagType>
+    <feedPower>750</feedPower>
+    <XPBonus>5</XPBonus>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,FLAIL,ST_WEAPON,STGEN_3,ST,TAB_ST,POWERTIER_A,XPBONUS,SUBTYPE</Labels>
+  </Object>
+  <Object type="0xFF03" id="3KnightST1" setType="0xFF01" setName="Mad Minotaur Set" collectionIcon="3">
+    <DisplayId>Shockwave Shield</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xFA</Index>
+    </Texture>
+    <SlotType>5</SlotType>
+    <Description>Imbued with the untamed power of the Mighty Minotaur, this shield leaves a feeling of despair and no escape to those unfortunate enough to be in it's presence.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Damage" description="500" />
+    </ExtraTooltipData>
+    <Sound>spell/fire_spray</Sound>
+    <Activate effect="Stunned" duration="3" range="4" color="0xffd966" target="enemy" center="player" visualEffect="0" useWisMod="false">GenericActivate</Activate>
+    <Activate effect="Slowed" duration="3" range="4" color="-1" target="enemy" center="player" visualEffect="0" useWisMod="false">GenericActivate</Activate>
+    <OnPlayerAbilityActivate radius="4" totalDamage="500" duration="0.1" throwTime="0" color="-1" target="enemy" proc="1">Trap</OnPlayerAbilityActivate>
+    <ActivateOnEquip stat="DEF" amount="10">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>8</BagType>
+    <MpCost>100</MpCost>
+    <feedPower>750</feedPower>
+    <XPBonus>7</XPBonus>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHIELD,ST_ABILITY,STGEN_3,ST,TAB_ST,POWERTIER_S,MPCOST,XPBONUS</Labels>
+  </Object>
+  <Object type="0xFF04" id="3KnightST2" setType="0xFF01" setName="Mad Minotaur Set" collectionIcon="3">
+    <DisplayId>Cyclone Chestplate</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xFB</Index>
+    </Texture>
+    <SlotType>7</SlotType>
+    <Description>This mythical Minotaur chest plate infuses your weapon with a speed that mirrors the guardians of ancient labyrinths, making you the calm yet devastating eye of the cyclone in battle.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="50">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="17">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEX" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="4">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>750</feedPower>
+    <XPBonus>6</XPBonus>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,HEAVY,ST_ARMOR,STGEN_3,ST,TAB_ST,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object type="0xFF05" id="3KnightST3" setType="0xFF01" setName="Mad Minotaur Set" collectionIcon="3">
+    <DisplayId>Brass Knuckles</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="1">
+      <File>gen3SetObjects</File>
+      <Index>0xFC</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>Slip on these savage Knuckles and unleash a whirlwind of swings, each powered by an uncanny dexterity that leaves foes questioning what hit them.</Description>
+    <ActivateOnEquip amount="30" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="7" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="6" stat="DEX">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,ST_RING,STGEN_3,ST,TAB_ST,POWERTIER_B,XPBONUS</Labels>
+  </Object>
+  <Object type="0xFF07" id="3SorcererST0" setType="0xFF06" setName="Storm Shaman Set" collectionIcon="3">
+    <DisplayId>Lightning Wand</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xEB</Index>
+    </Texture>
+    <SlotType>8</SlotType>
+    <Description>Unleash the untamed forces of electricity! This rod's damage output is as unpredictable as a storm, striking foes with bolts that range from a spark to a lightning blast.</Description>
+    <RateOfFire>0.6</RateOfFire>
+    <Sound>weapon/fire_wand</Sound>
+    <Projectile>
+      <ObjectId>Storm Shaman Bolt Blue</ObjectId>
+      <Speed>50</Speed>
+      <LifetimeMS>900</LifetimeMS>
+      <MinDamage>44</MinDamage>
+      <MaxDamage>444</MaxDamage>
+      <Acceleration>300</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>400</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <BagType>8</BagType>
+    <OldSound>magicShoot</OldSound>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <XPBonus>5</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,WAND,ST_WEAPON,STGEN_3,ST,TAB_ST,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object type="0xFF08" id="3SorcererST1" setType="0xFF06" setName="Storm Shaman Set" collectionIcon="3">
+    <DisplayId>Totem Scepter</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xEC</Index>
+    </Texture>
+    <SlotType>23</SlotType>
+    <Description>Summons static Totems that discharge electrical bolts around it. The totem’s rapid fire makes it a formidable static defense.</Description>
+    <NumProjectiles>1</NumProjectiles>
+    <ExtraTooltipData>
+      <EffectInfo name="Totems" description="deals x damage and paralyzes enemies for 0.3 seconds in a 5 tile area." />
+      <EffectInfo name="Lifetime" description="10 seconds" />
+      <EffectInfo name="with 2 pieces" description="Damage: 100-200" />
+      <EffectInfo name="with 3 pieces" description="Damage: 120-240" />
+      <EffectInfo name="with 4 pieces" description="Damage: 140-280" />
+    </ExtraTooltipData>
+    <Activate amount="0" duration="0" stat="SPD" ignoreOnTooltip="true">StatBoostSelf</Activate>
+    <OnPlayerAbilityActivate targetMouse="true" proc="1" mustNotWearOR="0xFF07;0xFF09;0xFF0A" objectId="Storm Totem 1" throwTime="0.3" cooldown="0.3">ObjectToss</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate targetMouse="true" proc="1" mustWear="0xFF07" mustNotWearOR="0xFF09;0xFF0A" objectId="Storm Totem 2" throwTime="0.3" cooldown="0.3">ObjectToss</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate targetMouse="true" proc="1" mustWear="0xFF0A" mustNotWearOR="0xFF07;0xFF09" objectId="Storm Totem 2" throwTime="0.3" cooldown="0.3">ObjectToss</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate targetMouse="true" proc="1" mustWear="0xFF07;0xFF09" mustNotWearOR="0xFF0A" objectId="Storm Totem 3" throwTime="0.3" cooldown="0.3">ObjectToss</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate targetMouse="true" proc="1" mustWear="0xFF07;0xFF0A" mustNotWearOR="0xFF09" objectId="Storm Totem 3" throwTime="0.3" cooldown="0.3">ObjectToss</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate targetMouse="true" proc="1" mustWear="0xFF09;0xFF0A" mustNotWearOR="0xFF07" objectId="Storm Totem 3" throwTime="0.3" cooldown="0.3">ObjectToss</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate targetMouse="true" proc="1" mustWear="0xFF07;0xFF09;0xFF0A" objectId="Storm Totem 4" throwTime="0.3" cooldown="0.3">ObjectToss</OnPlayerAbilityActivate>
+    <Usable />
+    <UniqueID />
+    <BagType>8</BagType>
+    <MpCost>120</MpCost>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <Labels>EQUIPMENT,ABILITY,SCEPTER,ST_ABILITY,STGEN_3,ST,TAB_ST,POWERTIER_S,MPCOST,XPBONUS</Labels>
+  </Object>
+  <Object type="0xFF09" id="3SorcererST2" setType="0xFF06" setName="Storm Shaman Set" collectionIcon="3">
+    <DisplayId>Thunderstorm Tunic</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xED</Index>
+    </Texture>
+    <SlotType>14</SlotType>
+    <Description>This mystical armor amplifies your defenses and imbues you with the swiftness needed for rapid totem placement.</Description>
+    <ActivateOnEquip stat="MAXMP" amount="30">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="13">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="5">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="SPD" amount="5">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,LEATHER,ST_ARMOR,STGEN_3,ST,TAB_ST,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object type="0xFF0A" id="3SorcererST3" setType="0xFF06" setName="Storm Shaman Set" collectionIcon="3">
+    <DisplayId>Bolt in a Bottle</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>0xEE</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>This enchanted pendant heightens your elemental abilities and agility, enabling quick placement of Storm Totems and devastating attacks.</Description>
+    <ActivateOnEquip amount="30" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="6" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="4" stat="SPD">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,ST_RING,STGEN_3,ST,TAB_ST,POWERTIER_B,XPBONUS</Labels>
+  </Object>
+  <Object type="0xFF0B" id="3KnightSTToken">
+    <DisplayId>Mad Minotaur Set Token</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-1" yOffset="1">
+      <File>gen3SetObjects</File>
+      <Index>0x102</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Can be used in the Forge to craft Mad Minotaur Items.</Description>
+    <BagType>5</BagType>
+    <feedPower>50</feedPower>
+    <Soulbound />
+    <Labels>TAB_ST</Labels>
+  </Object>
+  <Object type="0xFF0C" id="3SorcererSTToken">
+    <DisplayId>Storm Shaman Set Token</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="0">
+      <File>gen3SetObjects</File>
+      <Index>0x101</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Can be used in the Forge to craft Storm Shaman Items.</Description>
+    <BagType>5</BagType>
+    <feedPower>50</feedPower>
+    <Soulbound />
+    <Labels>TAB_ST</Labels>
   </Object>
 </Objects>

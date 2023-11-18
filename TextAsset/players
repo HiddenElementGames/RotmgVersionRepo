@@ -680,6 +680,7 @@
   <PlayerStat id="MoonlightVillageCompleted" index="95" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Moonlight Village" />
   <PlayerStat id="AdvancedKogboldSteamworksCompleted" index="96" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Advanced Kogbold Steamworks" />
   <PlayerStat id="AdvancedNestsCompleted" index="97" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Advanced Nest" />
+  <PlayerStat id="TavernsCompleted" index="98" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="The Tavern" />
   <FameBonus id="Ancestor" code="1">
     <DisplayGroup>Stats Bonuses</DisplayGroup>
     <DisplayCategory>Special</DisplayCategory>
@@ -3988,7 +3989,7 @@
     <MaxRepeatCount>20</MaxRepeatCount>
     <Condition stat="AdvancedKogboldSteamworksCompleted" threshold="100">StatValue</Condition>
   </FameBonus>
-  <FameBonus id="AdvancedNestScout" code="287">
+  <FameBonus id="AdvancedNestScout" code="442">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>
     <DisplayCategory>Advanced Nest</DisplayCategory>
     <DisplayName>Advanced Nest Scout</DisplayName>
@@ -3997,7 +3998,7 @@
     <ShortDisplayName>Scout</ShortDisplayName>
     <Condition stat="AdvancedNestsCompleted" threshold="1">StatValue</Condition>
   </FameBonus>
-  <FameBonus id="AdvancedNestExplorer" code="288">
+  <FameBonus id="AdvancedNestExplorer" code="443">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>
     <DisplayCategory>Advanced Nest</DisplayCategory>
     <DisplayName>Advanced Nest Explorer</DisplayName>
@@ -4006,7 +4007,7 @@
     <ShortDisplayName>Explorer</ShortDisplayName>
     <Condition stat="AdvancedNestsCompleted" threshold="10">StatValue</Condition>
   </FameBonus>
-  <FameBonus id="AdvancedNestAdventurer" code="289">
+  <FameBonus id="AdvancedNestAdventurer" code="444">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>
     <DisplayCategory>Advanced Nest</DisplayCategory>
     <DisplayName>Advanced Nest Adventurer</DisplayName>
@@ -4015,7 +4016,7 @@
     <ShortDisplayName>Adventurer</ShortDisplayName>
     <Condition stat="AdvancedNestsCompleted" threshold="20">StatValue</Condition>
   </FameBonus>
-  <FameBonus id="AdvancedNestConqueror" code="290">
+  <FameBonus id="AdvancedNestConqueror" code="445">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>
     <DisplayCategory>Advanced Nest</DisplayCategory>
     <DisplayName>Advanced Nest Conqueror</DisplayName>
@@ -4024,7 +4025,7 @@
     <ShortDisplayName>Conqueror</ShortDisplayName>
     <Condition stat="AdvancedNestsCompleted" threshold="40">StatValue</Condition>
   </FameBonus>
-  <FameBonus id="AdvancedNestMaster" code="291">
+  <FameBonus id="AdvancedNestMaster" code="446">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>
     <DisplayCategory>Advanced Nest</DisplayCategory>
     <DisplayName>Advanced Nest Master {0}</DisplayName>
@@ -4034,6 +4035,53 @@
     <ShortDisplayName>Master {0}</ShortDisplayName>
     <MaxRepeatCount>20</MaxRepeatCount>
     <Condition stat="AdvancedNestsCompleted" threshold="100">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="TavernScout" code="447">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>The Tavern</DisplayCategory>
+    <DisplayName>Tavern Scout</DisplayName>
+    <AbsoluteBonus>150</AbsoluteBonus>
+    <Description>Complete The Tavern 1 time</Description>
+    <ShortDisplayName>Scout</ShortDisplayName>
+    <Condition stat="TavernsCompleted" threshold="1">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="TavernExplorer" code="448">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>The Tavern</DisplayCategory>
+    <DisplayName>Tavern Explorer</DisplayName>
+    <AbsoluteBonus>300</AbsoluteBonus>
+    <Description>Complete The Tavern 10 times</Description>
+    <ShortDisplayName>Explorer</ShortDisplayName>
+    <Condition stat="TavernsCompleted" threshold="10">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="TavernAdventurer" code="449">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>The Tavern</DisplayCategory>
+    <DisplayName>Tavern Adventurer</DisplayName>
+    <AbsoluteBonus>600</AbsoluteBonus>
+    <Description>Complete The Tavern 20 times</Description>
+    <ShortDisplayName>Adventurer</ShortDisplayName>
+    <Condition stat="TavernsCompleted" threshold="20">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="TavernConqueror" code="450">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>The Tavern</DisplayCategory>
+    <DisplayName>Tavern Conqueror</DisplayName>
+    <AbsoluteBonus>1200</AbsoluteBonus>
+    <Description>Complete The Tavern 40 times</Description>
+    <ShortDisplayName>Conqueror</ShortDisplayName>
+    <Condition stat="TavernsCompleted" threshold="40">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="TavernMaster" code="451">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>The Tavern</DisplayCategory>
+    <DisplayName>Tavern Master {0}</DisplayName>
+    <Repeatable>true</Repeatable>
+    <AbsoluteBonus>3000</AbsoluteBonus>
+    <Description>Complete The Tavern 100 times</Description>
+    <ShortDisplayName>Master {0}</ShortDisplayName>
+    <MaxRepeatCount>20</MaxRepeatCount>
+    <Condition stat="TavernsCompleted" threshold="100">StatValue</Condition>
   </FameBonus>
   <FameBonus id="Oryx'sCastleScout" code="317">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>

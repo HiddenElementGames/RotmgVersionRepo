@@ -4189,18 +4189,6 @@
     </Texture>
     <Size>-1</Size>
   </Object>
-  <Object type="0x657a" id="Beer Spawner">
-    <Class>GameObject</Class>
-    <Enemy />
-    <Invincible />
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <Size>100</Size>
-    <ShadowSize>0</ShadowSize>
-    <KillStat stat="StructureKills" />
-  </Object>
   <Object type="0x657c" id="Halloween Initiator">
     <Class>GameObject</Class>
     <Enemy />
@@ -10938,5 +10926,182 @@
     <AlwaysPositiveHealth />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT</Labels>
+  </Object>
+  <Object type="0x4A0" id="Halloween 2023 Chest Small">
+    <DisplayId>Event Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Texture>
+      <File>autumnNexusObjects16x16</File>
+      <Index>0x214</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="0.8">
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x214</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x215</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x216</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x217</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <MaxHitPoints>67500</MaxHitPoints>
+    <Defense>0</Defense>
+    <Size>100</Size>
+    <Exp>1000</Exp>
+    <StasisImmune />
+    <AlwaysPositiveHealth />
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x4A1" id="Halloween 2023 Chest Big">
+    <DisplayId>Event Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Texture>
+      <File>autumnNexusObjects16x16</File>
+      <Index>0x214</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="0.8">
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x214</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x215</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x216</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x217</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <MaxHitPoints>67500</MaxHitPoints>
+    <Defense>0</Defense>
+    <Size>100</Size>
+    <Exp>1000</Exp>
+    <StasisImmune />
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x4A2" id="Halloween 2023 Chest Large">
+    <DisplayId>Event Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Texture>
+      <File>autumnNexusObjects16x16</File>
+      <Index>0x214</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="0.8">
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x214</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x215</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x216</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x217</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <MaxHitPoints>67500</MaxHitPoints>
+    <Defense>0</Defense>
+    <Size>100</Size>
+    <Exp>1000</Exp>
+    <StasisImmune />
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x4A3" id="Halloween 2023 Chest Huge">
+    <DisplayId>Event Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Texture>
+      <File>autumnNexusObjects16x16</File>
+      <Index>0x214</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="0.8">
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x214</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x215</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x216</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>autumnNexusObjects16x16</File>
+          <Index>0x217</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <MaxHitPoints>67500</MaxHitPoints>
+    <Defense>0</Defense>
+    <Size>100</Size>
+    <Exp>1000</Exp>
+    <StasisImmune />
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
   </Object>
 </Objects>
