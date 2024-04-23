@@ -209,6 +209,8 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="35" dustMax="81" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="11" dustMax="26" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="20" />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
@@ -230,6 +232,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Little Prince Rogue Skin</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>

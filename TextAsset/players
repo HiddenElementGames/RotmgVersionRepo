@@ -681,6 +681,7 @@
   <PlayerStat id="AdvancedKogboldSteamworksCompleted" index="96" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Advanced Kogbold Steamworks" />
   <PlayerStat id="AdvancedNestsCompleted" index="97" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Advanced Nest" />
   <PlayerStat id="TavernsCompleted" index="98" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="The Tavern" />
+  <PlayerStat id="QueenBunnyCompleted" index="99" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Queen Bunny Chamber" />
   <FameBonus id="Ancestor" code="1">
     <DisplayGroup>Stats Bonuses</DisplayGroup>
     <DisplayCategory>Special</DisplayCategory>
@@ -5120,5 +5121,56 @@
     <ShortDisplayName>Master {0}</ShortDisplayName>
     <MaxRepeatCount>20</MaxRepeatCount>
     <Condition stat="InterregnumsCompleted" threshold="100">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="QueenBunnyScout" code="452">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Queen Bunny Chamber</DisplayCategory>
+    <DisplayName>Queen Bunny Chamber Scout</DisplayName>
+    <AbsoluteBonus>5</AbsoluteBonus>
+    <Description>Complete Queen Bunny Chamber 1 time</Description>
+    <ShortDisplayName>Scout</ShortDisplayName>
+    <MaxRepeatCount>1</MaxRepeatCount>
+    <Condition stat="QueenBunnyCompleted" threshold="1">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="QueenBunnyExplorer" code="453">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Queen Bunny Chamber</DisplayCategory>
+    <DisplayName>Queen Bunny Chamber Explorer</DisplayName>
+    <AbsoluteBonus>10</AbsoluteBonus>
+    <Description>Complete Queen Bunny Chamber 10 times</Description>
+    <ShortDisplayName>Explorer</ShortDisplayName>
+    <MaxRepeatCount>1</MaxRepeatCount>
+    <Condition stat="QueenBunnyCompleted" threshold="10">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="QueenBunnyAdventurer" code="454">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Queen Bunny Chamber</DisplayCategory>
+    <DisplayName>Queen Bunny Chamber Adventurer</DisplayName>
+    <AbsoluteBonus>20</AbsoluteBonus>
+    <Description>Complete Queen Bunny Chamber 20 times</Description>
+    <ShortDisplayName>Adventurer</ShortDisplayName>
+    <MaxRepeatCount>1</MaxRepeatCount>
+    <Condition stat="QueenBunnyCompleted" threshold="20">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="QueenBunnyConqueror" code="455">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Queen Bunny Chamber</DisplayCategory>
+    <DisplayName>Queen Bunny Chamber Conqueror</DisplayName>
+    <AbsoluteBonus>40</AbsoluteBonus>
+    <Description>Complete Queen Bunny Chamber 40 times</Description>
+    <ShortDisplayName>Conqueror</ShortDisplayName>
+    <MaxRepeatCount>1</MaxRepeatCount>
+    <Condition stat="QueenBunnyCompleted" threshold="40">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="QueenBunnyMaster" code="456">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Queen Bunny Chamber</DisplayCategory>
+    <DisplayName>Queen Bunny Chamber Master {0}</DisplayName>
+    <Repeatable>true</Repeatable>
+    <AbsoluteBonus>100</AbsoluteBonus>
+    <Description>Complete Queen Bunny Chamber 100 times</Description>
+    <ShortDisplayName>Master {0}</ShortDisplayName>
+    <MaxRepeatCount>20</MaxRepeatCount>
+    <Condition stat="QueenBunnyCompleted" threshold="100">StatValue</Condition>
   </FameBonus>
 </Objects>

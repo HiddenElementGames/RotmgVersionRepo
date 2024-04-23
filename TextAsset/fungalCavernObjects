@@ -3377,7 +3377,9 @@
       <PassesCover />
       <ArmorPiercing />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.425" dustMin="9" dustMax="13" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="73" dustMax="170" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="35" dustMax="81" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.4" dustMin="9" dustMax="21" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <HealthBarBoss radius="40" />
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
@@ -3404,6 +3406,7 @@
     <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
     <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0xb291" id="GC Boss Body">
     <DisplayId>Crystal Worm Mother</DisplayId>
@@ -4368,7 +4371,7 @@
     <ShadowSize>0</ShadowSize>
     <Invincible />
     <Flying />
-    <Labels>ENEMY,MINION</Labels>
+    <Labels>ENEMY</Labels>
   </Object>
   <Object type="0x275c" id="Crystal Bud Dark">
     <DisplayId>Crystallised Boomer</DisplayId>
@@ -4401,7 +4404,7 @@
       <FaceDir />
       <ConditionEffect duration="5">Exposed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION</Labels>
+    <Labels>ENEMY</Labels>
   </Object>
   <Object type="0x275d" id="Saphhire Slime">
     <DisplayId>Sapphire Slime</DisplayId>

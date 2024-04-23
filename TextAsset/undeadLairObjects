@@ -143,6 +143,7 @@
       <Frequency>1.6</Frequency>
       <Amplitude>1.3</Amplitude>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="17" dustMax="40" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="UndeadKills" />
     <KillStat stat="GodKills" />
@@ -166,6 +167,7 @@
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
     <SpecialSpawn category="Mercenary_B">Mercenary B Dungeon</SpecialSpawn>
     <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt2">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>

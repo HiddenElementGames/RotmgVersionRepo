@@ -175,6 +175,7 @@
       <LifetimeMS>5000</LifetimeMS>
       <ConditionEffect duration="1.5">Bleeding</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="2" dustMax="5" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
@@ -195,6 +196,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Ultra Easy</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Eggshell Spider Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0x0937" id="Arachna Web Spoke 1">
     <DisplayId>Arachna Element</DisplayId>

@@ -1307,6 +1307,8 @@
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="63" dustMax="147" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="23" dustMax="54" seasonalBonus="0.15">redDust</SoulboundDust>
     <DamageBasedXP />
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY,STGEMDROP</Labels>
     <SpecialSpawn category="Bis">High Tech Terror Portal</SpecialSpawn>
@@ -1327,6 +1329,7 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Blizzard Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt61">
         <StyleStep altTextureId="61">SetAltTexture</StyleStep>

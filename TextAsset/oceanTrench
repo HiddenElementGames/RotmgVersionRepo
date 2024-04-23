@@ -335,6 +335,7 @@
       <ConditionEffect duration="6">Weak</ConditionEffect>
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="34" dustMax="78" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="25" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
@@ -357,6 +358,7 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Sea Slurp Skin Unlocker</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Oryxmania">Thessal Arena Portal</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0x1554" id="Thessal Dropper">
     <Class>GameObject</Class>

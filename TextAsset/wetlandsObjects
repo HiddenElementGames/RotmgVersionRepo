@@ -4642,6 +4642,8 @@
     <DazedImmune />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="55" dustMax="128" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="18" dustMax="42" seasonalBonus="0.15">redDust</SoulboundDust>
     <Animation period="0" prob="1" id="SpookyAnim">
       <Frame time="0.4">
         <Texture>
@@ -4725,6 +4727,7 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Swamped Panda Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object id="SulfW Controller" type="0x65c2">
     <Class>GameObject</Class>

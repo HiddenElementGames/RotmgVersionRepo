@@ -936,18 +936,20 @@
     <Size>120</Size>
     <Quest />
     <Level>20</Level>
-    <MaxHitPoints>80000</MaxHitPoints>
+    <MaxHitPoints>110000</MaxHitPoints>
     <BXP>926</BXP>
     <Defense>0</Defense>
+    <ParalyzeImmune />
     <StasisImmune />
     <StunImmune />
-    <ParalyzeImmune />
+    <SlowImmune />
+    <DazedImmune />
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Alien Cannon 1</ObjectId>
       <Damage>150</Damage>
-      <Speed>60</Speed>
-      <LifetimeMS>1800</LifetimeMS>
+      <Speed>50</Speed>
+      <LifetimeMS>2800</LifetimeMS>
       <ConditionEffect duration="2.5">Confused</ConditionEffect>
     </Projectile>
     <Projectile id="1">
@@ -962,6 +964,46 @@
       <Damage>130</Damage>
       <Speed>100</Speed>
       <LifetimeMS>1400</LifetimeMS>
+      <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Alien Blaster</ObjectId>
+      <Damage>130</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+      <Acceleration>-10</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>10</SpeedClamp>
+      <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Alien Blaster</ObjectId>
+      <Damage>130</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+      <Acceleration>-10</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>10</SpeedClamp>
+      <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Alien Blaster</ObjectId>
+      <Damage>130</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Acceleration>-10</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>10</SpeedClamp>
+      <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Alien Blaster</ObjectId>
+      <Damage>130</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Acceleration>-10</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>10</SpeedClamp>
       <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
     </Projectile>
     <Projectile id="3">
@@ -985,12 +1027,281 @@
       <LifetimeMS>1800</LifetimeMS>
       <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
     </Projectile>
+    <Projectile id="10">
+      <ObjectId>Alien Cannon 1</ObjectId>
+      <Damage>150</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <ConditionEffect duration="2.5">Confused</ConditionEffect>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Alien Cannon 1</ObjectId>
+      <Damage>130</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2100</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Alien Blaster</ObjectId>
+      <Damage>130</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>4500</LifetimeMS>
+      <PassesCover />
+      <TurnRateDelay>0</TurnRateDelay>
+      <TurnRate>-360</TurnRate>
+    </Projectile>
+    <Projectile id="16">
+      <ObjectId>Alien Blaster</ObjectId>
+      <Damage>130</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>4500</LifetimeMS>
+      <PassesCover />
+      <TurnRateDelay>0</TurnRateDelay>
+      <TurnRate>360</TurnRate>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Alien Blaster</ObjectId>
+      <Damage>130</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1800</LifetimeMS>
+      <PassesCover />
+      <TurnRateDelay>0</TurnRateDelay>
+      <TurnRate>60</TurnRate>
+      <MultiHit />
+      <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>Alien Blaster</ObjectId>
+      <Damage>130</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2100</LifetimeMS>
+      <PassesCover />
+      <TurnRateDelay>0</TurnRateDelay>
+      <TurnRate>-60</TurnRate>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="15">
+      <ObjectId>Alien Blaster</ObjectId>
+      <Damage>130</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1800</LifetimeMS>
+      <PassesCover />
+      <TurnRateDelay>0</TurnRateDelay>
+      <TurnRate>-60</TurnRate>
+      <MultiHit />
+      <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
+    </Projectile>
+    <Projectile id="21">
+      <ObjectId>Alien Cannon 1</ObjectId>
+      <Damage>130</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>2600</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="22">
+      <ObjectId>Alien Cannon 1</ObjectId>
+      <Damage>130</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>2600</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="23">
+      <ObjectId>Alien Cannon 1</ObjectId>
+      <Damage>130</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2600</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="24">
+      <ObjectId>Alien Cannon 1</ObjectId>
+      <Damage>130</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2600</LifetimeMS>
+      <PassesCover />
+    </Projectile>
     <HealthBarBoss radius="30" />
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
     <DamageBasedXP />
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD</Labels>
+  </Object>
+  <Object type="0x7245" id="Alien Biff Egg">
+    <DisplayId>Alien Biff Egg</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>alienInvasionChars16x16</File>
+      <Index>43</Index>
+    </AnimatedTexture>
+    <HitSound>monster/orcs_hit</HitSound>
+    <DeathSound>monster/orcs_death</DeathSound>
+    <MaxHitPoints>8000</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <ParalyzeImmune />
+    <StasisImmune />
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <NoCollisionWhenMovement />
+    <AlwaysPositiveHealth />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>BellaPetal New</ObjectId>
+      <Speed>80</Speed>
+      <Damage>0</Damage>
+      <LifetimeMS>850</LifetimeMS>
+      <ConditionEffect duration="2.5">Slowed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Alien Blaster</ObjectId>
+      <Speed>0</Speed>
+      <Acceleration>10000</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>85</SpeedClamp>
+      <Damage>100</Damage>
+      <LifetimeMS>1200</LifetimeMS>
+      <Size>160</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
+  </Object>
+  <Object type="0x7246" id="Alien Biff Egg Indicator">
+    <DisplayId>Alien Biff Egg</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <HitSound>monster/orcs_hit</HitSound>
+    <DeathSound>monster/orcs_death</DeathSound>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <ParalyzeImmune />
+    <StasisImmune />
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <NoCollisionWhenMovement />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>BellaPetal New</ObjectId>
+      <Speed>80</Speed>
+      <Damage>0</Damage>
+      <LifetimeMS>850</LifetimeMS>
+      <ConditionEffect duration="2.5">Slowed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>EH Red Ball</ObjectId>
+      <Speed>0</Speed>
+      <Acceleration>10000</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>85</SpeedClamp>
+      <Damage>1</Damage>
+      <LifetimeMS>400</LifetimeMS>
+      <Size>160</Size>
+      <MultiHit />
+    </Projectile>
+    <Invincible />
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
+  </Object>
+  <Object type="0x7247" id="Alien Biff Object Help">
+    <DisplayId>Alien Biff Egg</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <RandomTexture>
+      <AnimatedTexture>
+        <File>petsDivine</File>
+        <Index>109</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>petsDivine</File>
+        <Index>110</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>petsDivine</File>
+        <Index>111</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>petsDivine</File>
+        <Index>112</Index>
+      </AnimatedTexture>
+    </RandomTexture>
+    <HitSound>monster/orcs_hit</HitSound>
+    <DeathSound>monster/orcs_death</DeathSound>
+    <Size>100</Size>
+    <NoCollisionWhenMovement />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <Projectile id="1">
+      <ObjectId>Alien Blaster</ObjectId>
+      <Speed>30</Speed>
+      <Damage>100</Damage>
+      <LifetimeMS>2600</LifetimeMS>
+      <Size>160</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
+    <Invincible />
+  </Object>
+  <Object type="0x7248" id="Alien Biff Object Help Extra">
+    <DisplayId>Alien Biff Egg</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <RandomTexture>
+      <AnimatedTexture>
+        <File>petsDivine</File>
+        <Index>109</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>petsDivine</File>
+        <Index>110</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>petsDivine</File>
+        <Index>111</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>petsDivine</File>
+        <Index>112</Index>
+      </AnimatedTexture>
+    </RandomTexture>
+    <HitSound>monster/orcs_hit</HitSound>
+    <DeathSound>monster/orcs_death</DeathSound>
+    <Size>100</Size>
+    <NoCollisionWhenMovement />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <Projectile id="1">
+      <ObjectId>Alien Blaster</ObjectId>
+      <Speed>30</Speed>
+      <Damage>100</Damage>
+      <LifetimeMS>2600</LifetimeMS>
+      <Size>160</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
+    <Invincible />
   </Object>
   <Object type="0x7135" id="Alien Biff Old">
     <DisplayId>Alien Biff</DisplayId>

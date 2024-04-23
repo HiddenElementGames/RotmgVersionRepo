@@ -706,7 +706,7 @@
       <MultiHit />
       <FaceDir />
     </Projectile>
-    <Labels>ENEMY,MINION</Labels>
+    <Labels>ENEMY</Labels>
   </Object>
   <Object type="0x273e" id="Crystal Whip">
     <DisplayId>Crystal Entity</DisplayId>
@@ -737,7 +737,7 @@
       <MultiHit />
       <FaceDir />
     </Projectile>
-    <Labels>ENEMY,MINION</Labels>
+    <Labels>ENEMY</Labels>
   </Object>
   <Object type="0x2714" id="Crystallised Fish">
     <Enemy />
@@ -1224,7 +1224,9 @@
       <FaceDir />
       <ArmorPiercing />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.425" dustMin="9" dustMax="13" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="80" dustMax="186" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="37" dustMax="87" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.4" dustMin="10" dustMax="22" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <HealthBarBoss radius="40" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
@@ -1252,6 +1254,7 @@
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
     <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
     <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0x2734" id="Crystal Orbiter 1">
     <Enemy />
@@ -1961,7 +1964,7 @@
     <Encounter />
     <Level>20</Level>
     <PerRealmMax>1</PerRealmMax>
-    <Labels>ENEMY,MINION,QUEST</Labels>
+    <Labels>ENEMY,MINION,QUEST,ENCOUNTER,GC Encounter Gauntlet Controller</Labels>
   </Object>
   <Object type="0x6501" id="GC Encounter Portal">
     <DisplayId>GC encounter</DisplayId>

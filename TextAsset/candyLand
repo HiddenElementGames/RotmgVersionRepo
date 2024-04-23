@@ -356,6 +356,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="3">Hallucinating</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="43" dustMax="101" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
@@ -377,6 +378,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Mini Desire Troll Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0x5e40" id="Unicorn">
     <Group>Candy Creature</Group>

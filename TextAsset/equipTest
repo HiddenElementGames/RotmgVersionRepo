@@ -43,6 +43,7 @@
     <Soulbound />
     <feedPower>50000</feedPower>
     <AdminOnly />
+    <Labels>PETBLACKLIST</Labels>
   </Object>
   <Object type="0x641" id="Keys">
     <DisplayId>Skeleton Key</DisplayId>
@@ -61,6 +62,7 @@
     <Soulbound />
     <feedPower>50000</feedPower>
     <AdminOnly />
+    <Labels>PETBLACKLIST</Labels>
   </Object>
   <Object type="0x933" id="TKeys">
     <DisplayId>Testing Gift</DisplayId>
@@ -79,6 +81,7 @@
     <Soulbound />
     <feedPower>50000</feedPower>
     <AdminOnly />
+    <Labels>PETBLACKLIST</Labels>
   </Object>
   <Object type="0x174f" id="Test TP">
     <DisplayId>Godlands Teleporter</DisplayId>
@@ -95,6 +98,7 @@
     <BagType>8</BagType>
     <InvUse />
     <AdminOnly />
+    <Labels>PETBLACKLIST</Labels>
   </Object>
   <Object type="0x10fa" id="Test Close">
     <DisplayId>Realm Closer</DisplayId>
@@ -111,6 +115,7 @@
     <BagType>8</BagType>
     <InvUse />
     <AdminOnly />
+    <Labels>PETBLACKLIST</Labels>
   </Object>
   <Object type="0x0249" id="Test Ring">
     <DisplayId>Creator's Ring</DisplayId>
@@ -130,6 +135,7 @@
     <Soulbound />
     <UniqueID />
     <AdminOnly />
+    <Labels>PETBLACKLIST</Labels>
   </Object>
   <Object type="0x705e" id="InvinceMe">
     <DisplayId>Testosterone</DisplayId>
@@ -146,6 +152,7 @@
     <Activate effect="Invincible" duration="86400">ConditionEffectSelf</Activate>
     <Soulbound />
     <AdminOnly />
+    <Labels>PETBLACKLIST</Labels>
   </Object>
   <Object type="0x47e" id="Campaign Points Test">
     <Class>Equipment</Class>
@@ -511,6 +518,23 @@
     <BagType>8</BagType>
     <Soulbound />
     <NoSeasonalToRegularConversion />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x4D3" id="Reroll Count Reset Token">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>enchantments16x16</File>
+      <Index>0x26</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Adds 200 Purple Dust to the cap in your storage.</Description>
+    <Sound>use_potion</Sound>
+    <ResetEnchRerollCount />
+    <Consumable />
+    <BagType>8</BagType>
+    <Soulbound />
+    <Track />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
 </Objects>

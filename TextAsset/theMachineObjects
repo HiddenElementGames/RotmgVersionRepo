@@ -948,6 +948,7 @@
       <ConditionEffect duration="2">Blind</ConditionEffect>
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="24" dustMax="55" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="50" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
@@ -967,6 +968,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Toaster Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt2">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>

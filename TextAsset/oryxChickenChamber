@@ -135,6 +135,7 @@
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="12" dustMax="29" seasonalBonus="0.15">greenDust</SoulboundDust>
     <Projectile id="0">
       <ObjectId>Pink Dot</ObjectId>
       <Damage>100</Damage>
@@ -227,5 +228,6 @@
     <SpecialSpawn category="Souvenir_MID">Anatis Staff</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
 </Objects>

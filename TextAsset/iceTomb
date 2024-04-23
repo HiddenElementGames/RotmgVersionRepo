@@ -104,6 +104,7 @@
     <ShadowSize>60</ShadowSize>
     <Z>0.5</Z>
     <Flying />
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="24" dustMax="55" seasonalBonus="0.15">greenDust</SoulboundDust>
     <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb247" id="Ice Tomb Support Soul">
@@ -599,6 +600,7 @@
     <SpecialSpawn category="Souvenir_MID">Frimarra</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0x7fa7" id="Activator">
     <DisplayId>Mysterious Ice Shard</DisplayId>
