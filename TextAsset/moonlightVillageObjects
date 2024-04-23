@@ -20813,7 +20813,7 @@
   <Object id="MV Event Shrine" type="0x5140">
     <DisplayId>Ethereal Shrine</DisplayId>
     <Enemy />
-    <Encounter />
+    <Encounter terrain="Mountains,HighForest" />
     <PerRealmMax>1</PerRealmMax>
     <God />
     <Texture>
@@ -20841,7 +20841,7 @@
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
     <KillStat stat="StructureKills" />
-    <Labels>ENEMY,HERO,GOD,QUEST,STASISIMMUNE,BOSS</Labels>
+    <Labels>ENEMY,HERO,GOD,QUEST,STASISIMMUNE,BOSS,ENCOUNTER,MV Event Shrine</Labels>
     <Projectile id="0">
       <ObjectId>MV Flame Wave</ObjectId>
       <Damage>100</Damage>
@@ -21055,7 +21055,6 @@
         <StyleStep id="DeathAnimation">SetAnimation</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENCOUNTER,MV Event Shrine</Labels>
   </Object>
   <Object id="MV Event Lantern" type="0x518a">
     <Enemy />

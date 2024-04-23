@@ -116,7 +116,7 @@
     {
       "path": "dungeons/spriteWorld/spriteWorldGround.xml"
     },
-	  {
+    {
       "path": "dungeons/theShatters/theShattersGround.xml"
     },
     {
@@ -142,6 +142,18 @@
     },
     {
       "path": "dungeons/queenBunny/queenBunnyGround.xml"
+    },
+    {
+      "path": "newRealm/adeptGround.xml"
+    },
+    {
+      "path": "newRealm/biomeGround.xml"
+    },
+    {
+      "path": "newRealm/setPieceGround.xml"
+    },
+    {
+      "path": "testing/nanoGround.xml"
     }
   ],
   "objects": [
@@ -201,6 +213,9 @@
     },
     {
       "path": "testing/kTesting.xml"
+    },
+    {
+      "path": "testing/nanoObjects.xml"
     },
     {
       "path": "players.xml"
@@ -493,13 +508,13 @@
     {
       "path": "dungeons/deadwaterDocks/deadwaterDocksObjects.xml"
     },
-	  {
+    {
       "path": "dungeons/theShatters/theShattersObjects.xml"
     },
     {
       "path": "dungeons/steamworks/steamworksObjects.xml"
     },
-	  {
+    {
       "path": "dungeons/grandBazaar/grandBazaarObjects.xml"
     },
     {
@@ -531,6 +546,30 @@
     },
     {
       "path": "dungeons/moonlightVillage/moonlightVillageObjects.xml"
+    },
+    {
+      "path": "newRealm/adept.xml"
+    },
+    {
+      "path": "newRealm/adeptStatic.xml"
+    },
+    {
+      "path": "newRealm/rookie.xml"
+    },
+    {
+      "path": "newRealm/expert.xml"
+    },
+    {
+      "path": "newRealm/veteran.xml"
+    },
+    {
+      "path": "newRealm/encounters.xml"
+    },
+    {
+      "path": "newRealm/heroes.xml"
+    },
+    {
+      "path": "newRealm/beacons.xml"
     }
   ],
   "particles": [
@@ -567,7 +606,7 @@
     {
       "name": "lofiChar8x8",
       "path": "lofi_char_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": true
@@ -575,7 +614,7 @@
     {
       "name": "lofiChar16x8",
       "path": "lofi_char_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 16,
       "frameHeight": 8,
       "noDefinition": false
@@ -583,7 +622,7 @@
     {
       "name": "lofiChar16x16",
       "path": "lofi_char_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
@@ -591,7 +630,7 @@
     {
       "name": "lofiChar28x8",
       "path": "lofi_char2_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
@@ -599,7 +638,7 @@
     {
       "name": "lofiChar216x8",
       "path": "lofi_char2_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 16,
       "frameHeight": 8,
       "noDefinition": false
@@ -607,7 +646,7 @@
     {
       "name": "lofiChar216x16",
       "path": "lofi_char2_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
@@ -615,7 +654,7 @@
     {
       "name": "lofiCharBig",
       "path": "lofi_charBig_a.png",
-	  "atlasWidth": 256,
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
@@ -623,7 +662,7 @@
     {
       "name": "lofiEnvironment",
       "path": "lofi_environment_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
@@ -631,7 +670,7 @@
     {
       "name": "lofiEnvironment2",
       "path": "lofi_environment2_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
@@ -639,7 +678,7 @@
     {
       "name": "lofiEnvironment3",
       "path": "lofi_environment3_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false,
@@ -648,7 +687,7 @@
     {
       "name": "lofiInterface",
       "path": "lofi_interface_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": true
@@ -656,7 +695,7 @@
     {
       "name": "redLootBag",
       "path": "redLootBag.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
@@ -664,7 +703,7 @@
     {
       "name": "lofiInterfaceBig",
       "path": "lofi_interfaceBig_a.png",
-	  "atlasWidth": 256,
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": true,
@@ -673,7 +712,7 @@
     {
       "name": "lofiInterface2",
       "path": "lofi_interface2_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": true,
@@ -682,7 +721,7 @@
     {
       "name": "ancientRuinsObjects8x8",
       "path": "ancientRuinsObjects8x8.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": true,
@@ -691,7 +730,7 @@
     {
       "name": "ancientRuinsObjects16x16",
       "path": "ancientRuinsObjects16x16.png",
-	  "atlasWidth": 256,
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": true,
@@ -700,7 +739,7 @@
     {
       "name": "lofiObj",
       "path": "lofi_obj_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
@@ -708,7 +747,7 @@
     {
       "name": "lofiObj2",
       "path": "lofi_obj2_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": true
@@ -716,7 +755,7 @@
     {
       "name": "lofiObj3",
       "path": "lofi_obj3_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": true,
@@ -725,7 +764,7 @@
     {
       "name": "lofiObj4",
       "path": "lofi_obj4_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": true
@@ -733,7 +772,7 @@
     {
       "name": "lofiObj5",
       "path": "lofi_obj5_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": true
@@ -741,7 +780,7 @@
     {
       "name": "lofiObj5new",
       "path": "lofi_obj5_b.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
@@ -749,7 +788,7 @@
     {
       "name": "lofiObj6",
       "path": "lofi_obj6_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
@@ -757,7 +796,7 @@
     {
       "name": "lofiObjBig",
       "path": "lofi_objBig_a.png",
-	  "atlasWidth": 256,
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
@@ -773,7 +812,7 @@
     {
       "name": "lofiObj40x40",
       "path": "lofi_obj_40x40.png",
-	  "atlasWidth": 40,
+    "atlasWidth": 40,
       "frameWidth": 40,
       "frameHeight": 40,
       "noDefinition": false
@@ -781,7 +820,7 @@
     {
       "name": "lofiProjs",
       "path": "lofi_projs_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
@@ -789,7 +828,7 @@
     {
       "name": "lofiParticlesShocker",
       "path": "lofi_particlesShocker.png",
-	  "atlasWidth": 256,
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": true
@@ -797,7 +836,7 @@
     {
       "name": "lofiProjsBig",
       "path": "lofi_projsBig_a.png",
-	  "atlasWidth": 256,
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
@@ -805,7 +844,7 @@
     {
       "name": "lofiParts",
       "path": "lofi_parts_a.png",
-	  "atlasWidth": 128,
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
@@ -813,7 +852,7 @@
     {
       "name": "stars",
       "path": "stars.png",
-	  "atlasWidth": 25,
+    "atlasWidth": 25,
       "frameWidth": 5,
       "frameHeight": 5,
       "noDefinition": true
@@ -821,7 +860,7 @@
     {
       "name": "starsDimension",
       "path": "starsDimension.png",
-	  "atlasWidth": 25,
+    "atlasWidth": 25,
       "frameWidth": 5,
       "frameHeight": 5,
       "noDefinition": true
@@ -829,7 +868,7 @@
     {
       "name": "textile4x4",
       "path": "textile4x4.png",
-	  "atlasWidth": 64,
+    "atlasWidth": 64,
       "frameWidth": 4,
       "frameHeight": 4,
       "noDefinition": true
@@ -837,7 +876,7 @@
     {
       "name": "textile5x5",
       "path": "textile5x5.png",
-	  "atlasWidth": 80,
+    "atlasWidth": 80,
       "frameWidth": 5,
       "frameHeight": 5,
       "noDefinition": true
@@ -845,7 +884,7 @@
     {
       "name": "textile9x9",
       "path": "textile9x9.png",
-	  "atlasWidth": 144,
+    "atlasWidth": 144,
       "frameWidth": 9,
       "frameHeight": 9,
       "noDefinition": true
@@ -853,223 +892,223 @@
     {
       "name": "textile10x10",
       "path": "textile10x10.png",
-	  "atlasWidth": 160,
+    "atlasWidth": 160,
       "frameWidth": 10,
       "frameHeight": 10,
       "noDefinition": true
     },
     {
       "name": "inner_mask",
-      "path": "masks/mask-corner-inner.png",	  
-	  "atlasWidth": 4,
+      "path": "masks/mask-corner-inner.png",    
+    "atlasWidth": 4,
       "frameWidth": 4,
       "frameHeight": 4,
       "noDefinition": true
     },
     {
       "name": "sides_mask",
-      "path": "masks/mask-sides.png",	  
-	  "atlasWidth": 12,
+      "path": "masks/mask-sides.png",   
+    "atlasWidth": 12,
       "frameWidth": 4,
       "frameHeight": 4,
       "noDefinition": true
     },
     {
       "name": "outer_mask",
-      "path": "masks/mask-corner-outer.png",	  
-	  "atlasWidth": 4,
+      "path": "masks/mask-corner-outer.png",    
+    "atlasWidth": 4,
       "frameWidth": 4,
       "frameHeight": 4,
       "noDefinition": true
     },
     {
       "name": "innerP1_mask",
-      "path": "masks/mask-corner-inner-p1.png",	  
-	  "atlasWidth": 4,
+      "path": "masks/mask-corner-inner-p1.png",   
+    "atlasWidth": 4,
       "frameWidth": 4,
       "frameHeight": 4,
       "noDefinition": true
     },
     {
       "name": "innerP2_mask",
-      "path": "masks/mask-corner-inner-p2.png",	  
-	  "atlasWidth": 4,
+      "path": "masks/mask-corner-inner-p2.png",   
+    "atlasWidth": 4,
       "frameWidth": 4,
       "frameHeight": 4,
       "noDefinition": true
     },
     {
       "name": "d3LofiObjEmbed",
-      "path": "d3_lofi_obj.png",	  
-	  "atlasWidth": 128,
+      "path": "d3_lofi_obj.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "d3LofiObjEmbed16",
-      "path": "d3_lofi_obj.png",	  
-	  "atlasWidth": 128,
+      "path": "d3_lofi_obj.png",    
+    "atlasWidth": 128,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "d3LofiObjBigEmbed",
-      "path": "d3_lofi_objBig.png",	  
-	  "atlasWidth": 256,
+      "path": "d3_lofi_objBig.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "d2LofiObjEmbed",
-      "path": "d2_lofi_obj.png",	  
-	  "atlasWidth": 128,
+      "path": "d2_lofi_obj.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "d2LofiObjBigEmbed",
-      "path": "d2_lofi_objBig.png",	  
-	  "atlasWidth": 256,
+      "path": "d2_lofi_objBig.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "d1lofiObjBig",
-      "path": "d1_lofi_objBig.png",	  
-	  "atlasWidth": 256,
+      "path": "d1_lofi_objBig.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "cursorsEmbed",
-      "path": "cursors_32x32.png",	  
-	  "atlasWidth": 128,
+      "path": "cursors_32x32.png",    
+    "atlasWidth": 128,
       "frameWidth": 32,
       "frameHeight": 32,
       "noDefinition": true
     },
     {
       "name": "cursorsClickEmbed",
-      "path": "cursors_click_32x32.png",	  
-	  "atlasWidth": 128,
+      "path": "cursors_click_32x32.png",    
+    "atlasWidth": 128,
       "frameWidth": 32,
       "frameHeight": 32,
       "noDefinition": true
     },
     {
       "name": "mountainTempleObjects8x8",
-      "path": "mountainTempleObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "mountainTempleObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "mountainTempleObjects16x16",
-      "path": "mountainTempleObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "mountainTempleObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "oryxHordeObjects8x8",
-      "path": "oryxHordeObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "oryxHordeObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "oryxHordeObjects16x16",
-      "path": "oryxHordeObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "oryxHordeObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "battleOryxObjects8x8",
-      "path": "battleOryxObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "battleOryxObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "battleOryxObjects16x16",
-      "path": "battleOryxObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "battleOryxObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "santaWorkshopObjects8x8",
-      "path": "santaWorkshopObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "santaWorkshopObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "santaWorkshopObjects16x16",
-      "path": "santaWorkshopObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "santaWorkshopObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "parasiteDenObjects8x8",
-      "path": "parasiteDenObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "parasiteDenObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "parasiteDenObjects16x16",
-      "path": "parasiteDenObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "parasiteDenObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "stPatricksObjects8x8",
-      "path": "stPatricksObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "stPatricksObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "stPatricksObjects16x16",
-      "path": "stPatricksObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "stPatricksObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "buffedBunnyObjects8x8",
-      "path": "buffedBunnyObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "buffedBunnyObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "buffedBunnyObjects16x16",
-      "path": "buffedBunnyObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "buffedBunnyObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
@@ -1092,656 +1131,656 @@
     },
     {
       "name": "SakuraEnvironment16x16",
-      "path": "SakuraEnvironment16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "SakuraEnvironment16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "SakuraEnvironment8x8",
-      "path": "SakuraEnvironment8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "SakuraEnvironment8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "HanamiParts",
-      "path": "HanamiParts.png",	  
-	  "atlasWidth": 128,
+      "path": "HanamiParts.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "summerNexusObjects8x8",
-      "path": "summerNexusObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "summerNexusObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "summerNexusObjects16x16",
-      "path": "summerNexusObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "summerNexusObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "autumnNexusObjects8x8",
-      "path": "autumnNexusObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "autumnNexusObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "autumnNexusObjects16x16",
-      "path": "autumnNexusObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "autumnNexusObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "xmasNexusObjects8x8",
-      "path": "xmasNexusObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "xmasNexusObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "xmasNexusObjects16x16",
-      "path": "xmasNexusObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "xmasNexusObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "epicHiveObjects8x8",
-      "path": "epicHiveObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "epicHiveObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "epicHiveObjects16x16",
-      "path": "epicHiveObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "epicHiveObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "lostHallsObjects8x8",
-      "path": "lostHallsObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "lostHallsObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "lostHallsObjects16x16",
-      "path": "lostHallsObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "lostHallsObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "cnidarianReefObjects8x8",
-      "path": "cnidarianReefObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "cnidarianReefObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "cnidarianReefObjects16x16",
-      "path": "cnidarianReefObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "cnidarianReefObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "magicWoodsObjects8x8",
-      "path": "magicWoodsObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "magicWoodsObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "magicWoodsObjects16x16",
-      "path": "magicWoodsObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "magicWoodsObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "secludedThicketObjects8x8",
-      "path": "secludedThicketObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "secludedThicketObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "secludedThicketObjects16x16",
-      "path": "secludedThicketObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "secludedThicketObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "lofiGravestone8x8",
-      "path": "lofi_gravestone.png",	  
-	  "atlasWidth": 128,
+      "path": "lofi_gravestone.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "lofiGravestone16x8",
-      "path": "lofi_gravestone.png",	  
-	  "atlasWidth": 128,
+      "path": "lofi_gravestone.png",    
+    "atlasWidth": 128,
       "frameWidth": 16,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "lofiGravestone16x16",
-      "path": "lofi_gravestone.png",	  
-	  "atlasWidth": 128,
+      "path": "lofi_gravestone.png",    
+    "atlasWidth": 128,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "theMachineObjects8x8",
-      "path": "theMachineObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "theMachineObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "theMachineObjects16x16",
-      "path": "theMachineObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "theMachineObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "cursedLibraryObjects8x8",
-      "path": "cursedLibraryObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "cursedLibraryObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "cursedLibraryObjects16x16",
-      "path": "cursedLibraryObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "cursedLibraryObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "lairOfShaitanObjects8x8",
-      "path": "lairOfShaitanObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "lairOfShaitanObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "lairOfShaitanObjects16x16",
-      "path": "lairOfShaitanObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "lairOfShaitanObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "lairOfDraconisObjects8x8",
-      "path": "lairOfDraconisObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "lairOfDraconisObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "lairOfDraconisObjects16x16",
-      "path": "lairOfDraconisObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "lairOfDraconisObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "alienInvasionObjects8x8",
-      "path": "alienInvasionObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "alienInvasionObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "alienInvasionObjects16x16",
-      "path": "alienInvasionObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "alienInvasionObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "fungalCavernObjects8x8",
-      "path": "fungalCavernObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "fungalCavernObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "fungalCavernObjects16x16",
-      "path": "fungalCavernObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "fungalCavernObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "gen3SetObjects",
-      "path": "gen3SetObjects.png",	  
-	  "atlasWidth": 256,
+      "path": "gen3SetObjects.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "crystalCaveObjects8x8",
-      "path": "crystalCaveObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "crystalCaveObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "crystalCaveObjects16x16",
-      "path": "crystalCaveObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "crystalCaveObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "pirateCaveObjects8x8",
-      "path": "pirateCaveObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "pirateCaveObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "pirateCaveObjects16x16",
-      "path": "pirateCaveObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "pirateCaveObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "pirateCaveObjects32x32",
-      "path": "pirateCaveObjects32x32.png",	  
-	  "atlasWidth": 512,
+      "path": "pirateCaveObjects32x32.png",   
+    "atlasWidth": 512,
       "frameWidth": 32,
       "frameHeight": 32,
       "noDefinition": false
     },
     {
       "name": "spiderDenObjects8x8",
-      "path": "spiderDenObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "spiderDenObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "spiderDenObjects16x16",
-      "path": "spiderDenObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "spiderDenObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "undeadLairObjects8x8",
-      "path": "undeadLairObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "undeadLairObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "undeadLairObjects16x16",
-      "path": "undeadLairObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "undeadLairObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "abyssOfDemonsObjects8x8",
-      "path": "abyssOfDemonsObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "abyssOfDemonsObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "abyssOfDemonsObjects16x16",
-      "path": "abyssOfDemonsObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "abyssOfDemonsObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "innerWorkingsObjects8x8",
-      "path": "innerWorkingsObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "innerWorkingsObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "innerWorkingsObjects16x16",
-      "path": "innerWorkingsObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "innerWorkingsObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "lofiParticlesBeam",
-      "path": "lofi_particlesBeam.png",	  
-	  "atlasWidth": 256,
+      "path": "lofi_particlesBeam.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 32,
       "noDefinition": true
     },
     {
       "name": "lofiParticlesElectric",
-      "path": "lofi_particlesElectric.png",	  
-	  "atlasWidth": 448,
+      "path": "lofi_particlesElectric.png",   
+    "atlasWidth": 448,
       "frameWidth": 32,
       "frameHeight": 32,
       "noDefinition": true
     },
     {
       "name": "lofiParticlesSkull",
-      "path": "lofi_particlesSkull.png",	  
-	  "atlasWidth": 224,
+      "path": "lofi_particlesSkull.png",    
+    "atlasWidth": 224,
       "frameWidth": 16,
       "frameHeight": 32,
       "noDefinition": true
     },
     {
       "name": "lofiparticlesMusicNotes",
-      "path": "lofi_particlesMusicNotes.png",	  
-	  "atlasWidth": 256,
+      "path": "lofi_particlesMusicNotes.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": true
     },
     {
       "name": "oryxSanctuaryObjects8x8",
-      "path": "oryxSanctuaryObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "oryxSanctuaryObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "oryxSanctuaryObjects16x16",
-      "path": "oryxSanctuaryObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "oryxSanctuaryObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "oryxSanctuaryObjects32x32",
-      "path": "oryxSanctuaryObjects32x32.png",	  
-	  "atlasWidth": 512,
+      "path": "oryxSanctuaryObjects32x32.png",    
+    "atlasWidth": 512,
       "frameWidth": 32,
       "frameHeight": 32,
       "noDefinition": false
     },
     {
       "name": "lofiParticlesHolyBeam",
-      "path": "lofi_particlesHolyBeam.png",	  
-	  "atlasWidth": 256,
+      "path": "lofi_particlesHolyBeam.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 32,
       "noDefinition": true
     },
     {
       "name": "lofiParticlesMeteor",
-      "path": "lofi_particlesMeteor.png",	  
-	  "atlasWidth": 512,
+      "path": "lofi_particlesMeteor.png",   
+    "atlasWidth": 512,
       "frameWidth": 32,
       "frameHeight": 32,
       "noDefinition": true
     },
     {
       "name": "lofiParticlesTelegraph",
-      "path": "lofi_partTelegraph.png",	  
-	  "atlasWidth": 64,
+      "path": "lofi_partTelegraph.png",   
+    "atlasWidth": 64,
       "frameWidth": 32,
       "frameHeight": 32,
       "noDefinition": true
     },
     {
       "name": "archbishopObjects8x8",
-      "path": "archbishopObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "archbishopObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "archbishopObjects16x16",
-      "path": "archbishopObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "archbishopObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "archbishopObjects64x64",
-      "path": "archbishopObjects64x64.png",	  
-	  "atlasWidth": 1024,
+      "path": "archbishopObjects64x64.png",   
+    "atlasWidth": 1024,
       "frameWidth": 64,
       "frameHeight": 64,
       "noDefinition": false
     },
     {
       "name": "highTechTerrorObjects8x8",
-      "path": "highTechTerrorObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "highTechTerrorObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "highTechTerrorObjects16x16",
-      "path": "highTechTerrorObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "highTechTerrorObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "toxicSewersObjects16x16",
-      "path": "toxicSewersObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "toxicSewersObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "toxicSewersObjects8x8",
-      "path": "toxicSewersObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "toxicSewersObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "toxicSewersObjects32x32",
-      "path": "toxicSewersObjects32x32.png",	  
-	  "atlasWidth": 512,
+      "path": "toxicSewersObjects32x32.png",    
+    "atlasWidth": 512,
       "frameWidth": 32,
       "frameHeight": 32,
       "noDefinition": false
     },
     {
       "name": "thirdDimensionObjects8x8",
-      "path": "thirdDimensionObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "thirdDimensionObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "thirdDimensionObjects16x16",
-      "path": "thirdDimensionObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "thirdDimensionObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "defaultTile",
-      "path": "defaultTile.png",	  
-	  "atlasWidth": 8,
+      "path": "defaultTile.png",    
+    "atlasWidth": 8,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": true
     },
     {
       "name": "particle",
-      "path": "particle.png",	  
-	  "atlasWidth": 1,
+      "path": "particle.png",   
+    "atlasWidth": 1,
       "frameWidth": 1,
       "frameHeight": 1,
       "noDefinition": true
     },
     {
       "name": "invisible",
-      "path": "invisible.png",	  
-	  "atlasWidth": 8,
+      "path": "invisible.png",    
+    "atlasWidth": 8,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": true
     },
     {
       "name": "whiteTile",
-      "path": "whiteTile.png",	  
-	  "atlasWidth": 8,
+      "path": "whiteTile.png",    
+    "atlasWidth": 8,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": true
     },
     {
       "name": "spriteWorldObjects8x8",
-      "path": "spriteWorldObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "spriteWorldObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "spriteWorldObjects16x16",
-      "path": "spriteWorldObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "spriteWorldObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "deadwaterDocksObjects8x8",
-      "path": "deadwaterDocksObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "deadwaterDocksObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "deadwaterDocksObjects16x16",
-      "path": "deadwaterDocksObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "deadwaterDocksObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
-	  {
+    {
       "name": "theShattersObjects8x8",
-      "path": "theShattersObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "theShattersObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "theShattersObjects16x16",
-      "path": "theShattersObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "theShattersObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "theShattersObjects32x32",
-      "path": "theShattersObjects32x32.png",	  
-	  "atlasWidth": 512,
+      "path": "theShattersObjects32x32.png",    
+    "atlasWidth": 512,
       "frameWidth": 32,
       "frameHeight": 32,
       "noDefinition": false
     },
     {
       "name": "steamworksObjects8x8",
-      "path": "steamworksObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "steamworksObjects8x8.png",   
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "steamworksObjects16x16",
-      "path": "steamworksObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "steamworksObjects16x16.png",   
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
     {
       "name": "steamworksObjects32x32",
-      "path": "steamworksObjects32x32.png",	  
-	  "atlasWidth": 512,
+      "path": "steamworksObjects32x32.png",   
+    "atlasWidth": 512,
       "frameWidth": 32,
       "frameHeight": 32,
       "noDefinition": false
@@ -1756,16 +1795,16 @@
     },
     {
       "name": "grandBazaarObjects8x8",
-      "path": "grandBazaarObjects8x8.png",	  
-	  "atlasWidth": 128,
+      "path": "grandBazaarObjects8x8.png",    
+    "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
     },
     {
       "name": "grandBazaarObjects16x16",
-      "path": "grandBazaarObjects16x16.png",	  
-	  "atlasWidth": 256,
+      "path": "grandBazaarObjects16x16.png",    
+    "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
@@ -1893,6 +1932,342 @@
       "path": "entranceEffectsObjects.png",
       "frameWidth": 8,
       "frameHeight": 8,
+      "noDefinition": false
+    },
+    {  
+      "name": "ancientCityObjects8x8",
+      "path": "ancientCityObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "ancientCityObjects16x16",
+      "path": "ancientCityObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "deepSeaObjects32x32",
+      "path": "deepSeaObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "deepSeaObjects8x8",
+      "path": "deepSeaObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "deepSeaObjects16x16",
+      "path": "deepSeaObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "hauntedHallowsObjects32x32",
+      "path": "hauntedHallowsObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "hauntedHallowsObjects8x8",
+      "path": "hauntedHallowsObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "hauntedHallowsObjects16x16",
+      "path": "hauntedHallowsObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "spriteForestObjects32x32",
+      "path": "spriteForest32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "spriteForestObjects8x8",
+      "path": "spriteForest8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "spriteForestObjects16x16",
+      "path": "spriteForestObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "sanguineForestObjects8x8",
+      "path": "sanguineForest8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "sanguineForestObjects16x16",
+      "path": "sanguineForestObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "floralEscapeObjects8x8",
+      "path": "floralEscape8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "floralEscapeObjects16x16",
+      "path": "floralEscapeObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "runicTundraObjects8x8",
+      "path": "runicTundra8x8Objects.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "runicTundraObjects16x16",
+      "path": "runicTundraObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "risenHellObjects8x8",
+      "path": "risenHell8x8Objects.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "risenHellObjects16x16",
+      "path": "risenHellObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "risenHellObjects32x32",
+      "path": "risenHellObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "lowForestObjects8x8",
+      "path": "lowForest8x8Objects.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "lowForestObjects16x16",
+      "path": "lowForestObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "lowForestObjects32x32",
+      "path": "lowForestObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "undeadForestObjects8x8",
+      "path": "undeadForest8x8Objects.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "undeadForestObjects16x16",
+      "path": "undeadForestjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "carboniferousObjects8x8",
+      "path": "carboniferousObjects.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "carboniferousObjects16x16",
+      "path": "carboniferousObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "carboniferousObjects32x32",
+      "path": "carboniferousObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "coralReefsObjects8x8",
+      "path": "coralReefsObjects.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "coralReefsObjects16x16",
+      "path": "coralReefsObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "coralReefsObjects32x32",
+      "path": "coralReefsObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "shipwreckCoveObjects8x8",
+      "path": "shipwreckCoveObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "shipwreckCoveObjects16x16",
+      "path": "shipwreckCoveObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "shipwreckCoveObjects32x32",
+      "path": "shipwreckCoveObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "deadChurchObjects8x8",
+      "path": "deadChurchObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "deadChurchObjects8x16",
+      "path": "deadChurchObjects8x16.png",
+      "frameWidth": 8,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "deadChurchObjects16x16",
+      "path": "deadChurchObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "deadChurchObjects24x24",
+      "path": "deadChurchObjects24x24.png",
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "noDefinition": false
+    },
+    {
+      "name": "lowOceanObjects8x8",
+      "path": "lowOceanObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "newRealmSetPieceObjects8x8",
+      "path": "newRealmSetPieceObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "beacons32x32",
+      "path": "beacons32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "desertObjects8x8",
+      "path": "desertObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "desertObjects16x16",
+      "path": "desertObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "natureRuinsObjects8x8",
+      "path": "natureRuinsObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "natureRuinsObjects16x16",
+      "path": "natureRuinsObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "UGCSetpieceObjects8x8",
+      "path": "UGCSetpieceObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "UGCSetpieceObjects16x16",
+      "path": "UGCSetpieceObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "UGCSetpieceObjects32x32",
+      "path": "UGCSetpieceObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
       "noDefinition": false
     }
   ],
@@ -3033,7 +3408,7 @@
       "firstDir": 0,
       "mergeAttackFrame": 1
     },
-	{
+  {
       "name": "theShattersChars8x8",
       "path": "theShattersChars8x8.png",
       "mask": "",
@@ -3055,7 +3430,7 @@
       "firstDir": 0,
       "mergeAttackFrame": 1
     },
-	{
+  {
       "name": "theShattersChars32x32",
       "path": "theShattersChars32x32.png",
       "mask": "",
@@ -3088,7 +3463,7 @@
       "firstDir": 0,
       "mergeAttackFrame": 1
     },
-	{
+  {
       "name": "steamworksChars32x32",
       "path": "steamworksChars32x32.png",
       "mask": "",
@@ -3286,7 +3661,7 @@
     {
       "name": "rollerRinkObjects8x8",
       "path": "rollerRinkObjects8x8.png",    
-    "atlasWidth": 128,
+      "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
@@ -3344,6 +3719,308 @@
       "frameWidth": 16,
       "frameHeight": 32,
       "noDefinition": false
+    },
+    {  
+      "name": "charsRookie8x8",
+      "path": "charsRookie8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "charsVeteran16x16",
+      "path": "charsVeteran16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "deepSeaChars16x16",
+      "path": "deepSeaChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "deepSeaChars32x32",
+      "path": "deepSeaChars32x32.png",
+      "mask": "",
+      "frameWidth": 224,
+      "frameHeight": 32,
+      "charWidth": 32,
+      "charHeight": 32,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "deadChurchChars8x8",
+      "path": "deadChurchChars8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "deadChurchChars16x16",
+      "path": "deadChurchChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "shipwreckCoveChars8x8",
+      "path": "shipwreckCoveChars8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "shipwreckCoveChars16x16",
+      "path": "shipwreckCoveChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "spriteForestChars16x16",
+      "path": "spriteForestChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "spriteForestChars32x32",
+      "path": "spriteForestChars32x32.png",
+      "mask": "",
+      "frameWidth": 224,
+      "frameHeight": 32,
+      "charWidth": 32,
+      "charHeight": 32,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "sanguineForestChars16x16",
+      "path": "sanguineForestChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "Rookie_16x16",
+      "path": "Rookie_16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "Rookie_8x8",
+      "path": "Rookie_8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "coralReefChars16x16",
+      "path": "coralReefChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "hauntedHallowsChars16x16",
+      "path": "hauntedHallowsChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "hauntedHallowsChars8x8",
+      "path": "hauntedHallowsChars8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "risenHellChars8x8",
+      "path": "risenHellChars8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "risenHellChars16x16",
+      "path": "risenHellChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "risenHellChars24x24",
+      "path": "risenHellChars24x24.png",
+      "mask": "",
+      "frameWidth": 224,
+      "frameHeight": 24,
+      "charWidth": 24,
+      "charHeight": 24,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "veteranChars16x16",
+      "path": "veteranChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "newRealmSetPieceChars16x16",
+      "path": "newRealmSetPieceChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "newRealmSetPieceChars8x8",
+      "path": "newRealmSetPieceChars8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "newRealmSetPieceChars24x24",
+      "path": "newRealmSetPieceChars24x24.png",
+      "mask": "",
+      "frameWidth": 168,
+      "frameHeight": 24,
+      "charWidth": 24,
+      "charHeight": 24,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "newRealmRoads8x8",
+      "path": "newRealmRoads8x8.png",
+      "atlasWidth": 128,
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "setpieceCosmicSprite8x8",
+      "path": "setpieceCosmicSprite8x8.png",
+      "atlasWidth": 128,
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "UGCSetPieceChars8x8",
+      "path": "UGCSetPieceChars8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "UGCSetPieceChars16x16",
+      "path": "UGCSetPieceChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "UGCSetPieceChars32x32",
+      "path": "UGCSetPieceChars32x32.png",
+      "mask": "",
+      "frameWidth": 224,
+      "frameHeight": 32,
+      "charWidth": 32,
+      "charHeight": 32,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
     }
   ],
   "forge": [

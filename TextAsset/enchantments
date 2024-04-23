@@ -6659,4 +6659,30 @@
     <PowerLevelAdd>0</PowerLevelAdd>
     <PowerLevelMult>1</PowerLevelMult>
   </Enchantment>
+  <Enchantment id="NIGHT_PRINCE_ENGRAVING" type="0x220">
+    <DisplayId>Crown</DisplayId>
+    <Prefix>Engraved</Prefix>
+    <Texture>
+      <File>ancientCityObjects8x8</File>
+      <Index>184</Index>
+    </Texture>
+    <Description>The symbol that claims absolute subservience from its beholder.</Description>
+    <CompatibleWithItemLabels>SUPER,CROWN,RING</CompatibleWithItemLabels>
+    <IncompatibleWithItemLabels>WEAPON,ABILITY,ARMOR</IncompatibleWithItemLabels>
+    <IncompatibleWithItemIds />
+    <EnchantmentLabels>UNIQUE</EnchantmentLabels>
+    <IncompatibleWithEnchantmentLabels>UNIQUE</IncompatibleWithEnchantmentLabels>
+    <Mutators>
+      <ActivateOnEquip amount="25" stat="MAXHP" statRelativeTo="MAXHP">IncrementStatRelative</ActivateOnEquip>
+      <ActivateOnEquip amount="25" stat="ATT" statRelativeTo="ATT">IncrementStatRelative</ActivateOnEquip>
+      <ActivateOnEquip amount="25" stat="DEX" statRelativeTo="DEX">IncrementStatRelative</ActivateOnEquip>
+      <ActivateOnEquip amount="25" stat="VIT" statRelativeTo="VIT">IncrementStatRelative</ActivateOnEquip>
+      <ActivateOnEquip amount="25" stat="WIS" statRelativeTo="WIS">IncrementStatRelative</ActivateOnEquip>
+      <AddOnPlayerHitActivate cooldown="999999" damageThreshold="2" duration="2" effect="Invulnerable" hpMinThresholdRelative="0.15" proc="1">ConditionEffectSelf</AddOnPlayerHitActivate>
+    </Mutators>
+    <HiddenEnchantment requiredItem="Night Prince Engraving" />
+    <CantRemoveFromEnchantedSlot />
+    <PowerLevelAdd>0</PowerLevelAdd>
+    <PowerLevelMult>1</PowerLevelMult>
+  </Enchantment>
 </Enchantments>

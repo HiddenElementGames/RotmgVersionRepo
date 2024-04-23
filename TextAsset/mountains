@@ -7,7 +7,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>0</Index>
+      <Index>42</Index>
     </AnimatedTexture>
     <HitSound>monster/greater_demons_hit</HitSound>
     <DeathSound>monster/greater_demons_death</DeathSound>
@@ -51,7 +51,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>1</Index>
+      <Index>43</Index>
     </AnimatedTexture>
     <HitSound>monster/sprite_god_hit</HitSound>
     <DeathSound>monster/sprite_god_death</DeathSound>
@@ -94,47 +94,9 @@
     <Exp>5</Exp>
     <Class>Character</Class>
     <Texture>
-      <File>spiderDenObjects8x8</File>
-      <Index>0xda</Index>
+      <File>lofiChar8x8</File>
+      <Index>155</Index>
     </Texture>
-    <Animation prob="1" period="0">
-      <Frame time="0.1">
-        <Texture>
-          <File>spiderDenObjects8x8</File>
-          <Index>0xda</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>spiderDenObjects8x8</File>
-          <Index>0xdb</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>spiderDenObjects8x8</File>
-          <Index>0xdc</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>spiderDenObjects8x8</File>
-          <Index>0xdd</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>spiderDenObjects8x8</File>
-          <Index>0xde</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>spiderDenObjects8x8</File>
-          <Index>0xdf</Index>
-        </Texture>
-      </Frame>
-    </Animation>
     <HitSound>monster/sprites_hit</HitSound>
     <DeathSound>monster/sprites_death</DeathSound>
     <Size>75</Size>
@@ -161,7 +123,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>2</Index>
+      <Index>44</Index>
     </AnimatedTexture>
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
@@ -202,7 +164,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>4</Index>
+      <Index>46</Index>
     </AnimatedTexture>
     <HitSound>monster/ents_hit</HitSound>
     <DeathSound>monster/ents_death</DeathSound>
@@ -244,7 +206,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>5</Index>
+      <Index>47</Index>
     </AnimatedTexture>
     <HitSound>monster/beholder_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
@@ -294,7 +256,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>6</Index>
+      <Index>48</Index>
     </AnimatedTexture>
     <HitSound>monster/flying_brain_hit</HitSound>
     <DeathSound>monster/flying_brain_death</DeathSound>
@@ -336,7 +298,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>7</Index>
+      <Index>49</Index>
     </AnimatedTexture>
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
@@ -378,7 +340,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>8</Index>
+      <Index>50</Index>
     </AnimatedTexture>
     <HitSound>monster/ghost_god_hit</HitSound>
     <DeathSound>monster/ghost_god_death</DeathSound>
@@ -421,7 +383,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>3</Index>
+      <Index>45</Index>
     </AnimatedTexture>
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/djinn_death</DeathSound>
@@ -465,7 +427,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>9</Index>
+      <Index>51</Index>
     </AnimatedTexture>
     <DontFaceAttacks />
     <HitSound>monster/greater_pit_snakes_hit</HitSound>
@@ -505,10 +467,10 @@
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Rock Construct</DisplayId>
-    <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>14</Index>
-    </AnimatedTexture>
+    <Texture>
+      <File>lofiChar16x16</File>
+      <Index>75</Index>
+    </Texture>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <MaxHitPoints>1800</MaxHitPoints>
@@ -542,10 +504,10 @@
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Wood Construct</DisplayId>
-    <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>13</Index>
-    </AnimatedTexture>
+    <Texture>
+      <File>lofiChar16x16</File>
+      <Index>76</Index>
+    </Texture>
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <MaxHitPoints>1600</MaxHitPoints>
@@ -578,10 +540,10 @@
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Steel Construct</DisplayId>
-    <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>12</Index>
-    </AnimatedTexture>
+    <Texture>
+      <File>lofiChar16x16</File>
+      <Index>77</Index>
+    </Texture>
     <HitSound>monster/rocks_hit</HitSound>
     <DeathSound>monster/rocks_death</DeathSound>
     <MaxHitPoints>2000</MaxHitPoints>
@@ -616,8 +578,8 @@
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16dEncounters</File>
-      <Index>5</Index>
+      <File>chars16x16dMountains1</File>
+      <Index>52</Index>
     </AnimatedTexture>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -652,8 +614,8 @@
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16dEncounters</File>
-      <Index>6</Index>
+      <File>chars16x16dMountains1</File>
+      <Index>53</Index>
     </AnimatedTexture>
     <HitSound>monster/ghost_god_hit</HitSound>
     <DeathSound>monster/ghost_god_death</DeathSound>
@@ -709,8 +671,8 @@
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16dEncounters</File>
-      <Index>6</Index>
+      <File>chars16x16dMountains1</File>
+      <Index>53</Index>
     </AnimatedTexture>
     <HitSound>monster/ghost_god_hit</HitSound>
     <DeathSound>monster/ghost_god_death</DeathSound>
@@ -741,8 +703,8 @@
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16dEncounters</File>
-      <Index>44</Index>
+      <File>chars16x16dMountains1</File>
+      <Index>4</Index>
     </AnimatedTexture>
     <HitSound>monster/cyclops_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
@@ -784,8 +746,8 @@
     <Class>Character</Class>
     <Enemy />
     <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>10</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>80</Index>
     </AnimatedTexture>
     <HitSound>monster/cyclops_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>

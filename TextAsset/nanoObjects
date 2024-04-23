@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object id="Nano Test Dummy Item" type="0x5633">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0x9B</Index>
+    </Texture>
+    <Description>A dummy item to ensure builds work correctly.</Description>
+    <SlotType>10</SlotType>
+    <DropTradable />
+  </Object>
+  <Object id="RR Cube God Blaster" type="0x562D">
+    <Class>Character</Class>
+    <Enemy />
+    <DisplayId>Cube Blaster</DisplayId>
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>51</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/cubes_death</DeathSound>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Exp>20</Exp>
+    <BXP>100</BXP>
+    <Defense>20</Defense>
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>tD Grey Square</ObjectId>
+      <Size>80</Size>
+      <Damage>90</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object id="RR Cube God Blaster Vengeance" type="0x562E">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>tD Border</ObjectId>
+      <Size>80</Size>
+      <Damage>90</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Acceleration>25</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>115</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object id="RR Cube God Defender" type="0x562F">
+    <Class>Character</Class>
+    <Enemy />
+    <DisplayId>Cube Defender</DisplayId>
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>52</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/cubes_death</DeathSound>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Exp>200</Exp>
+    <BXP>1000</BXP>
+    <Defense>40</Defense>
+    <Size>125</Size>
+    <Projectile id="0">
+      <ObjectId>tD Lime Border</ObjectId>
+      <Size>90</Size>
+      <Damage>110</Damage>
+      <Speed>25</Speed>
+      <LifetimeMS>12000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object id="RR Cube God Overseer" type="0x5630">
+    <Class>Character</Class>
+    <Enemy />
+    <DisplayId>Cube Overseer</DisplayId>
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>54</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/cubes_death</DeathSound>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Exp>500</Exp>
+    <BXP>2500</BXP>
+    <Defense>60</Defense>
+    <Size>175</Size>
+    <Projectile id="0">
+      <ObjectId>tD Crimson Border</ObjectId>
+      <Size>110</Size>
+      <Damage>100</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>110</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>tD Crimson Block</ObjectId>
+      <Size>110</Size>
+      <Damage>100</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1">Exposed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="RR Cube God Overseer Vengeance" type="0x5631">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>tD Crimson Border</ObjectId>
+      <Size>110</Size>
+      <Damage>100</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <TurnRate>75</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="RR Cube God Corner Minion Spawner" type="0x5632">
+    <Class>Character</Class>
+    <Enemy />
+    <StasisImmune />
+    <DisplayId>Cube Constructor</DisplayId>
+    <Texture>
+      <File>thirdDimensionObjects16x16</File>
+      <Index>0x87</Index>
+    </Texture>
+    <Color>0xFF0077</Color>
+    <MinimapIcon piece="Miniboss" />
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/cubes_death</DeathSound>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <Exp>300</Exp>
+    <BXP>1500</BXP>
+    <Defense>80</Defense>
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object id="RR Cube God Spawn Anchor" type="0x5627">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+    <NoMiniMap />
+  </Object>
+  <Object id="RR Cube God" type="0x5628">
+    <Class>Character</Class>
+    <Enemy />
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <Color>0x0077FF</Color>
+    <MinimapIcon piece="Boss" />
+    <Size>150</Size>
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/cubes_death</DeathSound>
+    <MaxHitPoints>300000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>60000</Exp>
+    <BXP>300000</BXP>
+    <HealthBarBoss />
+    <NoCollisionWhenMovement />
+    <AlwaysPositiveHealth />
+    <Projectile id="0">
+      <ObjectId>tD Powerful Magic</ObjectId>
+      <Size>120</Size>
+      <Damage>100</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <TurnRate>45</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <ConditionEffect duration="5">Silenced</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>tD Powerful Magic</ObjectId>
+      <Size>120</Size>
+      <Damage>100</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <TurnRate>-45</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <ConditionEffect duration="5">Silenced</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>tD Paladin Slash</ObjectId>
+      <Size>150</Size>
+      <Damage>50</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>1000000</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>tD Paladin Slash</ObjectId>
+      <Size>150</Size>
+      <Damage>50</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+      <Acceleration>1000000</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>MV Warning Projectile</ObjectId>
+      <Size>200</Size>
+      <Damage>0</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object id="RR Cube God Spiral Emitter" type="0x5629">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+    <Projectile id="0">
+      <ObjectId>tD Paladin Slash</ObjectId>
+      <Size>150</Size>
+      <Damage>50</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>1000000</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>200</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>tD Paladin Slash</ObjectId>
+      <Size>150</Size>
+      <Damage>50</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>1550</LifetimeMS>
+      <Acceleration>1000000</Acceleration>
+      <AccelerationDelay>50</AccelerationDelay>
+      <SpeedClamp>200</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>tD Paladin Slash</ObjectId>
+      <Size>150</Size>
+      <Damage>50</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+      <Acceleration>1000000</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>200</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>tD Paladin Slash</ObjectId>
+      <Size>150</Size>
+      <Damage>50</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>1650</LifetimeMS>
+      <Acceleration>1000000</Acceleration>
+      <AccelerationDelay>150</AccelerationDelay>
+      <SpeedClamp>200</SpeedClamp>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>MV Warning Projectile</ObjectId>
+      <Size>200</Size>
+      <Damage>0</Damage>
+      <Speed>200</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object id="RR Cube God Spiral Target" type="0x562A">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+    <NoMiniMap />
+  </Object>
+  <Object id="RR Cube God Center Minion Spawner" type="0x562B">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Size>1</Size>
+    <Texture>
+      <File>thirdDimensionObjects16x16</File>
+      <Index>0x87</Index>
+    </Texture>
+  </Object>
+  <Object id="RRC Portal" type="0x562C">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonName>RRCubeGodTest</DungeonName>
+    <AnimatedTexture>
+      <File>charsRookie8x8</File>
+      <Index>26</Index>
+    </AnimatedTexture>
+  </Object>
+</Objects>
