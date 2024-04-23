@@ -865,6 +865,8 @@
       <LifetimeMS>6000</LifetimeMS>
       <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="58" dustMax="135" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="19" dustMax="43" seasonalBonus="0.15">redDust</SoulboundDust>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -902,6 +904,7 @@
     <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
     <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
     <SpecialSpawn category="Leprechaun_Purple">Purple Leprechaun</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0x6fe7" id="chasingHorror">
     <DisplayId>Soulblast</DisplayId>
@@ -1830,11 +1833,11 @@
     </Texture>
     <Size>0</Size>
     <Invincible />
-    <Encounter />
+    <Encounter terrain="Abandoned" />
     <Level>20</Level>
     <PerRealmMax>2</PerRealmMax>
     <Hero />
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,ENCOUNTER,Temple Encounter</Labels>
   </Object>
   <Object type="0x6fcc" id="Encounter Altar">
     <Enemy />

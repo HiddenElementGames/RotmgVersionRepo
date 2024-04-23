@@ -4153,6 +4153,8 @@
       <PassesCover />
     </Projectile>
     <AlwaysPositiveHealth />
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="86" dustMax="201" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="25" dustMax="59" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="50" />
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
@@ -4174,6 +4176,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Wicked Dragon Wizard Skin</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt9">
         <StyleStep altTextureId="9">SetAltTexture</StyleStep>
@@ -5176,7 +5179,7 @@
     <ParalyzeImmune />
     <SlowImmune />
     <Hero />
-    <Encounter />
+    <Encounter terrain="Abandoned" />
     <PerRealmMax>1</PerRealmMax>
     <Quest />
     <God />
@@ -5254,7 +5257,7 @@
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD</Labels>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,ENCOUNTER,LOD Rock Dragon Head</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>

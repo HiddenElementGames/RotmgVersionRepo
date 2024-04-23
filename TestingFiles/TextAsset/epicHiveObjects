@@ -957,8 +957,12 @@
       <ConditionEffect duration="3">Dazed</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.335" dustMin="9" dustMax="13" seasonalBonus="0.15" minLevel="7" maxLevel="7">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.38462" dustMin="20" dustMax="26" seasonalBonus="0.15" minLevel="10" maxLevel="10">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="104" dustMax="244" seasonalBonus="0.15" minLevel="10" maxLevel="10">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="57" dustMax="132" seasonalBonus="0.15" minLevel="10" maxLevel="10">redDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.4" dustMin="38" dustMax="88" seasonalBonus="0.15" minLevel="10" maxLevel="10">purpleDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="78" dustMax="182" seasonalBonus="0.15" minLevel="7" maxLevel="7">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="32" dustMax="74" seasonalBonus="0.15" minLevel="7" maxLevel="7">redDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.4" dustMin="7" dustMax="17" seasonalBonus="0.15" minLevel="7" maxLevel="7">purpleDust</SoulboundDust>
     <HealthBarBoss radius="20" />
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
@@ -3677,7 +3681,7 @@
     <PerRealmMax>1</PerRealmMax>
     <Hero />
     <Invincible />
-    <Labels>ENEMY,MINION</Labels>
+    <Labels>ENEMY,MINION,ENCOUNTER,EH Event Hive Summoner</Labels>
   </Object>
   <Object type="0x08ac" id="EH Event Taunt Controller">
     <Class>Character</Class>

@@ -603,12 +603,24 @@
     <Setpiece slot="0" itemtype="0x1acd">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x1ace">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x1acf">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x6651">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x6654">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x6670">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x6673">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x6675">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x6678">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x2f80">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x2f81">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x2f82">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x2f83">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x2f84">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x2f85">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x4D4">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x4D6">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x4D7">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x4D8">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x4D9">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x4D5">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x16da">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x16db">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x16dd">Equipment</Setpiece>
@@ -1457,5 +1469,57 @@
     <ActivateOnEquip3 stat="DEX" amount="5">IncrementStat</ActivateOnEquip3>
     <ActivateOnEquip2 stat="SPD" amount="4">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="DEX" amount="4">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x4564" id="Incubus Sorcerer Set">
+    <Setpiece slot="0" itemtype="0x4c4">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x4c5">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x4c6">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x4c7">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0x433" size="85" color="0xF22B6F" bulletType="Incubus Hearts Large">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="WIS" amount="60">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="-185">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="DEX" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="4">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="WIS" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="DEX" amount="2">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEF" amount="3">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0xFF01" id="Mad Minotaur Set">
+    <Setpiece slot="0" itemtype="0xFF02">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xFF03">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xFF04">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0xFF05">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0xFF14" size="100" color="0xADC718" bulletType="Flail Anvil Fire">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="10">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="50">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="5">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEX" amount="3">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="MAXHP" amount="10">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXMP" amount="30">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="ATT" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEX" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXHP" amount="10">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXMP" amount="20">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="ATT" amount="2">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEX" amount="3">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0xFF06" id="Storm Shaman Set">
+    <Setpiece slot="0" itemtype="0xFF07">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xFF08">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xFF09">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0xFF0A">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0xFF0F" size="100" color="0xADC718" bulletType="Storm Shaman Bolt Yellow">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="30">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="50">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="SPD" amount="10">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="WIS" amount="15">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXMP" amount="50">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="SPD" amount="6">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="WIS" amount="10">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXHP" amount="10">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXMP" amount="50">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="SPD" amount="4">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="WIS" amount="5">IncrementStat</ActivateOnEquip2>
   </EquipmentSet>
 </EquipmentSets>

@@ -1118,6 +1118,14 @@
     </AnimatedTexture>
     <Size>0</Size>
   </Object>
+  <Object type="0x49B" id="pD EBM No PvP">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>parasiteDenChars8x8</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
   <Object type="0x7b4" id="EBM">
     <Class>GameObject</Class>
     <AnimatedTexture>
@@ -1148,6 +1156,29 @@
     <Size>120</Size>
   </Object>
   <Object type="0x796" id="pD Barrel Explosion">
+    <DisplayId>Explosive Barrel</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Sound id="0">spell/fire_nova</Sound>
+    <Effect minRadius="0.5" maxRadius="3.7" color="0xFF9000" size="100" life="0.35" amount="100">ExplosionComplex</Effect>
+  </Object>
+  <Object type="0x49C" id="pD Barrel No PvP">
+    <DisplayId>Explosive Barrel</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>parasiteDenChars8x8</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <Color>0xFF9000</Color>
+    <HitSound>monster/cyclops_hit</HitSound>
+    <DeathSound>monster/cyclops_death</DeathSound>
+    <Size>120</Size>
+  </Object>
+  <Object type="0x49D" id="pD Barrel Explosion No PvP">
     <DisplayId>Explosive Barrel</DisplayId>
     <Class>GameObject</Class>
     <Texture>
@@ -1290,6 +1321,37 @@
     <ParalyzeImmune />
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,MINION_MID,GROTESQUE</Labels>
+  </Object>
+  <Object type="0x7306" id="HpD Blob">
+    <DisplayId>Parasitic Blob</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>parasiteDenChars8x8</File>
+      <Index>28</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <Size>100</Size>
+    <ShadowSize>75</ShadowSize>
+    <MaxHitPoints>1600</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>80</Exp>
+    <BXP>380</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>pD Blob Shot</ObjectId>
+      <Damage>80</Damage>
+      <Speed>56</Speed>
+      <LifetimeMS>2400</LifetimeMS>
+      <Size>80</Size>
+      <ConditionEffect duration="4.0">Sick</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <ParalyzeImmune />
+    <KillStat stat="GrotesqueKills" />
+    <Labels>HParasitic Blob</Labels>
   </Object>
   <Object type="0x7c1" id="pD Blob Guardian">
     <DisplayId>Parasitic Blob Guardian</DisplayId>
@@ -1779,6 +1841,8 @@
     </Projectile>
     <StunImmune />
     <StasisImmune />
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="63" dustMax="146" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="20" dustMax="46" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="20" />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
@@ -1802,6 +1866,7 @@
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0x81e" id="pD Infested Chest">
     <DisplayId>Infested Chest</DisplayId>

@@ -2570,7 +2570,7 @@
       <ConditionEffect duration="2">Darkness</ConditionEffect>
     </Projectile>
       |
-      <SoulboundDust threshold="0.002" prob="0.415" dustMin="11" dustMax="16" seasonalBonus="0.15">greenDust</SoulboundDust><HealthBarBoss radius="50" /><KillStat stat="ConstructKills" /><KillStat stat="GodKills" /><DamageBasedXP /><Labels>ENEMY,BOSS,CONSTRUCT,GOD,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY</Labels><SpecialSpawn category="Bis">Lost Halls Portal</SpecialSpawn><SpecialSpawn category="Chef">Double Cheeseburger Deluxe</SpecialSpawn><SpecialSpawn category="PetCollector">Rare Automaton Egg</SpecialSpawn><SpecialSpawn category="Generous">Marble Quest Chest Item</SpecialSpawn><SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn><SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn><SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn><SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn><SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn><SpecialSpawn category="ExaltedBanner">ExaltationBanner_DEF</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Weapon">Shard of the Mad God x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Ability">Shard of the Intern x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Ring">Shard of the Advisor x1</SpecialSpawn><SpecialSpawn category="Souvenir_HIG">Sword of the Colossus</SpecialSpawn><SpecialSpawn category="Wanderer_Boss">Wander Portal Hard</SpecialSpawn><SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn><SpecialSpawn category="Token">3STToken</SpecialSpawn><SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn><SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn><Presentation><Style id="SetAlt1"><StyleStep altTextureId="1">SetAltTexture</StyleStep></Style><Style id="SetAlt2"><StyleStep altTextureId="2">SetAltTexture</StyleStep></Style><Style id="SetAlt3"><StyleStep altTextureId="3">SetAltTexture</StyleStep></Style><Style id="SetAlt4"><StyleStep altTextureId="4">SetAltTexture</StyleStep></Style><Style id="SetAlt5"><StyleStep altTextureId="5">SetAltTexture</StyleStep></Style><Style id="SetAlt6"><StyleStep altTextureId="6">SetAltTexture</StyleStep></Style><Style id="SetAlt7"><StyleStep altTextureId="7">SetAltTexture</StyleStep></Style><Style id="SetAlt8"><StyleStep altTextureId="8">SetAltTexture</StyleStep></Style></Presentation></Object>
+      <SoulboundDust threshold="0.002" prob="0.6" dustMin="109" dustMax="254" seasonalBonus="0.15">greenDust</SoulboundDust><SoulboundDust threshold="0.002" prob="0.5" dustMin="55" dustMax="128" seasonalBonus="0.15">redDust</SoulboundDust><SoulboundDust threshold="0.002" prob="0.4" dustMin="15" dustMax="36" seasonalBonus="0.15">purpleDust</SoulboundDust><HealthBarBoss radius="50" /><KillStat stat="ConstructKills" /><KillStat stat="GodKills" /><DamageBasedXP /><Labels>ENEMY,BOSS,CONSTRUCT,GOD,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY</Labels><SpecialSpawn category="Bis">Lost Halls Portal</SpecialSpawn><SpecialSpawn category="Chef">Double Cheeseburger Deluxe</SpecialSpawn><SpecialSpawn category="PetCollector">Rare Automaton Egg</SpecialSpawn><SpecialSpawn category="Generous">Marble Quest Chest Item</SpecialSpawn><SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn><SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn><SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn><SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn><SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn><SpecialSpawn category="ExaltedBanner">ExaltationBanner_DEF</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Weapon">Shard of the Mad God x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Ability">Shard of the Intern x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Ring">Shard of the Advisor x1</SpecialSpawn><SpecialSpawn category="Souvenir_HIG">Sword of the Colossus</SpecialSpawn><SpecialSpawn category="Wanderer_Boss">Wander Portal Hard</SpecialSpawn><SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn><SpecialSpawn category="Token">3STToken</SpecialSpawn><SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn><SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn><SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn><Presentation><Style id="SetAlt1"><StyleStep altTextureId="1">SetAltTexture</StyleStep></Style><Style id="SetAlt2"><StyleStep altTextureId="2">SetAltTexture</StyleStep></Style><Style id="SetAlt3"><StyleStep altTextureId="3">SetAltTexture</StyleStep></Style><Style id="SetAlt4"><StyleStep altTextureId="4">SetAltTexture</StyleStep></Style><Style id="SetAlt5"><StyleStep altTextureId="5">SetAltTexture</StyleStep></Style><Style id="SetAlt6"><StyleStep altTextureId="6">SetAltTexture</StyleStep></Style><Style id="SetAlt7"><StyleStep altTextureId="7">SetAltTexture</StyleStep></Style><Style id="SetAlt8"><StyleStep altTextureId="8">SetAltTexture</StyleStep></Style></Presentation></Object>
   <Object type="0xb012" id="LH Marble Colossus Anchor">
     <DisplayId>Marble Colossus</DisplayId>
     <Class>GameObject</Class>
@@ -5562,7 +5562,9 @@
     <StunImmune />
     <ParalyzeImmune />
     <LeachHealth />
-    <SoulboundDust threshold="0.002" prob="0.35" dustMin="8" dustMax="12" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="91" dustMax="213" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="36" dustMax="84" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.4" dustMin="8" dustMax="19" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <HealthBarBoss radius="50" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
@@ -5589,6 +5591,7 @@
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
     <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
     <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt6">
         <StyleStep altTextureId="6">SetAltTexture</StyleStep>
@@ -6242,7 +6245,9 @@
       <MultiHit />
       <ConditionEffect duration="2">Darkness</ConditionEffect>
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.455" dustMin="12" dustMax="16" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="83" dustMax="195" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="46" dustMax="107" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.4" dustMin="16" dustMax="38" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <HealthBarBoss radius="50" />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
@@ -6268,6 +6273,7 @@
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
     <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
     <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt30">
         <StyleStep altTextureId="30">SetAltTexture</StyleStep>
@@ -10570,6 +10576,7 @@
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
+    <Labels>ENCOUNTER,LH Lost Sentry</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>

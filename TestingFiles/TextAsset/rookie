@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
-  <Object type="0x60e" id="Red Gelatinous Cube">
-    <Group>Cubes</Group>
+  <Object type="0x5502" id="New Red Gelatinous Cube">
+    <Group>New Cubes</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -13,7 +13,7 @@
     <Size>80</Size>
     <MaxHitPoints>70</MaxHitPoints>
     <Defense>0</Defense>
-    <Terrain>ShorePlains</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>1</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
@@ -23,10 +23,10 @@
       <Max>7</Max>
     </Spawn>
     <Cube />
-    <Exp>4</Exp>
+    <Exp>8</Exp>
     <BXP>19</BXP>
     <Projectile id="0">
-      <ObjectId>Salmon Missile</ObjectId>
+      <ObjectId>Blue Missile</ObjectId>
       <Damage>9</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -41,8 +41,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x60f" id="Purple Gelatinous Cube">
-    <Group>Cubes</Group>
+  <Object type="0x5503" id="New Purple Gelatinous Cube">
+    <Group>New Cubes</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -54,7 +54,7 @@
     <Size>80</Size>
     <MaxHitPoints>70</MaxHitPoints>
     <Defense>0</Defense>
-    <Terrain>ShorePlains</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>1</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
@@ -64,7 +64,7 @@
       <Max>7</Max>
     </Spawn>
     <Cube />
-    <Exp>4</Exp>
+    <Exp>8</Exp>
     <BXP>19</BXP>
     <Projectile id="0">
       <ObjectId>Purple Magic</ObjectId>
@@ -82,8 +82,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x610" id="Green Gelatinous Cube">
-    <Group>Cubes</Group>
+  <Object type="0x5504" id="New Green Gelatinous Cube">
+    <Group>New Cubes</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -95,7 +95,7 @@
     <Size>80</Size>
     <MaxHitPoints>70</MaxHitPoints>
     <Defense>0</Defense>
-    <Terrain>ShorePlains</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>1</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
@@ -105,7 +105,7 @@
       <Max>7</Max>
     </Spawn>
     <Cube />
-    <Exp>4</Exp>
+    <Exp>8</Exp>
     <BXP>19</BXP>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
@@ -123,10 +123,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x60a" id="Sandsman Archer">
-    <Group>Sandsmen</Group>
+  <Object type="0x5505" id="New Sandsman Archer">
+    <Group>New Sandsmen</Group>
     <Enemy />
-    <Exp>3</Exp>
+    <Exp>6</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -138,7 +138,7 @@
     <MaxHitPoints>30</MaxHitPoints>
     <BXP>14</BXP>
     <Defense>0</Defense>
-    <Terrain>LowSand</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Arrow</ObjectId>
@@ -156,10 +156,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x60c" id="Sandsman Sorcerer">
-    <Group>Sandsmen</Group>
+  <Object type="0x5506" id="New Sandsman Sorcerer">
+    <Group>New Sandsmen</Group>
     <Enemy />
-    <Exp>9</Exp>
+    <Exp>18</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -171,7 +171,7 @@
     <MaxHitPoints>88</MaxHitPoints>
     <BXP>41</BXP>
     <Defense>0</Defense>
-    <Terrain>LowSand</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Purple Mystic Shot</ObjectId>
@@ -197,7 +197,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x60d" id="Sandsman King">
+  <Object type="0x5507" id="New Sandsman King">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -209,12 +209,12 @@
     <Size>120</Size>
     <MaxHitPoints>270</MaxHitPoints>
     <Defense>2</Defense>
-    <Terrain>LowSand</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>5</RealmScore>
     <Quest />
     <Level>4</Level>
     <QuestPowerLevel>40</QuestPowerLevel>
-    <Exp>43</Exp>
+    <Exp>86</Exp>
     <BXP>204</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
@@ -233,11 +233,11 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6c4" id="Giant Crab">
+  <Object type="0x5508" id="New Giant Crab">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16dEncounters</File>
+      <File>Rookie_16x16</File>
       <Index>7</Index>
     </AnimatedTexture>
     <HitSound>monster/scorpions_hit</HitSound>
@@ -245,12 +245,12 @@
     <Size>100</Size>
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>2</Defense>
-    <Terrain>LowSand</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>5</RealmScore>
     <Quest />
     <Level>3</Level>
     <QuestPowerLevel>60</QuestPowerLevel>
-    <Exp>43</Exp>
+    <Exp>86</Exp>
     <BXP>204</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
@@ -298,21 +298,21 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6c7" id="Sand Devil">
+  <Object type="0x5509" id="New Sand Devil">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rMid2</File>
-      <Index>4</Index>
+      <File>Rookie_8x8</File>
+      <Index>14</Index>
     </AnimatedTexture>
     <HitSound>monster/scorpions_hit</HitSound>
     <DeathSound>monster/scorpions_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>100</MaxHitPoints>
     <Defense>1</Defense>
-    <Terrain>LowSand</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>1</RealmScore>
-    <Exp>4</Exp>
+    <Exp>8</Exp>
     <BXP>19</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -334,10 +334,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x600" id="Pirate">
-    <Group>Pirates</Group>
+  <Object type="0x550A" id="New Pirate">
+    <Group>New Pirates</Group>
     <Enemy />
-    <Exp>1</Exp>
+    <Exp>2</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -349,7 +349,7 @@
     <MaxHitPoints>5</MaxHitPoints>
     <Defense>0</Defense>
     <BXP>2</BXP>
-    <Terrain>ShoreSand</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -367,10 +367,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x601" id="Piratess">
-    <Group>Pirates</Group>
+  <Object type="0x550B" id="New Piratess">
+    <Group>New Pirates</Group>
     <Enemy />
-    <Exp>1</Exp>
+    <Exp>2</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -382,7 +382,7 @@
     <MaxHitPoints>6</MaxHitPoints>
     <BXP>2</BXP>
     <Defense>0</Defense>
-    <Terrain>ShoreSand</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>1</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -401,10 +401,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x602" id="Snake">
-    <Group>Snakes</Group>
+  <Object type="0x550C" id="New Snake">
+    <Group>New Snakes</Group>
     <Enemy />
-    <Exp>1</Exp>
+    <Exp>2</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8dBeach</File>
@@ -416,7 +416,7 @@
     <MaxHitPoints>5</MaxHitPoints>
     <BXP>2</BXP>
     <Defense>0</Defense>
-    <Terrain>ShoreSand</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>1</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
@@ -441,10 +441,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x603" id="Poison Scorpion">
-    <Group>Scorpions</Group>
+  <Object type="0x550D" id="New Poison Scorpion">
+    <Group>New Scorpions</Group>
     <Enemy />
-    <Exp>1</Exp>
+    <Exp>2</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -456,7 +456,7 @@
     <MaxHitPoints>10</MaxHitPoints>
     <BXP>4</BXP>
     <Defense>0</Defense>
-    <Terrain>ShoreSand</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
@@ -474,24 +474,24 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x604" id="Scorpion Queen">
-    <Group>Scorpions</Group>
+  <Object type="0x550E" id="New Scorpion Queen">
+    <Group>New Scorpions</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rBeach</File>
-      <Index>5</Index>
+      <File>Rookie_8x8</File>
+      <Index>0</Index>
     </AnimatedTexture>
     <HitSound>monster/scorpions_hit</HitSound>
     <DeathSound>monster/scorpions_death</DeathSound>
     <Size>150</Size>
     <MaxHitPoints>100</MaxHitPoints>
     <Defense>0</Defense>
-    <Terrain>ShoreSand</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>5</RealmScore>
     <Quest />
     <Level>1</Level>
-    <Exp>20</Exp>
+    <Exp>40</Exp>
     <BXP>95</BXP>
     <SpawnProb>0.75</SpawnProb>
     <KillStat stat="BeastKills" />
@@ -504,8 +504,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0953" id="Bandit Leader">
-    <Group>Bandits</Group>
+  <Object type="0x550F" id="New Bandit Leader">
+    <Group>New Bandits</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -517,11 +517,11 @@
     <Size>150</Size>
     <MaxHitPoints>280</MaxHitPoints>
     <Defense>2</Defense>
-    <Terrain>ShoreSand</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>5</RealmScore>
     <Quest />
     <Level>2</Level>
-    <Exp>44</Exp>
+    <Exp>88</Exp>
     <BXP>209</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
@@ -541,11 +541,11 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0954" id="Bandit Enemy">
-    <Group>Bandits</Group>
+  <Object type="0x5510" id="New Bandit Enemy">
+    <Group>New Bandits</Group>
     <DisplayId>Bandit</DisplayId>
     <Enemy />
-    <Exp>5</Exp>
+    <Exp>10</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -557,7 +557,7 @@
     <MaxHitPoints>50</MaxHitPoints>
     <BXP>23</BXP>
     <Defense>1</Defense>
-    <Terrain>ShoreSand</Terrain>
+    <Terrain>Beach</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -583,10 +583,150 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x605" id="Elf Archer">
-    <Group>Elves</Group>
+  <Object id="X Treasure Spawner" type="0xAC7A">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object id="X Treasure Chest" type="0xAC7B">
+    <Class>Character</Class>
     <Enemy />
-    <Exp>3</Exp>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <Texture>
+      <File>pirateCaveObjects8x8</File>
+      <Index>0x1e</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <AltTexture id="New 1">
+      <Texture>
+        <File>invisible</File>
+        <Index>0x0</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="New 2">
+      <Texture>
+        <File>pirateCaveObjects8x8</File>
+        <Index>0x1e</Index>
+      </Texture>
+    </AltTexture>
+    <Presentation>
+      <Style id="New Invisible">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="New Visible">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>40</Size>
+    <MaxHitPoints>200</MaxHitPoints>
+    <Defense>1</Defense>
+    <Terrain>Beach</Terrain>
+    <Exp>40</Exp>
+    <BXP>160</BXP>
+    <Labels>ENEMY,MINION,MINION_WEAK</Labels>
+  </Object>
+  <Object id="X Treasure Crab" type="0xAC7C">
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>pirateCaveObjects16x16</File>
+      <Index>0x0c</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="1">
+      <Frame time="0.25">
+        <Texture>
+          <File>pirateCaveObjects16x16</File>
+          <Index>0x0c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>pirateCaveObjects16x16</File>
+          <Index>0x0d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>pirateCaveObjects16x16</File>
+          <Index>0x0e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>pirateCaveObjects16x16</File>
+          <Index>0x0f</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <DisplayId>Crab</DisplayId>
+    <HitSound>monster/scorpions_hit</HitSound>
+    <DeathSound>monster/scorpions_death</DeathSound>
+    <Size>40</Size>
+    <MaxHitPoints>80</MaxHitPoints>
+    <Terrain>Beach</Terrain>
+    <Exp>8</Exp>
+    <BXP>38</BXP>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>ENEMY,MINION,MINION_WEAK</Labels>
+    <Projectile id="0">
+      <ObjectId>Deadwater Crab Claw</ObjectId>
+      <Size>90</Size>
+      <Damage>7</Damage>
+      <Speed>25</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object id="Admiral of Pirates Spawner" type="0xAC7D">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object id="Admiral of Pirates" type="0xAC7E">
+    <Class>Character</Class>
+    <Enemy />
+    <StasisImmune />
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>19</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>125</Size>
+    <MaxHitPoints>500</MaxHitPoints>
+    <Defense>2</Defense>
+    <Terrain>Beach</Terrain>
+    <Quest />
+    <Level>4</Level>
+    <QuestPowerLevel>50</QuestPowerLevel>
+    <Exp>60</Exp>
+    <BXP>220</BXP>
+    <KillStat stat="HumanoidKills" />
+    <Labels>ENEMY,MINION,HUMANOID,QUEST,MINION_WEAK</Labels>
+    <Projectile id="0">
+      <ObjectId>White Bolt</ObjectId>
+      <Size>110</Size>
+      <Damage>8</Damage>
+      <Speed>35</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x5511" id="New Elf Archer">
+    <Group>New Elves</Group>
+    <Enemy />
+    <Exp>6</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -598,7 +738,7 @@
     <MaxHitPoints>22</MaxHitPoints>
     <BXP>10</BXP>
     <Defense>2</Defense>
-    <Terrain>LowForest</Terrain>
+    <Terrain>Forest</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Arrow</ObjectId>
@@ -616,10 +756,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x606" id="Elf Swordsman">
-    <Group>Elves</Group>
+  <Object type="0x5512" id="New Elf Swordsman">
+    <Group>New Elves</Group>
     <Enemy />
-    <Exp>3</Exp>
+    <Exp>6</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -631,7 +771,7 @@
     <MaxHitPoints>26</MaxHitPoints>
     <BXP>12</BXP>
     <Defense>2</Defense>
-    <Terrain>LowForest</Terrain>
+    <Terrain>Forest</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -649,10 +789,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x607" id="Elf Mage">
-    <Group>Elves</Group>
+  <Object type="0x5513" id="New Elf Mage">
+    <Group>New Elves</Group>
     <Enemy />
-    <Exp>3</Exp>
+    <Exp>6</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -664,7 +804,7 @@
     <MaxHitPoints>22</MaxHitPoints>
     <BXP>10</BXP>
     <Defense>0</Defense>
-    <Terrain>LowForest</Terrain>
+    <Terrain>Forest</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Cyan Magic</ObjectId>
@@ -682,7 +822,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x609" id="Elf Wizard">
+  <Object type="0x5514" id="New Elf Wizard">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -694,11 +834,11 @@
     <Size>140</Size>
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>0</Defense>
-    <Terrain>LowForest</Terrain>
+    <Terrain>Forest</Terrain>
     <RealmScore>5</RealmScore>
     <Quest />
     <Level>3</Level>
-    <Exp>32</Exp>
+    <Exp>64</Exp>
     <BXP>152</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
@@ -718,10 +858,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x612" id="Goblin Rogue">
-    <Group>Goblins</Group>
+  <Object type="0x5515" id="New Goblin Rogue">
+    <Group>New Goblins</Group>
     <Enemy />
-    <Exp>3</Exp>
+    <Exp>6</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -733,7 +873,7 @@
     <MaxHitPoints>25</MaxHitPoints>
     <BXP>11</BXP>
     <Defense>0</Defense>
-    <Terrain>LowForest</Terrain>
+    <Terrain>UndeadForest</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -751,10 +891,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x613" id="Goblin Warrior">
-    <Group>Goblins</Group>
+  <Object type="0x5516" id="New Goblin Warrior">
+    <Group>New Goblins</Group>
     <Enemy />
-    <Exp>3</Exp>
+    <Exp>6</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -766,7 +906,7 @@
     <MaxHitPoints>25</MaxHitPoints>
     <BXP>11</BXP>
     <Defense>2</Defense>
-    <Terrain>LowForest</Terrain>
+    <Terrain>UndeadForest</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -784,7 +924,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x614" id="Goblin Mage">
+  <Object type="0x5517" id="New Goblin Mage">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -798,10 +938,10 @@
     <Defense>0</Defense>
     <Quest />
     <Level>4</Level>
-    <Exp>39</Exp>
+    <Exp>78</Exp>
     <BXP>185</BXP>
     <SpawnProb>0.75</SpawnProb>
-    <Terrain>LowForest</Terrain>
+    <Terrain>UndeadForest</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Cyan Magic</ObjectId>
@@ -828,7 +968,43 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6c8" id="Easily Enraged Bunny">
+  <Object type="0x5518" id="New Low Skeleton">
+    <DisplayId>Skeleton</DisplayId>
+    <Enemy />
+    <Exp>2</Exp>
+    <Class>Character</Class>
+    <Exp>56</Exp>
+    <BXP>133</BXP>
+    <AnimatedTexture>
+      <File>charsRookie8x8</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>150</MaxHitPoints>
+    <Defense>1</Defense>
+    <Terrain>UndeadForest</Terrain>
+    <SpawnProb>0.75</SpawnProb>
+    <RealmScore>1</RealmScore>
+    <Projectile id="0">
+      <ObjectId>UDL Bone</ObjectId>
+      <Damage>4</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>1100</LifetimeMS>
+      <Rotation>40</Rotation>
+    </Projectile>
+    <KillStat stat="HumanoidKills" />
+    <Labels>ENEMY,MINION,HUMANOID,UNDEAD,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x5519" id="New Easily Enraged Bunny">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -840,7 +1016,7 @@
     <Size>100</Size>
     <MaxHitPoints>40</MaxHitPoints>
     <Defense>0</Defense>
-    <Terrain>LowForest</Terrain>
+    <Terrain>Forest</Terrain>
     <RealmScore>1</RealmScore>
     <Exp>0</Exp>
     <SpawnProb>0.7</SpawnProb>
@@ -854,7 +1030,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6c9" id="Enraged Bunny">
+  <Object type="0x551A" id="New Enraged Bunny">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -866,7 +1042,7 @@
     <Size>100</Size>
     <MaxHitPoints>130</MaxHitPoints>
     <Defense>1</Defense>
-    <Exp>6</Exp>
+    <Exp>12</Exp>
     <BXP>28</BXP>
     <Projectile id="0">
       <ObjectId>Fire Missile</ObjectId>
@@ -885,7 +1061,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6d1" id="Forest Nymph">
+  <Object type="0x551B" id="New Forest Nymph">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -897,9 +1073,9 @@
     <Size>100</Size>
     <MaxHitPoints>120</MaxHitPoints>
     <Defense>1</Defense>
-    <Terrain>LowForest</Terrain>
+    <Terrain>Forest</Terrain>
     <RealmScore>1</RealmScore>
-    <Exp>6</Exp>
+    <Exp>12</Exp>
     <BXP>28</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -928,10 +1104,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x615" id="Hobbit Rogue">
-    <Group>Hobbits</Group>
+  <Object type="0x551C" id="New Hobbit Rogue">
+    <Group>New Hobbits</Group>
     <Enemy />
-    <Exp>3</Exp>
+    <Exp>6</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -943,7 +1119,7 @@
     <MaxHitPoints>26</MaxHitPoints>
     <BXP>12</BXP>
     <Defense>0</Defense>
-    <Terrain>LowPlains</Terrain>
+    <Terrain>Forest</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -961,10 +1137,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x616" id="Hobbit Archer">
-    <Group>Hobbits</Group>
+  <Object type="0x551D" id="New Hobbit Archer">
+    <Group>New Hobbits</Group>
     <Enemy />
-    <Exp>3</Exp>
+    <Exp>6</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -976,7 +1152,7 @@
     <MaxHitPoints>22</MaxHitPoints>
     <BXP>10</BXP>
     <Defense>0</Defense>
-    <Terrain>LowPlains</Terrain>
+    <Terrain>Forest</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Arrow</ObjectId>
@@ -994,7 +1170,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x617" id="Hobbit Mage">
+  <Object type="0x551E" id="New Hobbit Mage">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1006,11 +1182,11 @@
     <Size>88</Size>
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>2</Defense>
-    <Terrain>LowPlains</Terrain>
+    <Terrain>Forest</Terrain>
     <RealmScore>1</RealmScore>
     <Quest />
     <Level>3</Level>
-    <Exp>32</Exp>
+    <Exp>64</Exp>
     <BXP>152</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -1041,10 +1217,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x618" id="Undead Hobbit Rogue">
-    <Group>Undead Hobbits</Group>
+  <Object type="0x551F" id="New Undead Hobbit Rogue">
+    <Group>New Undead Hobbits</Group>
     <Enemy />
-    <Exp>4</Exp>
+    <Exp>8</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -1056,7 +1232,7 @@
     <MaxHitPoints>34</MaxHitPoints>
     <BXP>16</BXP>
     <Defense>0</Defense>
-    <Terrain>LowPlains</Terrain>
+    <Terrain>UndeadForest</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -1074,10 +1250,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x619" id="Undead Hobbit Archer">
-    <Group>Undead Hobbits</Group>
+  <Object type="0x5520" id="New Undead Hobbit Archer">
+    <Group>New Undead Hobbits</Group>
     <Enemy />
-    <Exp>3</Exp>
+    <Exp>6</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -1089,7 +1265,7 @@
     <MaxHitPoints>28</MaxHitPoints>
     <BXP>13</BXP>
     <Defense>0</Defense>
-    <Terrain>LowPlains</Terrain>
+    <Terrain>UndeadForest</Terrain>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Arrow</ObjectId>
@@ -1107,7 +1283,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x61a" id="Undead Hobbit Mage">
+  <Object type="0x5521" id="New Undead Hobbit Mage">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1119,11 +1295,11 @@
     <Size>100</Size>
     <MaxHitPoints>270</MaxHitPoints>
     <Defense>5</Defense>
-    <Terrain>LowPlains</Terrain>
+    <Terrain>UndeadForest</Terrain>
     <RealmScore>5</RealmScore>
     <Quest />
     <Level>4</Level>
-    <Exp>43</Exp>
+    <Exp>86</Exp>
     <BXP>204</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
@@ -1161,33 +1337,33 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x7F00" id="Sumo Master">
-    <Group>Sumo</Group>
+  <Object type="0x5522" id="New Sumo Master">
+    <Group>New Sumo</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>5</Index>
+      <File>Rookie_16x16</File>
+      <Index>8</Index>
     </AnimatedTexture>
-    <AltTexture id="1">
+    <AltTexture id="New 1">
       <AnimatedTexture>
-        <File>chars16x16rEncounters</File>
-        <Index>6</Index>
+        <File>Rookie_16x16</File>
+        <Index>9</Index>
       </AnimatedTexture>
     </AltTexture>
-    <AltTexture id="2">
+    <AltTexture id="New 2">
       <AnimatedTexture>
         <File>chars16x16rEncounters</File>
         <Index>7</Index>
       </AnimatedTexture>
     </AltTexture>
-    <AltTexture id="3">
+    <AltTexture id="New 3">
       <AnimatedTexture>
         <File>chars16x16rEncounters</File>
         <Index>8</Index>
       </AnimatedTexture>
     </AltTexture>
-    <AltTexture id="4">
+    <AltTexture id="New 4">
       <AnimatedTexture>
         <File>chars16x16rEncounters</File>
         <Index>9</Index>
@@ -1195,7 +1371,7 @@
     </AltTexture>
     <Level>4</Level>
     <SpawnProb>0.45</SpawnProb>
-    <Terrain>LowPlains</Terrain>
+    <Terrain>UndeadForest</Terrain>
     <RealmScore>5</RealmScore>
     <HitSound>monster/ogres_hit</HitSound>
     <DeathSound>monster/ogres_death</DeathSound>
@@ -1218,21 +1394,21 @@
     </Projectile>
     <Size>100</Size>
     <Defense>5</Defense>
-    <Exp>56</Exp>
+    <Exp>112</Exp>
     <BXP>266</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_WEAK</Labels>
     <Presentation>
-      <Style id="SetAlt3">
+      <Style id="New SetAlt3">
         <StyleStep altTextureId="3">SetAltTexture</StyleStep>
       </Style>
-      <Style id="SetAlt2">
+      <Style id="New SetAlt2">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>
       </Style>
-      <Style id="SetAlt1">
+      <Style id="New SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
-      <Style id="SetAlt4">
+      <Style id="New SetAlt4">
         <StyleStep altTextureId="4">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
@@ -1244,8 +1420,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x7F01" id="Lil Sumo">
-    <Group>Sumo</Group>
+  <Object type="0x5523" id="New Lil Sumo">
+    <Group>New Sumo</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1264,7 +1440,7 @@
     </Projectile>
     <Size>100</Size>
     <Defense>4</Defense>
-    <Exp>1</Exp>
+    <Exp>2</Exp>
     <BXP>4</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_WEAK</Labels>
@@ -1276,14 +1452,14 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x620" id="Tawny Warg">
-    <Group>Wargs</Group>
+  <Object type="0x5524" id="New Tawny Warg">
+    <Group>New Wargs</Group>
     <Enemy />
-    <Exp>3</Exp>
+    <Exp>6</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rLow2</File>
-      <Index>0x01</Index>
+      <File>Rookie_8x8</File>
+      <Index>31</Index>
     </AnimatedTexture>
     <HitSound>monster/cyclops_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
@@ -1291,7 +1467,7 @@
     <MaxHitPoints>30</MaxHitPoints>
     <BXP>14</BXP>
     <Defense>0</Defense>
-    <Terrain>MidSand</Terrain>
+    <Terrain>MidDesert</Terrain>
     <RealmScore>3</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -1309,14 +1485,14 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x622" id="Demon Warg">
-    <Group>Wargs</Group>
+  <Object type="0x5525" id="New Demon Warg">
+    <Group>New Wargs</Group>
     <Enemy />
-    <Exp>4</Exp>
+    <Exp>8</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rLow2</File>
-      <Index>0x03</Index>
+      <File>Rookie_8x8</File>
+      <Index>30</Index>
     </AnimatedTexture>
     <HitSound>monster/cyclops_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
@@ -1324,7 +1500,7 @@
     <MaxHitPoints>40</MaxHitPoints>
     <BXP>19</BXP>
     <Defense>0</Defense>
-    <Terrain>MidSand</Terrain>
+    <Terrain>MidDesert</Terrain>
     <RealmScore>3</RealmScore>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
@@ -1343,23 +1519,23 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x623" id="Desert Werewolf">
+  <Object type="0x5526" id="New Desert Werewolf">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rLow2</File>
-      <Index>0x00</Index>
+      <File>Rookie_8x8</File>
+      <Index>23</Index>
     </AnimatedTexture>
     <HitSound>monster/cyclops_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
     <Size>135</Size>
     <MaxHitPoints>320</MaxHitPoints>
     <Defense>3</Defense>
-    <Terrain>MidSand</Terrain>
+    <Terrain>MidDesert</Terrain>
     <RealmScore>3</RealmScore>
     <Quest />
     <Level>5</Level>
-    <Exp>51</Exp>
+    <Exp>102</Exp>
     <BXP>242</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
@@ -1386,22 +1562,22 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x632" id="Fire Golem">
-    <Group>Golems</Group>
+  <Object type="0x5527" id="New Fire Golem">
+    <Group>New Golems</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rMid</File>
-      <Index>0x0e</Index>
+      <File>Rookie_8x8</File>
+      <Index>21</Index>
     </AnimatedTexture>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
     <Size>140</Size>
     <MaxHitPoints>220</MaxHitPoints>
     <Defense>3</Defense>
-    <Terrain>MidSand</Terrain>
+    <Terrain>MidDesert</Terrain>
     <RealmScore>3</RealmScore>
-    <Exp>15</Exp>
+    <Exp>30</Exp>
     <BXP>71</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -1428,22 +1604,22 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x633" id="Darkness Golem">
-    <Group>Golems</Group>
+  <Object type="0x5528" id="New Darkness Golem">
+    <Group>New Golems</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rMid</File>
-      <Index>0x0f</Index>
+      <File>Rookie_8x8</File>
+      <Index>20</Index>
     </AnimatedTexture>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
     <Size>140</Size>
     <MaxHitPoints>220</MaxHitPoints>
     <Defense>3</Defense>
-    <Terrain>MidSand</Terrain>
+    <Terrain>MidDesert</Terrain>
     <RealmScore>3</RealmScore>
-    <Exp>15</Exp>
+    <Exp>30</Exp>
     <BXP>71</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -1470,18 +1646,18 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6d2" id="Red Satellite">
-    <Group>Golem Satellites</Group>
+  <Object type="0x5529" id="New Red Satellite">
+    <Group>New Golem Satellites</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8dEncounters</File>
-      <Index>4</Index>
+      <File>Rookie_8x8</File>
+      <Index>25</Index>
     </AnimatedTexture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Defense>5</Defense>
-    <Exp>10</Exp>
+    <Exp>20</Exp>
     <BXP>47</BXP>
     <MaxHitPoints>1000</MaxHitPoints>
     <KillStat stat="ConstructKills" />
@@ -1494,18 +1670,18 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6d3" id="Green Satellite">
-    <Group>Golem Satellites</Group>
+  <Object type="0x552A" id="New Green Satellite">
+    <Group>New Golem Satellites</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8dEncounters</File>
-      <Index>5</Index>
+      <File>Rookie_8x8</File>
+      <Index>28</Index>
     </AnimatedTexture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Defense>5</Defense>
-    <Exp>10</Exp>
+    <Exp>20</Exp>
     <BXP>47</BXP>
     <MaxHitPoints>1000</MaxHitPoints>
     <KillStat stat="ConstructKills" />
@@ -1518,18 +1694,18 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6d4" id="Blue Satellite">
-    <Group>Golem Satellites</Group>
+  <Object type="0x552B" id="New Blue Satellite">
+    <Group>New Golem Satellites</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8dEncounters</File>
-      <Index>6</Index>
+      <File>Rookie_8x8</File>
+      <Index>26</Index>
     </AnimatedTexture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Defense>5</Defense>
-    <Exp>10</Exp>
+    <Exp>20</Exp>
     <BXP>47</BXP>
     <MaxHitPoints>1000</MaxHitPoints>
     <KillStat stat="ConstructKills" />
@@ -1542,19 +1718,19 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6d5" id="Gray Satellite 1">
+  <Object type="0x552C" id="New Gray Satellite 1">
     <DisplayId>Gray Satellite</DisplayId>
-    <Group>Golem Satellites</Group>
+    <Group>New Golem Satellites</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8dEncounters</File>
-      <Index>7</Index>
+      <File>Rookie_8x8</File>
+      <Index>27</Index>
     </AnimatedTexture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Defense>5</Defense>
-    <Exp>10</Exp>
+    <Exp>20</Exp>
     <BXP>47</BXP>
     <MaxHitPoints>1000</MaxHitPoints>
     <Size>50</Size>
@@ -1575,19 +1751,19 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6d6" id="Gray Satellite 2">
+  <Object type="0x552D" id="New Gray Satellite 2">
     <DisplayId>Gray Satellite</DisplayId>
-    <Group>Golem Satellites</Group>
+    <Group>New Golem Satellites</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8dEncounters</File>
-      <Index>7</Index>
+      <File>Rookie_8x8</File>
+      <Index>27</Index>
     </AnimatedTexture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Defense>5</Defense>
-    <Exp>10</Exp>
+    <Exp>20</Exp>
     <BXP>47</BXP>
     <MaxHitPoints>1000</MaxHitPoints>
     <Size>50</Size>
@@ -1608,19 +1784,19 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6d7" id="Gray Satellite 3">
+  <Object type="0x552E" id="New Gray Satellite 3">
     <DisplayId>Gray Satellite</DisplayId>
-    <Group>Golem Satellites</Group>
+    <Group>New Golem Satellites</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8dEncounters</File>
-      <Index>7</Index>
+      <File>Rookie_8x8</File>
+      <Index>27</Index>
     </AnimatedTexture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Defense>5</Defense>
-    <Exp>10</Exp>
+    <Exp>20</Exp>
     <BXP>47</BXP>
     <MaxHitPoints>1000</MaxHitPoints>
     <Size>50</Size>
@@ -1642,8 +1818,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6c5" id="Sand Phantom">
-    <Group>SandPhantoms</Group>
+  <Object type="0x552F" id="New Sand Phantom">
+    <Group>New SandPhantoms</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1655,9 +1831,9 @@
     <Size>100</Size>
     <MaxHitPoints>230</MaxHitPoints>
     <Defense>3</Defense>
-    <Terrain>MidSand</Terrain>
+    <Terrain>MidDesert</Terrain>
     <RealmScore>3</RealmScore>
-    <Exp>18</Exp>
+    <Exp>36</Exp>
     <BXP>85</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -1676,8 +1852,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x7F22" id="Sand Phantom Wisp">
-    <Group>SandPhantoms</Group>
+  <Object type="0x5530" id="New Sand Phantom Wisp">
+    <Group>New SandPhantoms</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1689,9 +1865,9 @@
     <Size>100</Size>
     <MaxHitPoints>150</MaxHitPoints>
     <Defense>0</Defense>
-    <Terrain>MidSand</Terrain>
+    <Terrain>MidDesert</Terrain>
     <RealmScore>3</RealmScore>
-    <Exp>30</Exp>
+    <Exp>60</Exp>
     <BXP>142</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -1710,14 +1886,14 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6c6" id="Nomadic Shaman">
-    <Group>Nomads</Group>
+  <Object type="0x5531" id="New Nomadic Shaman">
+    <Group>New Nomads</Group>
     <Enemy />
-    <Exp>14</Exp>
+    <Exp>28</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rMid2</File>
-      <Index>5</Index>
+      <File>Rookie_8x8</File>
+      <Index>24</Index>
     </AnimatedTexture>
     <HitSound>monster/sprites_hit</HitSound>
     <DeathSound>monster/sprites_death</DeathSound>
@@ -1725,7 +1901,7 @@
     <MaxHitPoints>140</MaxHitPoints>
     <BXP>66</BXP>
     <Defense>1</Defense>
-    <Terrain>MidSand</Terrain>
+    <Terrain>MidDesert</Terrain>
     <RealmScore>3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -1753,24 +1929,24 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0952" id="Great Lizard">
-    <Group>Large Lizards</Group>
+  <Object type="0x5532" id="New Great Lizard">
+    <Group>New Large Lizards</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16dMountains2</File>
-      <Index>2</Index>
+      <File>Rookie_16x16</File>
+      <Index>21</Index>
     </AnimatedTexture>
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/lizard_god_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>4</Defense>
-    <Terrain>MidSand</Terrain>
+    <Terrain>MidDesert</Terrain>
     <RealmScore>10</RealmScore>
     <Quest />
     <Level>6</Level>
-    <Exp>90</Exp>
+    <Exp>180</Exp>
     <BXP>427</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
@@ -1797,10 +1973,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x624" id="Fire Sprite">
-    <Group>Sprites</Group>
+  <Object type="0x5533" id="New Fire Sprite">
+    <Group>New Sprites</Group>
     <Enemy />
-    <Exp>10</Exp>
+    <Exp>20</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>spriteWorldChars8x8</File>
@@ -1812,7 +1988,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <BXP>47</BXP>
     <Defense>0</Defense>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <Flying />
     <SpawnProb>1.0</SpawnProb>
@@ -1832,10 +2008,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x625" id="Ice Sprite">
-    <Group>Sprites</Group>
+  <Object type="0x5534" id="New Ice Sprite">
+    <Group>New Sprites</Group>
     <Enemy />
-    <Exp>10</Exp>
+    <Exp>20</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>spriteWorldChars8x8</File>
@@ -1847,7 +2023,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <BXP>47</BXP>
     <Defense>0</Defense>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <Flying />
     <SpawnProb>1.0</SpawnProb>
@@ -1869,10 +2045,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x626" id="Magic Sprite">
-    <Group>Sprites</Group>
+  <Object type="0x5535" id="New Magic Sprite">
+    <Group>New Sprites</Group>
     <Enemy />
-    <Exp>10</Exp>
+    <Exp>20</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>spriteWorldChars8x8</File>
@@ -1884,7 +2060,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <BXP>47</BXP>
     <Defense>0</Defense>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <Flying />
     <SpawnProb>1.0</SpawnProb>
@@ -1905,10 +2081,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x629" id="Orc Warrior">
-    <Group>Orcs</Group>
+  <Object type="0x5536" id="New Orc Warrior">
+    <Group>New Orcs</Group>
     <Enemy />
-    <Exp>9</Exp>
+    <Exp>18</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -1920,7 +2096,7 @@
     <MaxHitPoints>90</MaxHitPoints>
     <BXP>42</BXP>
     <Defense>3</Defense>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -1938,10 +2114,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x62a" id="Orc Mage">
-    <Group>Orcs</Group>
+  <Object type="0x5537" id="New Orc Mage">
+    <Group>New Orcs</Group>
     <Enemy />
-    <Exp>8</Exp>
+    <Exp>16</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -1953,7 +2129,7 @@
     <MaxHitPoints>80</MaxHitPoints>
     <BXP>38</BXP>
     <Defense>0</Defense>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
@@ -1971,10 +2147,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x62b" id="Orc Queen">
-    <Group>Orcs</Group>
+  <Object type="0x5538" id="New Orc Queen">
+    <Group>New Orcs</Group>
     <Enemy />
-    <Exp>13</Exp>
+    <Exp>26</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -1986,7 +2162,7 @@
     <MaxHitPoints>130</MaxHitPoints>
     <BXP>61</BXP>
     <Defense>0</Defense>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_WEAK</Labels>
@@ -1998,10 +2174,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x62c" id="Orc King">
-    <Group>OrcKings</Group>
+  <Object type="0x5539" id="New Orc King">
+    <Group>New OrcKings</Group>
     <Enemy />
-    <Exp>24</Exp>
+    <Exp>48</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -2013,7 +2189,7 @@
     <MaxHitPoints>240</MaxHitPoints>
     <BXP>114</BXP>
     <Defense>3</Defense>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -2033,14 +2209,14 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x62f" id="Earth Golem">
-    <Group>Golems</Group>
+  <Object type="0x553A" id="New Earth Golem">
+    <Group>New Golems</Group>
     <Enemy />
-    <Exp>22</Exp>
+    <Exp>44</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rMid</File>
-      <Index>0x0b</Index>
+      <File>Rookie_8x8</File>
+      <Index>22</Index>
     </AnimatedTexture>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
@@ -2048,7 +2224,7 @@
     <MaxHitPoints>220</MaxHitPoints>
     <BXP>104</BXP>
     <Defense>4</Defense>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -2069,14 +2245,14 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x631" id="Paper Golem">
-    <Group>Golems</Group>
+  <Object type="0x553B" id="New Paper Golem">
+    <Group>New Golems</Group>
     <Enemy />
-    <Exp>22</Exp>
+    <Exp>44</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rMid</File>
-      <Index>0x0d</Index>
+      <File>Rookie_8x8</File>
+      <Index>18</Index>
     </AnimatedTexture>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
@@ -2084,7 +2260,7 @@
     <MaxHitPoints>220</MaxHitPoints>
     <BXP>104</BXP>
     <Defense>1</Defense>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -2105,19 +2281,19 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0205" id="Pink Blob">
+  <Object type="0x553C" id="New Pink Blob">
     <Enemy />
-    <Exp>10</Exp>
+    <Exp>20</Exp>
     <Class>Character</Class>
-    <Texture>
-      <File>lofiChar8x8</File>
-      <Index>0xb9</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>5</Index>
+    </AnimatedTexture>
     <HitSound>monster/blobs_hit</HitSound>
     <DeathSound>monster/blobs_death</DeathSound>
     <MaxHitPoints>100</MaxHitPoints>
     <BXP>47</BXP>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
@@ -2143,19 +2319,19 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x020d" id="Gray Blob">
+  <Object type="0x553D" id="New Gray Blob">
     <Class>Character</Class>
     <Enemy />
-    <Exp>3</Exp>
-    <Texture>
-      <File>lofiChar8x8</File>
-      <Index>0xb8</Index>
-    </Texture>
+    <Exp>6</Exp>
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>10</Index>
+    </AnimatedTexture>
     <HitSound>monster/blobs_hit</HitSound>
     <DeathSound>monster/blobs_death</DeathSound>
     <MaxHitPoints>25</MaxHitPoints>
     <BXP>11</BXP>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <SpawnProb>1.0</SpawnProb>
     <RealmScore>3</RealmScore>
     <Spawn>
@@ -2181,18 +2357,18 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x020e" id="Big Green Slime">
+  <Object type="0x553E" id="New Big Green Slime">
     <Class>Character</Class>
-    <Texture>
-      <File>lofiChar8x8</File>
-      <Index>0xb2</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>16</Index>
+    </AnimatedTexture>
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
     <MaxHitPoints>150</MaxHitPoints>
     <BXP>71</BXP>
     <Size>150</Size>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <SpawnProb>1.0</SpawnProb>
     <RealmScore>3</RealmScore>
     <Spawn>
@@ -2208,7 +2384,7 @@
       <LifetimeMS>1200</LifetimeMS>
     </Projectile>
     <Enemy />
-    <Exp>15</Exp>
+    <Exp>30</Exp>
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -2219,18 +2395,18 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x020f" id="Little Green Slime">
+  <Object type="0x553F" id="New Little Green Slime">
     <Class>Character</Class>
-    <Texture>
-      <File>lofiChar8x8</File>
-      <Index>0xb2</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>15</Index>
+    </AnimatedTexture>
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
     <MaxHitPoints>50</MaxHitPoints>
     <BXP>23</BXP>
     <Size>75</Size>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <Projectile>
       <ObjectId>Red Fire</ObjectId>
@@ -2239,7 +2415,7 @@
       <LifetimeMS>1200</LifetimeMS>
     </Projectile>
     <Enemy />
-    <Exp>5</Exp>
+    <Exp>10</Exp>
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -2250,8 +2426,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0947" id="Wasp Queen">
-    <Group>Wasps</Group>
+  <Object type="0x5540" id="New Wasp Queen">
+    <Group>New Wasps</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -2263,11 +2439,11 @@
     <Size>130</Size>
     <MaxHitPoints>850</MaxHitPoints>
     <Defense>2</Defense>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>10</RealmScore>
     <Quest />
     <Level>8</Level>
-    <Exp>195</Exp>
+    <Exp>390</Exp>
     <BXP>926</BXP>
     <Flying />
     <SpawnProb>0.50</SpawnProb>
@@ -2289,8 +2465,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0948" id="Worker Wasp">
-    <Group>Wasps</Group>
+  <Object type="0x5541" id="New Worker Wasp">
+    <Group>New Wasps</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -2302,10 +2478,10 @@
     <Size>90</Size>
     <MaxHitPoints>110</MaxHitPoints>
     <Defense>1</Defense>
-    <Exp>5</Exp>
+    <Exp>10</Exp>
     <BXP>23</BXP>
     <Flying />
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <Projectile id="0">
       <ObjectId>Yellow Missile</ObjectId>
@@ -2324,8 +2500,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0949" id="Warrior Wasp">
-    <Group>Wasps</Group>
+  <Object type="0x5542" id="New Warrior Wasp">
+    <Group>New Wasps</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -2337,10 +2513,10 @@
     <Size>90</Size>
     <MaxHitPoints>150</MaxHitPoints>
     <Defense>3</Defense>
-    <Exp>7</Exp>
+    <Exp>14</Exp>
     <BXP>33</BXP>
     <Flying />
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Missile</ObjectId>
@@ -2359,8 +2535,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x094a" id="Warrior Bee">
-    <Group>Bees</Group>
+  <Object type="0x5543" id="New Warrior Bee">
+    <Group>New Bees</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -2372,11 +2548,11 @@
     <Size>140</Size>
     <MaxHitPoints>900</MaxHitPoints>
     <Defense>2</Defense>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>10</RealmScore>
     <Quest />
     <Level>8</Level>
-    <Exp>206</Exp>
+    <Exp>412</Exp>
     <BXP>978</BXP>
     <Z>0.2</Z>
     <Flying />
@@ -2388,18 +2564,10 @@
       <Size>100</Size>
       <LifetimeMS>1200</LifetimeMS>
     </Projectile>
-    <KillStat stat="CritterKills" />
-    <Labels>ENEMY,MINION,CRITTER,QUEST,MINION_WEAK</Labels>
-    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
-    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
-    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
-    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
-    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
-    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
-    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
-  </Object>
-  <Object type="0x094b" id="Scout Bee">
-    <Group>Bees</Group>
+      s
+      <KillStat stat="CritterKills" /><Labels>ENEMY,MINION,CRITTER,QUEST,MINION_WEAK</Labels><SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn><SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn><SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn><SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn><SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn><SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn><SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn></Object>
+  <Object type="0x5544" id="New Scout Bee">
+    <Group>New Bees</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -2411,11 +2579,11 @@
     <Size>90</Size>
     <MaxHitPoints>110</MaxHitPoints>
     <Defense>1</Defense>
-    <Exp>5</Exp>
+    <Exp>10</Exp>
     <BXP>23</BXP>
     <Z>0.1</Z>
     <Flying />
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <Projectile id="0">
       <ObjectId>Aqua Missile</ObjectId>
@@ -2434,8 +2602,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x094c" id="Fighter Bee">
-    <Group>Bees</Group>
+  <Object type="0x5545" id="New Fighter Bee">
+    <Group>New Bees</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -2447,11 +2615,11 @@
     <Size>100</Size>
     <MaxHitPoints>140</MaxHitPoints>
     <Defense>3</Defense>
-    <Exp>7</Exp>
+    <Exp>14</Exp>
     <BXP>33</BXP>
     <Z>0.1</Z>
     <Flying />
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>3</RealmScore>
     <Projectile id="0">
       <ObjectId>Red Planet Blast</ObjectId>
@@ -2470,24 +2638,24 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0950" id="Shambling Sludge">
-    <Group>Sludges</Group>
+  <Object type="0x5546" id="New Shambling Sludge">
+    <Group>New Sludges</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>3</Index>
+      <File>Rookie_16x16</File>
+      <Index>26</Index>
     </AnimatedTexture>
     <HitSound>monster/mummies_hit</HitSound>
     <DeathSound>monster/mummies_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>4</Defense>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>10</RealmScore>
     <Quest />
     <Level>6</Level>
-    <Exp>200</Exp>
+    <Exp>400</Exp>
     <BXP>950</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
@@ -2509,8 +2677,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0951" id="Sludget">
-    <Group>Sludges</Group>
+  <Object type="0x5547" id="New Sludget">
+    <Group>New Sludges</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -2522,7 +2690,7 @@
     <Size>50</Size>
     <MaxHitPoints>250</MaxHitPoints>
     <Defense>0</Defense>
-    <Exp>12</Exp>
+    <Exp>24</Exp>
     <BXP>57</BXP>
     <Projectile id="0">
       <ObjectId>White Flame</ObjectId>
@@ -2541,8 +2709,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0955" id="Swarm">
-    <Group>Swarms</Group>
+  <Object type="0x5548" id="New Swarm">
+    <Group>New Swarms</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -2554,11 +2722,11 @@
     <Size>150</Size>
     <MaxHitPoints>360</MaxHitPoints>
     <Defense>4</Defense>
-    <Terrain>MidPlains</Terrain>
+    <Terrain>Plains</Terrain>
     <RealmScore>10</RealmScore>
     <Quest />
     <Level>5</Level>
-    <Exp>64</Exp>
+    <Exp>128</Exp>
     <BXP>304</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Flying />
@@ -2579,10 +2747,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x61c" id="Dwarf Axebearer">
-    <Group>Dwarves</Group>
+  <Object type="0x5549" id="New Dwarf Axebearer">
+    <Group>New Dwarves</Group>
     <Enemy />
-    <Exp>8</Exp>
+    <Exp>16</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -2592,9 +2760,10 @@
     <DeathSound>monster/dwarves_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>80</MaxHitPoints>
+    <Exp>8</Exp>
     <BXP>38</BXP>
     <Defense>2</Defense>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>3</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -2613,10 +2782,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x61d" id="Dwarf Mage">
-    <Group>Dwarves</Group>
+  <Object type="0x554A" id="New Dwarf Mage">
+    <Group>New Dwarves</Group>
     <Enemy />
-    <Exp>8</Exp>
+    <Exp>16</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -2626,9 +2795,10 @@
     <DeathSound>monster/dwarves_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>80</MaxHitPoints>
+    <Exp>8</Exp>
     <BXP>38</BXP>
     <Defense>0</Defense>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>3</RealmScore>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
@@ -2649,10 +2819,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x61e" id="Dwarf Veteran">
-    <Group>Dwarves</Group>
+  <Object type="0x554B" id="New Dwarf Veteran">
+    <Group>New Dwarves</Group>
     <Enemy />
-    <Exp>10</Exp>
+    <Exp>20</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -2662,9 +2832,10 @@
     <DeathSound>monster/dwarves_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>100</MaxHitPoints>
+    <Exp>10</Exp>
     <BXP>47</BXP>
     <Defense>3</Defense>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>3</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -2683,7 +2854,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x61f" id="Dwarf King">
+  <Object type="0x554C" id="New Dwarf King">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -2695,11 +2866,11 @@
     <Size>130</Size>
     <MaxHitPoints>320</MaxHitPoints>
     <Defense>3</Defense>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>10</RealmScore>
     <Quest />
     <Level>5</Level>
-    <Exp>51</Exp>
+    <Exp>102</Exp>
     <BXP>242</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
@@ -2719,22 +2890,22 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x62d" id="Metal Golem">
-    <Group>Golems</Group>
+  <Object type="0x554D" id="New Metal Golem">
+    <Group>New Golems</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rMid</File>
-      <Index>0x09</Index>
+      <File>Rookie_8x8</File>
+      <Index>19</Index>
     </AnimatedTexture>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
     <Size>140</Size>
     <MaxHitPoints>220</MaxHitPoints>
     <Defense>5</Defense>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>3</RealmScore>
-    <Exp>15</Exp>
+    <Exp>30</Exp>
     <BXP>71</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -2754,14 +2925,14 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x62e" id="Clockwork Golem">
-    <Group>Golems</Group>
+  <Object type="0x554E" id="New Clockwork Golem">
+    <Group>New Golems</Group>
     <Enemy />
-    <Exp>22</Exp>
+    <Exp>44</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rMid</File>
-      <Index>0x0a</Index>
+      <File>Rookie_8x8</File>
+      <Index>17</Index>
     </AnimatedTexture>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
@@ -2769,7 +2940,7 @@
     <MaxHitPoints>220</MaxHitPoints>
     <BXP>104</BXP>
     <Defense>3</Defense>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -2791,8 +2962,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x635" id="Weretiger">
-    <Group>Werecats</Group>
+  <Object type="0x554F" id="New Weretiger">
+    <Group>New Werecats</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -2804,9 +2975,9 @@
     <Size>100</Size>
     <MaxHitPoints>220</MaxHitPoints>
     <Defense>3</Defense>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>3</RealmScore>
-    <Exp>8</Exp>
+    <Exp>16</Exp>
     <BXP>38</BXP>
     <Projectile id="0">
       <ObjectId>Violet Missile</ObjectId>
@@ -2826,8 +2997,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x636" id="Wereleopard">
-    <Group>Werecats</Group>
+  <Object type="0x5550" id="New Wereleopard">
+    <Group>New Werecats</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -2839,9 +3010,9 @@
     <Size>100</Size>
     <MaxHitPoints>220</MaxHitPoints>
     <Defense>1</Defense>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>3</RealmScore>
-    <Exp>8</Exp>
+    <Exp>16</Exp>
     <BXP>38</BXP>
     <Projectile id="0">
       <ObjectId>Fire Missile</ObjectId>
@@ -2860,22 +3031,22 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x639" id="Werepanther">
-    <Group>Werecats</Group>
+  <Object type="0x5551" id="New Werepanther">
+    <Group>New Werecats</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rMid2</File>
-      <Index>3</Index>
+      <File>Rookie_8x8</File>
+      <Index>6</Index>
     </AnimatedTexture>
     <HitSound>monster/dark_elves_hit</HitSound>
     <DeathSound>monster/dark_elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>240</MaxHitPoints>
     <Defense>3</Defense>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>3</RealmScore>
-    <Exp>9</Exp>
+    <Exp>18</Exp>
     <BXP>42</BXP>
     <Projectile id="0">
       <ObjectId>Brown Magic</ObjectId>
@@ -2894,9 +3065,9 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x637" id="Werelion">
+  <Object type="0x5552" id="New Werelion">
     <Enemy />
-    <Exp>40</Exp>
+    <Exp>80</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rMid2</File>
@@ -2908,7 +3079,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <BXP>190</BXP>
     <Defense>5</Defense>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -2935,24 +3106,24 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0945" id="Horned Drake">
-    <Group>Drakes</Group>
+  <Object type="0x5553" id="New Horned Drake">
+    <Group>New Drakes</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16dEncounters</File>
-      <Index>8</Index>
+      <File>Rookie_16x16</File>
+      <Index>24</Index>
     </AnimatedTexture>
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
     <Size>110</Size>
     <MaxHitPoints>1270</MaxHitPoints>
     <Defense>4</Defense>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>10</RealmScore>
     <Quest />
     <Level>8</Level>
-    <Exp>228</Exp>
+    <Exp>456</Exp>
     <BXP>1083</BXP>
     <Flying />
     <SpawnProb>0.75</SpawnProb>
@@ -2973,22 +3144,22 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0946" id="Drake Baby">
-    <Group>Drakes</Group>
+  <Object type="0x5554" id="New Drake Baby">
+    <Group>New Drakes</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rMid2</File>
-      <Index>6</Index>
+      <File>Rookie_8x8</File>
+      <Index>48</Index>
     </AnimatedTexture>
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
     <Size>80</Size>
     <MaxHitPoints>700</MaxHitPoints>
     <Defense>0</Defense>
-    <Exp>35</Exp>
+    <Exp>70</Exp>
     <BXP>166</BXP>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>3</RealmScore>
     <Projectile id="0">
       <ObjectId>Fire Missile</ObjectId>
@@ -3007,22 +3178,23 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0202" id="Red Spider">
+  <Object type="0x5555" id="New Red Spider">
     <Class>Character</Class>
-    <Texture>
-      <File>lofiChar8x8</File>
-      <Index>0xc9</Index>
-    </Texture>
+    <DisplayId>Lady Bug</DisplayId>
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>63</Index>
+    </AnimatedTexture>
     <HitSound>monster/spiders_hit</HitSound>
     <DeathSound>monster/spiders_death</DeathSound>
     <Size>50</Size>
     <MaxHitPoints>150</MaxHitPoints>
     <BXP>71</BXP>
     <Enemy />
-    <Exp>15</Exp>
+    <Exp>30</Exp>
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
@@ -3047,24 +3219,24 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0204" id="Black Bat">
-    <Group>Bats</Group>
+  <Object type="0x5556" id="New Black Bat">
+    <Group>New Bats</Group>
     <Class>Character</Class>
-    <Texture>
-      <File>lofiChar8x8</File>
-      <Index>0xcf</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>41</Index>
+    </AnimatedTexture>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
     <MaxHitPoints>50</MaxHitPoints>
     <BXP>23</BXP>
     <Enemy />
-    <Exp>5</Exp>
+    <Exp>10</Exp>
     <Size>50</Size>
     <Z>0.3</Z>
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
-    <Terrain>MidForest</Terrain>
+    <Terrain>Nature</Terrain>
     <RealmScore>3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
@@ -3090,7 +3262,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x646" id="Minotaur">
+  <Object type="0x5557" id="New Minotaur">
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -3102,13 +3274,13 @@
     <Size>100</Size>
     <MaxHitPoints>850</MaxHitPoints>
     <Defense>7</Defense>
-    <Terrain>HighSand</Terrain>
+    <Terrain>HighDesert</Terrain>
     <RealmScore>10</RealmScore>
     <God />
     <SpawnProb>0.75</SpawnProb>
     <Level>10</Level>
     <Quest />
-    <Exp>144</Exp>
+    <Exp>288</Exp>
     <BXP>684</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -3146,8 +3318,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x647" id="Flayer">
-    <Group>Flayers</Group>
+  <Object type="0x5558" id="New Flayer">
+    <Group>New Flayers</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -3160,7 +3332,7 @@
     <MaxHitPoints>140</MaxHitPoints>
     <Exp>0</Exp>
     <Defense>8</Defense>
-    <Terrain>HighSand</Terrain>
+    <Terrain>HighDesert</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
@@ -3178,8 +3350,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x648" id="Flayer Veteran">
-    <Group>Flayers</Group>
+  <Object type="0x5559" id="New Flayer Veteran">
+    <Group>New Flayers</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -3192,7 +3364,7 @@
     <MaxHitPoints>280</MaxHitPoints>
     <Exp>0</Exp>
     <Defense>0</Defense>
-    <Terrain>HighSand</Terrain>
+    <Terrain>HighDesert</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Purple Magic</ObjectId>
@@ -3210,22 +3382,22 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x649" id="Flayer God">
-    <Group>Flayers</Group>
+  <Object type="0x555A" id="New Flayer God">
+    <Group>New Flayers</Group>
     <Enemy />
     <Class>Character</Class>
-    <Texture>
-      <File>lofiChar16x16</File>
-      <Index>0x51</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
     <HitSound>monster/flayers_hit</HitSound>
     <DeathSound>monster/flayers_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1400</MaxHitPoints>
-    <Exp>280</Exp>
+    <Exp>560</Exp>
     <BXP>1330</BXP>
     <Defense>12</Defense>
-    <Terrain>HighSand</Terrain>
+    <Terrain>HighDesert</Terrain>
     <RealmScore>10</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <God />
@@ -3252,13 +3424,13 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0903" id="Flamer King">
-    <Group>Flamers</Group>
+  <Object type="0x555B" id="New Flamer King">
+    <Group>New Flamers</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rMid</File>
-      <Index>26</Index>
+      <File>Rookie_8x8</File>
+      <Index>12</Index>
     </AnimatedTexture>
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
@@ -3275,10 +3447,10 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Size>100</Size>
     <Defense>7</Defense>
-    <Exp>40</Exp>
+    <Exp>80</Exp>
     <BXP>190</BXP>
     <SpawnProb>1.0</SpawnProb>
-    <Terrain>HighSand</Terrain>
+    <Terrain>HighDesert</Terrain>
     <RealmScore>7</RealmScore>
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
@@ -3290,13 +3462,13 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0904" id="Flamer">
-    <Group>Flamers</Group>
+  <Object type="0x555C" id="New Flamer">
+    <Group>New Flamers</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rMid</File>
-      <Index>25</Index>
+      <File>Rookie_8x8</File>
+      <Index>13</Index>
     </AnimatedTexture>
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
@@ -3313,9 +3485,9 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Size>100</Size>
     <Defense>12</Defense>
-    <Exp>5</Exp>
+    <Exp>10</Exp>
     <BXP>23</BXP>
-    <Terrain>HighSand</Terrain>
+    <Terrain>HighDesert</Terrain>
     <RealmScore>7</RealmScore>
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
@@ -3327,10 +3499,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x63a" id="Undead Dwarf Warrior">
-    <Group>Undead Dwarves</Group>
+  <Object type="0x555D" id="New Undead Dwarf Warrior">
+    <Group>New Undead Dwarves</Group>
     <Enemy />
-    <Exp>25</Exp>
+    <Exp>50</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -3342,7 +3514,7 @@
     <MaxHitPoints>250</MaxHitPoints>
     <BXP>118</BXP>
     <Defense>7</Defense>
-    <Terrain>HighPlains</Terrain>
+    <Terrain>HigherPlains</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -3360,10 +3532,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x63b" id="Undead Dwarf Axebearer">
-    <Group>Undead Dwarves</Group>
+  <Object type="0x555E" id="New Undead Dwarf Axebearer">
+    <Group>New Undead Dwarves</Group>
     <Enemy />
-    <Exp>26</Exp>
+    <Exp>52</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rHigh</File>
@@ -3375,7 +3547,7 @@
     <MaxHitPoints>260</MaxHitPoints>
     <BXP>123</BXP>
     <Defense>7</Defense>
-    <Terrain>HighPlains</Terrain>
+    <Terrain>HigherPlains</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -3393,10 +3565,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x63c" id="Undead Dwarf Mage">
-    <Group>Undead Dwarves</Group>
+  <Object type="0x555F" id="New Undead Dwarf Mage">
+    <Group>New Undead Dwarves</Group>
     <Enemy />
-    <Exp>21</Exp>
+    <Exp>42</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -3408,7 +3580,7 @@
     <MaxHitPoints>210</MaxHitPoints>
     <BXP>99</BXP>
     <Defense>0</Defense>
-    <Terrain>HighPlains</Terrain>
+    <Terrain>HigherPlains</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Bolt</ObjectId>
@@ -3427,10 +3599,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x63e" id="Undead Dwarf King">
-    <Group>Undead Dwarves</Group>
+  <Object type="0x5560" id="New Undead Dwarf King">
+    <Group>New Undead Dwarves</Group>
     <Enemy />
-    <Exp>40</Exp>
+    <Exp>80</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -3442,7 +3614,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <BXP>190</BXP>
     <Defense>7</Defense>
-    <Terrain>HighPlains</Terrain>
+    <Terrain>HigherPlains</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -3460,10 +3632,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x63f" id="Soulless Dwarf">
-    <Group>Undead Dwarves</Group>
+  <Object type="0x5561" id="New Soulless Dwarf">
+    <Group>New Undead Dwarves</Group>
     <Enemy />
-    <Exp>25</Exp>
+    <Exp>50</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -3475,7 +3647,7 @@
     <MaxHitPoints>250</MaxHitPoints>
     <BXP>118</BXP>
     <Defense>11</Defense>
-    <Terrain>HighPlains</Terrain>
+    <Terrain>HigherPlains</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
@@ -3493,8 +3665,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x640" id="Undead Dwarf God">
-    <Group>Undead Dwarves</Group>
+  <Object type="0x5562" id="New Undead Dwarf God">
+    <Group>New Undead Dwarves</Group>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -3506,9 +3678,9 @@
     <Size>90</Size>
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>11</Defense>
-    <Exp>160</Exp>
+    <Exp>320</Exp>
     <BXP>760</BXP>
-    <Terrain>HighPlains</Terrain>
+    <Terrain>HigherPlains</Terrain>
     <RealmScore>10</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -3534,8 +3706,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0900" id="Shield Orc Key">
-    <Group>Shield Orcs</Group>
+  <Object type="0x5563" id="New Shield Orc Key">
+    <Group>New Shield Orcs</Group>
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Shield Orc Queen</DisplayId>
@@ -3556,9 +3728,9 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Size>100</Size>
     <Defense>0</Defense>
-    <Exp>160</Exp>
+    <Exp>320</Exp>
     <BXP>760</BXP>
-    <Terrain>HighPlains</Terrain>
+    <Terrain>HigherPlains</Terrain>
     <RealmScore>7</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <KillStat stat="HumanoidKills" />
@@ -3571,8 +3743,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0901" id="Shield Orc Flooder">
-    <Group>Shield Orcs</Group>
+  <Object type="0x5564" id="New Shield Orc Flooder">
+    <Group>New Shield Orcs</Group>
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Shield Orc King</DisplayId>
@@ -3593,9 +3765,9 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Size>100</Size>
     <Defense>10</Defense>
-    <Exp>120</Exp>
+    <Exp>240</Exp>
     <BXP>570</BXP>
-    <Terrain>HighPlains</Terrain>
+    <Terrain>HigherPlains</Terrain>
     <RealmScore>7</RealmScore>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
@@ -3608,8 +3780,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0902" id="Shield Orc Shield">
-    <Group>Shield Orcs</Group>
+  <Object type="0x5565" id="New Shield Orc Shield">
+    <Group>New Shield Orcs</Group>
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Shield Orc Warrior</DisplayId>
@@ -3630,9 +3802,9 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Size>100</Size>
     <Defense>0</Defense>
-    <Exp>120</Exp>
+    <Exp>240</Exp>
     <BXP>570</BXP>
-    <Terrain>HighPlains</Terrain>
+    <Terrain>HigherPlains</Terrain>
     <RealmScore>7</RealmScore>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
@@ -3644,11 +3816,11 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0957" id="Urgle">
-    <Group>Traptossers</Group>
+  <Object type="0x5566" id="New Urgle">
+    <Group>New Traptossers</Group>
     <Enemy />
     <Class>Character</Class>
-    <Terrain>HighPlains</Terrain>
+    <Terrain>HigherPlains</Terrain>
     <RealmScore>7</RealmScore>
     <AnimatedTexture>
       <File>chars16x16dEncounters</File>
@@ -3659,7 +3831,7 @@
     <MaxHitPoints>1600</MaxHitPoints>
     <Size>100</Size>
     <Defense>9</Defense>
-    <Exp>80</Exp>
+    <Exp>160</Exp>
     <BXP>380</BXP>
     <SpawnProb>1.00</SpawnProb>
     <Level>13</Level>
@@ -3682,9 +3854,9 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0958" id="Left Horizontal Trap">
+  <Object type="0x5567" id="New Left Horizontal Trap">
     <DisplayId>Trap Element</DisplayId>
-    <Group>AttackType</Group>
+    <Group>New AttackType</Group>
     <Class>Character</Class>
     <MaxHitPoints>100000</MaxHitPoints>
     <Defense>1000</Defense>
@@ -3695,7 +3867,7 @@
     <Size>100</Size>
     <StasisImmune />
     <Enemy />
-    <Exp>195</Exp>
+    <Exp>390</Exp>
     <Projectile id="1">
       <ObjectId>Web Thread</ObjectId>
       <Damage>20</Damage>
@@ -3736,9 +3908,9 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0959" id="Top Vertical Trap">
+  <Object type="0x5568" id="New Top Vertical Trap">
     <DisplayId>Trap Element</DisplayId>
-    <Group>AttackType</Group>
+    <Group>New AttackType</Group>
     <Class>Character</Class>
     <MaxHitPoints>100000</MaxHitPoints>
     <Defense>1000</Defense>
@@ -3749,7 +3921,7 @@
     <Size>100</Size>
     <StasisImmune />
     <Enemy />
-    <Exp>195</Exp>
+    <Exp>390</Exp>
     <Projectile id="1">
       <ObjectId>Web Thread</ObjectId>
       <Damage>20</Damage>
@@ -3790,9 +3962,9 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0960" id="45-225 Diagonal Trap">
+  <Object type="0x5569" id="New 45-225 Diagonal Trap">
     <DisplayId>Trap Element</DisplayId>
-    <Group>AttackType</Group>
+    <Group>New AttackType</Group>
     <Class>Character</Class>
     <MaxHitPoints>100000</MaxHitPoints>
     <Defense>1000</Defense>
@@ -3803,7 +3975,7 @@
     <Size>100</Size>
     <StasisImmune />
     <Enemy />
-    <Exp>195</Exp>
+    <Exp>390</Exp>
     <Projectile id="1">
       <ObjectId>Web Thread</ObjectId>
       <Damage>20</Damage>
@@ -3844,9 +4016,9 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0961" id="135-315 Diagonal Trap">
+  <Object type="0x556A" id="New 135-315 Diagonal Trap">
     <DisplayId>Trap Element</DisplayId>
-    <Group>AttackType</Group>
+    <Group>New AttackType</Group>
     <Class>Character</Class>
     <MaxHitPoints>100000</MaxHitPoints>
     <Defense>1000</Defense>
@@ -3857,7 +4029,7 @@
     <Size>100</Size>
     <StasisImmune />
     <Enemy />
-    <Exp>195</Exp>
+    <Exp>390</Exp>
     <Projectile id="1">
       <ObjectId>Web Thread</ObjectId>
       <Damage>20</Damage>
@@ -3898,10 +4070,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x642" id="Ogre Mage">
-    <Group>Ogres</Group>
+  <Object type="0x556B" id="New Ogre Mage">
+    <Group>New Ogres</Group>
     <Enemy />
-    <Exp>30</Exp>
+    <Exp>60</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -3913,7 +4085,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <BXP>142</BXP>
     <Defense>7</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
@@ -3931,10 +4103,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x643" id="Ogre Warrior">
-    <Group>Ogres</Group>
+  <Object type="0x556C" id="New Ogre Warrior">
+    <Group>New Ogres</Group>
     <Enemy />
-    <Exp>27</Exp>
+    <Exp>54</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -3946,7 +4118,7 @@
     <MaxHitPoints>270</MaxHitPoints>
     <BXP>128</BXP>
     <Defense>7</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -3964,10 +4136,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x644" id="Ogre Wizard">
-    <Group>Ogres</Group>
+  <Object type="0x556D" id="New Ogre Wizard">
+    <Group>New Ogres</Group>
     <Enemy />
-    <Exp>30</Exp>
+    <Exp>60</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -3979,7 +4151,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <BXP>142</BXP>
     <Defense>7</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Bolt</ObjectId>
@@ -3998,7 +4170,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x645" id="Ogre King">
+  <Object type="0x556E" id="New Ogre King">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -4009,10 +4181,10 @@
     <DeathSound>monster/ogres_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>700</MaxHitPoints>
-    <Exp>160</Exp>
+    <Exp>320</Exp>
     <BXP>760</BXP>
     <Defense>7</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -4032,10 +4204,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x64a" id="Night Elf Archer">
-    <Group>Night Elves</Group>
+  <Object type="0x556F" id="New Night Elf Archer">
+    <Group>New Night Elves</Group>
     <Enemy />
-    <Exp>24</Exp>
+    <Exp>48</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -4047,7 +4219,7 @@
     <MaxHitPoints>240</MaxHitPoints>
     <BXP>114</BXP>
     <Defense>0</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Arrow</ObjectId>
@@ -4065,10 +4237,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x64b" id="Night Elf Warrior">
-    <Group>Night Elves</Group>
+  <Object type="0x5570" id="New Night Elf Warrior">
+    <Group>New Night Elves</Group>
     <Enemy />
-    <Exp>28</Exp>
+    <Exp>56</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -4080,7 +4252,7 @@
     <MaxHitPoints>280</MaxHitPoints>
     <BXP>133</BXP>
     <Defense>2</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -4098,10 +4270,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x64c" id="Night Elf Mage">
-    <Group>Night Elves</Group>
+  <Object type="0x5571" id="New Night Elf Mage">
+    <Group>New Night Elves</Group>
     <Enemy />
-    <Exp>22</Exp>
+    <Exp>44</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -4113,7 +4285,7 @@
     <MaxHitPoints>220</MaxHitPoints>
     <BXP>104</BXP>
     <Defense>0</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
@@ -4132,10 +4304,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x64d" id="Night Elf Veteran">
-    <Group>Night Elves</Group>
+  <Object type="0x5572" id="New Night Elf Veteran">
+    <Group>New Night Elves</Group>
     <Enemy />
-    <Exp>30</Exp>
+    <Exp>60</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -4147,7 +4319,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <BXP>142</BXP>
     <Defense>4</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Gold Arrow</ObjectId>
@@ -4167,10 +4339,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x64f" id="Night Elf King">
-    <Group>Night Elves</Group>
+  <Object type="0x5573" id="New Night Elf King">
+    <Group>New Night Elves</Group>
     <Enemy />
-    <Exp>18</Exp>
+    <Exp>36</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -4182,7 +4354,7 @@
     <MaxHitPoints>180</MaxHitPoints>
     <BXP>85</BXP>
     <Defense>5</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
@@ -4200,8 +4372,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x650" id="Lizard God">
-    <Group>Night Elves</Group>
+  <Object type="0x5574" id="New Lizard God">
+    <Group>New Night Elves</Group>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -4212,10 +4384,10 @@
     <DeathSound>monster/lizard_god_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>900</MaxHitPoints>
-    <Exp>160</Exp>
+    <Exp>320</Exp>
     <BXP>570</BXP>
     <Defense>12</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>10</RealmScore>
     <God />
     <SpawnProb>1.0</SpawnProb>
@@ -4236,7 +4408,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0206" id="Dragon Egg">
+  <Object type="0x5575" id="New Dragon Egg">
     <Class>Character</Class>
     <Texture>
       <File>lofiChar8x8</File>
@@ -4247,10 +4419,10 @@
     <MaxHitPoints>75</MaxHitPoints>
     <BXP>35</BXP>
     <Enemy />
-    <Exp>8</Exp>
+    <Exp>16</Exp>
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <SpawnProb>1.0</SpawnProb>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
@@ -4262,22 +4434,22 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0207" id="White Dragon Whelp">
+  <Object type="0x5576" id="New White Dragon Whelp">
     <Class>Character</Class>
     <Size>65</Size>
-    <Texture>
-      <File>lofiChar8x8</File>
-      <Index>0xe4</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>47</Index>
+    </AnimatedTexture>
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
     <MaxHitPoints>240</MaxHitPoints>
     <BXP>114</BXP>
     <Enemy />
-    <Exp>24</Exp>
+    <Exp>48</Exp>
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile>
       <ObjectId>Red Fire</ObjectId>
@@ -4296,22 +4468,22 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0208" id="Juvenile White Dragon">
+  <Object type="0x5577" id="New Juvenile White Dragon">
     <Class>Character</Class>
     <Size>90</Size>
-    <Texture>
-      <File>lofiChar16x8</File>
-      <Index>0x7c</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>23</Index>
+    </AnimatedTexture>
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
     <MaxHitPoints>300</MaxHitPoints>
     <BXP>142</BXP>
     <Enemy />
-    <Exp>30</Exp>
+    <Exp>60</Exp>
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile>
       <ObjectId>Red Fire</ObjectId>
@@ -4330,19 +4502,19 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0209" id="Adult White Dragon">
+  <Object type="0x5578" id="New Adult White Dragon">
     <Class>Character</Class>
     <Size>120</Size>
     <AnimatedTexture>
-      <File>chars16x16dMountains2</File>
-      <Index>3</Index>
+      <File>Rookie_16x16</File>
+      <Index>22</Index>
     </AnimatedTexture>
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
     <MaxHitPoints>400</MaxHitPoints>
-    <Exp>160</Exp>
+    <Exp>320</Exp>
     <BXP>760</BXP>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Enemy />
     <Projectile>
@@ -4363,7 +4535,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x3d24" id="Realm Manticore">
+  <Object type="0x5579" id="New Realm Manticore">
     <DisplayId>Manticore</DisplayId>
     <Class>Character</Class>
     <Size>100</Size>
@@ -4376,10 +4548,10 @@
     <MaxHitPoints>700</MaxHitPoints>
     <BXP>332</BXP>
     <Enemy />
-    <Exp>70</Exp>
+    <Exp>140</Exp>
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile>
       <ObjectId>Coffin Bullet</ObjectId>
@@ -4398,22 +4570,22 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x3d25" id="Hunter Centaur">
+  <Object type="0x557A" id="New Hunter Centaur">
     <Class>Character</Class>
     <Size>100</Size>
-    <Texture>
-      <File>lofiChar16x16</File>
-      <Index>0x6a</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>20</Index>
+    </AnimatedTexture>
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
     <MaxHitPoints>1200</MaxHitPoints>
-    <Exp>160</Exp>
+    <Exp>320</Exp>
     <BXP>760</BXP>
     <Enemy />
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>10</RealmScore>
     <SpawnProb>0.75</SpawnProb>
     <Level>12</Level>
@@ -4444,10 +4616,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x716a" id="Dark Elf Scout">
-    <Group>Dark Elves</Group>
+  <Object type="0x557B" id="New Dark Elf Scout">
+    <Group>New Dark Elves</Group>
     <Enemy />
-    <Exp>25</Exp>
+    <Exp>50</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -4459,7 +4631,7 @@
     <MaxHitPoints>250</MaxHitPoints>
     <BXP>118</BXP>
     <Defense>2</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Arrow</ObjectId>
@@ -4477,10 +4649,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x7fca" id="Dark Elf Swordsman">
-    <Group>Dark Elves</Group>
+  <Object type="0x557C" id="New Dark Elf Swordsman">
+    <Group>New Dark Elves</Group>
     <Enemy />
-    <Exp>34</Exp>
+    <Exp>68</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -4492,7 +4664,7 @@
     <MaxHitPoints>340</MaxHitPoints>
     <BXP>161</BXP>
     <Defense>5</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -4510,14 +4682,14 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x7fd5" id="Dark Elf Cleric">
-    <Group>Dark Elves</Group>
+  <Object type="0x557D" id="New Dark Elf Cleric">
+    <Group>New Dark Elves</Group>
     <Enemy />
-    <Exp>26</Exp>
+    <Exp>52</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>charsRookie8x8</File>
-      <Index>44</Index>
+      <File>Rookie_8x8</File>
+      <Index>1</Index>
     </AnimatedTexture>
     <HitSound>monster/elves_hit</HitSound>
     <DeathSound>monster/elves_death</DeathSound>
@@ -4525,7 +4697,7 @@
     <MaxHitPoints>260</MaxHitPoints>
     <BXP>123</BXP>
     <Defense>0</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Dark Gray Spinner</ObjectId>
@@ -4545,10 +4717,10 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x73cb" id="Dark Elf Royal Guard">
-    <Group>Dark Elves</Group>
+  <Object type="0x557E" id="New Dark Elf Royal Guard">
+    <Group>New Dark Elves</Group>
     <Enemy />
-    <Exp>45</Exp>
+    <Exp>90</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
@@ -4560,7 +4732,7 @@
     <MaxHitPoints>450</MaxHitPoints>
     <BXP>213</BXP>
     <Defense>2</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>7</RealmScore>
     <Projectile id="0">
       <ObjectId>Indigo Arrow</ObjectId>
@@ -4578,7 +4750,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x748f" id="Dark Elf Queen">
+  <Object type="0x557F" id="New Dark Elf Queen">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -4590,11 +4762,11 @@
     <Size>140</Size>
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>0</Defense>
-    <Terrain>HighForest</Terrain>
+    <Terrain>HigherForest</Terrain>
     <RealmScore>10</RealmScore>
     <Quest />
     <Level>14</Level>
-    <Exp>160</Exp>
+    <Exp>320</Exp>
     <BXP>760</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
@@ -4614,36 +4786,4 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x657b" id="Beer Trigger">
-    <Class>Character</Class>
-    <Enemy />
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <SpawnProb>0.2</SpawnProb>
-    <Terrain>HighForest</Terrain>
-    <PerRealmMax>2</PerRealmMax>
-    <Size>100</Size>
-    <ShadowSize>0</ShadowSize>
-    <NoMiniMap />
-    <Invincible />
-    <Labels>ENEMY,MINION</Labels>
-  </Object>
-  <Object type="0x5e25" id="Beer God">
-    <Enemy />
-    <Class>Character</Class>
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <TrackLoot />
-      ​
-      <AnimatedTexture><File>chars16x16rEncounters</File><Index>52</Index></AnimatedTexture><AltTexture id="1"><AnimatedTexture><File>chars16x16rEncounters</File><Index>53</Index></AnimatedTexture></AltTexture><HitSound>monster/lizard_god_hit</HitSound><DeathSound>monster/lizard_god_death</DeathSound><Size>-1</Size><MaxHitPoints>40000</MaxHitPoints><Defense>10</Defense><Terrain>HighForest</Terrain><RealmScore>7</RealmScore><Level>20</Level><Exp>4000</Exp><BXP>15000</BXP><SpawnProb>0.35</SpawnProb><PerRealmMax>2</PerRealmMax>
-      ​
-      <Projectile id="0"><ObjectId>Beer Barrel</ObjectId><Damage>125</Damage><Speed>85</Speed><Size>130</Size><LifetimeMS>1400</LifetimeMS><PassesCover /><ConditionEffect duration="2">Drunk</ConditionEffect></Projectile><Projectile id="1"><ObjectId>Beer Shockwave</ObjectId><Damage>100</Damage><Speed>55</Speed><Size>140</Size><PassesCover /><LifetimeMS>1200</LifetimeMS></Projectile><Projectile id="2"><ObjectId>Beer Punch</ObjectId><Damage>125</Damage><Speed>65</Speed><Size>130</Size><LifetimeMS>1500</LifetimeMS><ConditionEffect duration="2">Drunk</ConditionEffect></Projectile>
-      ​
-      ​
-      ​
-      ​
-      <KillStat stat="HumanoidKills" /><KillStat stat="GodKills" /><Labels>ENEMY,MINION,HUMANOID,GOD,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels><Presentation><Style id="SetAlt1"><StyleStep altTextureId="1">SetAltTexture</StyleStep></Style></Presentation><SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn><SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn><SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn><SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn><SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn><SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn><SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn></Object>
 </Objects>

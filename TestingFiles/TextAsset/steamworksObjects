@@ -5319,8 +5319,12 @@
     </Projectile>
     <KillStat stat="ConstructKills" />
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,HPSCALEONENTRY,STGEMDROP</Labels>
-    <SoulboundDust threshold="0.002" prob="0.38462" dustMin="34" dustMax="45" seasonalBonus="0.15" minLevel="10" maxLevel="10">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.465" dustMin="21" dustMax="28" seasonalBonus="0.15" minLevel="8" maxLevel="8">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="134" dustMax="313" seasonalBonus="0.15" minLevel="10" maxLevel="10">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="69" dustMax="160" seasonalBonus="0.15" minLevel="10" maxLevel="10">redDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.4" dustMin="45" dustMax="104" seasonalBonus="0.15" minLevel="10" maxLevel="10">purpleDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="118" dustMax="276" seasonalBonus="0.15" minLevel="8" maxLevel="8">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="58" dustMax="136" seasonalBonus="0.15" minLevel="8" maxLevel="8">redDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.4" dustMin="16" dustMax="38" seasonalBonus="0.15" minLevel="8" maxLevel="8">purpleDust</SoulboundDust>
     <SpecialSpawn category="Bis">Steamworks Portal Spawner</SpecialSpawn>
     <SpecialSpawn category="Chef">Double Cheeseburger Deluxe</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Automaton Egg</SpecialSpawn>
@@ -5342,6 +5346,7 @@
     <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
     <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
     <SpecialSpawn category="SteamworksEncore">Steamworks Portal Spawner</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep id="p1Idle">SetAnimation</StyleStep>
@@ -8128,7 +8133,7 @@
     <EnemyOccupySquare />
     <BlocksSight />
   </Object>
-  <Object type="0xC0F1" id="KSW Conveyor Shade Left">
+  <Object type="0x411" id="KSW Conveyor Shade Left">
     <Class>GameObject</Class>
     <Texture>
       <File>steamworksObjects8x8</File>

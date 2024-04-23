@@ -160,6 +160,7 @@
       <Speed>75</Speed>
       <LifetimeMS>2500</LifetimeMS>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="1" dustMax="3" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="15" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
@@ -180,6 +181,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Ultra Easy</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Scallywag Slurp Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0x683" id="Pirate Lieutenant">
     <Group>Cave Pirate Bosses</Group>

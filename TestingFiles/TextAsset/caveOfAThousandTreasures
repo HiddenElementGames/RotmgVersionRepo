@@ -553,6 +553,7 @@
       <LifetimeMS>3000</LifetimeMS>
       <Size>150</Size>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="7" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="25" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
@@ -573,6 +574,7 @@
     <SpecialSpawn category="Shiny_MID">Cloak of the Planewalker Shiny</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt2">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>

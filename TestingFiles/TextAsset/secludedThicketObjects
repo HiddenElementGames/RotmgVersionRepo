@@ -2370,6 +2370,8 @@
         </AnimatedTexture>
       </Frame>
     </Animation>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="65" dustMax="152" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="24" dustMax="56" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
@@ -2393,6 +2395,8 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Good Mask Spirit Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
+    <SpecialSpawn category="Oryxmania">Xolotl Arena Portal</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
     <Presentation>
       <Style id="SetAnimini">
         <StyleStep id="ini">SetAnimation</StyleStep>

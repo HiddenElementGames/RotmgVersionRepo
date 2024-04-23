@@ -121,6 +121,7 @@
       <ConditionEffect duration="15">Weak</ConditionEffect>
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="43" dustMax="99" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="50" />
     <KillStat stat="OryxKills" />
     <KillStat stat="GodKills" />
@@ -141,6 +142,7 @@
     <SpecialSpawn category="Souvenir_MID">Lethargic Sentience</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0x718f" id="Murderous Megamoth Deux">
     <DisplayId>Murderous Megamoth</DisplayId>

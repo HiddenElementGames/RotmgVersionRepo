@@ -1,0 +1,1900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0x5D0" id="Queen Bunny Chocolate Web">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x30</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x5D1" id="Queen Bunny Chocolate Wave">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x31</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x5D2" id="Queen Bunny Poison Chocolate">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x32</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x5D3" id="Queen Bunny Chocolate Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x33</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x5D4" id="Queen Bunny Chocolate Shockwave">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x34</Index>
+    </Texture>
+  </Object>
+  <Object type="0x5D5" id="Queen Bunny Spinning Egg">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x35</Index>
+    </Texture>
+    <Animation sync="true" prob="1" period="0.3">
+      <Frame time="0.1">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x35</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x36</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x37</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0x5D6" id="Queen Bunny Egg Blast">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x38</Index>
+    </Texture>
+  </Object>
+  <Object type="0x5D7" id="Queen Bunny Large Chocolate Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>queenBunnyObjects16x16</File>
+      <Index>0x4</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x597" id="Queen Alien Bunny">
+    <Group>Queen Bunny</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>queenBunnyChars16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>queenBunnyChars16x16</File>
+        <Index>2</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <Size>120</Size>
+    <ShadowSize>80</ShadowSize>
+    <MaxHitPoints>80000</MaxHitPoints>
+    <Defense>35</Defense>
+    <Exp>10000</Exp>
+    <BXP>50000</BXP>
+    <Quest />
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <EventChestBoss />
+    <TrackLoot />
+    <AlwaysPositiveHealth />
+    <Projectile id="1">
+      <ObjectId>Queen Bunny Spinning Egg</ObjectId>
+      <Damage>105</Damage>
+      <Speed>0</Speed>
+      <Acceleration>1000</Acceleration>
+      <AccelerationDelay>1400</AccelerationDelay>
+      <SpeedClamp>90</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Queen Bunny Spinning Egg</ObjectId>
+      <Damage>105</Damage>
+      <Speed>0</Speed>
+      <Acceleration>1000</Acceleration>
+      <AccelerationDelay>1300</AccelerationDelay>
+      <SpeedClamp>90</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Queen Bunny Spinning Egg</ObjectId>
+      <Damage>105</Damage>
+      <Speed>0</Speed>
+      <Acceleration>1000</Acceleration>
+      <AccelerationDelay>1200</AccelerationDelay>
+      <SpeedClamp>90</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Queen Bunny Spinning Egg</ObjectId>
+      <Damage>105</Damage>
+      <Speed>0</Speed>
+      <Acceleration>1000</Acceleration>
+      <AccelerationDelay>1100</AccelerationDelay>
+      <SpeedClamp>90</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Queen Bunny Spinning Egg</ObjectId>
+      <Damage>105</Damage>
+      <Speed>0</Speed>
+      <Acceleration>1000</Acceleration>
+      <AccelerationDelay>1200</AccelerationDelay>
+      <SpeedClamp>90</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Queen Bunny Spinning Egg</ObjectId>
+      <Damage>105</Damage>
+      <Speed>0</Speed>
+      <Acceleration>1000</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>90</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Queen Bunny Spinning Egg</ObjectId>
+      <Damage>105</Damage>
+      <Speed>0</Speed>
+      <Acceleration>1000</Acceleration>
+      <AccelerationDelay>900</AccelerationDelay>
+      <SpeedClamp>90</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Queen Bunny Spinning Egg</ObjectId>
+      <Damage>105</Damage>
+      <Speed>0</Speed>
+      <Acceleration>1000</Acceleration>
+      <AccelerationDelay>800</AccelerationDelay>
+      <SpeedClamp>90</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Queen Bunny Poison Chocolate</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>43.08131846</Speed>
+      <LifetimeMS>6240</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Queen Bunny Poison Chocolate</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>46.64761516</Speed>
+      <LifetimeMS>6240</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Queen Bunny Poison Chocolate</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>51.22499390</Speed>
+      <LifetimeMS>6240</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Queen Bunny Poison Chocolate</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>56.56854249</Speed>
+      <LifetimeMS>6240</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Queen Bunny Poison Chocolate</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>43.08131846</Speed>
+      <LifetimeMS>6240</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>Queen Bunny Poison Chocolate</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>46.64761516</Speed>
+      <LifetimeMS>6240</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="15">
+      <ObjectId>Queen Bunny Poison Chocolate</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>51.22499390</Speed>
+      <LifetimeMS>6240</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="16">
+      <ObjectId>Queen Bunny Poison Chocolate</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>56.56854249</Speed>
+      <LifetimeMS>6240</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="17">
+      <ObjectId>Queen Bunny Chocolate Wave</ObjectId>
+      <Damage>125</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+    </Projectile>
+    <Projectile id="18">
+      <ObjectId>Queen Bunny Chocolate Wave</ObjectId>
+      <Damage>105</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <ArmorPiercing />
+      <TurnRate>90</TurnRate>
+    </Projectile>
+    <Projectile id="19">
+      <ObjectId>Queen Bunny Large Chocolate Shot</ObjectId>
+      <Damage>140</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <ArmorPiercing />
+      <Size>160</Size>
+    </Projectile>
+    <Projectile id="20">
+      <ObjectId>Egg Basher Head</ObjectId>
+      <Speed>75</Speed>
+      <Damage>125</Damage>
+      <LifetimeMS>6000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="21">
+      <ObjectId>Caramel Spellblade Tip</ObjectId>
+      <Speed>100</Speed>
+      <Damage>100</Damage>
+      <LifetimeMS>6000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="22">
+      <ObjectId>Queen Bunny Chocolate Web</ObjectId>
+      <Damage>140</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <ArmorPiercing />
+      <Size>160</Size>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <HealthBarBoss radius="30" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,BOSS,GOD,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY</Labels>
+  </Object>
+  <Object type="0x598" id="Queen Alien Egglayer">
+    <Group>Easter Alien</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>queenBunnyChars16x16</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flaming_skulls_hit</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <Size>120</Size>
+    <ShadowSize>60</ShadowSize>
+    <MaxHitPoints>4125</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>500</Exp>
+    <BXP>2375</BXP>
+    <Projectile id="0">
+      <ObjectId>Queen Bunny Egg Blast</ObjectId>
+      <Damage>75</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>90</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x590" id="Queen Alien Sharp Eggs">
+    <Class>GameObject</Class>
+    <DisplayId>Jagged Eggs</DisplayId>
+    <RandomTexture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x1F</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x20</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x21</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x22</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x23</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x24</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x25</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x26</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x27</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x28</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x29</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x2A</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x2B</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x2C</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x2D</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x2E</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>70</Size>
+    <DrawOnGround />
+    <Enemy />
+    <Invincible />
+  </Object>
+  <Object type="0x591" id="Bunny Centipede">
+    <Group>Easter Alien</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>queenBunnyChars16x16</File>
+        <Index>3</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/dwarves_hit</DeathSound>
+    <Size>90</Size>
+    <ShadowSize>60</ShadowSize>
+    <MaxHitPoints>5500</MaxHitPoints>
+    <Defense>35</Defense>
+    <Exp>150</Exp>
+    <BXP>712</BXP>
+    <Flying />
+    <StasisImmune />
+    <SlowImmune />
+    <Z>0.25</Z>
+    <Projectile id="0">
+      <ObjectId>Queen Bunny Chocolate Shot</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x592" id="Bunny Boss Spawner">
+    <Class>GameObject</Class>
+    <DisplayId>Kogbold Hoarder</DisplayId>
+    <Texture>
+      <File>spiderDenObjects8x8</File>
+      <Index>0x10e</Index>
+    </Texture>
+    <Size>-1</Size>
+  </Object>
+  <Object type="0x593" id="Slime Grenade">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x594" id="Slime Shrapnel">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x595" id="Easter Rusher">
+    <Group>Easter Alien</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>queenBunnyChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/skull_shrine_hit</HitSound>
+    <DeathSound>spell/light_heal</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>500</Exp>
+    <BXP>2375</BXP>
+    <Projectile id="0">
+      <ObjectId>Queen Bunny Chocolate Shockwave</ObjectId>
+      <Damage>150</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x599" id="Easter Egg Enraged Bunny Egg">
+    <Enemy />
+    <Class>Character</Class>
+    <RandomTexture>
+      <Texture>
+        <File>queenBunnyObjects16x16</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects16x16</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects16x16</File>
+        <Index>0x2</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects16x16</File>
+        <Index>0x3</Index>
+      </Texture>
+    </RandomTexture>
+    <MinSize>70</MinSize>
+    <MaxSize>80</MaxSize>
+    <SizeStep>2</SizeStep>
+    <MaxHitPoints>400</MaxHitPoints>
+    <Exp>0</Exp>
+    <HitSound>monster/eggs_hit</HitSound>
+    <DeathSound>monster/eggs_death</DeathSound>
+    <Sound id="0">monster/eggs_death</Sound>
+  </Object>
+  <Object type="0x59A" id="Easily Enraged Bunny Spawn">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>queenBunnyChars16x16</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/night_elves_hit</HitSound>
+    <DeathSound>monster/night_elves_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>400</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>0</Exp>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x59B" id="Enraged Bunny Spawn">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>queenBunnyChars16x16</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/night_elves_hit</HitSound>
+    <DeathSound>monster/night_elves_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>1</Defense>
+    <Exp>6</Exp>
+    <BXP>28</BXP>
+    <Projectile id="0">
+      <ObjectId>Chocolate Ovipositor Shots</ObjectId>
+      <Damage>100</Damage>
+      <Speed>70</Speed>
+      <Size>90</Size>
+      <LifetimeMS>1600</LifetimeMS>
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x59C" id="Bunny Boss Waypoint 1">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x59D" id="Bunny Boss Waypoint 2">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x59E" id="Bunny Boss Waypoint 3">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x59F" id="Bunny Boss Waypoint 4">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5A0" id="Bunny Boss Waypoint 5">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5A1" id="Bunny Boss Waypoint 6">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5A2" id="Bunny Boss Waypoint 7">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5A3" id="Bunny Boss Waypoint 8">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5A4" id="Bunny Boss Waypoint 9">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5A5" id="Bunny Boss Waypoint 10">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5A6" id="Bunny Boss Waypoint 11">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5A7" id="Bunny Boss Waypoint 12">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5A8" id="Bunnypede Head">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>queenBunnyChars16x16</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/dwarf_god_hit</HitSound>
+    <DeathSound>player/paladin_death</DeathSound>
+    <Size>100</Size>
+    <ShadowSize>80</ShadowSize>
+    <MaxHitPoints>11250</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>5000</Exp>
+    <BXP>25000</BXP>
+    <God />
+    <Quest />
+    <StasisImmune />
+    <SlowImmune />
+    <TrackLoot />
+    <Projectile id="0">
+      <ObjectId>Queen Bunny Large Chocolate Shot</ObjectId>
+      <Damage>125</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>3400</LifetimeMS>
+      <Size>120</Size>
+      <Amplitude>0.4</Amplitude>
+      <Frequency>0.2</Frequency>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,NATURE,GOD,STASISIMMUNE,TRACKLOOT</Labels>
+  </Object>
+  <Object type="0x5A9" id="Bunnypede Body">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>queenBunnyChars16x16</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/dwarves_hit</DeathSound>
+    <Size>70</Size>
+    <ShadowSize>60</ShadowSize>
+    <MaxHitPoints>3500</MaxHitPoints>
+    <Defense>35</Defense>
+    <Exp>150</Exp>
+    <BXP>712</BXP>
+    <Flying />
+    <StasisImmune />
+    <SlowImmune />
+    <Z>0.25</Z>
+    <Projectile id="0">
+      <ObjectId>Queen Bunny Chocolate Shot</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x5AA" id="Easter Rolling Egg">
+    <DisplayId>Eggsploding Egg</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>queenBunnyObjects16x16</File>
+      <Index>0x5</Index>
+    </Texture>
+    <Animation prob="1" period="0" id="Roll">
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0x5</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0x6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0x7</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0x8</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="RollAnim">
+        <StyleStep id="Roll" loop="10" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>100</Size>
+    <Invincible />
+    <SetStyle>RollAnim</SetStyle>
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x5C3" id="Easter Chamber Wall">
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x3</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x4</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x5</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x6</Index>
+        </Texture>
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x7</Index>
+        </Texture>
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x8</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x5C4" id="Easter Chamber Wall Eyes">
+    <Class>Wall</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x14</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x6</Index>
+        </Texture>
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x7</Index>
+        </Texture>
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x8</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Animation prob="0.2" period="3">
+      <Frame time="1.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x14</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x15</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x17</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x18</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x19</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x1A</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x1B</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x1C</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x1D</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x1E</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x5C5" id="Easter Chamber Floor Eye 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0xB</Index>
+    </Texture>
+    <Animation prob="1" period="3">
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xC</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xD</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xE</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xF</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x13</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x5C6" id="Easter Chamber Floor Eye 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0xB</Index>
+    </Texture>
+    <Animation prob="1" period="3">
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xC</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xD</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xE</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xF</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x13</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x5C7" id="Easter Chamber Floor Eye 3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0xB</Index>
+    </Texture>
+    <Animation prob="1" period="3">
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xC</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xD</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xE</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xF</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x13</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x5C8" id="Easter Chamber Floor Eye 4">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0xB</Index>
+    </Texture>
+    <Animation prob="1" period="3">
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xC</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xD</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xE</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xF</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x13</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x5C9" id="Easter Chamber Floor Eye 5">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0xB</Index>
+    </Texture>
+    <Animation prob="1" period="3">
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xD</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xE</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xF</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0x13</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>queenBunnyObjects8x8</File>
+          <Index>0xC</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x5D8" id="Bunny Boss Charging Waypoint 1">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5D9" id="Bunny Boss Charging Waypoint 2">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5DA" id="Bunny Boss Charging Waypoint 3">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5DB" id="Bunny Boss Charging Waypoint 4">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5DC" id="Bunny Boss Charging Waypoint 5">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5DD" id="Bunny Boss Charging Waypoint 6">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5DE" id="Bunny Boss Charging Waypoint 7">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5DF" id="Bunny Boss Charging Waypoint 8">
+    <Class>Character</Class>
+    <Group>Desert Ruins</Group>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x5E0" id="Bunny Boss Rusher Spawner">
+    <Class>GameObject</Class>
+    <DisplayId>Kogbold Hoarder</DisplayId>
+    <Texture>
+      <File>spiderDenObjects8x8</File>
+      <Index>0x10e</Index>
+    </Texture>
+    <Size>-1</Size>
+  </Object>
+  <Object type="0x5E1" id="Queen Bunny Corpse">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>queenBunnyObjects16x16</File>
+      <Index>0x16</Index>
+    </Texture>
+    <Size>120</Size>
+    <Animation period="0" prob="1" id="despawn">
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0xA</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0xB</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0xC</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0xD</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0xE</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0xF</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0x10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0x11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0x12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0x13</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0x14</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x16</File>
+          <Index>0x15</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="DespawnAnim">
+        <StyleStep id="despawn" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x5E2" id="Bunny Centipede Tail">
+    <Group>Easter Alien</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>queenBunnyChars16x16</File>
+        <Index>4</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/dwarves_hit</DeathSound>
+    <Size>70</Size>
+    <ShadowSize>60</ShadowSize>
+    <MaxHitPoints>5500</MaxHitPoints>
+    <Defense>35</Defense>
+    <Exp>150</Exp>
+    <BXP>712</BXP>
+    <Flying />
+    <StasisImmune />
+    <SlowImmune />
+    <Z>0.25</Z>
+    <Projectile id="0">
+      <ObjectId>Queen Bunny Chocolate Shot</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x5E3" id="Bunnypede Body Tail">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>queenBunnyChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/dwarves_hit</DeathSound>
+    <Size>50</Size>
+    <ShadowSize>60</ShadowSize>
+    <MaxHitPoints>3500</MaxHitPoints>
+    <Defense>35</Defense>
+    <Exp>150</Exp>
+    <BXP>712</BXP>
+    <Flying />
+    <StasisImmune />
+    <SlowImmune />
+    <Z>0.25</Z>
+    <Projectile id="0">
+      <ObjectId>Queen Bunny Chocolate Shot</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x5E4" id="Easter Chamber Stalactite">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects16x32</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Animation prob="0.3" period="1.2">
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x32</File>
+          <Index>0x0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x32</File>
+          <Index>0x1</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x32</File>
+          <Index>0x2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x32</File>
+          <Index>0x3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x32</File>
+          <Index>0x4</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x32</File>
+          <Index>0x5</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x32</File>
+          <Index>0x6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>queenBunnyObjects16x32</File>
+          <Index>0x7</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <ShadowSize>10</ShadowSize>
+  </Object>
+  <Object type="0x5E5" id="Easter Chamber Nest 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x3B</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x5E6" id="Easter Chamber Nest 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x3C</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x5E7" id="Easter Chamber Nest 3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x3D</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x5E8" id="Easter Chamber Nest 4">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x3E</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x5EA" id="Easter Chamber Nest 6">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x40</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x5EB" id="Easter Chamber Nest 7">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x41</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x5EC" id="Easter Chamber Nest 8">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x42</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x5ED" id="Easter Chamber Nest 9">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x43</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x5E9" id="Easter Chamber Rocks">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x44</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x45</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x46</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x47</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <ShadowSize>10</ShadowSize>
+  </Object>
+  <Object type="0x5EE" id="Easter Chamber Bones">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x48</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x49</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <ShadowSize>10</ShadowSize>
+  </Object>
+  <Object type="0x5EF" id="Easter Chamber Stalacmites">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x4A</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x4B</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x4C</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Static />
+    <ShadowSize>10</ShadowSize>
+  </Object>
+</Objects>

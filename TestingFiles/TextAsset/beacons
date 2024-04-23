@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object id="Realm Enemy Barrier" type="0xCECA">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiObj</File>
+      <Index>517</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <BlockEnemyMovement />
+  </Object>
+  <Object id="Active Beacon Shore" type="0xCECB">
+    <DisplayId>Shores Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Forest" type="0xCECC">
+    <DisplayId>Forest Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>1</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Undead Forest" type="0xCECD">
+    <DisplayId>Gloomy Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>2</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Desert" type="0xCECE">
+    <DisplayId>Arid Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>3</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Plains" type="0xCECF">
+    <DisplayId>Plains Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>4</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Abandoned City" type="0xCED0">
+    <DisplayId>Abandoned Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>5</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Coral Reefs" type="0xCED1">
+    <DisplayId>Oceanic Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>6</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Dead Church" type="0xCED2">
+    <DisplayId>Gothic Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>7</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Haunted Hallows" type="0xCED3">
+    <DisplayId>Haunted Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>8</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Risen Hell" type="0xCED4">
+    <DisplayId>Hell Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>9</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Shipwreck Cove" type="0xCED5">
+    <DisplayId>Shipwrecked Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>10</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Sprite Forest" type="0xCED6">
+    <DisplayId>Fey Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>11</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Carboniferous" type="0xCED7">
+    <DisplayId>Prehistoric Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>12</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Deep Sea Abyss" type="0xCED8">
+    <DisplayId>Abyssal Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>13</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Floral Escape" type="0xCED9">
+    <DisplayId>Floral Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>14</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Sanguine Forest" type="0xCEDA">
+    <DisplayId>Sanguine Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>15</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Active Beacon Runic Tundra" type="0xCEDB">
+    <DisplayId>Frozen Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>16</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Captured Beacon Shore" type="0xCEDC">
+    <DisplayId>Captured Shores Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+  </Object>
+  <Object id="Captured Beacon Forest" type="0xCEDD">
+    <DisplayId>Captured Forest Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>1</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+  </Object>
+  <Object id="Captured Beacon Undead Forest" type="0xCEDE">
+    <DisplayId>Captured Gloomy Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>2</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+  </Object>
+  <Object id="Captured Beacon Desert" type="0xCEDF">
+    <DisplayId>Captured Arid Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>3</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+  </Object>
+  <Object id="Captured Beacon Plains" type="0xCEE0">
+    <DisplayId>Captured Plains Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>4</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+  </Object>
+  <Object id="Captured Beacon Abandoned City" type="0xCEE1">
+    <DisplayId>Captured Abandoned Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>5</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>O3 Red Glaive</ObjectId>
+      <Damage>50</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4500</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="Captured Beacon Coral Reefs" type="0xCEE2">
+    <DisplayId>Captured Reefs Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>6</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>Sea Horse Spinner</ObjectId>
+      <Damage>80</Damage>
+      <Speed>30</Speed>
+      <Size>100</Size>
+      <LifetimeMS>6200</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object id="Captured Beacon Dead Church" type="0xCEE3">
+    <DisplayId>Captured Gothic Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>7</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>O3 White Big Spinner MRot</ObjectId>
+      <Damage>100</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>4500</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+  </Object>
+  <Object id="Captured Beacon Haunted Hallows" type="0xCEE4">
+    <DisplayId>Captured Haunted Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>8</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>O3 White Big Spinner MRot</ObjectId>
+      <Damage>80</Damage>
+      <Speed>20</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+  </Object>
+  <Object id="Captured Beacon Risen Hell" type="0xCEE5">
+    <DisplayId>Captured Hell Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>9</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>Flame Twirl</ObjectId>
+      <Speed>40</Speed>
+      <Damage>100</Damage>
+      <LifetimeMS>7000</LifetimeMS>
+      <TurnRate>80</TurnRate>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Flame Twirl</ObjectId>
+      <Speed>40</Speed>
+      <Damage>100</Damage>
+      <LifetimeMS>7000</LifetimeMS>
+      <TurnRate>-80</TurnRate>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object id="Captured Beacon Shipwreck Cove" type="0xCEE6">
+    <DisplayId>Captured Shipwrecked Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>10</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>Giant Cannonball</ObjectId>
+      <Damage>80</Damage>
+      <Speed>70</Speed>
+      <Size>140</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object id="Captured Beacon Sprite Forest" type="0xCEE7">
+    <DisplayId>Captured Fey Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>11</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>Black Sprite Line</ObjectId>
+      <Damage>80</Damage>
+      <Speed>10</Speed>
+      <Acceleration>200</Acceleration>
+      <AccelerationDelay>2600</AccelerationDelay>
+      <SpeedClamp>60</SpeedClamp>
+      <LifetimeMS>4500</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+  </Object>
+  <Object id="Captured Beacon Carboniferous" type="0xCEE8">
+    <DisplayId>Captured Prehistoric Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>12</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+  </Object>
+  <Object id="Captured Beacon Deep Sea Abyss" type="0xCEE9">
+    <DisplayId>Captured Abyssal Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>13</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+  </Object>
+  <Object id="Captured Beacon Floral Escape" type="0xCEEA">
+    <DisplayId>Captured Floral Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>14</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+  </Object>
+  <Object id="Captured Beacon Sanguine Forest" type="0xCEEB">
+    <DisplayId>Captured Sanguine Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>15</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+  </Object>
+  <Object id="Captured Beacon Runic Tundra" type="0xCEEC">
+    <DisplayId>Captured Frozen Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>16</Index>
+    </Texture>
+    <Size>140</Size>
+    <Exp>0</Exp>
+    <Invincible />
+  </Object>
+  <Object id="Teleport Beacon Shore" type="0xCEED">
+    <DisplayId>Beach Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x7FFFFF</Color>
+    <MinimapIcon color="0x7FFFFF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Forest" type="0xCEEE">
+    <DisplayId>Forest Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x7FFFFF</Color>
+    <MinimapIcon color="0x7FFFFF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Undead Forest" type="0xCEEF">
+    <DisplayId>Undead Forest Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x7FFFFF</Color>
+    <MinimapIcon color="0x7FFFFF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Desert" type="0xCEF0">
+    <DisplayId>Desert Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x7FFFFF</Color>
+    <MinimapIcon color="0x7FFFFF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Plains" type="0xCEF1">
+    <DisplayId>Plains Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x7FFFFF</Color>
+    <MinimapIcon color="0x7FFFFF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Abandoned City" type="0xCEF2">
+    <DisplayId>Abandoned City Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x3BAAFF</Color>
+    <MinimapIcon color="0x3BAAFF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Coral Reefs" type="0xCEF3">
+    <DisplayId>Coral Reefs Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x3BAAFF</Color>
+    <MinimapIcon color="0x3BAAFF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Dead Church" type="0xCEF4">
+    <DisplayId>Dead Church Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x3BAAFF</Color>
+    <MinimapIcon color="0x3BAAFF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Haunted Hallows" type="0xCEF5">
+    <DisplayId>Haunted Hallows Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x3BAAFF</Color>
+    <MinimapIcon color="0x3BAAFF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Risen Hell" type="0xCEF6">
+    <DisplayId>Risen Hell Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x3BAAFF</Color>
+    <MinimapIcon color="0x3BAAFF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Shipwreck Cove" type="0xCEF7">
+    <DisplayId>Shipwreck Cove Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x3BAAFF</Color>
+    <MinimapIcon color="0x3BAAFF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Sprite Forest" type="0xCEF8">
+    <DisplayId>Sprite Forest Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x3BAAFF</Color>
+    <MinimapIcon color="0x3BAAFF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Carboniferous" type="0xCEF9">
+    <DisplayId>Carboniferous Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x0655FF</Color>
+    <MinimapIcon color="0x0655FF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Deep Sea Abyss" type="0xCEFA">
+    <DisplayId>Deep Sea Abyss Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x0655FF</Color>
+    <MinimapIcon color="0x0655FF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Floral Escape" type="0xCEFB">
+    <DisplayId>Floral Escape Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x0655FF</Color>
+    <MinimapIcon color="0x0655FF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Sanguine Forest" type="0xCEFC">
+    <DisplayId>Sanguine Forest Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x0655FF</Color>
+    <MinimapIcon color="0x0655FF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Teleport Beacon Runic Tundra" type="0xCEFD">
+    <DisplayId>Runic Tundra Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>lofiObj</File>
+      <Index>456</Index>
+    </Texture>
+    <Color>0x0655FF</Color>
+    <MinimapIcon color="0x0655FF" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
+  <Object id="Beacon Guardian Shore" type="0xCEFE">
+    <DisplayId>Legion Beach Guard</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>66</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>800</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>250</Exp>
+    <BXP>1250</BXP>
+    <StasisImmune />
+    <Projectile>
+      <ObjectId>UDL White Slash</ObjectId>
+      <Damage>25</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Forest" type="0xCEFF">
+    <DisplayId>Legion Forest Guard</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>64</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>800</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>250</Exp>
+    <BXP>1250</BXP>
+    <StasisImmune />
+    <Projectile>
+      <ObjectId>UDL White Slash</ObjectId>
+      <Damage>25</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Undead Forest" type="0xCF00">
+    <DisplayId>Legion Undead Forest Guard</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>64</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>2400</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>250</Exp>
+    <BXP>1250</BXP>
+    <StasisImmune />
+    <Projectile>
+      <ObjectId>UDL White Slash</ObjectId>
+      <Damage>40</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Desert" type="0xCF01">
+    <DisplayId>Legion Desert Guard</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>65</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>2400</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>250</Exp>
+    <BXP>1250</BXP>
+    <StasisImmune />
+    <Projectile>
+      <ObjectId>UDL White Slash</ObjectId>
+      <Damage>40</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Plains" type="0xCF02">
+    <DisplayId>Legion Plains Guard</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>66</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>7200</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>250</Exp>
+    <BXP>1250</BXP>
+    <StasisImmune />
+    <Projectile>
+      <ObjectId>UDL White Slash</ObjectId>
+      <Damage>55</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Abandoned City" type="0xCF03">
+    <DisplayId>Legion City Guardian</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>33</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>18000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>2500</Exp>
+    <BXP>12500</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>O3 Pike</ObjectId>
+      <Damage>40</Damage>
+      <Speed>60</Speed>
+      <Size>160</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 Pike</ObjectId>
+      <Damage>40</Damage>
+      <Speed>50</Speed>
+      <Size>140</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>O3 Pike</ObjectId>
+      <Damage>40</Damage>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>O3 Claymore</ObjectId>
+      <Damage>75</Damage>
+      <Speed>40</Speed>
+      <Acceleration>-200</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Size>100</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Coral Reefs" type="0xCF04">
+    <DisplayId>Legion Reef Guardian</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>oryxSanctuaryChars16x16</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>18000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>2500</Exp>
+    <BXP>12500</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Villager Silver Dagger</ObjectId>
+      <Damage>60</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>-40</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+      <SpeedClamp>20</SpeedClamp>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Villager Gold Dagger</ObjectId>
+      <Damage>80</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <Acceleration>-200</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Dead Church" type="0xCF05">
+    <DisplayId>Legion Church Guardian</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>39</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>18000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>2500</Exp>
+    <BXP>12500</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>O3 Green Big Shockwave</ObjectId>
+      <Damage>40</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>160</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 Green Big Shockwave</ObjectId>
+      <Damage>75</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Dead Church Minion" type="0xCF06">
+    <DisplayId>Reanimated Legion Minion</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_8x8</File>
+      <Index>70</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/mummies_hit</HitSound>
+    <DeathSound>monster/mummies_death</DeathSound>
+    <MaxHitPoints>360</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <Projectile id="0">
+      <ObjectId>O3 Red Stake</ObjectId>
+      <Damage>50</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Haunted Hallows" type="0xCF07">
+    <DisplayId>Legion Graveyard Guardian</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>44</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>18000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>2500</Exp>
+    <BXP>12500</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Accursed Villager Arrow</ObjectId>
+      <Speed>70</Speed>
+      <Damage>60</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Guard Arrow Orange</ObjectId>
+      <Speed>60</Speed>
+      <Damage>100</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>140</Size>
+      <MultiHit />
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Risen Hell" type="0xCF08">
+    <DisplayId>Legion Hell Guardian</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>38</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>18000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>2500</Exp>
+    <BXP>12500</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>O3 Red Stake</ObjectId>
+      <Damage>80</Damage>
+      <Speed>20</Speed>
+      <Acceleration>200</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <LifetimeMS>4500</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 Red Big Shockwave</ObjectId>
+      <Damage>40</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <SpeedClamp>50</SpeedClamp>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+      <Size>140</Size>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Shipwreck Cove" type="0xCF09">
+    <DisplayId>Legion Cove Guardian</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>43</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>18000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>2500</Exp>
+    <BXP>12500</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Deadwater Flintlock Shot</ObjectId>
+      <Damage>60</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Bilgewater Cutlass</ObjectId>
+      <Damage>60</Damage>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Sprite Forest" type="0xCF0A">
+    <DisplayId>Legion Fey Guardian</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>42</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>18000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>2500</Exp>
+    <BXP>12500</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>O3 Battleaxe MRot</ObjectId>
+      <Damage>80</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>-200</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Size>160</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 Battleaxe MRot</ObjectId>
+      <Damage>80</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>-200</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Size>160</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>O3 Battleaxe MRot</ObjectId>
+      <Damage>80</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>-200</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Size>160</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>O3 White Big Spinner MRot</ObjectId>
+      <Damage>40</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>8000</LifetimeMS>
+      <MultiHit />
+      <Boomerang />
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Carboniferous" type="0xCF0B">
+    <DisplayId>Legion Prehistoric Defender</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>33</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>36000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>7500</Exp>
+    <BXP>37500</BXP>
+    <StasisImmune />
+    <Projectile>
+      <ObjectId>O3 White Slash</ObjectId>
+      <Damage>120</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Deep Sea Abyss" type="0xCF0C">
+    <DisplayId>Legion Abyssal Defender</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>oryxSanctuaryChars16x16</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>36000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>7500</Exp>
+    <BXP>37500</BXP>
+    <StasisImmune />
+    <Projectile>
+      <ObjectId>O3 White Slash</ObjectId>
+      <Damage>120</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Floral Escape" type="0xCF0D">
+    <DisplayId>Legion Floral Defender</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>37</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>36000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>7500</Exp>
+    <BXP>37500</BXP>
+    <StasisImmune />
+    <Projectile>
+      <ObjectId>O3 White Slash</ObjectId>
+      <Damage>120</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Sanguine Forest" type="0xCF0E">
+    <DisplayId>Legion Sanguine Defender</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>34</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>36000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>7500</Exp>
+    <BXP>37500</BXP>
+    <StasisImmune />
+    <Projectile>
+      <ObjectId>O3 White Slash</ObjectId>
+      <Damage>120</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Runic Tundra" type="0xCF0F">
+    <DisplayId>Legion Tundra Defender</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>38</Index>
+    </AnimatedTexture>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>36000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>7500</Exp>
+    <BXP>37500</BXP>
+    <StasisImmune />
+    <Projectile>
+      <ObjectId>O3 White Slash</ObjectId>
+      <Damage>120</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+</Objects>

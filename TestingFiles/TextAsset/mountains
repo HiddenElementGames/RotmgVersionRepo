@@ -7,7 +7,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>0</Index>
+      <Index>42</Index>
     </AnimatedTexture>
     <HitSound>monster/greater_demons_hit</HitSound>
     <DeathSound>monster/greater_demons_death</DeathSound>
@@ -25,7 +25,6 @@
     </Spawn>
     <Flying />
     <God />
-    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>White Demon Spiral</ObjectId>
       <Damage>45</Damage>
@@ -37,7 +36,7 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_WEAK,HALLOWEEN</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -52,7 +51,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>1</Index>
+      <Index>43</Index>
     </AnimatedTexture>
     <HitSound>monster/sprite_god_hit</HitSound>
     <DeathSound>monster/sprite_god_death</DeathSound>
@@ -64,7 +63,6 @@
     <SpawnProb>1.0</SpawnProb>
     <Flying />
     <God />
-    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>Sprite God Bolt</ObjectId>
       <Damage>100</Damage>
@@ -82,7 +80,7 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID,HALLOWEEN</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -96,47 +94,9 @@
     <Exp>5</Exp>
     <Class>Character</Class>
     <Texture>
-      <File>spiderDenObjects8x8</File>
-      <Index>0xda</Index>
+      <File>lofiChar8x8</File>
+      <Index>155</Index>
     </Texture>
-    <Animation prob="1" period="0">
-      <Frame time="0.1">
-        <Texture>
-          <File>spiderDenObjects8x8</File>
-          <Index>0xda</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>spiderDenObjects8x8</File>
-          <Index>0xdb</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>spiderDenObjects8x8</File>
-          <Index>0xdc</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>spiderDenObjects8x8</File>
-          <Index>0xdd</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>spiderDenObjects8x8</File>
-          <Index>0xde</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>spiderDenObjects8x8</File>
-          <Index>0xdf</Index>
-        </Texture>
-      </Frame>
-    </Animation>
     <HitSound>monster/sprites_hit</HitSound>
     <DeathSound>monster/sprites_death</DeathSound>
     <Size>75</Size>
@@ -156,6 +116,47 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
+  <Object type="0x654" id="Medusa">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>195</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>44</Index>
+    </AnimatedTexture>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <BXP>694</BXP>
+    <Defense>18</Defense>
+    <Terrain>Mountains</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Medusa Slash</ObjectId>
+      <Damage>100</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID,HALLOWEEN</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
   <Object type="0x655" id="Ent God">
     <Group>Gods</Group>
     <Enemy />
@@ -163,7 +164,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>4</Index>
+      <Index>46</Index>
     </AnimatedTexture>
     <HitSound>monster/ents_hit</HitSound>
     <DeathSound>monster/ents_death</DeathSound>
@@ -180,7 +181,6 @@
       <Max>5</Max>
     </Spawn>
     <God />
-    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>Ent God Bolt</ObjectId>
       <Damage>70</Damage>
@@ -190,7 +190,141 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,NATURE,GOD,MINION_WEAK,HALLOWEEN</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x656" id="Beholder">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>150</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>47</Index>
+    </AnimatedTexture>
+    <HitSound>monster/beholder_hit</HitSound>
+    <DeathSound>monster/beholder_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <BXP>534</BXP>
+    <Defense>12</Defense>
+    <Terrain>Mountains</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>7</Max>
+    </Spawn>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>Beholder Gaze</ObjectId>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>120</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Sharp Pink Star</ObjectId>
+      <Damage>0</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="5">Blind</ConditionEffect>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_MID,HALLOWEEN</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x657" id="Flying Brain">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>100</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>48</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flying_brain_hit</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>356</BXP>
+    <Defense>12</Defense>
+    <Terrain>Mountains</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>Flying Brain Cortex</ObjectId>
+      <Damage>50</Damage>
+      <Speed>120</Speed>
+      <LifetimeMS>1800</LifetimeMS>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_WEAK,HALLOWEEN</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x658" id="Slime God">
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>100</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>49</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>356</BXP>
+    <Defense>12</Defense>
+    <Terrain>Mountains</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Slime God Sludge</ObjectId>
+      <Damage>80</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>1100</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Sharp Green Star</ObjectId>
+      <Damage>0</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_WEAK,HALLOWEEN</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -206,7 +340,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>8</Index>
+      <Index>50</Index>
     </AnimatedTexture>
     <HitSound>monster/ghost_god_hit</HitSound>
     <DeathSound>monster/ghost_god_death</DeathSound>
@@ -224,7 +358,6 @@
     </Spawn>
     <Flying />
     <God />
-    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>Ghost God Spike</ObjectId>
       <Damage>120</Damage>
@@ -234,7 +367,7 @@
     </Projectile>
     <KillStat stat="UndeadKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,UNDEAD,GOD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,GOD,MINION_WEAK,HALLOWEEN</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -250,7 +383,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>3</Index>
+      <Index>45</Index>
     </AnimatedTexture>
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/djinn_death</DeathSound>
@@ -267,7 +400,6 @@
     </Spawn>
     <Flying />
     <God />
-    <RealmScore>10</RealmScore>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Djinn Orb</ObjectId>
@@ -279,7 +411,7 @@
     </Projectile>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,HUMANOID,GOD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,HUMANOID,GOD,MINION_WEAK,HALLOWEEN</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -295,7 +427,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>9</Index>
+      <Index>51</Index>
     </AnimatedTexture>
     <DontFaceAttacks />
     <HitSound>monster/greater_pit_snakes_hit</HitSound>
@@ -307,7 +439,6 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.55</SpawnProb>
     <God />
-    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>Leviathan Spray</ObjectId>
       <Damage>70</Damage>
@@ -322,7 +453,7 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID,HALLOWEEN</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -336,10 +467,10 @@
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Rock Construct</DisplayId>
-    <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>14</Index>
-    </AnimatedTexture>
+    <Texture>
+      <File>lofiChar16x16</File>
+      <Index>75</Index>
+    </Texture>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <MaxHitPoints>1800</MaxHitPoints>
@@ -349,7 +480,6 @@
     <BXP>534</BXP>
     <Terrain>Mountains</Terrain>
     <God />
-    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>Construct Rock Ball</ObjectId>
       <Speed>70</Speed>
@@ -360,7 +490,7 @@
     </Projectile>
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,CONSTRUCT,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,CONSTRUCT,GOD,MINION_MID,HALLOWEEN</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -374,10 +504,10 @@
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Wood Construct</DisplayId>
-    <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>13</Index>
-    </AnimatedTexture>
+    <Texture>
+      <File>lofiChar16x16</File>
+      <Index>76</Index>
+    </Texture>
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <MaxHitPoints>1600</MaxHitPoints>
@@ -396,7 +526,7 @@
     </Projectile>
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,CONSTRUCT,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,CONSTRUCT,GOD,MINION_MID,HALLOWEEN</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -410,10 +540,10 @@
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Steel Construct</DisplayId>
-    <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>12</Index>
-    </AnimatedTexture>
+    <Texture>
+      <File>lofiChar16x16</File>
+      <Index>77</Index>
+    </Texture>
     <HitSound>monster/rocks_hit</HitSound>
     <DeathSound>monster/rocks_death</DeathSound>
     <MaxHitPoints>2000</MaxHitPoints>
@@ -434,7 +564,7 @@
     </Projectile>
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,CONSTRUCT,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,CONSTRUCT,GOD,MINION_MID,HALLOWEEN</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -448,8 +578,8 @@
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16dEncounters</File>
-      <Index>5</Index>
+      <File>chars16x16dMountains1</File>
+      <Index>52</Index>
     </AnimatedTexture>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -484,8 +614,8 @@
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16dEncounters</File>
-      <Index>6</Index>
+      <File>chars16x16dMountains1</File>
+      <Index>53</Index>
     </AnimatedTexture>
     <HitSound>monster/ghost_god_hit</HitSound>
     <DeathSound>monster/ghost_god_death</DeathSound>
@@ -541,8 +671,8 @@
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16dEncounters</File>
-      <Index>6</Index>
+      <File>chars16x16dMountains1</File>
+      <Index>53</Index>
     </AnimatedTexture>
     <HitSound>monster/ghost_god_hit</HitSound>
     <DeathSound>monster/ghost_god_death</DeathSound>
@@ -573,8 +703,8 @@
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16dEncounters</File>
-      <Index>44</Index>
+      <File>chars16x16dMountains1</File>
+      <Index>4</Index>
     </AnimatedTexture>
     <HitSound>monster/cyclops_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
@@ -616,8 +746,8 @@
     <Class>Character</Class>
     <Enemy />
     <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>10</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>80</Index>
     </AnimatedTexture>
     <HitSound>monster/cyclops_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
@@ -918,7 +1048,6 @@
     <SpawnProb>0.01</SpawnProb>
     <Flying />
     <God />
-    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky White Demon Spiral</ObjectId>
       <Damage>60</Damage>
@@ -993,7 +1122,6 @@
     <SpawnProb>0.01</SpawnProb>
     <Flying />
     <God />
-    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Sprite God Bolt</ObjectId>
       <Damage>100</Damage>
@@ -1104,7 +1232,6 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
     <God />
-    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Medusa Slash</ObjectId>
       <Damage>120</Damage>
@@ -1150,7 +1277,6 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
     <God />
-    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Ent God Bolt</ObjectId>
       <Damage>100</Damage>
@@ -1195,7 +1321,6 @@
     <SpawnProb>0.01</SpawnProb>
     <Flying />
     <God />
-    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Beholder Gaze</ObjectId>
       <Damage>120</Damage>
@@ -1240,7 +1365,6 @@
     <SpawnProb>0.01</SpawnProb>
     <Flying />
     <God />
-    <RealmScore>10</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Flying Brain Cortex</ObjectId>
       <Damage>70</Damage>
@@ -1278,7 +1402,6 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
     <God />
-    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Slime God Sludge</ObjectId>
       <Speed>60</Speed>
@@ -1337,7 +1460,6 @@
     <SpawnProb>0.01</SpawnProb>
     <Flying />
     <God />
-    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Ghost God Spike</ObjectId>
       <Size>100</Size>
@@ -1379,7 +1501,6 @@
     <SpawnProb>0.01</SpawnProb>
     <Flying />
     <God />
-    <RealmScore>50</RealmScore>
     <Projectile id="3">
       <ObjectId>Lucky Djinn Orb</ObjectId>
       <Damage>125</Damage>
@@ -1434,7 +1555,6 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
     <God />
-    <RealmScore>50</RealmScore>
     <Projectile id="0">
       <ObjectId>Lucky Leviathan Spray</ObjectId>
       <Damage>100</Damage>

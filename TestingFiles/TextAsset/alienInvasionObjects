@@ -1350,6 +1350,7 @@
       <LifetimeMS>2100</LifetimeMS>
       <ArmorPiercing />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="38" dustMax="89" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
@@ -1370,6 +1371,7 @@
     <SpecialSpawn category="Souvenir_HIG">Comet of Calamity</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0xb2c7" id="AI Malogia Boulder">
     <DisplayId>Malogian Boulder</DisplayId>
@@ -2763,6 +2765,7 @@
       <LifetimeMS>2000</LifetimeMS>
       <Size>140</Size>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="38" dustMax="89" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
@@ -2783,6 +2786,7 @@
     <SpecialSpawn category="Souvenir_HIG">Snowblind Wand</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt3">
         <StyleStep altTextureId="3">SetAltTexture</StyleStep>
@@ -3257,6 +3261,35 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,MINION_WEAK,STASISIMMUNE,GROTESQUE</Labels>
+  </Object>
+  <Object type="0x7305" id="HAI Watchling">
+    <DisplayId>Watchling</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>alienInvasionChars8x8</File>
+      <Index>30</Index>
+    </AnimatedTexture>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <Size>100</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>900</MaxHitPoints>
+    <Exp>50</Exp>
+    <BXP>237</BXP>
+    <Defense>15</Defense>
+    <Z>0.24</Z>
+    <Flying />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>AI Forax Watcher Shot</ObjectId>
+      <Damage>80</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <Size>120</Size>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>HAI Watchling</Labels>
   </Object>
   <Object type="0xb2f9" id="AI Watcher">
     <DisplayId>Watcher</DisplayId>
@@ -3746,6 +3779,7 @@
       <Size>60</Size>
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="38" dustMax="89" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
@@ -3766,6 +3800,7 @@
     <SpecialSpawn category="Souvenir_HIG">Corrosion Cutter</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0xb334" id="AI Forax Plant Big 1">
     <Class>GameObject</Class>
@@ -4667,6 +4702,7 @@
       <Size>120</Size>
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="38" dustMax="89" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
@@ -4687,6 +4723,7 @@
     <SpecialSpawn category="Souvenir_HIG">Blazon Bow</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0xb329" id="AI Factory Wall">
     <Class>Wall</Class>

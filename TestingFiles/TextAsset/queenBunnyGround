@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GroundTypes>
+  <Ground type="0x185" id="Easter Damaging Chocolate">
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x3a</Index>
+    </Texture>
+    <Speed>0.6</Speed>
+    <Sink />
+    <PersistentOnTile />
+  </Ground>
+  <Ground type="0x186" id="Easter Sinking Chocolate">
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x3a</Index>
+    </Texture>
+    <Speed>0.6</Speed>
+    <Sinking />
+    <PersistentOnTile />
+    <Animate dx="0.25" dy="0.25">Wave</Animate>
+  </Ground>
+  <Ground type="0x187" id="Easter Chamber Floor">
+    <RandomTexture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x0</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x1</Index>
+      </Texture>
+      <Texture>
+        <File>queenBunnyObjects8x8</File>
+        <Index>0x2</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>4</BlendPriority>
+  </Ground>
+  <Ground type="0x188" id="Easter Chamber Black">
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x9</Index>
+    </Texture>
+    <BlendPriority>5</BlendPriority>
+  </Ground>
+  <Ground type="0x189" id="Easter Chamber Eye Hole">
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0xA</Index>
+    </Texture>
+    <BlendPriority>4</BlendPriority>
+  </Ground>
+  <Ground type="0x18A" id="Easter Chamber Nest Middle">
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x3F</Index>
+    </Texture>
+    <BlendPriority>4</BlendPriority>
+  </Ground>
+</GroundTypes>

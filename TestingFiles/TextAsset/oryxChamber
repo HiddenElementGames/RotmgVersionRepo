@@ -22,6 +22,7 @@
     <Exp>25000</Exp>
     <BXP>125000</BXP>
     <TrackLoot />
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="12" dustMax="29" seasonalBonus="0.15">greenDust</SoulboundDust>
     <Projectile id="0">
       <ObjectId>White Bullet</ObjectId>
       <Speed>30</Speed>
@@ -191,6 +192,7 @@
     <SpecialSpawn category="Souvenir_MID">Ancient Stone Sword</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0x1741" id="Assassin of Oryx">
     <Class>Character</Class>
@@ -762,10 +764,11 @@
     <EventChestBoss />
     <Size>100</Size>
     <MaxHitPoints>45000</MaxHitPoints>
-    <Defense>60</Defense>
+    <Defense>160</Defense>
     <Exp>25000</Exp>
     <BXP>125000</BXP>
     <TrackLoot />
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="12" dustMax="29" seasonalBonus="0.15">greenDust</SoulboundDust>
     <Projectile id="0">
       <ObjectId>pD Blob Shot</ObjectId>
       <Speed>30</Speed>
@@ -935,6 +938,7 @@
     <SpecialSpawn category="Souvenir_MID">Ancient Stone Sword</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0xb397" id="Infested White Moon">
     <Class>Character</Class>

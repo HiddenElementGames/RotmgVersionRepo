@@ -137,6 +137,9 @@
       <ConditionEffect duration="15">Weak</ConditionEffect>
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="49" dustMax="115" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="16" dustMax="38" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.4" dustMin="3" dustMax="7" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="OryxKills" />
     <KillStat stat="GodKills" />
@@ -158,6 +161,7 @@
     <SpecialSpawn category="Souvenir_MID">Lethargic Sentience</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0x23ce" id="O2 Bullet Split">
     <DisplayId>Oryx the Mad God</DisplayId>
@@ -1096,7 +1100,7 @@
     <DeathSound>monster/oryx_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>75000</MaxHitPoints>
-    <Defense>60</Defense>
+    <Defense>240</Defense>
     <Exp>50000</Exp>
     <BXP>250000</BXP>
     <Quest />
@@ -1148,7 +1152,7 @@
       <ConditionEffect duration="3">Quiet</ConditionEffect>
     </Projectile>
     <Projectile id="6">
-      <ObjectId>Red Star</ObjectId>
+      <ObjectId>Cyan Star</ObjectId>
       <Damage>160</Damage>
       <Speed>55</Speed>
       <LifetimeMS>3000</LifetimeMS>
@@ -1163,7 +1167,7 @@
       <MultiHit />
     </Projectile>
     <Projectile id="12">
-      <ObjectId>Red Star</ObjectId>
+      <ObjectId>Cyan Star</ObjectId>
       <Damage>120</Damage>
       <Speed>35</Speed>
       <LifetimeMS>2228</LifetimeMS>
@@ -1221,6 +1225,9 @@
       <ConditionEffect duration="15">Sick</ConditionEffect>
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="49" dustMax="115" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.5" dustMin="16" dustMax="38" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.4" dustMin="3" dustMax="7" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="OryxKills" />
     <KillStat stat="GodKills" />
@@ -1241,6 +1248,7 @@
     <SpecialSpawn category="AgentOfOryx_Ring">Shard of the Advisor x1</SpecialSpawn>
     <SpecialSpawn category="Souvenir_MID">Lethargic Sentience</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0x713e" id="O2 Challenger Fame">
     <Class>GameObject</Class>

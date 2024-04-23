@@ -1991,6 +1991,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="11" dustMax="25" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="20" />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
@@ -2011,6 +2012,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Fountain Child Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
   </Object>
   <Object type="0x2233" id="MW Blessing">
     <Class>GameObject</Class>
