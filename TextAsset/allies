@@ -3571,8 +3571,8 @@
   <Object type="0x3947" id="Sheath Decoy">
     <Class>Character</Class>
     <Texture>
-      <File>oryxHordeObjects8x8</File>
-      <Index>0x28e</Index>
+      <File>lofiObjShiny</File>
+      <Index>0x3d</Index>
     </Texture>
     <Friendly />
     <NoMiniMap />
@@ -6354,5 +6354,174 @@
     <ShadowSize>0</ShadowSize>
     <Size>-1</Size>
     <NoMiniMap />
+  </Object>
+  <Object id="Summon Skeleton Attack" type="0x51a2">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>chars8x8rHero1</File>
+      <Index>0x01</Index>
+    </AnimatedTexture>
+    <ShadowSize>35</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>UDL Bone</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>130</MinDamage>
+      <MaxDamage>170</MaxDamage>
+      <ArmorPiercing />
+      <LifetimeMS>450</LifetimeMS>
+      <Size>50</Size>
+      <MultiHit />
+    </Projectile>
+    <Size>100</Size>
+    <NoMiniMap />
+  </Object>
+  <Object id="Summon Skeleton Defend" type="0x51b2">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>chars8x8rHero1</File>
+      <Index>0x01</Index>
+    </AnimatedTexture>
+    <ShadowSize>35</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>UDL Bone</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>130</MinDamage>
+      <MaxDamage>170</MaxDamage>
+      <ArmorPiercing />
+      <LifetimeMS>450</LifetimeMS>
+      <Size>50</Size>
+      <MultiHit />
+    </Projectile>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Size>100</Size>
+    <NoMiniMap />
+    <OrbitCreepMaster clockwiseProb="1" maxRadius="2" minRadius="2" radiusVariability="0.0" speed="0.8" speedUpCoef="0.4" speedVariability="0" />
+  </Object>
+  <Object id="Summon Skeleton Move Object" type="0x51a3">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="Summon Skeleton Heal Object" type="0x51b9">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="Summon Scarecrow" type="0x51ab">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>hauntedHallowsChars16x16</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <Size>120</Size>
+    <ShadowSize>35</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>AoO Spell Proj</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>190</MinDamage>
+      <MaxDamage>210</MaxDamage>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>140</Size>
+      <MultiHit />
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Black Flail Chain</ObjectId>
+      <Speed>56.25</Speed>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>110</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Black Flail Chain</ObjectId>
+      <Speed>37.5</Speed>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>95</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Black Flail Chain</ObjectId>
+      <Speed>18.75</Speed>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Boomerang />
+    </Projectile>
+    <NoMiniMap />
+  </Object>
+  <Object id="Summon Scarecrow Helper Object" type="0x51ac">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="Summon Scarecrow Decoy" type="0x166B">
+    <Class>Character</Class>
+    <Friendly />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x7E0" id="Sheath Decoy Shiny">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObjShiny</File>
+      <Index>0x43</Index>
+    </Texture>
+    <Friendly />
+    <NoMiniMap />
+  </Object>
+  <Object type="0x7E4" id="Summon Steed Shiny">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>oryxHordeChars16x16</File>
+      <Index>91</Index>
+    </AnimatedTexture>
+    <Size>80</Size>
+    <ShadowSize>50</ShadowSize>
+    <Projectile>
+      <ObjectId>Summon Steed Projectile Shiny</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.15" />
   </Object>
 </Objects>

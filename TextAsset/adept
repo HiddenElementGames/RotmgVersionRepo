@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
-  <Object type="0xc0bc" id="Kingdra">
+  <Object type="0xc0bc" id="Reef Seahorse">
+    <DisplayId>Flying Seahorse</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -37,7 +38,8 @@
     <BXP>1000</BXP>
     <RealmScore>10</RealmScore>
   </Object>
-  <Object type="0xc0bd" id="Enchanted Turtle">
+  <Object type="0xc0bd" id="Reef Turtle">
+    <DisplayId>Enchanted Turtle</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -88,7 +90,8 @@
     <BXP>1000</BXP>
     <RealmScore>10</RealmScore>
   </Object>
-  <Object type="0xc0be" id="Smelly Octopus">
+  <Object type="0xc0be" id="Reef Octopus">
+    <DisplayId>Smelly Octopus</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -112,11 +115,12 @@
       <Size>100</Size>
       <LifetimeMS>3200</LifetimeMS>
       <MultiHit />
-      <ConditionEffect duration="1">Weak</ConditionEffect>
+      <ConditionEffect duration="1">Slowed</ConditionEffect>
     </Projectile>
     <RealmScore>10</RealmScore>
   </Object>
-  <Object type="0xc0bf" id="Narwhal">
+  <Object type="0xc0bf" id="Reef Narwhal">
+    <DisplayId>Silvery Narwhal</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -143,7 +147,8 @@
     </Projectile>
     <RealmScore>10</RealmScore>
   </Object>
-  <Object type="0xc0c0" id="Obese Walrus">
+  <Object type="0xc0c0" id="Reef Walrus">
+    <DisplayId>Rampant Walrus</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -170,7 +175,8 @@
       <MultiHit />
     </Projectile>
   </Object>
-  <Object type="0x5580" id="New Leviathan">
+  <Object type="0x5580" id="Reef Leviathan">
+    <DisplayId>Leviathan</DisplayId>
     <Group>Gods</Group>
     <Enemy />
     <Exp>600</Exp>
@@ -213,7 +219,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0xc2ed" id="Sunken Soul">
+  <Object type="0xc2ed" id="Shipwreck Ghost">
     <DisplayId>Sunken Soul</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -250,7 +256,7 @@
       <Size>90</Size>
     </Projectile>
   </Object>
-  <Object type="0xc2ee" id="Undead Pirate">
+  <Object type="0xc2ee" id="Shipwreck Pirate">
     <DisplayId>Undead Pirate</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -284,7 +290,7 @@
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
   </Object>
-  <Object type="0xc2ef" id="Sea Hag">
+  <Object type="0xc2ef" id="Shipwreck Hag">
     <DisplayId>Sea Hag</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -321,7 +327,7 @@
       <Size>140</Size>
     </Projectile>
   </Object>
-  <Object type="0xc2f0" id="Sea Hag Whirlpool">
+  <Object type="0xc2f0" id="Shipwreck Hag Whirlpool">
     <DisplayId>Whirlpool</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -347,7 +353,7 @@
       <ConditionEffect duration="1.6">Slowed</ConditionEffect>
     </Projectile>
   </Object>
-  <Object type="0xc2f1" id="Drowned Sailor">
+  <Object type="0xc2f1" id="Shipwreck Sailor">
     <DisplayId>Drowned Sailor</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -383,7 +389,7 @@
       <Size>110</Size>
     </Projectile>
   </Object>
-  <Object type="0xc2f2" id="Ocean Spirit">
+  <Object type="0xc2f2" id="Shipwreck Elemental">
     <DisplayId>Ocean Spirit</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -423,8 +429,8 @@
       <MultiHit />
     </Projectile>
   </Object>
-  <Object type="0xd105" id="Haunted Treasure Chest">
-    <DisplayId>Haunted Treasure Chest</DisplayId>
+  <Object type="0xd105" id="Shipwreck Haunted Chest">
+    <DisplayId>Haunted Treasure</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -857,7 +863,8 @@
       <ConditionEffect duration="2.4">Curse</ConditionEffect>
     </Projectile>
   </Object>
-  <Object type="0xc1df" id="Court Jester">
+  <Object type="0xc1df" id="City Jester">
+    <DisplayId>Unsung Jester</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -891,7 +898,8 @@
       <ConditionEffect duration="1.8">Unstable</ConditionEffect>
     </Projectile>
   </Object>
-  <Object type="0xc1e1" id="Royal Gladiator">
+  <Object type="0xc1e1" id="City Gladiator">
+    <DisplayId>Nameless Gladiator</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -926,7 +934,8 @@
       <ConditionEffect duration="3">Exposed</ConditionEffect>
     </Projectile>
   </Object>
-  <Object type="0xc1e2" id="Satyr">
+  <Object type="0xc1e2" id="City Satyr">
+    <DisplayId>Vagabond Satyr</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -953,7 +962,8 @@
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
   </Object>
-  <Object type="0x5581" id="New Medusa">
+  <Object type="0x5581" id="City Medusa">
+    <DisplayId>Medusa</DisplayId>
     <Enemy />
     <Exp>200</Exp>
     <Class>Character</Class>
@@ -989,7 +999,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x5582" id="New Beholder">
+  <Object type="0x5582" id="City Beholder">
+    <DisplayId>Beholder</DisplayId>
     <Enemy />
     <Exp>200</Exp>
     <Class>Character</Class>
@@ -1034,7 +1045,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x5583" id="New Flying Brain">
+  <Object type="0x5583" id="City Flying Brain">
+    <DisplayId>Flying Brain</DisplayId>
     <Enemy />
     <Exp>200</Exp>
     <Class>Character</Class>
@@ -1071,7 +1083,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x5584" id="New Slime God">
+  <Object type="0x5584" id="City Slime God">
+    <DisplayId>Slime God</DisplayId>
     <Enemy />
     <Exp>200</Exp>
     <Class>Character</Class>
@@ -1114,7 +1127,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x5585" id="New Ent God">
+  <Object type="0x5585" id="City Ent God">
+    <DisplayId>Ent God</DisplayId>
     <Group>Gods</Group>
     <Enemy />
     <Exp>200</Exp>
@@ -1157,51 +1171,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x5586" id="New Ghost God">
-    <Group>Gods</Group>
-    <Enemy />
-    <Exp>200</Exp>
-    <Class>Character</Class>
-    <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>8</Index>
-    </AnimatedTexture>
-    <HitSound>monster/ghost_god_hit</HitSound>
-    <DeathSound>monster/ghost_god_death</DeathSound>
-    <Size>100</Size>
-    <MaxHitPoints>1000</MaxHitPoints>
-    <BXP>1000</BXP>
-    <Defense>12</Defense>
-    <Terrain>HauntedHallows</Terrain>
-    <SpawnProb>1.0</SpawnProb>
-    <Spawn>
-      <Mean>3</Mean>
-      <StdDev>1</StdDev>
-      <Min>2</Min>
-      <Max>5</Max>
-    </Spawn>
-    <Flying />
-    <God />
-    <RealmScore>10</RealmScore>
-    <Projectile id="0">
-      <ObjectId>Ghost God Spike</ObjectId>
-      <Damage>120</Damage>
-      <Speed>50</Speed>
-      <LifetimeMS>2700</LifetimeMS>
-      <Size>110</Size>
-    </Projectile>
-    <KillStat stat="UndeadKills" />
-    <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,UNDEAD,GOD,MINION_WEAK,HALLOWEEN</Labels>
-    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
-    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
-    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
-    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
-    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
-    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
-    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
-  </Object>
-  <Object type="0x5587" id="New Djinn">
+  <Object type="0x5587" id="City Djinn">
+    <DisplayId>Djinn</DisplayId>
     <Group>Gods</Group>
     <Enemy />
     <Exp>200</Exp>
@@ -1246,7 +1217,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x5588" id="New White Demon">
+  <Object type="0x5588" id="Hell White Demon">
     <DisplayId>White Demon</DisplayId>
     <Group>Greater Demons</Group>
     <Enemy />
@@ -1293,7 +1264,8 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
-  <Object type="0xc2e8" id="Flaming Skeleton">
+  <Object type="0xc2e8" id="Hell Skeleton">
+    <DisplayId>Burning Bones</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1326,7 +1298,8 @@
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
   </Object>
-  <Object type="0xc2e9" id="Tormented Soul">
+  <Object type="0xc2e9" id="Hell Ghost">
+    <DisplayId>Tormented Soul</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1363,7 +1336,8 @@
       <ConditionEffect duration="5">Curse</ConditionEffect>
     </Projectile>
   </Object>
-  <Object type="0xc2ea" id="Harrowed Fiend">
+  <Object type="0xc2ea" id="Hell Dog 1">
+    <DisplayId>Harrowed Fiend</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1398,7 +1372,8 @@
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
     </Projectile>
   </Object>
-  <Object type="0xc2eb" id="Risen Hellhound">
+  <Object type="0xc2eb" id="Hell Dog 2">
+    <DisplayId>Risen Hellhound</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1433,7 +1408,8 @@
       <ConditionEffect duration="2.4">Bleeding</ConditionEffect>
     </Projectile>
   </Object>
-  <Object type="0xc2ec" id="Brimstone Wyvern">
+  <Object type="0xc2ec" id="Hell Dragon">
+    <DisplayId>Brimstone Wyvern</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1463,7 +1439,8 @@
       <ConditionEffect duration="3.6">Exposed</ConditionEffect>
     </Projectile>
   </Object>
-  <Object type="0xc3d2" id="Cerberus">
+  <Object type="0xc3d2" id="Hell Dog 3">
+    <DisplayId>Cerberus</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1492,7 +1469,8 @@
       <ConditionEffect duration="2.8">Bleeding</ConditionEffect>
     </Projectile>
   </Object>
-  <Object type="0xc3d3" id="Infernal Skull">
+  <Object type="0xc3d3" id="Hell Skull">
+    <DisplayId>Raging Ifrit</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1534,7 +1512,8 @@
       <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
     </Projectile>
   </Object>
-  <Object type="0x4544" id="New Sprite God">
+  <Object type="0x4544" id="Sprite Forest God">
+    <DisplayId>Sprite God</DisplayId>
     <Enemy />
     <Exp>200</Exp>
     <Class>Character</Class>
@@ -1573,7 +1552,8 @@
     <KillStat stat="GodKills" />
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
   </Object>
-  <Object type="0x4545" id="New Sprite Child">
+  <Object type="0x4545" id="Sprite Forest Child">
+    <DisplayId>Sprite Child</DisplayId>
     <Enemy />
     <Exp>20</Exp>
     <Class>Character</Class>
@@ -1633,7 +1613,8 @@
     <KillStat stat="GodKills" />
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_WEAK</Labels>
   </Object>
-  <Object type="0x4546" id="Blazing Sprite">
+  <Object type="0x4546" id="Sprite Forest Fire God">
+    <DisplayId>Blazing Sprite</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1695,7 +1676,8 @@
     </Projectile>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
   </Object>
-  <Object type="0x4547" id="Noxious Sprite">
+  <Object type="0x4547" id="Sprite Forest Poison God">
+    <DisplayId>Noxious Sprite</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1740,7 +1722,8 @@
     </Projectile>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
   </Object>
-  <Object type="0x4548" id="Hazardous Sprite">
+  <Object type="0x4548" id="Sprite Forest Electric God">
+    <DisplayId>Hazardous Sprite</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1780,7 +1763,8 @@
     </Projectile>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
   </Object>
-  <Object type="0x4549" id="Corrupt Sprite">
+  <Object type="0x4549" id="Sprite Forest Dark God">
+    <DisplayId>Corrupt Sprite</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1823,7 +1807,8 @@
     </Projectile>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
   </Object>
-  <Object type="0x454a" id="Evergreen Sprite">
+  <Object type="0x454a" id="Sprite Forest Nature God">
+    <DisplayId>Evergreen Sprite</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1870,7 +1855,8 @@
     </Projectile>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
   </Object>
-  <Object type="0xc32f" id="Sprite Beast">
+  <Object type="0xc32f" id="Sprite Forest Dog">
+    <DisplayId>Sprite Beast</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -2126,7 +2112,7 @@
     </Projectile>
     <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
   </Object>
-  <Object type="0x55C3" id="New Arena Headless Horseman">
+  <Object type="0x55C3" id="Hallows Horseman">
     <DisplayId>Headless Horseman</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -2175,5 +2161,50 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x5586" id="Hallows Ghost God">
+    <DisplayId>Ghost God</DisplayId>
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>200</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>1000</BXP>
+    <Defense>12</Defense>
+    <Terrain>HauntedHallows</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Flying />
+    <God />
+    <RealmScore>10</RealmScore>
+    <Projectile id="0">
+      <ObjectId>Ghost God Spike</ObjectId>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,UNDEAD,GOD,MINION_WEAK,HALLOWEEN</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
 </Objects>

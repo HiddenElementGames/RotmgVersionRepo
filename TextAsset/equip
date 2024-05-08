@@ -53407,14 +53407,14 @@
   </Object>
   <Object type="0x689f" id="Seasonal Potion Vault Expansion">
     <Class>Equipment</Class>
-    <DisplayId>Seasonal Potion Vault Expansion</DisplayId>
+    <DisplayId>Seasonal Potion Rack Expansion</DisplayId>
     <Item />
     <Texture>
       <File>lofiObj</File>
       <Index>0x11f</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>Expands your seasonal potion vault in 12 slots. Seasonal Potion Vault Slots do not get transfered over to the non-seasonal Potion Vault Slots and if unused, it gets destroyed at the end of the season.</Description>
+    <Description>Expands your seasonal potion rack in 12 slots. Seasonal Potion Rack Slots do not get transferred over to the non-seasonal Potion Rack Slots and if unused, it gets destroyed at the end of the season.</Description>
     <Sound>use_potion</Sound>
     <Consumable />
     <SeasonalOnly />
@@ -69395,5 +69395,2184 @@
     <XPBonus>8</XPBonus>
     <Labels>EQUIPMENT,WEAPON,KATANA,UT,TAB_UT,XPBONUS,BASETYPE</Labels>
     <Soulbound />
+  </Object>
+  <Object id="Adventurer's Scarf" type="0x51a9">
+    <DisplayId>Adventurer's Scarf</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>ancientCityObjects8x8</File>
+      <Index>174</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A faithful and comfortable scarf that has witnessed countless journeys. Imbued with a protective enchantment, it allows its wearer to gracefully weave through perilous situations.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="On ability use, heal 75HP." name="Trusty Companion" />
+      <EffectInfo description="15 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="75" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="7" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="SPD">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="VIT">IncrementStat</ActivateOnEquip>
+    <OnPlayerAbilityActivate cooldown="15" proc="1" amount="75">Heal</OnPlayerAbilityActivate>
+    <BagType>6</BagType>
+    <XPBonus>6</XPBonus>
+    <Soulbound />
+    <feedPower>600</feedPower>
+  </Object>
+  <Object id="Pirate's Artillery" type="0xc1e8">
+    <DisplayId>Pirate's Artillery</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>ancientCityObjects8x8</File>
+      <Index>177</Index>
+    </Texture>
+    <OldSound>bladeSwing</OldSound>
+    <SlotType>1</SlotType>
+    <Description>Although cannons were once typically associated with naval warfare, many pirates now regard Bilgewater's application of them in land-based combat as revolutionary.</Description>
+    <RateOfFire>0.25</RateOfFire>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.25</RateOfFire>
+      <PosOffset>0,0</PosOffset>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.25</RateOfFire>
+      <PosOffset>0,0.4</PosOffset>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.25</RateOfFire>
+      <PosOffset>0.283,0.283</PosOffset>
+    </Subattack>
+    <Subattack projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.25</RateOfFire>
+      <PosOffset>0.4,0</PosOffset>
+    </Subattack>
+    <Subattack projectileId="4">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.25</RateOfFire>
+      <PosOffset>0.283,-0.283</PosOffset>
+    </Subattack>
+    <Subattack projectileId="5">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.25</RateOfFire>
+      <PosOffset>0,-0.4</PosOffset>
+    </Subattack>
+    <Subattack projectileId="6">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.25</RateOfFire>
+      <PosOffset>-0.283,-0.283</PosOffset>
+    </Subattack>
+    <Subattack projectileId="7">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.25</RateOfFire>
+      <PosOffset>-0.4,0</PosOffset>
+    </Subattack>
+    <Subattack projectileId="8">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.25</RateOfFire>
+      <PosOffset>-0.283,0.283</PosOffset>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Bilgewater Cannonball S</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>777</MinDamage>
+      <MaxDamage>777</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Bilgewater Cannonball S</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <Size>70</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Bilgewater Cannonball S</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <TurnRate>45</TurnRate>
+      <TurnRateDelay>300</TurnRateDelay>
+      <TurnStopTime>301</TurnStopTime>
+      <Size>70</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Bilgewater Cannonball S</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>300</TurnRateDelay>
+      <TurnStopTime>301</TurnStopTime>
+      <Size>70</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Bilgewater Cannonball S</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <TurnRate>135</TurnRate>
+      <TurnRateDelay>300</TurnRateDelay>
+      <TurnStopTime>301</TurnStopTime>
+      <Size>70</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Bilgewater Cannonball S</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <Size>70</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Bilgewater Cannonball S</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <TurnRate>-135</TurnRate>
+      <TurnRateDelay>300</TurnRateDelay>
+      <TurnStopTime>301</TurnStopTime>
+      <Size>70</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Bilgewater Cannonball S</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>300</TurnRateDelay>
+      <TurnStopTime>301</TurnStopTime>
+      <Size>70</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Bilgewater Cannonball S</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <TurnRate>-45</TurnRate>
+      <TurnRateDelay>300</TurnRateDelay>
+      <TurnStopTime>301</TurnStopTime>
+      <Size>70</Size>
+      <MultiHit />
+    </Projectile>
+    <BagType>6</BagType>
+    <feedPower>1000</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+  </Object>
+  <Object id="Celestial Recurve" type="0x5195">
+    <DisplayId>Celestial Recurve</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>ancientCityObjects8x8</File>
+      <Index>175</Index>
+    </Texture>
+    <OldSound>bladeSwing</OldSound>
+    <SlotType>3</SlotType>
+    <Description>A wondrous bow of heavenly origin, harnessing Daevic magic to bend and concentrate light into tangible projectiles. At the point where these beams intersect, a dazzling burst of celestial brilliance radiates.</Description>
+    <RateOfFire>1.1</RateOfFire>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.1</RateOfFire>
+      <PosOffset>0,3.02</PosOffset>
+      <DefaultAngle>0</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.1</RateOfFire>
+      <PosOffset>0,6.02</PosOffset>
+      <DefaultAngle>180</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.1</RateOfFire>
+      <PosOffset>-1.5,4.52</PosOffset>
+      <DefaultAngle>90</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.1</RateOfFire>
+      <PosOffset>1.5,4.52</PosOffset>
+      <DefaultAngle>270</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>2</NumProjectiles>
+      <RateOfFire>1.1</RateOfFire>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Colorful Sprite Bolt</ObjectId>
+      <Speed>20</Speed>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>45</MaxDamage>
+      <LifetimeMS>320</LifetimeMS>
+      <Size>90</Size>
+      <Acceleration>200</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>220</SpeedClamp>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Black Sprite Beam</ObjectId>
+      <Speed>0</Speed>
+      <MinDamage>40</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>385</LifetimeMS>
+      <Size>90</Size>
+      <PosOffset>.5,0</PosOffset>
+      <DefaultAngle>-5</DefaultAngle>
+      <MultiHit />
+      <PassesCover />
+      <Acceleration>10000</Acceleration>
+      <SpeedClamp>200</SpeedClamp>
+      <AccelerationDelay>0</AccelerationDelay>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Black Sprite Beam</ObjectId>
+      <Speed>0</Speed>
+      <MinDamage>40</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>385</LifetimeMS>
+      <Size>90</Size>
+      <PosOffset>-.5,0</PosOffset>
+      <DefaultAngle>5</DefaultAngle>
+      <MultiHit />
+      <PassesCover />
+      <Acceleration>10000</Acceleration>
+      <SpeedClamp>200</SpeedClamp>
+      <AccelerationDelay>0</AccelerationDelay>
+    </Projectile>
+    <BagType>6</BagType>
+    <feedPower>1000</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+  </Object>
+  <Object id="Doom's Emblem" type="0x5199">
+    <Class>Equipment</Class>
+    <DisplayId>Doom's Emblem</DisplayId>
+    <Item />
+    <Soulbound />
+    <Texture>
+      <File>ancientCityObjects8x8</File>
+      <Index>155</Index>
+    </Texture>
+    <SlotType>12</SlotType>
+    <Description>An accursed sigil that beckons to one's inner demons. Unholy paladins can unleash their dormant latent potential by forming a pact with an otherworldly force through a tribute of their own flesh and blood.</Description>
+    <Sound>spell/light_heal</Sound>
+    <Usable />
+    <ExtraTooltipData>
+      <EffectInfo description="Consumes 100 HP on ability use." name="Sacrifice" />
+      <EffectInfo description="" name="Hellfire" />
+      <EffectInfo description="Inflicts a poison within 6.5 squares dealing 700 damage over 5 seconds." name="" />
+      <EffectInfo description="Enemies under the effect of the poison receive 15% more damage from you, scaling with DEX." name="" />
+      <EffectInfo description="Damage boost is increased by 8.5% for every 10 DEX above 50." name="" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <XPBonus>7</XPBonus>
+    <MpCost>80</MpCost>
+    <Activate duration="5" effect="Damaging" range="6.5" color="-1">ConditionEffectAura</Activate>
+    <OnPlayerAbilityActivate hpCost="100" color="0xff0080" cooldown="0" damageBoost="1.15" duration="5.0" impactDamage="0" proc="1" radius="6.5" scalingStat="DEX" statModDamage="0" statModDamageBoost="0.0085" statModImpactDamage="0" statModRadius="0" statModScalingMin="50" targetMouse="false" throwTime="0" totalDamage="750">PoisonGrenade</OnPlayerAbilityActivate>
+    <ActivateOnEquip amount="40" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="4" stat="DEX">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="4" stat="VIT">IncrementStat</ActivateOnEquip>
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object id="Skull of Restless Souls" type="0x519d">
+    <DisplayId>Skull of Restless Souls</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="0" yOffset="-2">
+      <File>ancientCityObjects8x8</File>
+      <Index>156</Index>
+    </Texture>
+    <SlotType>19</SlotType>
+    <Description>An unnaturally pristine skull adorned with a crown of thorns. Various parts of this once holy figure continue to be worshipped as sacred relics post-mortem as they bestow graces and miracles through the traces of divine power abiding within.</Description>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>100</MpCost>
+    <ActivateOnEquip amount="50" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="4" stat="ATT">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="4" stat="DEF">IncrementStat</ActivateOnEquip>
+    <Ability name="Attack Mode">
+      <ExtraTooltipData>
+        <EffectInfo description="Undead skeletons that last for 10 seconds and chases enemies" name="Summons" />
+        <EffectInfo description="Undead skeletons heal 50 HP within 5 squares upon decaying." name="Ash and Dust" />
+      </ExtraTooltipData>
+      <Activate heal="0" healRange="4" ignoreDef="30" radius="3.75" totalDamage="250" wisDamageBase="80">VampireBlast</Activate>
+      <Activate maxSpawnDistance="2.0" objectId="Summon Skeleton Attack">SpawnCreep</Activate>
+      <MpCost>100</MpCost>
+      <SwitchTime>0.75</SwitchTime>
+    </Ability>
+    <Ability name="Defense Mode">
+      <ExtraTooltipData>
+        <EffectInfo description="Undead skeletons with 1500 HP that last for 10 seconds and protects the user." name="Summons" />
+        <EffectInfo description="Undead skeletons heal 50 HP within 5 squares upon decaying." name="Ash and Dust" />
+      </ExtraTooltipData>
+      <Activate heal="0" healRange="4" ignoreDef="30" radius="3.75" totalDamage="250" wisDamageBase="80">VampireBlast</Activate>
+      <Activate maxSpawnDistance="2.0" objectId="Summon Skeleton Defend">SpawnCreep</Activate>
+      <MpCost>100</MpCost>
+      <SwitchTime>0.75</SwitchTime>
+    </Ability>
+    <feedPower>1000</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+  </Object>
+  <Object id="Torrential Staff" type="0x51a7">
+    <DisplayId>Torrential Staff</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>ancientCityObjects8x8</File>
+      <Index>150</Index>
+    </Texture>
+    <SlotType>17</SlotType>
+    <Description>A majestic trident adorned with enchanted coral formations that enables command of the tides. Once wielded by King Alexander in his conquest of the oceans, its power has since faded with each passing moon from natural weathering.</Description>
+    <RateOfFire>0.6</RateOfFire>
+    <Sound>weapon/sprite_wand</Sound>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.6</RateOfFire>
+      <PosOffset>0,0.5</PosOffset>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.6</RateOfFire>
+      <PosOffset>1.0,0.25</PosOffset>
+      <DefaultAngle>-3</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.6</RateOfFire>
+      <PosOffset>-1.0,0.25</PosOffset>
+      <DefaultAngle>3</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.6</RateOfFire>
+      <PosOffset>-2.0,0</PosOffset>
+      <DefaultAngle>7</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.6</RateOfFire>
+      <PosOffset>2.0,0</PosOffset>
+      <DefaultAngle>-7</DefaultAngle>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Spinning Bubble</ObjectId>
+      <Speed>120</Speed>
+      <Size>110</Size>
+      <MinDamage>85</MinDamage>
+      <MaxDamage>110</MaxDamage>
+      <LifetimeMS>1700</LifetimeMS>
+      <Acceleration>-120</Acceleration>
+      <SpeedClamp>0</SpeedClamp>
+      <AccelerationDelay>100</AccelerationDelay>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Spinning Bubble</ObjectId>
+      <Speed>120</Speed>
+      <Size>100</Size>
+      <MinDamage>85</MinDamage>
+      <MaxDamage>110</MaxDamage>
+      <LifetimeMS>1700</LifetimeMS>
+      <Acceleration>-120</Acceleration>
+      <SpeedClamp>0</SpeedClamp>
+      <AccelerationDelay>50</AccelerationDelay>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Spinning Bubble</ObjectId>
+      <Speed>120</Speed>
+      <Size>90</Size>
+      <MinDamage>85</MinDamage>
+      <MaxDamage>110</MaxDamage>
+      <LifetimeMS>1700</LifetimeMS>
+      <Acceleration>-120</Acceleration>
+      <SpeedClamp>0</SpeedClamp>
+      <AccelerationDelay>0</AccelerationDelay>
+      <MultiHit />
+    </Projectile>
+    <BagType>6</BagType>
+    <OldSound>magicShoot</OldSound>
+    <feedPower>1000</feedPower>
+    <XPBonus>7</XPBonus>
+    <Soulbound />
+  </Object>
+  <Object id="Cavalry Lance" type="0x51a8">
+    <DisplayId>Cavalry Lance</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>ancientCityObjects8x8</File>
+      <Index>159</Index>
+    </Texture>
+    <SlotType>5</SlotType>
+    <Description>A resplendent, gilded lance once wielded by a legendary horseback rider of yore during the great Draconic Cataclysm. Its formidable reach could slay monstrous dragons with seemingly impenetrable bodies by impaling their deeply buried hearts.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="This item is temporarily disabled for the Open Beta, sorry for any inconvince!" name="Open Beta" />
+      <EffectInfo description="1 tiles" name="Min Dash Distance" />
+      <EffectInfo description="2.5 tiles" name="Max Dash Distance" />
+      <EffectInfo description="400" name="Trail Damage" />
+      <EffectInfo description="6" name="Shots" />
+      <EffectInfo description="Inspired for 5 seconds." name="On Self" />
+      <EffectInfo description="x1.25" name="Projectile Speed Multiplier" />
+    </ExtraTooltipData>
+    <Projectile>
+      <ObjectId>Biome Polearm</ObjectId>
+      <Speed>315</Speed>
+      <LifetimeMS>350</LifetimeMS>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <Acceleration>-10000</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>150</SpeedClamp>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+    </Projectile>
+    <Usable />
+    <ActivateOnEquip amount="10" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="6" stat="ATT">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <MpCost>100</MpCost>
+    <Activate>Shoot</Activate>
+    <feedPower>1000</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+  </Object>
+  <Object id="Mace of the Pumpkin Effigy" type="0x51aa">
+    <DisplayId>Mace of the Pumpkin Effigy</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="0">
+      <File>ancientCityObjects8x8</File>
+      <Index>158</Index>
+    </Texture>
+    <SlotType>29</SlotType>
+    <Description>A sinister twist on the scarecrow's intended use. Totalia bewitched these cursed figures with an uncanny allure to enthral victims into their untimely demise.</Description>
+    <Projectile id="0">
+      <ObjectId>Black Flail Chain</ObjectId>
+      <Speed>0</Speed>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <LifetimeMS>0</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+    <NumProjectiles>1</NumProjectiles>
+    <ExtraTooltipData>
+      <EffectInfo description="Lures enemies in and attacks them within 6 tiles." name="Jumpscare" />
+      <EffectInfo description="6 seconds" name="Active Lifetime" />
+      <EffectInfo description="20 seconds" name="Max Lifetime" />
+    </ExtraTooltipData>
+    <Sound>spell/magic_nova</Sound>
+    <Activate maxSpawnDistance="0" objectId="Summon Scarecrow">SpawnCreep</Activate>
+    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="ATT">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>120</MpCost>
+    <feedPower>1000</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+  </Object>
+  <Object id="Evolutionary Records" type="0x51a4">
+    <DisplayId>Evolutionary Records</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="0">
+      <File>ancientCityObjects8x8</File>
+      <Index>151</Index>
+    </Texture>
+    <SlotType>4</SlotType>
+    <Description>An ancient volume recording ancestral lineages dating as far back as the Primal Era. Infused with the essence of druidic magic, it grants the power to delve into nature's eternal transformation, morphing its caster into formidable creatures.</Description>
+    <Sound>spell/magic_nova</Sound>
+    <BagType>6</BagType>
+    <feedPower>1000</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <Usable />
+    <ActivateOnEquip amount="50" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="50" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <Ability name="Sea Evolution">
+      <ExtraTooltipData>
+        <EffectInfo description="Turn into a powerful crustacean for 6 seconds." name="Evolution" />
+        <EffectInfo description="Gain two additional projectiles on shoot which deal 80-110 damage." name="Transformation Perks" />
+      </ExtraTooltipData>
+      <Activate skin="0x6EF" duration="6">SelfTransform</Activate>
+      <Activate amount="100" range="4.5" splitHealing="true" wisHealBase="35" wisMin="50" wisPerIncrease="8">HealNova</Activate>
+      <Activate amount="15" channel="diminishingReturns" duration="6" stat="WIS">StatBoostSelf</Activate>
+      <Activate amount="15" channel="diminishingReturns" duration="6" stat="VIT">StatBoostSelf</Activate>
+      <Activate amount="-10" channel="diminishingReturns" duration="6" stat="SPD">StatBoostSelf</Activate>
+      <Activate amount="-10" channel="diminishingReturns" duration="6" stat="DEX">StatBoostSelf</Activate>
+      <OnPlayerShootActivate arcGap="0" cooldown="0" gapAngle="0" gapTiles="0" maxDistance="0.2" minDistance="0.2" numShots="2" offsetAngle="0" proc="1" targetMouse="true" type="0x51af" requiredConditions="Wis Boost">BulletCreate</OnPlayerShootActivate>
+      <MpCost>115</MpCost>
+      <Cooldown>3</Cooldown>
+      <SwitchTime>3</SwitchTime>
+    </Ability>
+    <Ability name="Land Evolution">
+      <ExtraTooltipData>
+        <EffectInfo description="Turn into a powerful reptile for 6 seconds." name="Evolution" />
+        <EffectInfo description="Gain two additional projectiles on shoot which deal 90-110 damage." name="Transformation Perks" />
+      </ExtraTooltipData>
+      <Activate skin="0x6EE" duration="6">SelfTransform</Activate>
+      <Activate amount="100" range="2.5" splitHealing="true" wisHealBase="35" wisMin="50" wisPerIncrease="12">HealNova</Activate>
+      <Activate amount="15" channel="diminishingReturns" duration="6" stat="ATT">StatBoostSelf</Activate>
+      <Activate amount="15" channel="diminishingReturns" duration="6" stat="DEF">StatBoostSelf</Activate>
+      <Activate amount="-10" channel="diminishingReturns" duration="6" stat="WIS">StatBoostSelf</Activate>
+      <Activate amount="-100" channel="diminishingReturns" duration="6" stat="MAXHP">StatBoostSelf</Activate>
+      <OnPlayerShootActivate arcGap="11" cooldown="0" gapAngle="0" gapTiles="0" maxDistance="0.2" minDistance="0.2" numShots="2" offsetAngle="0" proc="1" targetMouse="true" type="0x51b0" requiredConditions="Def Boost">BulletCreate</OnPlayerShootActivate>
+      <MpCost>115</MpCost>
+      <Cooldown>3</Cooldown>
+      <SwitchTime>3</SwitchTime>
+    </Ability>
+    <Ability name="Sky Evolution">
+      <ExtraTooltipData>
+        <EffectInfo description="Turn into a powerful insect for 6 seconds." name="Evolution" />
+        <EffectInfo description="Gain two additional projectiles on shoot which deal 40-60 armour piercing damage." name="Transformation Perks" />
+      </ExtraTooltipData>
+      <Activate skin="0x6ED" duration="6">SelfTransform</Activate>
+      <Activate amount="100" range="3.5" splitHealing="true" wisHealBase="35" wisMin="50" wisPerIncrease="10">HealNova</Activate>
+      <Activate amount="15" channel="diminishingReturns" duration="6" stat="DEX">StatBoostSelf</Activate>
+      <Activate amount="15" channel="diminishingReturns" duration="6" stat="SPD">StatBoostSelf</Activate>
+      <Activate amount="-10" channel="diminishingReturns" duration="6" stat="VIT">StatBoostSelf</Activate>
+      <Activate amount="-10" channel="diminishingReturns" duration="6" stat="DEF">StatBoostSelf</Activate>
+      <OnPlayerShootActivate arcGap="0" cooldown="0" gapAngle="0" gapTiles="0" maxDistance="6" minDistance="6" numShots="1" offsetAngle="13.135" proc="1" targetMouse="true" type="0x51b1" requiredConditions="Spd Boost">BulletCreate</OnPlayerShootActivate>
+      <OnPlayerShootActivate arcGap="0" cooldown="0" gapAngle="0" gapTiles="0" maxDistance="6" minDistance="6" numShots="1" offsetAngle="-13.135" proc="1" targetMouse="true" type="0x51b1" requiredConditions="Spd Boost">BulletCreate</OnPlayerShootActivate>
+      <MpCost>115</MpCost>
+      <Cooldown>3</Cooldown>
+      <SwitchTime>3</SwitchTime>
+    </Ability>
+  </Object>
+  <Object id="Carboniferous Tome Proc 1" type="0x51af">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>lofiObj6</File>
+      <Index>0x54</Index>
+    </Texture>
+    <SlotType>4</SlotType>
+    <Description>Survival of the fittest.</Description>
+    <Sound>spell/magic_nova</Sound>
+    <BagType>6</BagType>
+    <feedPower>1300</feedPower>
+    <Soulbound />
+    <XPBonus>8</XPBonus>
+    <Projectile>
+      <ObjectId>Corsair Crab Claw</ObjectId>
+      <Speed>0</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>110</MaxDamage>
+      <Acceleration>10000</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>160</SpeedClamp>
+      <Size>110</Size>
+      <MultiHit />
+      <Amplitude>0.8</Amplitude>
+      <Frequency>2.5</Frequency>
+      <ProtectFromSink />
+    </Projectile>
+    <Usable />
+  </Object>
+  <Object id="Carboniferous Tome Proc 2" type="0x51b0">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>lofiObj6</File>
+      <Index>0x54</Index>
+    </Texture>
+    <SlotType>4</SlotType>
+    <Description>Survival of the fittest.</Description>
+    <Sound>spell/magic_nova</Sound>
+    <BagType>6</BagType>
+    <feedPower>1300</feedPower>
+    <Soulbound />
+    <XPBonus>8</XPBonus>
+    <Projectile>
+      <ObjectId>CorrPala Dark Blast</ObjectId>
+      <Speed>0</Speed>
+      <LifetimeMS>730</LifetimeMS>
+      <MinDamage>90</MinDamage>
+      <MaxDamage>110</MaxDamage>
+      <Acceleration>10000</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>110</SpeedClamp>
+      <Size>90</Size>
+      <ProtectFromSink />
+    </Projectile>
+    <Usable />
+  </Object>
+  <Object id="Carboniferous Tome Proc 3" type="0x51b1">
+    <DisplayId>Darwin's Tome</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>lofiObj6</File>
+      <Index>0x54</Index>
+    </Texture>
+    <SlotType>4</SlotType>
+    <Description>Survival of the fittest.</Description>
+    <Sound>spell/magic_nova</Sound>
+    <BagType>6</BagType>
+    <feedPower>1300</feedPower>
+    <Soulbound />
+    <XPBonus>8</XPBonus>
+    <Projectile>
+      <ObjectId>Cyan Cross Slash</ObjectId>
+      <Speed>286.5</Speed>
+      <LifetimeMS>430</LifetimeMS>
+      <MinDamage>40</MinDamage>
+      <MaxDamage>60</MaxDamage>
+      <Acceleration>-10000</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>200</SpeedClamp>
+      <Size>85</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <ProtectFromSink />
+    </Projectile>
+    <Usable />
+  </Object>
+  <Object id="Runes of Knowledge" type="0x51a5">
+    <DisplayId>Runes of Knowledge</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>ancientCityObjects8x8</File>
+      <Index>154</Index>
+    </Texture>
+    <SlotType>11</SlotType>
+    <Description>A stone slab adorned with enigmatic symbols, harkening to an era of ancient technology still shrouded in obscurity. These same inscrutable runes are found etched on surfaces within the Tundra, beckoning those who dare to decipher their secrets.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Conjure mysterious runes that deal 110-160 damage every 0.6 seconds to enemies within 7 squares, lasting 6 seconds." name="Rune Carvings" />
+    </ExtraTooltipData>
+    <Sound>spell/magic_nova</Sound>
+    <Projectile>
+      <ObjectId>HSkull Wave</ObjectId>
+      <Size>80</Size>
+      <Speed>5</Speed>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>170</MaxDamage>
+      <LifetimeMS>7000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <AccelerationDelay>2000</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <PassesCover />
+      <ConditionEffect duration="3">Weak</ConditionEffect>
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="VIT">IncrementStat</ActivateOnEquip>
+    <feedPower>1000</feedPower>
+    <MpCost>90</MpCost>
+    <Activate numShots="10" color="0xAEDBF0">BulletNova</Activate>
+    <Activate color="-1" objectId="Runic Tundra Spell Object" throwTime="0">ObjectToss</Activate>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+  </Object>
+  <Object id="Runic Tundra Spell Object" type="0x51a6">
+    <Class>Character</Class>
+    <Texture>
+      <File>ancientCityObjects8x8</File>
+      <Index>178</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>ancientCityObjects8x8</File>
+          <Index>178</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>ancientCityObjects8x8</File>
+          <Index>179</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>ancientCityObjects8x8</File>
+          <Index>180</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>ancientCityObjects8x8</File>
+          <Index>181</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>ancientCityObjects8x8</File>
+          <Index>182</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>ancientCityObjects8x8</File>
+          <Index>183</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>70</Size>
+    <NoMiniMap />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object id="Pollen Incendiary" type="0x51b5">
+    <DisplayId>Pollen Incendiary</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="0">
+      <File>ancientCityObjects8x8</File>
+      <Index>176</Index>
+    </Texture>
+    <SlotType>18</SlotType>
+    <Description>A diabolical fusion of magic and chemical warfare engineered by Dr. Terrible in his effort to subjugate the Nest. When unleashed, it triggers a cataclysmic chain reaction between the charged volatile pollen that engulfs the air in a blinding and roaring inferno.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="This item is temporarily disabled for the Open Beta, sorry for any inconvince!" name="Open Beta" />
+      <EffectInfo description="Consumes most of your available MP upon casting the poison. The greater the amount of MP consumed the more potent the explosion." name="Arcane Nourishment" />
+      <EffectInfo description="Pollen lingers within 10 squares of ground zero, dealing 120-200 damage." name="Pollen Fallout" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="40" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="-6" stat="VIT">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="-6" stat="WIS">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>120</MpCost>
+    <feedPower>1000</feedPower>
+    <Cooldown>5</Cooldown>
+    <XPBonus>7</XPBonus>
+    <Activate color="0xEFC000" damageBoost="1.0" duration="10" radius="10" scalingStat="WIS" statModDamage="120" statModDamageBoost="0.0" statModImpactDamage="250" impactDamage="600" statModRadius="0.0" statModScalingMin="50" throwTime="2" totalDamage="450">PoisonGrenade</Activate>
+    <Soulbound />
+  </Object>
+  <Object id="Pollen Poison Object" type="0x51b8">
+    <Class>Character</Class>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>128</Index>
+    </Texture>
+    <Size>120</Size>
+    <ShadowSize>50</ShadowSize>
+    <NoMiniMap />
+    <SetStyle>Explosion</SetStyle>
+    <Effect color="0xEFC000" life=".5" lifeVariance="0" rangeX="10" rangeY="10" rate="7" rise="0" riseAcc="0" riseVariance="0" size="4" speed="0" speedVariance="0">CustomParticles</Effect>
+    <Animation period="0" prob="1" id="ExplosionAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>128</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>129</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>130</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>131</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>132</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>133</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>134</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>135</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Explosion">
+        <StyleStep id="ExplosionAnimation">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Bloodbath Blade" type="0x5192">
+    <DisplayId>Bloodbath Blade</DisplayId>
+    <Texture>
+      <File>ancientCityObjects8x8</File>
+      <Index>153</Index>
+    </Texture>
+    <Description>A malevolent katana infested with parasitic organisms. The ravenous symbiotes instills in its user a thirst for blood, which grows as it drinks from the life force of its wielder and their foes alike.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Sick on self when in combat. Gain an ATK boost the lower your HP is." name="On Shoot" />
+    </ExtraTooltipData>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.4</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>3</NumProjectiles>
+      <ArcGap>120</ArcGap>
+      <DefaultAngle>60</DefaultAngle>
+      <DefaultAngleIncr>30</DefaultAngleIncr>
+      <RateOfFire>0.25</RateOfFire>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Bloodbath Shot</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>170</MaxDamage>
+      <LifetimeMS>700</LifetimeMS>
+      <Size>110</Size>
+      <Boomerang />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Bloodbath Splatter</ObjectId>
+      <Speed>15</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <Acceleration>-10</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>2500</LifetimeMS>
+      <ArmorPiercing />
+      <Wavy />
+      <Size>75</Size>
+      <MultiHit />
+    </Projectile>
+    <Class>Equipment</Class>
+    <Item />
+    <SlotType>24</SlotType>
+    <RateOfFire>1.4</RateOfFire>
+    <OldSound>bladeSwing</OldSound>
+    <BagType>6</BagType>
+    <FameBonus>7</FameBonus>
+    <feedPower>1000</feedPower>
+    <ActivateOnEquip amount="-15" stat="VIT">IncrementStat</ActivateOnEquip>
+    <Soulbound />
+    <OnPlayerShootActivate color="-1" proc="1" effect="Sick" cooldown="0" duration="1.5" requiredConditions="In Combat">ConditionEffectSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate amount="2" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.95">StatBoostSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate amount="4" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.85">StatBoostSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate amount="6" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.75">StatBoostSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate amount="8" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.65">StatBoostSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate amount="10" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.55">StatBoostSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate amount="12" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.45">StatBoostSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate amount="14" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.35">StatBoostSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate amount="16" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.25">StatBoostSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate amount="18" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.15">StatBoostSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate amount="20" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.05">StatBoostSelf</OnPlayerShootActivate>
+  </Object>
+  <Object id="Cloak of the Deep" type="0x5193">
+    <DisplayId>Cloak of the Deep</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>ancientCityObjects8x8</File>
+      <Index>152</Index>
+    </Texture>
+    <SlotType>13</SlotType>
+    <Description>An enchanting cloak that conceals its wearer in a veil of iridescent bubbles. The shimmering cascade of bubbles serves as the only lifeline within the sea's deepest hadal trenches.</Description>
+    <Projectile>
+      <ObjectId>Bubble</ObjectId>
+      <Speed>0</Speed>
+      <LifetimeMS>350</LifetimeMS>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>75</MaxDamage>
+      <Acceleration>10000</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>150</SpeedClamp>
+      <Size>85</Size>
+      <MultiHit />
+      <ProtectFromSink />
+      <ArmorPiercing />
+    </Projectile>
+    <ExtraTooltipData>
+      <EffectInfo description="" name="Inhale" />
+      <EffectInfo description="While holding down the ability key, drain 25 MP/sec and become invisible." name="" />
+      <EffectInfo description="" name="Exhale" />
+      <EffectInfo description="While holding down the ability key, release a stream of bubbles whilst shooting scaling to amount of MP left." name="" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <feedPower>1000</feedPower>
+    <MpCostPerSecond>25</MpCostPerSecond>
+    <MpCost>0</MpCost>
+    <MpEndCost>0</MpEndCost>
+    <NumProjectiles>3</NumProjectiles>
+    <ArcGap>8</ArcGap>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <MultiPhase />
+    <Usable />
+    <Cooldown>5</Cooldown>
+    <ActivateOnEquip amount="50" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
+    <Activate effect="Invisible" enableGenericManaHealing="false" enableManaRegen="false" enablePetManaHealing="false">ShurikenAbility</Activate>
+    <Activate effect="Stasis Immune" enableGenericManaHealing="false" enableManaRegen="false" enablePetManaHealing="false">ShurikenAbility</Activate>
+    <Activate duration="1" effect="Invisible">ConditionEffectSelf</Activate>
+    <OnPlayerShootActivate arcGap="11" cooldown="0" gapAngle="0" gapTiles="0.4" maxDistance="0.6" minDistance="0.6" numShots="3" offsetAngle="0" proc="1" targetMouse="true" type="0x5193" manaRequiredRelative="0.85" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
+    <OnPlayerShootActivate arcGap="12" cooldown="0.4" gapAngle="0" gapTiles="0" maxDistance="0.2" minDistance="0.2" numShots="2" offsetAngle="14" proc="1" targetMouse="true" type="0x51ad" manaRequiredRelative="0.7" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
+    <OnPlayerShootActivate arcGap="12" cooldown="0.4" gapAngle="0" gapTiles="0" maxDistance="0.2" minDistance="0.2" numShots="2" offsetAngle="-14" proc="1" targetMouse="true" type="0x51ad" manaRequiredRelative="0.7" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
+    <OnPlayerShootActivate arcGap="6" cooldown="0" gapAngle="0" gapTiles="0.05" maxDistance="-0.2" minDistance="-0.2" numShots="4" offsetAngle="0" proc="1" targetMouse="true" type="0x51ae" manaRequiredRelative="0.55" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
+    <OnPlayerShootActivate arcGap="9" cooldown="0.6" gapAngle="0" gapTiles="0.2" maxDistance="0.4" minDistance="0.4" numShots="2" offsetAngle="-10" proc="1" targetMouse="true" type="0x5193" manaRequiredRelative="0.4" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
+    <OnPlayerShootActivate arcGap="9" cooldown="0.6" gapAngle="0" gapTiles="0.2" maxDistance="0.4" minDistance="0.4" numShots="2" offsetAngle="10" proc="1" targetMouse="true" type="0x5193" manaRequiredRelative="0.4" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
+    <OnPlayerShootActivate arcGap="4" cooldown="0" gapAngle="0" gapTiles="0" maxDistance="0.05" minDistance="0.05" numShots="2" offsetAngle="0" proc="1" targetMouse="true" type="0x51ad" manaRequiredRelative="0.25" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
+    <OnPlayerShootActivate arcGap="6" cooldown="0.4" gapAngle="0" gapTiles="0" maxDistance="0.75" minDistance="0.75" numShots="3" offsetAngle="0" proc="1" targetMouse="true" type="0x51ae" manaRequiredRelative="0.1" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
+  </Object>
+  <Object id="Deep Sea Abyss Cloak Proc 1" type="0x51ad">
+    <DisplayId>Breathing Cloak</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x17f</Index>
+    </Texture>
+    <SlotType>13</SlotType>
+    <Description>Inhale, exhale.</Description>
+    <Projectile>
+      <ObjectId>Bubble</ObjectId>
+      <Speed>0</Speed>
+      <LifetimeMS>405</LifetimeMS>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>75</MaxDamage>
+      <Acceleration>10000</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>130</SpeedClamp>
+      <Size>85</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <ProtectFromSink />
+    </Projectile>
+    <BagType>6</BagType>
+    <feedPower>1000</feedPower>
+    <MpCostPerSecond>40</MpCostPerSecond>
+    <MpCost>0</MpCost>
+    <MpEndCost>0</MpEndCost>
+    <NumProjectiles>0</NumProjectiles>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <MultiPhase />
+    <Usable />
+    <Cooldown>5</Cooldown>
+  </Object>
+  <Object id="Deep Sea Abyss Cloak Proc 2" type="0x51ae">
+    <DisplayId>Breathing Cloak</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x17f</Index>
+    </Texture>
+    <SlotType>13</SlotType>
+    <Description>Inhale, exhale.</Description>
+    <Projectile>
+      <ObjectId>Bubble</ObjectId>
+      <Speed>0</Speed>
+      <LifetimeMS>475</LifetimeMS>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>75</MaxDamage>
+      <Acceleration>10000</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>110</SpeedClamp>
+      <Size>85</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <ProtectFromSink />
+    </Projectile>
+    <BagType>6</BagType>
+    <feedPower>1000</feedPower>
+    <MpCostPerSecond>40</MpCostPerSecond>
+    <MpCost>0</MpCost>
+    <MpEndCost>0</MpEndCost>
+    <NumProjectiles>0</NumProjectiles>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <MultiPhase />
+    <Usable />
+    <Cooldown>5</Cooldown>
+  </Object>
+  <Object id="Basic Fishing Rod Consumable" type="0x8710">
+    <DisplayId>Basic Fishing Rod</DisplayId>
+    <Item />
+    <InvUse />
+    <Soulbound />
+    <Class>Equipment</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>486</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fishing rod fashioned from a tree branch and string. It is suitable for beginners.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="" name="Fishing:" />
+      <EffectInfo description="Summon a controllable fishing line and aim at ripples on the water to catch fish!" name="" />
+      <EffectInfo description="" name="Restricted Area:" />
+      <EffectInfo description="This can only be used at the fish pond in the Coral Reefs biome." name="" />
+      <EffectInfo description="5 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <Activate maxSpawnDistance="0" objectId="Summon Fishing Rod Blank">SpawnCreep</Activate>
+    <Activate maxSpawnDistance="0" objectId="Summon Fishing Rod Blank">SpawnCreep</Activate>
+    <Activate maxSpawnDistance="0" cooldown="5" objectId="Summon Basic Fishing Rod">SpawnCreep</Activate>
+  </Object>
+  <Object id="Summon Basic Fishing Rod" type="0x8711">
+    <Class>Summon</Class>
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>70</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.3">
+        <Texture>
+          <File>UGCSetpieceObjects16x16</File>
+          <Index>70</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>UGCSetpieceObjects16x16</File>
+          <Index>71</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <ShadowSize>0</ShadowSize>
+    <Size>60</Size>
+    <NoMiniMap />
+    <Z>-0.15</Z>
+    <Projectile id="0">
+      <ObjectId>Invisible</ObjectId>
+      <Damage>100</Damage>
+      <Speed>200</Speed>
+      <Size>100</Size>
+      <LifetimeMS>50</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <FollowMouse speed="0.25" />
+  </Object>
+  <Object id="Summon Fishing Rod Blank" type="0x8712">
+    <Class>Summon</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object id="Intermediate Fishing Rod Consumable" type="0xc778">
+    <DisplayId>Intermediate Fishing Rod</DisplayId>
+    <Item />
+    <InvUse />
+    <Soulbound />
+    <Class>Equipment</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>487</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A sturdy fishing rod reinforced with metal. It is an adequate tool for any and all fishing activities.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="" name="Fishing:" />
+      <EffectInfo description="Summon a controllable fishing line and aim at ripples on the water to catch fish!" name="" />
+      <EffectInfo description="" name="Restricted Area:" />
+      <EffectInfo description="This can only be used at the fish pond in the Coral Reefs biome." name="" />
+      <EffectInfo description="5 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <Activate maxSpawnDistance="0" objectId="Summon Fishing Rod Blank">SpawnCreep</Activate>
+    <Activate maxSpawnDistance="0" objectId="Summon Fishing Rod Blank">SpawnCreep</Activate>
+    <Activate maxSpawnDistance="0" cooldown="5" objectId="Summon Intermediate Fishing Rod">SpawnCreep</Activate>
+  </Object>
+  <Object id="Summon Intermediate Fishing Rod" type="0xc779">
+    <Class>Summon</Class>
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>70</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.3">
+        <Texture>
+          <File>UGCSetpieceObjects16x16</File>
+          <Index>70</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>UGCSetpieceObjects16x16</File>
+          <Index>71</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <ShadowSize>0</ShadowSize>
+    <Size>60</Size>
+    <NoMiniMap />
+    <Z>-0.15</Z>
+    <Projectile id="0">
+      <ObjectId>Invisible</ObjectId>
+      <Damage>100</Damage>
+      <Speed>200</Speed>
+      <Size>100</Size>
+      <LifetimeMS>50</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <FollowMouse speed="0.3" />
+  </Object>
+  <Object id="Expert Fishing Rod Consumable" type="0xc77a">
+    <DisplayId>Expert Fishing Rod</DisplayId>
+    <Item />
+    <InvUse />
+    <Soulbound />
+    <Class>Equipment</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>563</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fishing rod with a steel alloy frame. Its light weight allows for faster casting.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="" name="Fishing:" />
+      <EffectInfo description="Summon a controllable fishing line and aim at ripples on the water to catch fish!" name="" />
+      <EffectInfo description="" name="Restricted Area:" />
+      <EffectInfo description="This can only be used at the fish pond in the Coral Reefs biome." name="" />
+      <EffectInfo description="5 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <Activate maxSpawnDistance="0" objectId="Summon Fishing Rod Blank">SpawnCreep</Activate>
+    <Activate maxSpawnDistance="0" objectId="Summon Fishing Rod Blank">SpawnCreep</Activate>
+    <Activate maxSpawnDistance="0" cooldown="5" objectId="Summon Expert Fishing Rod">SpawnCreep</Activate>
+  </Object>
+  <Object id="Summon Expert Fishing Rod" type="0xc77b">
+    <Class>Summon</Class>
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>70</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.3">
+        <Texture>
+          <File>UGCSetpieceObjects16x16</File>
+          <Index>70</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>UGCSetpieceObjects16x16</File>
+          <Index>71</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <ShadowSize>0</ShadowSize>
+    <Size>60</Size>
+    <NoMiniMap />
+    <Z>-0.15</Z>
+    <Projectile id="0">
+      <ObjectId>Invisible</ObjectId>
+      <Damage>100</Damage>
+      <Speed>200</Speed>
+      <Size>100</Size>
+      <LifetimeMS>50</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <FollowMouse speed="0.35" />
+  </Object>
+  <Object id="Master Fishing Rod Consumable" type="0xc77c">
+    <DisplayId>Master Fishing Rod</DisplayId>
+    <Item />
+    <InvUse />
+    <Soulbound />
+    <Class>Equipment</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>488</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fishing rod used by master fishers. It requires skill and precision to use to its full potential.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="" name="Fishing:" />
+      <EffectInfo description="Summon a controllable fishing line and aim at ripples on the water to catch fish!" name="" />
+      <EffectInfo description="" name="Restricted Area:" />
+      <EffectInfo description="This can only be used at the fish pond in the Coral Reefs biome." name="" />
+      <EffectInfo description="5 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <Activate maxSpawnDistance="0" objectId="Summon Fishing Rod Blank">SpawnCreep</Activate>
+    <Activate maxSpawnDistance="0" objectId="Summon Fishing Rod Blank">SpawnCreep</Activate>
+    <Activate maxSpawnDistance="0" cooldown="5" objectId="Summon Master Fishing Rod">SpawnCreep</Activate>
+  </Object>
+  <Object id="Summon Master Fishing Rod" type="0xc77d">
+    <Class>Summon</Class>
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>70</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.3">
+        <Texture>
+          <File>UGCSetpieceObjects16x16</File>
+          <Index>70</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>UGCSetpieceObjects16x16</File>
+          <Index>71</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <ShadowSize>0</ShadowSize>
+    <Size>60</Size>
+    <NoMiniMap />
+    <Z>-0.15</Z>
+    <Projectile id="0">
+      <ObjectId>Invisible</ObjectId>
+      <Damage>100</Damage>
+      <Speed>200</Speed>
+      <Size>100</Size>
+      <LifetimeMS>50</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <FollowMouse speed="0.4" />
+  </Object>
+  <Object id="Legendary Fishing Rod Consumable" type="0xc77e">
+    <DisplayId>Legendary Fishing Rod</DisplayId>
+    <Item />
+    <InvUse />
+    <Soulbound />
+    <Class>Equipment</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>491</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A legendary fishing rod only passed down to those who are worthy. It is unrivalled in effectiveness.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="" name="Fishing:" />
+      <EffectInfo description="Summon a controllable fishing line and aim at ripples on the water to catch fish!" name="" />
+      <EffectInfo description="" name="Restricted Area:" />
+      <EffectInfo description="This can only be used at the fish pond in the Coral Reefs biome." name="" />
+      <EffectInfo description="5 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <BagType>6</BagType>
+    <Activate maxSpawnDistance="0" objectId="Summon Fishing Rod Blank">SpawnCreep</Activate>
+    <Activate maxSpawnDistance="0" objectId="Summon Fishing Rod Blank">SpawnCreep</Activate>
+    <Activate maxSpawnDistance="0" cooldown="5" objectId="Summon Legendary Fishing Rod">SpawnCreep</Activate>
+  </Object>
+  <Object id="Summon Legendary Fishing Rod" type="0xc77f">
+    <Class>Summon</Class>
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>70</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.3">
+        <Texture>
+          <File>UGCSetpieceObjects16x16</File>
+          <Index>70</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>UGCSetpieceObjects16x16</File>
+          <Index>71</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <ShadowSize>0</ShadowSize>
+    <Size>60</Size>
+    <NoMiniMap />
+    <Z>-0.15</Z>
+    <Projectile id="0">
+      <ObjectId>Invisible</ObjectId>
+      <Damage>100</Damage>
+      <Speed>200</Speed>
+      <Size>100</Size>
+      <LifetimeMS>50</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <FollowMouse speed="0.45" />
+  </Object>
+  <Object id="Frog Spawner" type="0xc76d">
+    <DisplayId>Frog Spawner</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects8x8</File>
+      <Index>143</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Call forth a cute frog companion!</Description>
+    <BagType>2</BagType>
+    <Activate cooldown="1" hideEffect="false" objectId="Vanity Frog Pet">PermaPet</Activate>
+    <InvUse />
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object id="Vanity Frog Pet" type="0xc7aa">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>UGCSetPieceChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Size>65</Size>
+    <ShadowSize>65</ShadowSize>
+  </Object>
+  <Object id="Squid Spawner" type="0xc789">
+    <DisplayId>Squid Spawner</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects8x8</File>
+      <Index>144</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Call forth a cute squid companion!</Description>
+    <BagType>2</BagType>
+    <Activate cooldown="1" hideEffect="false" objectId="Vanity Squid Pet">PermaPet</Activate>
+    <InvUse />
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object id="Vanity Squid Pet" type="0xc7ab">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>UGCSetPieceChars16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Size>65</Size>
+    <ShadowSize>65</ShadowSize>
+  </Object>
+  <Object id="Crab Spawner" type="0xc7a9">
+    <DisplayId>Crab Spawner</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects8x8</File>
+      <Index>145</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Call forth a cute crab companion!</Description>
+    <BagType>2</BagType>
+    <Activate cooldown="1" hideEffect="false" objectId="Vanity Crab Pet">PermaPet</Activate>
+    <InvUse />
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object id="Vanity Crab Pet" type="0xc7ac">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>UGCSetPieceChars16x16</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Size>65</Size>
+    <ShadowSize>65</ShadowSize>
+  </Object>
+  <Object id="Fishing Catch 1A" type="0xc761">
+    <DisplayId>Bluefish</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This common fish is as blue as the ocean.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Common (White)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 1" customString="Common fish caught">ChangeObject</Activate>
+    <Activate amount="400" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 1B" type="0xc78a">
+    <DisplayId>Anchovy</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>1</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This common fish tends to swim in large schools.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Common (White)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 1" customString="Common fish caught">ChangeObject</Activate>
+    <Activate amount="400" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 1C" type="0xc78b">
+    <DisplayId>Goldfish</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>2</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This common fish is often cared for as pets.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Common (White)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 1" customString="Common fish caught">ChangeObject</Activate>
+    <Activate amount="400" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 1D" type="0xc78c">
+    <DisplayId>Jellyfish</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>3</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This common fish is more squishy than expected.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Common (White)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 1" customString="Common fish caught">ChangeObject</Activate>
+    <Activate amount="400" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 1E" type="0xc78d">
+    <DisplayId>Carp</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This common fish is widespread.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Common (White)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 1" customString="Common fish caught">ChangeObject</Activate>
+    <Activate amount="400" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 2A" type="0xc762">
+    <DisplayId>Perch</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>5</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This uncommon fish is striped.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Uncommon (Green)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 2" customString="Uncommon fish caught">ChangeObject</Activate>
+    <Activate amount="800" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 2B" type="0xc78e">
+    <DisplayId>Clownfish</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>6</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This uncommon fish looks cheerful.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Uncommon (Green)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 2" customString="Uncommon fish caught">ChangeObject</Activate>
+    <Activate amount="800" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 2C" type="0xc78f">
+    <DisplayId>Crab</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>7</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This uncommon fish is more crusty than expected.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Uncommon (Green)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 2" customString="Uncommon fish caught">ChangeObject</Activate>
+    <Activate amount="800" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 2D" type="0xc790">
+    <DisplayId>Bass</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>8</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This uncommon fish has a wide mouth.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Uncommon (Green)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 2" customString="Uncommon fish caught">ChangeObject</Activate>
+    <Activate amount="800" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 2E" type="0xc791">
+    <DisplayId>Snapper</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>9</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This uncommon fish has a nasty bite.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Uncommon (Green)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 2" customString="Uncommon fish caught">ChangeObject</Activate>
+    <Activate amount="800" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 3A" type="0xc763">
+    <DisplayId>Tilapia</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>10</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This rare fish enjoys eating insects.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Rare (Cyan)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 3" customString="Rare fish caught">ChangeObject</Activate>
+    <Activate amount="1200" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 3B" type="0xc792">
+    <DisplayId>Crappie</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>11</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This rare fish has speckled scales.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Rare (Cyan)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 3" customString="Rare fish caught">ChangeObject</Activate>
+    <Activate amount="1200" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 3C" type="0xc793">
+    <DisplayId>Cod</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>12</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This rare fish can lay millions of eggs.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Rare (Cyan)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 3" customString="Rare fish caught">ChangeObject</Activate>
+    <Activate amount="1200" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 3D" type="0xc794">
+    <DisplayId>Blue Tang</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>13</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This rare fish is forgetful.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Rare (Cyan)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 3" customString="Rare fish caught">ChangeObject</Activate>
+    <Activate amount="1200" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 3E" type="0xc795">
+    <DisplayId>Flying Fish</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>14</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This rare fish can glide through the air.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Rare (Cyan)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 3" customString="Rare fish caught">ChangeObject</Activate>
+    <Activate amount="1200" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 4A" type="0xc764">
+    <DisplayId>Salmon</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>15</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This epic fish migrates from the sea to the rivers.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Epic (Orange)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 4" customString="Epic fish caught">ChangeObject</Activate>
+    <Activate amount="1600" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 4B" type="0xc796">
+    <DisplayId>Koi</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>16</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This epic fish is considered sacred.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Epic (Orange)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 4" customString="Epic fish caught">ChangeObject</Activate>
+    <Activate amount="1600" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 4C" type="0xc797">
+    <DisplayId>Tuna</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>17</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This epic fish is round and plump.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Epic (Orange)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 4" customString="Epic fish caught">ChangeObject</Activate>
+    <Activate amount="1600" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 4D" type="0xc798">
+    <DisplayId>Pufferfish</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>18</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This epic fish inflates in self defense.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Epic (Orange)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 4" customString="Epic fish caught">ChangeObject</Activate>
+    <Activate amount="1600" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 4E" type="0xc799">
+    <DisplayId>Arapaima</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>19</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This epic fish is very long.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Epic (Orange)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 4" customString="Epic fish caught">ChangeObject</Activate>
+    <Activate amount="1600" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 5A" type="0xc765">
+    <DisplayId>Narwhal</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>20</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This mythic fish is a horned whale.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Mythic (Purple)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 5" customString="Mythic fish caught">ChangeObject</Activate>
+    <Activate amount="2000" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 5B" type="0xc79a">
+    <DisplayId>Anglerfish</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>21</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This mythic fish lurks in the dark depths.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Mythic (Purple)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 5" customString="Mythic fish caught">ChangeObject</Activate>
+    <Activate amount="2000" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 5C" type="0xc79b">
+    <DisplayId>Crystallised Fish</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>22</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This mythic fish is native to the Crystal Cavern.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Mythic (Purple)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 5" customString="Mythic fish caught">ChangeObject</Activate>
+    <Activate amount="2000" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 5D" type="0xc79c">
+    <DisplayId>Manta Ray</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>23</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This mythic fish is highly intelligent.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Mythic (Purple)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 5" customString="Mythic fish caught">ChangeObject</Activate>
+    <Activate amount="2000" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object id="Fishing Catch 5E" type="0xc79d">
+    <DisplayId>Coelacanth</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>24</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>This mythic fish was thought to be extinct.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use this near the Fisherman in the Coral Reefs biome to complete fishing quests." name="Fishing" />
+      <EffectInfo description="Mythic (Purple)" name="Rarity" />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>4</BagType>
+    <Activate color="-1" newId="Fishing Quest Object" radius="3.5" targetId="Fishing Quest 5" customString="Mythic fish caught">ChangeObject</Activate>
+    <Activate amount="2000" stat="XP">IncrementStat</Activate>
+  </Object>
+  <Object type="0x7DF" id="Quartermaster Scabbard Shiny">
+    <DisplayId>Quartermaster Scabbard</DisplayId>
+    <InventoryAnimation />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObjShiny</File>
+      <Index>0x42</Index>
+    </Texture>
+    <SlotType>30</SlotType>
+    <Description>A foreign sheath stolen from unknown lands by the crew of Davy Jones. Now phantoms, the headstrong ghost pirates have misused this delicate instrument as a rapier holder, twisting its effects with their chaotic ways.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Max Dash Distance" description="7 tiles" />
+      <EffectInfo name="Trail Damage" description="1000" />
+      <EffectInfo name="Multiplier" description="8/12/17/23/30 % to MAXHP" />
+      <EffectInfo name="" description="Each stack lasts for 10 seconds" />
+      <EffectInfo name="On Channeling" description="Spawns decoy for 4 seconds" />
+      <EffectInfo name="On Dash" description="Healing for 5 seconds" />
+    </ExtraTooltipData>
+    <Projectile>
+      <ObjectId>UT 4 Sheath Projectile Shiny</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>500</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <LifetimeMS>700</LifetimeMS>
+      <Size>120</Size>
+      <Boomerang />
+      <MultiHit />
+      <FaceDir />
+      <Acceleration>1000</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>200</SpeedClamp>
+    </Projectile>
+    <ActivateOnEquip stat="MAXHP" amount="30">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <Cooldown>3</Cooldown>
+    <MpCost>110</MpCost>
+    <ArcGap>6</ArcGap>
+    <NumProjectiles>2</NumProjectiles>
+    <Activate amount="3" duration="20">ChannelDash</Activate>
+    <OnPlayerAbilityActivate proc="1" objectId="Sheath Decoy Shiny" duration="4" speed="0">Decoy</OnPlayerAbilityActivate>
+    <StartUse>
+      <Activate speed="50" minDistance="1" maxDistance="7" damage="1000" color="0x9bff82" postCondDuration="0.16" effect="Multiplied" stat="MAXHP" amountPerEnemy="8,12,17,23,30" effectDuration="10" cooldown="0.4">Dash</Activate>
+      <Activate duration="5" effect="Healing">ConditionEffectSelf</Activate>
+    </StartUse>
+    <EndUse>
+      <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="1" manaCost="0" manaRequired="0" maxDistance="3" minDistance="3" numShots="2" targetMouse="true" offsetAngle="0" proc="1" type="0x7DF">BulletCreate</OnPlayerAbilityActivate>
+    </EndUse>
+    <feedPower>800</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Soulbound />
+    <Labels>EQUIPMENT,ABILITY,SHEATH,UT,TAB_UT,POWERTIER_B,TRADEABLE,XPBONUS,MPCOST,COOLDOWN,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x7E2" id="Crystal Mace Shiny">
+    <DisplayId>Crystal Mace</DisplayId>
+    <InventoryAnimation />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>lofiObjShiny</File>
+      <Index>0x48</Index>
+    </Texture>
+    <SlotType>29</SlotType>
+    <Sound>spell/magic_nova</Sound>
+    <Projectile>
+      <ObjectId>Summon Steed Projectile Shiny</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <NumProjectiles>5</NumProjectiles>
+    <Description>Small particles of energy visibly buzz around inside the glistening crystals of this mace.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Summons" description="Wandering steed, click or hold your Summon Control button to move it." />
+      <EffectInfo name="Lifetime" description="10 seconds" />
+    </ExtraTooltipData>
+    <Activate objectId="Summon Steed Shiny" maxSpawnDistance="8.0">SpawnCreep</Activate>
+    <ActivateOnEquip stat="SPD" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="WIS" amount="4">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>100</MpCost>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,MACE,UT,TAB_UT,POWERTIER_A,XPBONUS,MPCOST,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x7E5" id="Void Blade Shiny">
+    <DisplayId>Void Blade</DisplayId>
+    <InventoryAnimation />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObjShiny</File>
+      <Index>0x4a</Index>
+    </Texture>
+    <PowerLevel>191</PowerLevel>
+    <SlotType>24</SlotType>
+    <Description>An astronomically heavy katana. It is forged from dark matter.</Description>
+    <RateOfFire>0.3</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile>
+      <ObjectId>Void Star Shiny</ObjectId>
+      <Speed>0</Speed>
+      <MinDamage>600</MinDamage>
+      <MaxDamage>750</MaxDamage>
+      <LifetimeMS>2100</LifetimeMS>
+      <Acceleration>200</Acceleration>
+      <AccelerationDelay>1250</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <ActivateOnEquip stat="DEX" amount="-5">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>750</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Soulbound />
+    <Labels>EQUIPMENT,WEAPON,KATANA,UT,TAB_UT,POWERTIER_B,TRADEABLE,XPBONUS,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x7E7" id="E.Y.E. S.H.I.N.Y">
+    <DisplayId>E.Y.E.</DisplayId>
+    <InventoryAnimation />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-2" yOffset="0">
+      <File>lofiObjShiny</File>
+      <Index>0x4c</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="Retaliates with a psychic attack" name="On Hit" />
+    </ExtraTooltipData>
+    <Description>The gouged eye of the ferocious F.E.R.A.L. It is no longer potent enough to generate energy beams, but the beast's psychic vision still instinctively lashes back at aggressors.</Description>
+    <Projectile>
+      <ObjectId>Psychic Shot Shiny</ObjectId>
+      <Speed>170</Speed>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <Acceleration>-90</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <LifetimeMS>706</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <ActivateOnEquip amount="70" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="70" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="VIT">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
+    <OnPlayerHitActivate arcGap="0" cooldown="0" damageThreshold="0" gapAngle="0" gapTiles="0" maxDistance="6" minDistance="6" numShots="1" offsetAngle="0" proc="1" type="0x7E7">BulletCreate</OnPlayerHitActivate>
+    <BagType>6</BagType>
+    <XPBonus>6</XPBonus>
+    <feedPower>950</feedPower>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_A,XPBONUS,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x7E9" id="Esben's Shaman Attire Shiny">
+    <DisplayId>Esben's Shaman Attire</DisplayId>
+    <InventoryAnimation />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObjShiny</File>
+      <Index>0x4e</Index>
+    </Texture>
+    <SlotType>14</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo name="On Taking Damage" description="20% chance to Slow enemies within 6 tiles for 5 seconds." />
+      <EffectInfo name="Cooldown" description="5 seconds." />
+    </ExtraTooltipData>
+    <Description>A glacial robe worn by the witch doctors of a bygone ice tribe during their sacred burial ceremonies. The passage of time has encased the cloth in a layer of permafrost, chilling those who fracture its coat.</Description>
+    <ActivateOnEquip stat="DEF" amount="10">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXHP" amount="60">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="6">IncrementStat</ActivateOnEquip>
+    <OnPlayerHitActivate proc="0.2" cooldown="5" damageThreshold="0" effect="Slowed" duration="5" range="6" color="0xffa500" target="enemy" center="enemy">GenericActivate</OnPlayerHitActivate>
+    <BagType>6</BagType>
+    <feedPower>800</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Soulbound />
+    <Labels>EQUIPMENT,ARMOR,ROBE,UT,TAB_UT,POWERTIER_B,TRADEABLE,XPBONUS,RESKIN,SHINY</Labels>
+  </Object>
+  <Object type="0x7EA" id="Pirate King's Cutlass Shiny">
+    <DisplayId>Pirate King's Cutlass</DisplayId>
+    <InventoryAnimation />
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObjShiny</File>
+      <Index>0x4f</Index>
+    </Texture>
+    <PowerLevel>192</PowerLevel>
+    <SlotType>1</SlotType>
+    <Description>Used only by the pirates who would make themselves kings, this cutlass is said to be cursed as each Pirate King seems to be killed rather unexpectedly.</Description>
+    <RateOfFire>1.3</RateOfFire>
+    <Sound>weapon/glass_sword</Sound>
+    <Projectile>
+      <ObjectId>Cutlass Bolt Shiny</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>180</MinDamage>
+      <MaxDamage>230</MaxDamage>
+      <LifetimeMS>220</LifetimeMS>
+    </Projectile>
+    <ActivateOnEquip stat="SPD" amount="3">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>800</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Soulbound />
+    <EnchantmentSlots maxNumber="1" slotChance="1" default="1" dropMin="1" dropMax="1" utPrefixLocked="true" purchaseDust="purpleDust" purchaseCost="1750" />
+    <Labels>EQUIPMENT,WEAPON,SWORD,UT,TAB_UT,POWERTIER_B,TRADEABLE,XPBONUS,CUTLASS,RESKIN,SHINY</Labels>
   </Object>
 </Objects>

@@ -9750,7 +9750,7 @@
       <Size>60</Size>
     </Projectile>
     <KillStat stat="CritterKills" />
-    <Labels>ENEMY,MINION,CRITTER</Labels>
+    <Labels>ENEMY,MINION,CRITTER,SPAWNER</Labels>
   </Object>
   <Object type="0x43f4" id="Swarm Spider Mid">
     <Class>Character</Class>
@@ -9772,7 +9772,7 @@
       <Size>60</Size>
     </Projectile>
     <KillStat stat="CritterKills" />
-    <Labels>ENEMY,MINION,CRITTER</Labels>
+    <Labels>ENEMY,MINION,CRITTER,SPAWNER</Labels>
   </Object>
   <Object type="0x43f5" id="Swarm Spider High">
     <Class>Character</Class>
@@ -9794,7 +9794,7 @@
       <Size>60</Size>
     </Projectile>
     <KillStat stat="CritterKills" />
-    <Labels>ENEMY,MINION,CRITTER</Labels>
+    <Labels>ENEMY,MINION,CRITTER,SPAWNER</Labels>
   </Object>
   <Object type="0x43f6" id="Swarm Spider Low Spawner">
     <Class>GameObject</Class>
@@ -11854,5 +11854,264 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x568" id="Belladonna Event Flower Red">
+    <DisplayId>Immaculate Red Flower</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x5d0</Index>
+    </Texture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/elves_death</DeathSound>
+    <MaxHitPoints>2750</MaxHitPoints>
+    <Exp>0</Exp>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Red Star New</ObjectId>
+      <Speed>90</Speed>
+      <Damage>115</Damage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>60</Size>
+      <MultiHit />
+    </Projectile>
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5d0</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5d1</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5d2</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5d3</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5d4</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5d5</Index>
+      </Texture>
+    </AltTexture>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,STASISIMMUNE,NATURE,SPAWNER</Labels>
+    <Presentation>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt5">
+        <StyleStep altTextureId="5">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt6">
+        <StyleStep altTextureId="6">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x569" id="Belladonna Event Flower White">
+    <DisplayId>Breathtaking White Flower</DisplayId>
+    <Group>vlntns flowers</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x49e</Index>
+    </Texture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/elves_death</DeathSound>
+    <MaxHitPoints>2750</MaxHitPoints>
+    <Exp>0</Exp>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Blue Star New</ObjectId>
+      <Speed>90</Speed>
+      <Damage>30</Damage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>60</Size>
+      <ConditionEffect duration="1.5">Quiet</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5e0</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5e1</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5e2</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5e3</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5e4</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5e5</Index>
+      </Texture>
+    </AltTexture>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,STASISIMMUNE,NATURE,SPAWNER</Labels>
+    <Presentation>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt5">
+        <StyleStep altTextureId="5">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt6">
+        <StyleStep altTextureId="6">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x56A" id="Belladonna Event Flower Yellow">
+    <DisplayId>Gorgeous Yellow Flower</DisplayId>
+    <Group>vlntns flowers</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x49e</Index>
+    </Texture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/elves_death</DeathSound>
+    <MaxHitPoints>2750</MaxHitPoints>
+    <Exp>0</Exp>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Yellow Star New</ObjectId>
+      <Speed>90</Speed>
+      <Damage>60</Damage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>60</Size>
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5d6</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5d7</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5d8</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5d9</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5da</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x5db</Index>
+      </Texture>
+    </AltTexture>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,STASISIMMUNE,NATURE,SPAWNER</Labels>
+    <Presentation>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt5">
+        <StyleStep altTextureId="5">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt6">
+        <StyleStep altTextureId="6">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
 </Objects>
