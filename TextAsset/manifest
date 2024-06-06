@@ -570,6 +570,9 @@
     },
     {
       "path": "newRealm/beacons.xml"
+    },
+    {
+      "path": "newRealm/newEventChestObjects.xml"
     }
   ],
   "particles": [
@@ -2269,6 +2272,41 @@
       "frameWidth": 32,
       "frameHeight": 32,
       "noDefinition": false
+    },
+    {
+      "name": "RookieObj_8x8",
+      "path": "RookieObj_8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "RookieObj_16x16",
+      "path": "RookieObj_16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "RookieObj_16x24",
+      "path": "RookieObj_16x24.png",
+      "frameWidth": 16,
+      "frameHeight": 24,
+      "noDefinition": false
+    },
+    {
+      "name": "RookieObj_24x24",
+      "path": "RookieObj_24x24.png",
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "noDefinition": false
+    },
+    {
+      "name": "RRProjectiles8x8",
+      "path": "RRProjectiles8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
     }
   ],
   "animatedImageSet": [
@@ -3838,6 +3876,28 @@
       "frameHeight": 16,
       "charWidth": 16,
       "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "Rookie_24x24",
+      "path": "Rookie_24x24.png",
+      "mask": "",
+      "frameWidth": 168,
+      "frameHeight": 24,
+      "charWidth": 24,
+      "charHeight": 24,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "Rookie_12x12",
+      "path": "Rookie_12x12.png",
+      "mask": "",
+      "frameWidth": 84,
+      "frameHeight": 12,
+      "charWidth": 12,
+      "charHeight": 12,
       "firstDir": 0,
       "mergeAttackFrame": 1
     },

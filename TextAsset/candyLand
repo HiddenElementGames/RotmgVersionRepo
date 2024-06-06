@@ -21,6 +21,27 @@
     <KillStat stat="LesserGodKills" />
     <Labels>ENEMY,MINION,HUMANOID</Labels>
   </Object>
+  <Object type="0x9A6" id="New Candy Gnome">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>44</Index>
+    </AnimatedTexture>
+    <HitSound>monster/goblins_hit</HitSound>
+    <DeathSound>monster/goblins_death</DeathSound>
+    <Size>120</Size>
+    <ShadowSize>45</ShadowSize>
+    <MaxHitPoints>800</MaxHitPoints>
+    <Defense>12</Defense>
+    <Exp>10000</Exp>
+    <BXP>50000</BXP>
+    <Terrain>Abandoned</Terrain>
+    <SpawnProb>0.04</SpawnProb>
+    <KillStat stat="HumanoidKills" />
+    <KillStat stat="LesserGodKills" />
+    <Labels>ENEMY,MINION,HUMANOID</Labels>
+  </Object>
   <Object type="0x5e48" id="MegaRototo">
     <Group>Candy Boss</Group>
     <Enemy />

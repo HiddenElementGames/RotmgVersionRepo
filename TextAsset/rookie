@@ -604,23 +604,23 @@
     </Texture>
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
-    <AltTexture id="New 1">
+    <AltTexture id="1">
       <Texture>
         <File>invisible</File>
         <Index>0x0</Index>
       </Texture>
     </AltTexture>
-    <AltTexture id="New 2">
+    <AltTexture id="2">
       <Texture>
         <File>pirateCaveObjects8x8</File>
         <Index>0x1e</Index>
       </Texture>
     </AltTexture>
     <Presentation>
-      <Style id="New Invisible">
+      <Style id="Invisible">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
-      <Style id="New Visible">
+      <Style id="Visible">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
@@ -2677,8 +2677,8 @@
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>3</Index>
+      <File>Rookie_16x16</File>
+      <Index>26</Index>
     </AnimatedTexture>
     <HitSound>monster/mummies_hit</HitSound>
     <DeathSound>monster/mummies_death</DeathSound>
@@ -4368,10 +4368,10 @@
     <Group>New Night Elves</Group>
     <Enemy />
     <Class>Character</Class>
-    <Texture>
-      <File>lofiChar16x16</File>
-      <Index>0x49</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>83</Index>
+    </AnimatedTexture>
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/lizard_god_death</DeathSound>
     <Size>100</Size>

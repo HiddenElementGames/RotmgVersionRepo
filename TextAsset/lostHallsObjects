@@ -70,6 +70,51 @@
     <Terrain>Mountains</Terrain>
     <Labels>ENEMY,MINION</Labels>
   </Object>
+  <Object type="0x99E" id="New Easy Void Portal">
+    <DisplayId>Remnant of the Void</DisplayId>
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <Sound id="0">use_key</Sound>
+    <DungeonName>Remnant of the Void</DungeonName>
+    <Texture>
+      <File>lostHallsObjects8x8</File>
+      <Index>0x1e</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Color>0xFF69B4</Color>
+    <Effect color="0x270068">Vortex</Effect>
+  </Object>
+  <Object type="0x9AB" id="New Easy Void Initiator 1">
+    <Class>GameObject</Class>
+    <DisplayId>Remnant of the Void</DisplayId>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Terrain>HauntedHallows</Terrain>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0x99D" id="New Easy Void Initiator 2">
+    <Class>GameObject</Class>
+    <DisplayId>Remnant of the Void</DisplayId>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Terrain>SanguineForest</Terrain>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
   <Object type="0xb062" id="LH Cult Portal Locked">
     <DisplayId>???</DisplayId>
     <Class>Portal</Class>

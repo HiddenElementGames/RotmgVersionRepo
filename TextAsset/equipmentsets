@@ -1522,4 +1522,21 @@
     <ActivateOnEquip2 stat="SPD" amount="4">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="WIS" amount="5">IncrementStat</ActivateOnEquip2>
   </EquipmentSet>
+  <EquipmentSet type="0xFF07" id="Undersea Phantom Wizard Set">
+    <Setpiece slot="0" itemtype="0x773">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x775">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x776">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x777">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0x6F6" size="80" color="0x334D45" bulletType="Cursed Harpoon Shot Big">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="40">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="10">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="6">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="SPD" amount="4">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="MAXHP" amount="30">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="4">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="SPD" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEF" amount="2">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="SPD" amount="2">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
 </EquipmentSets>

@@ -9688,6 +9688,7 @@
     <Exp>100</Exp>
     <BXP>475</BXP>
     <Defense>15</Defense>
+    <AlwaysPositiveHealth />
     <Sound id="0">spell/major_heal</Sound>
   </Object>
   <Object type="0x47c9" id="Key Fairy Mid">
@@ -9704,6 +9705,7 @@
     <Exp>250</Exp>
     <BXP>1187</BXP>
     <Defense>20</Defense>
+    <AlwaysPositiveHealth />
     <Sound id="0">spell/major_heal</Sound>
   </Object>
   <Object type="0x47ca" id="Key Fairy Hard">
@@ -9720,6 +9722,7 @@
     <Exp>400</Exp>
     <BXP>1900</BXP>
     <Defense>30</Defense>
+    <AlwaysPositiveHealth />
     <Sound id="0">spell/major_heal</Sound>
   </Object>
   <Object type="0x47cc" id="Heroic Orb">
@@ -12113,5 +12116,59 @@
         <StyleStep altTextureId="6">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
+  </Object>
+  <Object type="0x778" id="Healing Bubbles">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+    <Effect>Vent</Effect>
+    <Color>0x339EEA</Color>
+    <Texture>
+      <File>lofiEnvironment2</File>
+      <Index>0x26</Index>
+    </Texture>
+  </Object>
+  <Object type="0x7DC" id="S15 Whirlpool Low">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <StasisImmune />
+    <ShadowSize>0</ShadowSize>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <HitSound>monster/djinn_hit</HitSound>
+    <DeathSound>monster/blobs_death</DeathSound>
+    <Size>1</Size>
+  </Object>
+  <Object type="0x7DD" id="S15 Whirlpool Mid">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <StasisImmune />
+    <ShadowSize>0</ShadowSize>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <HitSound>monster/djinn_hit</HitSound>
+    <DeathSound>monster/blobs_death</DeathSound>
+    <Size>1</Size>
+  </Object>
+  <Object type="0x7DE" id="S15 Whirlpool High">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <StasisImmune />
+    <ShadowSize>0</ShadowSize>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <HitSound>monster/djinn_hit</HitSound>
+    <DeathSound>monster/blobs_death</DeathSound>
+    <Size>1</Size>
   </Object>
 </Objects>

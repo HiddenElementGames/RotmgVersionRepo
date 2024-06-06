@@ -24,17 +24,163 @@
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>1</Index>
+      <Index>25</Index>
     </Texture>
     <Size>140</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>25</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>26</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>27</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>28</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>29</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>30</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>31</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>32</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>33</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>34</Index>
+        </Texture>
+      </Frame>
+      <Frame time="99999">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>35</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep id="spawn" loop="1">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Active Beacon Undead Forest" type="0xCECD">
     <DisplayId>Gloomy Beacon</DisplayId>
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>2</Index>
+      <Index>44</Index>
     </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>44</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>45</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>46</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>47</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>48</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>49</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>50</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>51</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>52</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>53</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>54</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="spawn1Anim">
+        <StyleStep id="spawn1" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
     <Size>140</Size>
   </Object>
   <Object id="Active Beacon Desert" type="0xCECE">
@@ -42,27 +188,246 @@
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>3</Index>
+      <Index>63</Index>
     </Texture>
     <Size>140</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>63</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>64</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>65</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>66</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>67</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>68</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>69</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>70</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>71</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>72</Index>
+        </Texture>
+      </Frame>
+      <Frame time="99999">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>73</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="spawn2Anim">
+        <StyleStep id="spawn2" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Active Beacon Plains" type="0xCECF">
     <DisplayId>Plains Beacon</DisplayId>
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>4</Index>
+      <Index>82</Index>
     </Texture>
     <Size>140</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>83</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>84</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>85</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>86</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>87</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>88</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>89</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>90</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="99999">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>92</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="spawn3Anim">
+        <StyleStep id="spawn3" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Active Beacon Abandoned City" type="0xCED0">
     <DisplayId>Abandoned Beacon</DisplayId>
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>5</Index>
+      <Index>101</Index>
     </Texture>
     <Size>140</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>101</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>102</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>103</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>104</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>105</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>106</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>107</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>108</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>109</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>110</Index>
+        </Texture>
+      </Frame>
+      <Frame time="99999">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>111</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="spawn4Anim">
+        <StyleStep id="spawn4" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Active Beacon Coral Reefs" type="0xCED1">
     <DisplayId>Oceanic Beacon</DisplayId>
@@ -78,54 +443,492 @@
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>7</Index>
+      <Index>120</Index>
     </Texture>
     <Size>140</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>120</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>121</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>122</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>123</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>124</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>125</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>126</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>127</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>128</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>129</Index>
+        </Texture>
+      </Frame>
+      <Frame time="99999">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>130</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="spawn5Anim">
+        <StyleStep id="spawn5" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Active Beacon Haunted Hallows" type="0xCED3">
     <DisplayId>Haunted Beacon</DisplayId>
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>8</Index>
+      <Index>139</Index>
     </Texture>
     <Size>140</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>139</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>140</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>141</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>142</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>143</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>144</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>145</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>146</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>147</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>148</Index>
+        </Texture>
+      </Frame>
+      <Frame time="99999">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>149</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="spawn6Anim">
+        <StyleStep id="spawn6" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Active Beacon Risen Hell" type="0xCED4">
     <DisplayId>Hell Beacon</DisplayId>
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>9</Index>
+      <Index>158</Index>
     </Texture>
     <Size>140</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>158</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>159</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>160</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>161</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>162</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>163</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>164</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>165</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>166</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>167</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>168</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="spawn7Anim">
+        <StyleStep id="spawn7" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Active Beacon Shipwreck Cove" type="0xCED5">
     <DisplayId>Shipwrecked Beacon</DisplayId>
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>10</Index>
+      <Index>177</Index>
     </Texture>
     <Size>140</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>177</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>178</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>179</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>180</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>181</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>182</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>183</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>184</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>185</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>186</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>187</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="spawn8Anim">
+        <StyleStep id="spawn8" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Active Beacon Sprite Forest" type="0xCED6">
     <DisplayId>Fey Beacon</DisplayId>
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>11</Index>
+      <Index>196</Index>
     </Texture>
     <Size>140</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>196</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>197</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>198</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>199</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>200</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>201</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>202</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>203</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>204</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>205</Index>
+        </Texture>
+      </Frame>
+      <Frame time="99999">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>206</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="spawn9Anim">
+        <StyleStep id="spawn9" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Active Beacon Carboniferous" type="0xCED7">
     <DisplayId>Prehistoric Beacon</DisplayId>
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>12</Index>
+      <Index>215</Index>
     </Texture>
     <Size>140</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>215</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>216</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>217</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>218</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>219</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>220</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>221</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>222</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>223</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>224</Index>
+        </Texture>
+      </Frame>
+      <Frame time="99999">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>225</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="spawn10Anim">
+        <StyleStep id="spawn10" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Active Beacon Deep Sea Abyss" type="0xCED8">
     <DisplayId>Abyssal Beacon</DisplayId>
@@ -141,25 +944,402 @@
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>14</Index>
+      <Index>234</Index>
     </Texture>
     <Size>140</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>234</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>235</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>236</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>237</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>238</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>239</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>240</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>241</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>242</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>243</Index>
+        </Texture>
+      </Frame>
+      <Frame time="99999">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>244</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="spawn11Anim">
+        <StyleStep id="spawn11" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Active Beacon Sanguine Forest" type="0xCEDA">
     <DisplayId>Sanguine Beacon</DisplayId>
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>15</Index>
+      <Index>253</Index>
     </Texture>
     <Size>140</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>253</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>254</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>255</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>256</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>257</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>258</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>259</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>260</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>261</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>262</Index>
+        </Texture>
+      </Frame>
+      <Frame time="99999">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>263</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="spawn12Anim">
+        <StyleStep id="spawn12" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Active Beacon Runic Tundra" type="0xCEDB">
     <DisplayId>Frozen Beacon</DisplayId>
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>16</Index>
+      <Index>272</Index>
+    </Texture>
+    <Size>140</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>272</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>273</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>274</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>275</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>276</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>277</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>278</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>279</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>280</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>281</Index>
+        </Texture>
+      </Frame>
+      <Frame time="99999">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>282</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="spawn13Anim">
+        <StyleStep id="spawn13" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Actual Active Beacon Shore" type="0x2670">
+    <DisplayId>Shores Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Forest" type="0x2671">
+    <DisplayId>Forest Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>35</Index>
+    </Texture>
+    <Size>140</Size>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep id="spawn" loop="1">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Actual Active Beacon Undead Forest" type="0x2672">
+    <DisplayId>Gloomy Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>54</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Desert" type="0x2673">
+    <DisplayId>Arid Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>73</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Plains" type="0x2674">
+    <DisplayId>Plains Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>92</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Abandoned City" type="0x2675">
+    <DisplayId>Abandoned Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>111</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Coral Reefs" type="0x2676">
+    <DisplayId>Oceanic Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>6</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Dead Church" type="0x2677">
+    <DisplayId>Gothic Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>130</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Haunted Hallows" type="0x2678">
+    <DisplayId>Haunted Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>149</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Risen Hell" type="0x2679">
+    <DisplayId>Hell Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>168</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Shipwreck Cove" type="0x267A">
+    <DisplayId>Shipwrecked Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>187</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Sprite Forest" type="0x267B">
+    <DisplayId>Fey Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>206</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Carboniferous" type="0x267C">
+    <DisplayId>Prehistoric Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>225</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Deep Sea Abyss" type="0x267D">
+    <DisplayId>Abyssal Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>13</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Floral Escape" type="0x267E">
+    <DisplayId>Floral Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>244</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Sanguine Forest" type="0x267F">
+    <DisplayId>Sanguine Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>263</Index>
+    </Texture>
+    <Size>140</Size>
+  </Object>
+  <Object id="Actual Active Beacon Runic Tundra" type="0x2680">
+    <DisplayId>Frozen Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>beacons32x32</File>
+      <Index>282</Index>
     </Texture>
     <Size>140</Size>
   </Object>
@@ -181,11 +1361,66 @@
     <Enemy />
     <Texture>
       <File>beacons32x32</File>
-      <Index>1</Index>
+      <Index>17</Index>
     </Texture>
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>17</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>18</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>19</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>20</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>21</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>24</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Captured Beacon Undead Forest" type="0xCEDE">
     <DisplayId>Captured Gloomy Beacon</DisplayId>
@@ -193,11 +1428,66 @@
     <Enemy />
     <Texture>
       <File>beacons32x32</File>
-      <Index>2</Index>
+      <Index>36</Index>
     </Texture>
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>36</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>37</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>38</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>39</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>40</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>41</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>42</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>43</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Captured Beacon Desert" type="0xCEDF">
     <DisplayId>Captured Arid Beacon</DisplayId>
@@ -205,11 +1495,66 @@
     <Enemy />
     <Texture>
       <File>beacons32x32</File>
-      <Index>3</Index>
+      <Index>55</Index>
     </Texture>
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>55</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>56</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>57</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>58</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>59</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>60</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>61</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>62</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Captured Beacon Plains" type="0xCEE0">
     <DisplayId>Captured Plains Beacon</DisplayId>
@@ -217,11 +1562,66 @@
     <Enemy />
     <Texture>
       <File>beacons32x32</File>
-      <Index>4</Index>
+      <Index>74</Index>
     </Texture>
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>74</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>75</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>76</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>77</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>78</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>79</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>80</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>81</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Captured Beacon Abandoned City" type="0xCEE1">
     <DisplayId>Captured Abandoned Beacon</DisplayId>
@@ -229,7 +1629,7 @@
     <Enemy />
     <Texture>
       <File>beacons32x32</File>
-      <Index>5</Index>
+      <Index>93</Index>
     </Texture>
     <Size>140</Size>
     <Exp>0</Exp>
@@ -242,6 +1642,61 @@
       <Size>100</Size>
       <ArmorPiercing />
     </Projectile>
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>93</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>94</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>95</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>96</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>97</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>98</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>99</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>100</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Captured Beacon Coral Reefs" type="0xCEE2">
     <DisplayId>Captured Reefs Beacon</DisplayId>
@@ -269,7 +1724,7 @@
     <Enemy />
     <Texture>
       <File>beacons32x32</File>
-      <Index>7</Index>
+      <Index>112</Index>
     </Texture>
     <Size>140</Size>
     <Exp>0</Exp>
@@ -281,6 +1736,61 @@
       <LifetimeMS>4500</LifetimeMS>
       <Size>100</Size>
     </Projectile>
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>112</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>113</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>114</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>115</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>116</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>117</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>118</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>119</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Captured Beacon Haunted Hallows" type="0xCEE4">
     <DisplayId>Captured Haunted Beacon</DisplayId>
@@ -288,7 +1798,7 @@
     <Enemy />
     <Texture>
       <File>beacons32x32</File>
-      <Index>8</Index>
+      <Index>131</Index>
     </Texture>
     <Size>140</Size>
     <Exp>0</Exp>
@@ -300,6 +1810,61 @@
       <LifetimeMS>6000</LifetimeMS>
       <Size>100</Size>
     </Projectile>
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>131</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>132</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>133</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>134</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>135</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>136</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>137</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>138</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Captured Beacon Risen Hell" type="0xCEE5">
     <DisplayId>Captured Hell Beacon</DisplayId>
@@ -307,7 +1872,7 @@
     <Enemy />
     <Texture>
       <File>beacons32x32</File>
-      <Index>9</Index>
+      <Index>150</Index>
     </Texture>
     <Size>140</Size>
     <Exp>0</Exp>
@@ -330,6 +1895,61 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>150</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>151</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>152</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>153</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>154</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>155</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>156</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>157</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Captured Beacon Shipwreck Cove" type="0xCEE6">
     <DisplayId>Captured Shipwrecked Beacon</DisplayId>
@@ -337,7 +1957,7 @@
     <Enemy />
     <Texture>
       <File>beacons32x32</File>
-      <Index>10</Index>
+      <Index>169</Index>
     </Texture>
     <Size>140</Size>
     <Exp>0</Exp>
@@ -350,6 +1970,61 @@
       <LifetimeMS>3000</LifetimeMS>
       <MultiHit />
     </Projectile>
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>169</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>170</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>171</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>172</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>173</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>174</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>175</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>176</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Captured Beacon Sprite Forest" type="0xCEE7">
     <DisplayId>Captured Fey Beacon</DisplayId>
@@ -357,7 +2032,7 @@
     <Enemy />
     <Texture>
       <File>beacons32x32</File>
-      <Index>11</Index>
+      <Index>188</Index>
     </Texture>
     <Size>140</Size>
     <Exp>0</Exp>
@@ -372,18 +2047,125 @@
       <LifetimeMS>4500</LifetimeMS>
       <Size>100</Size>
     </Projectile>
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>188</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>189</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>190</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>191</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>192</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>193</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>194</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>195</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Captured Beacon Carboniferous" type="0xCEE8">
     <DisplayId>Captured Prehistoric Beacon</DisplayId>
-    <Class>Character</Class>
-    <Enemy />
+    <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>12</Index>
+      <Index>207</Index>
     </Texture>
     <Size>140</Size>
-    <Exp>0</Exp>
-    <Invincible />
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>207</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>208</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>209</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>210</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>211</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>212</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>213</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>214</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Captured Beacon Deep Sea Abyss" type="0xCEE9">
     <DisplayId>Captured Abyssal Beacon</DisplayId>
@@ -403,11 +2185,66 @@
     <Enemy />
     <Texture>
       <File>beacons32x32</File>
-      <Index>14</Index>
+      <Index>226</Index>
     </Texture>
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>226</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>227</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>228</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>229</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>230</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>231</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>232</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>233</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Captured Beacon Sanguine Forest" type="0xCEEB">
     <DisplayId>Captured Sanguine Beacon</DisplayId>
@@ -415,23 +2252,130 @@
     <Enemy />
     <Texture>
       <File>beacons32x32</File>
-      <Index>15</Index>
+      <Index>245</Index>
     </Texture>
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>245</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>246</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>247</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>248</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>249</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>250</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>251</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>252</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Captured Beacon Runic Tundra" type="0xCEEC">
     <DisplayId>Captured Frozen Beacon</DisplayId>
-    <Class>Character</Class>
-    <Enemy />
+    <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
-      <Index>16</Index>
+      <Index>264</Index>
     </Texture>
     <Size>140</Size>
-    <Exp>0</Exp>
-    <Invincible />
+    <Animation period="0" prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>264</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>265</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>266</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>267</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>268</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>269</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>270</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>beacons32x32</File>
+          <Index>271</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SpawnAnim">
+        <StyleStep period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="Teleport Beacon Shore" type="0xCEED">
     <DisplayId>Beach Beacon</DisplayId>
@@ -441,6 +2385,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x7FFFFF</Color>
     <MinimapIcon color="0x7FFFFF" piece="Beacon" />
@@ -454,6 +2399,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x7FFFFF</Color>
     <MinimapIcon color="0x7FFFFF" piece="Beacon" />
@@ -467,6 +2413,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x7FFFFF</Color>
     <MinimapIcon color="0x7FFFFF" piece="Beacon" />
@@ -480,6 +2427,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x7FFFFF</Color>
     <MinimapIcon color="0x7FFFFF" piece="Beacon" />
@@ -493,6 +2441,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x7FFFFF</Color>
     <MinimapIcon color="0x7FFFFF" piece="Beacon" />
@@ -506,6 +2455,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x3BAAFF</Color>
     <MinimapIcon color="0x3BAAFF" piece="Beacon" />
@@ -519,6 +2469,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x3BAAFF</Color>
     <MinimapIcon color="0x3BAAFF" piece="Beacon" />
@@ -532,6 +2483,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x3BAAFF</Color>
     <MinimapIcon color="0x3BAAFF" piece="Beacon" />
@@ -545,6 +2497,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x3BAAFF</Color>
     <MinimapIcon color="0x3BAAFF" piece="Beacon" />
@@ -558,6 +2511,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x3BAAFF</Color>
     <MinimapIcon color="0x3BAAFF" piece="Beacon" />
@@ -571,6 +2525,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x3BAAFF</Color>
     <MinimapIcon color="0x3BAAFF" piece="Beacon" />
@@ -584,6 +2539,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x3BAAFF</Color>
     <MinimapIcon color="0x3BAAFF" piece="Beacon" />
@@ -597,6 +2553,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x0655FF</Color>
     <MinimapIcon color="0x0655FF" piece="Beacon" />
@@ -610,6 +2567,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x0655FF</Color>
     <MinimapIcon color="0x0655FF" piece="Beacon" />
@@ -623,6 +2581,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x0655FF</Color>
     <MinimapIcon color="0x0655FF" piece="Beacon" />
@@ -636,6 +2595,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x0655FF</Color>
     <MinimapIcon color="0x0655FF" piece="Beacon" />
@@ -649,6 +2609,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Color>0x0655FF</Color>
     <MinimapIcon color="0x0655FF" piece="Beacon" />
@@ -790,6 +2751,7 @@
     <Exp>2500</Exp>
     <BXP>12500</BXP>
     <StasisImmune />
+    <Hero />
     <Projectile id="0">
       <ObjectId>O3 Pike</ObjectId>
       <Damage>40</Damage>
@@ -845,6 +2807,7 @@
     <Exp>2500</Exp>
     <BXP>12500</BXP>
     <StasisImmune />
+    <Hero />
     <Projectile id="0">
       <ObjectId>Villager Silver Dagger</ObjectId>
       <Damage>60</Damage>
@@ -884,6 +2847,7 @@
     <Exp>2500</Exp>
     <BXP>12500</BXP>
     <StasisImmune />
+    <Hero />
     <Projectile id="0">
       <ObjectId>O3 Green Big Shockwave</ObjectId>
       <Damage>40</Damage>
@@ -942,6 +2906,7 @@
     <Exp>2500</Exp>
     <BXP>12500</BXP>
     <StasisImmune />
+    <Hero />
     <Projectile id="0">
       <ObjectId>Accursed Villager Arrow</ObjectId>
       <Speed>70</Speed>
@@ -976,6 +2941,7 @@
     <Exp>2500</Exp>
     <BXP>12500</BXP>
     <StasisImmune />
+    <Hero />
     <Projectile id="0">
       <ObjectId>O3 Red Stake</ObjectId>
       <Damage>80</Damage>
@@ -1016,6 +2982,7 @@
     <Exp>2500</Exp>
     <BXP>12500</BXP>
     <StasisImmune />
+    <Hero />
     <Projectile id="0">
       <ObjectId>Deadwater Flintlock Shot</ObjectId>
       <Damage>60</Damage>
@@ -1049,6 +3016,7 @@
     <Exp>2500</Exp>
     <BXP>12500</BXP>
     <StasisImmune />
+    <Hero />
     <Projectile id="0">
       <ObjectId>O3 Battleaxe MRot</ObjectId>
       <Damage>80</Damage>
@@ -1093,32 +3061,192 @@
     </Projectile>
   </Object>
   <Object id="Beacon Guardian Carboniferous" type="0xCF0B">
-    <DisplayId>Legion Prehistoric Defender</DisplayId>
+    <DisplayId>Legion Colonel</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <AnimatedTexture>
       <File>Rookie_16x16</File>
       <Index>33</Index>
     </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>Rookie_16x16</File>
+        <Index>35</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation>
+      <Style id="Exalt">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
-    <MaxHitPoints>36000</MaxHitPoints>
-    <Defense>20</Defense>
-    <Exp>7500</Exp>
-    <BXP>37500</BXP>
+    <MaxHitPoints>75000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>20000</Exp>
+    <BXP>100000</BXP>
+    <HealthBarBoss />
+    <AlwaysPositiveHealth />
+    <ParalyzeImmune />
+    <StunImmune />
     <StasisImmune />
-    <Projectile>
-      <ObjectId>O3 White Slash</ObjectId>
-      <Damage>120</Damage>
-      <Speed>100</Speed>
-      <LifetimeMS>1500</LifetimeMS>
-      <Size>100</Size>
+    <Hero />
+    <Projectile id="0">
+      <ObjectId>O3 Red Big Wave</ObjectId>
+      <Size>120</Size>
+      <Damage>165</Damage>
+      <Speed>5</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+      <Acceleration>50</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+      <SpeedClamp>65</SpeedClamp>
       <MultiHit />
-      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 White Wave</ObjectId>
+      <Size>110</Size>
+      <Damage>135</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>O3 Battleaxe MRot</ObjectId>
+      <Size>150</Size>
+      <Damage>200</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>O3 White Big Wave</ObjectId>
+      <Size>120</Size>
+      <Damage>175</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Amplitude>0.45</Amplitude>
+      <Frequency>1</Frequency>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>O3 Exalted Spear</ObjectId>
+      <Size>100</Size>
+      <Damage>155</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
     </Projectile>
   </Object>
-  <Object id="Beacon Guardian Deep Sea Abyss" type="0xCF0C">
+  <Object id="Beacon Guardian Carboniferous Attack Anchor" type="0xCF0C">
+    <DisplayId>Captured Prehistoric Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Invincible />
+  </Object>
+  <Object id="Beacon Guardian Carboniferous Patrol Point" type="0xCF0D">
+    <Class>GameObject</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>oryxSanctuaryObjects32x32</File>
+      <Index>0x13</Index>
+    </Texture>
+    <Size>50</Size>
+    <ShadowSize>25</ShadowSize>
+  </Object>
+  <Object id="Beacon Guardian Carboniferous Patrol Point Helper" type="0xCF0E">
+    <Class>GameObject</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>oryxSanctuaryObjects32x32</File>
+      <Index>0x13</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object id="Beacon Guardian Carboniferous Minion" type="0xCF0F">
+    <DisplayId>Legion Soldier</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>oryxSanctuaryChars16x16</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>oryxSanctuaryChars16x16</File>
+        <Index>20</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation>
+      <Style id="Dead">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <Size>90</Size>
+    <Projectile id="0">
+      <ObjectId>O3 Claymore</ObjectId>
+      <Size>115</Size>
+      <Damage>155</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>4450</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 Purple Bolt</ObjectId>
+      <Size>100</Size>
+      <Damage>60</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>3350</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>O3 Claymore</ObjectId>
+      <Size>125</Size>
+      <Damage>120</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>4450</LifetimeMS>
+      <MultiHit />
+      <Amplitude>0.15</Amplitude>
+      <Frequency>8</Frequency>
+      <FaceDir />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>O3 White Bolt</ObjectId>
+      <Size>115</Size>
+      <Damage>140</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>O3 White Bolt</ObjectId>
+      <Size>115</Size>
+      <Damage>140</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>3700</LifetimeMS>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>1000</Exp>
+    <SlowImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object id="Beacon Guardian Deep Sea Abyss" type="0xCF10">
     <DisplayId>Legion Abyssal Defender</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1129,23 +3257,188 @@
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
-    <MaxHitPoints>36000</MaxHitPoints>
-    <Defense>20</Defense>
-    <Exp>7500</Exp>
-    <BXP>37500</BXP>
+    <MaxHitPoints>75000</MaxHitPoints>
+    <Defense>1</Defense>
+    <Exp>1</Exp>
+    <BXP>5</BXP>
     <StasisImmune />
+    <Hero />
     <Projectile>
       <ObjectId>O3 White Slash</ObjectId>
-      <Damage>120</Damage>
-      <Speed>100</Speed>
-      <LifetimeMS>1500</LifetimeMS>
+      <Damage>160</Damage>
+      <Speed>150</Speed>
+      <LifetimeMS>1250</LifetimeMS>
       <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Floral Escape" type="0xCF11">
+    <DisplayId>Legion Commissioner</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>37</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+    <Presentation>
+      <Style id="Visible">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="Invisible">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>110</Size>
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <MaxHitPoints>65000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>20000</Exp>
+    <BXP>100000</BXP>
+    <HealthBarBoss />
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <Hero />
+    <AlwaysPositiveHealth />
+    <Projectile id="0">
+      <ObjectId>O3 Purple Wave</ObjectId>
+      <Damage>120</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>2600</LifetimeMS>
+      <Acceleration>9999999</Acceleration>
+      <AccelerationDelay>1600</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Size>110</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 Purple Wave</ObjectId>
+      <Damage>120</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>2600</LifetimeMS>
+      <Acceleration>9999999</Acceleration>
+      <AccelerationDelay>1400</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Size>110</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>O3 Purple Wave</ObjectId>
+      <Damage>120</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>2600</LifetimeMS>
+      <Acceleration>9999999</Acceleration>
+      <AccelerationDelay>1200</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Size>110</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>O3 Purple Wave</ObjectId>
+      <Damage>120</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>2600</LifetimeMS>
+      <Acceleration>9999999</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Size>110</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>O3 Purple Wave</ObjectId>
+      <Damage>120</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>2600</LifetimeMS>
+      <Acceleration>9999999</Acceleration>
+      <AccelerationDelay>800</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Size>110</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>O3 Purple Wave</ObjectId>
+      <Damage>120</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>2600</LifetimeMS>
+      <Acceleration>9999999</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Size>110</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>O3 Purple Wave</ObjectId>
+      <Damage>120</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>2600</LifetimeMS>
+      <Acceleration>9999999</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Size>110</Size>
       <MultiHit />
       <PassesCover />
     </Projectile>
   </Object>
-  <Object id="Beacon Guardian Floral Escape" type="0xCF0D">
-    <DisplayId>Legion Floral Defender</DisplayId>
+  <Object id="Beacon Guardian Floral Escape Attack Anchor" type="0xCF12">
+    <DisplayId>Captured Floral Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Exp>0</Exp>
+    <Invincible />
+    <Projectile>
+      <ObjectId>O3 Purple Big Spinner SRot</ObjectId>
+      <Size>160</Size>
+      <Speed>62</Speed>
+      <LifetimeMS>6400</LifetimeMS>
+      <Boomerang />
+      <Damage>160</Damage>
+      <MultiHit />
+      <ConditionEffect duration="4">Unstable</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Floral Escape Teleport Point" type="0xCF13">
+    <DisplayId>Intentional Game Mechanic</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>0x61</Index>
+    </Texture>
+    <Invincible />
+    <DrawOnGround />
+    <NoMiniMap />
+    <Projectile>
+      <ObjectId>MV Warning Projectile</ObjectId>
+      <Size>300</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>400</LifetimeMS>
+      <Damage>0</Damage>
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Floral Escape Decoy" type="0xCF14">
+    <DisplayId>Legion Commissioner</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <AnimatedTexture>
@@ -1155,23 +3448,27 @@
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
-    <MaxHitPoints>36000</MaxHitPoints>
+    <MaxHitPoints>65000</MaxHitPoints>
     <Defense>20</Defense>
-    <Exp>7500</Exp>
-    <BXP>37500</BXP>
-    <StasisImmune />
+    <Exp>0</Exp>
+    <SlowImmune />
+    <ParalyzeImmune />
+    <AlwaysPositiveHealth />
     <Projectile>
-      <ObjectId>O3 White Slash</ObjectId>
+      <ObjectId>O3 Purple Big Spike</ObjectId>
       <Damage>120</Damage>
-      <Speed>100</Speed>
-      <LifetimeMS>1500</LifetimeMS>
-      <Size>100</Size>
+      <Speed>30</Speed>
+      <LifetimeMS>2600</LifetimeMS>
+      <Acceleration>9999999</Acceleration>
+      <AccelerationDelay>1600</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Size>110</Size>
       <MultiHit />
       <PassesCover />
     </Projectile>
   </Object>
-  <Object id="Beacon Guardian Sanguine Forest" type="0xCF0E">
-    <DisplayId>Legion Sanguine Defender</DisplayId>
+  <Object id="Beacon Guardian Sanguine Forest" type="0xCF15">
+    <DisplayId>Legion Missionary</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <AnimatedTexture>
@@ -1181,23 +3478,325 @@
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
-    <MaxHitPoints>36000</MaxHitPoints>
-    <Defense>20</Defense>
-    <Exp>7500</Exp>
-    <BXP>37500</BXP>
+    <MaxHitPoints>50000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>20000</Exp>
+    <BXP>100000</BXP>
+    <HealthBarBoss />
+    <AlwaysPositiveHealth />
+    <ParalyzeImmune />
+    <StunImmune />
     <StasisImmune />
-    <Projectile>
-      <ObjectId>O3 White Slash</ObjectId>
-      <Damage>120</Damage>
-      <Speed>100</Speed>
-      <LifetimeMS>1500</LifetimeMS>
-      <Size>100</Size>
+    <Hero />
+    <Projectile id="0">
+      <ObjectId>O3 Red Star SRot</ObjectId>
+      <Size>120</Size>
+      <Damage>160</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <TurnRate>-100</TurnRate>
       <MultiHit />
       <PassesCover />
     </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 Red Star SRot</ObjectId>
+      <Size>120</Size>
+      <Damage>160</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <TurnRate>100</TurnRate>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>O3 Red Wave</ObjectId>
+      <Size>110</Size>
+      <Damage>140</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>O3 Red Wave</ObjectId>
+      <Size>110</Size>
+      <Damage>140</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2860</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>O3 Red Wave</ObjectId>
+      <Size>110</Size>
+      <Damage>140</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>2222</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>O3 Purple Star SRot</ObjectId>
+      <Size>120</Size>
+      <Damage>180</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <TurnRate>-100</TurnRate>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>O3 Purple Star SRot</ObjectId>
+      <Size>120</Size>
+      <Damage>180</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <TurnRate>100</TurnRate>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>O3 Purple Wave</ObjectId>
+      <Size>110</Size>
+      <Damage>160</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>O3 Purple Wave</ObjectId>
+      <Size>110</Size>
+      <Damage>160</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2860</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>O3 Purple Wave</ObjectId>
+      <Size>110</Size>
+      <Damage>160</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>2222</LifetimeMS>
+      <MultiHit />
+    </Projectile>
   </Object>
-  <Object id="Beacon Guardian Runic Tundra" type="0xCF0F">
-    <DisplayId>Legion Tundra Defender</DisplayId>
+  <Object id="Beacon Guardian Sanguine Forest Attack Anchor" type="0xCF16">
+    <DisplayId>Captured Sanguine Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Invincible />
+  </Object>
+  <Object id="Beacon Guardian Sanguine Forest Patrol Point" type="0xCF17">
+    <Class>GameObject</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object id="Beacon Guardian Sanguine Forest Orb Helper" type="0xCF18">
+    <Class>GameObject</Class>
+    <NoMiniMap />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object id="Beacon Guardian Sanguine Forest Light Orb" type="0xCF19">
+    <DisplayId>Legion Missionary Holy Orb</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>archbishopObjects16x16</File>
+      <Index>0x50</Index>
+    </Texture>
+    <Animation prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x50</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x51</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x52</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x53</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x54</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x55</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x56</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x57</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>90</Size>
+    <Projectile id="0">
+      <ObjectId>O3 Red Big Spike</ObjectId>
+      <Size>110</Size>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <MaxHitPoints>12500</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+  </Object>
+  <Object id="Beacon Guardian Sanguine Forest Dark Orb" type="0xCF1A">
+    <DisplayId>Legion Missionary Chaos Orb</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>archbishopObjects16x16</File>
+      <Index>0x60</Index>
+    </Texture>
+    <Animation prob="1" period="1.6">
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x60</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x61</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x62</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x63</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x64</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x65</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x66</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>archbishopObjects16x16</File>
+          <Index>0x67</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/sprites_hit</HitSound>
+    <DeathSound>monster/sprites_death</DeathSound>
+    <Size>90</Size>
+    <Projectile id="0">
+      <ObjectId>O3 Purple Big Spike</ObjectId>
+      <Size>110</Size>
+      <Damage>140</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>3080</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <MaxHitPoints>17500</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <StunImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+  </Object>
+  <Object id="Beacon Guardian Sanguine Forest Light Beam" type="0xCF1B">
+    <NoMiniMap />
+    <Enemy />
+    <DisplayId>Legion Missionary Holy Beam</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <Exp>0</Exp>
+    <Invincible />
+    <NoCollisionWhenMovement />
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object id="Beacon Guardian Sanguine Forest Dark Beam" type="0xCF1C">
+    <NoMiniMap />
+    <Enemy />
+    <DisplayId>Legion Missionary Chaos Beam</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <Exp>0</Exp>
+    <Invincible />
+    <NoCollisionWhenMovement />
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object id="Beacon Guardian Runic Tundra" type="0xCF1D">
+    <DisplayId>Legion Principal</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <AnimatedTexture>
@@ -1207,19 +3806,192 @@
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
-    <MaxHitPoints>36000</MaxHitPoints>
-    <Defense>20</Defense>
-    <Exp>7500</Exp>
-    <BXP>37500</BXP>
+    <MaxHitPoints>100000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>20000</Exp>
+    <BXP>100000</BXP>
+    <HealthBarBoss />
+    <ParalyzeImmune />
     <StasisImmune />
-    <Projectile>
-      <ObjectId>O3 White Slash</ObjectId>
-      <Damage>120</Damage>
+    <AlwaysPositiveHealth />
+    <Hero />
+    <Projectile id="0">
+      <ObjectId>O3 Red Magic MRot</ObjectId>
+      <Damage>125</Damage>
       <Speed>100</Speed>
-      <LifetimeMS>1500</LifetimeMS>
-      <Size>100</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <Size>110</Size>
       <MultiHit />
       <PassesCover />
     </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 Purple Magic MRot</ObjectId>
+      <Damage>75</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>6100</LifetimeMS>
+      <Acceleration>-1000000</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>30</SpeedClamp>
+      <Size>110</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Runic Tundra Attack Anchor" type="0xCF1E">
+    <DisplayId>Captured Frozen Beacon</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <Invincible />
+    <Projectile>
+      <ObjectId>O3 Red Big Spinner SRot</ObjectId>
+      <Size>185</Size>
+      <Speed>50</Speed>
+      <LifetimeMS>3425</LifetimeMS>
+      <Acceleration>5</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+      <Damage>175</Damage>
+      <ConditionEffect duration="3">Quiet</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Runic Tundra Portal" type="0xCF1F">
+    <DisplayId>Legion Principal Portal</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>runicTundraObjects16x16</File>
+      <Index>112</Index>
+    </Texture>
+    <Size>50</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>runicTundraObjects16x16</File>
+          <Index>112</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>runicTundraObjects16x16</File>
+          <Index>113</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>runicTundraObjects16x16</File>
+          <Index>114</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>runicTundraObjects16x16</File>
+          <Index>115</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>runicTundraObjects16x16</File>
+          <Index>116</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Invincible />
+    <Projectile>
+      <ObjectId>O3 Red Wave</ObjectId>
+      <Size>110</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>5</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>60</SpeedClamp>
+      <Damage>125</Damage>
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Runic Tundra Big Portal" type="0xCF20">
+    <DisplayId>Legion Principal Portal</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>Rookie_24x24</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>50</Size>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>Rookie_24x24</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>Rookie_24x24</File>
+          <Index>1</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>Rookie_24x24</File>
+          <Index>2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>Rookie_24x24</File>
+          <Index>3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>Rookie_24x24</File>
+          <Index>4</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>Rookie_24x24</File>
+          <Index>5</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>O3 Blue Wave</ObjectId>
+      <Size>125</Size>
+      <Speed>20</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <Acceleration>5</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>40</SpeedClamp>
+      <TurnRate>75</TurnRate>
+      <Damage>150</Damage>
+      <ConditionEffect target="1" duration="4">Stasis</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 Blue Big Spinner SRot</ObjectId>
+      <Size>185</Size>
+      <Speed>25</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <Damage>175</Damage>
+      <ConditionEffect duration="4">Quiet</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object id="Beacon Guardian Runic Tundra Invul Helper" type="0xCF21">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
   </Object>
 </Objects>

@@ -15,7 +15,7 @@
     <Z>0.26</Z>
     <ShadowSize>80</ShadowSize>
     <Projectile id="0">
-      <ObjectId>LOD Blue Blast</ObjectId>
+      <ObjectId>Reef Seahorse 1</ObjectId>
       <Speed>75</Speed>
       <Damage>90</Damage>
       <Size>100</Size>
@@ -23,7 +23,7 @@
       <ConditionEffect duration="1.6">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Blue Missile</ObjectId>
+      <ObjectId>Reef Seahorse 2</ObjectId>
       <Speed>70</Speed>
       <Damage>95</Damage>
       <Size>110</Size>
@@ -49,36 +49,32 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Projectile id="0">
-      <ObjectId>Spinning Bubble</ObjectId>
+      <ObjectId>Reef Turtle 1</ObjectId>
       <Speed>75</Speed>
       <Damage>90</Damage>
       <Size>100</Size>
       <LifetimeMS>1250</LifetimeMS>
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Spinning Bubble</ObjectId>
+      <ObjectId>Reef Turtle 1</ObjectId>
       <Speed>70</Speed>
       <Damage>85</Damage>
       <Size>90</Size>
       <LifetimeMS>1250</LifetimeMS>
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="2">
-      <ObjectId>Spinning Bubble</ObjectId>
+      <ObjectId>Reef Turtle 1</ObjectId>
       <Speed>65</Speed>
       <Damage>80</Damage>
       <Size>80</Size>
       <LifetimeMS>1250</LifetimeMS>
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="3">
-      <ObjectId>Spinning Bubble</ObjectId>
+      <ObjectId>Reef Turtle 1</ObjectId>
       <Speed>60</Speed>
       <Damage>75</Damage>
       <Size>70</Size>
       <LifetimeMS>1250</LifetimeMS>
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
     <Size>100</Size>
     <MaxHitPoints>1200</MaxHitPoints>
@@ -109,13 +105,13 @@
     <Exp>200</Exp>
     <BXP>1000</BXP>
     <Projectile id="0">
-      <ObjectId>Ink Blot</ObjectId>
+      <ObjectId>Reef Octopus 1</ObjectId>
       <Speed>25</Speed>
       <Damage>45</Damage>
       <Size>100</Size>
       <LifetimeMS>3200</LifetimeMS>
       <MultiHit />
-      <ConditionEffect duration="1">Slowed</ConditionEffect>
+      <ConditionEffect duration="0.6">Slowed</ConditionEffect>
     </Projectile>
     <RealmScore>10</RealmScore>
   </Object>
@@ -138,12 +134,11 @@
     <Exp>200</Exp>
     <BXP>1000</BXP>
     <Projectile id="0">
-      <ObjectId>Bubble</ObjectId>
+      <ObjectId>Reef Narwhal 1</ObjectId>
       <Speed>50</Speed>
       <Damage>85</Damage>
       <LifetimeMS>1500</LifetimeMS>
       <Size>115</Size>
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
     <RealmScore>10</RealmScore>
   </Object>
@@ -167,7 +162,7 @@
     <BXP>1000</BXP>
     <RealmScore>10</RealmScore>
     <Projectile id="0">
-      <ObjectId>Yeti Snowball</ObjectId>
+      <ObjectId>Reef Walrus 1</ObjectId>
       <Speed>70</Speed>
       <Damage>80</Damage>
       <LifetimeMS>2000</LifetimeMS>
@@ -197,13 +192,13 @@
     <God />
     <RealmScore>30</RealmScore>
     <Projectile id="0">
-      <ObjectId>Leviathan Spray</ObjectId>
+      <ObjectId>Reef Leviathan 1</ObjectId>
       <Damage>60</Damage>
       <Speed>67</Speed>
       <LifetimeMS>1700</LifetimeMS>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Leviathan Bolt</ObjectId>
+      <ObjectId>Reef Leviathan 2</ObjectId>
       <Damage>90</Damage>
       <Speed>85</Speed>
       <LifetimeMS>1800</LifetimeMS>
@@ -249,7 +244,7 @@
     <RealmScore>10</RealmScore>
     <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
     <Projectile id="0">
-      <ObjectId>Ghostly Arrow</ObjectId>
+      <ObjectId>Shipwreck Ghost 1</ObjectId>
       <Damage>60</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -284,7 +279,7 @@
     <RealmScore>10</RealmScore>
     <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
     <Projectile>
-      <ObjectId>Ghost Sr Slash</ObjectId>
+      <ObjectId>Shipwreck Pirate 1</ObjectId>
       <Damage>100</Damage>
       <Speed>75</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -313,14 +308,14 @@
     <RealmScore>30</RealmScore>
     <Labels>ENEMY,MINION,UNDEAD,MINION_STRONG</Labels>
     <Projectile id="0">
-      <ObjectId>Troll 3 Attack 1</ObjectId>
+      <ObjectId>Shipwreck Hag 1</ObjectId>
       <Damage>95</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2500</LifetimeMS>
       <Size>120</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Nature Wave</ObjectId>
+      <ObjectId>Shipwreck Hag 2</ObjectId>
       <Damage>115</Damage>
       <Speed>50</Speed>
       <LifetimeMS>3000</LifetimeMS>
@@ -345,7 +340,7 @@
     <Flying />
     <Labels>ENEMY,MINION</Labels>
     <Projectile>
-      <ObjectId>Water Shot</ObjectId>
+      <ObjectId>Shipwreck Hag Whirlpool 1</ObjectId>
       <Damage>75</Damage>
       <Speed>50</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -382,7 +377,7 @@
     <RealmScore>10</RealmScore>
     <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
     <Projectile>
-      <ObjectId>UDL White Slash</ObjectId>
+      <ObjectId>Shipwreck Sailor 1</ObjectId>
       <Damage>60</Damage>
       <Speed>75</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -412,7 +407,7 @@
     <RealmScore>30</RealmScore>
     <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
     <Projectile id="0">
-      <ObjectId>Cyan Sprite Magic</ObjectId>
+      <ObjectId>Shipwreck Elemental 1</ObjectId>
       <Damage>100</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2500</LifetimeMS>
@@ -421,7 +416,7 @@
       <FaceDir />
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Cyan Sprite Twirl</ObjectId>
+      <ObjectId>Shipwreck Elemental 2</ObjectId>
       <Damage>0</Damage>
       <Speed>75</Speed>
       <LifetimeMS>3000</LifetimeMS>
@@ -603,7 +598,7 @@
     <Labels>ENEMY,MINION,CHEST,MINION_STRONG</Labels>
     <KillStat stat="StructureKills" />
     <Projectile id="0">
-      <ObjectId>Ghost Boss Slash</ObjectId>
+      <ObjectId>Shipwreck Haunted Chest 1</ObjectId>
       <Damage>120</Damage>
       <Speed>50</Speed>
       <LifetimeMS>3000</LifetimeMS>
@@ -630,7 +625,7 @@
     <Group>Dead Church Mobs</Group>
     <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
     <Projectile id="0">
-      <ObjectId>Gold Flail Ball</ObjectId>
+      <ObjectId>Dead Church Necromancer 3</ObjectId>
       <Speed>60</Speed>
       <Damage>65</Damage>
       <LifetimeMS>2500</LifetimeMS>
@@ -638,14 +633,14 @@
       <MultiHit />
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Steel Flail Chain</ObjectId>
+      <ObjectId>Dead Church Necromancer 1</ObjectId>
       <Speed>50</Speed>
       <Damage>55</Damage>
       <LifetimeMS>2500</LifetimeMS>
       <Size>105</Size>
     </Projectile>
     <Projectile id="2">
-      <ObjectId>Sharp Green Star</ObjectId>
+      <ObjectId>Dead Church Necromancer 4</ObjectId>
       <Speed>60</Speed>
       <Damage>0</Damage>
       <Size>125</Size>
@@ -673,7 +668,7 @@
     <Group>Dead Church Mobs</Group>
     <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
     <Projectile id="0">
-      <ObjectId>UDL White Slash</ObjectId>
+      <ObjectId>Dead Church Skeleton 1</ObjectId>
       <Damage>65</Damage>
       <Speed>20</Speed>
       <LifetimeMS>3000</LifetimeMS>
@@ -703,7 +698,7 @@
     <Group>Dead Church Mobs</Group>
     <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
     <Projectile id="0">
-      <ObjectId>Scythe Dagger Large</ObjectId>
+      <ObjectId>Dead Church Vampire 1</ObjectId>
       <Damage>90</Damage>
       <Speed>55</Speed>
       <LifetimeMS>2700</LifetimeMS>
@@ -734,7 +729,7 @@
     <BXP>100</BXP>
     <RealmScore>1</RealmScore>
     <Projectile id="0">
-      <ObjectId>UDL White Slash</ObjectId>
+      <ObjectId>Dead Church Bat 1</ObjectId>
       <Damage>65</Damage>
       <Speed>35</Speed>
       <Size>100</Size>
@@ -762,7 +757,7 @@
     <Group>Dead Church Mobs</Group>
     <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
     <Projectile id="0">
-      <ObjectId>Sharp Pink Star</ObjectId>
+      <ObjectId>Dead Church Cleric 1</ObjectId>
       <Damage>45</Damage>
       <Speed>40</Speed>
       <LifetimeMS>2100</LifetimeMS>
@@ -801,7 +796,7 @@
     <Group>Dead Church Mobs</Group>
     <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
     <Projectile id="0">
-      <ObjectId>Headless Halberd</ObjectId>
+      <ObjectId>Dead Church Nun 1</ObjectId>
       <Damage>80</Damage>
       <Speed>10</Speed>
       <Size>110</Size>
@@ -812,7 +807,7 @@
       <PassesCover />
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Headless Harbinger</ObjectId>
+      <ObjectId>Dead Church Nun 2</ObjectId>
       <Damage>100</Damage>
       <Speed>20</Speed>
       <Size>120</Size>
@@ -844,14 +839,14 @@
     <Group>Dead Church Mobs</Group>
     <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
     <Projectile id="0">
-      <ObjectId>Corruption Bolt</ObjectId>
+      <ObjectId>Dead Church Revenant 1</ObjectId>
       <Damage>100</Damage>
       <Speed>50</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <Size>110</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Corruption Star</ObjectId>
+      <ObjectId>Dead Church Revenant 2</ObjectId>
       <Damage>48</Damage>
       <Speed>40</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -883,14 +878,14 @@
     <BXP>1000</BXP>
     <RealmScore>10</RealmScore>
     <Projectile id="1">
-      <ObjectId>Beer Shockwave</ObjectId>
+      <ObjectId>City Jester 1</ObjectId>
       <Speed>35</Speed>
       <Damage>50</Damage>
       <LifetimeMS>1300</LifetimeMS>
       <Size>150</Size>
     </Projectile>
     <Projectile id="2">
-      <ObjectId>Blue Magic Attack</ObjectId>
+      <ObjectId>City Jester 2</ObjectId>
       <Speed>80</Speed>
       <Damage>70</Damage>
       <LifetimeMS>1500</LifetimeMS>
@@ -918,7 +913,7 @@
     <BXP>1000</BXP>
     <RealmScore>10</RealmScore>
     <Projectile id="0">
-      <ObjectId>Headless Horseman Blast</ObjectId>
+      <ObjectId>City Gladiator 1</ObjectId>
       <Damage>120</Damage>
       <Speed>80</Speed>
       <LifetimeMS>800</LifetimeMS>
@@ -926,7 +921,7 @@
       <ConditionEffect duration="3">Dazed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Headless Horseman Shockwave</ObjectId>
+      <ObjectId>City Gladiator 2</ObjectId>
       <Damage>60</Damage>
       <Speed>50</Speed>
       <LifetimeMS>1100</LifetimeMS>
@@ -954,7 +949,7 @@
     <BXP>1000</BXP>
     <RealmScore>10</RealmScore>
     <Projectile id="0">
-      <ObjectId>Headless Harbinger</ObjectId>
+      <ObjectId>City Satyr 1</ObjectId>
       <Speed>80</Speed>
       <Damage>77</Damage>
       <LifetimeMS>600</LifetimeMS>
@@ -983,7 +978,7 @@
     <SpawnProb>1.0</SpawnProb>
     <God />
     <Projectile id="0">
-      <ObjectId>Medusa Slash</ObjectId>
+      <ObjectId>City Medusa 1</ObjectId>
       <Damage>100</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -1021,7 +1016,7 @@
     <Flying />
     <God />
     <Projectile id="0">
-      <ObjectId>Beholder Gaze</ObjectId>
+      <ObjectId>City Beholder 1</ObjectId>
       <Damage>120</Damage>
       <Speed>50</Speed>
       <LifetimeMS>2700</LifetimeMS>
@@ -1104,13 +1099,13 @@
     <RealmScore>10</RealmScore>
     <God />
     <Projectile id="0">
-      <ObjectId>Slime God Sludge</ObjectId>
+      <ObjectId>City Slime God 1</ObjectId>
       <Damage>80</Damage>
       <Speed>100</Speed>
       <LifetimeMS>1100</LifetimeMS>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Sharp Green Star</ObjectId>
+      <ObjectId>City Slime God 2</ObjectId>
       <Damage>0</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -1154,7 +1149,7 @@
     <God />
     <RealmScore>10</RealmScore>
     <Projectile id="0">
-      <ObjectId>Ent God Bolt</ObjectId>
+      <ObjectId>City Ent God 1</ObjectId>
       <Damage>70</Damage>
       <Speed>80</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -1216,6 +1211,174 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x9A7" id="New Mysterious Crystal">
+    <Group>Crystals</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>75000</MaxHitPoints>
+    <Defense>15</Defense>
+    <AlwaysPositiveHealth />
+    <Terrain>Abandoned</Terrain>
+    <SpawnProb>0.025</SpawnProb>
+    <Exp>0</Exp>
+    <PerRealmMax>1</PerRealmMax>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Djinn Orb</ObjectId>
+      <Damage>90</Damage>
+      <Speed>10</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
+    </Projectile>
+    <KillStat stat="StructureKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GOD,STASISIMMUNE,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x9A8" id="New Crystal Prisoner">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>28000</MaxHitPoints>
+    <Defense>25</Defense>
+    <HealthBarBoss radius="25" />
+    <StasisImmune />
+    <TrackLoot />
+    <Exp>5000</Exp>
+    <BXP>18750</BXP>
+    <Projectile id="0">
+      <ObjectId>Crystal Prisoner Orb</ObjectId>
+      <Speed>80</Speed>
+      <Damage>95</Damage>
+      <Size>65</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Crystal Prisoner Star</ObjectId>
+      <Speed>60</Speed>
+      <Damage>110</Damage>
+      <Size>90</Size>
+      <LifetimeMS>1700</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="1">Confused</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Crystal Steed Star</ObjectId>
+      <Speed>60</Speed>
+      <Damage>120</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1700</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="4">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Crystal Prisoner Wave</ObjectId>
+      <Speed>47</Speed>
+      <Damage>165</Damage>
+      <Size>130</Size>
+      <LifetimeMS>2400</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="HumanoidKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,MINIBOSS,HUMANOID,GOD,STASISIMMUNE,TRACKLOOT</Labels>
+  </Object>
+  <Object type="0x9A9" id="New Crystal Prisoner Clone">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <Defense>12</Defense>
+    <Exp>19</Exp>
+    <BXP>90</BXP>
+    <Projectile id="0">
+      <ObjectId>Crystal Prisoner Orb</ObjectId>
+      <Speed>70</Speed>
+      <Damage>85</Damage>
+      <Size>65</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="HumanoidKills" />
+    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x9AA" id="New Crystal Prisoner Steed">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>44</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cyclops_hit</HitSound>
+    <DeathSound>monster/cyclops_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>6000</MaxHitPoints>
+    <Defense>11</Defense>
+    <Exp>48</Exp>
+    <BXP>228</BXP>
+    <Projectile id="0">
+      <ObjectId>Crystal Steed Bolt</ObjectId>
+      <Speed>35</Speed>
+      <Damage>70</Damage>
+      <Size>90</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="2">Weak</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Crystal Steed Star</ObjectId>
+      <Speed>65</Speed>
+      <Damage>100</Damage>
+      <Size>80</Size>
+      <LifetimeMS>1700</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="4">Slowed</ConditionEffect>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,BEAST,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5588" id="Hell White Demon">
     <DisplayId>White Demon</DisplayId>
@@ -1292,7 +1455,7 @@
     <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
     <KillStat stat="UndeadKills" />
     <Projectile id="0">
-      <ObjectId>Big Fireball</ObjectId>
+      <ObjectId>Hell Skeleton 1</ObjectId>
       <Speed>75</Speed>
       <Damage>90</Damage>
       <LifetimeMS>2000</LifetimeMS>
@@ -1325,7 +1488,7 @@
     <RealmScore>10</RealmScore>
     <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
     <Projectile id="0">
-      <ObjectId>King Shade Blast</ObjectId>
+      <ObjectId>Hell Ghost 1</ObjectId>
       <Speed>80</Speed>
       <Damage>90</Damage>
       <LifetimeMS>1850</LifetimeMS>
@@ -1364,7 +1527,7 @@
     <Labels>ENEMY,MINION,BEAST,MINION_WEAK</Labels>
     <KillStat stat="BeastKills" />
     <Projectile id="0">
-      <ObjectId>Summon Wolf Projectile</ObjectId>
+      <ObjectId>Hell Dog 1 1</ObjectId>
       <Damage>60</Damage>
       <Speed>75</Speed>
       <Size>90</Size>
@@ -1400,7 +1563,7 @@
     <Labels>ENEMY,MINION,BEAST,MINION_WEAK</Labels>
     <KillStat stat="BeastKills" />
     <Projectile id="0">
-      <ObjectId>Summon Wolf Projectile</ObjectId>
+      <ObjectId>Hell Dog 2 1</ObjectId>
       <Damage>70</Damage>
       <Speed>75</Speed>
       <Size>100</Size>
@@ -1431,7 +1594,7 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="LesserGodKills" />
     <Projectile>
-      <ObjectId>Big Fireball</ObjectId>
+      <ObjectId>Hell Dragon 1</ObjectId>
       <Damage>75</Damage>
       <Speed>50</Speed>
       <Size>150</Size>
@@ -1461,7 +1624,7 @@
     <Labels>ENEMY,MINION,BEAST,MINION_WEAK</Labels>
     <KillStat stat="BeastKills" />
     <Projectile id="0">
-      <ObjectId>Summon Wolf Projectile</ObjectId>
+      <ObjectId>Hell Dog 3 1</ObjectId>
       <Damage>80</Damage>
       <Speed>75</Speed>
       <Size>110</Size>
@@ -1492,7 +1655,7 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="LesserGodKills" />
     <Projectile id="0">
-      <ObjectId>Fire Storm</ObjectId>
+      <ObjectId>Hell Skull 1</ObjectId>
       <Speed>50</Speed>
       <Damage>55</Damage>
       <LifetimeMS>3000</LifetimeMS>
@@ -1502,7 +1665,7 @@
       <PassesCover />
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Flame Breath</ObjectId>
+      <ObjectId>Hell Skull 2</ObjectId>
       <Speed>75</Speed>
       <Damage>80</Damage>
       <Size>120</Size>
@@ -1637,7 +1800,7 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <Projectile id="0">
-      <ObjectId>Orange Sprite Magic</ObjectId>
+      <ObjectId>Sprite Forest Fire God 1</ObjectId>
       <Damage>50</Damage>
       <Speed>60</Speed>
       <LifetimeMS>1500</LifetimeMS>
@@ -1645,7 +1808,7 @@
       <FaceDir />
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Orange Sprite Twirl</ObjectId>
+      <ObjectId>Sprite Forest Fire God 2</ObjectId>
       <Size>85</Size>
       <Damage>0</Damage>
       <Speed>45</Speed>
@@ -1655,7 +1818,7 @@
       <ParticleTrail />
     </Projectile>
     <Projectile id="2">
-      <ObjectId>Orange Sprite Twirl</ObjectId>
+      <ObjectId>Sprite Forest Fire God 2</ObjectId>
       <Size>85</Size>
       <Damage>0</Damage>
       <Speed>60</Speed>
@@ -1665,7 +1828,7 @@
       <ParticleTrail />
     </Projectile>
     <Projectile id="3">
-      <ObjectId>Orange Sprite Twirl</ObjectId>
+      <ObjectId>Sprite Forest Fire God 2</ObjectId>
       <Size>85</Size>
       <Damage>0</Damage>
       <Speed>75</Speed>
@@ -1700,7 +1863,7 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <Projectile id="0">
-      <ObjectId>Black Sprite Magic</ObjectId>
+      <ObjectId>Sprite Forest Poison God 1</ObjectId>
       <Damage>100</Damage>
       <Speed>65</Speed>
       <Acceleration>-200</Acceleration>
@@ -1709,7 +1872,7 @@
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Black Sprite Twirl</ObjectId>
+      <ObjectId>Sprite Forest Poison God 2</ObjectId>
       <Damage>0</Damage>
       <Speed>65</Speed>
       <Acceleration>-400</Acceleration>
@@ -1746,14 +1909,14 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <Projectile id="0">
-      <ObjectId>Blue Sprite Twirl</ObjectId>
+      <ObjectId>Sprite Forest Electric God 1</ObjectId>
       <Damage>10</Damage>
       <Speed>55</Speed>
       <LifetimeMS>2000</LifetimeMS>
       <ConditionEffect duration="1.6">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Cyan Sprite Twirl</ObjectId>
+      <ObjectId>Sprite Forest Electric God 2</ObjectId>
       <Damage>0</Damage>
       <Speed>65</Speed>
       <LifetimeMS>4000</LifetimeMS>
@@ -1787,7 +1950,7 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <Projectile id="0">
-      <ObjectId>Cyan Sprite Magic</ObjectId>
+      <ObjectId>Sprite Forest Dark God 1</ObjectId>
       <Damage>90</Damage>
       <Speed>55</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -1796,7 +1959,7 @@
       <FaceDir />
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Cyan Sprite Twirl</ObjectId>
+      <ObjectId>Sprite Forest Dark God 2</ObjectId>
       <Damage>0</Damage>
       <Speed>65</Speed>
       <LifetimeMS>3000</LifetimeMS>
@@ -1831,7 +1994,7 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <Projectile id="0">
-      <ObjectId>Green Sprite Magic</ObjectId>
+      <ObjectId>Sprite Forest Nature God 1</ObjectId>
       <Size>100</Size>
       <Damage>120</Damage>
       <Speed>0</Speed>
@@ -1841,7 +2004,7 @@
       <LifetimeMS>1700</LifetimeMS>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Green Sprite Twirl</ObjectId>
+      <ObjectId>Sprite Forest Nature God 2</ObjectId>
       <Damage>0</Damage>
       <Speed>20</Speed>
       <Acceleration>400</Acceleration>
@@ -1882,7 +2045,7 @@
     <Size>100</Size>
     <ShadowSize>60</ShadowSize>
     <Projectile>
-      <ObjectId>Blue Mystic Shot</ObjectId>
+      <ObjectId>Sprite Forest Dog 1</ObjectId>
       <Damage>75</Damage>
       <Speed>60</Speed>
       <Size>90</Size>
@@ -1912,14 +2075,14 @@
     <Group>Haunted Hallows Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
-      <ObjectId>White Flame</ObjectId>
+      <ObjectId>Hallows Banshee 1</ObjectId>
       <Damage>90</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2150</LifetimeMS>
       <Size>100</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Sharp Grey Star</ObjectId>
+      <ObjectId>Hallows Banshee 2</ObjectId>
       <Damage>0</Damage>
       <Speed>80</Speed>
       <LifetimeMS>1875</LifetimeMS>
@@ -1948,14 +2111,14 @@
     <Group>Haunted Hallows Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
-      <ObjectId>Blue Magic Attack</ObjectId>
+      <ObjectId>Hallows Wraith 1</ObjectId>
       <Speed>60</Speed>
       <Damage>90</Damage>
       <LifetimeMS>2500</LifetimeMS>
       <Size>160</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Sharp Pink Star</ObjectId>
+      <ObjectId>Hallows Wraith 2</ObjectId>
       <Speed>90</Speed>
       <Damage>0</Damage>
       <LifetimeMS>1675</LifetimeMS>
@@ -1990,7 +2153,7 @@
       <Max>8</Max>
     </Spawn>
     <Projectile>
-      <ObjectId>UDL White Slash</ObjectId>
+      <ObjectId>Hallows Skeleton 1</ObjectId>
       <Damage>50</Damage>
       <Speed>35</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -2020,14 +2183,14 @@
     <Group>Haunted Hallows Mobs</Group>
     <SpawnProb>0.5</SpawnProb>
     <Projectile id="0">
-      <ObjectId>Headless Horseman Shockwave</ObjectId>
+      <ObjectId>Hallows Werewolf 1</ObjectId>
       <Speed>60</Speed>
       <Damage>65</Damage>
       <LifetimeMS>2500</LifetimeMS>
       <Size>150</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Corsair Crab Wave</ObjectId>
+      <ObjectId>Hallows Werewolf 2</ObjectId>
       <Speed>80</Speed>
       <Damage>75</Damage>
       <LifetimeMS>1875</LifetimeMS>
@@ -2058,14 +2221,14 @@
     <Flying />
     <God />
     <Projectile id="0">
-      <ObjectId>Beholder Gaze</ObjectId>
+      <ObjectId>Hallows Beholder 1</ObjectId>
       <Damage>120</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2150</LifetimeMS>
       <Size>150</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Sharp Pink Star</ObjectId>
+      <ObjectId>Hallows Beholder 2</ObjectId>
       <Damage>25</Damage>
       <Speed>25</Speed>
       <LifetimeMS>6000</LifetimeMS>
@@ -2096,14 +2259,14 @@
     <Terrain>HauntedHallows</Terrain>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
-      <ObjectId>Lucky Flying Brain Cortex</ObjectId>
+      <ObjectId>Hallows Brute 1</ObjectId>
       <Speed>70</Speed>
       <Damage>90</Damage>
       <LifetimeMS>2150</LifetimeMS>
       <Size>110</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Green Spinner</ObjectId>
+      <ObjectId>Hallows Brute 2</ObjectId>
       <Damage>0</Damage>
       <Speed>50</Speed>
       <Size>100</Size>
@@ -2179,13 +2342,7 @@
     <BXP>1000</BXP>
     <Defense>12</Defense>
     <Terrain>HauntedHallows</Terrain>
-    <SpawnProb>1.0</SpawnProb>
-    <Spawn>
-      <Mean>3</Mean>
-      <StdDev>1</StdDev>
-      <Min>2</Min>
-      <Max>5</Max>
-    </Spawn>
+    <SpawnProb>0.95</SpawnProb>
     <Flying />
     <God />
     <RealmScore>10</RealmScore>

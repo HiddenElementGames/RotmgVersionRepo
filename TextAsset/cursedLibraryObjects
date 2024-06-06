@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
+  <Object id="Enlightened Bookwyrm" type="0x5488">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Reptile</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Enlightened Bookwyrm Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0x5489" id="Enlightened Bookwyrm Pet Skin">
+    <PetSkin />
+    <DisplayId>Cultured Bookwyrm</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>1</ItemTier>
+    <AnimatedTexture>
+      <File>hauntedHallowsChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <Family>Reptile</Family>
+    <Rarity>Divine</Rarity>
+  </Object>
+  <Object type="0x548a" id="Enlightened Bookwyrm Pet Stone">
+    <DisplayId>Enlightened Bookwyrm Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>1</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>hauntedHallowsChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <ScaleValue>10</ScaleValue>
+    <SlotType>10</SlotType>
+    <Description>Best known for its three r's: Reading, Writing, and Ripping apart books.\n\nSprite Credits: Moloch\n\nUnlocks Enlightened Bookwyrm Skin of the Reptile family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="21641">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+  </Object>
   <Object type="0xaba5" id="Spectral Slash">
     <Class>Projectile</Class>
     <Texture>
