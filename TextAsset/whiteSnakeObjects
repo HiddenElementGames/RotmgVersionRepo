@@ -1,0 +1,3457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Presentation id="snakeElements">
+    <Style id="Non-Element">
+      <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+    </Style>
+    <Style id="Fire">
+      <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+    </Style>
+    <Style id="Water">
+      <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+    </Style>
+    <Style id="Air">
+      <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+    </Style>
+    <Style id="Earth">
+      <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+    </Style>
+  </Presentation>
+  <Object type="0xE9FC" id="LNY Small Snake">
+    <DisplayId>Divine Spirit Snake</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/snakes_hit</HitSound>
+    <DeathSound>monster/beholder_death</DeathSound>
+    <Size>90</Size>
+    <MaxHitPoints>500</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>100</Exp>
+    <BXP>500</BXP>
+    <Enemy />
+    <Projectile>
+      <ObjectId>LNY Orb White</ObjectId>
+      <Size>55</Size>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Damage>10</Damage>
+      <ArmorPiercing />
+      <CurrentHealthDamage>0.025</CurrentHealthDamage>
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MINION,CRITTER,SPAWNER</Labels>
+  </Object>
+  <Object type="0xE9FD" id="LNY Large Snake">
+    <DisplayId>Divine Soul Snake</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>whiteSnakeChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/greater_pit_snakes_death</HitSound>
+    <DeathSound>monster/beholder_death</DeathSound>
+    <Size>90</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <Enemy />
+    <Projectile>
+      <ObjectId>LNY Spinner White</ObjectId>
+      <Size>85</Size>
+      <Speed>70</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Damage>80</Damage>
+      <CurrentHealthDamage>0.025</CurrentHealthDamage>
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MINION,CRITTER,SPAWNER</Labels>
+  </Object>
+  <Object type="0xE9FE" id="LNY Primal Snake Fire">
+    <DisplayId>Fiery Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>2</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>3</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>4</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>5</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <DontFaceAttacks />
+    <MinimapIcon piece="Miniboss" />
+    <MaxHitPoints>16000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>10000</Exp>
+    <BXP>50000</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <Projectile id="0">
+      <ObjectId>LNY Bolt White</ObjectId>
+      <Size>120</Size>
+      <Speed>50</Speed>
+      <LifetimeMS>2250</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LNY Bolt Fire</ObjectId>
+      <Size>100</Size>
+      <Speed>80</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Acceleration>-20</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>20</SpeedClamp>
+      <Damage>60</Damage>
+      <CurrentHealthDamage>0.02</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>LNY Orb Fire</ObjectId>
+      <Size>100</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MIDBOSS,CRITTER</Labels>
+  </Object>
+  <Object type="0xE9FF" id="LNY Primal Snake Water">
+    <DisplayId>Aquatic Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>2</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>3</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>4</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>5</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MinimapIcon piece="Miniboss" />
+    <MaxHitPoints>16000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>10000</Exp>
+    <BXP>50000</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <Projectile id="0">
+      <ObjectId>LNY Bolt White</ObjectId>
+      <Size>120</Size>
+      <Speed>50</Speed>
+      <LifetimeMS>2250</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LNY Spinner Water</ObjectId>
+      <Size>100</Size>
+      <Speed>50</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <Amplitude>0.2</Amplitude>
+      <Frequency>1</Frequency>
+      <Damage>100</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>LNY Orb Water</ObjectId>
+      <Size>100</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="3">Silenced</ConditionEffect>
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MIDBOSS,CRITTER</Labels>
+  </Object>
+  <Object type="0xEA00" id="LNY Primal Snake Air">
+    <DisplayId>Skybound Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>2</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>3</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>4</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>5</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MinimapIcon piece="Miniboss" />
+    <MaxHitPoints>16000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>10000</Exp>
+    <BXP>50000</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <Projectile id="0">
+      <ObjectId>LNY Bolt White</ObjectId>
+      <Size>120</Size>
+      <Speed>50</Speed>
+      <LifetimeMS>2250</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LNY Spinner Air</ObjectId>
+      <Size>100</Size>
+      <Damage>70</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>3300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>LNY Orb Air</ObjectId>
+      <Size>100</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="4">Unstable</ConditionEffect>
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MIDBOSS,CRITTER</Labels>
+  </Object>
+  <Object type="0xEA01" id="LNY Primal Snake Earth">
+    <DisplayId>Earthen Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>2</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>3</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>4</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>5</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MinimapIcon piece="Miniboss" />
+    <MaxHitPoints>16000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>10000</Exp>
+    <BXP>50000</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <Projectile id="0">
+      <ObjectId>LNY Bolt White</ObjectId>
+      <Size>120</Size>
+      <Speed>50</Speed>
+      <LifetimeMS>2250</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LNY Spinner Earth</ObjectId>
+      <Size>110</Size>
+      <Speed>150</Speed>
+      <LifetimeMS>5500</LifetimeMS>
+      <Acceleration>-400</Acceleration>
+      <AccelerationDelay>125</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.015</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>LNY Orb Earth</ObjectId>
+      <Size>100</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="2">Stunned</ConditionEffect>
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MIDBOSS,CRITTER</Labels>
+  </Object>
+  <Object type="0xEA02" id="LNY Primal Snake Segment Fire">
+    <DisplayId>Fiery Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>7</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>8</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>9</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>10</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <Labels>ENEMY,MIDBOSS,CRITTER</Labels>
+  </Object>
+  <Object type="0xEA03" id="LNY Primal Snake Segment Water">
+    <DisplayId>Aquatic Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>7</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>8</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>9</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>10</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <Labels>ENEMY,MIDBOSS,CRITTER</Labels>
+  </Object>
+  <Object type="0xEA04" id="LNY Primal Snake Segment Air">
+    <DisplayId>Skybound Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>7</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>8</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>9</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>10</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <Labels>ENEMY,MIDBOSS,CRITTER</Labels>
+  </Object>
+  <Object type="0xEA05" id="LNY Primal Snake Segment Earth">
+    <DisplayId>Earthen Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>7</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>8</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>9</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>10</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <Labels>ENEMY,MIDBOSS,CRITTER</Labels>
+  </Object>
+  <Object type="0xEA06" id="LNY Primal Snake Tail Fire">
+    <DisplayId>Fiery Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>12</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>13</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>14</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>15</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <Labels>ENEMY,MIDBOSS,CRITTER</Labels>
+  </Object>
+  <Object type="0xEA07" id="LNY Primal Snake Tail Water">
+    <DisplayId>Aquatic Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>12</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>13</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>14</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>15</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <Labels>ENEMY,MIDBOSS,CRITTER</Labels>
+  </Object>
+  <Object type="0xEA08" id="LNY Primal Snake Tail Air">
+    <DisplayId>Skybound Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>12</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>13</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>14</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>15</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <Labels>ENEMY,MIDBOSS,CRITTER</Labels>
+  </Object>
+  <Object type="0xEA09" id="LNY Primal Snake Tail Earth">
+    <DisplayId>Earthen Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>12</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>13</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>14</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>15</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <Labels>ENEMY,MIDBOSS,CRITTER</Labels>
+  </Object>
+  <Object type="0xEA0A" id="LNY Primal Snake Orb">
+    <DisplayId>Divine Spirit Orb</DisplayId>
+    <Enemy />
+    <Class>GameObject</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>07</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects8x8</File>
+          <Index>07</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects8x8</File>
+          <Index>08</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects8x8</File>
+          <Index>09</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects8x8</File>
+          <Index>10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects8x8</File>
+          <Index>11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects8x8</File>
+          <Index>12</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <DontFaceAttacks />
+    <Size>50</Size>
+    <ShadowSize>40</ShadowSize>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>O3 White Big Missile</ObjectId>
+      <Size>120</Size>
+      <Speed>50</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.025</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED</Labels>
+  </Object>
+  <Object type="0xEA0B" id="Eden Day Mosaic Test Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonName>EdenDayMosaic</DungeonName>
+    <AnimatedTexture>
+      <File>charsRookie8x8</File>
+      <Index>26</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xEA0C" id="Eden Night Mosaic Test Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonName>EdenNightMosaic</DungeonName>
+    <AnimatedTexture>
+      <File>charsRookie8x8</File>
+      <Index>26</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xEA0D" id="White Snake Test Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonName>WhiteSnakeTest</DungeonName>
+    <AnimatedTexture>
+      <File>charsRookie8x8</File>
+      <Index>26</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xEA0E" id="LNY The White Snake Anchor">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xEA0F" id="LNY The White Snake Invul Controller">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <ForceTick />
+    <NoCollisionWhenMovement />
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object type="0xEA10" id="LNY The White Snake Boss Attack Controller">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <ForceTick />
+    <NoCollisionWhenMovement />
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object type="0xEA11" id="LNY The White Snake Movement Controller">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <ForceTick />
+    <NoCollisionWhenMovement />
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object type="0xEA12" id="LNY The White Snake">
+    <DisplayId>The White Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars16x16</File>
+        <Index>2</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars16x16</File>
+        <Index>3</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars16x16</File>
+        <Index>4</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars16x16</File>
+        <Index>5</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <MinimapIcon piece="Boss" />
+    <HitSound>monster/medusa_death</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <DontFaceAttacks />
+    <Size>175</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <MaxHitPoints>400000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>80000</Exp>
+    <BXP>400000</BXP>
+    <HealthBarBoss />
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <ForceTick />
+    <NoCollisionWhenMovement />
+    <AlwaysPositiveHealth />
+    <EventChestBoss />
+    <TrackLoot />
+    <Projectile id="0">
+      <ObjectId>LNY Mega Orb White</ObjectId>
+      <Size>350</Size>
+      <CollisionMult>2.25</CollisionMult>
+      <Speed>90</Speed>
+      <LifetimeMS>2250</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>180</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.08</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LNY Mega Orb White</ObjectId>
+      <Size>350</Size>
+      <CollisionMult>2.25</CollisionMult>
+      <Speed>20</Speed>
+      <LifetimeMS>5250</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Bleeding</ConditionEffect>
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>LNY Mega Orb White</ObjectId>
+      <Size>350</Size>
+      <CollisionMult>2.25</CollisionMult>
+      <Speed>10</Speed>
+      <LifetimeMS>6200</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Bleeding</ConditionEffect>
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>LNY Bolt White</ObjectId>
+      <Size>150</Size>
+      <Speed>60</Speed>
+      <LifetimeMS>2900</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>LNY Bolt White</ObjectId>
+      <Size>150</Size>
+      <Speed>30</Speed>
+      <LifetimeMS>3400</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>LNY Bolt White</ObjectId>
+      <Size>150</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="20">
+      <ObjectId>LNY Mega Orb Fire</ObjectId>
+      <Size>300</Size>
+      <CollisionMult>1.75</CollisionMult>
+      <Speed>100</Speed>
+      <LifetimeMS>2150</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>180</SpeedClamp>
+      <Damage>145</Damage>
+      <CurrentHealthDamage>0.09</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="21">
+      <ObjectId>LNY Mega Orb Fire</ObjectId>
+      <Size>350</Size>
+      <CollisionMult>2.25</CollisionMult>
+      <Speed>20</Speed>
+      <LifetimeMS>5250</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Exposed</ConditionEffect>
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="22">
+      <ObjectId>LNY Mega Orb Fire</ObjectId>
+      <Size>350</Size>
+      <CollisionMult>2.25</CollisionMult>
+      <Speed>10</Speed>
+      <LifetimeMS>6200</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Exposed</ConditionEffect>
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="23">
+      <ObjectId>LNY Bolt Fire</ObjectId>
+      <Size>150</Size>
+      <Speed>60</Speed>
+      <LifetimeMS>2900</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="24">
+      <ObjectId>LNY Bolt Fire</ObjectId>
+      <Size>150</Size>
+      <Speed>30</Speed>
+      <LifetimeMS>3400</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="25">
+      <ObjectId>LNY Bolt Fire</ObjectId>
+      <Size>150</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="40">
+      <ObjectId>LNY Mega Orb Water</ObjectId>
+      <Size>375</Size>
+      <CollisionMult>2.50</CollisionMult>
+      <Speed>90</Speed>
+      <LifetimeMS>2250</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>180</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.08</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="41">
+      <ObjectId>LNY Mega Orb Water</ObjectId>
+      <Size>350</Size>
+      <CollisionMult>2.25</CollisionMult>
+      <Speed>20</Speed>
+      <LifetimeMS>5250</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Silenced</ConditionEffect>
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="42">
+      <ObjectId>LNY Mega Orb Water</ObjectId>
+      <Size>350</Size>
+      <CollisionMult>2.25</CollisionMult>
+      <Speed>10</Speed>
+      <LifetimeMS>6200</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Silenced</ConditionEffect>
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="43">
+      <ObjectId>LNY Bolt Water</ObjectId>
+      <Size>150</Size>
+      <Speed>60</Speed>
+      <LifetimeMS>2900</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="44">
+      <ObjectId>LNY Bolt Water</ObjectId>
+      <Size>150</Size>
+      <Speed>30</Speed>
+      <LifetimeMS>3400</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="45">
+      <ObjectId>LNY Bolt Water</ObjectId>
+      <Size>150</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="60">
+      <ObjectId>LNY Mega Orb Air</ObjectId>
+      <Size>325</Size>
+      <CollisionMult>2.00</CollisionMult>
+      <Speed>80</Speed>
+      <LifetimeMS>2050</LifetimeMS>
+      <Acceleration>80</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>180</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.08</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="61">
+      <ObjectId>LNY Mega Orb Air</ObjectId>
+      <Size>350</Size>
+      <CollisionMult>2.25</CollisionMult>
+      <Speed>20</Speed>
+      <LifetimeMS>5250</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Dazed</ConditionEffect>
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="62">
+      <ObjectId>LNY Mega Orb Air</ObjectId>
+      <Size>350</Size>
+      <CollisionMult>2.25</CollisionMult>
+      <Speed>10</Speed>
+      <LifetimeMS>6200</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Dazed</ConditionEffect>
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="63">
+      <ObjectId>LNY Bolt Air</ObjectId>
+      <Size>150</Size>
+      <Speed>60</Speed>
+      <LifetimeMS>2900</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="64">
+      <ObjectId>LNY Bolt Air</ObjectId>
+      <Size>150</Size>
+      <Speed>30</Speed>
+      <LifetimeMS>3400</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="65">
+      <ObjectId>LNY Bolt Air</ObjectId>
+      <Size>150</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="80">
+      <ObjectId>LNY Mega Orb Earth</ObjectId>
+      <Size>350</Size>
+      <CollisionMult>2.25</CollisionMult>
+      <Speed>95</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>180</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.08</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="81">
+      <ObjectId>LNY Mega Orb Earth</ObjectId>
+      <Size>350</Size>
+      <CollisionMult>2.25</CollisionMult>
+      <Speed>20</Speed>
+      <LifetimeMS>5250</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Stunned</ConditionEffect>
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="82">
+      <ObjectId>LNY Mega Orb Earth</ObjectId>
+      <Size>350</Size>
+      <CollisionMult>2.25</CollisionMult>
+      <Speed>10</Speed>
+      <LifetimeMS>6200</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="5">Stunned</ConditionEffect>
+      <ConditionEffect duration="4">In Combat</ConditionEffect>
+    </Projectile>
+    <Projectile id="83">
+      <ObjectId>LNY Bolt Earth</ObjectId>
+      <Size>150</Size>
+      <Speed>60</Speed>
+      <LifetimeMS>2900</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="84">
+      <ObjectId>LNY Bolt Earth</ObjectId>
+      <Size>150</Size>
+      <Speed>30</Speed>
+      <LifetimeMS>3400</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="85">
+      <ObjectId>LNY Bolt Earth</ObjectId>
+      <Size>150</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="99">
+      <ObjectId>MV Warning Projectile</ObjectId>
+      <Size>150</Size>
+      <Speed>500</Speed>
+      <LifetimeMS>400</LifetimeMS>
+      <Acceleration>-999999</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Damage>0</Damage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,BOSS,GOD</Labels>
+  </Object>
+  <Object type="0xEA13" id="LNY The White Snake Segment">
+    <DisplayId>The White Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars16x16</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars16x16</File>
+        <Index>7</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars16x16</File>
+        <Index>8</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars16x16</File>
+        <Index>9</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars16x16</File>
+        <Index>10</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/medusa_death</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <Sound id="0">monster/flaming_skulls_death</Sound>
+    <DontFaceAttacks />
+    <Size>175</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>0</Exp>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <ForceTick />
+    <NoCollisionWhenMovement />
+    <AlwaysPositiveHealth />
+    <Labels>ENEMY,BOSS_SPAWNED</Labels>
+  </Object>
+  <Object type="0xEA14" id="LNY The White Snake Tail">
+    <DisplayId>The White Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars16x16</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars16x16</File>
+        <Index>12</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars16x16</File>
+        <Index>13</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars16x16</File>
+        <Index>14</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars16x16</File>
+        <Index>15</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/medusa_death</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <Sound id="0">monster/flaming_skulls_death</Sound>
+    <DontFaceAttacks />
+    <Size>175</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>0</Exp>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <DazedImmune />
+    <SlowImmune />
+    <ForceTick />
+    <NoCollisionWhenMovement />
+    <AlwaysPositiveHealth />
+    <Labels>ENEMY,BOSS_SPAWNED</Labels>
+  </Object>
+  <Object type="0xEA15" id="LNY The White Snake Mini Orb White">
+    <DisplayId>Divine Soul Orb</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>whiteSnakeObjects16x16</File>
+      <Index>00</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>00</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>01</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>02</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>03</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>04</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>05</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <DontFaceAttacks />
+    <MinimapIcon piece="DangerSmall" />
+    <Color>0xFFFFFF</Color>
+    <Size>60</Size>
+    <ShadowSize>40</ShadowSize>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>LNY Orb White</ObjectId>
+      <Size>110</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>7500</LifetimeMS>
+      <Damage>120</Damage>
+      <CurrentHealthDamage>0.04</CurrentHealthDamage>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="2">Quiet</ConditionEffect>
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED</Labels>
+  </Object>
+  <Object type="0xEA16" id="LNY Realm Altar">
+    <DisplayId>Altar of the White Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>edenDayObjects32x32</File>
+      <Index>0</Index>
+    </Texture>
+    <Animation prob="1" period="0" id="activation">
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>01</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>02</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>03</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>04</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>05</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>06</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>07</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>08</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>09</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>13</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>14</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>15</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>17</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>18</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="active">
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>19</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>20</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>21</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>edenDayObjects32x32</File>
+          <Index>22</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="inactive">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="activation">
+        <StyleStep id="activation" loop="1">SetAnimation</StyleStep>
+      </Style>
+      <Style id="active">
+        <StyleStep id="active">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <MinimapIcon piece="DangerSmall" />
+    <Color>0xffffff</Color>
+    <Projectile id="0">
+      <ObjectId>LNY Orb Water</ObjectId>
+      <Size>120</Size>
+      <Damage>120</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <ConditionEffect duration="1.6">Slowed</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LNY Orb Earth</ObjectId>
+      <Speed>40</Speed>
+      <Damage>120</Damage>
+      <Size>120</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <ConditionEffect duration="3">Dazed</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>LNY Orb Fire</ObjectId>
+      <Size>120</Size>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>25</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <Damage>60</Damage>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>LNY Orb Air</ObjectId>
+      <Size>120</Size>
+      <Damage>60</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <Boomerang />
+    </Projectile>
+    <Invincible />
+  </Object>
+  <Object type="0xEA17" id="LNY Primal Snake Realm">
+    <DisplayId>Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>2</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>3</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>4</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>5</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <Projectile id="0">
+      <ObjectId>LNY Bolt White</ObjectId>
+      <Size>120</Size>
+      <Damage>120</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LNY Spinner Water</ObjectId>
+      <Size>100</Size>
+      <Damage>60</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="3">Silenced</ConditionEffect>
+      <Amplitude>0.3</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>LNY Spinner Earth</ObjectId>
+      <Size>100</Size>
+      <Damage>150</Damage>
+      <Speed>25</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>30</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <MultiHit />
+      <ConditionEffect duration="2">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>LNY Bolt Fire</ObjectId>
+      <Size>100</Size>
+      <Damage>80</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Acceleration>-20</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>20</SpeedClamp>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="3">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>LNY Orb Air</ObjectId>
+      <Size>100</Size>
+      <Damage>70</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="4">Unstable</ConditionEffect>
+    </Projectile>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <StunImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+  </Object>
+  <Object type="0xEA18" id="LNY Primal Snake Realm Segment">
+    <DisplayId>Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>7</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>8</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>9</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>10</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+  </Object>
+  <Object type="0xEA19" id="LNY Primal Snake Realm Tail">
+    <DisplayId>Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>12</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>13</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>14</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>15</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation from="snakeElements" />
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>140</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>50</Defense>
+    <Exp>0</Exp>
+    <StunImmune />
+    <SlowImmune />
+    <DazedImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+  </Object>
+  <Object type="0xEA1A" id="Legend of the White Snake Initiator">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+    <ForceTick />
+  </Object>
+  <Object type="0xEA1B" id="LNY Altar Spawner">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+    <ForceTick />
+    <Terrain>Carboniferous</Terrain>
+    <SpawnProb>1</SpawnProb>
+    <PerRealmMax>1</PerRealmMax>
+  </Object>
+  <Object type="0xE9EE" id="White Snake Invasion I Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DisplayId>White Snake Invasion I</DisplayId>
+    <DungeonName>White Snake Invasion I</DungeonName>
+    <DungeonPortal />
+    <Texture>
+      <File>edenDayObjects8x8</File>
+      <Index>47</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.2">
+        <Texture>
+          <File>edenDayObjects8x8</File>
+          <Index>47</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>edenDayObjects8x8</File>
+          <Index>48</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>edenDayObjects8x8</File>
+          <Index>49</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>edenDayObjects8x8</File>
+          <Index>50</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <ShadowSize>0</ShadowSize>
+    <HelperDialog title="Dungeon Portals">Dungeons offer a unique environment where you can fight your way through enemies and bosses for loot. The loot you find within will generally be of a higher grade than the surrounding realm area. Harder dungeons will yield better rewards and Stat Potions.</HelperDialog>
+  </Object>
+  <Object type="0xE9EF" id="White Snake Invasion II Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DisplayId>White Snake Invasion II</DisplayId>
+    <DungeonName>White Snake Invasion II</DungeonName>
+    <DungeonPortal />
+    <Texture>
+      <File>edenDayObjects8x8</File>
+      <Index>51</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <HelperDialog title="Dungeon Portals">Dungeons offer a unique environment where you can fight your way through enemies and bosses for loot. The loot you find within will generally be of a higher grade than the surrounding realm area. Harder dungeons will yield better rewards and Stat Potions.</HelperDialog>
+  </Object>
+  <Object type="0xE9F0" id="White Snake Invasion III Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DisplayId>White Snake Invasion III</DisplayId>
+    <DungeonName>White Snake Invasion III</DungeonName>
+    <DungeonPortal />
+    <Texture>
+      <File>edenDayObjects8x8</File>
+      <Index>52</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <HelperDialog title="Dungeon Portals">Dungeons offer a unique environment where you can fight your way through enemies and bosses for loot. The loot you find within will generally be of a higher grade than the surrounding realm area. Harder dungeons will yield better rewards and Stat Potions.</HelperDialog>
+  </Object>
+  <Object type="0xEA1C" id="LNY Orb Pickup">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0x0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0xEA1D" id="LNY Orb of Life">
+    <DisplayId>Divine Orb of Life</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>heroicOrbs16x16</File>
+      <Index>14</Index>
+    </Texture>
+    <Animation prob="1" period="0" id="active">
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>15</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>17</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>18</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>19</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>20</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="inactive">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="active">
+        <StyleStep id="active">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>15</Size>
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object type="0xEA1E" id="LNY Orb of Mana">
+    <DisplayId>Divine Orb of Magic</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>heroicOrbs16x16</File>
+      <Index>21</Index>
+    </Texture>
+    <Animation prob="1" period="0" id="active">
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>24</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>25</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>26</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>27</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="inactive">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="active">
+        <StyleStep id="active">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>15</Size>
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object type="0xEA1F" id="LNY Orb of Defense">
+    <DisplayId>Divine Orb of Protection</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>heroicOrbs16x16</File>
+      <Index>35</Index>
+    </Texture>
+    <Animation prob="1" period="0" id="active">
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>36</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>37</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>38</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>39</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>40</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>41</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="inactive">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="active">
+        <StyleStep id="active">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>15</Size>
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object type="0xEA20" id="LNY Orb of Frenzy">
+    <DisplayId>Divine Orb of Frenzy</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>heroicOrbs16x16</File>
+      <Index>28</Index>
+    </Texture>
+    <Animation prob="1" period="0" id="active">
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>29</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>30</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>31</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>32</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>33</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>34</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="inactive">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="active">
+        <StyleStep id="active">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>15</Size>
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object type="0xEA21" id="LNY Orb of Damage">
+    <DisplayId>Divine Orb of Power</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>heroicOrbs16x16</File>
+      <Index>00</Index>
+    </Texture>
+    <Animation prob="1" period="0" id="active">
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>01</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>02</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>03</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>04</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>05</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>06</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="inactive">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="active">
+        <StyleStep id="active">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>15</Size>
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object type="0xEA22" id="LNY Bolt White">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>13</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xEA23" id="LNY Bolt Fire">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>14</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xEA24" id="LNY Bolt Water">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>15</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xEA25" id="LNY Bolt Air">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>16</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xEA26" id="LNY Bolt Earth">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>17</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xEA27" id="LNY Spinner White">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>18</Index>
+    </Texture>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object type="0xEA28" id="LNY Spinner Fire">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>19</Index>
+    </Texture>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object type="0xEA29" id="LNY Spinner Water">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>20</Index>
+    </Texture>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object type="0xEA2A" id="LNY Spinner Air">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>21</Index>
+    </Texture>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object type="0xEA2B" id="LNY Spinner Earth">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>22</Index>
+    </Texture>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object type="0xEA2C" id="LNY Orb White">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>23</Index>
+    </Texture>
+    <Rotation>-135</Rotation>
+  </Object>
+  <Object type="0xEA2D" id="LNY Orb Fire">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>24</Index>
+    </Texture>
+    <Rotation>-135</Rotation>
+  </Object>
+  <Object type="0xEA2E" id="LNY Orb Water">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>25</Index>
+    </Texture>
+    <Rotation>-135</Rotation>
+  </Object>
+  <Object type="0xEA2F" id="LNY Orb Air">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>26</Index>
+    </Texture>
+    <Rotation>-135</Rotation>
+  </Object>
+  <Object type="0xEA30" id="LNY Orb Earth">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects8x8</File>
+      <Index>27</Index>
+    </Texture>
+    <Rotation>-135</Rotation>
+  </Object>
+  <Object type="0xEA31" id="LNY Mega Orb White">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects16x16</File>
+      <Index>06</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>06</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>07</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>08</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xEA32" id="LNY Mega Orb Fire">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects16x16</File>
+      <Index>09</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>09</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>11</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xEA33" id="LNY Mega Orb Water">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects16x16</File>
+      <Index>12</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>13</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>14</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xEA34" id="LNY Mega Orb Air">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects16x16</File>
+      <Index>15</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>15</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>17</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xEA35" id="LNY Mega Orb Earth">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>whiteSnakeObjects16x16</File>
+      <Index>18</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>18</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>19</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>20</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0xEA36" id="LNY White Snake Invasion I Completion Anchor">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+    <ForceTick />
+    <EventChestBoss />
+    <TrackLoot />
+    <AlwaysPositiveHealth />
+    <DamageBasedXP />
+    <Exp>40000</Exp>
+    <BXP>200000</BXP>
+    <Labels>ENEMY,BOSS,TRACKLOOT,AMULET_VETERAN</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="40" dustMax="50" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SpecialSpawn category="Bis">White Snake Invasion I Portal</SpecialSpawn>
+    <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
+    <SpecialSpawn category="PetCollector">Uncommon Reptile Egg</SpecialSpawn>
+    <SpecialSpawn category="Generous">Quest Chest Item</SpecialSpawn>
+    <SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn>
+    <SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn>
+    <SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn>
+    <SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn>
+    <SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn>
+    <SpecialSpawn category="ExaltedBanner">ExaltationBanner</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn>
+    <SpecialSpawn category="Souvenir_HIG">Plague Poison</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
+    <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="SkinHunter" perPlayer="true">Werewolf Cub Pet Skin</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 1</SpecialSpawn>
+  </Object>
+  <Object type="0xEA37" id="LNY White Snake Invasion II Completion Anchor">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>whiteSnakeObjects16x16</File>
+      <Index>00</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+    <Animation prob="1" period="0" id="orb">
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>00</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>01</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>02</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>03</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>04</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>whiteSnakeObjects16x16</File>
+          <Index>05</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="orb">
+        <StyleStep id="orb">SetAnimation</StyleStep>
+      </Style>
+      <Style id="invisible">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>100</Size>
+    <NoMiniMap />
+    <ForceTick />
+    <EventChestBoss />
+    <TrackLoot />
+    <AlwaysPositiveHealth />
+    <DamageBasedXP />
+    <Exp>60000</Exp>
+    <BXP>300000</BXP>
+    <Labels>ENEMY,BOSS,TRACKLOOT,AMULET_VETERAN</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="40" dustMax="50" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="38" dustMax="45" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SpecialSpawn category="Bis">White Snake Invasion II Portal</SpecialSpawn>
+    <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
+    <SpecialSpawn category="PetCollector">Rare Feline Egg</SpecialSpawn>
+    <SpecialSpawn category="Generous">Epic Quest Chest Item</SpecialSpawn>
+    <SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn>
+    <SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn>
+    <SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn>
+    <SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn>
+    <SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn>
+    <SpecialSpawn category="ExaltedBanner">ExaltationBanner</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Weapon">Shard of the Mad God x1</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Ability">Shard of the Intern x1</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn>
+    <SpecialSpawn category="Souvenir_MID">Orb of Aether</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
+    <SpecialSpawn category="SkinHunter" perPlayer="true">Possessed Lantern Pet Stone</SpecialSpawn>
+    <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
+    <SpecialSpawn category="Leprechaun_Purple">Purple Leprechaun</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 3</SpecialSpawn>
+  </Object>
+  <Object type="0xEA38" id="LNY Realm Altar Portal Opener">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xEA3E" id="ExaltationBanner_RAINBOW">
+    <DisplayId>Exaltation Rainbow Picker</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Size>-1</Size>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <NoMiniMap />
+    <Invincible />
+  </Object>
+  <Object type="0xEA39" id="LNY Primal Snake Big Petal">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>interregnumObjects8x8</File>
+      <Index>0x2a</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumObjects8x8</File>
+        <Index>0x2a</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumObjects8x8</File>
+        <Index>0x2b</Index>
+      </Texture>
+    </RandomTexture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xEA3A" id="LNY Primal Snake II">
+    <DisplayId>Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>2</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>3</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>4</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>5</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation>
+      <Style id="Non-Element">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="FireElemental">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="WaterElemental">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="AirElemental">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="EarthElemental">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <DontFaceAttacks />
+    <MinimapIcon piece="Miniboss" />
+    <HitSound>monster/medusa_death</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <Size>200</Size>
+    <MaxHitPoints>100000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>10000</Exp>
+    <BXP>50000</BXP>
+    <Enemy />
+    <AlwaysPositiveHealth />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <StunImmune />
+    <Projectile id="0">
+      <ObjectId>LNY Primal Snake Big Petal</ObjectId>
+      <Size>120</Size>
+      <Damage>150</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>15</Speed>
+      <LifetimeMS>16000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 White Bolt</ObjectId>
+      <Size>120</Size>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>75</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Great Basilisk Star</ObjectId>
+      <Size>115</Size>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>20</Speed>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Fire Spin</ObjectId>
+      <Size>110</Size>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>0</Speed>
+      <LifetimeMS>7500</LifetimeMS>
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Flame Vortex</ObjectId>
+      <Size>160</Size>
+      <Damage>130</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>25</Speed>
+      <LifetimeMS>10000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Directed Flame</ObjectId>
+      <Size>170</Size>
+      <Damage>75</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>70</Speed>
+      <Acceleration>50</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <LifetimeMS>2000</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Yellow Twirl</ObjectId>
+      <Size>150</Size>
+      <Damage>110</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>10</Speed>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Yellow Twirl</ObjectId>
+      <Size>130</Size>
+      <Damage>110</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>30</Speed>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Yellow Twirl</ObjectId>
+      <Size>110</Size>
+      <Damage>110</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>50</Speed>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>MV Ice Shard</ObjectId>
+      <Size>140</Size>
+      <Damage>95</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>65</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>MV Water Twirl</ObjectId>
+      <Size>120</Size>
+      <Damage>155</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>50</Speed>
+      <Acceleration>-20</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>20</SpeedClamp>
+      <LifetimeMS>15000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Water Elemental Bolt</ObjectId>
+      <Size>130</Size>
+      <Damage>65</Damage>
+      <CurrentHealthDamage>0.05</CurrentHealthDamage>
+      <Speed>45</Speed>
+      <Acceleration>-15</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+      <SpeedClamp>5</SpeedClamp>
+      <LifetimeMS>10000</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Water Elemental Bolt</ObjectId>
+      <Size>120</Size>
+      <Damage>65</Damage>
+      <CurrentHealthDamage>0.05</CurrentHealthDamage>
+      <Speed>55</Speed>
+      <Acceleration>-10</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <LifetimeMS>10000</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Water Elemental Bolt</ObjectId>
+      <Size>110</Size>
+      <Damage>65</Damage>
+      <CurrentHealthDamage>0.05</CurrentHealthDamage>
+      <Speed>65</Speed>
+      <Acceleration>-5</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+      <SpeedClamp>25</SpeedClamp>
+      <LifetimeMS>10000</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>Deep Sea Kraken 2</ObjectId>
+      <Size>110</Size>
+      <Damage>115</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>55</Speed>
+      <Acceleration>30</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+      <LifetimeMS>3500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="15">
+      <ObjectId>Arashi Slash</ObjectId>
+      <Size>130</Size>
+      <Damage>105</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>15</Speed>
+      <LifetimeMS>10000</LifetimeMS>
+    </Projectile>
+    <Projectile id="16">
+      <ObjectId>Arashi Slash</ObjectId>
+      <Size>130</Size>
+      <Damage>105</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>30</Speed>
+      <LifetimeMS>10000</LifetimeMS>
+    </Projectile>
+    <Projectile id="17">
+      <ObjectId>LOD White Shot</ObjectId>
+      <Size>140</Size>
+      <Damage>130</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>65</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <TurnRate>-70</TurnRate>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="18">
+      <ObjectId>LOD White Shot</ObjectId>
+      <Size>130</Size>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>65</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <TurnRate>60</TurnRate>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="19">
+      <ObjectId>LOD White Shot</ObjectId>
+      <Size>120</Size>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>65</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <TurnRate>60</TurnRate>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="20">
+      <ObjectId>LOD White Shot</ObjectId>
+      <Size>140</Size>
+      <Damage>130</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>65</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <TurnRate>70</TurnRate>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="21">
+      <ObjectId>LOD White Shot</ObjectId>
+      <Size>130</Size>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>65</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <TurnRate>-60</TurnRate>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="22">
+      <ObjectId>LOD White Shot</ObjectId>
+      <Size>120</Size>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>65</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <TurnRate>-60</TurnRate>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="23">
+      <ObjectId>Construct Rock Ball</ObjectId>
+      <Speed>0</Speed>
+      <Amplitude>5</Amplitude>
+      <Frequency>1</Frequency>
+      <Damage>140</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <LifetimeMS>12000</LifetimeMS>
+      <Size>130</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="24">
+      <ObjectId>LOD Green Spine</ObjectId>
+      <Size>120</Size>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>35</Speed>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="25">
+      <ObjectId>LOD Green Spine</ObjectId>
+      <Size>120</Size>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="26">
+      <ObjectId>Leaf Twirl</ObjectId>
+      <Size>105</Size>
+      <Damage>80</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>55</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>-20</Acceleration>
+      <AccelerationDelay>1800</AccelerationDelay>
+      <SpeedClamp>25</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="27">
+      <ObjectId>LOD Green Ball</ObjectId>
+      <Size>130</Size>
+      <Damage>130</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Projectile id="28">
+      <ObjectId>LOD White Shot</ObjectId>
+      <Size>90</Size>
+      <Damage>60</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>0</Speed>
+      <Parametric />
+      <FaceDir />
+      <Magnitude>0.3</Magnitude>
+      <LifetimeMS>6000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="29">
+      <ObjectId>Flame Twirl</ObjectId>
+      <Size>100</Size>
+      <Damage>100</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>30</Speed>
+      <Acceleration>25</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <LifetimeMS>7500</LifetimeMS>
+    </Projectile>
+    <Projectile id="30">
+      <ObjectId>Flame Twirl</ObjectId>
+      <Size>110</Size>
+      <Damage>100</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>50</Speed>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+      <LifetimeMS>7500</LifetimeMS>
+    </Projectile>
+    <Projectile id="31">
+      <ObjectId>Flame Twirl</ObjectId>
+      <Size>120</Size>
+      <Damage>100</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>10</Speed>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>60</SpeedClamp>
+      <LifetimeMS>7500</LifetimeMS>
+    </Projectile>
+    <Projectile id="32">
+      <ObjectId>Arashi Slash</ObjectId>
+      <Size>130</Size>
+      <Damage>105</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>0</Speed>
+      <Acceleration>100</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <LifetimeMS>10000</LifetimeMS>
+    </Projectile>
+    <Projectile id="33">
+      <ObjectId>Arashi Slash</ObjectId>
+      <Size>130</Size>
+      <Damage>105</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>0</Speed>
+      <Acceleration>100</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+      <SpeedClamp>30</SpeedClamp>
+      <LifetimeMS>10000</LifetimeMS>
+    </Projectile>
+    <Projectile id="34">
+      <ObjectId>Frost Star</ObjectId>
+      <Size>110</Size>
+      <Damage>50</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>45</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="35">
+      <ObjectId>Frost Vortex</ObjectId>
+      <Size>140</Size>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>30</Speed>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="36">
+      <ObjectId>Frost Vortex</ObjectId>
+      <Size>140</Size>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>25</Speed>
+      <Acceleration>35</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="37">
+      <ObjectId>Frost Vortex</ObjectId>
+      <Size>130</Size>
+      <Damage>125</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>20</Speed>
+      <Acceleration>30</Acceleration>
+      <AccelerationDelay>700</AccelerationDelay>
+      <SpeedClamp>60</SpeedClamp>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="38">
+      <ObjectId>MV Water Twirl</ObjectId>
+      <Size>120</Size>
+      <Damage>155</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>15</Speed>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>75</SpeedClamp>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="39">
+      <ObjectId>Carboniferous Spider 2</ObjectId>
+      <Size>130</Size>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>25</Speed>
+      <Acceleration>35</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>45</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="40">
+      <ObjectId>Sanguine Harpy 2</ObjectId>
+      <Size>120</Size>
+      <Damage>90</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>10</Speed>
+      <Acceleration>25</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>55</SpeedClamp>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="41">
+      <ObjectId>Reef Seahorse 2</ObjectId>
+      <Size>140</Size>
+      <Damage>110</Damage>
+      <CurrentHealthDamage>0.03</CurrentHealthDamage>
+      <Speed>70</Speed>
+      <Acceleration>-50</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>10</SpeedClamp>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MIDBOSS,CRITTER</Labels>
+  </Object>
+  <Object type="0xEA3B" id="LNY Primal Snake Segment II">
+    <DisplayId>Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>7</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>8</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>9</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>10</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation>
+      <Style id="Non-Element">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="FireElemental">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="WaterElemental">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="AirElemental">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="EarthElemental">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <HitSound>monster/medusa_death</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <Size>175</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <Enemy />
+    <AlwaysPositiveHealth />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <StunImmune />
+    <HealthBar>-1</HealthBar>
+    <SetStyle>Non-Element</SetStyle>
+    <Labels>ENEMY,MIDBOSS</Labels>
+  </Object>
+  <Object type="0xEA3C" id="LNY Primal Snake Tail II">
+    <DisplayId>Primal Snake</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>12</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>13</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>14</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>whiteSnakeChars8x8</File>
+        <Index>15</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation>
+      <Style id="Non-Element">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="FireElemental">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="WaterElemental">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="AirElemental">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="EarthElemental">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <HitSound>monster/medusa_death</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <Size>175</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <Enemy />
+    <AlwaysPositiveHealth />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <StunImmune />
+    <HealthBar>-1</HealthBar>
+    <SetStyle>Non-Element</SetStyle>
+  </Object>
+  <Object type="0xEA3D" id="LNY Primal Snake Segment Counter">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+</Objects>

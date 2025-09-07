@@ -49,11 +49,13 @@
     <HitSound>monster/greater_pit_snakes_death</HitSound>
     <DeathSound>monster/scorpions_death</DeathSound>
     <Size>0</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>7500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2000</Exp>
     <BXP>10000</BXP>
     <TrackLoot />
+    <StasisImmune />
     <ParalyzeImmune />
     <SlowImmune />
     <DontFaceAttacks />
@@ -164,6 +166,7 @@
     <HitSound>monster/snake_queen_hit</HitSound>
     <DeathSound>monster/snake_queen_death</DeathSound>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>9000</MaxHitPoints>
     <Defense>19</Defense>
     <Enemy />
@@ -189,15 +192,14 @@
       <Damage>45</Damage>
       <Size>60</Size>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="1">Blind</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="7" dustMax="17" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="23" dustMax="29" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,HPSCALEONENTRY,AMULET_ROOKIE</Labels>
     <SpecialSpawn category="Bis">Snake Pit Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Fries</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Common Reptile Egg</SpecialSpawn>
@@ -213,6 +215,8 @@
     <SpecialSpawn category="SkinHunter">Mini Stheno Skin</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
     <SpecialSpawn category="Mercenary_A">Mercenary A Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 1</SpecialSpawn>
   </Object>
   <Object type="0x0918" id="Stheno Pet">
     <Class>Character</Class>
@@ -311,6 +315,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Crab">PC C</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0224" id="Pit Viper">
     <Group>Pit Snakes</Group>
@@ -344,6 +349,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Crab">PC C</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0225" id="Fire Python">
     <Group>Pythons</Group>
@@ -377,6 +383,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Crab">PC C</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0226" id="Brown Python">
     <Group>Pythons</Group>
@@ -409,6 +416,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Crab">PC C</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0227" id="Yellow Python">
     <Group>Pythons</Group>
@@ -441,6 +449,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Crab">PC C</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0228" id="Greater Pit Snake">
     <Group>Greater Pit Snakes</Group>
@@ -475,6 +484,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Crab">PC C</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0229" id="Greater Pit Viper">
     <Group>Greater Pit Snakes</Group>
@@ -523,6 +533,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Crab">PC C</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x374d" id="SP Bust">
     <Class>GameObject</Class>

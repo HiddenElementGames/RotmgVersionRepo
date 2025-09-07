@@ -27,6 +27,7 @@
     </AltTexture>
     <HitSound>monster/dark_elves_hit</HitSound>
     <DeathSound>monster/dark_elves_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>150</Size>
     <ShadowSize>50</ShadowSize>
     <MaxHitPoints>33750</MaxHitPoints>
@@ -44,12 +45,12 @@
       <Size>0</Size>
       <LifetimeMS>0</LifetimeMS>
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="22" dustMax="51" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="31" dustMax="39" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="25" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Mad Lab Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Exotic Egg</SpecialSpawn>
@@ -69,6 +70,8 @@
     <SpecialSpawn category="Mercenary_B">Mercenary B Dungeon</SpecialSpawn>
     <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 1</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -202,22 +205,23 @@
     </Texture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
-    <Size>100</Size>
-    <ShadowSize>75</ShadowSize>
+    <Size>125</Size>
+    <ShadowSize>100</ShadowSize>
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>0</Exp>
     <Projectile id="0">
       <ObjectId>Green Gas</ObjectId>
-      <Damage>200</Damage>
+      <Damage>85</Damage>
       <Speed>25</Speed>
       <Size>75</Size>
+      <ArmorPiercing />
       <LifetimeMS>4000</LifetimeMS>
     </Projectile>
     <KillStat stat="StructureKills" />
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0x984" id="Turret Attack">
+  <Object type="0x0984" id="Turret Attack">
     <Enemy />
     <Model>Tower</Model>
     <HealthBar>16</HealthBar>
@@ -340,7 +344,7 @@
       <Speed>50</Speed>
       <Size>100</Size>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="ConstructKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_MID</Labels>
@@ -375,7 +379,7 @@
       <Speed>50</Speed>
       <Size>100</Size>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="ConstructKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_MID</Labels>
@@ -695,7 +699,7 @@
       <Speed>40</Speed>
       <Damage>0</Damage>
       <LifetimeMS>5000</LifetimeMS>
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
     </Projectile>
     <Labels>ENEMY</Labels>
   </Object>
@@ -713,7 +717,7 @@
       <Speed>40</Speed>
       <Damage>0</Damage>
       <LifetimeMS>5000</LifetimeMS>
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
     </Projectile>
     <Labels>ENEMY</Labels>
   </Object>
@@ -787,6 +791,7 @@
     </AltTexture>
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>200</Size>
     <ShadowSize>50</ShadowSize>
     <MaxHitPoints>37500</MaxHitPoints>

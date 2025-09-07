@@ -103,7 +103,7 @@
       <MultiHit />
       <ArmorPiercing />
       <Boomerang />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="5">
       <ObjectId>BellaShot New</ObjectId>
@@ -122,7 +122,7 @@
       <MultiHit />
       <ArmorPiercing />
       <Boomerang />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="7">
       <ObjectId>BellaLeaf New</ObjectId>
@@ -133,7 +133,7 @@
       <MultiHit />
       <ArmorPiercing />
       <Boomerang />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="8">
       <ObjectId>BellaBerry New</ObjectId>
@@ -209,13 +209,13 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="35" dustMax="81" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="11" dustMax="26" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="33" dustMax="39" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="23" dustMax="38" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="20" />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,NATURE,GOD,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,NATURE,GOD,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Belladonna's Garden Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Farm Egg</SpecialSpawn>
@@ -233,6 +233,8 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Little Prince Rogue Skin</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>

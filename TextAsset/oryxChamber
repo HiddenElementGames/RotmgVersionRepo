@@ -8,6 +8,7 @@
       <File>chars16x16dEncounters2</File>
       <Index>37</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/oryx_hit</HitSound>
     <DeathSound>monster/oryx_death</DeathSound>
     <Quest />
@@ -16,13 +17,14 @@
     <StasisImmune />
     <NoArticle />
     <EventChestBoss />
-    <Size>100</Size>
-    <MaxHitPoints>45000</MaxHitPoints>
-    <Defense>60</Defense>
+    <Size>110</Size>
+    <MaxHitPoints>80000</MaxHitPoints>
+    <Defense>45</Defense>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Exp>25000</Exp>
     <BXP>125000</BXP>
     <TrackLoot />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="12" dustMax="29" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="42" dustMax="50" seasonalBonus="0.15">greenDust</SoulboundDust>
     <Projectile id="0">
       <ObjectId>White Bullet</ObjectId>
       <Speed>30</Speed>
@@ -91,7 +93,6 @@
       <Damage>90</Damage>
       <Size>90</Size>
       <LifetimeMS>2500</LifetimeMS>
-      <ConditionEffect duration="2">Blind</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="9">
@@ -115,7 +116,7 @@
       <Size>100</Size>
       <Damage>1</Damage>
       <LifetimeMS>1800</LifetimeMS>
-      <ConditionEffect duration="8">Quiet</ConditionEffect>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="14">
@@ -176,7 +177,7 @@
     <KillStat stat="OryxKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Oryx Chamber Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon ???? Egg</SpecialSpawn>
@@ -193,6 +194,8 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0x1741" id="Assassin of Oryx">
     <Class>Character</Class>
@@ -371,7 +374,7 @@
       <Damage>65</Damage>
       <Size>120</Size>
       <LifetimeMS>480</LifetimeMS>
-      <ConditionEffect duration="8">Quiet</ConditionEffect>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="9">
@@ -380,7 +383,7 @@
       <Damage>20</Damage>
       <Size>100</Size>
       <LifetimeMS>480</LifetimeMS>
-      <ConditionEffect duration="8">Quiet</ConditionEffect>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="1">
@@ -389,7 +392,7 @@
       <Damage>65</Damage>
       <LifetimeMS>1400</LifetimeMS>
       <Size>60</Size>
-      <ConditionEffect duration="4">Quiet</ConditionEffect>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>White Bullet</ObjectId>
@@ -397,7 +400,7 @@
       <Damage>65</Damage>
       <Size>120</Size>
       <LifetimeMS>340</LifetimeMS>
-      <ConditionEffect duration="8">Quiet</ConditionEffect>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Size>80</Size>
@@ -504,7 +507,7 @@
       <Damage>65</Damage>
       <Size>100</Size>
       <LifetimeMS>480</LifetimeMS>
-      <ConditionEffect duration="8">Quiet</ConditionEffect>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="9">
@@ -513,7 +516,7 @@
       <Damage>20</Damage>
       <Size>100</Size>
       <LifetimeMS>480</LifetimeMS>
-      <ConditionEffect duration="8">Quiet</ConditionEffect>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Size>50</Size>
@@ -571,7 +574,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x174a" id="Guardian Element 1">
+  <Object type="0x174A" id="Guardian Element 1">
     <DisplayId>Guardian Element</DisplayId>
     <Group>AttackType</Group>
     <Class>Character</Class>
@@ -606,7 +609,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0x174b" id="Guardian Element 2">
+  <Object type="0x174B" id="Guardian Element 2">
     <DisplayId>Guardian Element</DisplayId>
     <Group>AttackType</Group>
     <Class>Character</Class>
@@ -641,7 +644,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0x174c" id="Guardian Element 3">
+  <Object type="0x174C" id="Guardian Element 3">
     <DisplayId>Guardian Element</DisplayId>
     <Group>AttackType</Group>
     <Class>Character</Class>
@@ -676,7 +679,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0x174d" id="Guardian Element 4">
+  <Object type="0x174D" id="Guardian Element 4">
     <DisplayId>Guardian Element</DisplayId>
     <Group>AttackType</Group>
     <Class>Character</Class>
@@ -711,7 +714,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0x174e" id="Outer Guardian Element">
+  <Object type="0x174E" id="Outer Guardian Element">
     <DisplayId>Guardian Element</DisplayId>
     <Group>AttackType</Group>
     <Class>Character</Class>
@@ -736,7 +739,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0x802f" id="O1 Portal Dropper">
+  <Object type="0x802F" id="O1 Portal Dropper">
     <DisplayId>Oryx the Mad God</DisplayId>
     <Class>GameObject</Class>
     <BlockPlayerPortals />
@@ -746,7 +749,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0xb395" id="Infested Oryx the Mad God 1">
+  <Object type="0xB395" id="Infested Oryx the Mad God 1">
     <DisplayId>Oryx the Mad God</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -754,6 +757,7 @@
       <File>chars16x16rEncounters</File>
       <Index>158</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/oryx_hit</HitSound>
     <DeathSound>monster/oryx_death</DeathSound>
     <Quest />
@@ -762,13 +766,14 @@
     <StasisImmune />
     <NoArticle />
     <EventChestBoss />
-    <Size>100</Size>
-    <MaxHitPoints>45000</MaxHitPoints>
+    <Size>110</Size>
+    <MaxHitPoints>65000</MaxHitPoints>
     <Defense>160</Defense>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Exp>25000</Exp>
     <BXP>125000</BXP>
     <TrackLoot />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="12" dustMax="29" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="42" dustMax="50" seasonalBonus="0.15">greenDust</SoulboundDust>
     <Projectile id="0">
       <ObjectId>pD Blob Shot</ObjectId>
       <Speed>30</Speed>
@@ -837,7 +842,6 @@
       <Damage>90</Damage>
       <Size>90</Size>
       <LifetimeMS>2500</LifetimeMS>
-      <ConditionEffect duration="2">Blind</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="9">
@@ -861,7 +865,7 @@
       <Size>100</Size>
       <Damage>1</Damage>
       <LifetimeMS>1800</LifetimeMS>
-      <ConditionEffect duration="8">Quiet</ConditionEffect>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="14">
@@ -922,7 +926,7 @@
     <KillStat stat="OryxKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Oryx Chamber Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon ???? Egg</SpecialSpawn>
@@ -939,8 +943,10 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
-  <Object type="0xb397" id="Infested White Moon">
+  <Object type="0xB397" id="Infested White Moon">
     <Class>Character</Class>
     <Enemy />
     <Texture>
@@ -972,7 +978,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0xb398" id="Infested White Planet">
+  <Object type="0xB398" id="Infested White Planet">
     <Class>Character</Class>
     <Enemy />
     <Texture>
@@ -1054,7 +1060,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0xb399" id="Infested Chase Element">
+  <Object type="0xB399" id="Infested Chase Element">
     <Group>AttackType</Group>
     <Class>Character</Class>
     <MaxHitPoints>100000</MaxHitPoints>
@@ -1070,7 +1076,7 @@
       <Damage>65</Damage>
       <Size>120</Size>
       <LifetimeMS>480</LifetimeMS>
-      <ConditionEffect duration="8">Quiet</ConditionEffect>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="9">
@@ -1079,7 +1085,7 @@
       <Damage>20</Damage>
       <Size>100</Size>
       <LifetimeMS>480</LifetimeMS>
-      <ConditionEffect duration="8">Quiet</ConditionEffect>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="1">
@@ -1088,7 +1094,7 @@
       <Damage>65</Damage>
       <LifetimeMS>1400</LifetimeMS>
       <Size>60</Size>
-      <ConditionEffect duration="4">Quiet</ConditionEffect>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>pD Blob Shot</ObjectId>
@@ -1096,7 +1102,7 @@
       <Damage>65</Damage>
       <Size>120</Size>
       <LifetimeMS>340</LifetimeMS>
-      <ConditionEffect duration="8">Quiet</ConditionEffect>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Size>80</Size>
@@ -1104,7 +1110,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0xb39a" id="Infested Black Moon">
+  <Object type="0xB39A" id="Infested Black Moon">
     <Group>Vagrant Repellent</Group>
     <Enemy />
     <Class>Character</Class>
@@ -1130,7 +1136,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0xb39b" id="Infested Black Planet">
+  <Object type="0xB39B" id="Infested Black Planet">
     <Group>Vagrant Repellent</Group>
     <Enemy />
     <Class>Character</Class>
@@ -1162,7 +1168,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0xb39c" id="Infested Anti-Spectator">
+  <Object type="0xB39C" id="Infested Anti-Spectator">
     <Group>Vagrant Repellent</Group>
     <Enemy />
     <Class>Character</Class>
@@ -1187,7 +1193,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0xb39d" id="Infested Ring Element">
+  <Object type="0xB39D" id="Infested Ring Element">
     <Group>AttackType</Group>
     <Class>Character</Class>
     <MaxHitPoints>100000</MaxHitPoints>
@@ -1203,7 +1209,7 @@
       <Damage>65</Damage>
       <Size>100</Size>
       <LifetimeMS>480</LifetimeMS>
-      <ConditionEffect duration="8">Quiet</ConditionEffect>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="9">
@@ -1212,7 +1218,7 @@
       <Damage>20</Damage>
       <Size>100</Size>
       <LifetimeMS>480</LifetimeMS>
-      <ConditionEffect duration="8">Quiet</ConditionEffect>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Size>50</Size>
@@ -1220,7 +1226,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0xb39f" id="Infested Guardian Element 1">
+  <Object type="0xB39F" id="Infested Guardian Element 1">
     <DisplayId>Guardian Element</DisplayId>
     <Group>AttackType</Group>
     <Class>Character</Class>
@@ -1255,7 +1261,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0xb3a0" id="Infested Guardian Element 2">
+  <Object type="0xB3A0" id="Infested Guardian Element 2">
     <DisplayId>Guardian Element</DisplayId>
     <Group>AttackType</Group>
     <Class>Character</Class>
@@ -1290,7 +1296,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0xb3a1" id="Infested Guardian Element 3">
+  <Object type="0xB3A1" id="Infested Guardian Element 3">
     <DisplayId>Guardian Element</DisplayId>
     <Group>AttackType</Group>
     <Class>Character</Class>
@@ -1325,7 +1331,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0xb3a2" id="Infested Guardian Element 4">
+  <Object type="0xB3A2" id="Infested Guardian Element 4">
     <DisplayId>Guardian Element</DisplayId>
     <Group>AttackType</Group>
     <Class>Character</Class>
@@ -1360,7 +1366,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0xb3a3" id="Infested Outer Guardian Element">
+  <Object type="0xB3A3" id="Infested Outer Guardian Element">
     <DisplayId>Guardian Element</DisplayId>
     <Group>AttackType</Group>
     <Class>Character</Class>
@@ -1385,7 +1391,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0xb3a4" id="Infested pD Stalker">
+  <Object type="0xB3A4" id="Infested pD Stalker">
     <DisplayId>Parasitic Stalker</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1412,7 +1418,7 @@
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,MINION_MID,GROTESQUE</Labels>
   </Object>
-  <Object type="0xb3a5" id="Infested pD Walker">
+  <Object type="0xB3A5" id="Infested pD Walker">
     <DisplayId>Walking Horror</DisplayId>
     <Class>Character</Class>
     <Enemy />

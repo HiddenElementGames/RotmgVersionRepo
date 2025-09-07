@@ -336,9 +336,11 @@
         <Index>5</Index>
       </AnimatedTexture>
     </AltTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/pirate_king_hit</HitSound>
     <DeathSound>monster/pirate_king_death</DeathSound>
     <Size>120</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>80000</MaxHitPoints>
     <Defense>30</Defense>
     <Quest />
@@ -449,11 +451,11 @@
       <ArmorPiercing />
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="45" dustMax="104" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="13" dustMax="31" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust dustMin="37" dustMax="43" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="39" dustMax="45" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="20" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Deadwater Docks</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Penguin Egg</SpecialSpawn>
@@ -473,6 +475,8 @@
     <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
     <SpecialSpawn category="Oryxmania">Crab Arena Portal</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -1447,6 +1451,7 @@
     <Enemy />
     <KeepDamageRecord />
     <TrackLoot />
+    <MinimapIcon piece="DangerSmall" />
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <Texture>
@@ -1467,6 +1472,7 @@
     <Enemy />
     <KeepDamageRecord />
     <TrackLoot />
+    <MinimapIcon piece="DangerSmall" />
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <Texture>
@@ -1488,6 +1494,7 @@
     <Enemy />
     <KeepDamageRecord />
     <TrackLoot />
+    <MinimapIcon piece="DangerSmall" />
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <Texture>
@@ -3411,15 +3418,18 @@
     </Texture>
   </Object>
   <Object type="0xb91b" id="DWD Mr Krabs">
-    <Size>140</Size>
+    <DisplayId>Calamity Crab</DisplayId>
+    <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>deadwaterDocksChars16x16</File>
       <Index>8</Index>
     </AnimatedTexture>
-    <Enemy />
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/pirates_hit</HitSound>
     <DeathSound>monster/spider_queen_death</DeathSound>
+    <Size>140</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>32000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>10000</Exp>
@@ -3429,7 +3439,6 @@
     <ParalyzeImmune />
     <StunImmune />
     <SlowImmune />
-    <DisplayId>Calamity Crab</DisplayId>
     <KillStat stat="GodKills" />
     <KillStat stat="BeastKills" />
     <Projectile id="0">
@@ -3579,6 +3588,7 @@
       <Index>8</Index>
     </AnimatedTexture>
     <Enemy />
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/pirates_hit</HitSound>
     <DeathSound>monster/spider_queen_death</DeathSound>
     <MaxHitPoints>12000</MaxHitPoints>

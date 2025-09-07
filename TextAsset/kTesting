@@ -163,13 +163,15 @@
       <File>chars16x16dEncounters</File>
       <Index>45</Index>
     </AnimatedTexture>
-    <HitSound>monster/lizard_god_hit</HitSound>
-    <DeathSound>monster/lizard_god_death</DeathSound>
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>spell/magic_nova</DeathSound>
     <Color>0xF3AFFF</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>120</Size>
     <MaxHitPoints>80000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <HealthBarBoss radius="30" />
     <StasisImmune />
     <StunImmune />
@@ -179,7 +181,7 @@
     <Projectile id="0">
       <ObjectId>Totalia Bullet</ObjectId>
       <Speed>60</Speed>
-      <Damage>120</Damage>
+      <Damage>110</Damage>
       <Size>90</Size>
       <LifetimeMS>4000</LifetimeMS>
       <MultiHit />
@@ -191,7 +193,7 @@
     <Projectile id="1">
       <ObjectId>Totalia Star</ObjectId>
       <Speed>50</Speed>
-      <Damage>140</Damage>
+      <Damage>120</Damage>
       <Size>110</Size>
       <LifetimeMS>4000</LifetimeMS>
       <MultiHit />
@@ -209,7 +211,7 @@
     <Projectile id="3">
       <ObjectId>Totalia Bolt</ObjectId>
       <Speed>60</Speed>
-      <Damage>130</Damage>
+      <Damage>110</Damage>
       <Size>90</Size>
       <LifetimeMS>4000</LifetimeMS>
       <MultiHit />
@@ -221,25 +223,27 @@
     <Projectile id="4">
       <ObjectId>Totalia Bat Body</ObjectId>
       <Speed>50</Speed>
-      <Damage>120</Damage>
+      <Damage>50</Damage>
       <Size>90</Size>
       <LifetimeMS>4000</LifetimeMS>
       <MultiHit />
       <PassesCover />
+      <ArmorPiercing />
     </Projectile>
     <Projectile id="5">
       <ObjectId>Totalia Bat Eye</ObjectId>
       <Speed>50</Speed>
-      <Damage>120</Damage>
+      <Damage>50</Damage>
       <Size>90</Size>
       <LifetimeMS>4000</LifetimeMS>
       <MultiHit />
       <PassesCover />
+      <ArmorPiercing />
     </Projectile>
     <Projectile id="6">
       <ObjectId>Armor Pierce Bullet</ObjectId>
       <Speed>0</Speed>
-      <Damage>80</Damage>
+      <Damage>75</Damage>
       <Size>90</Size>
       <LifetimeMS>2000</LifetimeMS>
       <MultiHit />
@@ -249,7 +253,7 @@
     <Projectile id="7">
       <ObjectId>Totalia Crescent</ObjectId>
       <Speed>50</Speed>
-      <Damage>90</Damage>
+      <Damage>85</Damage>
       <Size>100</Size>
       <LifetimeMS>4000</LifetimeMS>
       <MultiHit />

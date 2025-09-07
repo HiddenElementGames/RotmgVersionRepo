@@ -31,6 +31,10 @@
     <Setpiece slot="0" itemtype="0x6462">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x6463">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x6464">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB60">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB62">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB64">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB66">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0485">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0484">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0483">Equipment</Setpiece>
@@ -60,6 +64,10 @@
     <Setpiece slot="0" itemtype="0x6462">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x6463">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x6464">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB60">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB62">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB64">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB66">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0485">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0484">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0483">Equipment</Setpiece>
@@ -89,6 +97,10 @@
     <Setpiece slot="0" itemtype="0x6462">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x6463">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x6464">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB60">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB62">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB64">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB66">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0485">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0484">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0483">Equipment</Setpiece>
@@ -111,6 +123,10 @@
     <Setpiece slot="0" itemtype="0x6462">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x6463">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x6464">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB60">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB62">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB64">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB66">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0485">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0484">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0483">Equipment</Setpiece>
@@ -133,6 +149,10 @@
     <Setpiece slot="0" itemtype="0x6462">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x6463">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x6464">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB60">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB62">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB64">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB66">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0485">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0484">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0483">Equipment</Setpiece>
@@ -156,6 +176,10 @@
     <Setpiece slot="0" itemtype="0x6462">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x6463">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x6464">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB60">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB62">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB64">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xCB66">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0485">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0484">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x0483">Equipment</Setpiece>
@@ -384,14 +408,19 @@
     <Setpiece slot="1" itemtype="0x2362">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x2360">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0x2361">Equipment</Setpiece>
-    <ActivateOnEquipAll skinType="0x745B" size="80" color="0x92A9BA" bulletType="Soul Vortex">ChangeSkin</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="MAXHP" amount="35">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquip3 stat="MAXMP" amount="40">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquipAll stat="ATT" amount="5">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquip3 stat="DEF" amount="10">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip2 stat="DEX" amount="1">IncrementStat</ActivateOnEquip2>
-    <ActivateOnEquip2 stat="SPD" amount="2">IncrementStat</ActivateOnEquip2>
-    <ActivateOnEquip2 stat="WIS" amount="5">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXMP" amount="15">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="SPD" amount="6">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="WIS" amount="7">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip3 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXMP" amount="15">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="6">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="VIT" amount="8">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquipAll skinType="0x745B" size="80" color="0x4AFF32" bulletType="Soul Vortex">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="20">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="15">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="7">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="6">IncrementStat</ActivateOnEquipAll>
   </EquipmentSet>
   <EquipmentSet type="0x4b4f" id="Magmatic Mystic Set">
     <Setpiece slot="0" itemtype="0x4b42">Equipment</Setpiece>
@@ -445,11 +474,13 @@
     <Setpiece slot="2" itemtype="0x1e4f">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0x1e50">Equipment</Setpiece>
     <ActivateOnEquipAll skinType="0x1e56" size="80" color="0x1a4a6b" bulletType="Ninja ST Katana Proj Full">ChangeSkin</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="MAXHP" amount="75">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquip3 stat="ATT" amount="4">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip2 stat="DEF" amount="4">IncrementStat</ActivateOnEquip2>
-    <ActivateOnEquip3 stat="DEX" amount="4">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip2 stat="SPD" amount="7">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquipAll stat="MAXHP" amount="90">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="10">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="SPD" amount="5">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="ATT" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="8">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="DEF" amount="6">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEX" amount="3">IncrementStat</ActivateOnEquip2>
   </EquipmentSet>
   <EquipmentSet type="0x4b4e" id="Crystal Kunoichi Set">
     <Setpiece slot="0" itemtype="0x4b3c">Equipment</Setpiece>
@@ -548,14 +579,19 @@
     <Setpiece slot="1" itemtype="0x6498">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x6499">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0x649a">Equipment</Setpiece>
-    <ActivateOnEquipAll skinType="0x7048" size="80" color="0x92A9BA" bulletType="HSoul Vortex">ChangeSkin</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="MAXHP" amount="35">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquip3 stat="MAXMP" amount="40">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquipAll stat="ATT" amount="5">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquip3 stat="DEF" amount="10">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip2 stat="DEX" amount="1">IncrementStat</ActivateOnEquip2>
-    <ActivateOnEquip2 stat="SPD" amount="2">IncrementStat</ActivateOnEquip2>
-    <ActivateOnEquip2 stat="WIS" amount="5">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXMP" amount="15">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="SPD" amount="6">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="WIS" amount="7">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip3 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXMP" amount="15">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="6">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="VIT" amount="8">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquipAll skinType="0x7048" size="80" color="0xFF32F4" bulletType="HSoul Vortex">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="20">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="15">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="7">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="6">IncrementStat</ActivateOnEquipAll>
   </EquipmentSet>
   <EquipmentSet type="0x649e" id="Paranormal Wizard Set">
     <Setpiece slot="0" itemtype="0x649f">Equipment</Setpiece>
@@ -881,6 +917,12 @@
     <Setpiece slot="0" itemtype="0x65f3">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x65f4">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x65ef">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA353">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA355">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA358">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA35A">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA35C">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA35E">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x4b5b">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x520a">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x52ec">Equipment</Setpiece>
@@ -899,9 +941,30 @@
     <Setpiece slot="1" itemtype="0x1b19">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x37a5">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x3944">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA360">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA363">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA365">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA367">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA368">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA369">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36B">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36C">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36D">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36E">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36F">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA371">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA373">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA375">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA376">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA377">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA378">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA379">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x6ea">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x6eb">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x6ec">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA350">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA351">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA352">Equipment</Setpiece>
     <ActivateOnEquip2 stat="DEX" amount="2">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="SPD" amount="2">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="ATT" amount="2">IncrementStat</ActivateOnEquip2>
@@ -920,6 +983,12 @@
     <Setpiece slot="0" itemtype="0x65f3">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x65f4">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x65ef">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA353">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA355">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA358">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA35A">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA35C">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA35E">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x4b5b">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x520a">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x52ec">Equipment</Setpiece>
@@ -938,9 +1007,30 @@
     <Setpiece slot="1" itemtype="0x1b19">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x37a5">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x3944">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA360">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA363">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA365">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA367">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA368">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA369">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36B">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36C">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36D">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36E">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36F">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA371">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA373">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA375">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA376">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA377">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA378">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA379">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x6ea">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x6eb">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x6ec">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA350">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA351">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA352">Equipment</Setpiece>
     <ActivateOnEquip2 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="VIT" amount="5">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip3 stat="MAXHP" amount="40">IncrementStat</ActivateOnEquip3>
@@ -958,6 +1048,12 @@
     <Setpiece slot="0" itemtype="0x65f3">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x65f4">Equipment</Setpiece>
     <Setpiece slot="0" itemtype="0x65ef">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA353">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA355">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA358">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA35A">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA35C">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA35E">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x4b5b">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x520a">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x52ec">Equipment</Setpiece>
@@ -976,9 +1072,30 @@
     <Setpiece slot="1" itemtype="0x1b19">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x37a5">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x3944">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA360">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA363">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA365">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA367">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA368">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA369">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36B">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36C">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36D">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36E">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36F">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA371">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA373">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA375">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA376">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA377">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA378">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA379">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x6ea">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x6eb">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x6ec">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA350">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA351">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA352">Equipment</Setpiece>
     <ActivateOnEquip2 stat="MAXMP" amount="50">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="WIS" amount="3">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip3 stat="MAXHP" amount="40">IncrementStat</ActivateOnEquip3>
@@ -987,6 +1104,75 @@
     <ActivateOnEquipAll stat="MAXMP" amount="50">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="WIS" amount="5">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="DEF" amount="5">IncrementStat</ActivateOnEquipAll>
+  </EquipmentSet>
+  <EquipmentSet type="0x3a47" id="Legion Elite Set">
+    <Setpiece slot="3" itemtype="0x3a2f">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x65f0">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x65f1">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x65f2">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x65f3">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x65f4">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0x65ef">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA353">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA355">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA358">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA35A">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA35C">Equipment</Setpiece>
+    <Setpiece slot="0" itemtype="0xA35E">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x4b5b">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x520a">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x52ec">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x1b1a">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x4f33">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x4f34">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x51e2">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x4b62">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x4b52">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x5212">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x4e03">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x4e05">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x4e01">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x52da">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x52eb">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x1b19">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x37a5">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x3944">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA360">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA363">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA365">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA367">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA368">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA369">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36B">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36C">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36D">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36E">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA36F">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA371">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA373">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA375">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA376">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA377">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA378">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA379">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x6ea">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x6eb">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x6ec">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA350">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA351">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA352">Equipment</Setpiece>
+    <ActivateOnEquip2 stat="MAXHP" amount="60">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXMP" amount="60">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="WIS" amount="8">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="VIT" amount="8">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip3 stat="MAXHP" amount="60">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXMP" amount="60">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="8">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="SPD" amount="8">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquipAll stat="MAXHP" amount="60">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="60">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="8">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEX" amount="8">IncrementStat</ActivateOnEquipAll>
   </EquipmentSet>
   <EquipmentSet type="0x4251" id="Cuboid Necromancer Set">
     <Setpiece slot="0" itemtype="0x4243">Equipment</Setpiece>
@@ -1538,5 +1724,219 @@
     <ActivateOnEquip2 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="DEF" amount="2">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="SPD" amount="2">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x57E8" id="Spellbound Soulthief Set">
+    <Setpiece slot="0" itemtype="0x57EA">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x57EB">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x57EC">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x57ED">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0x57E0" size="80" color="0x6BFFBA" bulletType="3TricksterST0 Big Dagger Projectile">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="50">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="6">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEX" amount="9">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="MAXHP" amount="40">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEX" amount="7">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXHP" amount="30">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEF" amount="4">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEX" amount="5">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x57F7" id="Astral Arcanist Set">
+    <Setpiece slot="0" itemtype="0x57F9">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x57FA">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x57FC">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x57FD">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0x57F1" size="80" color="0xFFEA00" bulletType="3MysticST0 Big Wave Projectile">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="55">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="55">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="8">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="MAXHP" amount="44">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXMP" amount="44">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="ATT" amount="6">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXHP" amount="33">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXMP" amount="33">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="ATT" amount="4">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0xCB3F" id="Demon Guitarist Set">
+    <Setpiece slot="0" itemtype="0xCB40">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xCB41">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xCB42">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0xCB43">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0xCB39" size="80" color="0xB30C0C" bulletType="Pick Notes Large">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="40">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="20">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="5">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEX" amount="4">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXMP" amount="40">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEX" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEX" amount="3">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEF" amount="3">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0xCB46" id="Lei Gong Set">
+    <Setpiece slot="0" itemtype="0xCB47">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xCB48">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xCB49">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0xCB4A">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0xCB3C" size="80" color="0xFFE28C" bulletType="Lei Gong Proj Full">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="90">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="10">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="SPD" amount="5">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="ATT" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="8">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="DEF" amount="6">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEX" amount="3">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x67C2" id="Frost Harbinger Set">
+    <Setpiece slot="0" itemtype="0x67C4">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x67C5">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x67C6">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x67C7">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0xFDE" size="80" color="0xDDDDFF" bulletType="Heartsteel Claymore Full Set Projectile">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="40">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="40">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="4">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="4">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="MAXHP" amount="35">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXMP" amount="35">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="ATT" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXHP" amount="30">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXMP" amount="30">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="ATT" amount="2">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEF" amount="2">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x67CB" id="Frost Advisor Set">
+    <Setpiece slot="0" itemtype="0x67CD">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x67CE">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x67CF">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x67D0">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0xFE0" size="80" color="0xAAFFDD" bulletType="Iceborn Arsenal Large Spinner Projectile">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="35">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="5">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEX" amount="5">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="VIT" amount="-4">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="MAXHP" amount="30">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="4">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEX" amount="4">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="VIT" amount="-3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXHP" amount="25">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEF" amount="3">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEX" amount="3">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="VIT" amount="-2">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x861E" id="Valentine's Day Ninja Set">
+    <Setpiece slot="0" itemtype="0x861F">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x8620">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x8621">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x8622">Equipment</Setpiece>
+    <ActivateOnEquipAll stat="WIS" amount="8">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="4">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="40">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll skinType="0x6FD8" size="80" color="0xE86FBA" bulletType="Valentine's Katana Projectile">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="WIS" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="ATT" amount="4">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXHP" amount="30">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="WIS" amount="2">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="ATT" amount="3">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x862A" id="Valentine's Day Samurai Set">
+    <Setpiece slot="0" itemtype="0x861F">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x8623">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x8624">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x8622">Equipment</Setpiece>
+    <ActivateOnEquipAll stat="DEX" amount="9">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="8">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="40">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll skinType="0x6FD9" size="80" color="0xE86FBA" bulletType="Valentine's Katana Projectile">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="DEX" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="ATT" amount="4">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXHP" amount="30">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="DEX" amount="2">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="ATT" amount="3">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXHP" amount="20">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0xD880" id="Path of Anubis">
+    <Setpiece slot="3" itemtype="0xD87C">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0xD87C">Equipment</Setpiece>
+    <ActivateOnEquipCustom skinType="0xA214" size="100" requiredItems="0xD87C">ChangeSkin</ActivateOnEquipCustom>
+  </EquipmentSet>
+  <EquipmentSet type="0xD881" id="Path of Xolotl">
+    <Setpiece slot="3" itemtype="0xD87D">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0xD87D">Equipment</Setpiece>
+    <ActivateOnEquipCustom skinType="0xA216" size="100" requiredItems="0xD87D">ChangeSkin</ActivateOnEquipCustom>
+  </EquipmentSet>
+  <EquipmentSet type="0xD882" id="Path of Cnidaria">
+    <Setpiece slot="3" itemtype="0xD87E">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0xD87E">Equipment</Setpiece>
+    <ActivateOnEquipCustom skinType="0xA217" size="100" requiredItems="0xD87E">ChangeSkin</ActivateOnEquipCustom>
+  </EquipmentSet>
+  <EquipmentSet type="0xD883" id="Path of Mucus">
+    <Setpiece slot="3" itemtype="0xD87F">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0xD87F">Equipment</Setpiece>
+    <ActivateOnEquipCustom skinType="0xA215" size="100" requiredItems="0xD87F">ChangeSkin</ActivateOnEquipCustom>
+  </EquipmentSet>
+  <EquipmentSet type="0xA284" id="Painted Egg Archer Set">
+    <Setpiece slot="0" itemtype="0xA280">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA281">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA282">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0xA283">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0xA27D" size="80" color="0xd11b67" bulletType="Large Spring Breeze Arrow">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="50">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="50">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="10">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEX" amount="5">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="MAXMP" amount="30">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="VIT" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEX" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXHP" amount="25">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXMP" amount="20">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0xA2CA" id="Fresh Carrot Paladin Set">
+    <Setpiece slot="0" itemtype="0xA2C3">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA2C4">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA2C5">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0xA2C7">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0xA2C0" size="80" color="0xfc9403" bulletType="Carrot Pala Big Blast">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="60">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="VIT" amount="5">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEX" amount="10">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="MAXHP" amount="40">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEX" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="VIT" amount="5">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEF" amount="4">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0xA32B" id="Chocolate Bunny Summoner Set">
+    <Setpiece slot="0" itemtype="0xA323">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xA324">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xA325">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0xA326">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0xA320" size="80" color="0x0ea8eb" bulletType="Chocolate Bunny Large Projectile">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="60">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="40">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="10">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="MAXHP" amount="40">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXMP" amount="20">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEF" amount="4">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="ATT" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="MAXHP" amount="30">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="VIT" amount="6">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="ATT" amount="2">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0xD612" id="Void Doctor Priest Set">
+    <Setpiece slot="0" itemtype="0xd60d">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0xd60e">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0xd60f">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0xd610">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0xD607" size="80" color="0xffcd56" bulletType="Void Orb Large">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEX" amount="6">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="6">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="55">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="DEF" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXHP" amount="55">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="DEX" amount="5">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="SPD" amount="7">IncrementStat</ActivateOnEquip2>
   </EquipmentSet>
 </EquipmentSets>

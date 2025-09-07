@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
-  <Object type="0x0e32" id="Davy Jones">
+  <Object type="0x0E32" id="Davy Jones">
     <Class>Character</Class>
     <Enemy />
     <AnimatedTexture>
@@ -44,17 +44,26 @@
         <Index>30</Index>
       </AnimatedTexture>
     </AltTexture>
+    <AltTexture id="7">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
     <HitSound>monster/pirates_hit</HitSound>
     <DeathSound>monster/skull_shrine_death</DeathSound>
-    <Size>0</Size>
+    <MinimapIcon piece="Boss" />
+    <Size>1</Size>
     <MaxHitPoints>26250</MaxHitPoints>
+    <Defense>35</Defense>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <StasisImmune />
     <StunImmune />
-    <Defense>35</Defense>
     <God />
     <Quest />
     <Exp>15000</Exp>
     <BXP>75000</BXP>
+    <ForceTick />
     <KeepDamageRecord />
     <EventChestBoss />
     <TrackLoot />
@@ -77,12 +86,13 @@
       <ConditionEffect duration="4">Bleeding</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="34" dustMax="78" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="27" dustMax="33" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="34" dustMax="40" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="25" />
     <KillStat stat="UndeadKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Davy Jones' Locker Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Penguin Egg</SpecialSpawn>
@@ -101,6 +111,8 @@
     <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
     <SpecialSpawn category="Leprechaun_Purple">Purple Leprechaun</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt4">
         <StyleStep altTextureId="4">SetAltTexture</StyleStep>
@@ -117,9 +129,12 @@
       <Style id="SetAlt6">
         <StyleStep altTextureId="6">SetAltTexture</StyleStep>
       </Style>
+      <Style id="PreInvisible">
+        <StyleStep altTextureId="7">SetAltTexture</StyleStep>
+      </Style>
     </Presentation>
   </Object>
-  <Object type="0x0e2d" id="Captain Summoner">
+  <Object type="0x0E2D" id="Captain Summoner">
     <Class>GameObject</Class>
     <Texture>
       <File>invisible</File>
@@ -127,7 +142,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0x0e50" id="Ghost Pirate Sr">
+  <Object type="0x0E50" id="Ghost Pirate Sr">
     <Class>Character</Class>
     <Enemy />
     <AnimatedTexture>
@@ -164,7 +179,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0x0e36" id="Ghost Lanturn On">
+  <Object type="0x0E36" id="Ghost Lanturn On">
     <DisplayId>Ghost Lantern</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -188,16 +203,17 @@
     <ShadowColor>0xfec937a</ShadowColor>
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0x0e35" id="Ghost Lanturn Off">
+  <Object type="0x0E35" id="Ghost Lanturn Off">
     <Class>Character</Class>
     <Enemy />
-    <NoMiniMap />
     <StasisImmune />
     <Group>GhostShip Lamps</Group>
     <Texture>
       <File>lofiObj3</File>
       <Index>0xad</Index>
     </Texture>
+    <MinimapIcon piece="DangerSmall" />
+    <Color>0xFFFFFF</Color>
     <HitSound>monster/traps_hit</HitSound>
     <DeathSound>spell/fire_nova</DeathSound>
     <MaxHitPoints>3500</MaxHitPoints>
@@ -207,11 +223,47 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0x0e41" id="Yellow Key">
+  <Object type="0x0F07" id="Green Lock">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <MinimapIcon color="0xFFFFFF" piece="GreenLock" />
+  </Object>
+  <Object type="0x0F08" id="Red Lock">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <MinimapIcon color="0xFFFFFF" piece="RedLock" />
+  </Object>
+  <Object type="0x0F09" id="Yellow Lock">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <MinimapIcon color="0xFFFFFF" piece="YellowLock" />
+  </Object>
+  <Object type="0x0F0A" id="Purple Lock">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <MinimapIcon color="0xFFFFFF" piece="PurpleLock" />
+  </Object>
+  <Object type="0x0E41" id="Yellow Key">
     <Class>Character</Class>
     <Texture>
-      <File>lofiObj3</File>
-      <Index>0xae</Index>
+      <File>shipwreckCoveObjects8x8</File>
+      <Index>117</Index>
     </Texture>
     <Size>80</Size>
     <Enemy />
@@ -222,11 +274,11 @@
     <DeathSound>weapon/obsidian_dagger</DeathSound>
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0x0e40" id="Red Key">
+  <Object type="0x0E40" id="Red Key">
     <Class>Character</Class>
     <Texture>
-      <File>lofiObj3</File>
-      <Index>0xaf</Index>
+      <File>shipwreckCoveObjects8x8</File>
+      <Index>118</Index>
     </Texture>
     <Size>80</Size>
     <Enemy />
@@ -237,11 +289,11 @@
     <DeathSound>weapon/obsidian_dagger</DeathSound>
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0x0e3f" id="Green Key">
+  <Object type="0x0E3F" id="Green Key">
     <Class>Character</Class>
     <Texture>
-      <File>lofiObj3</File>
-      <Index>0xb6</Index>
+      <File>shipwreckCoveObjects8x8</File>
+      <Index>119</Index>
     </Texture>
     <Size>80</Size>
     <Enemy />
@@ -252,11 +304,11 @@
     <DeathSound>weapon/obsidian_dagger</DeathSound>
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0x0e3e" id="Purple Key">
+  <Object type="0x0E3E" id="Purple Key">
     <Class>Character</Class>
     <Texture>
-      <File>lofiObj3</File>
-      <Index>0xb7</Index>
+      <File>shipwreckCoveObjects8x8</File>
+      <Index>120</Index>
     </Texture>
     <Size>80</Size>
     <Enemy />
@@ -267,7 +319,7 @@
     <DeathSound>weapon/obsidian_dagger</DeathSound>
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0x0e2e" id="Yellow Opener">
+  <Object type="0x0E2E" id="Yellow Opener">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiObj3</File>
@@ -275,7 +327,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0x0e30" id="Red Opener">
+  <Object type="0x0E30" id="Red Opener">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiObj3</File>
@@ -283,7 +335,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0x0e33" id="Green Opener">
+  <Object type="0x0E33" id="Green Opener">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiObj3</File>
@@ -291,15 +343,16 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0x0e34" id="Purple Opener">
+  <Object type="0x0E34" id="Purple Opener">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiObj3</File>
       <Index>0xb9</Index>
     </Texture>
     <Size>0</Size>
-  </Object>
-  <Object type="0x0e4a" id="VDoor">
+      &gt;
+   </Object>
+  <Object type="0x0E4A" id="VDoor">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiObj3</File>
@@ -307,7 +360,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0x0e49" id="HDoor">
+  <Object type="0x0E49" id="HDoor">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiObj3</File>
@@ -315,7 +368,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0x0e3a" id="Violent Spirit">
+  <Object type="0x0E3A" id="Violent Spirit">
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rEncounters</File>
@@ -346,8 +399,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0e48" id="Lost Soul">
+  <Object type="0x0E48" id="Lost Soul">
     <Class>Character</Class>
     <Group>GhostShip Group</Group>
     <Enemy />
@@ -388,7 +442,7 @@
     </Projectile>
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0x0e45" id="Ghost of Roger">
+  <Object type="0x0E45" id="Ghost of Roger">
     <Class>Character</Class>
     <Group>GhostShip Group</Group>
     <Enemy />
@@ -428,8 +482,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0e47" id="Maggot Sack">
+  <Object type="0x0E47" id="Maggot Sack">
     <Class>GameObject</Class>
     <Texture>
       <File>invisible</File>
@@ -437,7 +492,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0x0e46" id="Maggot">
+  <Object type="0x0E46" id="Maggot">
     <Class>Character</Class>
     <Group>GhostShip Group</Group>
     <Enemy />
@@ -470,8 +525,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0e44" id="School of Ghostfish">
+  <Object type="0x0E44" id="School of Ghostfish">
     <Class>Character</Class>
     <Group>GhostShip Group</Group>
     <Enemy />
@@ -503,8 +559,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0e43" id="Zombie Pirate Sr">
+  <Object type="0x0E43" id="Zombie Pirate Sr">
     <Class>Character</Class>
     <Group>GhostShip Group</Group>
     <Enemy />
@@ -548,6 +605,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x7308" id="HZombie Pirate Sr">
     <DisplayId>Zombie Pirate Sr</DisplayId>
@@ -594,8 +652,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0e42" id="Zombie Pirate Jr">
+  <Object type="0x0E42" id="Zombie Pirate Jr">
     <Class>Character</Class>
     <Group>GhostShip Group</Group>
     <Enemy />
@@ -604,8 +663,8 @@
       <Index>32</Index>
     </AnimatedTexture>
       5171081
-      <Size>110</Size><MaxHitPoints>700</MaxHitPoints><Defense>11</Defense><Exp>300</Exp><BXP>1425</BXP><HitSound>monster/pirates_hit</HitSound><DeathSound>monster/undead_hobbits_death</DeathSound><BloodProb>0.5</BloodProb><BloodColor>0x50d71b</BloodColor><Projectile id="0"><ObjectId>Zombie Shot</ObjectId><Speed>33</Speed><Damage>50</Damage><LifetimeMS>1700</LifetimeMS><Size>80</Size></Projectile><KillStat stat="UndeadKills" /><Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels><SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn><SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn><SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn><SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn><SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn><SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn><SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn></Object>
-  <Object type="0x0e31" id="Lil' Ghost Pirate">
+      <Size>110</Size><MaxHitPoints>700</MaxHitPoints><Defense>11</Defense><Exp>300</Exp><BXP>1425</BXP><HitSound>monster/pirates_hit</HitSound><DeathSound>monster/undead_hobbits_death</DeathSound><BloodProb>0.5</BloodProb><BloodColor>0x50d71b</BloodColor><Projectile id="0"><ObjectId>Zombie Shot</ObjectId><Speed>33</Speed><Damage>50</Damage><LifetimeMS>1700</LifetimeMS><Size>80</Size></Projectile><KillStat stat="UndeadKills" /><Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels><SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn><SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn><SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn><SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn><SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn><SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn><SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn><SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn></Object>
+  <Object type="0x0E31" id="Lil' Ghost Pirate">
     <Class>Character</Class>
     <Group>GhostShip Group</Group>
     <Enemy />
@@ -648,8 +707,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0e2f" id="GhostShip Rat">
+  <Object type="0x0E2F" id="GhostShip Rat">
     <Class>Character</Class>
     <Enemy />
     <DisplayId>Ghost Ship Rat</DisplayId>
@@ -681,8 +741,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x6da1" id="Sunken Treasure">
+  <Object type="0x6DA1" id="Sunken Treasure">
     <Class>Character</Class>
     <Enemy />
     <KeepDamageRecord />
@@ -693,9 +754,11 @@
       <File>d3LofiObjBigEmbed</File>
       <Index>0x02</Index>
     </Texture>
+    <MinimapIcon piece="Miniboss" />
     <MaxHitPoints>9000</MaxHitPoints>
     <Defense>30</Defense>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <Exp>2000</Exp>
     <BXP>10000</BXP>
     <StasisImmune />
@@ -707,6 +770,5 @@
     <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
-    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
 </Objects>

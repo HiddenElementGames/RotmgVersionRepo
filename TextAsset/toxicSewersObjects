@@ -85,6 +85,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x714d" id="DS Rat">
     <DisplayId>Sewer Rat</DisplayId>
@@ -117,6 +118,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x714e" id="DS Natural Slime God">
     <Enemy />
@@ -156,6 +158,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x714f" id="DS Goblin Peon">
     <DisplayId>Goblin Peon</DisplayId>
@@ -188,6 +191,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x7150" id="DS Goblin Warlock">
     <DisplayId>Goblin Warlock</DisplayId>
@@ -222,6 +226,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x7163" id="DS Goblin Sorcerer">
     <DisplayId>Goblin Sorcerer</DisplayId>
@@ -255,6 +260,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x7151" id="DS Goblin Brute">
     <DisplayId>Goblin Brute</DisplayId>
@@ -518,6 +524,7 @@
     </AnimatedTexture>
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>20</Defense>
@@ -557,11 +564,11 @@
       <AccelerationDelay>600</AccelerationDelay>
       <SpeedClamp>120</SpeedClamp>
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="22" dustMax="51" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="33" dustMax="39" seasonalBonus="0.15">greenDust</SoulboundDust>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Toxic Sewers Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Common Aquatic Egg</SpecialSpawn>
@@ -579,8 +586,10 @@
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
     <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 1</SpecialSpawn>
   </Object>
-  <Object type="0x17f" id="DS Gulpord M1">
+  <Object type="0x017f" id="DS Gulpord M1">
     <DisplayId>Gulpord the Slime God</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -1038,10 +1047,11 @@
     </AnimatedTexture>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/flayers_hit</DeathSound>
-    <MaxHitPoints>25000</MaxHitPoints>
-    <AlwaysPositiveHealth />
+    <MaxHitPoints>15000</MaxHitPoints>
     <Defense>10</Defense>
+    <AlwaysPositiveHealth />
     <Exp>0</Exp>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <ShadowSize>80</ShadowSize>
     <StasisImmune />
@@ -1146,7 +1156,6 @@
     <DisplayId>Golden Rat</DisplayId>
     <Class>Character</Class>
     <Enemy />
-    <Exp>195</Exp>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -1155,9 +1164,10 @@
       <File>toxicSewersChars8x8</File>
       <Index>7</Index>
     </AnimatedTexture>
-    <MaxHitPoints>5500</MaxHitPoints>
-    <BXP>926</BXP>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Defense>10</Defense>
+    <Exp>195</Exp>
+    <BXP>926</BXP>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/flayers_hit</DeathSound>
     <KillStat stat="CritterKills" />
@@ -1174,7 +1184,6 @@
     <DisplayId>Golden Rat</DisplayId>
     <Class>Character</Class>
     <Enemy />
-    <Exp>195</Exp>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -1184,9 +1193,10 @@
       <File>toxicSewersChars8x8</File>
       <Index>7</Index>
     </AnimatedTexture>
-    <MaxHitPoints>5500</MaxHitPoints>
-    <BXP>926</BXP>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Defense>10</Defense>
+    <Exp>195</Exp>
+    <BXP>926</BXP>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/flayers_hit</DeathSound>
     <KillStat stat="CritterKills" />

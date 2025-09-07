@@ -384,6 +384,38 @@
     <UniqueID />
     <Labels>EQUIPMENT,ABILITY,SHURIKEN,TIERED,T3,MPCOST,XPBONUS,TRADEABLE</Labels>
   </Object>
+  <Object type="0x99aa" id="Testiken">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>amount = 5, statModAmount = 0</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>2</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>0</MpCost>
+    <MpEndCost>50</MpEndCost>
+    <MpCostPerSecond>10</MpCostPerSecond>
+    <Activate effect="Armored" amount="5" scalingStat="ATT" statModScalingMin="50" statModAmount="0" statModDamage="20">ShurikenAbility</Activate>
+    <MultiPhase />
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
   <Object id="Trick Poison" type="0xff3d">
     <Class>Equipment</Class>
     <Item />
@@ -548,13 +580,788 @@
       <Index>0x26</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>Adds 200 Purple Dust to the cap in your storage.</Description>
+    <Description>Deprecated item that was for resetting reroll counters on enchanted items during Enchantments 1.0 and 2.0</Description>
     <Sound>use_potion</Sound>
-    <ResetEnchRerollCount />
     <Consumable />
     <BagType>8</BagType>
     <Soulbound />
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x6ab1" id="Testing Trap">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="4.0" totalDamage="100" color="32CD32" condEffect="Slowed" condDuration="4.0" armTime="1.0" duration="1" scalingStat="ATT" statModScalingMin="50" statModTrapRadius="0.2" statModTrapDamage="10" statModTrapCondDuration="0.1" bombDelay="1.4" bombDamage="200" bombRadius="3.0" bombCount="3" bombTriggerCount="2" bombTriggerPeriod="1.0" bombCondEffect="Slowed" bombCondEffectDuration="5.0" statModBombRadius="0.1" statModBombCount="0.2" statModBombDamage="10" statModBombCondDuration="0.01" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x2817" id="Test Trap ATT">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="3.0" totalDamage="100" color="32CD32" condEffect="Armor Broken" condDuration="3.0" armTime="1.0" duration="10" scalingStat="ATT" statModScalingMin="45" statModTrapRadius="0.2" statModTrapDamage="20" statModTrapCondDuration="0.1" bombDelay="3" bombDamage="600" bombRadius="8.0" bombCount="1" bombTriggerCount="1" bombTriggerPeriod="0.0" bombCondEffect="Armor Broken" bombCondEffectDuration="8.0" statModBombRadius="0.3" statModBombCount="0.2" statModBombDamage="20" statModBombCondDuration="0.10" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x2818" id="Test Trap DEF">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="4.0" totalDamage="200" color="32CD32" condEffect="Armored" condDuration="3.0" armTime="2.0" duration="10" scalingStat="DEF" statModScalingMin="9" statModTrapRadius="0.25" statModTrapDamage="10" statModTrapCondDuration="0.10" bombDelay="3" bombDamage="500" bombRadius="7.0" bombCount="2" bombTriggerCount="1" bombTriggerPeriod="0.0" bombCondEffect="Armored" bombCondEffectDuration="8.0" statModBombRadius="0.01" statModBombCount="0.2" statModBombDamage="20" statModBombCondDuration="0.10" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x2819" id="Test Trap SPD">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="5.0" totalDamage="300" color="32CD32" condEffect="Slowed" condDuration="2.0" armTime="3.0" duration="5" scalingStat="SPD" statModScalingMin="36" statModTrapRadius="0.10" statModTrapDamage="15" statModTrapCondDuration="0.30" bombDelay="5" bombDamage="400" bombRadius="6.0" bombCount="3" bombTriggerCount="2" bombTriggerPeriod="2.0" bombCondEffect="Slowed" bombCondEffectDuration="5.0" statModBombRadius="0.05" statModBombCount="1.0" statModBombDamage="15" statModBombCondDuration="0.30" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x281A" id="Test Trap DEX">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="6.0" totalDamage="400" color="32CD32" condEffect="Dazed" condDuration="2.0" armTime="4.0" duration="5" scalingStat="DEX" statModScalingMin="32" statModTrapRadius="0.05" statModTrapDamage="3" statModTrapCondDuration="0.05" bombDelay="5" bombDamage="300" bombRadius="5.0" bombCount="4" bombTriggerCount="2" bombTriggerPeriod="2.0" bombCondEffect="Dazed" bombCondEffectDuration="5.0" statModBombRadius="0.10" statModBombCount="1.0" statModBombDamage="15" statModBombCondDuration="0.05" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x281B" id="Test Trap WIS">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="7.0" totalDamage="500" color="32CD32" condEffect="Stunned" condDuration="5.0" armTime="5.0" duration="8" scalingStat="WIS" statModScalingMin="34" statModTrapRadius="0.01" statModTrapDamage="6" statModTrapCondDuration="0.02" bombDelay="1" bombDamage="200" bombRadius="4.0" bombCount="5" bombTriggerCount="4" bombTriggerPeriod="1.0" bombCondEffect="Stunned" bombCondEffectDuration="10.0" statModBombRadius="0.25" statModBombCount="3" statModBombDamage="5" statModBombCondDuration="0.02" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x281C" id="Test Trap VIT">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="8.0" objectType="0x281F" totalDamage="600" color="32CD32" condEffect="Curse" condDuration="6.0" armTime="6.0" duration="8" scalingStat="VIT" statModScalingMin="24" statModTrapRadius="0.30" statModTrapDamage="5" statModTrapCondDuration="0.15" bombDelay="1" bombDamage="100" bombRadius="3.0" bombCount="6" bombTriggerCount="4" bombTriggerPeriod="1.0" bombCondEffect="Curse" bombCondEffectDuration="10.0" statModBombRadius="0.20" statModBombCount="3" statModBombDamage="5" statModBombCondDuration="0.15" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x281D" id="Test Trap DEX 2">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="6.0" objectType="0x281E" totalDamage="400" color="32CD32" condEffect="Dazed" condDuration="2.0" armTime="4.0" duration="5" scalingStat="DEX" statModScalingMin="32" statModTrapRadius="0.05" statModTrapDamage="3" statModTrapCondDuration="0.05" bombDelay="5" bombDamage="300" bombRadius="5.0" bombCount="4" bombTriggerCount="2" bombTriggerPeriod="2.0" bombCondEffect="Slowed" bombCondEffectDuration="5.0" statModBombRadius="0.10" statModBombCount="1.0" statModBombDamage="15" statModBombCondDuration="0.05" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object id="Pirate Shadow Move" type="0x281E">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rBeach</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>100</Size>
+  </Object>
+  <Object id="Pirate Back and Forth" type="0x281F">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rBeach</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x1B6D" id="minimumMeter Test Item">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>68</PowerLevel>
+    <Texture>
+      <File>pirateCaveObjects16x16</File>
+      <Index>0x0c</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>Use ability to create a DWD C when 80% of meter is full</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="PLEASE WORK" />
+    </ExtraTooltipData>
+    <Meter id="0" maxValue="4000" startValue="0" chargeString="Charge the meter by gaining EXP!">
+      <BarColor maxValue="0.25">0xFF0000</BarColor>
+      <BarColor maxValue="0.50">0xFFAA00</BarColor>
+      <BarColor maxValue="0.75">0x00FF00</BarColor>
+      <BarColor maxValue="1.00">0x00FFAA</BarColor>
+    </Meter>
+    <OnPlayerKill idMeter="0" proc="1" wornFlat="false" amountWorn="1" amount="0">FillMeter</OnPlayerKill>
+    <OnPlayerAbilityActivate idMeter="0" minimumMeter="800" proc="1" cooldown="1" objectId="DWD C" throwTime="1">ObjectToss</OnPlayerAbilityActivate>
+    <BagType>6</BagType>
+    <feedPower>500</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Soulbound />
+    <Labels>EQUIPMENT,UT,TAB_UT,XPBONUS</Labels>
+  </Object>
+  <Object type="0x1B6E" id="meterCost Test Item">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>68</PowerLevel>
+    <Texture>
+      <File>pirateCaveObjects16x16</File>
+      <Index>0x0c</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>Use ability to create a DWD C consuming 80% of meter</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="PLEASE WORK" />
+    </ExtraTooltipData>
+    <Meter id="0" maxValue="4000" startValue="0" chargeString="Charge the meter by gaining EXP!">
+      <BarColor maxValue="0.25">0xFF0000</BarColor>
+      <BarColor maxValue="0.50">0xFFAA00</BarColor>
+      <BarColor maxValue="0.75">0x00FF00</BarColor>
+      <BarColor maxValue="1.00">0x00FFAA</BarColor>
+    </Meter>
+    <OnPlayerKill idMeter="0" proc="1" wornFlat="false" amountWorn="1" amount="0">FillMeter</OnPlayerKill>
+    <OnPlayerAbilityActivate idMeter="0" minimumMeter="800" meterCost="800" proc="1" cooldown="1" objectId="DWD C" throwTime="1">ObjectToss</OnPlayerAbilityActivate>
+    <BagType>6</BagType>
+    <feedPower>500</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Soulbound />
+    <Labels>EQUIPMENT,UT,TAB_UT,XPBONUS</Labels>
+  </Object>
+  <Object type="0x1B6C" id="relativeStat Test Item">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>80</PowerLevel>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>333</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>140 HP + 3.5% HP based on HP. </Description>
+    <ActivateOnEquip stat="MAXHP" amount="140">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXHP" amount="3.5" statRelativeTo="MAXHP">IncrementStatRelative</ActivateOnEquip>
+    <BagType>4</BagType>
+    <UniqueID />
+  </Object>
+  <Object type="0x99AB" id="Testiken ATT">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>amount = 0, statModAmount = 1</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>5</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <NumProjectiles>2</NumProjectiles>
+    <ArcGap>90</ArcGap>
+    <MpCost>0</MpCost>
+    <MpEndCost>30</MpEndCost>
+    <MpCostPerSecond>11</MpCostPerSecond>
+    <MultiPhase />
+    <Activate effect="Damaging" amount="0" stat="ATT" scalingStat="ATT" statModScalingMin="50" statModAmount="1" statModDamage="15">ShurikenAbility</Activate>
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x99AC" id="Testiken DEF">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Testu testu.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>2</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <NumProjectiles>3</NumProjectiles>
+    <ArcGap>90</ArcGap>
+    <MpCost>0</MpCost>
+    <MpEndCost>50</MpEndCost>
+    <MpCostPerSecond>12</MpCostPerSecond>
+    <Activate effect="Armored" amount="5" stat="DEF" scalingStat="DEF" statModScalingMin="9" statModAmount="0.1" statModDamage="15">ShurikenAbility</Activate>
+    <MultiPhase />
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x99AD" id="Testiken DEX">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Testu testu.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>2</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <NumProjectiles>3</NumProjectiles>
+    <ArcGap>90</ArcGap>
+    <MpCost>0</MpCost>
+    <MpEndCost>50</MpEndCost>
+    <MpCostPerSecond>13</MpCostPerSecond>
+    <Activate effect="Berserk" amount="5" stat="DEX" scalingStat="DEX" statModScalingMin="50" statModAmount="0.1" statModDamage="12">ShurikenAbility</Activate>
+    <MultiPhase />
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x99AE" id="Testiken SPD">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Testu testu.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>2</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <NumProjectiles>4</NumProjectiles>
+    <ArcGap>60</ArcGap>
+    <MpCost>0</MpCost>
+    <MpEndCost>50</MpEndCost>
+    <MpCostPerSecond>14</MpCostPerSecond>
+    <Activate effect="Speedy" amount="5" stat="SPD" scalingStat="SPD" statModScalingMin="46" statModAmount="0.1" statModDamage="12">ShurikenAbility</Activate>
+    <MultiPhase />
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x99AF" id="Testiken VIT">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Testu testu.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>2</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <NumProjectiles>5</NumProjectiles>
+    <ArcGap>45</ArcGap>
+    <MpCost>0</MpCost>
+    <MpEndCost>50</MpEndCost>
+    <MpCostPerSecond>15</MpCostPerSecond>
+    <Activate effect="Healing" amount="5" stat="VIT" scalingStat="VIT" statModScalingMin="42" statModAmount="0.1" statModDamage="12">ShurikenAbility</Activate>
+    <MultiPhase />
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x99B0" id="Testiken WIS">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Testu testu.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>2</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <NumProjectiles>6</NumProjectiles>
+    <ArcGap>36</ArcGap>
+    <MpCost>0</MpCost>
+    <MpEndCost>50</MpEndCost>
+    <MpCostPerSecond>16</MpCostPerSecond>
+    <Activate effect="Energized" amount="5" stat="WIS" scalingStat="WIS" statModScalingMin="50" statModAmount="0.1" statModDamage="12">ShurikenAbility</Activate>
+    <MultiPhase />
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0xa963" id="Guill 1 Rune">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>0x8c</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A wicked rune of Oryx's sword, held by the fiercest monsters in the realm known to cut down heroes without discretion.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Usage" description="Activates the Sword Monument, one of three monuments needed to reach Oryx's Sanctuary." />
+      <EffectInfo description="" />
+      <EffectInfo name="Restoration" description="Upon deactivation of the Sword Monument, this item will be dropped on the ground." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Treasure />
+    <Consumable />
+    <BagType>4</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <Activate color="-1" retainItem="true" newId="Guill 1 Monument Active" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4" radius="25" targetId="Guill 1 Monument" customString="The Sword Monument has been activated">ChangeObject</Activate>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0xa964" id="Guill 2 Rune">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>0x8d</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A wicked rune of Oryx's shield, held by the most prominent minions Oryx trusts to guard his realm.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Usage" description="Activates the Shield Monument, one of three monuments needed to reach Oryx's Sanctuary." />
+      <EffectInfo description="" />
+      <EffectInfo name="Restoration" description="Upon deactivation of the Shield Monument, this item will be dropped on the ground." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Treasure />
+    <Consumable />
+    <BagType>4</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <Activate color="-1" retainItem="true" newId="Guill 2 Monument Active" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4" radius="25" targetId="Guill 2 Monument" customString="The Shield Monument has been activated">ChangeObject</Activate>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0xa965" id="Guill 3 Rune">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>0x8e</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A wicked rune of Oryx's helmet, held by the Mad God's equally lethal rivals.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Usage" description="Activates the Helmet Monument, one of three monuments needed to reach Oryx's Sanctuary." />
+      <EffectInfo description="" />
+      <EffectInfo name="Restoration" description="Upon deactivation of the Helmet Monument, this item will be dropped on the ground." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Treasure />
+    <Consumable />
+    <BagType>4</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <Activate color="-1" retainItem="true" newId="Guill 3 Monument Active" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4" radius="25" targetId="Guill 3 Monument" customString="The Helmet Monument has been activated">ChangeObject</Activate>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x7b80" id="Info Board Test">
+    <Class>InformationBoard</Class>
+    <Texture>
+      <File>lofiObj</File>
+      <Index>909</Index>
+    </Texture>
+  </Object>
+  <Object type="0x99B1" id="Long Sword 1Rarity">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>56</PowerLevel>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x33</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>A well-made sword with a double edged blade.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>11</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SWORD,BASETYPE</Labels>
+    <EnchantmentSlots slotChance="1,0,0,0" enchantmentList="Default Enchantment Pool" />
+  </Object>
+  <Object type="0x99B2" id="Long Sword 2Rarity">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>56</PowerLevel>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x33</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>A well-made sword with a double edged blade.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>11</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SWORD,BASETYPE</Labels>
+    <EnchantmentSlots slotChance="1,1,0,0" enchantmentList="Default Enchantment Pool" />
+  </Object>
+  <Object type="0x99B3" id="Long Sword 3Rarity">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>56</PowerLevel>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x33</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>A well-made sword with a double edged blade.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>11</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SWORD,BASETYPE</Labels>
+    <EnchantmentSlots slotChance="1,1,1,0" enchantmentList="Default Enchantment Pool" />
+  </Object>
+  <Object type="0x99B4" id="Long Sword 4Rarity">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>56</PowerLevel>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x33</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>A well-made sword with a double edged blade.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>11</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SWORD,BASETYPE</Labels>
+    <EnchantmentSlots slotChance="1,1,1,1" enchantmentList="Default Enchantment Pool" />
+  </Object>
+  <Object type="0x99B5" id="Tier 4 Test Artifact">
+    <DisplayId>Tier 4 Test Artifact</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1246</Index>
+    </Texture>
+    <Sound>use_potion</Sound>
+    <SlotType>10</SlotType>
+    <BagType>8</BagType>
+    <Soulbound />
+    <Description>Use this testing artifact in the Enchanter on any equipment to roll only Tier 4 Enchantments.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Item is only available for testing." name="Testing Item" />
+      <EffectInfo description="Cannot roll T1 to T3 enchantments." name="Exclusion" />
+    </ExtraTooltipData>
+    <Artifact list="Test T4 Pool" consumeProb="0" dustType="purpleDust" dustAmount="0" />
+  </Object>
+  <Object type="0x99B6" id="Test Dust Refill">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x2f</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this testing item to refill all enchantment dusts and forgefire.</Description>
+    <Sound>use_potion</Sound>
+    <ExtraTooltipData>
+      <EffectInfo description="Item is only available for testing." name="Testing Item" />
+    </ExtraTooltipData>
+    <Activate dustType="greenDust" amount="999999">AddDust</Activate>
+    <Activate dustType="redDust" amount="999999">AddDust</Activate>
+    <Activate dustType="purpleDust" amount="999999">AddDust</Activate>
+    <Activate amount="999999">BoostForgeEnergy</Activate>
+    <InvUse />
+    <Soulbound />
+    <BagType>8</BagType>
+  </Object>
+  <Object type="0x99B7" id="Awakened Test Artifact">
+    <DisplayId>Awakened Test Artifact</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1245</Index>
+    </Texture>
+    <Sound>use_potion</Sound>
+    <SlotType>10</SlotType>
+    <BagType>8</BagType>
+    <Soulbound />
+    <Description>Use this testing artifact in the Enchanter on a specific UT to roll its Awakened Enchantment.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Item is only available for testing." name="Testing Item" />
+      <EffectInfo description="Boosts the rate of Awakened Enchantments by x9999." name="Rate Modifier" />
+    </ExtraTooltipData>
+    <Artifact list="Test Awakened Pool" consumeProb="0" dustType="purpleDust" dustAmount="0" />
+  </Object>
+  <Object type="0x99B8" id="Unique Test Artifact">
+    <DisplayId>Unique Test Artifact</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1247</Index>
+    </Texture>
+    <Sound>use_potion</Sound>
+    <SlotType>10</SlotType>
+    <BagType>8</BagType>
+    <Soulbound />
+    <Description>Use this testing artifact in the Enchanter on any equipment to roll Unique Enchantments.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Item is only available for testing." name="Testing Item" />
+      <EffectInfo description="Boosts the rate of Unique Enchantments by x9999." name="Rate Modifier" />
+    </ExtraTooltipData>
+    <Artifact list="Test Unique Pool" consumeProb="0" dustType="purpleDust" dustAmount="0" />
+  </Object>
+  <Object type="0x367e" id="Def Test Flail">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>200</PowerLevel>
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x116</Index>
+    </Texture>
+    <Sound>weapon/mithril_sword</Sound>
+    <OldSound>bladeSwing</OldSound>
+    <SlotType>1</SlotType>
+    <Description>The primary armament of the gravelords of old, eternally tasked with making sure the dead are forever sealed away from the mortal plane.</Description>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Black Flail Ball</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Boomerang />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Black Flail Chain</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Boomerang />
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Black Flail Chain</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Boomerang />
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <BagType>9</BagType>
+    <feedPower>950</feedPower>
+    <Soulbound />
+    <XPBonus>8</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,FLAIL,UT,SUBTYPE</Labels>
+    <EnchantmentSlots slotChance="0.5,0.375,0.25,0.125" seasonalSlotMod="1.05" forgeSlotMod="0.8" dustType="purpleDust" dustAmounts="50,65,80,100" enchantmentList="Default Enchantment Pool" />
   </Object>
 </Objects>

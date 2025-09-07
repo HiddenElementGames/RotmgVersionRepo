@@ -900,7 +900,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb1b7" id="LOD Feargus Soul 3">
     <Class>GameObject</Class>
@@ -941,7 +941,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb1b8" id="LOD Feargus Soul 4">
     <Class>GameObject</Class>
@@ -982,7 +982,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb21a" id="LOD Nikao Soul 1">
     <Class>GameObject</Class>
@@ -1023,7 +1023,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb1b9" id="LOD Nikao Soul 2">
     <Class>GameObject</Class>
@@ -1064,7 +1064,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb1ba" id="LOD Nikao Soul 3">
     <Class>GameObject</Class>
@@ -1105,7 +1105,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb1bb" id="LOD Nikao Soul 4">
     <Class>GameObject</Class>
@@ -1146,7 +1146,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb21b" id="LOD Limoz Soul 1">
     <Class>GameObject</Class>
@@ -1187,7 +1187,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb1bc" id="LOD Limoz Soul 2">
     <Class>GameObject</Class>
@@ -1228,7 +1228,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb1c9" id="LOD Limoz Soul 3">
     <Class>GameObject</Class>
@@ -1269,7 +1269,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb1bd" id="LOD Limoz Soul 4">
     <Class>GameObject</Class>
@@ -1310,7 +1310,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb21c" id="LOD Pyyr Soul 1">
     <Class>GameObject</Class>
@@ -1351,7 +1351,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb1be" id="LOD Pyyr Soul 2">
     <Class>GameObject</Class>
@@ -1392,7 +1392,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb1bf" id="LOD Pyyr Soul 3">
     <Class>GameObject</Class>
@@ -1433,7 +1433,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb1c0" id="LOD Pyyr Soul 4">
     <Class>GameObject</Class>
@@ -1474,7 +1474,7 @@
     <Z>.4</Z>
     <Flying />
     <TrackLoot />
-    <Labels>ENEMY,MINION,MINIBOSS,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb173" id="LOD Debug">
     <Class>GameObject</Class>
@@ -1586,6 +1586,8 @@
         <Index>0x5f</Index>
       </Texture>
     </AltTexture>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
     <Size>180</Size>
@@ -2380,6 +2382,8 @@
         <Index>0x27</Index>
       </Texture>
     </AltTexture>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
     <Size>180</Size>
@@ -2882,6 +2886,8 @@
         <Index>0x5d</Index>
       </Texture>
     </AltTexture>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
     <Size>180</Size>
@@ -3476,6 +3482,8 @@
         <Index>0x5e</Index>
       </Texture>
     </AltTexture>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
     <Size>180</Size>
@@ -3907,6 +3915,8 @@
         <Index>0x63</Index>
       </Texture>
     </AltTexture>
+    <MinimapIcon piece="Boss" />
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
     <Size>180</Size>
@@ -4153,13 +4163,13 @@
       <PassesCover />
     </Projectile>
     <AlwaysPositiveHealth />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="86" dustMax="201" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="25" dustMax="59" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust dustMin="42" dustMax="48" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="46" dustMax="54" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="50" />
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,HPSCALEONENTRY,AMULET_VETERAN</Labels>
     <SpecialSpawn category="Bis">Lair of Draconis Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Reptile Egg</SpecialSpawn>
@@ -4177,6 +4187,8 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Wicked Dragon Wizard Skin</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt9">
         <StyleStep altTextureId="9">SetAltTexture</StyleStep>
@@ -5179,7 +5191,7 @@
     <ParalyzeImmune />
     <SlowImmune />
     <Hero />
-    <Encounter terrain="Abandoned" />
+    <Encounter oldRealmOnly="1" />
     <PerRealmMax>1</PerRealmMax>
     <Quest />
     <God />

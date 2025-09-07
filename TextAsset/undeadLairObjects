@@ -36,6 +36,7 @@
     </AltTexture>
     <HitSound>monster/ghost_god_hit</HitSound>
     <DeathSound>monster/ghost_god_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>12</Defense>
@@ -78,7 +79,7 @@
       <Size>100</Size>
       <LifetimeMS>3000</LifetimeMS>
       <MultiHit />
-      <ConditionEffect duration="1.5">Confused</ConditionEffect>
+      <ConditionEffect duration="1.5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="4">
       <ObjectId>Septavius Projectile</ObjectId>
@@ -143,12 +144,12 @@
       <Frequency>1.6</Frequency>
       <Amplitude>1.3</Amplitude>
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="17" dustMax="40" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="27" dustMax="35" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="UndeadKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD,HPSCALEONENTRY,AMULET_ROOKIE</Labels>
     <SpecialSpawn category="Bis">Undead Lair Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Spooky Egg</SpecialSpawn>
@@ -168,6 +169,8 @@
     <SpecialSpawn category="Mercenary_B">Mercenary B Dungeon</SpecialSpawn>
     <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 1</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt2">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>
@@ -190,6 +193,7 @@
         <Index>0x2e</Index>
       </Texture>
     </AltTexture>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>145</Size>
     <HitSound>monster/ghosts_hit</HitSound>
     <DeathSound>monster/ghosts_death</DeathSound>
@@ -291,7 +295,7 @@
       <LifetimeMS>600</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -299,6 +303,802 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3965" id="HUDL Septavius Summoner">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <NoMiniMap />
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3966" id="HUDL Septavius the Ghost God">
+    <Enemy />
+    <DisplayId>Septavius, Master of the Undead</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>undeadLairChars16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <Portrait>
+      <AnimatedTexture>
+        <File>undeadLairChars16x16</File>
+        <Index>1</Index>
+      </AnimatedTexture>
+    </Portrait>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>undeadLairChars16x16</File>
+        <Index>2</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>undeadLairChars16x16</File>
+        <Index>8</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>undeadLairChars16x16</File>
+        <Index>12</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Animation id="4" prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>81</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>83</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>84</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>85</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>86</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>87</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>88</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>89</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>90</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>92</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>93</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>94</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>95</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>96</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>97</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>98</Index>
+        </Texture>
+      </Frame>
+      <Frame time="3">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>99</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <NoCollisionWhenMovement />
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <Size>100</Size>
+    <MaxHitPoints>160000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Flying />
+    <Quest />
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <Level>1</Level>
+    <Exp>4000</Exp>
+    <BXP>20000</BXP>
+    <NoArticle />
+    <EventChestBoss />
+    <TrackLoot />
+    <Projectile id="0">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Speed>80</Speed>
+      <Damage>75</Damage>
+      <Size>80</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>UDL Brown Magic</ObjectId>
+      <Speed>90</Speed>
+      <Damage>40</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2600</LifetimeMS>
+      <MultiHit />
+      <Boomerang />
+      <FaceDir />
+      <Amplitude>2</Amplitude>
+      <Frequency>2.5</Frequency>
+      <ConditionEffect duration="1">Quiet</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Yellow Star</ObjectId>
+      <Speed>57</Speed>
+      <Damage>65</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="1.5">Unstable</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Speed>40</Speed>
+      <Damage>160</Damage>
+      <Size>80</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Speed>70</Speed>
+      <Damage>60</Damage>
+      <Size>80</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>UDL Blue Magic Big</ObjectId>
+      <Size>120</Size>
+      <Damage>80</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <FaceDir />
+      <MultiHit />
+      <Frequency>1.2</Frequency>
+      <Amplitude>3.6</Amplitude>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Doom Arrow</ObjectId>
+      <Speed>80</Speed>
+      <Damage>120</Damage>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Speed>60</Speed>
+      <Damage>75</Damage>
+      <Size>80</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Speed>100</Speed>
+      <Damage>120</Damage>
+      <Size>120</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>UDL Blue Magic Big</ObjectId>
+      <Size>100</Size>
+      <Damage>90</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <FaceDir />
+      <MultiHit />
+      <Frequency>1.6</Frequency>
+      <Amplitude>1.3</Amplitude>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Doom Arrow</ObjectId>
+      <Speed>60</Speed>
+      <Damage>120</Damage>
+      <Size>90</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Speed>20</Speed>
+      <Damage>150</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+      <SpeedClamp>120</SpeedClamp>
+      <Acceleration>600</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Speed>40</Speed>
+      <Damage>180</Damage>
+      <Size>80</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <TurnRate>-70</TurnRate>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Speed>40</Speed>
+      <Damage>180</Damage>
+      <Size>80</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <TurnRate>70</TurnRate>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="15">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Speed>40</Speed>
+      <Damage>180</Damage>
+      <Size>80</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="16">
+      <ObjectId>HUDL Septavius Slash</ObjectId>
+      <Speed>40</Speed>
+      <Damage>90</Damage>
+      <Size>120</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+      <FaceDir />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="17">
+      <ObjectId>HUDL Septavius Stab</ObjectId>
+      <Speed>60</Speed>
+      <Damage>90</Damage>
+      <Size>120</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+      <FaceDir />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="18">
+      <ObjectId>HUDL Septavius Slash</ObjectId>
+      <Speed>80</Speed>
+      <Damage>90</Damage>
+      <Size>120</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+      <FaceDir />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="19">
+      <ObjectId>HUDL Septavius Stab</ObjectId>
+      <Speed>90</Speed>
+      <Damage>90</Damage>
+      <Size>120</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+      <FaceDir />
+      <ArmorPiercing />
+    </Projectile>
+    <SoulboundDust prob="1" dustMin="13" dustMax="24" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="38" dustMax="50" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <HealthBarBoss radius="30" />
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD,HPSCALEONENTRY,AMULET_ROOKIE</Labels>
+    <SpecialSpawn category="Bis">Adv Undead Lair Portal</SpecialSpawn>
+    <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
+    <SpecialSpawn category="PetCollector">Uncommon Spooky Egg</SpecialSpawn>
+    <SpecialSpawn category="Generous">Quest Chest Item</SpecialSpawn>
+    <SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn>
+    <SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn>
+    <SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn>
+    <SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn>
+    <SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn>
+    <SpecialSpawn category="ExaltedBanner">ExaltationBanner</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn>
+    <SpecialSpawn category="Souvenir_MID">Doom Bow</SpecialSpawn>
+    <SpecialSpawn category="Shiny_MID">Doom Bow Shiny</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
+    <SpecialSpawn category="SkinHunter" perPlayer="true">Possessed Staff Pet Stone</SpecialSpawn>
+    <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_B">Mercenary B Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
+    <Presentation>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep id="4">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x3968" id="HUDL Spirit Orb">
+    <DisplayId>Septavius Spirit Orb</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>undeadLairObjects16x16</File>
+      <Index>149</Index>
+    </Texture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>100</Size>
+    <Exp>50</Exp>
+    <BXP>237</BXP>
+    <Invincible />
+    <NoCollisionWhenMovement />
+    <Animation id="1" prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>149</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>150</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>151</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>152</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>153</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>155</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>156</Index>
+        </Texture>
+      </Frame>
+      <Frame time="51">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>157</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation id="2" prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>157</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>158</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>159</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>160</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation id="3" prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>137</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>138</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>139</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>140</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>141</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>142</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>143</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>144</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>145</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>146</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>147</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>148</Index>
+        </Texture>
+      </Frame>
+      <Frame time="12">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Projectile id="0">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Speed>50</Speed>
+      <Damage>50</Damage>
+      <Size>70</Size>
+      <LifetimeMS>2900</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Speed>30</Speed>
+      <Damage>50</Damage>
+      <Size>90</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Septavius Projectile</ObjectId>
+      <Speed>45</Speed>
+      <Damage>50</Damage>
+      <Size>70</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep id="1">SetAnimation</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep id="2">SetAnimation</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep id="3">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x396d" id="Heroic Lair Spectral Skeleton">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>undeadLairChars16x16</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>0x2e</Index>
+      </Texture>
+    </AltTexture>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <Size>145</Size>
+    <HitSound>monster/ghosts_hit</HitSound>
+    <DeathSound>monster/ghosts_death</DeathSound>
+    <MaxHitPoints>35000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>2000</Exp>
+    <BXP>10000</BXP>
+    <ShadowSize>0</ShadowSize>
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <TrackLoot />
+    <Animation id="1" prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>165</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>166</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>167</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>168</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>169</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>170</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>171</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>172</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>173</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>174</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>175</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>176</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>177</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Projectile id="0">
+      <ObjectId>HUDL Skel Shot</ObjectId>
+      <Speed>80</Speed>
+      <Damage>1</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>HUDL Skel Shot</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>40.00000000</Speed>
+      <LifetimeMS>3125</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>HUDL Skel Shot</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>40.79215611</Speed>
+      <LifetimeMS>3125</LifetimeMS>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>HUDL Skel Shot</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>43.08131846</Speed>
+      <LifetimeMS>3125</LifetimeMS>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>HUDL Skel Shot</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>46.64761516</Speed>
+      <LifetimeMS>3125</LifetimeMS>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>HUDL Skel Shot</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>51.22499390</Speed>
+      <LifetimeMS>3125</LifetimeMS>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>HUDL Skel Shot</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>56.56854249</Speed>
+      <LifetimeMS>3125</LifetimeMS>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>HUDL Spectral Bone</ObjectId>
+      <Speed>50</Speed>
+      <Damage>105</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3125</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <HealthBarBoss radius="15" />
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAnim1">
+        <StyleStep id="1">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x7304" id="HLair Skeleton">
     <DisplayId>Lair Skeleton</DisplayId>
@@ -331,6 +1131,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d92" id="Lair Skeleton Swordsman">
     <Group>Lair Skeletons</Group>
@@ -354,7 +1155,7 @@
       <LifetimeMS>600</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASELOW</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -362,6 +1163,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d93" id="Lair Skeleton Veteran">
     <Group>Lair Skeletons</Group>
@@ -385,7 +1187,7 @@
       <LifetimeMS>800</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASELOW</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -393,6 +1195,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d94" id="Lair Skeleton Mage">
     <Group>Lair Skeletons</Group>
@@ -416,7 +1219,7 @@
       <LifetimeMS>3000</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASELOW</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -424,6 +1227,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d95" id="Lair Skeleton King">
     <Group>Lair Skeletons</Group>
@@ -447,7 +1251,7 @@
       <LifetimeMS>3000</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASELOW</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -455,6 +1259,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d96" id="Lair Mummy">
     <Group>Lair Mummies</Group>
@@ -484,7 +1289,7 @@
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASELOW</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -492,6 +1297,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d97" id="Lair Mummy King">
     <Group>Lair Mummies</Group>
@@ -515,7 +1321,7 @@
       <LifetimeMS>3000</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASELOW</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -523,6 +1329,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d98" id="Lair Mummy Pharaoh">
     <Group>Lair Mummies</Group>
@@ -546,7 +1353,7 @@
       <LifetimeMS>3000</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASELOW</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -554,6 +1361,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d99" id="Lair Construct Giant">
     <Group>Lair Constructs</Group>
@@ -582,10 +1390,10 @@
       <Damage>0</Damage>
       <Speed>60</Speed>
       <LifetimeMS>3000</LifetimeMS>
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,MINION,CONSTRUCT,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,CONSTRUCT,MINION_WEAK,UDLBASELOW</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -593,6 +1401,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d9a" id="Lair Construct Titan">
     <Group>Lair Constructs</Group>
@@ -620,10 +1429,10 @@
       <Damage>0</Damage>
       <Speed>60</Speed>
       <LifetimeMS>3000</LifetimeMS>
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,MINION,CONSTRUCT,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,CONSTRUCT,MINION_WEAK,UDLBASELOW</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -631,6 +1440,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d9b" id="Lair Big Black Slime">
     <Group>Lair Slimes</Group>
@@ -649,13 +1459,13 @@
     <BXP>475</BXP>
     <Projectile id="0">
       <Size>100</Size>
-      <ObjectId>UDL Black Magic</ObjectId>
+      <ObjectId>HUDL Small Black Slime Shot</ObjectId>
       <Damage>100</Damage>
       <Speed>80</Speed>
       <LifetimeMS>1000</LifetimeMS>
     </Projectile>
     <KillStat stat="GrotesqueKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK,UDLBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -663,6 +1473,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d9c" id="Lair Medium Black Slime">
     <Enemy />
@@ -680,13 +1491,13 @@
     <BXP>356</BXP>
     <Projectile id="0">
       <Size>90</Size>
-      <ObjectId>UDL Black Magic</ObjectId>
+      <ObjectId>HUDL Small Black Slime Shot</ObjectId>
       <Damage>80</Damage>
       <Speed>80</Speed>
       <LifetimeMS>1000</LifetimeMS>
     </Projectile>
     <KillStat stat="GrotesqueKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK,UDLBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -694,6 +1505,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d9d" id="Lair Little Black Slime">
     <Enemy />
@@ -711,13 +1523,13 @@
     <BXP>237</BXP>
     <Projectile id="0">
       <Size>80</Size>
-      <ObjectId>UDL Black Magic</ObjectId>
+      <ObjectId>HUDL Small Black Slime Shot</ObjectId>
       <Damage>50</Damage>
       <Speed>80</Speed>
       <LifetimeMS>1000</LifetimeMS>
     </Projectile>
     <KillStat stat="GrotesqueKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK,UDLBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -725,6 +1537,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d9e" id="Lair Big Brown Slime">
     <Group>Lair Slimes</Group>
@@ -749,7 +1562,7 @@
       <LifetimeMS>1000</LifetimeMS>
     </Projectile>
     <KillStat stat="GrotesqueKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK,UDLBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -757,6 +1570,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0d9f" id="Lair Little Brown Slime">
     <Enemy />
@@ -780,7 +1594,7 @@
       <LifetimeMS>1000</LifetimeMS>
     </Projectile>
     <KillStat stat="GrotesqueKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK,UDLBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -788,6 +1602,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0da0" id="Lair Brown Bat">
     <Group>Lair Bats</Group>
@@ -813,7 +1628,7 @@
       <LifetimeMS>800</LifetimeMS>
     </Projectile>
     <KillStat stat="CritterKills" />
-    <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,CRITTER,MINION_WEAK,UDLBASELOW</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -821,6 +1636,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0da1" id="Lair Ghost Bat">
     <Group>Lair Bats</Group>
@@ -846,7 +1662,7 @@
       <LifetimeMS>700</LifetimeMS>
     </Projectile>
     <KillStat stat="CritterKills" />
-    <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,CRITTER,MINION_WEAK,UDLBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -854,6 +1670,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0da2" id="Lair Burst Trap">
     <Group>Lair Traps</Group>
@@ -1047,7 +1864,7 @@
       <LifetimeMS>500</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASELOW</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1055,6 +1872,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0da5" id="Lair Vampire">
     <Group>Lair Vampires</Group>
@@ -1085,7 +1903,7 @@
       <LifetimeMS>800</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1093,6 +1911,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0da6" id="Lair Vampire King">
     <Group>Lair Vampires</Group>
@@ -1123,7 +1942,7 @@
       <LifetimeMS>800</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1131,6 +1950,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0da7" id="Lair Grey Spectre">
     <Group>Lair Spectres</Group>
@@ -1156,7 +1976,7 @@
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1164,6 +1984,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0da8" id="Lair Blue Spectre">
     <Group>Lair Spectres</Group>
@@ -1190,7 +2011,7 @@
       <Wavy />
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1198,6 +2019,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0da9" id="Lair White Spectre">
     <Group>Lair Spectres</Group>
@@ -1223,7 +2045,7 @@
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1231,6 +2053,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0daa" id="Lair Ghost Archer">
     <Group>Lair Ghosts</Group>
@@ -1254,7 +2077,7 @@
       <Size>110</Size>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASESEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1262,6 +2085,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0dab" id="Lair Ghost Warrior">
     <Group>Lair Ghosts</Group>
@@ -1284,7 +2108,7 @@
       <LifetimeMS>600</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASESEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1292,6 +2116,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0dac" id="Lair Ghost Mage">
     <Group>Lair Ghosts</Group>
@@ -1314,7 +2139,7 @@
       <LifetimeMS>4000</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASESEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1322,6 +2147,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0dad" id="Lair Ghost Rogue">
     <Group>Lair Ghosts</Group>
@@ -1344,7 +2170,7 @@
       <LifetimeMS>600</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASESEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1352,6 +2178,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0dae" id="Lair Ghost Paladin">
     <Group>Lair Ghosts</Group>
@@ -1374,7 +2201,7 @@
       <LifetimeMS>600</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASESEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1382,6 +2209,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0daf" id="Lair Ghost Knight">
     <Group>Lair Ghosts</Group>
@@ -1404,7 +2232,7 @@
       <LifetimeMS>600</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASESEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1412,6 +2240,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0db0" id="Ghost Warrior of Septavius">
     <Group>Lair Ghosts</Group>
@@ -1427,6 +2256,7 @@
     <MaxHitPoints>600</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>0</Exp>
+    <StasisImmune />
     <Projectile id="0">
       <ObjectId>UDL Blue Shot</ObjectId>
       <Damage>35</Damage>
@@ -1434,7 +2264,7 @@
       <LifetimeMS>600</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASESEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1442,6 +2272,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0db1" id="Ghost Mage of Septavius">
     <Group>Lair Ghosts</Group>
@@ -1457,6 +2288,7 @@
     <MaxHitPoints>600</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>0</Exp>
+    <StasisImmune />
     <Projectile id="0">
       <ObjectId>UDL Blue Magic</ObjectId>
       <Damage>40</Damage>
@@ -1464,7 +2296,7 @@
       <LifetimeMS>3000</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASESEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1472,6 +2304,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0db2" id="Ghost Rogue of Septavius">
     <Group>Lair Ghosts</Group>
@@ -1487,6 +2320,7 @@
     <MaxHitPoints>600</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>0</Exp>
+    <StasisImmune />
     <Projectile id="0">
       <ObjectId>UDL Blue Bolt</ObjectId>
       <Damage>30</Damage>
@@ -1494,7 +2328,7 @@
       <LifetimeMS>800</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,UDLBASESEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1502,6 +2336,815 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3669" id="HUDL Ghost God">
+    <DisplayId>Lair Native Ghost God</DisplayId>
+    <Enemy />
+    <Exp>200</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>1000</BXP>
+    <Defense>12</Defense>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>Ghost God Spike</ObjectId>
+      <Damage>170</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GOD,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x366a" id="HUDL Spectre God">
+    <DisplayId>Lair Spectre God</DisplayId>
+    <Enemy />
+    <Exp>200</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>undeadLairChars16x16</File>
+      <Index>17</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>1000</BXP>
+    <Defense>12</Defense>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>HUDL Spectre Bolt</ObjectId>
+      <Damage>160</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>100</Size>
+      <Amplitude>1.5</Amplitude>
+      <Frequency>1</Frequency>
+      <FaceDir />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>HUDL Spectre Chomp</ObjectId>
+      <Damage>220</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <ConditionEffect duration="4">Bleeding</ConditionEffect>
+      <Size>80</Size>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GOD,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x366b" id="HUDL Phantom God">
+    <DisplayId>Lair Phantom God</DisplayId>
+    <Enemy />
+    <Exp>200</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>undeadLairChars16x16</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>1000</BXP>
+    <Defense>12</Defense>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>HUDL Phantom Bolt</ObjectId>
+      <Damage>150</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>HUDL Phantom Eye</ObjectId>
+      <Damage>180</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>110</Size>
+      <Amplitude>1</Amplitude>
+      <Frequency>2</Frequency>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GOD,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x366c" id="HUDL Construct Colossus">
+    <DisplayId>Lair Construct Colossus</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>undeadLairChars16x16</File>
+      <Index>22</Index>
+    </AnimatedTexture>
+    <HitSound>monster/dwarf_god_hit</HitSound>
+    <DeathSound>monster/dwarf_god_death</DeathSound>
+    <Size>180</Size>
+    <MaxHitPoints>7000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Exp>150</Exp>
+    <BXP>712</BXP>
+    <Projectile id="0">
+      <ObjectId>HUDL Colossus Blast</ObjectId>
+      <Damage>180</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>120</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>HUDL Colossus Star</ObjectId>
+      <Damage>180</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
+    </Projectile>
+    <KillStat stat="ConstructKills" />
+    <Labels>ENEMY,MINION,CONSTRUCT,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x366d" id="HUDL Wraith">
+    <DisplayId>Lair Waith</DisplayId>
+    <Enemy />
+    <Exp>200</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>undeadLairChars16x16</File>
+      <Index>20</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <BXP>1000</BXP>
+    <Defense>10</Defense>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>HUDL Phantom Knife</ObjectId>
+      <Damage>60</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>110</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>HUDL Phantom Dagger</ObjectId>
+      <Damage>60</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GOD,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x366e" id="HUDL Living Armor">
+    <DisplayId>Living Armor</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>undeadLairChars16x16</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>5500</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>250</Exp>
+    <BXP>1187</BXP>
+    <Projectile id="0">
+      <ObjectId>HUDL Spectral Slash</ObjectId>
+      <Damage>135</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>HUDL Spectral Swipe</ObjectId>
+      <Damage>135</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>HUDL Spectral Slash</ObjectId>
+      <Damage>135</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>1600</LifetimeMS>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="LesserGodKills" />
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x366f" id="HUDL Hulking Mummy">
+    <DisplayId>Lair Hulking Mummy</DisplayId>
+    <Enemy />
+    <Exp>200</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>undeadLairChars16x16</File>
+      <Index>19</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <BXP>1000</BXP>
+    <Defense>25</Defense>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>HUDL Mummy Wave</ObjectId>
+      <Damage>180</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>HUDL Mummy Shot</ObjectId>
+      <Damage>140</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GOD,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3670" id="HUDL Brown Slime">
+    <DisplayId>Lair Brown Slime Mass</DisplayId>
+    <Enemy />
+    <Exp>200</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>undeadLairChars16x16</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>150</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <BXP>1000</BXP>
+    <Defense>12</Defense>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>HUDL Brown Slime Large Ball</ObjectId>
+      <Damage>150</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>HUDL Brown Slime Small Ball</ObjectId>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GOD,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3671" id="HUDL Black Slime">
+    <DisplayId>Lair Black Slime Mass</DisplayId>
+    <Enemy />
+    <Exp>200</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>undeadLairChars16x16</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>150</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <BXP>1000</BXP>
+    <Defense>12</Defense>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>HUDL Black Slime Large Ball</ObjectId>
+      <Damage>160</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>HUDL Black Slime Small Ball</ObjectId>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GOD,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3672" id="HUDL Skeletal Magistrate">
+    <DisplayId>Lair Skeletal Magistrate</DisplayId>
+    <Enemy />
+    <Exp>200</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>undeadLairChars16x16</File>
+      <Index>18</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <BXP>1000</BXP>
+    <Defense>5</Defense>
+    <Flying />
+    <God />
+    <Animation prob="1" id="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>100</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>102</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>103</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>104</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>105</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>106</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>107</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>108</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>109</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Projectile id="0">
+      <ObjectId>HUDL Spectral Barrage</ObjectId>
+      <Damage>85</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2300</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+      <ConditionEffect duration="3">Curse</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>HUDL Spectral Wave</ObjectId>
+      <Damage>170</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>100</Size>
+      <TurnRate>30</TurnRate>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>HUDL Spectral Wave</ObjectId>
+      <Damage>170</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>100</Size>
+      <TurnRate>-30</TurnRate>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GOD,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep id="1">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x3673" id="HUDL Giant Bat">
+    <DisplayId>Lair Giant Bat</DisplayId>
+    <Enemy />
+    <Exp>200</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>undeadLairChars16x16</File>
+      <Index>21</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2500</MaxHitPoints>
+    <BXP>1000</BXP>
+    <Defense>12</Defense>
+    <Flying />
+    <God />
+    <Projectile id="0">
+      <ObjectId>HUDL Bat Flap</ObjectId>
+      <Damage>60</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>900</LifetimeMS>
+      <Size>90</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>HUDL Bat Beat</ObjectId>
+      <Damage>60</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>600</LifetimeMS>
+      <Size>90</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GOD,MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3664" id="HUDL Burst Trap">
+    <Group>HLair Traps</Group>
+    <Enemy />
+    <DisplayId>Lair Burst Trap</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>241</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>242</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>243</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/traps_hit</HitSound>
+    <DeathSound>monster/traps_death</DeathSound>
+    <Size>100</Size>
+    <Invincible />
+    <DrawOnGround />
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>UDL White Magic</ObjectId>
+      <Damage>130</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x3666" id="HUDL Blast Trap">
+    <Group>HLair Traps</Group>
+    <Enemy />
+    <DisplayId>Lair Blast Trap</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>244</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>245</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>246</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/traps_hit</HitSound>
+    <DeathSound>monster/traps_death</DeathSound>
+    <Size>100</Size>
+    <Invincible />
+    <DrawOnGround />
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>UDL Pink Magic</ObjectId>
+      <Damage>130</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x3668" id="HUDL Boomerang Trap">
+    <Group>HLair Traps</Group>
+    <Enemy />
+    <DisplayId>Lair Boomerang Trap</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>250</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>251</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>252</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/traps_hit</HitSound>
+    <DeathSound>monster/traps_death</DeathSound>
+    <Size>100</Size>
+    <Invincible />
+    <DrawOnGround />
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>UDL Orange Magic</ObjectId>
+      <Damage>130</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Boomerang />
+    </Projectile>
+    <Labels>ENEMY</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x3679" id="HUDL Silence Trap">
+    <Group>HLair Traps</Group>
+    <Enemy />
+    <DisplayId>Lair Silence Trap</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>253</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>254</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>255</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/traps_hit</HitSound>
+    <DeathSound>monster/traps_death</DeathSound>
+    <Size>100</Size>
+    <Invincible />
+    <DrawOnGround />
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>UDL Blue Magic</ObjectId>
+      <Damage>80</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <ConditionEffect duration="3">Silenced</ConditionEffect>
+    </Projectile>
+    <Labels>ENEMY</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x367a" id="HUDL Spiral Trap">
+    <Group>HLair Traps</Group>
+    <Enemy />
+    <DisplayId>Lair Spiral Trap</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>247</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>248</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>249</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/traps_hit</HitSound>
+    <DeathSound>monster/traps_death</DeathSound>
+    <Size>100</Size>
+    <Invincible />
+    <DrawOnGround />
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>HUDL Purple Magic</ObjectId>
+      <Damage>160</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>1400</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x367b" id="HUDL Split Trap">
+    <Group>HLair Traps</Group>
+    <Enemy />
+    <DisplayId>Lair Split Trap</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>238</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>239</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>240</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/traps_hit</HitSound>
+    <DeathSound>monster/traps_death</DeathSound>
+    <Size>100</Size>
+    <Invincible />
+    <DrawOnGround />
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>HUDL Green Magic</ObjectId>
+      <Damage>150</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x777f" id="UDL Skeleton Wall">
     <Class>Wall</Class>
@@ -1697,6 +3340,375 @@
         <Texture>
           <File>undeadLairObjects8x8</File>
           <Index>0x42</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Color>0x69748C</Color>
+  </Object>
+  <Object type="0x365f" id="HUDL Normal Wall">
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>314</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>315</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>316</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>317</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>302</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>303</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>304</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>305</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Color>0x69748C</Color>
+  </Object>
+  <Object type="0x3660" id="HUDL Glow Wall">
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>322</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>323</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>324</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>325</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>306</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>307</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>308</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>309</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>310</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>311</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>312</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>313</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Color>0x69748C</Color>
+  </Object>
+  <Object type="0x3661" id="HUDL Accent Wall">
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>318</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>319</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>320</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>321</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>306</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>307</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>308</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>309</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>310</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>311</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>312</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>313</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Color>0x69748C</Color>
+  </Object>
+  <Object type="0x3662" id="HUDL Skull Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>326</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>306</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>307</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>308</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>309</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>310</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>311</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>312</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>313</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Color>0x69748C</Color>
+  </Object>
+  <Object type="0x3663" id="HUDL Ghost Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>327</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>306</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>307</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>308</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>309</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>310</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>311</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>312</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>313</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Color>0x69748C</Color>
+  </Object>
+  <Object type="0x3665" id="HUDL King Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>328</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>306</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>307</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>308</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>309</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>310</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>311</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>312</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>313</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+    <Color>0x69748C</Color>
+  </Object>
+  <Object type="0x3667" id="HUDL Bat Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>329</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>306</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>307</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>308</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>309</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>310</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>311</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>312</Index>
+        </Texture>
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>313</Index>
         </Texture>
       </RandomTexture>
     </Top>
@@ -2631,7 +4643,7 @@
     </Projectile>
     <KillStat stat="UndeadKills" />
     <KillStat stat="LesserGodKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_MID,UDLBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -2706,5 +4718,766 @@
     <Static />
     <OccupySquare />
     <EnemyOccupySquare />
+  </Object>
+  <Object type="0x3674" id="HUDL Banner">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>52</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>53</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>54</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>55</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>56</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>57</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>58</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>59</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0x3675" id="HUDL Armor Stand">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>65</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>65</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>65</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>65</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>65</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>66</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>67</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>68</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>69</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>70</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0x3676" id="HUDL Statue">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>71</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>72</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>73</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>74</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>75</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>76</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>77</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects16x16</File>
+        <Index>78</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0x3677" id="HUDL Glow Torch">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>undeadLairObjects16x16</File>
+      <Index>61</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>61</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>62</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>63</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>64</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0x3678" id="HUDL Empty Torch">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>undeadLairObjects16x16</File>
+      <Index>60</Index>
+    </Texture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0x3960" id="HUDL Treasure">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>268</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>269</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>270</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>271</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>278</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>276</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>277</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0x3961" id="HUDL Small Armor">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>264</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>265</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>266</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>267</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>272</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>273</Index>
+      </Texture>
+      <Texture>
+        <File>undeadLairObjects8x8</File>
+        <Index>274</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0x3967" id="HUDL Pillar">
+    <Class>GameObject</Class>
+    <Model>Pillar</Model>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>331</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0x367c" id="HUDL Black Slime Large Ball">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>280</Index>
+    </Texture>
+  </Object>
+  <Object type="0x367d" id="HUDL Black Slime Small Ball">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>282</Index>
+    </Texture>
+  </Object>
+  <Object type="0x394b" id="HUDL Brown Slime Large Ball">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>284</Index>
+    </Texture>
+  </Object>
+  <Object type="0x394c" id="HUDL Brown Slime Small Ball">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>286</Index>
+    </Texture>
+  </Object>
+  <Object type="0x394d" id="HUDL Small Black Slime Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>330</Index>
+    </Texture>
+  </Object>
+  <Object type="0x394e" id="HUDL Phantom Eye">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>281</Index>
+    </Texture>
+  </Object>
+  <Object type="0x394f" id="HUDL Phantom Bolt">
+    <Class>Projectile</Class>
+    <AngleCorrection>1</AngleCorrection>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>283</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3950" id="HUDL Spectre Chomp">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>285</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3951" id="HUDL Spectre Bolt">
+    <Class>Projectile</Class>
+    <AngleCorrection>1</AngleCorrection>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>287</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3952" id="HUDL Mummy Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>289</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3953" id="HUDL Mummy Wave">
+    <Class>Projectile</Class>
+    <AngleCorrection>1</AngleCorrection>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>291</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3954" id="HUDL Spectral Wave">
+    <Class>Projectile</Class>
+    <AngleCorrection>1</AngleCorrection>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>288</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3955" id="HUDL Spectral Barrage">
+    <Class>Projectile</Class>
+    <AngleCorrection>1</AngleCorrection>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>290</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3956" id="HUDL Phantom Dagger">
+    <Class>Projectile</Class>
+    <AngleCorrection>1</AngleCorrection>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>292</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3957" id="HUDL Phantom Knife">
+    <Class>Projectile</Class>
+    <AngleCorrection>1</AngleCorrection>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>293</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3958" id="HUDL Bat Flap">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>294</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3959" id="HUDL Bat Beat">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>296</Index>
+    </Texture>
+  </Object>
+  <Object type="0x395a" id="HUDL Colossus Star">
+    <Class>Projectile</Class>
+    <Rotation>5</Rotation>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>295</Index>
+    </Texture>
+  </Object>
+  <Object type="0x395b" id="HUDL Colossus Blast">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>297</Index>
+    </Texture>
+  </Object>
+  <Object type="0x395c" id="HUDL Spectral Wisp">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>298</Index>
+    </Texture>
+  </Object>
+  <Object type="0x395d" id="HUDL Spectral Bolt">
+    <Class>Projectile</Class>
+    <AngleCorrection>1</AngleCorrection>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>300</Index>
+    </Texture>
+  </Object>
+  <Object type="0x395e" id="HUDL Spectral Swipe">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>299</Index>
+    </Texture>
+  </Object>
+  <Object type="0x395f" id="HUDL Spectral Slash">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>301</Index>
+    </Texture>
+  </Object>
+  <Object type="0x396b" id="HUDL Septavius Slash">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects16x16</File>
+      <Index>129</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>129</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>130</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>131</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>136</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0x396c" id="HUDL Septavius Stab">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects16x16</File>
+      <Index>132</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>132</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>133</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>134</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>135</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0x396e" id="HUDL Spectral Skel Shot">
+    <Class>Projectile</Class>
+    <AngleCorrection>1</AngleCorrection>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>336</Index>
+    </Texture>
+  </Object>
+  <Object type="0x396f" id="HUDL Skel Shot">
+    <Class>Projectile</Class>
+    <AngleCorrection>1</AngleCorrection>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>335</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3976" id="HUDL Purple Magic">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>89</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3977" id="HUDL Green Magic">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>337</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3978" id="HUDL Spectral Bone">
+    <Class>Projectile</Class>
+    <AngleCorrection>1</AngleCorrection>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>338</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3963" id="HUDL Living Armor Trigger">
+    <DisplayId>Living Armor</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>undeadLairObjects16x16</File>
+      <Index>65</Index>
+    </Texture>
+    <Size>100</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x3964" id="HUDL Living Armor Animation">
+    <DisplayId>Living Armor</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>undeadLairObjects16x16</File>
+      <Index>110</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>110</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>111</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>112</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>113</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>114</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>115</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>116</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>117</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>118</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>119</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>120</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>121</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>122</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>123</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>124</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>125</Index>
+        </Texture>
+      </Frame>
+      <Frame time="10">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>126</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x3979" id="HUDL Boss Room Closer Up">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>theShattersChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3a11" id="HUDL Boss Room Closer Down">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>theShattersChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x397b" id="HUDL Bossroom Anchor">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x397c" id="HUDL Boss Teleporter">
+    <Class>Portal</Class>
+    <TeleportingPortal />
+    <Texture>
+      <File>undeadLairObjects16x16</File>
+      <Index>61</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>61</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>62</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>63</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects16x16</File>
+          <Index>64</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <Color>0x0202F1</Color>
+    <Effect color="0x7dedfa" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="5" rise="0" riseAcc="0" riseVariance="0" rangeX="1" rangeY="1">CustomParticles</Effect>
+  </Object>
+  <Object type="0x3962" id="Adv Undead Lair Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <DisplayId>Heroic Undead Lair</DisplayId>
+    <DungeonName>Heroic Undead Lair</DungeonName>
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>260</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>260</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>261</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>262</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>undeadLairObjects8x8</File>
+          <Index>263</Index>
+        </Texture>
+      </Frame>
+    </Animation>
   </Object>
 </Objects>

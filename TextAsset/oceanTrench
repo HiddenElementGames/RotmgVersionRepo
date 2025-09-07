@@ -9,6 +9,7 @@
       <File>chars16x16dEncounters2</File>
       <Index>16</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
     <MaxHitPoints>51750</MaxHitPoints>
@@ -23,6 +24,7 @@
     <PerRealmMax>1</PerRealmMax>
     <Level>20</Level>
     <Size>140</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Defense>60</Defense>
     <NoArticle />
     <EventChestBoss />
@@ -102,7 +104,7 @@
       <Damage>80</Damage>
       <Size>130</Size>
       <LifetimeMS>2200</LifetimeMS>
-      <ConditionEffect duration="3.4">Confused</ConditionEffect>
+      <ConditionEffect duration="3.4">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>Coral Shot</ObjectId>
@@ -123,6 +125,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x1701" id="Deep Sea Beast Spawner">
     <Group>Ocean Trench</Group>
@@ -267,6 +270,7 @@
         <Index>0x24</Index>
       </Texture>
     </AltTexture>
+    <MinimapIcon piece="DangerSmall" />
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/flaming_skulls_death</DeathSound>
     <KillStat stat="NatureKills" />
@@ -284,6 +288,7 @@
       <File>chars16x16dEncounters2</File>
       <Index>16</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
     <MaxHitPoints>51750</MaxHitPoints>
@@ -297,6 +302,7 @@
     <PerRealmMax>1</PerRealmMax>
     <Level>20</Level>
     <Size>140</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Defense>60</Defense>
     <NoArticle />
     <EventChestBoss />
@@ -335,12 +341,13 @@
       <ConditionEffect duration="6">Weak</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="34" dustMax="78" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="24" dustMax="30" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="39" dustMax="45" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="25" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Ocean Trench Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Common Aquatic Egg</SpecialSpawn>
@@ -359,6 +366,8 @@
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Oryxmania">Thessal Arena Portal</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0x1554" id="Thessal Dropper">
     <Class>GameObject</Class>
@@ -378,13 +387,12 @@
     </AnimatedTexture>
     <HitSound>monster/abyss_demons_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
-    <MaxHitPoints>15000</MaxHitPoints>
+    <MaxHitPoints>10000</MaxHitPoints>
     <ShadowSize>0</ShadowSize>
     <StasisImmune />
-    <PerRealmMax>1</PerRealmMax>
     <Exp>0</Exp>
     <Size>60</Size>
-    <Defense>60</Defense>
+    <Defense>20</Defense>
     <Projectile id="0">
       <ObjectId>Deep Sea Blast</ObjectId>
       <Speed>30</Speed>
@@ -447,7 +455,7 @@
       <Damage>65</Damage>
       <Size>100</Size>
       <LifetimeMS>3000</LifetimeMS>
-      <ConditionEffect duration="1.8">Confused</ConditionEffect>
+      <ConditionEffect duration="1.8">Unstable</ConditionEffect>
     </Projectile>
     <Size>100</Size>
     <Defense>40</Defense>
@@ -460,6 +468,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x1709" id="Sea Horse">
     <Group>Ocean Trench</Group>
@@ -495,6 +504,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x170a" id="Sea Mare">
     <Group>Ocean Trench</Group>
@@ -536,6 +546,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x170b" id="Ink Bubble">
     <Group>Ocean Trench</Group>
@@ -556,7 +567,6 @@
       <Size>100</Size>
       <LifetimeMS>1200</LifetimeMS>
       <MultiHit />
-      <ConditionEffect duration="3">Blind</ConditionEffect>
     </Projectile>
     <Size>120</Size>
     <Defense>40</Defense>
@@ -604,6 +614,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x170d" id="Sea Slurp Home">
     <Group>Ocean Trench</Group>
@@ -654,6 +665,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x170e" id="Grey Sea Slurp">
     <Group>Ocean Trench</Group>
@@ -693,6 +705,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x170f" id="OceanRock">
     <Class>GameObject</Class>

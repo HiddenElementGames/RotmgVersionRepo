@@ -260,6 +260,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x701c" id="Crawling Grey Spider">
     <Class>Character</Class>
@@ -752,9 +753,11 @@
         <Index>6</Index>
       </AnimatedTexture>
     </Portrait>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/spider_queen_hit</HitSound>
     <DeathSound>monster/spider_queen_death</DeathSound>
     <Size>200</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>15000</Exp>
@@ -897,12 +900,12 @@
       <ConditionEffect duration="4">Slowed</ConditionEffect>
       <ArmorPiercing />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="45" dustMax="104" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="13" dustMax="31" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust dustMin="37" dustMax="43" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="41" dustMax="47" seasonalBonus="0.15">redDust</SoulboundDust>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">The Crawling Depths</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Insect Egg</SpecialSpawn>
@@ -918,6 +921,8 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0x707d" id="Silver Son of Arachna Giant Egg Sac">
     <Enemy />
@@ -939,9 +944,11 @@
         <Index>0x2b</Index>
       </Texture>
     </AltTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/eggs_hit</HitSound>
     <DeathSound>monster/eggs_death</DeathSound>
     <Size>120</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <MaxHitPoints>11000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2000</Exp>
@@ -987,9 +994,11 @@
         <Index>0x2a</Index>
       </Texture>
     </AltTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/eggs_hit</HitSound>
     <DeathSound>monster/eggs_death</DeathSound>
     <Size>120</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <MaxHitPoints>11000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2000</Exp>
@@ -1035,9 +1044,11 @@
         <Index>0x28</Index>
       </Texture>
     </AltTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/eggs_hit</HitSound>
     <DeathSound>monster/eggs_death</DeathSound>
     <Size>120</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <MaxHitPoints>11000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2000</Exp>
@@ -1083,9 +1094,11 @@
         <Index>0x29</Index>
       </Texture>
     </AltTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/eggs_hit</HitSound>
     <DeathSound>monster/eggs_death</DeathSound>
     <Size>120</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <MaxHitPoints>11000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2000</Exp>

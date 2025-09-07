@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
-  <Object type="0x0b01" id="Stone Guardian Support">
+  <Object type="0x0B01" id="Stone Guardian Support">
     <Class>GameObject</Class>
     <AnimatedTexture>
       <File>d3Chars8x8rEmbed</File>
@@ -8,7 +8,7 @@
     </AnimatedTexture>
     <Size>0</Size>
   </Object>
-  <Object type="0x0d70" id="Destructible Castle Wall">
+  <Object type="0x0D70" id="Destructible Castle Wall">
     <Class>Wall</Class>
     <Texture>
       <File>lofiEnvironment</File>
@@ -32,7 +32,7 @@
     <BlocksSight />
     <KillStat stat="StructureKills" />
   </Object>
-  <Object type="0x0b70" id="Fortified Destructible Castle Wall">
+  <Object type="0x0B70" id="Fortified Destructible Castle Wall">
     <Class>Wall</Class>
     <Texture>
       <File>d3LofiObjEmbed</File>
@@ -56,7 +56,7 @@
     <BlocksSight />
     <KillStat stat="StructureKills" />
   </Object>
-  <Object type="0x0b09" id="Destructible Castle Ice Wall">
+  <Object type="0x0B09" id="Destructible Castle Ice Wall">
     <Class>Wall</Class>
     <Texture>
       <File>lofiObj3</File>
@@ -80,7 +80,7 @@
     <BlocksSight />
     <KillStat stat="StructureKills" />
   </Object>
-  <Object type="0x0b0a" id="Fortified Destructible Castle Ice Wall">
+  <Object type="0x0B0A" id="Fortified Destructible Castle Ice Wall">
     <Class>Wall</Class>
     <Texture>
       <File>d3LofiObjEmbed</File>
@@ -104,7 +104,7 @@
     <BlocksSight />
     <KillStat stat="StructureKills" />
   </Object>
-  <Object type="0x0d71" id="Suit of Armor">
+  <Object type="0x0D71" id="Suit of Armor">
     <Class>Character</Class>
     <Texture>
       <File>lofiChar216x16</File>
@@ -131,7 +131,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0d72" id="Suit of Armor Sm">
+  <Object type="0x0D72" id="Suit of Armor Sm">
     <DisplayId>Suit of Armor</DisplayId>
     <Class>GameObject</Class>
     <AnimatedTexture>
@@ -156,7 +156,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0d73" id="CastleArch Wall Flame">
+  <Object type="0x0D73" id="CastleArch Wall Flame">
     <DisplayId>Castle Arch Wall</DisplayId>
     <Class>Wall</Class>
     <Texture>
@@ -189,7 +189,7 @@
     <EnemyOccupySquare />
     <BlocksSight />
   </Object>
-  <Object type="0x0d74" id="CastleArch Wall">
+  <Object type="0x0D74" id="CastleArch Wall">
     <DisplayId>Castle Arch Wall</DisplayId>
     <Class>Wall</Class>
     <Texture>
@@ -210,7 +210,7 @@
     <EnemyOccupySquare />
     <BlocksSight />
   </Object>
-  <Object type="0x0d75" id="Castle Wall Blank">
+  <Object type="0x0D75" id="Castle Wall Blank">
     <Class>Wall</Class>
     <Texture>
       <File>lofiEnvironment2</File>
@@ -230,7 +230,7 @@
     <EnemyOccupySquare />
     <BlocksSight />
   </Object>
-  <Object type="0x0d76" id="Castle Brick Wall2">
+  <Object type="0x0D76" id="Castle Brick Wall2">
     <DisplayId>Brick Castle Wall</DisplayId>
     <Class>Wall</Class>
     <Texture>
@@ -251,7 +251,7 @@
     <EnemyOccupySquare />
     <BlocksSight />
   </Object>
-  <Object type="0x0d77" id="Castle Brick Wall3">
+  <Object type="0x0D77" id="Castle Brick Wall3">
     <DisplayId>Brick Castle Wall</DisplayId>
     <Class>Wall</Class>
     <Texture>
@@ -272,7 +272,7 @@
     <EnemyOccupySquare />
     <BlocksSight />
   </Object>
-  <Object type="0x0d78" id="Oryx Stone Guardian Right">
+  <Object type="0x0D78" id="Oryx Stone Guardian Right">
     <DisplayId>Stone Guardian</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -312,6 +312,7 @@
         <Index>0</Index>
       </AnimatedTexture>
     </AltTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/stone_walls_death</HitSound>
     <DeathSound>monster/flying_brain_death</DeathSound>
     <Projectile id="0">
@@ -343,12 +344,13 @@
     <BXP>50000</BXP>
     <Defense>80</Defense>
     <MaxHitPoints>45000</MaxHitPoints>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="29" dustMax="68" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <SoulboundDust dustMin="31" dustMax="39" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD,AMULET_ROOKIE</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -364,7 +366,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0x0d79" id="Oryx Stone Guardian Left">
+  <Object type="0x0D79" id="Oryx Stone Guardian Left">
     <DisplayId>Stone Guardian</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -404,6 +406,7 @@
         <Index>6</Index>
       </AnimatedTexture>
     </AltTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/stone_walls_death</HitSound>
     <DeathSound>monster/flying_brain_death</DeathSound>
     <Projectile id="0">
@@ -435,12 +438,13 @@
     <BXP>50000</BXP>
     <Defense>80</Defense>
     <MaxHitPoints>45000</MaxHitPoints>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="29" dustMax="68" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <SoulboundDust dustMin="31" dustMax="39" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD,AMULET_ROOKIE</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -456,7 +460,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0xb536" id="Infested Oryx Stone Guardian Right">
+  <Object type="0xB536" id="Infested Oryx Stone Guardian Right">
     <DisplayId>Stone Guardian</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -495,6 +499,7 @@
         <Index>130</Index>
       </AnimatedTexture>
     </AltTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/stone_walls_death</HitSound>
     <DeathSound>monster/flying_brain_death</DeathSound>
     <Projectile id="0">
@@ -526,12 +531,13 @@
     <BXP>50000</BXP>
     <Defense>80</Defense>
     <MaxHitPoints>45000</MaxHitPoints>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="29" dustMax="68" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <SoulboundDust dustMin="31" dustMax="39" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD,AMULET_ROOKIE</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -547,7 +553,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0xb537" id="Infested Oryx Stone Guardian Left">
+  <Object type="0xB537" id="Infested Oryx Stone Guardian Left">
     <DisplayId>Stone Guardian</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -587,6 +593,7 @@
         <Index>135</Index>
       </AnimatedTexture>
     </AltTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/stone_walls_death</HitSound>
     <DeathSound>monster/flying_brain_death</DeathSound>
     <Projectile id="0">
@@ -618,12 +625,13 @@
     <BXP>50000</BXP>
     <Defense>80</Defense>
     <MaxHitPoints>45000</MaxHitPoints>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="29" dustMax="68" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <SoulboundDust dustMin="31" dustMax="39" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD,AMULET_ROOKIE</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -639,7 +647,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0x0d7a" id="Oryx Guardian TaskMaster">
+  <Object type="0x0D7A" id="Oryx Guardian TaskMaster">
     <BlockPlayerPortals />
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -653,7 +661,7 @@
     <EventChestBoss />
     <Labels>ENEMY,BOSS,HPSCALEONENTRY</Labels>
   </Object>
-  <Object type="0x0d7c" id="Oryx Guardian Sword">
+  <Object type="0x0D7C" id="Oryx Guardian Sword">
     <DisplayId>Stone Guardian Sword</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -681,7 +689,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0xb53a" id="Infested Oryx Guardian Sword">
+  <Object type="0xB53A" id="Infested Oryx Guardian Sword">
     <DisplayId>Stone Guardian Sword</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -709,7 +717,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0x0d7d" id="Oryx Armor Spawner">
+  <Object type="0x0D7D" id="Oryx Armor Spawner">
     <Group>Oryx Minions</Group>
     <Class>GameObject</Class>
     <AnimatedTexture>
@@ -718,7 +726,7 @@
     </AnimatedTexture>
     <Size>0</Size>
   </Object>
-  <Object type="0x0d7e" id="Oryx Suit of Armor">
+  <Object type="0x0D7E" id="Oryx Suit of Armor">
     <DisplayId>Haunted Armor</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -771,7 +779,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0x0d7f" id="Oryx Insect Commander">
+  <Object type="0x0D7F" id="Oryx Insect Commander">
     <DisplayId>Commander of Oryx</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -815,7 +823,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0d80" id="Oryx Insect Minion">
+  <Object type="0x0D80" id="Oryx Insect Minion">
     <DisplayId>Insect Minion</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -875,8 +883,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0d81" id="Oryx Eye Warrior">
+  <Object type="0x0D81" id="Oryx Eye Warrior">
     <DisplayId>Warrior of Oryx</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -916,7 +925,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0d82" id="Oryx Brute">
+  <Object type="0x0D82" id="Oryx Brute">
     <DisplayId>Brute of Oryx</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -979,7 +988,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0d83" id="Oryx Knight">
+  <Object type="0x0D83" id="Oryx Knight">
     <DisplayId>Knight of Oryx</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -1036,7 +1045,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0d84" id="Oryx Pet">
+  <Object type="0x0D84" id="Oryx Pet">
     <DisplayId>Pet of Oryx</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -1070,8 +1079,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0d85" id="Oryx's Living Floor Fire Down">
+  <Object type="0x0D85" id="Oryx's Living Floor Fire Down">
     <DisplayId>Oryx's Living Floor</DisplayId>
     <Group>Oryx's Minions</Group>
     <Class>GameObject</Class>
@@ -1118,7 +1128,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0x0d86" id="Quiet Bomb">
+  <Object type="0x0D86" id="Quiet Bomb">
     <Group>Oryx's Minions</Group>
     <Class>GameObject</Class>
     <Enemy />
@@ -1158,7 +1168,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0x0d87" id="Oryx's Living Floor">
+  <Object type="0x0D87" id="Oryx's Living Floor">
     <Group>Oryx's Minions</Group>
     <Class>GameObject</Class>
     <Enemy />
@@ -1204,7 +1214,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0x0d88" id="Oryx Suit of Armor Snowy">
+  <Object type="0x0D88" id="Oryx Suit of Armor Snowy">
     <DisplayId>Snowy Haunted Armor</DisplayId>
     <Group>Oryx Minions</Group>
     <Enemy />
@@ -1257,7 +1267,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0x0d8b" id="Grey Pillar Snowy">
+  <Object type="0x0D8B" id="Grey Pillar Snowy">
     <Class>GameObject</Class>
     <Model>Pillar</Model>
     <Texture>
@@ -1268,7 +1278,7 @@
     <OccupySquare />
     <EnemyOccupySquare />
   </Object>
-  <Object type="0xb3a7" id="Infested Parasite Pillar">
+  <Object type="0xB3A7" id="Infested Parasite Pillar">
     <Class>GameObject</Class>
     <Model>Pillar</Model>
     <Texture>
@@ -1279,7 +1289,7 @@
     <OccupySquare />
     <EnemyOccupySquare />
   </Object>
-  <Object type="0xb3a6" id="Infested pD Boss Target">
+  <Object type="0xB3A6" id="Infested pD Boss Target">
     <BlockPlayerPortals />
     <Class>GameObject</Class>
     <Texture>
@@ -1288,7 +1298,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0xb3b2" id="Infested pD Boss">
+  <Object type="0xB3B2" id="Infested pD Boss">
     <DisplayId>Nightmare Colony</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1367,7 +1377,7 @@
     <HealthBarBoss radius="20" />
     <KillStat stat="GrotesqueKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,HPSCALEONENTRY,AMULET_VETERAN</Labels>
     <SpecialSpawn category="Bis">Wine Cellar Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Woodland Egg</SpecialSpawn>
@@ -1384,8 +1394,10 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
-  <Object type="0xb3b3" id="Infested pD Boss Support">
+  <Object type="0xB3B3" id="Infested pD Boss Support">
     <DisplayId>Nightmare Colony</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1439,7 +1451,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0xb3b4" id="Infested pD Blob Colony">
+  <Object type="0xB3B4" id="Infested pD Blob Colony">
     <DisplayId>Blob Colony</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1488,7 +1500,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0xb3b5" id="Infested pD Pterasite Colony">
+  <Object type="0xB3B5" id="Infested pD Pterasite Colony">
     <DisplayId>Pterasite Colony</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1537,7 +1549,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0xb3b6" id="Infested pD Swarm Colony">
+  <Object type="0xB3B6" id="Infested pD Swarm Colony">
     <DisplayId>Swarm Colony</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1642,7 +1654,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0xb3b7" id="Infested pD Walker C">
+  <Object type="0xB3B7" id="Infested pD Walker C">
     <DisplayId>Walking Horror</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1672,7 +1684,7 @@
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,GROTESQUE</Labels>
   </Object>
-  <Object type="0xb3b8" id="Infested pD Maw C">
+  <Object type="0xB3B8" id="Infested pD Maw C">
     <DisplayId>Horror Maw</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1732,7 +1744,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0xb3b9" id="Infested pD Tongue C">
+  <Object type="0xB3B9" id="Infested pD Tongue C">
     <DisplayId>Furious Lasher</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1768,7 +1780,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
-  <Object type="0xb3ba" id="Infested pD Painling C">
+  <Object type="0xB3BA" id="Infested pD Painling C">
     <DisplayId>Painling</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1809,7 +1821,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0xb3bb" id="Infested pD Stalker C">
+  <Object type="0xB3BB" id="Infested pD Stalker C">
     <DisplayId>Parasitic Stalker</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1844,7 +1856,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0xb3bc" id="Infested Suit of Armor">
+  <Object type="0xB3BC" id="Infested Suit of Armor">
     <Class>Character</Class>
     <Texture>
       <File>lofiObjBig</File>

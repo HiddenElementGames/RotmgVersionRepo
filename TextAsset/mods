@@ -292,6 +292,7 @@
     <IncompatibleLabels>REWARD</IncompatibleLabels>
     <Mutators>
       <EntityDropMultiplier amount="1.15" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="1.15" reqLabels="MINIBOSS" />
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="REWARDSBOOSTBOSS_2" type="0x004a">
@@ -302,6 +303,7 @@
     <IncompatibleLabels>REWARD</IncompatibleLabels>
     <Mutators>
       <EntityDropMultiplier amount="1.30" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="1.15" reqLabels="MINIBOSS" />
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="REWARDSBOOSTBOSS_3" type="0x004b">
@@ -312,6 +314,7 @@
     <IncompatibleLabels>REWARD</IncompatibleLabels>
     <Mutators>
       <EntityDropMultiplier amount="1.45" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="1.15" reqLabels="MINIBOSS" />
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="REWARDSBOOSTBOSS_4" type="0x004c">
@@ -322,6 +325,7 @@
     <IncompatibleLabels>REWARD</IncompatibleLabels>
     <Mutators>
       <EntityDropMultiplier amount="1.60" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="1.15" reqLabels="MINIBOSS" />
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="REWARDSBOOSTBOSS_5" type="0x004d">
@@ -332,6 +336,7 @@
     <IncompatibleLabels>REWARD</IncompatibleLabels>
     <Mutators>
       <EntityDropMultiplier amount="1.75" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="1.15" reqLabels="MINIBOSS" />
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="WEAKMINIONS_1" type="0x004e">
@@ -961,6 +966,16 @@
   <DungeonModifier id="KEENMINIONS_1" type="0x00a3">
     <DisplayId>Keen Minions I</DisplayId>
     <PowerLevel>-1</PowerLevel>
+    <Description>Minions' projectiles travel 4% faster</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <IncompatibleLabels>PROJSPD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="1.04" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="KEENMINIONS_2" type="0x00a4">
+    <DisplayId>Keen Minions II</DisplayId>
+    <PowerLevel>-2</PowerLevel>
     <Description>Minions' projectiles travel 8% faster</Description>
     <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
     <IncompatibleLabels>PROJSPD</IncompatibleLabels>
@@ -968,44 +983,34 @@
       <EntityStatMultiplier stat="ProjectileSpeed" amount="1.08" reqLabels="MINION" />
     </Mutators>
   </DungeonModifier>
-  <DungeonModifier id="KEENMINIONS_2" type="0x00a4">
-    <DisplayId>Keen Minions II</DisplayId>
-    <PowerLevel>-2</PowerLevel>
-    <Description>Minions' projectiles travel 16% faster</Description>
-    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
-    <IncompatibleLabels>PROJSPD</IncompatibleLabels>
-    <Mutators>
-      <EntityStatMultiplier stat="ProjectileSpeed" amount="1.16" reqLabels="MINION" />
-    </Mutators>
-  </DungeonModifier>
   <DungeonModifier id="KEENMINIONS_3" type="0x00a5">
     <DisplayId>Keen Minions III</DisplayId>
     <PowerLevel>-3</PowerLevel>
-    <Description>Minions' projectiles travel 24% faster</Description>
+    <Description>Minions' projectiles travel 12% faster</Description>
     <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
     <IncompatibleLabels>PROJSPD</IncompatibleLabels>
     <Mutators>
-      <EntityStatMultiplier stat="ProjectileSpeed" amount="1.24" reqLabels="MINION" />
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="1.12" reqLabels="MINION" />
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="KEENMINIONS_4" type="0x00a6">
     <DisplayId>Keen Minions IV</DisplayId>
     <PowerLevel>-4</PowerLevel>
-    <Description>Minions' projectiles travel 40% faster</Description>
+    <Description>Minions' projectiles travel 20% faster</Description>
     <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
     <IncompatibleLabels>PROJSPD</IncompatibleLabels>
     <Mutators>
-      <EntityStatMultiplier stat="ProjectileSpeed" amount="1.40" reqLabels="MINION" />
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="1.20" reqLabels="MINION" />
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="KEENMINIONS_5" type="0x00a7">
     <DisplayId>Keen Minions V</DisplayId>
     <PowerLevel>-5</PowerLevel>
-    <Description>Minions' projectiles travel 48% faster</Description>
+    <Description>Minions' projectiles travel 24% faster</Description>
     <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
     <IncompatibleLabels>PROJSPD</IncompatibleLabels>
     <Mutators>
-      <EntityStatMultiplier stat="ProjectileSpeed" amount="1.48" reqLabels="MINION" />
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="1.24" reqLabels="MINION" />
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="ENERGIZEDMINIONS_1" type="0x00a8">
@@ -1171,33 +1176,33 @@
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="KEYFAIRY_1" type="0x00df">
-    <DisplayId>Key Fairy I</DisplayId>
+    <DisplayId>Key Fairy</DisplayId>
     <PowerLevel>3</PowerLevel>
-    <Description>A Key Fairy has a 20% chance of spawning and dropping a Mystery key.</Description>
+    <Description>A Key Fairy will spawn after defeating the boss dropping a random key and Enchantment Dust.</Description>
     <Labels>REWARD,BOSS,LOOT,REWARD_LOW,REWARD_MID,REWARD_HIGH</Labels>
     <IncompatibleLabels>REWARD</IncompatibleLabels>
     <Mutators>
-      <SpecialSpawnOnDeath category="Key_Fairy" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.20" />
+      <SpecialSpawnOnDeath category="Key_Fairy" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="KEYFAIRY_2" type="0x00e0">
-    <DisplayId>Key Fairy II</DisplayId>
+    <DisplayId>Key Fairy</DisplayId>
     <PowerLevel>4</PowerLevel>
-    <Description>A Key Fairy has a 33% chance of spawning and dropping a Mystery key.</Description>
+    <Description>A Key Fairy will spawn after defeating the boss dropping a random key and Enchantment Dust.</Description>
     <Labels>REWARD,BOSS,LOOT,REWARD_LOW,REWARD_MID,REWARD_HIGH</Labels>
     <IncompatibleLabels>REWARD</IncompatibleLabels>
     <Mutators>
-      <SpecialSpawnOnDeath category="Key_Fairy" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.33" />
+      <SpecialSpawnOnDeath category="Key_Fairy" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="KEYFAIRY_3" type="0x00e1">
-    <DisplayId>Key Fairy III</DisplayId>
+    <DisplayId>Key Fairy</DisplayId>
     <PowerLevel>5</PowerLevel>
-    <Description>A Key Fairy has a 50% chance of spawning and dropping a Mystery key.</Description>
+    <Description>A Key Fairy will spawn after defeating the boss dropping a random key and Enchantment Dust.</Description>
     <Labels>REWARD,BOSS,LOOT,REWARD_LOW,REWARD_MID,REWARD_HIGH</Labels>
     <IncompatibleLabels>REWARD</IncompatibleLabels>
     <Mutators>
-      <SpecialSpawnOnDeath category="Key_Fairy" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.50" />
+      <SpecialSpawnOnDeath category="Key_Fairy" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="MYSTERYSKIN" type="0x00e4">
@@ -1797,5 +1802,179 @@
     <Mutators>
       <SpecialSpawnOnDeath category="Easter_Loot" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
     </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ALIEN_WORMHOLES" type="0x0161">
+    <DisplayId>Unstable Wormholes</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>A portal to an alien dungeon will appear when the boss is defeated.</Description>
+    <Labels>EXTRABOSS,ALIENS</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Alien_Portals" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SPIRIT_SNAKE_SWARM" type="0x165">
+    <DisplayId>Spirit Snake Swarm</DisplayId>
+    <PowerLevel>-4</PowerLevel>
+    <Description>Enemies have a 15% chance to split into multiple snakes that drop divine oil on death.</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SPAWNONDEATH</Labels>
+    <IncompatibleLabels>SPAWNONDEATH</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Swarm_Spirit_Snake_Spawner" reqLabels="MINION_WEAK" excludeLabels="SPECIAL" prob="0.15" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NIGHTMATTER_RIFT_1" type="0x166">
+    <DisplayId>Nightmatter Rift I</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 50%.</Description>
+    <Labels>INFO,NIGHTMATTER_RIFT_1</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NIGHTMATTER_RIFT_2" type="0x167">
+    <DisplayId>Nightmatter Rift II</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 55%.</Description>
+    <Labels>INFO,NIGHTMATTER_RIFT_2</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NIGHTMATTER_RIFT_3" type="0x168">
+    <DisplayId>Nightmatter Rift III</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 60%.</Description>
+    <Labels>INFO,NIGHTMATTER_RIFT_3</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="SHADOW_OF_THE_LEGION" type="0x0169">
+    <DisplayId>Shadow of the Legion</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>40% chance to battle Inspector Stromwell in his Rift after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS,SHADOW_OF_THE_LEGION</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="SHADOW_OF_THE_LEGION" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.4" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_D0" type="0x180">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_D1" type="0x181">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_C0" type="0x182">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_C1" type="0x183">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_C2" type="0x184">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_B0" type="0x185">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_B1" type="0x186">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_B2" type="0x187">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_A0" type="0x188">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_A1" type="0x189">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_A2" type="0x18A">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_S0" type="0x18B">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_S1" type="0x18C">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_S2" type="0x18D">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_S3" type="0x18E">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
   </DungeonModifier>
 </DungeonModifiers>

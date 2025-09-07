@@ -181,4 +181,88 @@
       <LifetimeMS>600</LifetimeMS>
     </Projectile>
   </Object>
+  <Object type="0xe263" id="DPS Dummy Standard">
+    <DisplayId>DPS Dummy 0</DisplayId>
+    <Class>Enemy</Class>
+    <Enemy />
+    <Exp>195</Exp>
+    <Texture>
+      <File>lofiEnvironment3</File>
+      <Index>0x97</Index>
+    </Texture>
+    <Size>130</Size>
+    <CustomHitbox x="0" y="0" scale="1.0" />
+    <MaxHitPoints>10000000</MaxHitPoints>
+    <ShadowSize>50</ShadowSize>
+    <AlwaysPositiveHealth />
+    <NoMiniMap />
+  </Object>
+  <Object type="0xe264" id="DPS Dummy Medium">
+    <DisplayId>DPS Dummy 0</DisplayId>
+    <Class>Enemy</Class>
+    <Enemy />
+    <Exp>195</Exp>
+    <Texture>
+      <File>lofiEnvironment3</File>
+      <Index>0x97</Index>
+    </Texture>
+    <Size>150</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
+    <MaxHitPoints>10000000</MaxHitPoints>
+    <ShadowSize>50</ShadowSize>
+    <AlwaysPositiveHealth />
+    <NoMiniMap />
+  </Object>
+  <Object type="0xe265" id="DPS Dummy Large">
+    <DisplayId>DPS Dummy 0</DisplayId>
+    <Class>Enemy</Class>
+    <Enemy />
+    <Exp>195</Exp>
+    <Texture>
+      <File>lofiEnvironment3</File>
+      <Index>0x97</Index>
+    </Texture>
+    <Size>170</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <MaxHitPoints>10000000</MaxHitPoints>
+    <ShadowSize>50</ShadowSize>
+    <AlwaysPositiveHealth />
+    <NoMiniMap />
+  </Object>
+  <Object type="0xe262" id="DPS Dummy Speaker">
+    <DisplayId>DPS Tester</DisplayId>
+    <Class>InteractiveInfoObject</Class>
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>761</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <DrawOnGround />
+    <NoMiniMap />
+    <InteractInfo distance="4" title="Dps commands" text="The Dps targets at the top of this room have hitbox size 1, 1.5 and 2 respectively. On the sides of the room are groups of normal dps targets to test multihit or AoE damage. Say start to begin a 5 second Dps Period, start ten for 10 seconds, and start thirty for 30 seconds." />
+  </Object>
+  <Object type="0xe266" id="DPS Dungeon Portal">
+    <Class>Portal</Class>
+    <DungeonName>DPS Test</DungeonName>
+    <IntergamePortal />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x4f7</Index>
+    </Texture>
+    <Animation prob="1" period=".8">
+      <Frame time="0.4">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x4f7</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>lofiObj3</File>
+          <Index>0x4f8</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
 </Objects>

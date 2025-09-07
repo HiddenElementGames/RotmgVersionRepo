@@ -1795,4 +1795,17 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE</Labels>
   </Object>
+  <Object type="0x2AEE" id="Test ConditionEffect Enemy">
+    <Group>Pirates</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rBeach</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>500000</MaxHitPoints>
+  </Object>
 </Objects>

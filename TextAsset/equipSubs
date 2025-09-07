@@ -1851,8 +1851,8 @@
     <Projectile id="0">
       <ObjectId>Buzzy Arrow</ObjectId>
       <Speed>160</Speed>
-      <MinDamage>80</MinDamage>
-      <MaxDamage>80</MaxDamage>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>60</MaxDamage>
       <LifetimeMS>450</LifetimeMS>
       <Amplitude>0.5</Amplitude>
       <Frequency>3</Frequency>
@@ -1963,5 +1963,1690 @@
       <RateOfFire>1</RateOfFire>
     </Subattack>
     <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x57EE" id="3TricksterST3 Proc A">
+    <DisplayId>Jewel of Vengeance Proc A</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-1">
+      <File>lofiObj3</File>
+      <Index>3021</Index>
+    </Texture>
+    <SlotType>22</SlotType>
+    <Projectile>
+      <ObjectId>3TricksterST3 Proc A Projectile</ObjectId>
+      <Size>80</Size>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>350</MaxDamage>
+      <Speed>10</Speed>
+      <LifetimeMS>620</LifetimeMS>
+      <Acceleration>480</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>250</SpeedClamp>
+      <ProtectFromSink />
+      <ArmorPiercing />
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Soulbound />
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x57EF" id="3TricksterST3 Proc B">
+    <DisplayId>Jewel of Vengeance Proc B</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-1">
+      <File>lofiObj3</File>
+      <Index>3021</Index>
+    </Texture>
+    <SlotType>22</SlotType>
+    <Projectile>
+      <ObjectId>3TricksterST3 Proc B Projectile</ObjectId>
+      <Size>90</Size>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>350</MaxDamage>
+      <Speed>50</Speed>
+      <LifetimeMS>620</LifetimeMS>
+      <Acceleration>400</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>250</SpeedClamp>
+      <ProtectFromSink />
+      <ArmorPiercing />
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Soulbound />
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x57F0" id="3TricksterST3 Proc C">
+    <DisplayId>Jewel of Vengeance Proc C</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-1">
+      <File>lofiObj3</File>
+      <Index>3021</Index>
+    </Texture>
+    <SlotType>22</SlotType>
+    <Projectile>
+      <ObjectId>3TricksterST3 Proc C Projectile</ObjectId>
+      <Size>100</Size>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>350</MaxDamage>
+      <Speed>90</Speed>
+      <LifetimeMS>620</LifetimeMS>
+      <Acceleration>400</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>250</SpeedClamp>
+      <ProtectFromSink />
+      <ArmorPiercing />
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Soulbound />
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x57FB" id="3MysticST1 Proc">
+    <DisplayId>Cosmic Astrolabe Proc</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>3023</Index>
+    </Texture>
+    <SlotType>21</SlotType>
+    <Projectile>
+      <ObjectId>3MysticST1 Proc Projectile</ObjectId>
+      <MinDamage>185</MinDamage>
+      <MaxDamage>315</MaxDamage>
+      <Speed>20</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <Acceleration>120</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <TurnRate>340</TurnRate>
+      <ProtectFromSink />
+      <ArmorPiercing />
+      <PassesCover />
+      <MultiHit />
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Soulbound />
+    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+  </Object>
+  <Object type="0x66A9" id="Vindication Sheath Proc Attack">
+    <DisplayId>Sheath of Thunderous Rites</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x126</Index>
+    </Texture>
+    <SlotType>30</SlotType>
+    <Projectile>
+      <ObjectId>Vindication Sheath Long Projectile</ObjectId>
+      <Size>80</Size>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <Speed>50</Speed>
+      <LifetimeMS>501</LifetimeMS>
+      <TurnRate>205</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+      <TurnStopTime>1</TurnStopTime>
+      <Acceleration>600</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>200</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Soulbound />
+  </Object>
+  <Object type="0x66AB" id="Vindication Star Proc Attack">
+    <DisplayId>Storied Blades</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>3037</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Projectile>
+      <ObjectId>Vindication Star Projectile</ObjectId>
+      <Size>90</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>400</LifetimeMS>
+      <Acceleration>999999</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>200</SpeedClamp>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Soulbound />
+  </Object>
+  <Object type="0x66AC" id="Vindication Star Proc Attack B">
+    <DisplayId>Storied Blades</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>3037</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Projectile>
+      <ObjectId>Vindication Star Projectile</ObjectId>
+      <Size>90</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <Acceleration>999999</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>200</SpeedClamp>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Soulbound />
+  </Object>
+  <Object id="SpecPen OA Shot 1" type="0xad2b">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>specPenObjects16x16</File>
+      <Index>372</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile>
+      <ObjectId>SpecPen Overwhelming Axehead Shot</ObjectId>
+      <Size>100</Size>
+      <Speed>135</Speed>
+      <MinDamage>325</MinDamage>
+      <MaxDamage>525</MaxDamage>
+      <LifetimeMS>1100</LifetimeMS>
+      <PassesCover />
+      <ArmorPiercing />
+      <MultiHit />
+      <ProtectFromSink />
+    </Projectile>
+    <Labels>EQUIPMENT,RING,UT</Labels>
+  </Object>
+  <Object id="SpecPen OA Shot 2" type="0xad2c">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>specPenObjects16x16</File>
+      <Index>372</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile>
+      <ObjectId>SpecPen Overwhelming Axehead Shot</ObjectId>
+      <Size>200</Size>
+      <Speed>135</Speed>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <LifetimeMS>1100</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <ProtectFromSink />
+    </Projectile>
+    <Labels>EQUIPMENT,RING,UT</Labels>
+  </Object>
+  <Object id="SpecPen Quiver Shot" type="0x5c7c">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>specPenObjects16x16</File>
+      <Index>372</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile>
+      <ObjectId>SpecPen Sinister Syringe Shot</ObjectId>
+      <Speed>200</Speed>
+      <MinDamage>20</MinDamage>
+      <MaxDamage>30</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <ConditionEffect bleedDamage="80" duration="3">Bleeding</ConditionEffect>
+      <Size>85</Size>
+      <ArmorPiercing />
+      <ProtectFromSink />
+    </Projectile>
+    <Labels>EQUIPMENT,RING,UT</Labels>
+  </Object>
+  <Object type="0xBD6" id="Soul Collector Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Sound>weapon/long_sword</Sound>
+    <OldSound>bladeSwing</OldSound>
+    <Description>This item contains the subattacks for the soul collector engraving.</Description>
+    <Projectile id="0">
+      <ObjectId>Soul Collector Shot</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <Amplitude>0.6</Amplitude>
+      <Frequency>1.5</Frequency>
+      <ArmorPiercing />
+      <MultiHit />
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.45</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0xF01" id="Platinum Segmentata Proc Attack 1">
+    <DisplayId>Platinum Segmentata</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>3049</Index>
+    </Texture>
+    <SlotType>7</SlotType>
+    <Description>Proc attack container for Halloween 2024 Heavy A</Description>
+    <Projectile>
+      <ObjectId>Platinum Segmentata Projectile</ObjectId>
+      <Size>90</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>875</LifetimeMS>
+      <Acceleration>999999</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>160</SpeedClamp>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>400</MaxDamage>
+    </Projectile>
+  </Object>
+  <Object type="0xF02" id="Platinum Segmentata Proc Attack 2">
+    <DisplayId>Platinum Segmentata</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>3049</Index>
+    </Texture>
+    <SlotType>7</SlotType>
+    <Description>Proc attack container for Halloween 2024 Heavy A</Description>
+    <Projectile>
+      <ObjectId>Platinum Segmentata Projectile</ObjectId>
+      <Size>90</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>1125</LifetimeMS>
+      <Acceleration>999999</Acceleration>
+      <AccelerationDelay>750</AccelerationDelay>
+      <SpeedClamp>160</SpeedClamp>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>400</MaxDamage>
+    </Projectile>
+  </Object>
+  <Object type="0xF03" id="Platinum Segmentata Proc Attack 3">
+    <DisplayId>Platinum Segmentata</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>3049</Index>
+    </Texture>
+    <SlotType>7</SlotType>
+    <Description>Proc attack container for Halloween 2024 Heavy A</Description>
+    <Projectile>
+      <ObjectId>Platinum Segmentata Projectile</ObjectId>
+      <Size>90</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>1375</LifetimeMS>
+      <Acceleration>999999</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>160</SpeedClamp>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>400</MaxDamage>
+    </Projectile>
+  </Object>
+  <Object type="0xF04" id="Big Bad Fursuit Proc Attack 1">
+    <DisplayId>Big Bad Fursuit</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>3050</Index>
+    </Texture>
+    <SlotType>7</SlotType>
+    <Description>Proc attack container for Halloween 2024 Heavy A</Description>
+    <Projectile>
+      <ObjectId>Big Bad Fursuit Projectile</ObjectId>
+      <Size>80</Size>
+      <Speed>100</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>-200</Acceleration>
+      <AccelerationDelay>50</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>400</MaxDamage>
+    </Projectile>
+  </Object>
+  <Object type="0xF05" id="Big Bad Fursuit Proc Attack 2">
+    <DisplayId>Big Bad Fursuit</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>3050</Index>
+    </Texture>
+    <SlotType>7</SlotType>
+    <Description>Proc attack container for Halloween 2024 Heavy A</Description>
+    <Projectile>
+      <ObjectId>Big Bad Fursuit Projectile</ObjectId>
+      <Size>80</Size>
+      <Speed>100</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>-200</Acceleration>
+      <AccelerationDelay>150</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>400</MaxDamage>
+    </Projectile>
+  </Object>
+  <Object type="0xF06" id="Big Bad Fursuit Proc Attack 3">
+    <DisplayId>Big Bad Fursuit</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>3050</Index>
+    </Texture>
+    <SlotType>7</SlotType>
+    <Description>Proc attack container for Halloween 2024 Heavy A</Description>
+    <Projectile>
+      <ObjectId>Big Bad Fursuit Projectile</ObjectId>
+      <Size>80</Size>
+      <Speed>100</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>-200</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MinDamage>300</MinDamage>
+      <MaxDamage>400</MaxDamage>
+    </Projectile>
+  </Object>
+  <Object type="0x67D9" id="Symbol of the Lost Proc A">
+    <DisplayId>Symbol of the Lost</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>347</Index>
+    </Texture>
+    <SlotType>12</SlotType>
+    <Description>Proc attack container for 3PaladinST1.</Description>
+    <Projectile>
+      <ObjectId>Symbol of the Lost Snowflake Projectile</ObjectId>
+      <Damage>200</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>9000</LifetimeMS>
+      <Parametric />
+      <Magnitude>3</Magnitude>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0x67DA" id="Symbol of the Lost Proc B">
+    <DisplayId>Symbol of the Lost</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>347</Index>
+    </Texture>
+    <SlotType>12</SlotType>
+    <Description>Proc attack container for 3PaladinST1.</Description>
+    <Projectile>
+      <ObjectId>Symbol of the Lost Snowflake Projectile</ObjectId>
+      <Damage>200</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>9000</LifetimeMS>
+      <Parametric />
+      <Magnitude>5</Magnitude>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0x67DB" id="Symbol of the Lost Proc C">
+    <DisplayId>Symbol of the Lost</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>347</Index>
+    </Texture>
+    <SlotType>12</SlotType>
+    <Description>Proc attack container for 3PaladinST1.</Description>
+    <Projectile>
+      <ObjectId>Symbol of the Lost Snowflake Projectile</ObjectId>
+      <Damage>200</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>9000</LifetimeMS>
+      <Parametric />
+      <Magnitude>7</Magnitude>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0x67DC" id="Symbol of the Lost Proc D">
+    <DisplayId>Symbol of the Lost</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>347</Index>
+    </Texture>
+    <SlotType>12</SlotType>
+    <Description>Proc attack container for 3PaladinST1.</Description>
+    <Projectile>
+      <ObjectId>Symbol of the Lost Snowflake Projectile</ObjectId>
+      <Damage>200</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>4500</LifetimeMS>
+      <Parametric />
+      <Magnitude>3</Magnitude>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0x67DD" id="Symbol of the Lost Proc E">
+    <DisplayId>Symbol of the Lost</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>347</Index>
+    </Texture>
+    <SlotType>12</SlotType>
+    <Description>Proc attack container for 3PaladinST1.</Description>
+    <Projectile>
+      <ObjectId>Symbol of the Lost Snowflake Projectile</ObjectId>
+      <Damage>200</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <Parametric />
+      <Magnitude>5</Magnitude>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0x67DE" id="Symbol of the Lost Proc F">
+    <DisplayId>Symbol of the Lost</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>347</Index>
+    </Texture>
+    <SlotType>12</SlotType>
+    <Description>Proc attack container for 3PaladinST1.</Description>
+    <Projectile>
+      <ObjectId>Symbol of the Lost Snowflake Projectile</ObjectId>
+      <Damage>200</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>7500</LifetimeMS>
+      <Parametric />
+      <Magnitude>7</Magnitude>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0x67E6" id="Sublimation Sidearm Proc A">
+    <DisplayId>Sublimation Sidearm</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>363</Index>
+    </Texture>
+    <SlotType>12</SlotType>
+    <Description>Proc attack container for 3SamuraiST1</Description>
+    <Projectile>
+      <ObjectId>Sublimation Sidearm Combo A Projectile</ObjectId>
+      <Speed>175</Speed>
+      <LifetimeMS>340</LifetimeMS>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x67E7" id="Sublimation Sidearm Proc B">
+    <DisplayId>Sublimation Sidearm</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>363</Index>
+    </Texture>
+    <SlotType>12</SlotType>
+    <Description>Proc attack container for 3SamuraiST1</Description>
+    <Projectile>
+      <ObjectId>Sublimation Sidearm Combo B Projectile</ObjectId>
+      <Speed>200</Speed>
+      <LifetimeMS>360</LifetimeMS>
+      <MinDamage>250</MinDamage>
+      <MaxDamage>300</MaxDamage>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x67E8" id="Sublimation Sidearm Proc C">
+    <DisplayId>Sublimation Sidearm</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>363</Index>
+    </Texture>
+    <SlotType>12</SlotType>
+    <Description>Proc attack container for 3SamuraiST1</Description>
+    <Projectile>
+      <ObjectId>Sublimation Sidearm Combo C Projectile</ObjectId>
+      <Speed>225</Speed>
+      <LifetimeMS>380</LifetimeMS>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x74F7" id="Frozen Blast Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x21</Index>
+    </Texture>
+    <Description>This item contains the subattack for the frozen blast engraving.</Description>
+    <Projectile id="0">
+      <ObjectId>Eternal Snowflake Shot</ObjectId>
+      <Speed>175</Speed>
+      <Damage>0</Damage>
+      <LifetimeMS>350</LifetimeMS>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.05</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0xD866" id="Midnight Star Proc 80">
+    <DisplayId>Midnight Star</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x232</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Afterimage projectile for Midnight Star</Description>
+    <Projectile>
+      <ObjectId>Ninja Star Midnight 80</ObjectId>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <Speed>240</Speed>
+      <LifetimeMS>448</LifetimeMS>
+      <Size>150</Size>
+      <CollisionMult>2.0</CollisionMult>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0xD867" id="Midnight Star Proc 60">
+    <DisplayId>Midnight Star</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x232</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Afterimage projectile for Midnight Star</Description>
+    <Projectile>
+      <ObjectId>Ninja Star Midnight 60</ObjectId>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <Speed>230</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <Size>150</Size>
+      <CollisionMult>2.0</CollisionMult>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0xD868" id="Midnight Star Proc 40">
+    <DisplayId>Midnight Star</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x232</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Afterimage projectile for Midnight Star</Description>
+    <Projectile>
+      <ObjectId>Ninja Star Midnight 40</ObjectId>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <Speed>220</Speed>
+      <LifetimeMS>557</LifetimeMS>
+      <Size>150</Size>
+      <CollisionMult>2.0</CollisionMult>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0xD869" id="Midnight Star Proc 80 Shiny">
+    <DisplayId>Midnight Star</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObjShiny</File>
+      <Index>32</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Afterimage projectile for Midnight Star Shiny</Description>
+    <Projectile>
+      <ObjectId>Ninja Star Midnight 80 Shiny</ObjectId>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <Speed>240</Speed>
+      <LifetimeMS>448</LifetimeMS>
+      <Size>150</Size>
+      <CollisionMult>2.0</CollisionMult>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0xD86A" id="Midnight Star Proc 60 Shiny">
+    <DisplayId>Midnight Star</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObjShiny</File>
+      <Index>32</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Afterimage projectile for Midnight Star Shiny</Description>
+    <Projectile>
+      <ObjectId>Ninja Star Midnight 60 Shiny</ObjectId>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <Speed>230</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <Size>150</Size>
+      <CollisionMult>2.0</CollisionMult>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0xD86B" id="Midnight Star Proc 40 Shiny">
+    <DisplayId>Midnight Star</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObjShiny</File>
+      <Index>32</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Afterimage projectile for Midnight Star Shiny</Description>
+    <Projectile>
+      <ObjectId>Ninja Star Midnight 40 Shiny</ObjectId>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <Speed>220</Speed>
+      <LifetimeMS>557</LifetimeMS>
+      <Size>150</Size>
+      <CollisionMult>2.0</CollisionMult>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0xD874" id="Combcutter Kunai Proc A">
+    <DisplayId>Combcutter Kunai</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>311</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Projectile>
+      <ObjectId>Combcutter Kunai Projectile</ObjectId>
+      <Size>90</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>400</LifetimeMS>
+      <Acceleration>999999</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>200</SpeedClamp>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Soulbound />
+  </Object>
+  <Object type="0xD875" id="Combcutter Kunai Proc B">
+    <DisplayId>Combcutter Kunai</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>311</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Projectile>
+      <ObjectId>Combcutter Kunai Projectile</ObjectId>
+      <Size>90</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <Acceleration>999999</Acceleration>
+      <AccelerationDelay>100</AccelerationDelay>
+      <SpeedClamp>200</SpeedClamp>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Soulbound />
+  </Object>
+  <Object type="0xCC51" id="Adonis' Shot Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Sound>weapon/long_sword</Sound>
+    <OldSound>bladeSwing</OldSound>
+    <Description>This item contains the subattacks for the adonis' shot engraving.</Description>
+    <Projectile id="0">
+      <ObjectId>Adonis Shot Projectile</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2.5</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Adonis Shot Projectile</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2.5</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="2">
+      <ObjectId>Adonis Shot Projectile</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>660</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2.5</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="2" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="3">
+      <ObjectId>Adonis Shot Projectile</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>576</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2.5</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="3" projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="4">
+      <ObjectId>Adonis Shot Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>570</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2.5</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="4" projectileId="4">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="5">
+      <ObjectId>Adonis Shot Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>563</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2.5</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="5" projectileId="5">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="6">
+      <ObjectId>Adonis Shot Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>660</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2.5</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="6" projectileId="6">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="7">
+      <ObjectId>Adonis Shot Projectile</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>712</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2.5</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="7" projectileId="7">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="8">
+      <ObjectId>Adonis Shot Projectile</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2.5</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="8" projectileId="8">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="9">
+      <ObjectId>Adonis Shot Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>525</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2.5</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="9" projectileId="9">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="10">
+      <ObjectId>Adonis Shot Projectile</ObjectId>
+      <Speed>130</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>548</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2.5</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="10" projectileId="10">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="11">
+      <ObjectId>Adonis Shot Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <LifetimeMS>660</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2.5</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="11" projectileId="11">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0xCC54" id="Aphrodite's Shot Subattack Item">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <Sound>weapon/long_sword</Sound>
+    <OldSound>bladeSwing</OldSound>
+    <Description>This item contains the subattacks for the aphrodite's shot engraving.</Description>
+    <Projectile id="0">
+      <ObjectId>Aphrodite's Shot Projectile</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>200</LifetimeMS>
+      <Amplitude>0.25</Amplitude>
+      <Frequency>1</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Aphrodite's Shot Projectile</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>200</LifetimeMS>
+      <Amplitude>0.25</Amplitude>
+      <Frequency>1</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="2">
+      <ObjectId>Aphrodite's Shot Projectile</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>220</LifetimeMS>
+      <Amplitude>0.25</Amplitude>
+      <Frequency>1</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="2" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="3">
+      <ObjectId>Aphrodite's Shot Projectile</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>192</LifetimeMS>
+      <Amplitude>0.25</Amplitude>
+      <Frequency>1</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="3" projectileId="3">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="4">
+      <ObjectId>Aphrodite's Shot Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>190</LifetimeMS>
+      <Amplitude>0.25</Amplitude>
+      <Frequency>1</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="4" projectileId="4">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="5">
+      <ObjectId>Aphrodite's Shot Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>188</LifetimeMS>
+      <Amplitude>0.25</Amplitude>
+      <Frequency>1</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="5" projectileId="5">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="6">
+      <ObjectId>Aphrodite's Shot Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>220</LifetimeMS>
+      <Amplitude>0.25</Amplitude>
+      <Frequency>1</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="6" projectileId="6">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="7">
+      <ObjectId>Aphrodite's Shot Projectile</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>237</LifetimeMS>
+      <Amplitude>0.25</Amplitude>
+      <Frequency>1</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="7" projectileId="7">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="8">
+      <ObjectId>Aphrodite's Shot Projectile</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>250</LifetimeMS>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>1</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="8" projectileId="8">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="9">
+      <ObjectId>Aphrodite's Shot Projectile</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>175</LifetimeMS>
+      <Amplitude>0.25</Amplitude>
+      <Frequency>1</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="9" projectileId="9">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="10">
+      <ObjectId>Aphrodite's Shot Projectile</ObjectId>
+      <Speed>130</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>183</LifetimeMS>
+      <Amplitude>0.25</Amplitude>
+      <Frequency>1</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="10" projectileId="10">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Projectile id="11">
+      <ObjectId>Aphrodite's Shot Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>85</MaxDamage>
+      <LifetimeMS>220</LifetimeMS>
+      <Amplitude>0.25</Amplitude>
+      <Frequency>1</Frequency>
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <Subattack index="11" projectileId="11">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x2F72" id="Eye of the Spider Enchantment Proc">
+    <DisplayId>Eye of the Spider</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>spiderDenObjects8x8</File>
+      <Index>0x04</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Gain +50 Max HP, +5 DEX. On ability use, fire a massive web ball for 800 damage and 8s Slowed every 16s.</Description>
+    <Projectile>
+      <ObjectId>Web Star</ObjectId>
+      <MinDamage>800</MinDamage>
+      <MaxDamage>800</MaxDamage>
+      <Speed>125</Speed>
+      <LifetimeMS>700</LifetimeMS>
+      <Size>250</Size>
+      <CollisionMult>3</CollisionMult>
+      <ConditionEffect duration="8">Slowed</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0x2F73" id="Thornswarm Enchantment Proc">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x8e</Index>
+    </Texture>
+    <SlotType>3</SlotType>
+    <Sound>weapon/double_bow</Sound>
+    <OldSound>arrowShoot</OldSound>
+    <Description>Engulf enemies in a torrent of rapid armor-piercing thorns at 170% rate of fire.</Description>
+    <Projectile id="0">
+      <ObjectId>Awakened Bramble Shot</ObjectId>
+      <FaceDir />
+      <CollisionMult>1.5</CollisionMult>
+      <Size>90</Size>
+      <Speed>174</Speed>
+      <LifetimeMS>800</LifetimeMS>
+      <Acceleration>-215</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <Amplitude>0.4</Amplitude>
+      <Frequency>1.5</Frequency>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>45</MaxDamage>
+      <ArmorPiercing />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>3</NumProjectiles>
+      <ArcGap>10</ArcGap>
+      <RateOfFire>1.7</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x2F74" id="Venom Coating Enchantment Proc">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>spiderDenObjects8x8</File>
+      <Index>0x01</Index>
+    </Texture>
+    <SlotType>2</SlotType>
+    <Sound>weapon/poison_fang_dagger</Sound>
+    <OldSound>daggerSwing</OldSound>
+    <Description>Envenomed shots now inflict 4s of Bleeding for 12 damage per second.</Description>
+    <Projectile id="0">
+      <ObjectId>Awakened Poison Fang Shot</ObjectId>
+      <Size>90</Size>
+      <Speed>140</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>115</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <ConditionEffect duration="4.0" bleedDamage="12">Bleeding</ConditionEffect>
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.4</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x2F75" id="Soulful Mastery Enchantment Proc">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>undeadLairObjects8x8</File>
+      <Index>0x00</Index>
+    </Texture>
+    <SlotType>3</SlotType>
+    <Sound>weapon/golden_bow</Sound>
+    <OldSound>arrowShoot</OldSound>
+    <Description>Soul arrows deal 1111 base damage at 18% rate of fire and travel further. Gain ATT from 33% of bonus WIS and gain WIS from 33% of bonus ATT.</Description>
+    <Projectile id="0">
+      <ObjectId>Awakened DBow Shot</ObjectId>
+      <CollisionMult>1.5</CollisionMult>
+      <Size>120</Size>
+      <Speed>214</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <Acceleration>-856</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MinDamage>1111</MinDamage>
+      <MaxDamage>1111</MaxDamage>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.18</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x2F76" id="Hellfire Edge Enchantment Proc">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>0x01</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Sound>weapon/glass_sword</Sound>
+    <OldSound>bladeSwing</OldSound>
+    <Description>3 hellfire slashes fire in a much tighter cone for 105-125 damage. Gain DEX from 33% of bonus VIT.</Description>
+    <Projectile id="0">
+      <ObjectId>Awakened DBlade Shot</ObjectId>
+      <Size>90</Size>
+      <Speed>150</Speed>
+      <MinDamage>105</MinDamage>
+      <MaxDamage>125</MaxDamage>
+      <LifetimeMS>225</LifetimeMS>
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>15</ArcGap>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Orange Sprite Bolt</ObjectId>
+      <Size>90</Size>
+      <Speed>112</Speed>
+      <MinDamage>105</MinDamage>
+      <MaxDamage>125</MaxDamage>
+      <LifetimeMS>225</LifetimeMS>
+    </Projectile>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x362b" id="Artificial Core Enchantment">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>spriteWorldObjects8x8</File>
+      <Index>0x00</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Sound>weapon/sprite_wand</Sound>
+    <OldSound>magicShoot</OldSound>
+    <Description>Normal Staff pattern with an inner tight ap pattern</Description>
+    <Projectile id="0">
+      <ObjectId>Awakened EP Shot</ObjectId>
+      <Speed>90</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <Size>80</Size>
+      <TurnRate>20</TurnRate>
+      <TurnStopTime>300</TurnStopTime>
+      <ArmorPiercing />
+      <PassesCover />
+      <FaceDir />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <DefaultAngle>-30</DefaultAngle>
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.65</RateOfFire>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Awakened EP Shot</ObjectId>
+      <Speed>90</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <TurnRate>-20</TurnRate>
+      <TurnStopTime>300</TurnStopTime>
+      <Size>80</Size>
+      <ArmorPiercing />
+      <PassesCover />
+      <FaceDir />
+    </Projectile>
+    <Subattack index="1" projectileId="1">
+      <DefaultAngle>30</DefaultAngle>
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.65</RateOfFire>
+    </Subattack>
+    <Projectile id="2">
+      <ObjectId>Awakened EP Shot</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>580</LifetimeMS>
+      <Size>80</Size>
+      <TurnRate>65</TurnRate>
+      <TurnStopTime>300</TurnStopTime>
+      <ArmorPiercing />
+      <PassesCover />
+      <FaceDir />
+    </Projectile>
+    <Subattack index="2" projectileId="2">
+      <DefaultAngle>-90</DefaultAngle>
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.65</RateOfFire>
+    </Subattack>
+    <Projectile id="3">
+      <ObjectId>Awakened EP Shot</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>580</LifetimeMS>
+      <TurnRate>-65</TurnRate>
+      <TurnStopTime>300</TurnStopTime>
+      <Size>80</Size>
+      <ArmorPiercing />
+      <PassesCover />
+      <FaceDir />
+    </Projectile>
+    <Subattack index="3" projectileId="3">
+      <DefaultAngle>90</DefaultAngle>
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.65</RateOfFire>
+    </Subattack>
+    <Projectile id="4">
+      <ObjectId>Awakened EP Shot</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>555</LifetimeMS>
+      <Size>80</Size>
+      <TurnRate>120</TurnRate>
+      <TurnStopTime>300</TurnStopTime>
+      <ArmorPiercing />
+      <PassesCover />
+      <FaceDir />
+    </Projectile>
+    <Subattack index="4" projectileId="4">
+      <DefaultAngle>-150</DefaultAngle>
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.65</RateOfFire>
+    </Subattack>
+    <Projectile id="5">
+      <ObjectId>Awakened EP Shot</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>555</LifetimeMS>
+      <TurnRate>-120</TurnRate>
+      <TurnStopTime>300</TurnStopTime>
+      <Size>80</Size>
+      <ArmorPiercing />
+      <PassesCover />
+      <FaceDir />
+    </Projectile>
+    <Subattack index="5" projectileId="5">
+      <DefaultAngle>150</DefaultAngle>
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.65</RateOfFire>
+    </Subattack>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x362d" id="Molecular Blade Enchantment">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x00</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>Slower main shot, fast secondary shot, armor piercing.</Description>
+    <Sound>weapon/glass_sword</Sound>
+    <Projectile id="0">
+      <ObjectId>Awakened Cutlass Main Shot</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>180</MinDamage>
+      <MaxDamage>235</MaxDamage>
+      <LifetimeMS>220</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Awakened Cutlass Sub Shot</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>55</MaxDamage>
+      <LifetimeMS>220</LifetimeMS>
+      <Amplitude>0.3</Amplitude>
+      <Frequency>1</Frequency>
+      <Size>70</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.5</RateOfFire>
+    </Subattack>
+    <OldSound>bladeSwing</OldSound>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x362c" id="Swarm Tree's Wrath Enchantment">
+    <Class>Equipment</Class>
+    <Item />
+    <SlotType>3</SlotType>
+    <Texture>
+      <File>spiderDenObjects8x8</File>
+      <Index>0x170</Index>
+    </Texture>
+    <Description>Fashioned from the finest logs found within the Woodland Labyrinths, this bow uses sharp leaves instead of conventional arrows. Such lightweight ammunition allows for quick movement.</Description>
+    <Sound>weapon/golden_bow</Sound>
+    <Projectile>
+      <ObjectId>Leaf Arrow</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>120</MinDamage>
+      <MaxDamage>175</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <Size>60</Size>
+      <Wavy />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.4</RateOfFire>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Awakened Leaf Shot</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>25</MinDamage>
+      <MaxDamage>25</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <Size>85</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>-.5,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>5</DefaultAngle>
+    </Subattack>
+    <Subattack index="2" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>.5,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>-5</DefaultAngle>
+    </Subattack>
+    <OldSound>arrowShoot</OldSound>
+    <Soulbound />
+    <UniqueID />
+  </Object>
+  <Object type="0x3635" id="Bone Claws Enchantment">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x00</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>Slower main shot, fast secondary shot, armor piercing.</Description>
+    <Sound>weapon/glass_sword</Sound>
+    <Projectile id="0">
+      <ObjectId>Awakened Bone Dagger Shot</ObjectId>
+      <Speed>130</Speed>
+      <Size>80</Size>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>105</MaxDamage>
+      <LifetimeMS>387</LifetimeMS>
+      <Amplitude>0.35</Amplitude>
+      <Frequency>1.25</Frequency>
+      <ConditionEffect duration="3" bleedDamage="30">Bleeding</ConditionEffect>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Awakened Bone Dagger Shot2</ObjectId>
+      <Speed>130</Speed>
+      <Size>80</Size>
+      <MinDamage>70</MinDamage>
+      <MaxDamage>105</MaxDamage>
+      <LifetimeMS>387</LifetimeMS>
+      <Amplitude>0.35</Amplitude>
+      <Frequency>1.25</Frequency>
+      <ConditionEffect duration="3" bleedDamage="30">Bleeding</ConditionEffect>
+      <MultiHit />
+      <FaceDir />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <DefaultAngle>0.5</DefaultAngle>
+      <RateOfFire>0.7</RateOfFire>
+    </Subattack>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <DefaultAngle>-0.5</DefaultAngle>
+      <RateOfFire>0.7</RateOfFire>
+    </Subattack>
+    <OldSound>bladeSwing</OldSound>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x3637" id="Fractured Blade Enchantment">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>deadwaterDocksObjects8x8</File>
+      <Index>0x00</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>Slower main shot, fast secondary shot, armor piercing.</Description>
+    <Sound>weapon/glass_sword</Sound>
+    <Projectile id="0">
+      <ObjectId>Awakened CSword Shot</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>195</MinDamage>
+      <MaxDamage>225</MaxDamage>
+      <LifetimeMS>275</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Subattack index="0" projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Projectile id="1">
+      <ObjectId>Awakened CSword Shot2</ObjectId>
+      <Speed>100</Speed>
+      <Size>90</Size>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>45</MaxDamage>
+      <ArmorPiercing />
+      <LifetimeMS>175</LifetimeMS>
+    </Projectile>
+    <Subattack index="1" projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <DefaultAngle>-12.5</DefaultAngle>
+      <PosOffset>0,3</PosOffset>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <Projectile id="2">
+      <ObjectId>Awakened CSword Shot3</ObjectId>
+      <Speed>100</Speed>
+      <Size>90</Size>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>45</MaxDamage>
+      <ArmorPiercing />
+      <LifetimeMS>175</LifetimeMS>
+    </Projectile>
+    <Subattack index="2" projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <DefaultAngle>12.5</DefaultAngle>
+      <PosOffset>0,3</PosOffset>
+      <RateOfFire>1</RateOfFire>
+    </Subattack>
+    <OldSound>bladeSwing</OldSound>
+    <Labels>SUBATTACK_CONTAINER</Labels>
+  </Object>
+  <Object type="0x1449" id="S.H.E.A.T.H. Proc Attack">
+    <DisplayId>S.H.E.A.T.H.</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5new</File>
+      <Index>317</Index>
+    </Texture>
+    <SlotType>30</SlotType>
+    <Projectile>
+      <ObjectId>S.H.E.A.T.H. Projectile</ObjectId>
+      <Size>80</Size>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <Speed>50</Speed>
+      <LifetimeMS>501</LifetimeMS>
+      <TurnRate>205</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+      <TurnStopTime>1</TurnStopTime>
+      <Acceleration>600</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>200</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <Soulbound />
   </Object>
 </Objects>

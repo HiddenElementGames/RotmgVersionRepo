@@ -1,49 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
-  <Object id="Enlightened Bookwyrm" type="0x5488">
-    <Pet />
-    <Class>Pet</Class>
-    <Texture>
-      <File>lofiObj2</File>
-      <Index>0x32</Index>
-    </Texture>
-    <Family>Reptile</Family>
-    <Rarity>Divine</Rarity>
-    <DefaultSkin>Enlightened Bookwyrm Pet Skin</DefaultSkin>
-    <Size>80</Size>
-    <NoHatchOrFuse />
-  </Object>
-  <Object type="0x5489" id="Enlightened Bookwyrm Pet Skin">
-    <PetSkin />
-    <DisplayId>Cultured Bookwyrm</DisplayId>
-    <Class>PetSkin</Class>
-    <ItemTier>1</ItemTier>
-    <AnimatedTexture>
-      <File>hauntedHallowsChars16x16</File>
-      <Index>7</Index>
-    </AnimatedTexture>
-    <Family>Reptile</Family>
-    <Rarity>Divine</Rarity>
-  </Object>
-  <Object type="0x548a" id="Enlightened Bookwyrm Pet Stone">
-    <DisplayId>Enlightened Bookwyrm Pet Skin</DisplayId>
-    <Class>Equipment</Class>
-    <ItemTier>1</ItemTier>
-    <Item />
-    <AnimatedTexture>
-      <File>hauntedHallowsChars16x16</File>
-      <Index>7</Index>
-    </AnimatedTexture>
-    <ScaleValue>10</ScaleValue>
-    <SlotType>10</SlotType>
-    <Description>Best known for its three r's: Reading, Writing, and Ripping apart books.\n\nSprite Credits: Moloch\n\nUnlocks Enlightened Bookwyrm Skin of the Reptile family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
-    <Activate skinType="21641">UnlockPetSkin</Activate>
-    <Consumable />
-    <Soulbound />
-    <BagType>7</BagType>
-    <feedPower>500</feedPower>
-    <Track />
-  </Object>
   <Object type="0xaba5" id="Spectral Slash">
     <Class>Projectile</Class>
     <Texture>
@@ -324,7 +280,6 @@
       <Damage>0</Damage>
       <Speed>70</Speed>
       <LifetimeMS>3000</LifetimeMS>
-      <ConditionEffect duration="3">Blind</ConditionEffect>
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
@@ -561,7 +516,7 @@
       <LifetimeMS>1250</LifetimeMS>
       <Amplitude>1.75</Amplitude>
       <Frequency>0.56</Frequency>
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
       <PassesCover />
       <MultiHit />
       <FaceDir />
@@ -574,7 +529,7 @@
       <LifetimeMS>1000</LifetimeMS>
       <Amplitude>1.5</Amplitude>
       <Frequency>0.55</Frequency>
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
       <PassesCover />
       <MultiHit />
       <FaceDir />
@@ -587,7 +542,7 @@
       <LifetimeMS>750</LifetimeMS>
       <Amplitude>1.25</Amplitude>
       <Frequency>0.55</Frequency>
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
       <PassesCover />
       <MultiHit />
       <FaceDir />
@@ -600,7 +555,7 @@
       <LifetimeMS>500</LifetimeMS>
       <Amplitude>1</Amplitude>
       <Frequency>0.54</Frequency>
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
       <PassesCover />
       <MultiHit />
       <FaceDir />
@@ -1020,6 +975,7 @@
     <Defense>20</Defense>
     <Exp>6000</Exp>
     <BXP>30000</BXP>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>130</Size>
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/lizard_god_death</DeathSound>
@@ -1072,12 +1028,12 @@
       <MultiHit />
       <Boomerang />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="20" dustMax="47" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="37" dustMax="43" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Cursed Library Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Spooky Egg</SpecialSpawn>
@@ -1091,7 +1047,9 @@
     <SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn>
     <SpecialSpawn category="Souvenir_MID">Corruption Cutter</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
+    <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Cultured Bookwyrm Pet Stone</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 1</SpecialSpawn>
   </Object>
   <Object type="0xab94" id="Library Corruption Phantom">
     <DisplayId>Corruption Phantom</DisplayId>
@@ -1105,6 +1063,7 @@
     <Defense>0</Defense>
     <Exp>6000</Exp>
     <BXP>30000</BXP>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>150</Size>
     <HitSound>monster/skull_shrine_hit</HitSound>
     <DeathSound>monster/skull_shrine_death</DeathSound>
@@ -1169,6 +1128,7 @@
     <Defense>0</Defense>
     <Exp>200</Exp>
     <BXP>950</BXP>
+    <StasisImmune />
     <StunImmune />
     <Projectile id="0">
       <ObjectId>Corruption Stab</ObjectId>
@@ -1235,6 +1195,7 @@
     <Defense>0</Defense>
     <Exp>200</Exp>
     <BXP>950</BXP>
+    <StasisImmune />
     <StunImmune />
     <Projectile id="0">
       <ObjectId>Corruption Gaze</ObjectId>
@@ -1365,6 +1326,7 @@
     <ShadowSize>0</ShadowSize>
     <Z>0.5</Z>
     <Color>0xFFFFFF</Color>
+    <Sound id="0">spell/magic_nova</Sound>
     <Animation period="0" prob="1">
       <Frame time="0.2">
         <Texture>
@@ -1427,6 +1389,73 @@
         </Texture>
       </Frame>
     </Animation>
+    <Animation period="0" id="Speen">
+      <Frame time="0.05">
+        <Texture>
+          <File>cursedLibraryObjects16x16</File>
+          <Index>0x38</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>cursedLibraryObjects16x16</File>
+          <Index>0x39</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>cursedLibraryObjects16x16</File>
+          <Index>0x30</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>cursedLibraryObjects16x16</File>
+          <Index>0x31</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>cursedLibraryObjects16x16</File>
+          <Index>0x32</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>cursedLibraryObjects16x16</File>
+          <Index>0x33</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>cursedLibraryObjects16x16</File>
+          <Index>0x34</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>cursedLibraryObjects16x16</File>
+          <Index>0x35</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>cursedLibraryObjects16x16</File>
+          <Index>0x36</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.05">
+        <Texture>
+          <File>cursedLibraryObjects16x16</File>
+          <Index>0x37</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Speening">
+        <StyleStep id="Speen">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xab9e" id="Library Switch Corrupted">
     <Class>Character</Class>

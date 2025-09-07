@@ -1569,7 +1569,7 @@
       <Speed>65</Speed>
       <Size>100</Size>
       <LifetimeMS>1600</LifetimeMS>
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
       <MultiHit />
     </Projectile>
     <StasisImmune />
@@ -2194,6 +2194,10 @@
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
+    <RealmScore>2000</RealmScore>
+    <Encounter terrain="EternalFrost" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <HealthBarBoss radius="30" />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
@@ -2242,7 +2246,7 @@
     <StunImmune />
     <ParalyzeImmune />
     <Projectile id="0">
-      <ObjectId>Snowball Bullet</ObjectId>
+      <ObjectId>FR Boss Flake</ObjectId>
       <Speed>30</Speed>
       <Amplitude>0.6</Amplitude>
       <Damage>150</Damage>
@@ -3439,6 +3443,8 @@
     <Class>Character</Class>
     <Enemy />
     <Quest />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <AlwaysPositiveHealth />
     <DontFaceAttacks />
     <Level>20</Level>
@@ -3638,7 +3644,6 @@
       <Damage>60</Damage>
       <Size>60</Size>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="1.4">Blind</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="4">
@@ -3724,7 +3729,7 @@
       <Speed>70</Speed>
       <Size>100</Size>
       <LifetimeMS>1600</LifetimeMS>
-      <ConditionEffect duration="1.5">Confused</ConditionEffect>
+      <ConditionEffect duration="1.5">Unstable</ConditionEffect>
       <ParticleTrail />
     </Projectile>
     <Projectile id="22">
@@ -3989,7 +3994,6 @@
       <Damage>45</Damage>
       <Size>60</Size>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="1">Blind</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="6">
@@ -4152,7 +4156,7 @@
       <Size>80</Size>
       <LifetimeMS>3000</LifetimeMS>
       <MultiHit />
-      <ConditionEffect duration="1.5">Confused</ConditionEffect>
+      <ConditionEffect duration="1.5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="34">
       <ObjectId>White Big Spinner</ObjectId>
@@ -4179,7 +4183,7 @@
       <Damage>150</Damage>
       <Speed>60</Speed>
       <LifetimeMS>1800</LifetimeMS>
-      <ConditionEffect duration="2.5">Confused</ConditionEffect>
+      <ConditionEffect duration="2.5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="38">
       <ObjectId>BB Bunny Blaster</ObjectId>
@@ -4441,8 +4445,8 @@
     <Color>0xA2F3F5</Color>
     <Enemy />
     <Invincible />
-    <Terrain>Mountains</Terrain>
-    <SpawnProb>0.0</SpawnProb>
+    <Terrain>EternalFrost</Terrain>
+    <SpawnProb>0.08</SpawnProb>
     <PerRealmMax>1</PerRealmMax>
     <Labels>ENEMY,MINION</Labels>
   </Object>
@@ -5166,7 +5170,6 @@
       <Damage>40</Damage>
       <Speed>110</Speed>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="3">Darkness</ConditionEffect>
       <Size>135</Size>
       <PassesCover />
     </Projectile>
@@ -5234,7 +5237,7 @@
       <Size>140</Size>
       <MultiHit />
       <PassesCover />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="13">
       <ObjectId>Aqua Missile</ObjectId>
@@ -5245,7 +5248,7 @@
       <Frequency>0.95</Frequency>
       <Size>120</Size>
       <FaceDir />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="14">
       <ObjectId>Yeti Snowball</ObjectId>
@@ -5304,7 +5307,6 @@
       <Damage>60</Damage>
       <Speed>110</Speed>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="3">Darkness</ConditionEffect>
       <Size>135</Size>
       <PassesCover />
     </Projectile>
@@ -5372,7 +5374,7 @@
       <Size>140</Size>
       <MultiHit />
       <PassesCover />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="27">
       <ObjectId>Aqua Missile</ObjectId>
@@ -5383,7 +5385,7 @@
       <Frequency>0.95</Frequency>
       <Size>120</Size>
       <FaceDir />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="28">
       <ObjectId>Yeti Snowball</ObjectId>
@@ -5442,7 +5444,6 @@
       <Damage>80</Damage>
       <Speed>110</Speed>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="3">Darkness</ConditionEffect>
       <Size>135</Size>
       <PassesCover />
     </Projectile>
@@ -5510,7 +5511,7 @@
       <Size>140</Size>
       <MultiHit />
       <PassesCover />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="41">
       <ObjectId>Aqua Missile</ObjectId>
@@ -5521,7 +5522,7 @@
       <Frequency>0.95</Frequency>
       <Size>120</Size>
       <FaceDir />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="42">
       <ObjectId>Yeti Snowball</ObjectId>
@@ -5580,7 +5581,6 @@
       <Damage>100</Damage>
       <Speed>110</Speed>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="3">Darkness</ConditionEffect>
       <Size>135</Size>
       <PassesCover />
     </Projectile>
@@ -5648,7 +5648,7 @@
       <Size>140</Size>
       <MultiHit />
       <PassesCover />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="55">
       <ObjectId>Aqua Missile</ObjectId>
@@ -5659,7 +5659,7 @@
       <Frequency>0.95</Frequency>
       <Size>120</Size>
       <FaceDir />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="56">
       <ObjectId>Yeti Snowball</ObjectId>
@@ -5718,7 +5718,6 @@
       <Damage>120</Damage>
       <Speed>110</Speed>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="3">Darkness</ConditionEffect>
       <Size>135</Size>
       <PassesCover />
     </Projectile>
@@ -5786,7 +5785,7 @@
       <Size>140</Size>
       <MultiHit />
       <PassesCover />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="69">
       <ObjectId>Aqua Missile</ObjectId>
@@ -5797,7 +5796,7 @@
       <Frequency>0.95</Frequency>
       <Size>120</Size>
       <FaceDir />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <HealthBarBoss radius="30" />
     <KillStat stat="NatureKills" />
@@ -5844,6 +5843,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="RSM Melted Snowman Plains" type="0xb3ff">
     <Enemy />
@@ -5884,6 +5884,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="RSM Lil' Snowman Plains" type="0xb3df">
     <Enemy />
@@ -5924,6 +5925,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="RSM Lil' Snowman Forest" type="0xb400">
     <Enemy />
@@ -5964,6 +5966,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="RSM Lil' Snowman Sand" type="0xb401">
     <Enemy />
@@ -6004,6 +6007,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="RSM Small Snowman Forest" type="0xb3e0">
     <Enemy />
@@ -6044,6 +6048,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="RSM Small Snowman Plains" type="0xb402">
     <Enemy />
@@ -6084,6 +6089,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="RSM Small Snowman Sand" type="0xb403">
     <Enemy />
@@ -6124,6 +6130,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="RSM Snowman Plains" type="0xb3e1">
     <Enemy />
@@ -6164,6 +6171,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="RSM Snowman Forest" type="0xb404">
     <Enemy />
@@ -6204,6 +6212,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="RSM Snowman Sand" type="0xb405">
     <Enemy />
@@ -6244,6 +6253,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="RSM Frost Snowman God" type="0xb3e2">
     <Enemy />
@@ -6261,8 +6271,9 @@
     <Exp>150</Exp>
     <BXP>712</BXP>
     <God />
-    <Terrain>Mountains</Terrain>
-    <SpawnProb>0.0</SpawnProb>
+    <Terrain>EternalFrost</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <RealmScore biome="EternalFrost">10</RealmScore>
     <Spawn>
       <Mean>3</Mean>
       <StdDev>1</StdDev>
@@ -6270,7 +6281,7 @@
       <Max>5</Max>
     </Spawn>
     <Projectile id="0">
-      <ObjectId>Yeti Snowball</ObjectId>
+      <ObjectId>FR God Wave</ObjectId>
       <Speed>50</Speed>
       <Damage>100</Damage>
       <LifetimeMS>1500</LifetimeMS>
@@ -6279,7 +6290,7 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,ETERNALFROST,NATURE,GOD,MINION_MID,ORYXMAS_SNOWMAN_REALM</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -6304,8 +6315,9 @@
     <Exp>150</Exp>
     <BXP>712</BXP>
     <God />
-    <Terrain>Mountains</Terrain>
-    <SpawnProb>0.0</SpawnProb>
+    <Terrain>EternalFrost</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <RealmScore biome="EternalFrost">10</RealmScore>
     <Spawn>
       <Mean>3</Mean>
       <StdDev>1</StdDev>
@@ -6313,7 +6325,7 @@
       <Max>5</Max>
     </Spawn>
     <Projectile id="0">
-      <ObjectId>Yeti Snowball</ObjectId>
+      <ObjectId>FR God Wave</ObjectId>
       <Speed>70</Speed>
       <Damage>80</Damage>
       <LifetimeMS>2000</LifetimeMS>
@@ -6322,7 +6334,7 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,ETERNALFROST,NATURE,GOD,MINION_MID,ORYXMAS_SNOWMAN_REALM</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -6347,8 +6359,9 @@
     <Exp>150</Exp>
     <BXP>712</BXP>
     <God />
-    <Terrain>Mountains</Terrain>
-    <SpawnProb>0.0</SpawnProb>
+    <Terrain>EternalFrost</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <RealmScore biome="EternalFrost">10</RealmScore>
     <Spawn>
       <Mean>3</Mean>
       <StdDev>1</StdDev>
@@ -6356,7 +6369,7 @@
       <Max>5</Max>
     </Spawn>
     <Projectile id="0">
-      <ObjectId>XMAS Frozen Arrow</ObjectId>
+      <ObjectId>FR Boss Shard</ObjectId>
       <Damage>95</Damage>
       <Speed>110</Speed>
       <LifetimeMS>1200</LifetimeMS>
@@ -6365,7 +6378,7 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,ETERNALFROST,NATURE,GOD,MINION_MID,ORYXMAS_SNOWMAN_REALM</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -6390,8 +6403,9 @@
     <Exp>150</Exp>
     <BXP>712</BXP>
     <God />
-    <Terrain>Mountains</Terrain>
-    <SpawnProb>0.0</SpawnProb>
+    <Terrain>EternalFrost</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <RealmScore biome="EternalFrost">10</RealmScore>
     <Spawn>
       <Mean>3</Mean>
       <StdDev>1</StdDev>
@@ -6408,7 +6422,7 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,ETERNALFROST,NATURE,GOD,MINION_MID,ORYXMAS_SNOWMAN_REALM</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -6433,8 +6447,9 @@
     <Exp>150</Exp>
     <BXP>712</BXP>
     <God />
-    <Terrain>Mountains</Terrain>
-    <SpawnProb>0.0</SpawnProb>
+    <Terrain>EternalFrost</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+    <RealmScore biome="EternalFrost">10</RealmScore>
     <Spawn>
       <Mean>3</Mean>
       <StdDev>1</StdDev>
@@ -6443,7 +6458,7 @@
     </Spawn>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,ETERNALFROST,NATURE,GOD,MINION_MID,ORYXMAS_SNOWMAN_REALM</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -6708,12 +6723,12 @@
     <Labels>ENEMY,MINION,QUEST</Labels>
   </Object>
   <Object type="0x2635" id="Yellow Leprechaun">
-    <DisplayId>Yellow Leprechaun</DisplayId>
+    <DisplayId>Reconstruction Yellow Leprechaun</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>stPatricksChars8x8</File>
-      <Index>6</Index>
+      <Index>8</Index>
     </AnimatedTexture>
     <HitSound>monster/dwarves_hit</HitSound>
     <DeathSound>monster/dwarves_death</DeathSound>
@@ -6732,7 +6747,7 @@
     <Projectile id="0">
       <ObjectId>Razorlight</ObjectId>
       <Speed>10</Speed>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <LifetimeMS>2500</LifetimeMS>
       <FaceDir />
       <Parametric />
@@ -6740,23 +6755,23 @@
       <Size>110</Size>
       <MultiHit />
       <PassesCover />
-      <ConditionEffect duration="1.0">Quiet</ConditionEffect>
+      <ConditionEffect duration=".8">Quiet</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Razorlight</ObjectId>
       <Speed>10</Speed>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <LifetimeMS>800</LifetimeMS>
       <Size>110</Size>
       <MultiHit />
       <PassesCover />
       <Wavy />
-      <ConditionEffect duration="1.0">Quiet</ConditionEffect>
+      <ConditionEffect duration=".8">Quiet</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>Rainbow Rod Beam</ObjectId>
       <Speed>70</Speed>
-      <Damage>70</Damage>
+      <Damage>50</Damage>
       <LifetimeMS>2600</LifetimeMS>
       <Size>130</Size>
       <MultiHit />
@@ -6858,10 +6873,6 @@
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
       <Index>161</Index>
-    </AnimatedTexture>
-    <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>162</Index>
     </AnimatedTexture>
     <MaxHitPoints>150000</MaxHitPoints>
     <Defense>60</Defense>
@@ -7101,6 +7112,8 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
+    <MinimapIcon piece="Boss" />
+    <Color>0xff69b4</Color>
     <HealthBarBoss radius="30" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
@@ -7949,10 +7962,13 @@
     <NoMiniMap />
   </Object>
   <Object type="0x80fa" id="Oryxmas Realm Present">
+    <DisplayId>Easter Realm Egg</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <KeepDamageRecord />
     <TrackLoot />
+    <Color>0xFFFF00</Color>
+    <MinimapIcon color="FFFF00" piece="Present" />
     <RandomTexture>
       <Texture>
         <File>buffedBunnyObjects16x16</File>
@@ -7980,16 +7996,8 @@
     <Size>100</Size>
     <Exp>1000</Exp>
     <StasisImmune />
-    <KillStat stat="StructureKills" />
-    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
-    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
-    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
-    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
-    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
-    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
-    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
-    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
-  </Object>
+      &gt;
+      <KillStat stat="StructureKills" /><Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels><SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn><SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn><SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn><SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn><SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn><SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn><SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn></Object>
   <Object type="0x8100" id="Presents Initiator">
     <Class>GameObject</Class>
     <Enemy />
@@ -8052,6 +8060,8 @@
     <Exp>4000</Exp>
     <BXP>20000</BXP>
     <BlockPlayerPortals />
+    <MinimapIcon piece="Boss" />
+    <Color>0x00A809</Color>
     <PerRealmMax>1</PerRealmMax>
     <Projectile id="0">
       <ObjectId>Blue Bubble</ObjectId>
@@ -8306,6 +8316,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
+    <Labels>ENEMY,BOSS,STASISIMMUNE,ANTINOMY</Labels>
   </Object>
   <Object type="0xac6d" id="Void Archer">
     <Class>Character</Class>
@@ -8317,16 +8328,17 @@
     </AnimatedTexture>
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
-    <MaxHitPoints>1000</MaxHitPoints>
+    <MaxHitPoints>4000</MaxHitPoints>
     <BXP>475</BXP>
     <Cube />
     <Projectile id="0">
       <ObjectId>Indigo Dark Arrow</ObjectId>
       <Speed>80</Speed>
-      <Damage>30</Damage>
+      <Damage>50</Damage>
       <LifetimeMS>1500</LifetimeMS>
     </Projectile>
     <Size>120</Size>
+    <Labels>ENEMY,MINION,ANTINOMY</Labels>
   </Object>
   <Object type="0xac6e" id="Void Assassin">
     <Class>Character</Class>
@@ -8337,17 +8349,18 @@
     </AnimatedTexture>
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
-    <MaxHitPoints>2000</MaxHitPoints>
+    <MaxHitPoints>8000</MaxHitPoints>
     <Cube />
     <Projectile id="0">
       <ObjectId>Purple Magic</ObjectId>
       <Speed>50</Speed>
-      <Damage>50</Damage>
+      <Damage>80</Damage>
       <LifetimeMS>1800</LifetimeMS>
     </Projectile>
     <Size>120</Size>
     <Exp>10</Exp>
     <BXP>47</BXP>
+    <Labels>ENEMY,MINION,ANTINOMY</Labels>
   </Object>
   <Object type="0xac6f" id="Daeva Prison">
     <Class>Character</Class>
@@ -8391,6 +8404,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
+    <Labels>ENEMY,BOSS,STASISIMMUNE,ANTINOMY</Labels>
   </Object>
   <Object type="0xac70" id="Daeva Archer">
     <Class>Character</Class>
@@ -8402,16 +8416,17 @@
     </AnimatedTexture>
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
-    <MaxHitPoints>1000</MaxHitPoints>
+    <MaxHitPoints>4000</MaxHitPoints>
     <BXP>475</BXP>
     <Cube />
     <Projectile id="0">
       <ObjectId>Gold Arrow</ObjectId>
       <Speed>80</Speed>
-      <Damage>30</Damage>
+      <Damage>50</Damage>
       <LifetimeMS>1500</LifetimeMS>
     </Projectile>
     <Size>120</Size>
+    <Labels>ENEMY,MINION,ANTINOMY</Labels>
   </Object>
   <Object type="0xac71" id="Daeva Assassin">
     <Class>Character</Class>
@@ -8422,17 +8437,18 @@
     </AnimatedTexture>
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
-    <MaxHitPoints>2000</MaxHitPoints>
+    <MaxHitPoints>8000</MaxHitPoints>
     <Cube />
     <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
       <Speed>50</Speed>
-      <Damage>50</Damage>
+      <Damage>80</Damage>
       <LifetimeMS>1800</LifetimeMS>
     </Projectile>
     <Size>120</Size>
     <Exp>10</Exp>
     <BXP>47</BXP>
+    <Labels>ENEMY,MINION,ANTINOMY</Labels>
   </Object>
   <Object type="0xac72" id="Void Heralds Initiator">
     <Class>GameObject</Class>
@@ -9690,6 +9706,7 @@
     <Defense>15</Defense>
     <AlwaysPositiveHealth />
     <Sound id="0">spell/major_heal</Sound>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="50" dustMax="100" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object type="0x47c9" id="Key Fairy Mid">
     <DisplayId>Key Fairy</DisplayId>
@@ -9707,6 +9724,8 @@
     <Defense>20</Defense>
     <AlwaysPositiveHealth />
     <Sound id="0">spell/major_heal</Sound>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="50" dustMax="100" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="30" dustMax="60" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object type="0x47ca" id="Key Fairy Hard">
     <DisplayId>Key Fairy</DisplayId>
@@ -9724,6 +9743,9 @@
     <Defense>30</Defense>
     <AlwaysPositiveHealth />
     <Sound id="0">spell/major_heal</Sound>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="50" dustMax="100" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="30" dustMax="60" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="20" dustMax="40" seasonalBonus="0.15">purpleDust</SoulboundDust>
   </Object>
   <Object type="0x47cc" id="Heroic Orb">
     <Class>GameObject</Class>
@@ -9731,7 +9753,7 @@
       <File>invisible</File>
       <Index>0x0</Index>
     </Texture>
-    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
   </Object>
   <Object type="0x43f3" id="Swarm Spider Low">
     <Class>Character</Class>
@@ -10456,7 +10478,6 @@
       <PassesCover />
       <MultiHit />
     </Projectile>
-    <FaceDir />
     <Projectile id="82">
       <ObjectId>White Small Prism</ObjectId>
       <Speed>50</Speed>
@@ -10827,7 +10848,7 @@
   </Object>
   <Object type="0x2f3" id="Crab Arena Treasure Portal">
     <Class>GameObject</Class>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Texture>
       <File>invisible</File>
@@ -10845,7 +10866,7 @@
   </Object>
   <Object type="0x2f5" id="Puppet Arena Treasure Portal">
     <Class>GameObject</Class>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Texture>
       <File>invisible</File>
@@ -10863,7 +10884,7 @@
   </Object>
   <Object type="0x2f7" id="Thicket Arena Treasure Portal">
     <Class>GameObject</Class>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Texture>
       <File>invisible</File>
@@ -10881,7 +10902,7 @@
   </Object>
   <Object type="0x2f9" id="Ocean Arena Treasure Portal">
     <Class>GameObject</Class>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Texture>
       <File>invisible</File>
@@ -10911,7 +10932,7 @@
   </Object>
   <Object type="0x40A" id="Crab Arena Treasure Portal 2">
     <Class>GameObject</Class>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Texture>
       <File>invisible</File>
@@ -10920,7 +10941,7 @@
   </Object>
   <Object type="0x40b" id="Puppet Arena Treasure Portal 2">
     <Class>GameObject</Class>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Texture>
       <File>invisible</File>
@@ -10929,7 +10950,7 @@
   </Object>
   <Object type="0x40c" id="Thicket Arena Treasure Portal 2">
     <Class>GameObject</Class>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Texture>
       <File>invisible</File>
@@ -10938,7 +10959,7 @@
   </Object>
   <Object type="0x40d" id="Ocean Arena Treasure Portal 2">
     <Class>GameObject</Class>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <Texture>
       <File>invisible</File>
@@ -11223,7 +11244,7 @@
     <BXP>57</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
-    <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK,ORYXMAS_PRESENT_DUNGEON</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -11231,6 +11252,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x7211" id="Oryxmas Present Medium">
     <DisplayId>Medium Present</DisplayId>
@@ -11256,7 +11278,7 @@
     <BXP>95</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
-    <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK,ORYXMAS_PRESENT_DUNGEON</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -11264,6 +11286,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x7212" id="Oryxmas Present Large">
     <DisplayId>Large Present</DisplayId>
@@ -11289,7 +11312,7 @@
     <BXP>142</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
-    <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK,ORYXMAS_PRESENT_DUNGEON</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -11297,6 +11320,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="Oryxmas Snowman N" type="0x7213">
     <DisplayId>Oryxmas Snowman Tier 1</DisplayId>
@@ -11667,6 +11691,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x7233" id="Jester Stick">
     <Enemy />
@@ -11693,6 +11718,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5AC" id="Loot Bunny">
     <DisplayId>Loot Bunalien</DisplayId>
@@ -11869,14 +11895,17 @@
     <HitSound>monster/elves_hit</HitSound>
     <DeathSound>monster/elves_death</DeathSound>
     <MaxHitPoints>2750</MaxHitPoints>
+    <Defense>0</Defense>
     <Exp>0</Exp>
+    <BXP>0</BXP>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Red Star New</ObjectId>
       <Speed>90</Speed>
-      <Damage>115</Damage>
+      <Damage>90</Damage>
+      <ConditionEffect duration="1.5">Exposed</ConditionEffect>
       <LifetimeMS>1000</LifetimeMS>
       <Size>60</Size>
       <MultiHit />
@@ -11924,7 +11953,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,STASISIMMUNE,NATURE,SPAWNER</Labels>
+    <Labels>ENEMY,STASISIMMUNE,NATURE,SPAWNER,RED_FLOWER</Labels>
     <Presentation>
       <Style id="SetAlt2">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>
@@ -11955,7 +11984,9 @@
     <HitSound>monster/elves_hit</HitSound>
     <DeathSound>monster/elves_death</DeathSound>
     <MaxHitPoints>2750</MaxHitPoints>
+    <Defense>0</Defense>
     <Exp>0</Exp>
+    <BXP>0</BXP>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
     <StasisImmune />
@@ -11965,7 +11996,7 @@
       <Damage>30</Damage>
       <LifetimeMS>1000</LifetimeMS>
       <Size>60</Size>
-      <ConditionEffect duration="1.5">Quiet</ConditionEffect>
+      <ConditionEffect duration="1.5">Exposed</ConditionEffect>
       <MultiHit />
     </Projectile>
     <AltTexture id="1">
@@ -12011,7 +12042,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,STASISIMMUNE,NATURE,SPAWNER</Labels>
+    <Labels>ENEMY,STASISIMMUNE,NATURE,SPAWNER,WHITE_FLOWER</Labels>
     <Presentation>
       <Style id="SetAlt2">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>
@@ -12042,7 +12073,9 @@
     <HitSound>monster/elves_hit</HitSound>
     <DeathSound>monster/elves_death</DeathSound>
     <MaxHitPoints>2750</MaxHitPoints>
+    <Defense>0</Defense>
     <Exp>0</Exp>
+    <BXP>0</BXP>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
     <StasisImmune />
@@ -12052,7 +12085,7 @@
       <Damage>60</Damage>
       <LifetimeMS>1000</LifetimeMS>
       <Size>60</Size>
-      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+      <ConditionEffect duration="1.5">Exposed</ConditionEffect>
       <MultiHit />
     </Projectile>
     <AltTexture id="1">
@@ -12098,7 +12131,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,STASISIMMUNE,NATURE,SPAWNER</Labels>
+    <Labels>ENEMY,STASISIMMUNE,NATURE,SPAWNER,YELLOW_FLOWER</Labels>
     <Presentation>
       <Style id="SetAlt2">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>
@@ -12133,7 +12166,6 @@
     <Class>Character</Class>
     <Enemy />
     <Invincible />
-    <StasisImmune />
     <ShadowSize>0</ShadowSize>
     <AnimatedTexture>
       <File>chars16x16dEncounters2</File>
@@ -12147,7 +12179,6 @@
     <Class>Character</Class>
     <Enemy />
     <Invincible />
-    <StasisImmune />
     <ShadowSize>0</ShadowSize>
     <AnimatedTexture>
       <File>chars16x16dEncounters2</File>
@@ -12161,7 +12192,6 @@
     <Class>Character</Class>
     <Enemy />
     <Invincible />
-    <StasisImmune />
     <ShadowSize>0</ShadowSize>
     <AnimatedTexture>
       <File>chars16x16dEncounters2</File>
@@ -12170,5 +12200,1128 @@
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/blobs_death</DeathSound>
     <Size>1</Size>
+  </Object>
+  <Object type="0x8607" id="Void Guide">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>191</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>191</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>192</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>193</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>194</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Color>0xbc13fe</Color>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object id="MotMG Glory Enemy Low" type="0x9B2">
+    <DisplayId>Glorious Legionaire</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>173</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>80</Size>
+    <MaxHitPoints>150</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>10</Exp>
+    <BXP>50</BXP>
+    <Projectile id="0">
+      <ObjectId>MotMG 2024 Sword Projectile</ObjectId>
+      <Damage>5</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MotMG 2024 Sword Projectile</ObjectId>
+      <Damage>5</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>GLORY_ENEMY,AMULET_MINION_LOW</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="MotMG Glory Enemy Mid" type="0x9B3">
+    <DisplayId>Glorious Legionaire</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>173</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>150</Exp>
+    <BXP>750</BXP>
+    <Projectile id="0">
+      <ObjectId>MotMG 2024 Sword Projectile</ObjectId>
+      <Damage>95</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MotMG 2024 Sword Projectile</ObjectId>
+      <Damage>95</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>GLORY_ENEMY,AMULET_MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="MotMG Glory Enemy High" type="0x9B4">
+    <DisplayId>Glorious Legionaire</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>173</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>500</Exp>
+    <BXP>2500</BXP>
+    <Projectile id="0">
+      <ObjectId>MotMG 2024 Sword Projectile</ObjectId>
+      <Damage>135</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MotMG 2024 Sword Projectile</ObjectId>
+      <Damage>135</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>GLORY_ENEMY,AMULET_MINION_HIGH</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="MotMG Insight Enemy Low" type="0x9B5">
+    <DisplayId>Insightful Disciple</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>174</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>80</Size>
+    <MaxHitPoints>150</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>10</Exp>
+    <BXP>50</BXP>
+    <Projectile id="0">
+      <ObjectId>MotMG 2024 Staff Projectile</ObjectId>
+      <Damage>5</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MotMG 2024 Staff Projectile</ObjectId>
+      <Damage>3</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>INSIGHT_ENEMY,AMULET_MINION_LOW</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="MotMG Insight Enemy Mid" type="0x9B6">
+    <DisplayId>Insightful Disciple</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>174</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>150</Exp>
+    <BXP>750</BXP>
+    <Projectile id="0">
+      <ObjectId>MotMG 2024 Staff Projectile</ObjectId>
+      <Damage>95</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MotMG 2024 Staff Projectile</ObjectId>
+      <Damage>47</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>INSIGHT_ENEMY,AMULET_MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="MotMG Insight Enemy High" type="0x9B7">
+    <DisplayId>Insightful Disciple</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>174</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>500</Exp>
+    <BXP>2500</BXP>
+    <Projectile id="0">
+      <ObjectId>MotMG 2024 Staff Projectile</ObjectId>
+      <Damage>135</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>MotMG 2024 Staff Projectile</ObjectId>
+      <Damage>68</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>INSIGHT_ENEMY,AMULET_MINION_HIGH</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xD47" id="September 2024 Chest Low">
+    <DisplayId>Treasure Chest</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObjBig</File>
+      <Index>592</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>596</Index>
+      </Texture>
+    </AltTexture>
+    <Animation period="0" prob="1" id="Open">
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>592</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>593</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>594</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>595</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>596</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="OpenAnim">
+        <StyleStep id="Open" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Sound id="0">monster/wooden_walls_death</Sound>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Size>80</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <Defense>8</Defense>
+    <Exp>100</Exp>
+    <Labels>ENEMY,MINION,CHEST,MINION_STRONG</Labels>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xD48" id="September 2024 Chest Mid">
+    <DisplayId>Treasure Chest</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObjBig</File>
+      <Index>592</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>596</Index>
+      </Texture>
+    </AltTexture>
+    <Animation period="0" prob="1" id="Open">
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>592</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>593</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>594</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>595</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>596</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="OpenAnim">
+        <StyleStep id="Open" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Sound id="0">monster/wooden_walls_death</Sound>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>4500</MaxHitPoints>
+    <Defense>8</Defense>
+    <Exp>100</Exp>
+    <Labels>ENEMY,MINION,CHEST,MINION_STRONG</Labels>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0xD49" id="September 2024 Chest High">
+    <DisplayId>Treasure Chest</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObjBig</File>
+      <Index>592</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>596</Index>
+      </Texture>
+    </AltTexture>
+    <Animation period="0" prob="1" id="Open">
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>592</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>593</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>594</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>595</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>596</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="OpenAnim">
+        <StyleStep id="Open" loop="1" period="0">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Sound id="0">monster/wooden_walls_death</Sound>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>6000</MaxHitPoints>
+    <Defense>8</Defense>
+    <Exp>100</Exp>
+    <Labels>ENEMY,MINION,CHEST,MINION_STRONG</Labels>
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object id="September 2024 Pirate Low" type="0xD4A">
+    <DisplayId>Pirate Guard</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8dEncounters</File>
+      <Index>64</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>150</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>10</Exp>
+    <BXP>50</BXP>
+    <Projectile id="0">
+      <ObjectId>Brine Quiver Projectile</ObjectId>
+      <Damage>15</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Pirate Chest Encounter Projectile</ObjectId>
+      <Damage>9</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>INSIGHT_ENEMY,AMULET_MINION_LOW</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="September 2024 Pirate Mid" type="0xD4B">
+    <DisplayId>Pirate Guard</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8dEncounters</File>
+      <Index>64</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>150</Exp>
+    <BXP>750</BXP>
+    <Projectile id="0">
+      <ObjectId>Brine Quiver Projectile</ObjectId>
+      <Damage>95</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Pirate Chest Encounter Projectile</ObjectId>
+      <Damage>47</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>INSIGHT_ENEMY,AMULET_MINION_MID</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="September 2024 Pirate High" type="0xD4C">
+    <DisplayId>Pirate Guard</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8dEncounters</File>
+      <Index>64</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>140</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>500</Exp>
+    <BXP>2500</BXP>
+    <Projectile id="0">
+      <ObjectId>Brine Quiver Projectile</ObjectId>
+      <Damage>135</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Pirate Chest Encounter Projectile</ObjectId>
+      <Damage>68</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>80</Size>
+      <MultiHit />
+    </Projectile>
+    <Labels>INSIGHT_ENEMY,AMULET_MINION_HIGH</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x74e9" id="Oryxmas Teleport Room">
+    <DisplayId>Teleport</DisplayId>
+    <Class>Portal</Class>
+    <TeleportingPortal />
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>288</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>288</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>289</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>290</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>291</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>292</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>293</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <Color>0xbc13fe</Color>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0x74EB" id="Oryxmas Ground Teleporter">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>294</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>294</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>295</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>296</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>297</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>298</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>299</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <DrawOnGround />
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x74ea" id="Oryxmas Teleport Boss">
+    <DisplayId>Teleport</DisplayId>
+    <Class>GameObject</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0x7b97" id="Elf Spawner Shipwreck Cove">
+    <DisplayId>Oryxmas Elf Event</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <SpawnProb>1</SpawnProb>
+    <PerRealmMax>10</PerRealmMax>
+    <Terrain>ShipWreck</Terrain>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0x7b98" id="Elf Spawner Haunted Hallows">
+    <DisplayId>Oryxmas Elf Event</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <SpawnProb>1</SpawnProb>
+    <PerRealmMax>10</PerRealmMax>
+    <Terrain>HauntedHallows</Terrain>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0x7b86" id="Oryxmas Elf Event">
+    <DisplayId>Oryxmas Elf Event</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <AnimatedTexture>
+      <File>chars8x8rPets1</File>
+      <Index>31</Index>
+    </AnimatedTexture>
+    <Size>150</Size>
+    <ShadowSize>0</ShadowSize>
+    <Color>0xbc13fe</Color>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0x7b87" id="Oryxmas Elf Teleporter">
+    <DisplayId>Teleport</DisplayId>
+    <Class>GameObject</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>294</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>294</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>295</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>296</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>297</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>298</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>lofiObj4</File>
+          <Index>299</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0x7b96" id="Elf Event Initiator">
+    <DisplayId>Elf Event</DisplayId>
+    <Class>GameObject</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <PerRealmMax>1</PerRealmMax>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0xCB8B" id="Cnidaria Arena Treasure Portal">
+    <Class>GameObject</Class>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCB8C" id="Cnidaria Arena Arena Portal">
+    <Class>GameObject</Class>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCB8D" id="The Shatters Treasure Portal">
+    <Class>GameObject</Class>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0xCBB0" id="The Shatters Arena Arena Portal">
+    <Class>GameObject</Class>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0x7996" id="Valentines Initiator">
+    <DisplayId>The Appetizer</DisplayId>
+    <Class>GameObject</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <PerRealmMax>1</PerRealmMax>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0xA205" id="Swarm Spirit Snake">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/snakes_hit</HitSound>
+    <DeathSound>monster/beholder_death</DeathSound>
+    <Size>90</Size>
+    <MaxHitPoints>500</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>100</Exp>
+    <Enemy />
+    <Projectile>
+      <ObjectId>White Bolt</ObjectId>
+      <Size>80</Size>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Damage>10</Damage>
+      <ArmorPiercing />
+      <CurrentHealthDamage>0.025</CurrentHealthDamage>
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MINION,CRITTER,SPAWNER</Labels>
+  </Object>
+  <Object type="0xA206" id="Swarm Spirit Snake Spawner">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>whiteSnakeChars8x8</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object id="Easter White Bunny God" type="0x70e7">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>White Bunny God</DisplayId>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>112</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1750</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>150</Exp>
+    <BXP>712</BXP>
+    <God />
+    <SpawnProb>1.0</SpawnProb>
+    <RealmScore biome="SpringMeaning">10</RealmScore>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Projectile id="0">
+      <ObjectId>Easter Projectile 1</ObjectId>
+      <Speed>45</Speed>
+      <Acceleration>90</Acceleration>
+      <SpeedClamp>105</SpeedClamp>
+      <Damage>100</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,SPRINGMEANING,NATURE,GOD,MINION_MID,EASTER_BUNNY_REALM,EASTER</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="Easter Orange Bunny God" type="0x70e8">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Orange Bunny God</DisplayId>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>113</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1850</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>150</Exp>
+    <BXP>712</BXP>
+    <God />
+    <SpawnProb>0.8</SpawnProb>
+    <RealmScore biome="SpringMeaning">10</RealmScore>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Projectile id="0">
+      <ObjectId>Easter Projectile 6</ObjectId>
+      <Speed>70</Speed>
+      <Damage>80</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,SPRINGMEANING,NATURE,GOD,MINION_MID,EASTER_BUNNY_REALM,EASTER</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="Easter Playful Bunny God" type="0x70e9">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Playful Bunny God</DisplayId>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>114</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>150</Exp>
+    <BXP>712</BXP>
+    <God />
+    <SpawnProb>0.45</SpawnProb>
+    <RealmScore biome="SpringMeaning">10</RealmScore>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Projectile id="0">
+      <ObjectId>Easter Projectile 12</ObjectId>
+      <Damage>95</Damage>
+      <Speed>110</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,SPRINGMEANING,NATURE,GOD,MINION_MID,EASTER_BUNNY_REALM,EASTER</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="Easter Fluffy Bunny God" type="0x70ec">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Fluffy Bunny God</DisplayId>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>115</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>150</Exp>
+    <BXP>712</BXP>
+    <God />
+    <SpawnProb>0.8</SpawnProb>
+    <RealmScore biome="SpringMeaning">10</RealmScore>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Projectile id="0">
+      <ObjectId>Easter Projectile 16</ObjectId>
+      <Speed>80</Speed>
+      <Damage>90</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,SPRINGMEANING,NATURE,GOD,MINION_MID,EASTER_BUNNY_REALM,EASTER</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object id="Easter Fuzzy Bunny God" type="0x70ed">
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Fuzzy Bunny God</DisplayId>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>116</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1800</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>150</Exp>
+    <BXP>712</BXP>
+    <God />
+    <SpawnProb>0.45</SpawnProb>
+    <RealmScore biome="SpringMeaning">10</RealmScore>
+    <Spawn>
+      <Mean>3</Mean>
+      <StdDev>1</StdDev>
+      <Min>2</Min>
+      <Max>5</Max>
+    </Spawn>
+    <Projectile id="0">
+      <ObjectId>Easter Projectile 18</ObjectId>
+      <Damage>95</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,SPRINGMEANING,NATURE,GOD,MINION_MID,EASTER_BUNNY_REALM,EASTER</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
 </Objects>

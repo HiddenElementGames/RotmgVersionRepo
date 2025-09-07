@@ -1995,9 +1995,11 @@
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>120</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>50000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>7500</Exp>
@@ -2453,9 +2455,11 @@
       <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
     <NoCollisionWhenMovement />
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>20</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>500</Exp>
@@ -2470,6 +2474,38 @@
     <SlowImmune />
     <DamageBasedXP />
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,CUBE,GOD</Labels>
+    <Presentation>
+      <Style id="SetAlt0">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt5">
+        <StyleStep altTextureId="5">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt6">
+        <StyleStep altTextureId="6">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt7">
+        <StyleStep altTextureId="7">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt8">
+        <StyleStep altTextureId="8">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt9">
+        <StyleStep altTextureId="9">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x422e" id="tD Shadow Target">
     <NoMiniMap />
@@ -3766,6 +3802,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>85000</MaxHitPoints>
     <BXP>926</BXP>
     <Defense>50</Defense>
@@ -3853,6 +3890,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>85000</MaxHitPoints>
     <BXP>926</BXP>
     <Defense>50</Defense>
@@ -4587,9 +4625,11 @@
       <MultiHit />
       <Size>100</Size>
     </Projectile>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>115000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>7500</Exp>
@@ -4604,10 +4644,10 @@
     <SlowImmune />
     <StasisImmune />
     <Sound id="0">monster/rocks_death</Sound>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="69" dustMax="162" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="21" dustMax="50" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust dustMin="42" dustMax="52" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="43" dustMax="49" seasonalBonus="0.15">redDust</SoulboundDust>
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,CUBE,GOD,HPSCALEONENTRY,STGEMDROP</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,CUBE,GOD,HPSCALEONENTRY,STGEMDROP,AMULET_VETERAN</Labels>
     <SpecialSpawn category="Bis">The Third Dimension Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Exotic Egg</SpecialSpawn>
@@ -4627,6 +4667,8 @@
     <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt11">
         <StyleStep altTextureId="11">SetAltTexture</StyleStep>

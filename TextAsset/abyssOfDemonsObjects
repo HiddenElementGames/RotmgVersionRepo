@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
-  <Object type="0x2bc" id="Abyss Imp Projectile">
+  <Object type="0x02bc" id="Abyss Imp Projectile">
     <Class>Projectile</Class>
     <Texture>
       <File>abyssOfDemonsObjects8x8</File>
@@ -8,28 +8,28 @@
     </Texture>
     <AngleCorrection>1</AngleCorrection>
   </Object>
-  <Object type="0x2bd" id="Abyss Fire Projectile">
+  <Object type="0x02bd" id="Abyss Fire Projectile">
     <Class>Projectile</Class>
     <Texture>
       <File>abyssOfDemonsObjects8x8</File>
       <Index>0x3b</Index>
     </Texture>
   </Object>
-  <Object type="0x2be" id="Abyss Blast Projectile">
+  <Object type="0x02be" id="Abyss Blast Projectile">
     <Class>Projectile</Class>
     <Texture>
       <File>abyssOfDemonsObjects8x8</File>
       <Index>0x3a</Index>
     </Texture>
   </Object>
-  <Object type="0x2bf" id="Abyss Sword Projectile">
+  <Object type="0x02bf" id="Abyss Sword Projectile">
     <Class>Projectile</Class>
     <Texture>
       <File>abyssOfDemonsObjects8x8</File>
       <Index>0x3d</Index>
     </Texture>
   </Object>
-  <Object type="0x2c0" id="Abyss Soul Shot Projectile">
+  <Object type="0x02c0" id="Abyss Soul Shot Projectile">
     <Class>Projectile</Class>
     <Texture>
       <File>abyssOfDemonsObjects8x8</File>
@@ -37,7 +37,7 @@
     </Texture>
     <AngleCorrection>1</AngleCorrection>
   </Object>
-  <Object type="0x2c1" id="Abyss Soul Bash Projectile">
+  <Object type="0x02c1" id="Abyss Soul Bash Projectile">
     <Class>Projectile</Class>
     <Texture>
       <File>abyssOfDemonsObjects8x8</File>
@@ -45,7 +45,7 @@
     </Texture>
     <AngleCorrection>1</AngleCorrection>
   </Object>
-  <Object type="0x2d8" id="Abyss Soul Spear Projectile">
+  <Object type="0x02d8" id="Abyss Soul Spear Projectile">
     <Class>Projectile</Class>
     <Texture>
       <File>abyssOfDemonsObjects16x16</File>
@@ -131,6 +131,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>20000</MaxHitPoints>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <Defense>20</Defense>
     <Exp>6000</Exp>
@@ -217,12 +218,12 @@
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="23" dustMax="55" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="33" dustMax="39" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Abyss of Demons Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Reptile Egg</SpecialSpawn>
@@ -239,6 +240,8 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Horned Wyrm Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Mercenary_B">Mercenary B Dungeon</SpecialSpawn>
     <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
+    <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 1</SpecialSpawn>
   </Object>
   <Object type="0x090b" id="Malphas Hound">
     <Enemy />
@@ -290,7 +293,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0x673" id="White Demon of the Abyss">
+  <Object type="0x0673" id="White Demon of the Abyss">
     <Group>Greater Demons</Group>
     <Enemy />
     <Class>Character</Class>
@@ -318,7 +321,7 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_WEAK,ABYSSBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -326,8 +329,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x66d" id="Imp of the Abyss">
+  <Object type="0x066d" id="Imp of the Abyss">
     <Group>Abyss Demons</Group>
     <Enemy />
     <Class>Character</Class>
@@ -352,7 +356,7 @@
       <ArmorPiercing />
     </Projectile>
     <KillStat stat="GrotesqueKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK,ABYSSBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -360,8 +364,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x66e" id="Demon of the Abyss">
+  <Object type="0x066e" id="Demon of the Abyss">
     <Group>Abyss Demons</Group>
     <Enemy />
     <Class>Character</Class>
@@ -384,7 +389,7 @@
       <Size>140</Size>
     </Projectile>
     <KillStat stat="GrotesqueKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK,ABYSSBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -392,8 +397,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x66f" id="Demon Warrior of the Abyss">
+  <Object type="0x066f" id="Demon Warrior of the Abyss">
     <Group>Abyss Demons</Group>
     <Enemy />
     <Class>Character</Class>
@@ -415,7 +421,7 @@
       <LifetimeMS>3000</LifetimeMS>
     </Projectile>
     <KillStat stat="GrotesqueKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK,ABYSSBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -423,8 +429,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x670" id="Demon Mage of the Abyss">
+  <Object type="0x0670" id="Demon Mage of the Abyss">
     <Group>Abyss Demons</Group>
     <Enemy />
     <Class>Character</Class>
@@ -446,7 +453,7 @@
       <LifetimeMS>3000</LifetimeMS>
     </Projectile>
     <KillStat stat="GrotesqueKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK,ABYSSBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -454,8 +461,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x671" id="Brute of the Abyss">
+  <Object type="0x0671" id="Brute of the Abyss">
     <Group>Abyss Brutes</Group>
     <Enemy />
     <Class>Character</Class>
@@ -477,7 +485,7 @@
       <LifetimeMS>800</LifetimeMS>
     </Projectile>
     <KillStat stat="GrotesqueKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK,ABYSSBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -485,8 +493,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x672" id="Brute Warrior of the Abyss">
+  <Object type="0x0672" id="Brute Warrior of the Abyss">
     <Group>Abyss Brutes</Group>
     <Enemy />
     <Class>Character</Class>
@@ -510,7 +519,7 @@
       <Size>160</Size>
     </Projectile>
     <KillStat stat="GrotesqueKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK,ABYSSBASE</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -518,6 +527,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb4e4" id="Blacksmith of the Abyss">
     <Group>Abyss Demons</Group>
@@ -543,6 +553,56 @@
       <ConditionEffect duration="2">Exposed</ConditionEffect>
     </Projectile>
     <KillStat stat="GrotesqueKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK,ABYSSBASE</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3991" id="Infernal Brute Berserker">
+    <Group>Infernal Demons</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>abyssOfDemonsChars16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>80</Exp>
+    <BXP>380</BXP>
+    <Projectile id="0">
+      <ObjectId>Guard Wave Small</ObjectId>
+      <Damage>40</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <ArmorPiercing />
+      <Size>130</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Guard Wave Medium</ObjectId>
+      <Damage>60</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <ArmorPiercing />
+      <Size>110</Size>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Guard Wave Large</ObjectId>
+      <Damage>100</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <ArmorPiercing />
+      <Size>100</Size>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
@@ -551,6 +611,603 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3992" id="Infernal Warsmith">
+    <Group>Infernal Demons</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>abyssOfDemonsChars16x16</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>120</Exp>
+    <BXP>570</BXP>
+    <Projectile id="0">
+      <ObjectId>Abyss Hammer Projectile</ObjectId>
+      <Damage>140</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <Size>120</Size>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>steamworks Golden Hammer 2</ObjectId>
+      <Damage>60</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>120</Size>
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Tavern Brute Wave</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <ArmorPiercing />
+      <Size>100</Size>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3993" id="Infernal Magus">
+    <Group>Infernal Demons</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>abyssOfDemonsChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_demons_hit</HitSound>
+    <DeathSound>monster/abyss_demons_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3500</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>150</Exp>
+    <BXP>712</BXP>
+    <Projectile id="0">
+      <ObjectId>Hell Dragon 1</ObjectId>
+      <Damage>150</Damage>
+      <Speed>20</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>100</Acceleration>
+      <SpeedClamp>90</SpeedClamp>
+      <Size>110</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Hell Skeleton 1</ObjectId>
+      <Damage>45</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>90</Size>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3995" id="Infernal Sorceress">
+    <Group>Infernal Demons</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>abyssOfDemonsChars16x16</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_demons_hit</HitSound>
+    <DeathSound>monster/abyss_demons_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>80</Exp>
+    <BXP>380</BXP>
+    <Projectile id="0">
+      <ObjectId>Abyss Blast Projectile</ObjectId>
+      <Damage>135</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>120</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Hell Skull 1</ObjectId>
+      <Damage>80</Damage>
+      <Speed>40</Speed>
+      <ArmorPiercing />
+      <Size>100</Size>
+      <LifetimeMS>4000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3996" id="Infernal Demon Warrior">
+    <Group>Infernal Demons</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>abyssOfDemonsChars16x16</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_demons_hit</HitSound>
+    <DeathSound>monster/abyss_demons_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>4500</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>80</Exp>
+    <BXP>380</BXP>
+    <Projectile id="0">
+      <ObjectId>Abyss Fire Projectile</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Dagger</ObjectId>
+      <Damage>60</Damage>
+      <Speed>70</Speed>
+      <ArmorPiercing />
+      <Size>105</Size>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Silver Shield</ObjectId>
+      <Damage>125</Damage>
+      <Speed>80</Speed>
+      <ConditionEffect duration="2">Stunned</ConditionEffect>
+      <Size>100</Size>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3a0f" id="Infernal Red Demon">
+    <DisplayId>Infernal Red Demon</DisplayId>
+    <Group>Infernal Demons</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <HitSound>monster/flaming_skulls_hit</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <Size>140</Size>
+    <MaxHitPoints>6000</MaxHitPoints>
+    <Defense>12</Defense>
+    <TrackLoot />
+    <Flying />
+    <God />
+    <Exp>234</Exp>
+    <BXP>833</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Ent God Bolt</ObjectId>
+      <Damage>160</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>120</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Red Demon Mystic Shot</ObjectId>
+      <Damage>130</Damage>
+      <Speed>9</Speed>
+      <LifetimeMS>10000</LifetimeMS>
+      <PassesCover />
+      <Parametric />
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,GOD,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x397d" id="Infernal Archdemon Summoner">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x397e" id="Infernal Archdemon Malphas">
+    <DisplayId>Malphas, Gilded Forgemaster</DisplayId>
+    <Group>Demons</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Flying />
+    <Quest />
+    <God />
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <AnimatedTexture>
+      <File>abyssOfDemonsChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>130000</MaxHitPoints>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <Size>100</Size>
+    <Defense>40</Defense>
+    <Exp>6000</Exp>
+    <BXP>30000</BXP>
+    <EventChestBoss />
+    <TrackLoot />
+    <Projectile id="0">
+      <ObjectId>Abyss Soul Shot Projectile</ObjectId>
+      <Speed>75</Speed>
+      <Damage>60</Damage>
+      <Size>120</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Abyss Soul Bash Projectile</ObjectId>
+      <Speed>40</Speed>
+      <Damage>65</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Abyss Soul Spear Projectile</ObjectId>
+      <Speed>40</Speed>
+      <Damage>150</Damage>
+      <Size>180</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Abyss Soul Bash Projectile</ObjectId>
+      <Speed>60</Speed>
+      <Damage>110</Damage>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Abyss Soul Spear Projectile</ObjectId>
+      <Speed>60</Speed>
+      <Damage>150</Damage>
+      <Size>200</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Abyss Soul Bash Projectile</ObjectId>
+      <Speed>20</Speed>
+      <Damage>90</Damage>
+      <Size>80</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Abyss Soul Spiral Projectile</ObjectId>
+      <Speed>80</Speed>
+      <Damage>25</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Abyss Soul Bash Projectile</ObjectId>
+      <Speed>40</Speed>
+      <Damage>100</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Abyss Soul Shot Projectile</ObjectId>
+      <Speed>70</Speed>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Abyss Soul Spear Projectile</ObjectId>
+      <Speed>0</Speed>
+      <Damage>180</Damage>
+      <Size>150</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10000</Acceleration>
+      <SpeedClamp>125</SpeedClamp>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Abyss Soul Spear Projectile</ObjectId>
+      <Speed>0</Speed>
+      <Damage>180</Damage>
+      <Size>150</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10000</Acceleration>
+      <SpeedClamp>125</SpeedClamp>
+      <AccelerationDelay>1200</AccelerationDelay>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Abyss Soul Spear Projectile</ObjectId>
+      <Speed>0</Speed>
+      <Damage>180</Damage>
+      <Size>150</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10000</Acceleration>
+      <SpeedClamp>125</SpeedClamp>
+      <AccelerationDelay>1400</AccelerationDelay>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Abyss Soul Spear Projectile</ObjectId>
+      <Speed>0</Speed>
+      <Damage>180</Damage>
+      <Size>150</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10000</Acceleration>
+      <SpeedClamp>125</SpeedClamp>
+      <AccelerationDelay>1600</AccelerationDelay>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>Abyss Soul Spear Projectile</ObjectId>
+      <Speed>0</Speed>
+      <Damage>180</Damage>
+      <Size>150</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10000</Acceleration>
+      <SpeedClamp>125</SpeedClamp>
+      <AccelerationDelay>1800</AccelerationDelay>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="15">
+      <ObjectId>Abyss Soul Spear Projectile</ObjectId>
+      <Speed>0</Speed>
+      <Damage>180</Damage>
+      <Size>150</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10000</Acceleration>
+      <SpeedClamp>125</SpeedClamp>
+      <AccelerationDelay>2000</AccelerationDelay>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="16">
+      <ObjectId>Abyss Soul Spear Projectile</ObjectId>
+      <Speed>0</Speed>
+      <Damage>180</Damage>
+      <Size>150</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10000</Acceleration>
+      <SpeedClamp>125</SpeedClamp>
+      <AccelerationDelay>2200</AccelerationDelay>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="17">
+      <ObjectId>Abyss Soul Spear Projectile</ObjectId>
+      <Speed>0</Speed>
+      <Damage>180</Damage>
+      <Size>150</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10000</Acceleration>
+      <SpeedClamp>125</SpeedClamp>
+      <AccelerationDelay>2400</AccelerationDelay>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="18">
+      <ObjectId>Abyss Soul Spear Projectile</ObjectId>
+      <Speed>0</Speed>
+      <Damage>180</Damage>
+      <Size>150</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10000</Acceleration>
+      <SpeedClamp>125</SpeedClamp>
+      <AccelerationDelay>2600</AccelerationDelay>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="19">
+      <ObjectId>Abyss Soul Spear Projectile</ObjectId>
+      <Speed>0</Speed>
+      <Damage>180</Damage>
+      <Size>150</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>10000</Acceleration>
+      <SpeedClamp>125</SpeedClamp>
+      <AccelerationDelay>2800</AccelerationDelay>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <SoulboundDust prob="1" dustMin="13" dustMax="24" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="38" dustMax="50" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <HealthBarBoss radius="30" />
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY,HPSCALEONENTRY,AMULET_ADEPT</Labels>
+    <SpecialSpawn category="Bis">Infernal Abyss of Demons Portal</SpecialSpawn>
+    <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
+    <SpecialSpawn category="PetCollector">Uncommon Reptile Egg</SpecialSpawn>
+    <SpecialSpawn category="Generous">Quest Chest Item</SpecialSpawn>
+    <SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn>
+    <SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn>
+    <SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn>
+    <SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn>
+    <SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn>
+    <SpecialSpawn category="ExaltedBanner">ExaltationBanner</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn>
+    <SpecialSpawn category="Souvenir_MID">Demon Blade</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
+    <SpecialSpawn category="SkinHunter" perPlayer="true">Horned Wyrm Pet Stone</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_B">Mercenary B Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
+    <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
+  </Object>
+  <Object type="0x3a1e" id="Infernal Malphas Protector">
+    <Group>Demons</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>abyssOfDemonsChars8x8</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <Size>100</Size>
+    <Invincible />
+    <NoCollisionWhenMovement />
+    <Projectile id="0">
+      <ObjectId>Abyss Soul Shot Projectile</ObjectId>
+      <Damage>50</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Abyss Soul Spiral Projectile</ObjectId>
+      <Damage>130</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x3a2b" id="Infernal Far Malphas Protector">
+    <DisplayId>Infernal Malphas Protector</DisplayId>
+    <Group>Demons</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>abyssOfDemonsChars8x8</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <Size>100</Size>
+    <Invincible />
+    <NoCollisionWhenMovement />
+    <Projectile id="0">
+      <ObjectId>Abyss Soul Shot Projectile</ObjectId>
+      <Damage>50</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Abyss Soul Spiral Projectile</ObjectId>
+      <Damage>130</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x3a1f" id="Infernal Malphas Hound">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>abyssOfDemonsChars8x8</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>6</Defense>
+    <Exp>0</Exp>
+    <Projectile id="0">
+      <ObjectId>Abyss Soul Shot Projectile</ObjectId>
+      <Speed>60</Speed>
+      <Damage>80</Damage>
+      <Size>100</Size>
+      <LifetimeMS>750</LifetimeMS>
+      <MultiHit />
+      <Amplitude>0.3</Amplitude>
+      <Frequency>0.5</Frequency>
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,CRITTER</Labels>
+  </Object>
+  <Object type="0x3a26" id="Infernal Malphas Missile">
+    <Group>Missiles</Group>
+    <Enemy />
+    <Invincible />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>abyssOfDemonsChars8x8</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>Abyss Soul Shot Projectile</ObjectId>
+      <Speed>66</Speed>
+      <Damage>40</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY</Labels>
   </Object>
   <Object type="0x0e1e" id="AbyssIdolDead">
     <Class>GameObject</Class>
@@ -576,6 +1233,7 @@
     <MaxHitPoints>25000</MaxHitPoints>
     <Exp>2000</Exp>
     <BXP>10000</BXP>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
     <StasisImmune />
     <Defense>30</Defense>
@@ -630,7 +1288,102 @@
       </Style>
     </Presentation>
   </Object>
+  <Object type="0x3a27" id="Infernal Abyss Idol">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>abyssOfDemonsChars16x16</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>0x15</Index>
+      </Texture>
+    </AltTexture>
+    <MaxHitPoints>45000</MaxHitPoints>
+    <Exp>2000</Exp>
+    <BXP>10000</BXP>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <Size>120</Size>
+    <StasisImmune />
+    <Defense>30</Defense>
+    <TrackLoot />
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_hit</DeathSound>
+    <Projectile id="0">
+      <ObjectId>Idol Wave</ObjectId>
+      <Speed>30</Speed>
+      <Damage>125</Damage>
+      <LifetimeMS>400</LifetimeMS>
+      <Size>140</Size>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Idol Blast</ObjectId>
+      <Speed>50</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Size>160</Size>
+      <ConditionEffect duration=".8">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Idol Blast</ObjectId>
+      <Speed>60</Speed>
+      <Damage>130</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Idol Blast</ObjectId>
+      <Speed>70</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Size>160</Size>
+      <ConditionEffect duration=".8">Paralyzed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Idol Blast</ObjectId>
+      <Speed>60</Speed>
+      <Damage>140</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <HealthBarBoss radius="15" />
+    <KillStat stat="StructureKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,TRACKLOOT,GOD</Labels>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
   <Object type="0x0e1c" id="AbyssExitGuarder">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>0x3e</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3a28" id="AbyssExitGuarder L">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>0x3e</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3a29" id="AbyssExitGuarder R">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>0x3e</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3a2a" id="AbyssExitGuarder U">
     <Class>GameObject</Class>
     <Texture>
       <File>abyssOfDemonsObjects8x8</File>
@@ -1026,7 +1779,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0x2d9" id="Abyss Common Statue">
+  <Object type="0x02d9" id="Abyss Common Statue">
     <Class>GameObject</Class>
     <Static />
     <RandomTexture>
@@ -1058,7 +1811,7 @@
     <Size>100</Size>
     <OccupySquare />
   </Object>
-  <Object type="0x2da" id="Abyss Rare Statue">
+  <Object type="0x02da" id="Abyss Rare Statue">
     <Class>GameObject</Class>
     <Static />
     <RandomTexture>
@@ -1090,7 +1843,7 @@
     <Size>100</Size>
     <OccupySquare />
   </Object>
-  <Object type="0x2db" id="Abyss Legendary Statue">
+  <Object type="0x02db" id="Abyss Legendary Statue">
     <Class>GameObject</Class>
     <Static />
     <RandomTexture>
@@ -1122,7 +1875,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0x2dc" id="Abyss Fire">
+  <Object type="0x02dc" id="Abyss Fire">
     <Class>GameObject</Class>
     <Static />
     <Texture>
@@ -1158,7 +1911,7 @@
     <Size>100</Size>
     <OccupySquare />
   </Object>
-  <Object type="0x2dd" id="Abyss Fire Off">
+  <Object type="0x02dd" id="Abyss Fire Off">
     <Class>GameObject</Class>
     <Static />
     <Texture>
@@ -1168,7 +1921,7 @@
     <Size>100</Size>
     <OccupySquare />
   </Object>
-  <Object type="0x2de" id="Abyss Sunken Statue">
+  <Object type="0x02de" id="Abyss Sunken Statue">
     <Class>GameObject</Class>
     <Static />
     <Texture>
@@ -1177,7 +1930,7 @@
     </Texture>
     <Size>100</Size>
   </Object>
-  <Object type="0x2df" id="Abyss Hot Rock">
+  <Object type="0x02df" id="Abyss Hot Rock">
     <Class>GameObject</Class>
     <Static />
     <Texture>
@@ -1186,7 +1939,7 @@
     </Texture>
     <Size>80</Size>
   </Object>
-  <Object type="0x2e0" id="Abyss Anvil">
+  <Object type="0x02e0" id="Abyss Anvil">
     <Class>GameObject</Class>
     <Static />
     <Texture>
@@ -1453,5 +2206,854 @@
       <Index>0x5e</Index>
     </Texture>
     <Size>100</Size>
+  </Object>
+  <Object type="0x397f" id="IAbyss Ore Crate">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>50</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>51</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>52</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>53</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x3980" id="IAbyss Forge Deco">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>54</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>55</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>56</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>57</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x3981" id="IAbyss Forge Ingots">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>58</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>59</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>60</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>61</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x398b" id="IAbyss Forge Weapons">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>62</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>63</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>64</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>65</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x398c" id="IAbyss Forge Statues">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>66</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>67</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>68</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>69</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>70</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x398d" id="IAbyss Cave Ores">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>71</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>72</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>73</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects16x16</File>
+        <Index>74</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x398e" id="IAbyss Furnace">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>abyssOfDemonsObjects16x16</File>
+      <Index>75</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>75</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>76</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>77</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>78</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>79</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>80</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x398f" id="IAbyss Crucible">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>abyssOfDemonsObjects16x16</File>
+      <Index>81</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>81</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>83</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>84</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>85</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>86</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>87</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x3990" id="IAbyss Magma Flow">
+    <Class>GameObject</Class>
+    <Static />
+    <Texture>
+      <File>abyssOfDemonsObjects16x16</File>
+      <Index>88</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>88</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>89</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>90</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects16x16</File>
+          <Index>92</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x3a08" id="IAbyss Cave Ores Small">
+    <Class>GameObject</Class>
+    <Static />
+    <RandomTexture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>223</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>224</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>225</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>226</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x3a09" id="IAbyss Fort Wall">
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>199</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>200</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>201</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>202</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>0x11</Index>
+      </Texture>
+    </Top>
+    <ShadowSize>0</ShadowSize>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x3a0a" id="IAbyss Black Fort Wall">
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>203</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>204</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>205</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>206</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>207</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>210</Index>
+      </Texture>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>211</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>208</Index>
+        </Texture>
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>209</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <ShadowSize>0</ShadowSize>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x3a0b" id="IAbyss Lava Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>213</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>213</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>214</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>215</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>216</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>217</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Top>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>0x11</Index>
+      </Texture>
+    </Top>
+    <ShadowSize>0</ShadowSize>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x3a0c" id="IAbyss Black Lava Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>218</Index>
+    </Texture>
+    <Animation prob="1.0">
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>218</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>219</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>220</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>221</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>222</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>208</Index>
+        </Texture>
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>209</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <ShadowSize>0</ShadowSize>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x3a10" id="IAbyss Column Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>212</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>abyssOfDemonsObjects8x8</File>
+        <Index>208</Index>
+      </Texture>
+    </Top>
+    <ShadowSize>0</ShadowSize>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x3997" id="IAbyss Red Lava Channel V">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>136</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x3999" id="IAbyss Red Lava Channel H">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>135</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x399b" id="IAbyss Red Lava Channel T S">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>137</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x399c" id="IAbyss Red Lava Channel T W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>138</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x399d" id="IAbyss Red Lava Channel T N">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>139</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x399e" id="IAbyss Red Lava Channel T E">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>140</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x399f" id="IAbyss Red Lava Channel T P">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>141</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x39a0" id="IAbyss Red Lava Channel BL">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>142</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x39a1" id="IAbyss Red Lava Channel TL">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>143</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x39a2" id="IAbyss Red Lava Channel BR">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>145</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x39bf" id="IAbyss Red Lava Channel TR">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>144</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x39fb" id="IAbyss Red Lava Channel C">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>146</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x39fc" id="IAbyss Black Lava Channel V">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>148</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x39fd" id="IAbyss Black Lava Channel H">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>147</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x39fe" id="IAbyss Black Lava Channel T S">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>149</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x39ff" id="IAbyss Black Lava Channel T W">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>150</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x3a00" id="IAbyss Black Lava Channel T N">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>151</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x3a01" id="IAbyss Black Lava Channel T E">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>152</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x3a02" id="IAbyss Black Lava Channel T P">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>153</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x3a03" id="IAbyss Black Lava Channel BL">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>154</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x3a04" id="IAbyss Black Lava Channel TL">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>155</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x3a05" id="IAbyss Black Lava Channel BR">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>157</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x3a06" id="IAbyss Black Lava Channel TR">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>156</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x3a07" id="IAbyss Black Lava Channel C">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>158</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x3a0d" id="Infernal Abyss of Demons Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <DisplayId>Infernal Abyss of Demons</DisplayId>
+    <DungeonName>Infernal Abyss of Demons</DungeonName>
+    <Texture>
+      <File>abyssOfDemonsObjects8x8</File>
+      <Index>227</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>227</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>228</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>229</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>230</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>231</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>232</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>233</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>abyssOfDemonsObjects8x8</File>
+          <Index>234</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0x3a1d" id="Abyss Brute Talon">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>rollerRinkObjects8x8</File>
+      <Index>481</Index>
+    </Texture>
   </Object>
 </Objects>

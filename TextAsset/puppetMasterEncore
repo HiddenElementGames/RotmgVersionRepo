@@ -21,9 +21,11 @@
         <Index>0x03</Index>
       </AnimatedTexture>
     </AltTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>140</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <ShadowSize>90</ShadowSize>
     <MaxHitPoints>67500</MaxHitPoints>
     <Defense>40</Defense>
@@ -77,13 +79,13 @@
       <Size>140</Size>
       <MultiHit />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="35" dustMax="81" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="11" dustMax="26" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust dustMin="27" dustMax="35" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="35" dustMax="43" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="40" />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,STGEMDROP,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,STGEMDROP,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Puppet Encore Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon ???? Egg</SpecialSpawn>
@@ -103,6 +105,8 @@
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
     <SpecialSpawn category="Oryxmania">Puppet Arena Portal</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt2">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>
@@ -171,6 +175,7 @@
       <File>d3Chars8x8rEmbed</File>
       <Index>0x04</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>120</Size>
@@ -263,6 +268,7 @@
       <File>d3Chars8x8rEmbed</File>
       <Index>0x05</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>120</Size>
@@ -354,6 +360,7 @@
       <File>d3Chars8x8rEmbed</File>
       <Index>0x06</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>130</Size>
@@ -373,7 +380,7 @@
       <Size>100</Size>
       <LifetimeMS>3000</LifetimeMS>
       <MultiHit />
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Puppet Purple Wheel</ObjectId>
@@ -384,7 +391,7 @@
       <Amplitude>0.6</Amplitude>
       <Frequency>1</Frequency>
       <MultiHit />
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>Pink Swipe</ObjectId>
@@ -431,6 +438,7 @@
       <File>d3Chars8x8rEmbed</File>
       <Index>0x07</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>130</Size>

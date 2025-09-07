@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
   <Object type="0x5502" id="New Red Gelatinous Cube">
+    <DisplayId>Little Blue Jelly</DisplayId>
     <Group>New Cubes</Group>
     <Enemy />
     <Class>Character</Class>
@@ -14,7 +15,7 @@
     <MaxHitPoints>70</MaxHitPoints>
     <Defense>0</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Beach">1</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
       <Mean>5</Mean>
@@ -40,8 +41,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x5503" id="New Purple Gelatinous Cube">
+    <DisplayId>Little Pink Jelly</DisplayId>
     <Group>New Cubes</Group>
     <Enemy />
     <Class>Character</Class>
@@ -55,7 +59,7 @@
     <MaxHitPoints>70</MaxHitPoints>
     <Defense>0</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Beach">1</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
       <Mean>5</Mean>
@@ -81,8 +85,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x5504" id="New Green Gelatinous Cube">
+    <DisplayId>Little Green Jelly</DisplayId>
     <Group>New Cubes</Group>
     <Enemy />
     <Class>Character</Class>
@@ -96,7 +103,7 @@
     <MaxHitPoints>70</MaxHitPoints>
     <Defense>0</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Beach">1</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
       <Mean>5</Mean>
@@ -122,8 +129,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x5505" id="New Sandsman Archer">
+    <DisplayId>Sandsman Archer</DisplayId>
     <Group>New Sandsmen</Group>
     <Enemy />
     <Exp>6</Exp>
@@ -139,7 +149,7 @@
     <BXP>14</BXP>
     <Defense>0</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Beach">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Arrow</ObjectId>
       <Damage>8</Damage>
@@ -155,8 +165,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x5506" id="New Sandsman Sorcerer">
+    <DisplayId>Sandsman Sorcerer</DisplayId>
     <Group>New Sandsmen</Group>
     <Enemy />
     <Exp>18</Exp>
@@ -172,7 +185,7 @@
     <BXP>41</BXP>
     <Defense>0</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Beach">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Purple Mystic Shot</ObjectId>
       <Damage>13</Damage>
@@ -196,8 +209,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x5507" id="New Sandsman King">
+    <DisplayId>Sandsman King</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -210,7 +226,7 @@
     <MaxHitPoints>270</MaxHitPoints>
     <Defense>2</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>5</RealmScore>
+    <RealmScore biome="Beach">5</RealmScore>
     <Quest />
     <Level>4</Level>
     <Exp>86</Exp>
@@ -231,8 +247,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x5508" id="New Giant Crab">
+    <DisplayId>Giant Crab</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -245,7 +264,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>2</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>5</RealmScore>
+    <RealmScore biome="Beach">5</RealmScore>
     <Quest />
     <Level>3</Level>
     <Exp>86</Exp>
@@ -295,8 +314,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x5509" id="New Sand Devil">
+    <DisplayId>Sand Devil</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -309,7 +331,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <Defense>1</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Beach">1</RealmScore>
     <Exp>8</Exp>
     <BXP>19</BXP>
     <SpawnProb>1.0</SpawnProb>
@@ -320,7 +342,7 @@
       <Size>68</Size>
       <LifetimeMS>1500</LifetimeMS>
       <Wavy />
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
@@ -331,8 +353,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x550A" id="New Pirate">
+    <DisplayId>Pirate</DisplayId>
     <Group>New Pirates</Group>
     <Enemy />
     <Exp>2</Exp>
@@ -348,7 +373,7 @@
     <Defense>0</Defense>
     <BXP>2</BXP>
     <Terrain>Beach</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Beach">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>4</Damage>
@@ -364,8 +389,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x550B" id="New Piratess">
+    <DisplayId>Piratess</DisplayId>
     <Group>New Pirates</Group>
     <Enemy />
     <Exp>2</Exp>
@@ -381,7 +409,7 @@
     <BXP>2</BXP>
     <Defense>0</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Beach">1</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -398,8 +426,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x550C" id="New Snake">
+    <DisplayId>Snake</DisplayId>
     <Group>New Snakes</Group>
     <Enemy />
     <Exp>2</Exp>
@@ -415,7 +446,7 @@
     <BXP>2</BXP>
     <Defense>0</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Beach">1</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
       <Mean>5</Mean>
@@ -438,8 +469,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x550D" id="New Poison Scorpion">
+    <DisplayId>Little Scorpion</DisplayId>
     <Group>New Scorpions</Group>
     <Enemy />
     <Exp>2</Exp>
@@ -455,7 +489,7 @@
     <BXP>4</BXP>
     <Defense>0</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Beach">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
       <Damage>7</Damage>
@@ -471,8 +505,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x550E" id="New Scorpion Queen">
+    <DisplayId>Scorpion Queen</DisplayId>
     <Group>New Scorpions</Group>
     <Enemy />
     <Class>Character</Class>
@@ -486,7 +523,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <Defense>0</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>5</RealmScore>
+    <RealmScore biome="Beach">5</RealmScore>
     <Quest />
     <Level>1</Level>
     <Exp>40</Exp>
@@ -501,8 +538,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x550F" id="New Bandit Leader">
+    <DisplayId>Bandit Leader</DisplayId>
     <Group>New Bandits</Group>
     <Enemy />
     <Class>Character</Class>
@@ -516,7 +556,7 @@
     <MaxHitPoints>280</MaxHitPoints>
     <Defense>2</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>5</RealmScore>
+    <RealmScore biome="Beach">5</RealmScore>
     <Quest />
     <Level>2</Level>
     <Exp>88</Exp>
@@ -538,10 +578,12 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x5510" id="New Bandit Enemy">
-    <Group>New Bandits</Group>
     <DisplayId>Bandit</DisplayId>
+    <Group>New Bandits</Group>
     <Enemy />
     <Exp>10</Exp>
     <Class>Character</Class>
@@ -556,7 +598,7 @@
     <BXP>23</BXP>
     <Defense>1</Defense>
     <Terrain>Beach</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Beach">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>9</Damage>
@@ -580,6 +622,8 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Beach" />
   </Object>
   <Object id="X Treasure Spawner" type="0xAC7A">
     <Class>Character</Class>
@@ -631,8 +675,10 @@
     <Exp>40</Exp>
     <BXP>160</BXP>
     <Labels>ENEMY,MINION,MINION_WEAK</Labels>
+    <KillStat stat="Beach" />
   </Object>
   <Object id="X Treasure Crab" type="0xAC7C">
+    <DisplayId>Greedy Crab</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <Texture>
@@ -665,7 +711,6 @@
         </Texture>
       </Frame>
     </Animation>
-    <DisplayId>Crab</DisplayId>
     <HitSound>monster/scorpions_hit</HitSound>
     <DeathSound>monster/scorpions_death</DeathSound>
     <Size>40</Size>
@@ -682,6 +727,7 @@
       <Speed>25</Speed>
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
+    <KillStat stat="Beach" />
   </Object>
   <Object id="Admiral of Pirates Spawner" type="0xAC7D">
     <Class>Character</Class>
@@ -693,6 +739,7 @@
     <NoMiniMap />
   </Object>
   <Object id="Admiral of Pirates" type="0xAC7E">
+    <DisplayId>Beached Buccaneer</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <StasisImmune />
@@ -719,8 +766,10 @@
       <Speed>35</Speed>
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
+    <KillStat stat="Beach" />
   </Object>
   <Object type="0x5511" id="New Elf Archer">
+    <DisplayId>Elf Archer</DisplayId>
     <Group>New Elves</Group>
     <Enemy />
     <Exp>6</Exp>
@@ -736,7 +785,7 @@
     <BXP>10</BXP>
     <Defense>2</Defense>
     <Terrain>Forest</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Forest">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Arrow</ObjectId>
       <Damage>9</Damage>
@@ -752,8 +801,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Forest" />
   </Object>
   <Object type="0x5512" id="New Elf Swordsman">
+    <DisplayId>Elf Swordsman</DisplayId>
     <Group>New Elves</Group>
     <Enemy />
     <Exp>6</Exp>
@@ -769,7 +821,7 @@
     <BXP>12</BXP>
     <Defense>2</Defense>
     <Terrain>Forest</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Forest">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>13</Damage>
@@ -785,8 +837,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Forest" />
   </Object>
   <Object type="0x5513" id="New Elf Mage">
+    <DisplayId>Elf Mage</DisplayId>
     <Group>New Elves</Group>
     <Enemy />
     <Exp>6</Exp>
@@ -802,7 +857,7 @@
     <BXP>10</BXP>
     <Defense>0</Defense>
     <Terrain>Forest</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Forest">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Cyan Magic</ObjectId>
       <Damage>4</Damage>
@@ -818,8 +873,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Forest" />
   </Object>
   <Object type="0x5514" id="New Elf Wizard">
+    <DisplayId>Elf Wizard</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -832,7 +890,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>0</Defense>
     <Terrain>Forest</Terrain>
-    <RealmScore>5</RealmScore>
+    <RealmScore biome="Forest">5</RealmScore>
     <Quest />
     <Level>3</Level>
     <Exp>64</Exp>
@@ -854,8 +912,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Forest" />
   </Object>
   <Object type="0x5515" id="New Goblin Rogue">
+    <DisplayId>Goblin Rogue</DisplayId>
     <Group>New Goblins</Group>
     <Enemy />
     <Exp>6</Exp>
@@ -871,7 +932,7 @@
     <BXP>11</BXP>
     <Defense>0</Defense>
     <Terrain>UndeadForest</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="UndeadForest">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>10</Damage>
@@ -887,8 +948,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Undead Forest" />
   </Object>
   <Object type="0x5516" id="New Goblin Warrior">
+    <DisplayId>Goblin Warrior</DisplayId>
     <Group>New Goblins</Group>
     <Enemy />
     <Exp>6</Exp>
@@ -904,7 +968,7 @@
     <BXP>11</BXP>
     <Defense>2</Defense>
     <Terrain>UndeadForest</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="UndeadForest">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>12</Damage>
@@ -920,8 +984,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Undead Forest" />
   </Object>
   <Object type="0x5517" id="New Goblin Mage">
+    <DisplayId>Goblin Mage</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -939,7 +1006,7 @@
     <BXP>185</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Terrain>UndeadForest</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="UndeadForest">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Cyan Magic</ObjectId>
       <Damage>14</Damage>
@@ -964,6 +1031,8 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Undead Forest" />
   </Object>
   <Object type="0x5518" id="New Low Skeleton">
     <DisplayId>Skeleton</DisplayId>
@@ -982,7 +1051,7 @@
     <Defense>1</Defense>
     <Terrain>UndeadForest</Terrain>
     <SpawnProb>0.75</SpawnProb>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="UndeadForest">1</RealmScore>
     <Projectile id="0">
       <ObjectId>UDL Bone</ObjectId>
       <Damage>4</Damage>
@@ -998,8 +1067,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Undead Forest" />
   </Object>
   <Object type="0x5519" id="New Easily Enraged Bunny">
+    <DisplayId>Easily Enraged Bunny</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1012,7 +1084,7 @@
     <MaxHitPoints>40</MaxHitPoints>
     <Defense>0</Defense>
     <Terrain>Forest</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Forest">1</RealmScore>
     <Exp>0</Exp>
     <SpawnProb>0.7</SpawnProb>
     <KillStat stat="CritterKills" />
@@ -1024,8 +1096,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Forest" />
   </Object>
   <Object type="0x551A" id="New Enraged Bunny">
+    <DisplayId>Enraged Bunny</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1055,8 +1130,10 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x551B" id="New Forest Nymph">
+    <DisplayId>Forest Nymph</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1069,7 +1146,7 @@
     <MaxHitPoints>120</MaxHitPoints>
     <Defense>1</Defense>
     <Terrain>Forest</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Forest">1</RealmScore>
     <Exp>12</Exp>
     <BXP>28</BXP>
     <SpawnProb>1.0</SpawnProb>
@@ -1098,8 +1175,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Forest" />
   </Object>
   <Object type="0x551C" id="New Hobbit Rogue">
+    <DisplayId>Hobbit Rogue</DisplayId>
     <Group>New Hobbits</Group>
     <Enemy />
     <Exp>6</Exp>
@@ -1115,7 +1195,7 @@
     <BXP>12</BXP>
     <Defense>0</Defense>
     <Terrain>Forest</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Forest">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>13</Damage>
@@ -1131,8 +1211,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Forest" />
   </Object>
   <Object type="0x551D" id="New Hobbit Archer">
+    <DisplayId>Hobbit Archer</DisplayId>
     <Group>New Hobbits</Group>
     <Enemy />
     <Exp>6</Exp>
@@ -1148,7 +1231,7 @@
     <BXP>10</BXP>
     <Defense>0</Defense>
     <Terrain>Forest</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Forest">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Arrow</ObjectId>
       <Damage>8</Damage>
@@ -1164,8 +1247,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Forest" />
   </Object>
   <Object type="0x551E" id="New Hobbit Mage">
+    <DisplayId>Hobbit Mage</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1178,7 +1264,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>2</Defense>
     <Terrain>Forest</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="Forest">1</RealmScore>
     <Quest />
     <Level>3</Level>
     <Exp>64</Exp>
@@ -1211,8 +1297,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Forest" />
   </Object>
   <Object type="0x551F" id="New Undead Hobbit Rogue">
+    <DisplayId>Undead Hobbit Rogue</DisplayId>
     <Group>New Undead Hobbits</Group>
     <Enemy />
     <Exp>8</Exp>
@@ -1228,7 +1317,7 @@
     <BXP>16</BXP>
     <Defense>0</Defense>
     <Terrain>UndeadForest</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="UndeadForest">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>16</Damage>
@@ -1244,8 +1333,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Undead Forest" />
   </Object>
   <Object type="0x5520" id="New Undead Hobbit Archer">
+    <DisplayId>Undead Hobbit Archer</DisplayId>
     <Group>New Undead Hobbits</Group>
     <Enemy />
     <Exp>6</Exp>
@@ -1261,7 +1353,7 @@
     <BXP>13</BXP>
     <Defense>0</Defense>
     <Terrain>UndeadForest</Terrain>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="UndeadForest">1</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Arrow</ObjectId>
       <Damage>12</Damage>
@@ -1277,8 +1369,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Undead Forest" />
   </Object>
   <Object type="0x5521" id="New Undead Hobbit Mage">
+    <DisplayId>Undead Hobbit Mage</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1291,7 +1386,7 @@
     <MaxHitPoints>270</MaxHitPoints>
     <Defense>5</Defense>
     <Terrain>UndeadForest</Terrain>
-    <RealmScore>5</RealmScore>
+    <RealmScore biome="UndeadForest">5</RealmScore>
     <Quest />
     <Level>4</Level>
     <Exp>86</Exp>
@@ -1331,8 +1426,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Undead Forest" />
   </Object>
   <Object type="0x5522" id="New Sumo Master">
+    <DisplayId>Sumo Master</DisplayId>
     <Group>New Sumo</Group>
     <Enemy />
     <Class>Character</Class>
@@ -1367,7 +1465,7 @@
     <Level>4</Level>
     <SpawnProb>0.45</SpawnProb>
     <Terrain>UndeadForest</Terrain>
-    <RealmScore>5</RealmScore>
+    <RealmScore biome="UndeadForest">5</RealmScore>
     <HitSound>monster/ogres_hit</HitSound>
     <DeathSound>monster/ogres_death</DeathSound>
     <MaxHitPoints>340</MaxHitPoints>
@@ -1414,8 +1512,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Undead Forest" />
   </Object>
   <Object type="0x5523" id="New Lil Sumo">
+    <DisplayId>Lil Sumo</DisplayId>
     <Group>New Sumo</Group>
     <Enemy />
     <Class>Character</Class>
@@ -1446,8 +1547,10 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5524" id="New Tawny Warg">
+    <DisplayId>Tawny Warg</DisplayId>
     <Group>New Wargs</Group>
     <Enemy />
     <Exp>6</Exp>
@@ -1463,7 +1566,7 @@
     <BXP>14</BXP>
     <Defense>0</Defense>
     <Terrain>MidDesert</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="MidDesert">3</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>11</Damage>
@@ -1479,8 +1582,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x5525" id="New Demon Warg">
+    <DisplayId>Demon Warg</DisplayId>
     <Group>New Wargs</Group>
     <Enemy />
     <Exp>8</Exp>
@@ -1496,7 +1602,7 @@
     <BXP>19</BXP>
     <Defense>0</Defense>
     <Terrain>MidDesert</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="MidDesert">3</RealmScore>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
       <Damage>13</Damage>
@@ -1513,8 +1619,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x5526" id="New Desert Werewolf">
+    <DisplayId>Desert Werewolf</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1527,7 +1636,7 @@
     <MaxHitPoints>320</MaxHitPoints>
     <Defense>3</Defense>
     <Terrain>MidDesert</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="MidDesert">3</RealmScore>
     <Quest />
     <Level>5</Level>
     <Exp>102</Exp>
@@ -1556,8 +1665,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x5527" id="New Fire Golem">
+    <DisplayId>Fire Golem</DisplayId>
     <Group>New Golems</Group>
     <Enemy />
     <Class>Character</Class>
@@ -1571,7 +1683,7 @@
     <MaxHitPoints>220</MaxHitPoints>
     <Defense>3</Defense>
     <Terrain>MidDesert</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="MidDesert">3</RealmScore>
     <Exp>30</Exp>
     <BXP>71</BXP>
     <SpawnProb>1.0</SpawnProb>
@@ -1598,8 +1710,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x5528" id="New Darkness Golem">
+    <DisplayId>Darkness Golem</DisplayId>
     <Group>New Golems</Group>
     <Enemy />
     <Class>Character</Class>
@@ -1613,7 +1728,7 @@
     <MaxHitPoints>220</MaxHitPoints>
     <Defense>3</Defense>
     <Terrain>MidDesert</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="MidDesert">3</RealmScore>
     <Exp>30</Exp>
     <BXP>71</BXP>
     <SpawnProb>1.0</SpawnProb>
@@ -1640,8 +1755,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x5529" id="New Red Satellite">
+    <DisplayId>Red Satellite</DisplayId>
     <Group>New Golem Satellites</Group>
     <Enemy />
     <Class>Character</Class>
@@ -1664,8 +1782,10 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x552A" id="New Green Satellite">
+    <DisplayId>Green Satellite</DisplayId>
     <Group>New Golem Satellites</Group>
     <Enemy />
     <Class>Character</Class>
@@ -1688,8 +1808,10 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x552B" id="New Blue Satellite">
+    <DisplayId>Blue Satellite</DisplayId>
     <Group>New Golem Satellites</Group>
     <Enemy />
     <Class>Character</Class>
@@ -1712,6 +1834,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x552C" id="New Gray Satellite 1">
     <DisplayId>Gray Satellite</DisplayId>
@@ -1745,6 +1868,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x552D" id="New Gray Satellite 2">
     <DisplayId>Gray Satellite</DisplayId>
@@ -1778,6 +1902,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x552E" id="New Gray Satellite 3">
     <DisplayId>Gray Satellite</DisplayId>
@@ -1812,8 +1937,10 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x552F" id="New Sand Phantom">
+    <DisplayId>Sand Phantom</DisplayId>
     <Group>New SandPhantoms</Group>
     <Enemy />
     <Class>Character</Class>
@@ -1827,7 +1954,7 @@
     <MaxHitPoints>230</MaxHitPoints>
     <Defense>3</Defense>
     <Terrain>MidDesert</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="MidDesert">3</RealmScore>
     <Exp>36</Exp>
     <BXP>85</BXP>
     <SpawnProb>1.0</SpawnProb>
@@ -1846,8 +1973,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x5530" id="New Sand Phantom Wisp">
+    <DisplayId>Sand Phantom Wisp</DisplayId>
     <Group>New SandPhantoms</Group>
     <Enemy />
     <Class>Character</Class>
@@ -1861,7 +1991,7 @@
     <MaxHitPoints>150</MaxHitPoints>
     <Defense>0</Defense>
     <Terrain>MidDesert</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="MidDesert">3</RealmScore>
     <Exp>60</Exp>
     <BXP>142</BXP>
     <SpawnProb>1.0</SpawnProb>
@@ -1880,8 +2010,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x5531" id="New Nomadic Shaman">
+    <DisplayId>Nomadic Shaman</DisplayId>
     <Group>New Nomads</Group>
     <Enemy />
     <Exp>28</Exp>
@@ -1897,7 +2030,7 @@
     <BXP>66</BXP>
     <Defense>1</Defense>
     <Terrain>MidDesert</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="MidDesert">3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
@@ -1912,7 +2045,7 @@
       <Speed>60</Speed>
       <LifetimeMS>2600</LifetimeMS>
       <Size>100</Size>
-      <ConditionEffect duration="1.5">Blind</ConditionEffect>
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
     </Projectile>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_WEAK</Labels>
@@ -1923,8 +2056,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x5532" id="New Great Lizard">
+    <DisplayId>Great Lizard</DisplayId>
     <Group>New Large Lizards</Group>
     <Enemy />
     <Class>Character</Class>
@@ -1938,7 +2074,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>4</Defense>
     <Terrain>MidDesert</Terrain>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="MidDesert">10</RealmScore>
     <Quest />
     <Level>6</Level>
     <Exp>180</Exp>
@@ -1967,8 +2103,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x5533" id="New Fire Sprite">
+    <DisplayId>Fire Sprite</DisplayId>
     <Group>New Sprites</Group>
     <Enemy />
     <Exp>20</Exp>
@@ -1984,7 +2123,7 @@
     <BXP>47</BXP>
     <Defense>0</Defense>
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <Flying />
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -2002,8 +2141,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5534" id="New Ice Sprite">
+    <DisplayId>Ice Sprite</DisplayId>
     <Group>New Sprites</Group>
     <Enemy />
     <Exp>20</Exp>
@@ -2019,7 +2161,7 @@
     <BXP>47</BXP>
     <Defense>0</Defense>
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <Flying />
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -2039,8 +2181,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5535" id="New Magic Sprite">
+    <DisplayId>Magic Sprite</DisplayId>
     <Group>New Sprites</Group>
     <Enemy />
     <Exp>20</Exp>
@@ -2056,7 +2201,7 @@
     <BXP>47</BXP>
     <Defense>0</Defense>
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <Flying />
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -2075,8 +2220,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5536" id="New Orc Warrior">
+    <DisplayId>Orc Warrior</DisplayId>
     <Group>New Orcs</Group>
     <Enemy />
     <Exp>18</Exp>
@@ -2092,7 +2240,7 @@
     <BXP>42</BXP>
     <Defense>3</Defense>
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>19</Damage>
@@ -2108,8 +2256,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5537" id="New Orc Mage">
+    <DisplayId>Orc Mage</DisplayId>
     <Group>New Orcs</Group>
     <Enemy />
     <Exp>16</Exp>
@@ -2125,7 +2276,7 @@
     <BXP>38</BXP>
     <Defense>0</Defense>
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
       <Damage>17</Damage>
@@ -2141,8 +2292,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5538" id="New Orc Queen">
+    <DisplayId>Orc Queen</DisplayId>
     <Group>New Orcs</Group>
     <Enemy />
     <Exp>26</Exp>
@@ -2158,7 +2312,7 @@
     <BXP>61</BXP>
     <Defense>0</Defense>
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -2168,8 +2322,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5539" id="New Orc King">
+    <DisplayId>Orc King</DisplayId>
     <Group>New OrcKings</Group>
     <Enemy />
     <Exp>48</Exp>
@@ -2185,7 +2342,7 @@
     <BXP>114</BXP>
     <Defense>3</Defense>
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -2203,8 +2360,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x553A" id="New Earth Golem">
+    <DisplayId>Earth Golem</DisplayId>
     <Group>New Golems</Group>
     <Enemy />
     <Exp>44</Exp>
@@ -2220,7 +2380,7 @@
     <BXP>104</BXP>
     <Defense>4</Defense>
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Dark Gray Spinner</ObjectId>
@@ -2239,8 +2399,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x553B" id="New Paper Golem">
+    <DisplayId>Paper Golem</DisplayId>
     <Group>New Golems</Group>
     <Enemy />
     <Exp>44</Exp>
@@ -2256,7 +2419,7 @@
     <BXP>104</BXP>
     <Defense>1</Defense>
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Grey Boomerang</ObjectId>
@@ -2275,8 +2438,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x553C" id="New Pink Blob">
+    <DisplayId>Pink Blob</DisplayId>
     <Enemy />
     <Exp>20</Exp>
     <Class>Character</Class>
@@ -2289,7 +2455,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <BXP>47</BXP>
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
       <Mean>5</Mean>
@@ -2313,8 +2479,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x553D" id="New Gray Blob">
+    <DisplayId>Gray Blob</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <Exp>6</Exp>
@@ -2328,7 +2497,7 @@
     <BXP>11</BXP>
     <Terrain>Plains</Terrain>
     <SpawnProb>1.0</SpawnProb>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <Spawn>
       <Mean>7</Mean>
       <StdDev>2</StdDev>
@@ -2351,8 +2520,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x553E" id="New Big Green Slime">
+    <DisplayId>Big Green Slime</DisplayId>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>Rookie_8x8</File>
@@ -2365,7 +2537,7 @@
     <Size>150</Size>
     <Terrain>Plains</Terrain>
     <SpawnProb>1.0</SpawnProb>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <Spawn>
       <Mean>5</Mean>
       <StdDev>2</StdDev>
@@ -2389,8 +2561,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x553F" id="New Little Green Slime">
+    <DisplayId>Little Green Slime</DisplayId>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>Rookie_8x8</File>
@@ -2402,7 +2577,7 @@
     <BXP>23</BXP>
     <Size>75</Size>
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <Projectile>
       <ObjectId>Red Fire</ObjectId>
       <Speed>70</Speed>
@@ -2420,8 +2595,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5540" id="New Wasp Queen">
+    <DisplayId>Wasp Queen</DisplayId>
     <Group>New Wasps</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2435,13 +2613,13 @@
     <MaxHitPoints>850</MaxHitPoints>
     <Defense>2</Defense>
     <Terrain>Plains</Terrain>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Plains">10</RealmScore>
     <Quest />
     <Level>8</Level>
     <Exp>390</Exp>
     <BXP>926</BXP>
     <Flying />
-    <SpawnProb>0.50</SpawnProb>
+    <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Yellow Missile</ObjectId>
       <Damage>22</Damage>
@@ -2459,8 +2637,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5541" id="New Worker Wasp">
+    <DisplayId>Worker Wasp</DisplayId>
     <Group>New Wasps</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2477,7 +2658,7 @@
     <BXP>23</BXP>
     <Flying />
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <Projectile id="0">
       <ObjectId>Yellow Missile</ObjectId>
       <Damage>16</Damage>
@@ -2494,8 +2675,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5542" id="New Warrior Wasp">
+    <DisplayId>Warrior Wasp</DisplayId>
     <Group>New Wasps</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2512,7 +2696,7 @@
     <BXP>33</BXP>
     <Flying />
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Missile</ObjectId>
       <Damage>25</Damage>
@@ -2529,8 +2713,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5543" id="New Warrior Bee">
+    <DisplayId>Warrior Bee</DisplayId>
     <Group>New Bees</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2544,14 +2731,14 @@
     <MaxHitPoints>900</MaxHitPoints>
     <Defense>2</Defense>
     <Terrain>Plains</Terrain>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Plains">10</RealmScore>
     <Quest />
     <Level>8</Level>
     <Exp>412</Exp>
     <BXP>978</BXP>
     <Z>0.2</Z>
     <Flying />
-    <SpawnProb>0.45</SpawnProb>
+    <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Orange Missile</ObjectId>
       <Damage>20</Damage>
@@ -2560,8 +2747,9 @@
       <LifetimeMS>1200</LifetimeMS>
     </Projectile>
       s
-      <KillStat stat="CritterKills" /><Labels>ENEMY,MINION,CRITTER,QUEST,MINION_WEAK</Labels><SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn><SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn><SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn><SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn><SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn><SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn><SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn></Object>
+      <KillStat stat="CritterKills" /><Labels>ENEMY,MINION,CRITTER,QUEST,MINION_WEAK</Labels><SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn><SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn><SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn><SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn><SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn><SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn><SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn><SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn><KillStat stat="Plains" /></Object>
   <Object type="0x5544" id="New Scout Bee">
+    <DisplayId>Scout Bee</DisplayId>
     <Group>New Bees</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2579,7 +2767,7 @@
     <Z>0.1</Z>
     <Flying />
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <Projectile id="0">
       <ObjectId>Aqua Missile</ObjectId>
       <Damage>16</Damage>
@@ -2596,8 +2784,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5545" id="New Fighter Bee">
+    <DisplayId>Fighter Bee</DisplayId>
     <Group>New Bees</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2615,7 +2806,7 @@
     <Z>0.1</Z>
     <Flying />
     <Terrain>Plains</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Plains">3</RealmScore>
     <Projectile id="0">
       <ObjectId>Red Planet Blast</ObjectId>
       <Damage>30</Damage>
@@ -2632,8 +2823,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5546" id="New Shambling Sludge">
+    <DisplayId>Shambling Sludge</DisplayId>
     <Group>New Sludges</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2647,7 +2841,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>4</Defense>
     <Terrain>Plains</Terrain>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Plains">10</RealmScore>
     <Quest />
     <Level>6</Level>
     <Exp>400</Exp>
@@ -2671,8 +2865,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5547" id="New Sludget">
+    <DisplayId>Sludget</DisplayId>
     <Group>New Sludges</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2703,8 +2900,10 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5548" id="New Swarm">
+    <DisplayId>Swarm</DisplayId>
     <Group>New Swarms</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2718,7 +2917,7 @@
     <MaxHitPoints>360</MaxHitPoints>
     <Defense>4</Defense>
     <Terrain>Plains</Terrain>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Plains">10</RealmScore>
     <Quest />
     <Level>5</Level>
     <Exp>128</Exp>
@@ -2741,8 +2940,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Plains" />
   </Object>
   <Object type="0x5549" id="New Dwarf Axebearer">
+    <DisplayId>Dwarf Axebearer</DisplayId>
     <Group>New Dwarves</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2758,7 +2960,7 @@
     <BXP>38</BXP>
     <Defense>2</Defense>
     <Terrain>Nature</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Nature">3</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>10</Damage>
@@ -2775,8 +2977,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x554A" id="New Dwarf Mage">
+    <DisplayId>Dwarf Mage</DisplayId>
     <Group>New Dwarves</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2792,7 +2997,7 @@
     <BXP>38</BXP>
     <Defense>0</Defense>
     <Terrain>Nature</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Nature">3</RealmScore>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
       <Damage>12</Damage>
@@ -2811,8 +3016,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x554B" id="New Dwarf Veteran">
+    <DisplayId>Dwarf Veteran</DisplayId>
     <Group>New Dwarves</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2828,7 +3036,7 @@
     <BXP>47</BXP>
     <Defense>3</Defense>
     <Terrain>Nature</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Nature">3</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>14</Damage>
@@ -2845,8 +3053,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x554C" id="New Dwarf King">
+    <DisplayId>Dwarf King</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -2859,7 +3070,7 @@
     <MaxHitPoints>320</MaxHitPoints>
     <Defense>3</Defense>
     <Terrain>Nature</Terrain>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Nature">10</RealmScore>
     <Quest />
     <Level>5</Level>
     <Exp>102</Exp>
@@ -2881,8 +3092,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x554D" id="New Metal Golem">
+    <DisplayId>Metal Golem</DisplayId>
     <Group>New Golems</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2896,7 +3110,7 @@
     <MaxHitPoints>220</MaxHitPoints>
     <Defense>5</Defense>
     <Terrain>Nature</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Nature">3</RealmScore>
     <Exp>30</Exp>
     <BXP>71</BXP>
     <SpawnProb>1.0</SpawnProb>
@@ -2916,8 +3130,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x554E" id="New Clockwork Golem">
+    <DisplayId>Clockwork Golem</DisplayId>
     <Group>New Golems</Group>
     <Enemy />
     <Exp>44</Exp>
@@ -2933,7 +3150,7 @@
     <BXP>104</BXP>
     <Defense>3</Defense>
     <Terrain>Nature</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Nature">3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Blue Mystic Shot</ObjectId>
@@ -2953,8 +3170,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x554F" id="New Weretiger">
+    <DisplayId>Weretiger</DisplayId>
     <Group>New Werecats</Group>
     <Enemy />
     <Class>Character</Class>
@@ -2968,7 +3188,7 @@
     <MaxHitPoints>220</MaxHitPoints>
     <Defense>3</Defense>
     <Terrain>Nature</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Nature">3</RealmScore>
     <Exp>16</Exp>
     <BXP>38</BXP>
     <Projectile id="0">
@@ -2988,8 +3208,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x5550" id="New Wereleopard">
+    <DisplayId>Wereleopard</DisplayId>
     <Group>New Werecats</Group>
     <Enemy />
     <Class>Character</Class>
@@ -3003,7 +3226,7 @@
     <MaxHitPoints>220</MaxHitPoints>
     <Defense>1</Defense>
     <Terrain>Nature</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Nature">3</RealmScore>
     <Exp>16</Exp>
     <BXP>38</BXP>
     <Projectile id="0">
@@ -3022,8 +3245,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x5551" id="New Werepanther">
+    <DisplayId>Werepanther</DisplayId>
     <Group>New Werecats</Group>
     <Enemy />
     <Class>Character</Class>
@@ -3037,7 +3263,7 @@
     <MaxHitPoints>240</MaxHitPoints>
     <Defense>3</Defense>
     <Terrain>Nature</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Nature">3</RealmScore>
     <Exp>18</Exp>
     <BXP>42</BXP>
     <Projectile id="0">
@@ -3056,8 +3282,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x5552" id="New Werelion">
+    <DisplayId>Werelion</DisplayId>
     <Enemy />
     <Exp>80</Exp>
     <Class>Character</Class>
@@ -3072,7 +3301,7 @@
     <BXP>190</BXP>
     <Defense>5</Defense>
     <Terrain>Nature</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Nature">3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Grey Missile</ObjectId>
@@ -3097,8 +3326,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x5553" id="New Horned Drake">
+    <DisplayId>Horned Drake</DisplayId>
     <Group>New Drakes</Group>
     <Enemy />
     <Class>Character</Class>
@@ -3112,7 +3344,7 @@
     <MaxHitPoints>1270</MaxHitPoints>
     <Defense>4</Defense>
     <Terrain>Nature</Terrain>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Nature">10</RealmScore>
     <Quest />
     <Level>8</Level>
     <Exp>456</Exp>
@@ -3135,8 +3367,10 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x5554" id="New Drake Baby">
+    <DisplayId>Drake Baby</DisplayId>
     <Group>New Drakes</Group>
     <Enemy />
     <Class>Character</Class>
@@ -3152,7 +3386,7 @@
     <Exp>70</Exp>
     <BXP>166</BXP>
     <Terrain>Nature</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Nature">3</RealmScore>
     <Projectile id="0">
       <ObjectId>Fire Missile</ObjectId>
       <Damage>20</Damage>
@@ -3169,10 +3403,12 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x5555" id="New Red Spider">
+    <DisplayId>Big Ladybug</DisplayId>
     <Class>Character</Class>
-    <DisplayId>Lady Bug</DisplayId>
     <AnimatedTexture>
       <File>Rookie_8x8</File>
       <Index>63</Index>
@@ -3187,7 +3423,7 @@
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
     <Terrain>Nature</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Nature">3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
       <Mean>3</Mean>
@@ -3210,8 +3446,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x5556" id="New Black Bat">
+    <DisplayId>Black Bat</DisplayId>
     <Group>New Bats</Group>
     <Class>Character</Class>
     <AnimatedTexture>
@@ -3229,7 +3468,7 @@
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
     <Terrain>Nature</Terrain>
-    <RealmScore>3</RealmScore>
+    <RealmScore biome="Nature">3</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
       <Mean>5</Mean>
@@ -3253,8 +3492,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Ruins" />
   </Object>
   <Object type="0x5557" id="New Minotaur">
+    <DisplayId>Minotaur</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -3267,7 +3509,7 @@
     <MaxHitPoints>850</MaxHitPoints>
     <Defense>7</Defense>
     <Terrain>HighDesert</Terrain>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="HighDesert">10</RealmScore>
     <God />
     <SpawnProb>0.75</SpawnProb>
     <Level>10</Level>
@@ -3309,8 +3551,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x5558" id="New Flayer">
+    <DisplayId>Flayer</DisplayId>
     <Group>New Flayers</Group>
     <Enemy />
     <Class>Character</Class>
@@ -3325,7 +3570,7 @@
     <Exp>0</Exp>
     <Defense>8</Defense>
     <Terrain>HighDesert</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HighDesert">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
       <Damage>40</Damage>
@@ -3341,8 +3586,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x5559" id="New Flayer Veteran">
+    <DisplayId>Flayer Veteran</DisplayId>
     <Group>New Flayers</Group>
     <Enemy />
     <Class>Character</Class>
@@ -3357,7 +3605,7 @@
     <Exp>0</Exp>
     <Defense>0</Defense>
     <Terrain>HighDesert</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HighDesert">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Purple Magic</ObjectId>
       <Damage>50</Damage>
@@ -3373,8 +3621,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x555A" id="New Flayer God">
+    <DisplayId>Flayer God</DisplayId>
     <Group>New Flayers</Group>
     <Enemy />
     <Class>Character</Class>
@@ -3390,7 +3641,7 @@
     <BXP>1330</BXP>
     <Defense>12</Defense>
     <Terrain>HighDesert</Terrain>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="HighDesert">10</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <God />
     <Projectile id="0">
@@ -3415,8 +3666,10 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x555B" id="New Flamer King">
+    <DisplayId>Flamer King</DisplayId>
     <Group>New Flamers</Group>
     <Enemy />
     <Class>Character</Class>
@@ -3443,7 +3696,7 @@
     <BXP>190</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Terrain>HighDesert</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HighDesert">7</RealmScore>
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -3453,8 +3706,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x555C" id="New Flamer">
+    <DisplayId>Flamer</DisplayId>
     <Group>New Flamers</Group>
     <Enemy />
     <Class>Character</Class>
@@ -3480,7 +3736,7 @@
     <Exp>10</Exp>
     <BXP>23</BXP>
     <Terrain>HighDesert</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HighDesert">7</RealmScore>
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -3490,8 +3746,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Desert" />
   </Object>
   <Object type="0x555D" id="New Undead Dwarf Warrior">
+    <DisplayId>Undead Dwarf Warrior</DisplayId>
     <Group>New Undead Dwarves</Group>
     <Enemy />
     <Exp>50</Exp>
@@ -3507,7 +3766,7 @@
     <BXP>118</BXP>
     <Defense>7</Defense>
     <Terrain>HigherPlains</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherPlains">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>30</Damage>
@@ -3523,8 +3782,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Wither" />
   </Object>
   <Object type="0x555E" id="New Undead Dwarf Axebearer">
+    <DisplayId>Undead Dwarf Axebearer</DisplayId>
     <Group>New Undead Dwarves</Group>
     <Enemy />
     <Exp>52</Exp>
@@ -3540,7 +3802,7 @@
     <BXP>123</BXP>
     <Defense>7</Defense>
     <Terrain>HigherPlains</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherPlains">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>32</Damage>
@@ -3556,8 +3818,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Wither" />
   </Object>
   <Object type="0x555F" id="New Undead Dwarf Mage">
+    <DisplayId>Undead Dwarf Mage</DisplayId>
     <Group>New Undead Dwarves</Group>
     <Enemy />
     <Exp>42</Exp>
@@ -3573,7 +3838,7 @@
     <BXP>99</BXP>
     <Defense>0</Defense>
     <Terrain>HigherPlains</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherPlains">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Bolt</ObjectId>
       <Damage>25</Damage>
@@ -3590,8 +3855,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Wither" />
   </Object>
   <Object type="0x5560" id="New Undead Dwarf King">
+    <DisplayId>Undead Dwarf King</DisplayId>
     <Group>New Undead Dwarves</Group>
     <Enemy />
     <Exp>80</Exp>
@@ -3607,7 +3875,7 @@
     <BXP>190</BXP>
     <Defense>7</Defense>
     <Terrain>HigherPlains</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherPlains">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>35</Damage>
@@ -3623,8 +3891,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Wither" />
   </Object>
   <Object type="0x5561" id="New Soulless Dwarf">
+    <DisplayId>Soulless Dwarf</DisplayId>
     <Group>New Undead Dwarves</Group>
     <Enemy />
     <Exp>50</Exp>
@@ -3640,7 +3911,7 @@
     <BXP>118</BXP>
     <Defense>11</Defense>
     <Terrain>HigherPlains</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherPlains">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
       <Damage>40</Damage>
@@ -3656,8 +3927,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Wither" />
   </Object>
   <Object type="0x5562" id="New Undead Dwarf God">
+    <DisplayId>Undead Dwarf God</DisplayId>
     <Group>New Undead Dwarves</Group>
     <Enemy />
     <Class>Character</Class>
@@ -3673,7 +3947,7 @@
     <Exp>320</Exp>
     <BXP>760</BXP>
     <Terrain>HigherPlains</Terrain>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="HigherPlains">10</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Pink Bolt</ObjectId>
@@ -3686,7 +3960,7 @@
       <Damage>0</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2200</LifetimeMS>
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="UndeadKills" />
     <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,GOD</Labels>
@@ -3697,12 +3971,14 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Wither" />
   </Object>
   <Object type="0x5563" id="New Shield Orc Key">
+    <DisplayId>Shield Orc Queen</DisplayId>
     <Group>New Shield Orcs</Group>
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>Shield Orc Queen</DisplayId>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
       <Index>39</Index>
@@ -3717,14 +3993,14 @@
       <LifetimeMS>3000</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <MaxHitPoints>1000</MaxHitPoints>
+    <MaxHitPoints>500</MaxHitPoints>
     <Size>100</Size>
     <Defense>0</Defense>
     <Exp>320</Exp>
     <BXP>760</BXP>
     <Terrain>HigherPlains</Terrain>
-    <RealmScore>7</RealmScore>
-    <SpawnProb>1.0</SpawnProb>
+    <RealmScore biome="HigherPlains">7</RealmScore>
+    <SpawnProb>0.35</SpawnProb>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -3734,12 +4010,14 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Wither" />
   </Object>
   <Object type="0x5564" id="New Shield Orc Flooder">
+    <DisplayId>Shield Orc King</DisplayId>
     <Group>New Shield Orcs</Group>
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>Shield Orc King</DisplayId>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
       <Index>41</Index>
@@ -3754,13 +4032,13 @@
       <LifetimeMS>700</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <MaxHitPoints>2000</MaxHitPoints>
+    <MaxHitPoints>1000</MaxHitPoints>
     <Size>100</Size>
-    <Defense>10</Defense>
+    <Defense>0</Defense>
     <Exp>240</Exp>
     <BXP>570</BXP>
     <Terrain>HigherPlains</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherPlains">7</RealmScore>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_MID</Labels>
@@ -3771,12 +4049,13 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <KillStat stat="Wither" />
   </Object>
   <Object type="0x5565" id="New Shield Orc Shield">
+    <DisplayId>Shield Orc Warrior</DisplayId>
     <Group>New Shield Orcs</Group>
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>Shield Orc Warrior</DisplayId>
     <AnimatedTexture>
       <File>charsRookie8x8</File>
       <Index>40</Index>
@@ -3791,13 +4070,13 @@
       <LifetimeMS>700</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <MaxHitPoints>5000</MaxHitPoints>
+    <MaxHitPoints>1500</MaxHitPoints>
     <Size>100</Size>
     <Defense>0</Defense>
     <Exp>240</Exp>
     <BXP>570</BXP>
     <Terrain>HigherPlains</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherPlains">7</RealmScore>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
@@ -3807,13 +4086,15 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+    <KillStat stat="Wither" />
   </Object>
   <Object type="0x5566" id="New Urgle">
+    <DisplayId>Urgle</DisplayId>
     <Group>New Traptossers</Group>
     <Enemy />
     <Class>Character</Class>
     <Terrain>HigherPlains</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherPlains">7</RealmScore>
     <AnimatedTexture>
       <File>chars16x16dEncounters</File>
       <Index>9</Index>
@@ -3825,7 +4106,7 @@
     <Defense>9</Defense>
     <Exp>160</Exp>
     <BXP>380</BXP>
-    <SpawnProb>1.00</SpawnProb>
+    <SpawnProb>0.5</SpawnProb>
     <Level>13</Level>
     <Quest />
     <Projectile id="0">
@@ -3845,6 +4126,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <KillStat stat="Wither" />
   </Object>
   <Object type="0x5567" id="New Left Horizontal Trap">
     <DisplayId>Trap Element</DisplayId>
@@ -3876,7 +4158,7 @@
       <Size>210</Size>
       <Speed>70</Speed>
       <LifetimeMS>1450</LifetimeMS>
-      <ConditionEffect duration="2">Blind</ConditionEffect>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
       <MultiHit />
       <PassesCover />
     </Projectile>
@@ -3930,7 +4212,7 @@
       <Size>210</Size>
       <Speed>70</Speed>
       <LifetimeMS>1450</LifetimeMS>
-      <ConditionEffect duration="2">Blind</ConditionEffect>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
       <MultiHit />
       <PassesCover />
     </Projectile>
@@ -3984,7 +4266,7 @@
       <Size>210</Size>
       <Speed>70</Speed>
       <LifetimeMS>370</LifetimeMS>
-      <ConditionEffect duration="2">Blind</ConditionEffect>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
       <MultiHit />
       <PassesCover />
     </Projectile>
@@ -4038,7 +4320,7 @@
       <Size>210</Size>
       <Speed>70</Speed>
       <LifetimeMS>370</LifetimeMS>
-      <ConditionEffect duration="2">Blind</ConditionEffect>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
       <MultiHit />
       <PassesCover />
     </Projectile>
@@ -4063,6 +4345,7 @@
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
   <Object type="0x556B" id="New Ogre Mage">
+    <DisplayId>Ogre Mage</DisplayId>
     <Group>New Ogres</Group>
     <Enemy />
     <Exp>60</Exp>
@@ -4078,7 +4361,7 @@
     <BXP>142</BXP>
     <Defense>7</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
       <Damage>25</Damage>
@@ -4094,8 +4377,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x556C" id="New Ogre Warrior">
+    <DisplayId>Ogre Warrior</DisplayId>
     <Group>New Ogres</Group>
     <Enemy />
     <Exp>54</Exp>
@@ -4111,7 +4397,7 @@
     <BXP>128</BXP>
     <Defense>7</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>38</Damage>
@@ -4127,8 +4413,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x556D" id="New Ogre Wizard">
+    <DisplayId>Ogre Wizard</DisplayId>
     <Group>New Ogres</Group>
     <Enemy />
     <Exp>60</Exp>
@@ -4144,7 +4433,7 @@
     <BXP>142</BXP>
     <Defense>7</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Bolt</ObjectId>
       <Damage>25</Damage>
@@ -4161,8 +4450,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x556E" id="New Ogre King">
+    <DisplayId>Ogre King</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -4177,7 +4469,7 @@
     <BXP>760</BXP>
     <Defense>7</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -4195,8 +4487,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x556F" id="New Night Elf Archer">
+    <DisplayId>Night Elf Archer</DisplayId>
     <Group>New Night Elves</Group>
     <Enemy />
     <Exp>48</Exp>
@@ -4212,7 +4507,7 @@
     <BXP>114</BXP>
     <Defense>0</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Arrow</ObjectId>
       <Damage>30</Damage>
@@ -4228,8 +4523,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x5570" id="New Night Elf Warrior">
+    <DisplayId>Night Elf Warrior</DisplayId>
     <Group>New Night Elves</Group>
     <Enemy />
     <Exp>56</Exp>
@@ -4245,7 +4543,7 @@
     <BXP>133</BXP>
     <Defense>2</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>36</Damage>
@@ -4261,8 +4559,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x5571" id="New Night Elf Mage">
+    <DisplayId>Night Elf Mage</DisplayId>
     <Group>New Night Elves</Group>
     <Enemy />
     <Exp>44</Exp>
@@ -4278,7 +4579,7 @@
     <BXP>104</BXP>
     <Defense>0</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
       <Damage>25</Damage>
@@ -4295,8 +4596,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x5572" id="New Night Elf Veteran">
+    <DisplayId>Night Elf Veteran</DisplayId>
     <Group>New Night Elves</Group>
     <Enemy />
     <Exp>60</Exp>
@@ -4312,7 +4616,7 @@
     <BXP>142</BXP>
     <Defense>4</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Gold Arrow</ObjectId>
       <Damage>35</Damage>
@@ -4330,8 +4634,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x5573" id="New Night Elf King">
+    <DisplayId>Night Elf King</DisplayId>
     <Group>New Night Elves</Group>
     <Enemy />
     <Exp>36</Exp>
@@ -4347,7 +4654,7 @@
     <BXP>85</BXP>
     <Defense>5</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
       <Damage>40</Damage>
@@ -4363,8 +4670,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x5574" id="New Lizard God">
+    <DisplayId>Lizard God</DisplayId>
     <Group>New Night Elves</Group>
     <Enemy />
     <Class>Character</Class>
@@ -4380,7 +4690,7 @@
     <BXP>570</BXP>
     <Defense>12</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="HigherForest">10</RealmScore>
     <God />
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -4399,8 +4709,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x5575" id="New Dragon Egg">
+    <DisplayId>White Dragon Egg</DisplayId>
     <Class>Character</Class>
     <Texture>
       <File>lofiChar8x8</File>
@@ -4425,8 +4738,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x5576" id="New White Dragon Whelp">
+    <DisplayId>White Dragon Whelp</DisplayId>
     <Class>Character</Class>
     <Size>65</Size>
     <AnimatedTexture>
@@ -4442,7 +4758,7 @@
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile>
       <ObjectId>Red Fire</ObjectId>
       <Speed>70</Speed>
@@ -4459,8 +4775,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x5577" id="New Juvenile White Dragon">
+    <DisplayId>Juvenile White Dragon</DisplayId>
     <Class>Character</Class>
     <Size>90</Size>
     <AnimatedTexture>
@@ -4476,7 +4795,7 @@
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile>
       <ObjectId>Red Fire</ObjectId>
       <Speed>70</Speed>
@@ -4493,8 +4812,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x5578" id="New Adult White Dragon">
+    <DisplayId>Adult White Dragon</DisplayId>
     <Class>Character</Class>
     <Size>120</Size>
     <AnimatedTexture>
@@ -4507,7 +4829,7 @@
     <Exp>320</Exp>
     <BXP>760</BXP>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Enemy />
     <Projectile>
       <ObjectId>Red Fire</ObjectId>
@@ -4526,6 +4848,8 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x5579" id="New Realm Manticore">
     <DisplayId>Manticore</DisplayId>
@@ -4544,11 +4868,11 @@
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile>
       <ObjectId>Coffin Bullet</ObjectId>
       <Speed>60</Speed>
-      <Damage>50</Damage>
+      <Damage>35</Damage>
       <Size>90</Size>
       <LifetimeMS>5000</LifetimeMS>
     </Projectile>
@@ -4561,8 +4885,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x557A" id="New Hunter Centaur">
+    <DisplayId>Hunter Centaur</DisplayId>
     <Class>Character</Class>
     <Size>100</Size>
     <AnimatedTexture>
@@ -4578,7 +4905,7 @@
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="HigherForest">10</RealmScore>
     <SpawnProb>0.75</SpawnProb>
     <Level>12</Level>
     <Quest />
@@ -4607,8 +4934,10 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x557B" id="New Dark Elf Scout">
+    <DisplayId>Dark Elf Scout</DisplayId>
     <Group>New Dark Elves</Group>
     <Enemy />
     <Exp>50</Exp>
@@ -4624,7 +4953,7 @@
     <BXP>118</BXP>
     <Defense>2</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blue Arrow</ObjectId>
       <Damage>30</Damage>
@@ -4640,8 +4969,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x557C" id="New Dark Elf Swordsman">
+    <DisplayId>Dark Elf Swordsman</DisplayId>
     <Group>New Dark Elves</Group>
     <Enemy />
     <Exp>68</Exp>
@@ -4657,7 +4989,7 @@
     <BXP>161</BXP>
     <Defense>5</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>35</Damage>
@@ -4673,8 +5005,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x557D" id="New Dark Elf Cleric">
+    <DisplayId>Dark Elf Cleric</DisplayId>
     <Group>New Dark Elves</Group>
     <Enemy />
     <Exp>52</Exp>
@@ -4690,7 +5025,7 @@
     <BXP>123</BXP>
     <Defense>0</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Dark Gray Spinner</ObjectId>
       <Damage>20</Damage>
@@ -4708,8 +5043,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x557E" id="New Dark Elf Royal Guard">
+    <DisplayId>Dark Elf Royal Guard</DisplayId>
     <Group>New Dark Elves</Group>
     <Enemy />
     <Exp>90</Exp>
@@ -4725,7 +5063,7 @@
     <BXP>213</BXP>
     <Defense>2</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>7</RealmScore>
+    <RealmScore biome="HigherForest">7</RealmScore>
     <Projectile id="0">
       <ObjectId>Indigo Arrow</ObjectId>
       <Damage>45</Damage>
@@ -4741,8 +5079,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
   <Object type="0x557F" id="New Dark Elf Queen">
+    <DisplayId>Dark Elf Queen</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -4755,7 +5096,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>0</Defense>
     <Terrain>HigherForest</Terrain>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="HigherForest">10</RealmScore>
     <Quest />
     <Level>14</Level>
     <Exp>320</Exp>
@@ -4763,7 +5104,7 @@
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Blue Magic Attack</ObjectId>
-      <Damage>60</Damage>
+      <Damage>50</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2500</LifetimeMS>
       <Size>100</Size>
@@ -4777,5 +5118,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Dark Forest" />
   </Object>
 </Objects>

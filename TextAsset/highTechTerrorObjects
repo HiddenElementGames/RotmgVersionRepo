@@ -247,6 +247,14 @@
     </Texture>
     <AngleCorrection>1</AngleCorrection>
   </Object>
+  <Object type="0x89C2" id="Energy Splat Shiny">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>highTechTerrorObjects8x8</File>
+      <Index>0xB4</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
   <Object type="0x2f42" id="Energy Arrow">
     <Class>Projectile</Class>
     <Texture>
@@ -647,6 +655,7 @@
         <Index>6</Index>
       </AnimatedTexture>
     </AltTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/slimes_death</HitSound>
     <DeathSound>monster/flying_brain_death</DeathSound>
     <Sound id="3">monster/flying_brain_death</Sound>
@@ -654,6 +663,7 @@
     <Sound id="1">laser_hold</Sound>
     <Sound id="2">laser_end</Sound>
     <Size>180</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <ShadowSize>0</ShadowSize>
     <MaxHitPoints>100000</MaxHitPoints>
     <AlwaysPositiveHealth />
@@ -1307,10 +1317,10 @@
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="63" dustMax="147" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="23" dustMax="54" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust dustMin="29" dustMax="35" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="35" dustMax="43" seasonalBonus="0.15">redDust</SoulboundDust>
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY,STGEMDROP</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY,STGEMDROP,AMULET_VETERAN</Labels>
     <SpecialSpawn category="Bis">High Tech Terror Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare ???? Egg</SpecialSpawn>
@@ -1330,6 +1340,8 @@
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt61">
         <StyleStep altTextureId="61">SetAltTexture</StyleStep>
@@ -1643,6 +1655,14 @@
       <MultiHit />
       <PassesCover />
       <Wavy />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>SpecPen Arrow Indicator</ObjectId>
+      <Speed>115</Speed>
+      <Damage>0</Damage>
+      <Size>190</Size>
+      <LifetimeMS>1400</LifetimeMS>
+      <MultiHit />
     </Projectile>
     <Labels>ENEMY</Labels>
   </Object>
@@ -3088,6 +3108,8 @@
     <Exp>0</Exp>
     <Size>90</Size>
     <KillStat stat="StructureKills" />
+    <CustomHitbox x="0" y="0" scale="1.5" />
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/sprites_hit</HitSound>
     <DeathSound>monster/sprites_death</DeathSound>
     <Sound id="0">monster/sprites_death</Sound>
@@ -3148,7 +3170,9 @@
     <Defense>0</Defense>
     <Exp>0</Exp>
     <Size>90</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <KillStat stat="StructureKills" />
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/sprites_hit</HitSound>
     <DeathSound>monster/sprites_death</DeathSound>
     <Sound id="0">monster/sprites_death</Sound>
@@ -3903,6 +3927,7 @@
     <Defense>15</Defense>
     <Exp>0</Exp>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <NoCollisionWhenMovement />
     <HitSound>weapon/heavy_crossbow</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -4099,6 +4124,7 @@
     <Defense>15</Defense>
     <Exp>0</Exp>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <NoCollisionWhenMovement />
     <HitSound>weapon/heavy_crossbow</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -4295,6 +4321,7 @@
     <Defense>15</Defense>
     <Exp>0</Exp>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <NoCollisionWhenMovement />
     <HitSound>weapon/heavy_crossbow</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -4491,6 +4518,7 @@
     <Defense>15</Defense>
     <Exp>0</Exp>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <NoCollisionWhenMovement />
     <HitSound>weapon/heavy_crossbow</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -4633,6 +4661,7 @@
     <Defense>15</Defense>
     <Exp>0</Exp>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <NoCollisionWhenMovement />
     <HitSound>weapon/heavy_crossbow</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -4802,6 +4831,7 @@
     <Defense>15</Defense>
     <Exp>0</Exp>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <NoCollisionWhenMovement />
     <HitSound>weapon/heavy_crossbow</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -4998,6 +5028,7 @@
     <Defense>15</Defense>
     <Exp>0</Exp>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <NoCollisionWhenMovement />
     <HitSound>weapon/heavy_crossbow</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -5194,6 +5225,7 @@
     <Defense>15</Defense>
     <Exp>0</Exp>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <NoCollisionWhenMovement />
     <HitSound>weapon/heavy_crossbow</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -5390,6 +5422,7 @@
     <Defense>15</Defense>
     <Exp>0</Exp>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <NoCollisionWhenMovement />
     <HitSound>weapon/heavy_crossbow</HitSound>
     <DeathSound>monster/traps_death</DeathSound>

@@ -673,7 +673,7 @@
       <Size>100</Size>
       <LifetimeMS>2500</LifetimeMS>
       <MultiHit />
-      <ConditionEffect duration="4">Confused</ConditionEffect>
+      <ConditionEffect duration="4">Unstable</ConditionEffect>
     </Projectile>
     <HealthBarBoss radius="40" />
     <KillStat stat="ConstructKills" />
@@ -1095,10 +1095,12 @@
       <Index>28</Index>
     </AnimatedTexture>
     <NoArticle />
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <Size>100</Size>
     <ShadowSize>100</ShadowSize>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>120000</MaxHitPoints>
     <Defense>50</Defense>
     <StasisImmune />
@@ -1224,14 +1226,14 @@
       <FaceDir />
       <ArmorPiercing />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="80" dustMax="186" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="37" dustMax="87" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="10" dustMax="22" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <SoulboundDust dustMin="46" dustMax="52" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="44" dustMax="52" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust dustMin="36" dustMax="42" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <HealthBarBoss radius="40" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,CONSTRUCT,GOD,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,CONSTRUCT,GOD,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY,AMULET_VETERAN</Labels>
     <SpecialSpawn category="Bis">Crystal Cave Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Superburger</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Farm Egg</SpecialSpawn>
@@ -1255,6 +1257,8 @@
     <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
     <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0x2734" id="Crystal Orbiter 1">
     <Enemy />
@@ -1815,7 +1819,7 @@
     <Projectile id="1">
       <ObjectId>Purple Shard Bolt</ObjectId>
       <Damage>50</Damage>
-      <Speed>120</Speed>
+      <Speed>80</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <Size>120</Size>
       <MultiHit />
@@ -1950,13 +1954,13 @@
   </Object>
   <Object type="0x6500" id="GC Encounter Gauntlet Controller">
     <DisplayId>Dwarf Miner</DisplayId>
-    <Class>Character</Class>
-    <Enemy />
-    <Invincible />
     <Texture>
       <File>crystalCaveObjects8x8</File>
       <Index>0x0d</Index>
     </Texture>
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
     <Size>120</Size>
     <Hero />
     <Quest />
@@ -2399,12 +2403,12 @@
   </Object>
   <Object type="0x650d" id="GC Death Morel">
     <DisplayId>Death Morel</DisplayId>
-    <Class>Character</Class>
-    <Enemy />
     <Texture>
       <File>crystalCaveObjects16x16</File>
       <Index>0x15</Index>
     </Texture>
+    <Class>Character</Class>
+    <Enemy />
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/ogres_death</DeathSound>
     <Size>-1</Size>
@@ -3345,9 +3349,9 @@
     <Projectile id="0">
       <ObjectId>Crystal Orange Shard</ObjectId>
       <Size>144</Size>
-      <Damage>160</Damage>
+      <Damage>0</Damage>
       <Speed>2</Speed>
-      <LifetimeMS>250</LifetimeMS>
+      <LifetimeMS>210</LifetimeMS>
       <MultiHit />
     </Projectile>
     <Projectile id="1">
@@ -3392,7 +3396,7 @@
     <NoArticle />
     <HitSound>monster/rocks_hit</HitSound>
     <DeathSound>monster/rocks_death</DeathSound>
-    <Size>120</Size>
+    <Size>140</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>30</Defense>

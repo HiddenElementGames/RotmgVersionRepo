@@ -75,16 +75,8 @@
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
-    <Enemy />
     <God />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
-    <Invincible />
     <NoArticle />
-    <AlwaysPositiveHealth />
   </Object>
   <Object type="0x4552" id="Tavern Barkeep Boss">
     <Class>Character</Class>
@@ -94,9 +86,11 @@
       <File>rollerRinkChars16x16</File>
       <Index>0</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>60000</MaxHitPoints>
     <Defense>65</Defense>
     <Enemy />
@@ -165,7 +159,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,AMULET_ADEPT</Labels>
   </Object>
   <Object type="0x4525" id="Tavern Beer Barrel N">
     <Class>Character</Class>
@@ -179,13 +173,7 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
     <Enemy />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
-    <RemainVisible />
     <NoCollisionWhenMovement />
     <Projectile id="0">
       <ObjectId>Tavern Beer Shot</ObjectId>
@@ -217,13 +205,7 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
     <Enemy />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
-    <RemainVisible />
     <NoCollisionWhenMovement />
     <Projectile id="0">
       <ObjectId>Tavern Beer Wave</ObjectId>
@@ -259,13 +241,7 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
     <Enemy />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
-    <RemainVisible />
     <NoCollisionWhenMovement />
     <Projectile id="0">
       <ObjectId>Tavern Beer Shot</ObjectId>
@@ -297,13 +273,7 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
     <Enemy />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
-    <RemainVisible />
     <NoCollisionWhenMovement />
     <Projectile id="0">
       <ObjectId>Tavern Beer Shot</ObjectId>
@@ -335,13 +305,7 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
     <Enemy />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
-    <RemainVisible />
     <NoCollisionWhenMovement />
     <Projectile id="0">
       <ObjectId>Tavern Beer Shot</ObjectId>
@@ -373,9 +337,9 @@
     <Size>0</Size>
     <Invincible />
     <NoMiniMap />
-    <Labels>ENEMY,BOSS_SPAWNED,CONSTRUCT</Labels>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="35" dustMax="81" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="11" dustMax="26" seasonalBonus="0.15">redDust</SoulboundDust>
+    <Labels>ENEMY,BOSS,BOSS_SPAWNED,CONSTRUCT</Labels>
+    <SoulboundDust dustMin="31" dustMax="39" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="41" dustMax="47" seasonalBonus="0.15">redDust</SoulboundDust>
     <SpecialSpawn category="Bis">The Tavern Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Reptile Egg</SpecialSpawn>
@@ -396,6 +360,8 @@
     <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
     <SpecialSpawn category="Leprechaun_Purple">Purple Leprechaun</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0x4554" id="Tavern Left Anchor">
     <Class>Character</Class>
@@ -448,11 +414,6 @@
     <Size>100</Size>
     <Enemy />
     <God />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
     <NoArticle />
   </Object>
@@ -464,6 +425,8 @@
       <File>rollerRinkChars16x16</File>
       <Index>2</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
@@ -525,14 +488,8 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>80</Size>
     <Enemy />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
     <NoCollisionWhenMovement />
-    <RemainVisible />
     <Projectile id="0">
       <ObjectId>Tavern Snake Bolt</ObjectId>
       <Damage>75</Damage>
@@ -571,11 +528,6 @@
     <Size>100</Size>
     <Enemy />
     <God />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
     <NoArticle />
   </Object>
@@ -587,6 +539,8 @@
       <File>rollerRinkChars16x16</File>
       <Index>3</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
@@ -691,11 +645,6 @@
     <Size>100</Size>
     <Enemy />
     <God />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
     <NoArticle />
   </Object>
@@ -707,6 +656,8 @@
       <File>rollerRinkChars16x16</File>
       <Index>7</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
@@ -773,11 +724,6 @@
     <Size>100</Size>
     <Enemy />
     <God />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
     <NoArticle />
   </Object>
@@ -789,6 +735,8 @@
       <File>rollerRinkChars16x16</File>
       <Index>6</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
@@ -863,11 +811,6 @@
     <Size>100</Size>
     <Enemy />
     <God />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
     <NoArticle />
   </Object>
@@ -879,6 +822,8 @@
       <File>rollerRinkChars16x16</File>
       <Index>5</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
@@ -934,7 +879,6 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="LesserGodKills" />
     <DamageBasedXP />
-    <NoCollisionWhenMovement />
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST</Labels>
   </Object>
   <Object type="0x4561" id="Tavern Pirate Cook">
@@ -1019,11 +963,6 @@
     <Size>100</Size>
     <Enemy />
     <God />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
     <NoArticle />
   </Object>
@@ -1035,6 +974,8 @@
       <File>rollerRinkChars16x16</File>
       <Index>1</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
@@ -1197,13 +1138,7 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
     <Enemy />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
-    <RemainVisible />
     <NoCollisionWhenMovement />
     <Projectile id="0">
       <ObjectId>UDL Bone</ObjectId>
@@ -1330,14 +1265,8 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
     <Enemy />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
     <NoCollisionWhenMovement />
-    <RemainVisible />
     <Projectile id="0">
       <ObjectId>UDL Bone</ObjectId>
       <Damage>50</Damage>
@@ -1463,14 +1392,8 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
     <Enemy />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
     <NoCollisionWhenMovement />
-    <RemainVisible />
     <Projectile id="0">
       <ObjectId>UDL Bone</ObjectId>
       <Damage>50</Damage>
@@ -1517,11 +1440,6 @@
     <Size>100</Size>
     <Enemy />
     <God />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
     <NoArticle />
   </Object>
@@ -1533,6 +1451,8 @@
       <File>rollerRinkChars16x16</File>
       <Index>4</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
@@ -1585,11 +1505,6 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Enemy />
     <God />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
     <NoCollisionWhenMovement />
     <Sound id="0">lightning</Sound>
@@ -1640,11 +1555,6 @@
     <Size>100</Size>
     <Enemy />
     <God />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <DazedImmune />
-    <SlowImmune />
     <Invincible />
     <NoCollisionWhenMovement />
     <Projectile id="0">

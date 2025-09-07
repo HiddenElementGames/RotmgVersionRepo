@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
-  <Object type="0x0e19" id="TestChicken Small">
+  <Object type="0x0E19" id="TestChicken Small">
     <DisplayId>Oryx Chicken Minion</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -57,7 +57,7 @@
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,CRITTER</Labels>
   </Object>
-  <Object type="0x0e18" id="Test Egg">
+  <Object type="0x0E18" id="Test Egg">
     <DisplayId>Egg</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -96,6 +96,7 @@
     <Defense>0</Defense>
     <Exp>0</Exp>
     <Size>130</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <ShadowSize>100</ShadowSize>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
@@ -114,7 +115,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0x0e17" id="TestChicken 2">
+  <Object type="0x0E17" id="TestChicken 2">
     <DisplayId>Giant Oryx Chicken</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -126,16 +127,18 @@
     </AnimatedTexture>
     <Size>40</Size>
     <ShadowSize>80</ShadowSize>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/chicken_hit</HitSound>
     <DeathSound>monster/chicken_death</DeathSound>
-    <MaxHitPoints>45000</MaxHitPoints>
-    <Defense>55</Defense>
+    <MaxHitPoints>80000</MaxHitPoints>
+    <Defense>45</Defense>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Exp>10000</Exp>
     <BXP>50000</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="12" dustMax="29" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="42" dustMax="50" seasonalBonus="0.15">greenDust</SoulboundDust>
     <Projectile id="0">
       <ObjectId>Pink Dot</ObjectId>
       <Damage>100</Damage>
@@ -158,7 +161,7 @@
       <Size>200</Size>
       <LifetimeMS>3500</LifetimeMS>
       <MultiHit />
-      <ConditionEffect duration="5">Confused</ConditionEffect>
+      <ConditionEffect duration="5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="3">
       <ObjectId>Rainbow Magic Star</ObjectId>
@@ -167,7 +170,7 @@
       <Size>100</Size>
       <LifetimeMS>2250</LifetimeMS>
       <MultiHit />
-      <ConditionEffect duration="2.5">Confused</ConditionEffect>
+      <ConditionEffect duration="2.5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="4">
       <ObjectId>Rainbow Blaster</ObjectId>
@@ -212,7 +215,7 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,STASISIMMUNE,TRACKLOOT,BEAST,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,STASISIMMUNE,TRACKLOOT,BEAST,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Oryx Chicken Chamber Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon ???? Egg</SpecialSpawn>
@@ -229,5 +232,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
 </Objects>

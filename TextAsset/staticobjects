@@ -3232,8 +3232,6 @@
     </Texture>
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
-    <MaxHitPoints>700</MaxHitPoints>
-    <StasisImmune />
     <Enemy />
     <Exp>0</Exp>
     <Invincible />
@@ -3247,8 +3245,6 @@
     </Texture>
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
-    <MaxHitPoints>700</MaxHitPoints>
-    <StasisImmune />
     <Enemy />
     <Exp>0</Exp>
     <Invincible />
@@ -6720,7 +6716,7 @@
     </Texture>
     <ShadowSize>55</ShadowSize>
     <Z>-0.1</Z>
-    <HelperDialog title="Wardobe">Come to the Wardrobe to change your characters skin, title, and more!</HelperDialog>
+    <HelperDialog title="Wardrobe">Come to the Wardrobe to change your characters skin, title, and more!</HelperDialog>
     <Static />
   </Object>
   <Object type="0x1913" id="Tailor">
@@ -7838,10 +7834,55 @@
   <Object type="0x1946" id="Character Changer LF">
     <Class>SeasonalitySwitcher</Class>
     <Texture>
-      <File>lofiChar8x8</File>
-      <Index>0x18</Index>
+      <File>lofiObjBig</File>
+      <Index>612</Index>
     </Texture>
+    <Animation prob="1">
+      <Frame time="0.2">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>612</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>613</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>614</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>615</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>616</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>617</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>lofiObjBig</File>
+          <Index>618</Index>
+        </Texture>
+      </Frame>
+    </Animation>
     <Static />
+    <Size>110</Size>
   </Object>
   <Object type="0x1947" id="Earth Walls">
     <Class>CaveWall</Class>
@@ -9539,6 +9580,120 @@
     </Animation>
     <HitSound>monster/trees_hit</HitSound>
     <StaticSpawn region="RisenHell" prob="0.0001" />
+    <Static />
+  </Object>
+  <Object type="0x1C00" id="New Enchanter Wall 0">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>nexusObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+    <Color>0x4B2F20</Color>
+  </Object>
+  <Object type="0x1C01" id="New Enchanter Wall 1">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>nexusObjects16x16</File>
+      <Index>1</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+    <Color>0x4B2F20</Color>
+  </Object>
+  <Object type="0x1C02" id="New Enchanter Wall 2">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>nexusObjects16x16</File>
+      <Index>2</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+    <Color>0x4B2F20</Color>
+  </Object>
+  <Object type="0x1C03" id="New Enchanter Wall 3">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>nexusObjects16x16</File>
+      <Index>3</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+    <Color>0x4B2F20</Color>
+  </Object>
+  <Object type="0x1C04" id="New Enchanter Wall 4">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>nexusObjects16x16</File>
+      <Index>4</Index>
+    </Texture>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <ShadowSize>0</ShadowSize>
+    <Color>0x4B2F20</Color>
+  </Object>
+  <Object type="0x1C05" id="New Enchanter Astrolabe">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>nexusObjects16x16</File>
+      <Index>5</Index>
+    </Texture>
+    <Size>90</Size>
+    <OccupySquare />
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object type="0x1C06" id="New Enchanter Chest">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>nexusObjects16x16</File>
+      <Index>6</Index>
+    </Texture>
+    <Size>90</Size>
+    <OccupySquare />
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object type="0x1C07" id="New Enchanter Desk">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>nexusObjects16x16</File>
+      <Index>7</Index>
+    </Texture>
+    <Size>90</Size>
+    <OccupySquare />
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object type="0x1C08" id="New Enchanter Scroll Jar">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>nexusObjects16x16</File>
+      <Index>8</Index>
+    </Texture>
+    <Size>90</Size>
+    <OccupySquare />
+    <NoMiniMap />
     <Static />
   </Object>
 </Objects>

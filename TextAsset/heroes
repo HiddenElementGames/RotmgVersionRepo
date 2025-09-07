@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
-  <Object id="New Red Deamon Spawner" type="0x5626">
+  <Object id="New Red Demon Spawner" type="0x5626">
     <Class>Character</Class>
     <Texture>
       <File>invisible</File>
@@ -18,15 +18,18 @@
       <File>chars16x16dMountains1</File>
       <Index>11</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/flaming_skulls_hit</HitSound>
     <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <MaxHitPoints>7000</MaxHitPoints>
     <Defense>12</Defense>
     <TrackLoot />
     <Flying />
     <Hero />
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="RisenHell">750</RealmScore>
     <Quest />
     <God />
     <Level>19</Level>
@@ -48,6 +51,7 @@
       <PassesCover />
       <Parametric />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="HeroKills" />
     <KillStat stat="GodKills" />
@@ -92,6 +96,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x558B" id="New Demon">
     <DisplayId>Demon</DisplayId>
@@ -124,6 +129,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x558C" id="New Demon Warrior">
     <DisplayId>Demon Warrior</DisplayId>
@@ -156,6 +162,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="New Phoenix Lord Spawner" type="0x561B">
     <Class>Character</Class>
@@ -176,13 +183,16 @@
       <File>Rookie_16x16</File>
       <Index>3</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <MaxHitPoints>3000</MaxHitPoints>
     <BXP>694</BXP>
     <Defense>15</Defense>
     <Flying />
     <Hero />
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="RisenHell,Abandoned,SpriteForest">750</RealmScore>
     <Quest />
     <Level>17</Level>
     <StasisImmune />
@@ -234,6 +244,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x558F" id="New Birdman">
     <DisplayId>Birdman</DisplayId>
@@ -265,6 +276,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5590" id="New Phoenix Reborn">
     <DisplayId>Phoenix Reborn</DisplayId>
@@ -276,6 +288,9 @@
       <File>lofiChar216x16</File>
       <Index>0x2a</Index>
     </Texture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <MaxHitPoints>4200</MaxHitPoints>
     <BXP>926</BXP>
@@ -298,6 +313,16 @@
       <Speed>60</Speed>
       <LifetimeMS>2400</LifetimeMS>
     </Projectile>
+    <Loot tier="3" prob="0.075">ClassSpecial</Loot>
+    <Loot tier="2" prob="0.15">Ring</Loot>
+    <Loot tier="7" prob="0.03">Weapon</Loot>
+    <Loot tier="7" prob="0.03">Armor</Loot>
+    <Loot tier="2" prob="0.13">ClassSpecial</Loot>
+    <Loot tier="6" prob="0.075">Weapon</Loot>
+    <Loot tier="6" prob="0.075">Armor</Loot>
+    <Loot tier="1" prob="0.30">Ring</Loot>
+    <Loot tier="5" prob="0.13">Weapon</Loot>
+    <Loot tier="5" prob="0.13">Armor</Loot>
     <KillStat stat="BeastKills" />
     <Labels>ENEMY,MINION,BEAST,QUEST,TRACKLOOT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
@@ -316,6 +341,8 @@
       <File>Rookie_8x8</File>
       <Index>50</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>130</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>0</Defense>
@@ -350,14 +377,17 @@
       <File>Rookie_16x16</File>
       <Index>6</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/cyclops_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
     <MaxHitPoints>4500</MaxHitPoints>
     <BXP>694</BXP>
     <Defense>8</Defense>
     <Hero />
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="RisenHell,SpriteForest,Abandoned">750</RealmScore>
     <Quest />
     <God />
     <Level>16</Level>
@@ -442,6 +472,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5594" id="New Cyclops Warrior">
     <DisplayId>Cyclops Warrior</DisplayId>
@@ -474,6 +505,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5595" id="New Cyclops Noble">
     <DisplayId>Cyclops Noble</DisplayId>
@@ -506,6 +538,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5596" id="New Cyclops Prince">
     <DisplayId>Cyclops Prince</DisplayId>
@@ -538,6 +571,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5597" id="New Cyclops King">
     <DisplayId>Cyclops King</DisplayId>
@@ -570,6 +604,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="New Ghost King Spawner" type="0x561F">
     <Class>Character</Class>
@@ -590,8 +625,11 @@
       <File>Rookie_8x8</File>
       <Index>11</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/ghosts_hit</HitSound>
     <DeathSound>monster/ghosts_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>95</Size>
     <MaxHitPoints>300000</MaxHitPoints>
     <BXP>694</BXP>
@@ -657,22 +695,24 @@
     <DisplayId>Ghost King</DisplayId>
     <Group>New Heros</Group>
     <Enemy />
-    <Exp>195</Exp>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>Rookie_8x8</File>
       <Index>11</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/ghosts_hit</HitSound>
     <DeathSound>monster/ghosts_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>95</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <Exp>1200</Exp>
-    <BXP>694</BXP>
+    <BXP>3600</BXP>
     <Defense>7</Defense>
     <StasisImmune />
     <Hero />
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="HauntedHallows,SpriteForest,CoralReefs">750</RealmScore>
     <Quest />
     <Level>15</Level>
     <TrackLoot />
@@ -726,6 +766,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x559C" id="New Medium Ghost">
     <DisplayId>Medium Ghost</DisplayId>
@@ -812,11 +853,14 @@
       <File>Rookie_16x16</File>
       <Index>25</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>15</Defense>
     <Hero />
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="CoralReefs,ShipWreck,HauntedHallows">750</RealmScore>
     <Quest />
     <TrackLoot />
     <Level>13</Level>
@@ -829,6 +873,16 @@
       <Speed>60</Speed>
       <LifetimeMS>2400</LifetimeMS>
     </Projectile>
+    <Loot tier="3" prob="0.075">ClassSpecial</Loot>
+    <Loot tier="2" prob="0.15">Ring</Loot>
+    <Loot tier="7" prob="0.03">Weapon</Loot>
+    <Loot tier="7" prob="0.03">Armor</Loot>
+    <Loot tier="2" prob="0.13">ClassSpecial</Loot>
+    <Loot tier="6" prob="0.075">Weapon</Loot>
+    <Loot tier="6" prob="0.075">Armor</Loot>
+    <Loot tier="1" prob="0.30">Ring</Loot>
+    <Loot tier="5" prob="0.13">Weapon</Loot>
+    <Loot tier="5" prob="0.13">Armor</Loot>
     <KillStat stat="BeastKills" />
     <KillStat stat="HeroKills" />
     <KillStat stat="GodKills" />
@@ -871,6 +925,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55A6" id="New Oasis Soldier">
     <DisplayId>Oasis Soldier</DisplayId>
@@ -901,6 +956,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55A7" id="New Oasis Creature">
     <DisplayId>Oasis Creature</DisplayId>
@@ -931,6 +987,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55A8" id="New Oasis Monster">
     <DisplayId>Oasis Monster</DisplayId>
@@ -961,6 +1018,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="New Ent Ancient Spawner" type="0x5621">
     <Class>Character</Class>
@@ -971,48 +1029,6 @@
     <Size>0</Size>
     <NoMiniMap />
   </Object>
-  <Object type="0x55A9" id="New Ent Ancient">
-    <DisplayId>Ent Ancient</DisplayId>
-    <Group>New Heros</Group>
-    <Enemy />
-    <Class>Character</Class>
-    <DisplayId>Ent Ancient</DisplayId>
-    <AnimatedTexture>
-      <File>Rookie_16x16</File>
-      <Index>28</Index>
-    </AnimatedTexture>
-    <HitSound>monster/ents_hit</HitSound>
-    <DeathSound>monster/ents_death</DeathSound>
-    <Size>140</Size>
-    <MaxHitPoints>300000</MaxHitPoints>
-    <Defense>7</Defense>
-    <StasisImmune />
-    <Hero />
-    <RealmScore>500</RealmScore>
-    <TrackLoot />
-    <Quest />
-    <Level>11</Level>
-    <Exp>0</Exp>
-    <Projectile id="0">
-      <ObjectId>Bark Bolt</ObjectId>
-      <Damage>35</Damage>
-      <Speed>60</Speed>
-      <LifetimeMS>2000</LifetimeMS>
-      <Size>40</Size>
-    </Projectile>
-    <HelperDialog title="Heroes of Oryx" radius="6">This monster is a Hero of Oryx. When all of them are killed, everyone in the Realm will be brought to Oryx's Castle to face him directly!</HelperDialog>
-    <KillStat stat="NatureKills" />
-    <KillStat stat="HeroKills" />
-    <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,NATURE,HERO,GOD,QUEST,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
-    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
-    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
-    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
-    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
-    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
-    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
-    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
-  </Object>
   <Object type="0x55AA" id="New Actual Ent Ancient">
     <Group>New Heros</Group>
     <Enemy />
@@ -1022,18 +1038,21 @@
       <File>Rookie_16x16</File>
       <Index>28</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/ents_hit</HitSound>
     <DeathSound>monster/ents_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <MaxHitPoints>1200</MaxHitPoints>
     <Exp>1200</Exp>
     <Defense>15</Defense>
     <StasisImmune />
+    <KeepDamageRecord />
     <Hero />
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="Abandoned">500</RealmScore>
     <Quest />
     <Level>11</Level>
-    <Exp>384</Exp>
     <BXP>1367</BXP>
     <Projectile id="0">
       <ObjectId>Bark Bolt</ObjectId>
@@ -1129,14 +1148,14 @@
     <HitSound>monster/ents_hit</HitSound>
     <DeathSound>monster/ents_death</DeathSound>
     <Size>120</Size>
-    <MaxHitPoints>4500</MaxHitPoints>
+    <MaxHitPoints>500</MaxHitPoints>
     <Defense>11</Defense>
     <Exp>29</Exp>
     <BXP>137</BXP>
     <Projectile id="0">
       <ObjectId>Leaf Bolt</ObjectId>
-      <Damage>70</Damage>
-      <Speed>65</Speed>
+      <Damage>65</Damage>
+      <Speed>45</Speed>
       <LifetimeMS>1300</LifetimeMS>
       <Size>70</Size>
     </Projectile>
@@ -1182,6 +1201,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55AD" id="New Greater Nature Sprite">
     <DisplayId>Greater Nature Sprite</DisplayId>
@@ -1230,7 +1250,7 @@
     <HitSound>monster/sprites_hit</HitSound>
     <DeathSound>monster/sprites_death</DeathSound>
     <Size>110</Size>
-    <MaxHitPoints>3600</MaxHitPoints>
+    <MaxHitPoints>500</MaxHitPoints>
     <Defense>7</Defense>
     <Flying />
     <Exp>78</Exp>
@@ -1239,8 +1259,8 @@
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Green Sprite Bolt</ObjectId>
-      <Damage>55</Damage>
-      <Speed>80</Speed>
+      <Damage>25</Damage>
+      <Speed>70</Speed>
       <LifetimeMS>1700</LifetimeMS>
       <Size>70</Size>
       <PassesCover />
@@ -1264,54 +1284,6 @@
     <Size>0</Size>
     <NoMiniMap />
   </Object>
-  <Object type="0x55AF" id="New Lich">
-    <DisplayId>Lich</DisplayId>
-    <Group>New Heros</Group>
-    <Enemy />
-    <Class>Character</Class>
-    <AnimatedTexture>
-      <File>Rookie_8x8</File>
-      <Index>42</Index>
-    </AnimatedTexture>
-    <HitSound>monster/skeletons_hit</HitSound>
-    <DeathSound>monster/skeletons_death</DeathSound>
-    <Size>120</Size>
-    <MaxHitPoints>300000</MaxHitPoints>
-    <Defense>7</Defense>
-    <StasisImmune />
-    <Hero />
-    <Quest />
-    <Level>9</Level>
-    <Exp>0</Exp>
-    <Projectile id="0">
-      <ObjectId>Blue Magic</ObjectId>
-      <Damage>25</Damage>
-      <Speed>80</Speed>
-      <LifetimeMS>2200</LifetimeMS>
-      <Size>60</Size>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="1">
-      <ObjectId>Blue Magic</ObjectId>
-      <Damage>60</Damage>
-      <Speed>60</Speed>
-      <LifetimeMS>2000</LifetimeMS>
-      <Size>110</Size>
-      <MultiHit />
-    </Projectile>
-    <HelperDialog title="Heroes of Oryx" radius="6">This monster is a Hero of Oryx. When all of them are killed, everyone in the Realm will be brought to Oryx's Castle to face him directly!</HelperDialog>
-    <KillStat stat="UndeadKills" />
-    <KillStat stat="HeroKills" />
-    <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,UNDEAD,HERO,GOD,QUEST,STASISIMMUNE,MINION_STRONG</Labels>
-    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
-    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
-    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
-    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
-    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
-    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
-    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
-  </Object>
   <Object type="0x55B0" id="New Actual Lich">
     <DisplayId>Lich</DisplayId>
     <Group>New Heros</Group>
@@ -1321,14 +1293,17 @@
       <File>Rookie_8x8</File>
       <Index>42</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
     <MaxHitPoints>1100</MaxHitPoints>
     <Defense>7</Defense>
     <StasisImmune />
     <Hero />
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="Abandoned,DeadChurch,HauntedHallows">500</RealmScore>
     <Quest />
     <Level>9</Level>
     <Exp>1165</Exp>
@@ -1336,7 +1311,7 @@
     <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
       <Damage>25</Damage>
-      <Speed>80</Speed>
+      <Speed>65</Speed>
       <LifetimeMS>2200</LifetimeMS>
       <Size>60</Size>
       <MultiHit />
@@ -1344,7 +1319,7 @@
     <Projectile id="1">
       <ObjectId>Blue Magic</ObjectId>
       <Damage>60</Damage>
-      <Speed>60</Speed>
+      <Speed>50</Speed>
       <LifetimeMS>2000</LifetimeMS>
       <Size>110</Size>
       <MultiHit />
@@ -1373,7 +1348,7 @@
     <HitSound>monster/ghosts_hit</HitSound>
     <DeathSound>monster/ghosts_death</DeathSound>
     <Size>80</Size>
-    <MaxHitPoints>6000</MaxHitPoints>
+    <MaxHitPoints>1000</MaxHitPoints>
     <Defense>4</Defense>
     <Exp>58</Exp>
     <BXP>275</BXP>
@@ -1388,7 +1363,7 @@
     </Projectile>
     <Projectile id="1">
       <ObjectId>Grey Boomerang</ObjectId>
-      <Damage>60</Damage>
+      <Damage>30</Damage>
       <Speed>70</Speed>
       <Size>80</Size>
       <LifetimeMS>2000</LifetimeMS>
@@ -1416,13 +1391,13 @@
     <HitSound>monster/ghosts_hit</HitSound>
     <DeathSound>monster/ghosts_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>4000</MaxHitPoints>
+    <MaxHitPoints>400</MaxHitPoints>
     <Defense>18</Defense>
     <Exp>58</Exp>
     <BXP>275</BXP>
     <Projectile id="0">
       <ObjectId>Eldritch Zap</ObjectId>
-      <Damage>90</Damage>
+      <Damage>40</Damage>
       <Speed>70</Speed>
       <Size>90</Size>
       <LifetimeMS>1500</LifetimeMS>
@@ -1468,6 +1443,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55B4" id="New Mummy King">
     <DisplayId>Mummy King</DisplayId>
@@ -1500,6 +1476,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55B5" id="New Mummy Pharaoh">
     <DisplayId>Mummy Pharaoh</DisplayId>
@@ -1532,6 +1509,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55B6" id="New KageSpawner">
     <Class>Character</Class>
@@ -1734,6 +1712,7 @@
     <Defense>63</Defense>
     <Exp>273</Exp>
     <BXP>1296</BXP>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
     <DontFaceAttacks />
     <StasisImmune />
@@ -1826,6 +1805,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55B9" id="New CoilSpawner">
     <Class>Character</Class>
@@ -1842,6 +1822,7 @@
     <Class>Character</Class>
     <Enemy />
     <Group>New Heros</Group>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <ShadowSize>90</ShadowSize>
     <MaxHitPoints>900</MaxHitPoints>
@@ -1857,6 +1838,8 @@
       <File>Rookie_16x16</File>
       <Index>27</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Projectile id="0">
       <ObjectId>Snake Shot</ObjectId>
       <Damage>50</Damage>
@@ -1880,6 +1863,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55BB" id="New Great Temple Snake">
     <DisplayId>Great Temple Snake</DisplayId>
@@ -1920,6 +1904,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55BC" id="New Great Snake Egg">
     <DisplayId>Great Snake Egg</DisplayId>
@@ -1971,6 +1956,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object id="New Deathmage Spawner" type="0x5623">
     <Class>Character</Class>
@@ -1990,8 +1976,11 @@
       <File>Rookie_8x8</File>
       <Index>40</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <MaxHitPoints>900</MaxHitPoints>
     <Defense>11</Defense>
@@ -2018,6 +2007,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55BE" id="New Skeleton">
     <DisplayId>Skeleton</DisplayId>
@@ -2050,6 +2040,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55BF" id="New Skeleton Swordsman">
     <DisplayId>Skeleton Swordsman</DisplayId>
@@ -2082,6 +2073,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55C0" id="New Skeleton Veteran">
     <DisplayId>Skeleton Veteran</DisplayId>
@@ -2114,6 +2106,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55C1" id="New Skeleton Mage">
     <DisplayId>Neil</DisplayId>
@@ -2146,6 +2139,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x55C2" id="New Skeleton King">
     <DisplayId>Skeleton King</DisplayId>
@@ -2178,6 +2172,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xCDFE" id="New ScoutSpawner">
     <Class>Character</Class>
@@ -2209,16 +2204,19 @@
         <Index>2</Index>
       </Texture>
     </AltTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/flayers_hit</HitSound>
     <DeathSound>monster/blobs_death</DeathSound>
     <BloodProb>0.5</BloodProb>
     <BloodColor>0xB50000</BloodColor>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>6000</Exp>
     <BXP>30000</BXP>
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="SanguineForest">750</RealmScore>
     <StasisImmune />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="LesserGodKills" />
@@ -2277,18 +2275,22 @@
       <File>RookieObj_16x24</File>
       <Index>0</Index>
     </Texture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/rocks_hit</HitSound>
     <DeathSound>monster/stone_walls_hit</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>125</Size>
     <MaxHitPoints>25000</MaxHitPoints>
-    <Defense>60</Defense>
+    <Defense>30</Defense>
     <Quest />
     <Hero />
     <AlwaysPositiveHealth />
     <Level>20</Level>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="Abandoned">500</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Shatters Sentinel Wave 1</ObjectId>
@@ -2310,6 +2312,7 @@
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
     <Animation id="PlayerApproach" period="0" prob="1">
       <Frame time="0.1">
         <Texture>
@@ -2467,20 +2470,24 @@
       <File>UGCSetPieceChars16x16</File>
       <Index>12</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>150</Size>
-    <MaxHitPoints>27000</MaxHitPoints>
+    <MaxHitPoints>18000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="Abandoned">500</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <Hero />
     <Projectile id="0">
       <ObjectId>Flame Twirl</ObjectId>
-      <Speed>60</Speed>
-      <Damage>90</Damage>
+      <Speed>55</Speed>
+      <Damage>70</Damage>
       <LifetimeMS>3000</LifetimeMS>
       <Size>110</Size>
       <MultiHit />
@@ -2489,8 +2496,8 @@
     </Projectile>
     <Projectile id="1">
       <ObjectId>Flame Vortex</ObjectId>
-      <Speed>50</Speed>
-      <Damage>140</Damage>
+      <Speed>45</Speed>
+      <Damage>100</Damage>
       <LifetimeMS>3000</LifetimeMS>
       <Size>140</Size>
       <MultiHit />
@@ -2527,8 +2534,9 @@
       <File>UGCSetPieceChars16x16</File>
       <Index>13</Index>
     </AnimatedTexture>
-    <MaxHitPoints>20000</MaxHitPoints>
-    <Defense>60</Defense>
+    <MaxHitPoints>16000</MaxHitPoints>
+    <Defense>30</Defense>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>170</Size>
     <Quest />
     <StunImmune />
@@ -2543,6 +2551,7 @@
       <PassesCover />
       <ConditionEffect duration="1.5">Unstable</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Dragon's Treasure Static" type="0xc7ad">
     <Class>GameObject</Class>
@@ -2585,18 +2594,21 @@
       <File>Rookie_16x16</File>
       <Index>65</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/snake_queen_hit</HitSound>
     <DeathSound>monster/snake_queen_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
-    <MaxHitPoints>25000</MaxHitPoints>
+    <MaxHitPoints>20000</MaxHitPoints>
     <Defense>40</Defense>
     <Quest />
     <Hero />
     <Level>20</Level>
-    <RealmScore>500</RealmScore>
+    <TrackLoot />
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="Abandoned">500</RealmScore>
     <StasisImmune />
     <StunImmune />
     <Projectile id="0">
@@ -2611,8 +2623,8 @@
     </Projectile>
     <Projectile id="1">
       <ObjectId>Deadwater White Banana</ObjectId>
-      <Damage>50</Damage>
-      <Speed>55</Speed>
+      <Damage>70</Damage>
+      <Speed>60</Speed>
       <Size>110</Size>
       <LifetimeMS>2000</LifetimeMS>
       <ArmorPiercing />
@@ -2626,6 +2638,7 @@
       <LifetimeMS>2000</LifetimeMS>
       <ConditionEffect duration="3">Exposed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Insurgent Rebel Mechanic" type="0x4264">
     <Enemy />
@@ -2637,7 +2650,7 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>110</Size>
-    <MaxHitPoints>5000</MaxHitPoints>
+    <MaxHitPoints>2500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -2653,7 +2666,7 @@
     </Projectile>
     <Projectile id="1">
       <ObjectId>steamworks Spinning Wrench</ObjectId>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <Speed>20</Speed>
       <Size>100</Size>
       <LifetimeMS>1500</LifetimeMS>
@@ -2672,7 +2685,7 @@
     <HitSound>monster/elves_hit</HitSound>
     <DeathSound>monster/elves_death</DeathSound>
     <Size>110</Size>
-    <MaxHitPoints>4000</MaxHitPoints>
+    <MaxHitPoints>2000</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -2705,16 +2718,16 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
     <Size>110</Size>
-    <MaxHitPoints>6000</MaxHitPoints>
+    <MaxHitPoints>3000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
     <Projectile id="0">
       <ObjectId>Skeleton Attack</ObjectId>
       <Damage>50</Damage>
-      <Speed>90</Speed>
+      <Speed>50</Speed>
       <Size>100</Size>
-      <LifetimeMS>450</LifetimeMS>
+      <LifetimeMS>2000</LifetimeMS>
       <ArmorPiercing />
     </Projectile>
   </Object>
@@ -3289,12 +3302,14 @@
     </Portrait>
     <HitSound>monster/cubes_death</HitSound>
     <DeathSound>monster/scorpions_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>1</Size>
     <ShadowSize>50</ShadowSize>
     <MaxHitPoints>145000</MaxHitPoints>
     <Defense>40</Defense>
-    <Exp>0</Exp>
-    <BXP>0</BXP>
+    <Exp>25000</Exp>
+    <BXP>75000</BXP>
+    <RealmScore biome="CoralReefs">2000</RealmScore>
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -3427,7 +3442,7 @@
   </Object>
   <Object id="Fisherman NPC" type="0x8701">
     <DisplayId>Glover</DisplayId>
-    <InteractInfo distance="4" title="Fishing with Glover" text="Greetings adventurers, welcome to my Fish Pond!\nTo catch fish is pretty easy, just grab a rod from that wooden barrel to my left and consume it like a potion! This will cause you to set out your line at your feet. Use your Summon control to bring it to a ripple in the water to catch fish! Bring me fish of the appropriete tier and you'll be rewarded kindly!\n Have fun! /n /n P.S: Watch out for the big one!" />
+    <InteractInfo distance="4" title="Fishing with Glover" text="Greetings adventurers, welcome to my Fish Pond!\nTo catch fish is pretty easy, just grab a rod from that wooden barrel to my left and consume it like a potion! This will cause you to set out your line at your feet. Use your Summon control to bring it to a ripple in the water to catch fish! Bring me fish of the appropriate tier and you'll be rewarded kindly!\n Have fun! \n \n P.S: Watch out for the big one!" />
     <Class>InteractiveInfoObject</Class>
     <Texture>
       <File>UGCSetpieceObjects16x16</File>
@@ -3486,6 +3501,7 @@
     <Defense>0</Defense>
     <Size>100</Size>
     <Exp>10000</Exp>
+    <TrackLoot />
     <StasisImmune />
   </Object>
   <Object id="Fishing Reward Easy 3" type="0xc79f">
@@ -3500,6 +3516,7 @@
     <Defense>0</Defense>
     <Size>110</Size>
     <Exp>10000</Exp>
+    <TrackLoot />
     <StasisImmune />
   </Object>
   <Object id="Fishing Reward Easy 5" type="0xc7a0">
@@ -3514,6 +3531,7 @@
     <Defense>0</Defense>
     <Size>120</Size>
     <Exp>10000</Exp>
+    <TrackLoot />
     <StasisImmune />
   </Object>
   <Object id="Fishing Reward Easy 7" type="0xc7a1">
@@ -3528,6 +3546,7 @@
     <Defense>0</Defense>
     <Size>130</Size>
     <Exp>10000</Exp>
+    <TrackLoot />
     <StasisImmune />
   </Object>
   <Object id="Fishing Reward Normal 1" type="0xc76c">
@@ -3542,6 +3561,7 @@
     <Defense>0</Defense>
     <Size>100</Size>
     <Exp>15000</Exp>
+    <TrackLoot />
     <StasisImmune />
   </Object>
   <Object id="Fishing Reward Normal 3" type="0xc7a2">
@@ -3556,6 +3576,7 @@
     <Defense>0</Defense>
     <Size>110</Size>
     <Exp>15000</Exp>
+    <TrackLoot />
     <StasisImmune />
   </Object>
   <Object id="Fishing Reward Normal 5" type="0xc7a3">
@@ -3570,6 +3591,7 @@
     <Defense>0</Defense>
     <Size>120</Size>
     <Exp>15000</Exp>
+    <TrackLoot />
     <StasisImmune />
   </Object>
   <Object id="Fishing Reward Normal 7" type="0xc7a4">
@@ -3584,6 +3606,7 @@
     <Defense>0</Defense>
     <Size>130</Size>
     <Exp>15000</Exp>
+    <TrackLoot />
     <StasisImmune />
   </Object>
   <Object id="Fishing Reward Hard 1" type="0xc7a5">
@@ -3598,6 +3621,7 @@
     <Defense>0</Defense>
     <Size>100</Size>
     <Exp>20000</Exp>
+    <TrackLoot />
     <StasisImmune />
   </Object>
   <Object id="Fishing Reward Hard 3" type="0xc7a6">
@@ -3612,6 +3636,7 @@
     <Defense>0</Defense>
     <Size>110</Size>
     <Exp>20000</Exp>
+    <TrackLoot />
     <StasisImmune />
   </Object>
   <Object id="Fishing Reward Hard 5" type="0xc7a7">
@@ -3626,6 +3651,7 @@
     <Defense>0</Defense>
     <Size>120</Size>
     <Exp>20000</Exp>
+    <TrackLoot />
     <StasisImmune />
   </Object>
   <Object id="Fishing Reward Hard 7" type="0xc7a8">
@@ -3640,6 +3666,7 @@
     <Defense>0</Defense>
     <Size>130</Size>
     <Exp>20000</Exp>
+    <TrackLoot />
     <StasisImmune />
   </Object>
   <Object id="Fishing Quest 1" type="0xc766">
@@ -3894,6 +3921,1111 @@
     <ShadowSize>30</ShadowSize>
     <NoMiniMap />
   </Object>
+  <Object id="City Rat Shop" type="0x465d">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object id="Giant City Rat" type="0x4650">
+    <DisplayId>Giant Rat</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>newRealmSetPieceChars16x16</File>
+        <Index>9</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>newRealmSetPieceChars16x16</File>
+        <Index>15</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>newRealmSetPieceChars16x16</File>
+        <Index>16</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/bats_hit</DeathSound>
+    <Size>20</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>7500</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>2000</Exp>
+    <BXP>10000</BXP>
+    <StasisImmune />
+    <AlwaysPositiveHealth />
+    <Projectile id="0">
+      <ObjectId>Deadwater White Zap</ObjectId>
+      <Damage>65</Damage>
+      <Speed>85</Speed>
+      <LifetimeMS>750</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Deadwater White Zap</ObjectId>
+      <Damage>65</Damage>
+      <Speed>77</Speed>
+      <LifetimeMS>750</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Deadwater White Zap</ObjectId>
+      <Damage>65</Damage>
+      <Speed>69</Speed>
+      <LifetimeMS>750</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Deadwater White Zap</ObjectId>
+      <Damage>0</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>0</LifetimeMS>
+      <Size>0</Size>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Giant Rat Tail</ObjectId>
+      <Damage>50</Damage>
+      <Speed>25</Speed>
+      <LifetimeMS>2400</LifetimeMS>
+      <Size>150</Size>
+      <PassesCover />
+      <MultiHit />
+      <Boomerang />
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Giant Rat Tail</ObjectId>
+      <Damage>50</Damage>
+      <Speed>35</Speed>
+      <LifetimeMS>2400</LifetimeMS>
+      <Size>145</Size>
+      <PassesCover />
+      <MultiHit />
+      <Boomerang />
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Giant Rat Tail</ObjectId>
+      <Damage>50</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>2400</LifetimeMS>
+      <Size>140</Size>
+      <PassesCover />
+      <MultiHit />
+      <Boomerang />
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Giant Rat Tail</ObjectId>
+      <Damage>50</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>2400</LifetimeMS>
+      <Size>135</Size>
+      <PassesCover />
+      <MultiHit />
+      <Boomerang />
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Black Flies</ObjectId>
+      <Damage>40</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>40</SpeedClamp>
+      <Size>115</Size>
+      <PassesCover />
+      <ArmorPiercing />
+      <ConditionEffect duration="1">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>DS Yellow Slimeball</ObjectId>
+      <Damage>40</Damage>
+      <Speed>10</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>20</SpeedClamp>
+      <Size>85</Size>
+      <Wavy />
+      <ArmorPiercing />
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+    </Projectile>
+    <TrackLoot />
+    <KeepDamageRecord />
+    <Presentation>
+      <Style id="Alt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="Alt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="Alt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Small City Rat" type="0x4651">
+    <DisplayId>Small Rat</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <RandomTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>10</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>11</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>12</Index>
+      </AnimatedTexture>
+    </RandomTexture>
+    <NoMiniMap />
+    <HealthBar>-1</HealthBar>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/bats_hit</DeathSound>
+    <MinSize>90</MinSize>
+    <MaxSize>110</MaxSize>
+    <ShadowSize>50</ShadowSize>
+    <MaxHitPoints>250</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>300</Exp>
+    <BXP>1500</BXP>
+    <StasisImmune />
+    <TrackLoot />
+    <KeepDamageRecord />
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object id="Medium City Rat" type="0x4652">
+    <DisplayId>Medium Rat</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <RandomTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>13</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>14</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>15</Index>
+      </AnimatedTexture>
+    </RandomTexture>
+    <NoMiniMap />
+    <HealthBar>-1</HealthBar>
+    <Projectile id="0">
+      <ObjectId>Summon Rat Projectile</ObjectId>
+      <Speed>100</Speed>
+      <Damage>30</Damage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <Size>90</Size>
+      <ConditionEffect duration="0.5">Bleeding</ConditionEffect>
+    </Projectile>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/bats_hit</DeathSound>
+    <MinSize>100</MinSize>
+    <MaxSize>120</MaxSize>
+    <ShadowSize>70</ShadowSize>
+    <MaxHitPoints>500</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>400</Exp>
+    <BXP>2000</BXP>
+    <StasisImmune />
+    <TrackLoot />
+    <KeepDamageRecord />
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object id="Large City Rat" type="0x4653">
+    <DisplayId>Large Rat</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <RandomTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>16</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>17</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>18</Index>
+      </AnimatedTexture>
+    </RandomTexture>
+    <NoMiniMap />
+    <HealthBar>-1</HealthBar>
+    <Projectile id="0">
+      <ObjectId>Summon Rat Projectile</ObjectId>
+      <Speed>100</Speed>
+      <Damage>50</Damage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <Size>105</Size>
+      <ConditionEffect duration="1">Bleeding</ConditionEffect>
+    </Projectile>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/bats_hit</DeathSound>
+    <MinSize>110</MinSize>
+    <MaxSize>130</MaxSize>
+    <ShadowSize>90</ShadowSize>
+    <MaxHitPoints>750</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>500</Exp>
+    <BXP>2500</BXP>
+    <StasisImmune />
+    <TrackLoot />
+    <KeepDamageRecord />
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object id="Special Small City Rat" type="0x467f">
+    <DisplayId>Large Rat</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <RandomTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>19</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>20</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>28</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>29</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>30</Index>
+      </AnimatedTexture>
+    </RandomTexture>
+    <NoMiniMap />
+    <HealthBar>-1</HealthBar>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/bats_hit</DeathSound>
+    <MinSize>90</MinSize>
+    <MaxSize>110</MaxSize>
+    <ShadowSize>50</ShadowSize>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>1500</Exp>
+    <BXP>7500</BXP>
+    <StasisImmune />
+    <TrackLoot />
+    <KeepDamageRecord />
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object id="Special Medium City Rat" type="0x4680">
+    <DisplayId>Medium Rat</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <RandomTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>21</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>22</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>23</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>31</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>32</Index>
+      </AnimatedTexture>
+    </RandomTexture>
+    <NoMiniMap />
+    <HealthBar>-1</HealthBar>
+    <Projectile id="0">
+      <ObjectId>Summon Rat Projectile</ObjectId>
+      <Speed>100</Speed>
+      <Damage>30</Damage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <Size>90</Size>
+      <ConditionEffect duration="0.5">Bleeding</ConditionEffect>
+    </Projectile>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/bats_hit</DeathSound>
+    <MinSize>100</MinSize>
+    <MaxSize>120</MaxSize>
+    <ShadowSize>70</ShadowSize>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>2000</Exp>
+    <BXP>10000</BXP>
+    <StasisImmune />
+    <TrackLoot />
+    <KeepDamageRecord />
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object id="Special Large City Rat" type="0x4681">
+    <DisplayId>Large Rat</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <RandomTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>25</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>26</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>27</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>33</Index>
+      </AnimatedTexture>
+      <AnimatedTexture>
+        <File>UGCSetPieceChars8x8</File>
+        <Index>34</Index>
+      </AnimatedTexture>
+    </RandomTexture>
+    <NoMiniMap />
+    <HealthBar>-1</HealthBar>
+    <Projectile id="0">
+      <ObjectId>Summon Rat Projectile</ObjectId>
+      <Speed>100</Speed>
+      <Damage>50</Damage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <Size>105</Size>
+      <ConditionEffect duration="1">Bleeding</ConditionEffect>
+    </Projectile>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/bats_hit</DeathSound>
+    <MinSize>110</MinSize>
+    <MaxSize>130</MaxSize>
+    <ShadowSize>90</ShadowSize>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>2500</Exp>
+    <BXP>12500</BXP>
+    <StasisImmune />
+    <TrackLoot />
+    <KeepDamageRecord />
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object id="Golden City Rat" type="0x4682">
+    <DisplayId>Golden Rat</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>UGCSetPieceChars8x8</File>
+      <Index>24</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <HealthBar>-1</HealthBar>
+    <Projectile id="0">
+      <ObjectId>Summon Rat Projectile</ObjectId>
+      <Speed>100</Speed>
+      <Damage>30</Damage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <Size>90</Size>
+      <ConditionEffect duration="0.5">Bleeding</ConditionEffect>
+    </Projectile>
+    <HitSound>monster/night_elves_hit</HitSound>
+    <DeathSound>monster/bats_hit</DeathSound>
+    <MinSize>100</MinSize>
+    <MaxSize>120</MaxSize>
+    <ShadowSize>70</ShadowSize>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>2000</Exp>
+    <BXP>10000</BXP>
+    <StasisImmune />
+    <TrackLoot />
+    <KeepDamageRecord />
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object id="City Rat Hunter NPC" type="0x465a">
+    <DisplayId>Herman the Rodent Hunter</DisplayId>
+    <Class>Character</Class>
+    <Texture>
+      <File>ancientCityObjects16x16</File>
+      <Index>79</Index>
+    </Texture>
+    <Size>140</Size>
+    <NoMiniMap />
+    <InteractInfo distance="4" text="Adventurers, the situation is dire! I need your help to exterminate these pesky rats that have overrun the city.\n\n Kill as many as you can see around this area, and come back here to spend any Rat Coins you find to buy assistance from cats." title="Rodent Hunting with Herman" />
+    <Animation period="0" prob="1" id="RallyAnimation">
+      <Frame time="0.15">
+        <Texture>
+          <File>ancientCityObjects16x16</File>
+          <Index>82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>ancientCityObjects16x16</File>
+          <Index>83</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>ancientCityObjects16x16</File>
+          <Index>82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>ancientCityObjects16x16</File>
+          <Index>83</Index>
+        </Texture>
+      </Frame>
+      <Frame time="999999">
+        <Texture>
+          <File>ancientCityObjects16x16</File>
+          <Index>79</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Rally">
+        <StyleStep id="RallyAnimation">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="City Rat Minimap 0" type="0x4690">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <MinimapIcon piece="DangerLarge" />
+    <Color>0xFFFFFF</Color>
+  </Object>
+  <Object id="City Rat Minimap 1" type="0x467d">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <MinimapIcon piece="DangerLarge" />
+    <Color>0x45E800</Color>
+  </Object>
+  <Object id="City Rat Minimap 2" type="0x467e">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <MinimapIcon piece="DangerLarge" />
+    <Color>0xA9FF16</Color>
+  </Object>
+  <Object id="City Rat Minimap 3" type="0x468c">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <MinimapIcon piece="DangerLarge" />
+    <Color>0xF6FF00</Color>
+  </Object>
+  <Object id="City Rat Minimap 4" type="0x468d">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <MinimapIcon piece="DangerLarge" />
+    <Color>0xFFA500</Color>
+  </Object>
+  <Object id="City Rat Minimap 5" type="0x468e">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <MinimapIcon piece="DangerLarge" />
+    <Color>0xFF6600</Color>
+  </Object>
+  <Object id="City Rat Minimap 6" type="0x468f">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <MinimapIcon piece="DangerLarge" />
+    <Color>0xEF0003</Color>
+  </Object>
+  <Object id="City Rat Controller" type="0x4654">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>UGCSetPieceChars8x8</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object id="City Rat Progress Bar" type="0x4697">
+    <DisplayId>Rats!</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>UGCSetPieceChars8x8</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <HealthBarBoss radius="40" />
+    <MaxHitPoints>200</MaxHitPoints>
+    <Invincible />
+    <AlwaysPositiveHealth />
+  </Object>
+  <Object id="City Rat Anchor" type="0x4655">
+    <Class>Character</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object id="City Rat Counter" type="0x4662">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object id="City Rat Counter 2" type="0x467a">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object id="City Rat Counter 3" type="0x467b">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object id="Mammoth City Rat" type="0x4657">
+    <DisplayId>Mammoth Rat</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>UGCSetPieceChars32x32</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/bats_hit</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <Size>50</Size>
+    <ShadowSize>90</ShadowSize>
+    <MaxHitPoints>75000</MaxHitPoints>
+    <Defense>50</Defense>
+    <Exp>25000</Exp>
+    <BXP>75000</BXP>
+    <RealmScore>2000</RealmScore>
+    <Hero />
+    <Level>20</Level>
+    <Quest />
+    <HealthBarBoss />
+    <God />
+    <AlwaysPositiveHealth />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
+    <Projectile id="0">
+      <ObjectId>DS Yellow Slimeball</ObjectId>
+      <Damage>100</Damage>
+      <Speed>20</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <Size>140</Size>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Ghost Boss Slash</ObjectId>
+      <Damage>85</Damage>
+      <Speed>35</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Acceleration>30</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>65</SpeedClamp>
+      <Size>125</Size>
+      <PassesCover />
+      <MultiHit />
+      <ConditionEffect duration="5">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Black Flies</ObjectId>
+      <Damage>50</Damage>
+      <Speed>35</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Acceleration>10</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>50</SpeedClamp>
+      <Size>140</Size>
+      <PassesCover />
+      <ArmorPiercing />
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>DS White Shuriken</ObjectId>
+      <Damage>70</Damage>
+      <Speed>5</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>35</SpeedClamp>
+      <Size>130</Size>
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>DS White Shuriken</ObjectId>
+      <Damage>70</Damage>
+      <Speed>10</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Acceleration>50</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>55</SpeedClamp>
+      <Size>140</Size>
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>DS White Shuriken</ObjectId>
+      <Damage>70</Damage>
+      <Speed>15</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Acceleration>60</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>75</SpeedClamp>
+      <Size>150</Size>
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Giant Rat Tail</ObjectId>
+      <Damage>125</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>185</Size>
+      <PassesCover />
+      <MultiHit />
+      <Boomerang />
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Giant Rat Tail</ObjectId>
+      <Damage>125</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>180</Size>
+      <PassesCover />
+      <MultiHit />
+      <Boomerang />
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Giant Rat Tail</ObjectId>
+      <Damage>125</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>175</Size>
+      <PassesCover />
+      <MultiHit />
+      <Boomerang />
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Giant Rat Tail</ObjectId>
+      <Damage>125</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>170</Size>
+      <PassesCover />
+      <MultiHit />
+      <Boomerang />
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Giant Rat Tail</ObjectId>
+      <Damage>125</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>165</Size>
+      <PassesCover />
+      <MultiHit />
+      <Boomerang />
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Stone Boulder</ObjectId>
+      <Damage>50</Damage>
+      <Speed>0</Speed>
+      <Size>175</Size>
+      <LifetimeMS>10000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Parametric />
+      <FaceDir />
+      <ArmorPiercing />
+      <Magnitude>7.5</Magnitude>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Ghost Boss Slash</ObjectId>
+      <Damage>100</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Acceleration>30</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <Size>160</Size>
+      <PassesCover />
+      <MultiHit />
+      <ConditionEffect duration="5">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Deadwater White Zap</ObjectId>
+      <Damage>0</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>0</LifetimeMS>
+      <Size>0</Size>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>Colossal Rock</ObjectId>
+      <Damage>100</Damage>
+      <Speed>80</Speed>
+      <Size>160</Size>
+      <Acceleration>-60</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>5</SpeedClamp>
+      <LifetimeMS>10000</LifetimeMS>
+      <Wavy />
+      <PassesCover />
+      <ArmorPiercing />
+      <ConditionEffect duration="2.5">Slowed</ConditionEffect>
+    </Projectile>
+    <TrackLoot />
+    <KeepDamageRecord />
+    <NoCollisionWhenMovement />
+    <Animation period="0" prob="1" id="SpawnAnimation">
+      <Frame time="0.13">
+        <Texture>
+          <File>UGCSetpieceObjects32x32</File>
+          <Index>10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>UGCSetpieceObjects32x32</File>
+          <Index>11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>UGCSetpieceObjects32x32</File>
+          <Index>12</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation period="0" prob="1" id="AppearAnimation">
+      <Frame time="0.13">
+        <Texture>
+          <File>UGCSetpieceObjects32x32</File>
+          <Index>13</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>UGCSetpieceObjects32x32</File>
+          <Index>14</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>UGCSetpieceObjects32x32</File>
+          <Index>15</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>UGCSetpieceObjects32x32</File>
+          <Index>16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>UGCSetpieceObjects32x32</File>
+          <Index>17</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>UGCSetpieceObjects32x32</File>
+          <Index>18</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.13">
+        <Texture>
+          <File>UGCSetpieceObjects32x32</File>
+          <Index>19</Index>
+        </Texture>
+      </Frame>
+      <Frame time="999999">
+        <Texture>
+          <File>UGCSetpieceObjects32x32</File>
+          <Index>20</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="Spawn">
+        <StyleStep id="SpawnAnimation">SetAnimation</StyleStep>
+      </Style>
+      <Style id="Appear">
+        <StyleStep id="AppearAnimation">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object id="Mammoth City Rat Boulder" type="0x467c">
+    <DisplayId>Rat Boulder</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>lairOfDraconisObjects8x8</File>
+      <Index>0x1b</Index>
+    </Texture>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Colossal Rock</ObjectId>
+      <Damage>120</Damage>
+      <Speed>25</Speed>
+      <LifetimeMS>3200</LifetimeMS>
+      <Size>120</Size>
+      <ConditionEffect target="1" duration="3">Stasis</ConditionEffect>
+    </Projectile>
+    <Size>175</Size>
+    <ShadowSize>90</ShadowSize>
+    <NoCollisionWhenMovement />
+    <Invincible />
+  </Object>
+  <Object id="Mammoth City Rat Anchor" type="0x4674">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>402</Index>
+    </Texture>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object id="City Rat Shop Decor 1" type="0x4658">
+    <Class>Character</Class>
+    <Texture>
+      <File>ancientCityObjects16x16</File>
+      <Index>80</Index>
+    </Texture>
+    <Size>110</Size>
+    <ShadowSize>50</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object id="City Rat Shop Decor 2" type="0x4659">
+    <Class>Character</Class>
+    <Texture>
+      <File>ancientCityObjects16x16</File>
+      <Index>81</Index>
+    </Texture>
+    <Size>120</Size>
+    <ShadowSize>90</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object id="City Rat Shop Decor 3" type="0x4663">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>412</Index>
+    </Texture>
+    <Size>120</Size>
+    <ShadowSize>40</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object id="City Rat Shop Decor 4" type="0x4673">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>402</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>lofiObj6</File>
+        <Index>402</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj6</File>
+        <Index>403</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj6</File>
+        <Index>404</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <ShadowSize>30</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object id="City Rat Shop Decor 5" type="0x4698">
+    <Class>Character</Class>
+    <Texture>
+      <File>UGCSetpieceObjects32x32</File>
+      <Index>21</Index>
+    </Texture>
+    <Size>70</Size>
+    <ShadowSize>150</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object id="City Cat Captive 1" type="0x4675">
+    <DisplayId>Captive cat</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <MinSize>100</MinSize>
+    <MaxSize>120</MaxSize>
+    <ShadowSize>50</ShadowSize>
+  </Object>
+  <Object id="City Cat Captive 2" type="0x4676">
+    <DisplayId>Captive cat</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <MinSize>100</MinSize>
+    <MaxSize>120</MaxSize>
+    <ShadowSize>50</ShadowSize>
+  </Object>
+  <Object id="City Cat Captive 3" type="0x4677">
+    <DisplayId>Captive cat</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <MinSize>100</MinSize>
+    <MaxSize>120</MaxSize>
+    <ShadowSize>50</ShadowSize>
+  </Object>
+  <Object id="City Cat Captive 4" type="0x4678">
+    <DisplayId>Captive cat</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <MinSize>100</MinSize>
+    <MaxSize>120</MaxSize>
+    <ShadowSize>50</ShadowSize>
+  </Object>
+  <Object id="City Cat Captive 5" type="0x4679">
+    <DisplayId>Captive cat</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <MinSize>100</MinSize>
+    <MaxSize>120</MaxSize>
+    <ShadowSize>50</ShadowSize>
+  </Object>
+  <Object id="City Rat Hunter Anchor" type="0xA24E">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object id="City Rat Hunter Spawner" type="0xA24F">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
   <Object id="Maiden of the Sea Spawner" type="0x568F">
     <Class>Character</Class>
     <Texture>
@@ -3913,8 +5045,8 @@
     </AnimatedTexture>
     <AltTexture id="1">
       <AnimatedTexture>
-        <File>chars16x16dEncounters2</File>
-        <Index>15</Index>
+        <File>chars8x8rPets1</File>
+        <Index>238</Index>
       </AnimatedTexture>
     </AltTexture>
     <AltTexture id="2">
@@ -3923,14 +5055,17 @@
         <Index>1</Index>
       </AnimatedTexture>
     </AltTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>135</Size>
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>10</Defense>
     <Quest />
     <Hero />
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="CoralReefs">500</RealmScore>
     <StasisImmune />
     <Level>20</Level>
     <Exp>2500</Exp>
@@ -3977,6 +5112,7 @@
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Graverobber's Guild Spawner" type="0x5690">
     <Class>Character</Class>
@@ -3999,7 +5135,7 @@
     <HitSound>monster/undead_dwarves_hit</HitSound>
     <DeathSound>monster/undead_dwarves_death</DeathSound>
     <Size>130</Size>
-    <MaxHitPoints>5000</MaxHitPoints>
+    <MaxHitPoints>3500</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -4009,7 +5145,6 @@
       <Speed>60</Speed>
       <Size>120</Size>
       <LifetimeMS>2000</LifetimeMS>
-      <ArmorPiercing />
       <PassesCover />
       <Boomerang />
       <MultiHit />
@@ -4020,9 +5155,7 @@
       <Speed>90</Speed>
       <Size>90</Size>
       <LifetimeMS>1000</LifetimeMS>
-      <ArmorPiercing />
       <PassesCover />
-      <ConditionEffect duration="3">Curse</ConditionEffect>
     </Projectile>
   </Object>
   <Object id="Graverobber Lantern Holder" type="0x426c">
@@ -4034,15 +5167,20 @@
       <File>Rookie_16x16</File>
       <Index>45</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/undead_dwarves_hit</HitSound>
     <DeathSound>monster/undead_dwarves_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <ShadowColor>0xFFD952</ShadowColor>
     <ShadowSize>150</ShadowSize>
-    <MaxHitPoints>18000</MaxHitPoints>
+    <MaxHitPoints>16000</MaxHitPoints>
     <Defense>10</Defense>
-    <Exp>25000</Exp>
-    <BXP>75000</BXP>
+    <Exp>2500</Exp>
+    <BXP>12500</BXP>
+    <RealmScore biome="DeadChurch">500</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <Hero />
     <Quest />
@@ -4053,11 +5191,11 @@
       <Size>90</Size>
       <LifetimeMS>2000</LifetimeMS>
       <ArmorPiercing />
-      <Amplitude>1</Amplitude>
-      <Frequency>5</Frequency>
+      <Amplitude>.6</Amplitude>
+      <Frequency>3</Frequency>
       <PassesCover />
-      <ConditionEffect duration="5">Exposed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Graverobber Lookout" type="0x426d">
     <DisplayId>Graverobber Lookout</DisplayId>
@@ -4077,11 +5215,10 @@
     <HitSound>monster/undead_dwarves_hit</HitSound>
     <DeathSound>monster/undead_dwarves_death</DeathSound>
     <Size>120</Size>
-    <MaxHitPoints>4000</MaxHitPoints>
+    <MaxHitPoints>3000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
-    <RealmScore>500</RealmScore>
     <Projectile id="0">
       <ObjectId>Skull Wave</ObjectId>
       <Damage>80</Damage>
@@ -4092,7 +5229,7 @@
       <AccelerationDelay>0</AccelerationDelay>
       <SpeedClamp>0</SpeedClamp>
       <MultiHit />
-      <ConditionEffect duration="3">Slowed</ConditionEffect>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Skull Wave</ObjectId>
@@ -4134,8 +5271,11 @@
       <File>Rookie_16x16</File>
       <Index>55</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/lizard_god_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <MaxHitPoints>18000</MaxHitPoints>
     <Defense>15</Defense>
@@ -4144,7 +5284,8 @@
     <Level>20</Level>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <TrackLoot />
+    <RealmScore biome="DeadChurch">500</RealmScore>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Septavius Projectile</ObjectId>
@@ -4164,6 +5305,7 @@
       <MultiHit />
       <ConditionEffect duration="1">Curse</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Shady Sect Follower" type="0x5dd6">
     <Enemy />
@@ -4181,7 +5323,7 @@
     <HitSound>monster/mummies_hit</HitSound>
     <DeathSound>monster/mummies_death</DeathSound>
     <Size>90</Size>
-    <MaxHitPoints>4000</MaxHitPoints>
+    <MaxHitPoints>2000</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -4242,14 +5384,18 @@
       <File>deadChurchChars16x16</File>
       <Index>2</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>150</Size>
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="DeadChurch">500</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Flying />
     <God />
@@ -4261,7 +5407,7 @@
     <Projectile id="0">
       <ObjectId>Death Knight 1</ObjectId>
       <Size>150</Size>
-      <Damage>60</Damage>
+      <Damage>50</Damage>
       <Speed>50</Speed>
       <LifetimeMS>5000</LifetimeMS>
       <PassesCover />
@@ -4271,7 +5417,7 @@
     <Projectile id="1">
       <ObjectId>Death Knight 2</ObjectId>
       <Size>140</Size>
-      <Damage>100</Damage>
+      <Damage>90</Damage>
       <Speed>80</Speed>
       <LifetimeMS>2000</LifetimeMS>
       <MultiHit />
@@ -4281,7 +5427,7 @@
     <Projectile id="2">
       <ObjectId>Death Knight 2</ObjectId>
       <Size>130</Size>
-      <Damage>100</Damage>
+      <Damage>90</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2667</LifetimeMS>
       <MultiHit />
@@ -4291,7 +5437,7 @@
     <Projectile id="3">
       <ObjectId>Death Knight 2</ObjectId>
       <Size>120</Size>
-      <Damage>100</Damage>
+      <Damage>90</Damage>
       <Speed>40</Speed>
       <LifetimeMS>4000</LifetimeMS>
       <MultiHit />
@@ -4301,13 +5447,14 @@
     <Projectile id="4">
       <ObjectId>Death Knight 2</ObjectId>
       <Size>110</Size>
-      <Damage>100</Damage>
+      <Damage>90</Damage>
       <Speed>20</Speed>
       <LifetimeMS>8000</LifetimeMS>
       <MultiHit />
       <PassesCover />
       <ConditionEffect duration="4">Exposed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Werewolf Pack Spawner" type="0x5634">
     <Class>Character</Class>
@@ -4325,17 +5472,21 @@
       <File>Rookie_16x16</File>
       <Index>81</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>130</Size>
     <MaxHitPoints>15000</MaxHitPoints>
-    <Defense>50</Defense>
+    <Defense>35</Defense>
     <Quest />
     <Level>20</Level>
     <Hero />
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="HauntedHallows">500</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -4393,6 +5544,7 @@
       <Amplitude>0.7</Amplitude>
       <Frequency>0.5</Frequency>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Beta Werewolf" type="0x5dcd">
     <Enemy />
@@ -4404,7 +5556,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
     <Size>110</Size>
-    <MaxHitPoints>8000</MaxHitPoints>
+    <MaxHitPoints>5500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -4430,7 +5582,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
     <Size>90</Size>
-    <MaxHitPoints>5000</MaxHitPoints>
+    <MaxHitPoints>3000</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -4460,8 +5612,11 @@
       <File>UGCSetPieceChars16x16</File>
       <Index>18</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/flayers_hit</HitSound>
     <DeathSound>monster/archdemon_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>130</Size>
     <MaxHitPoints>17500</MaxHitPoints>
     <Defense>30</Defense>
@@ -4472,7 +5627,8 @@
     <StunImmune />
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="HauntedHallows">500</RealmScore>
+    <TrackLoot />
     <Projectile id="0">
       <ObjectId>Corruption Bolt</ObjectId>
       <Speed>30</Speed>
@@ -4482,7 +5638,7 @@
       <Acceleration>40</Acceleration>
       <AccelerationDelay>200</AccelerationDelay>
       <SpeedClamp>75</SpeedClamp>
-      <ConditionEffect duration="1.5">Dazed</ConditionEffect>
+      <ConditionEffect duration="0.5">Dazed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Corruption Spinner</ObjectId>
@@ -4493,6 +5649,7 @@
       <MultiHit />
       <ConditionEffect duration="2">Exposed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Flesh Satellite" type="0x86d4">
     <DisplayId>Flesh Satellite</DisplayId>
@@ -4565,14 +5722,18 @@
       <File>UGCSetPieceChars16x16</File>
       <Index>14</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <MaxHitPoints>23000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="HauntedHallows">500</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <StunImmune />
     <Quest />
@@ -4580,7 +5741,7 @@
     <Projectile id="0">
       <ObjectId>HGolem Super Magic</ObjectId>
       <Speed>50</Speed>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <LifetimeMS>2000</LifetimeMS>
       <Size>110</Size>
       <MultiHit />
@@ -4589,7 +5750,7 @@
     <Projectile id="1">
       <ObjectId>HGolem Magic</ObjectId>
       <Speed>65</Speed>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <LifetimeMS>2000</LifetimeMS>
       <Size>100</Size>
       <MultiHit />
@@ -4598,12 +5759,51 @@
     <Projectile id="2">
       <ObjectId>Doom Reskin Missile</ObjectId>
       <Speed>45</Speed>
-      <Damage>70</Damage>
+      <Damage>50</Damage>
       <LifetimeMS>3000</LifetimeMS>
       <Size>115</Size>
       <ArmorPiercing />
       <PassesCover />
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
+    </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
+  </Object>
+  <Object id="Sinister Pumpkin" type="0x872a">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>41</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>UGCSetpieceObjects16x16</File>
+        <Index>41</Index>
+      </Texture>
+      <Texture>
+        <File>UGCSetpieceObjects16x16</File>
+        <Index>42</Index>
+      </Texture>
+      <Texture>
+        <File>UGCSetpieceObjects16x16</File>
+        <Index>43</Index>
+      </Texture>
+      <Texture>
+        <File>UGCSetpieceObjects16x16</File>
+        <Index>44</Index>
+      </Texture>
+    </RandomTexture>
+    <MaxSize>120</MaxSize>
+    <MinSize>90</MinSize>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>Dissipating Flame Wave</ObjectId>
+      <Speed>70</Speed>
+      <Damage>20</Damage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>120</Size>
+      <ArmorPiercing />
+      <ConditionEffect duration="3">Curse</ConditionEffect>
     </Projectile>
   </Object>
   <Object id="Sinister Crow" type="0x8729">
@@ -4616,16 +5816,15 @@
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/lizard_god_death</DeathSound>
     <Size>85</Size>
-    <MaxHitPoints>2000</MaxHitPoints>
-    <Defense>10</Defense>
-    <Exp>2500</Exp>
-    <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>250</Exp>
+    <BXP>1250</BXP>
     <Projectile id="0">
       <ObjectId>Deadwater White Spike</ObjectId>
       <Speed>40</Speed>
-      <Damage>50</Damage>
-      <LifetimeMS>1000</LifetimeMS>
+      <Damage>40</Damage>
+      <LifetimeMS>2000</LifetimeMS>
       <Size>75</Size>
       <ArmorPiercing />
     </Projectile>
@@ -4646,8 +5845,11 @@
       <File>Rookie_16x16</File>
       <Index>57</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>150</Size>
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>20</Defense>
@@ -4656,7 +5858,8 @@
     <StasisImmune />
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="RisenHell">500</RealmScore>
+    <TrackLoot />
     <Projectile id="0">
       <ObjectId>Abyss Hammer Projectile</ObjectId>
       <Damage>90</Damage>
@@ -4666,6 +5869,7 @@
       <Boomerang />
       <ConditionEffect duration="2">Curse</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Infernal Ironsmith Anvil" type="0x86b7">
     <DisplayId>Infernal Anvil</DisplayId>
@@ -4711,7 +5915,7 @@
     <Projectile id="0">
       <ObjectId>Cyan Cross Slash</ObjectId>
       <Damage>100</Damage>
-      <Speed>55</Speed>
+      <Speed>50</Speed>
       <Size>150</Size>
       <LifetimeMS>1400</LifetimeMS>
       <Amplitude>0.6</Amplitude>
@@ -4798,10 +6002,13 @@
       <File>Rookie_16x16</File>
       <Index>66</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_hit</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>150</Size>
-    <MaxHitPoints>4500</MaxHitPoints>
+    <MaxHitPoints>9000</MaxHitPoints>
     <Defense>0</Defense>
     <KeepDamageRecord />
     <Quest />
@@ -4809,7 +6016,8 @@
     <Level>20</Level>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="RisenHell">500</RealmScore>
+    <TrackLoot />
     <Projectile id="0">
       <ObjectId>Idol Blast</ObjectId>
       <Speed>65</Speed>
@@ -4819,6 +6027,7 @@
       <MultiHit />
       <ConditionEffect duration="2">Silenced</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Demonic Effigy Target" type="0x86d5">
     <Class>Character</Class>
@@ -4842,7 +6051,7 @@
     <HitSound>monster/abyss_demons_hit</HitSound>
     <DeathSound>monster/abyss_demons_death</DeathSound>
     <Size>130</Size>
-    <MaxHitPoints>6500</MaxHitPoints>
+    <MaxHitPoints>5500</MaxHitPoints>
     <Defense>15</Defense>
     <KeepDamageRecord />
     <Exp>40</Exp>
@@ -4904,21 +6113,25 @@
       <File>Rookie_16x16</File>
       <Index>67</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_demons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>130</Size>
-    <MaxHitPoints>18500</MaxHitPoints>
-    <Defense>30</Defense>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <Defense>20</Defense>
     <Quest />
     <Hero />
     <StasisImmune />
     <Level>20</Level>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="RisenHell">500</RealmScore>
+    <TrackLoot />
     <Projectile id="0">
       <ObjectId>Interregnum Flail 1</ObjectId>
-      <Damage>70</Damage>
+      <Damage>50</Damage>
       <Speed>60</Speed>
       <Size>150</Size>
       <LifetimeMS>6000</LifetimeMS>
@@ -4931,7 +6144,7 @@
     </Projectile>
     <Projectile id="1">
       <ObjectId>Interregnum Flail 2</ObjectId>
-      <Damage>50</Damage>
+      <Damage>30</Damage>
       <Speed>45</Speed>
       <Size>140</Size>
       <LifetimeMS>6000</LifetimeMS>
@@ -4944,7 +6157,7 @@
     </Projectile>
     <Projectile id="2">
       <ObjectId>Interregnum Flail 2</ObjectId>
-      <Damage>50</Damage>
+      <Damage>30</Damage>
       <Speed>30</Speed>
       <Size>140</Size>
       <LifetimeMS>6000</LifetimeMS>
@@ -4957,7 +6170,7 @@
     </Projectile>
     <Projectile id="3">
       <ObjectId>Interregnum Flail 2</ObjectId>
-      <Damage>50</Damage>
+      <Damage>30</Damage>
       <Speed>15</Speed>
       <Size>140</Size>
       <LifetimeMS>6000</LifetimeMS>
@@ -4970,7 +6183,7 @@
     </Projectile>
     <Projectile id="4">
       <ObjectId>Accursed Stone Spear</ObjectId>
-      <Damage>110</Damage>
+      <Damage>100</Damage>
       <Speed>45</Speed>
       <Size>115</Size>
       <LifetimeMS>2000</LifetimeMS>
@@ -4979,13 +6192,14 @@
     </Projectile>
     <Projectile id="5">
       <ObjectId>Accursed Stone Spear</ObjectId>
-      <Damage>110</Damage>
+      <Damage>100</Damage>
       <Speed>45</Speed>
       <Size>115</Size>
       <LifetimeMS>2000</LifetimeMS>
       <Amplitude>2</Amplitude>
       <Frequency>1</Frequency>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Tortured Soul" type="0x870e">
     <DisplayId>Tortured Soul</DisplayId>
@@ -5029,8 +6243,11 @@
       <File>Rookie_16x16</File>
       <Index>48</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/lizard_god_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>110</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>0</Defense>
@@ -5039,7 +6256,8 @@
     <Level>20</Level>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="ShipWreck">500</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <AlwaysPositiveHealth />
     <Projectile id="0">
@@ -5082,6 +6300,7 @@
       <MultiHit />
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Illegal Animal Cage" type="0x5dd2">
     <Class>Character</Class>
@@ -5122,7 +6341,7 @@
     <HitSound>monster/cave_pirates_hit</HitSound>
     <DeathSound>monster/cave_pirates_death</DeathSound>
     <Size>90</Size>
-    <MaxHitPoints>800</MaxHitPoints>
+    <MaxHitPoints>500</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -5207,7 +6426,7 @@
     </Projectile>
   </Object>
   <Object id="Illegal Animal Anchor" type="0x5dd8">
-    <Class>Character</Class>
+    <Class>GameObject</Class>
     <Texture>
       <File>oryxHordeObjects16x16</File>
       <Index>0</Index>
@@ -5233,14 +6452,18 @@
       <File>Rookie_16x16</File>
       <Index>82</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/pirates_hit</HitSound>
     <DeathSound>monster/pirates_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
-    <MaxHitPoints>18000</MaxHitPoints>
+    <MaxHitPoints>16000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="ShipWreck">500</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
     <StasisImmune />
@@ -5262,6 +6485,7 @@
       <LifetimeMS>1400</LifetimeMS>
       <ArmorPiercing />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Pirate's Tavern Bartender" type="0x86c4">
     <DisplayId>Tavern Bartender</DisplayId>
@@ -5273,6 +6497,7 @@
     </AnimatedTexture>
     <Size>110</Size>
     <AlwaysPositiveHealth />
+    <Invincible />
     <NoMiniMap />
   </Object>
   <Object id="Pirate's Tavern Drunk Sailor" type="0x86c5">
@@ -5297,7 +6522,6 @@
       <Speed>55</Speed>
       <Size>90</Size>
       <LifetimeMS>800</LifetimeMS>
-      <ConditionEffect duration="1">Drunk</ConditionEffect>
     </Projectile>
   </Object>
   <Object id="Pirate's Tavern Piano" type="0x86c6">
@@ -5311,7 +6535,7 @@
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <Size>140</Size>
-    <MaxHitPoints>10000</MaxHitPoints>
+    <MaxHitPoints>8000</MaxHitPoints>
     <Defense>60</Defense>
     <StunImmune />
     <Exp>40</Exp>
@@ -5357,14 +6581,18 @@
       <File>spriteForestChars32x32</File>
       <Index>0</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/sprite_god_hit</HitSound>
     <DeathSound>monster/sprite_god_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="SpriteForest">500</RealmScore>
+    <TrackLoot />
     <Level>17</Level>
     <Flying />
     <God />
@@ -5420,6 +6648,7 @@
       <PassesCover />
       <ConditionEffect duration="2">Exposed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Cosmic Sprite Spawner" type="0xAC78">
     <Class>Character</Class>
@@ -5441,14 +6670,18 @@
       <File>spriteForestChars32x32</File>
       <Index>1</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/sprite_god_hit</HitSound>
     <DeathSound>monster/sprite_god_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="SpriteForest">500</RealmScore>
+    <TrackLoot />
     <Level>17</Level>
     <Flying />
     <God />
@@ -5505,6 +6738,7 @@
       <ArmorPiercing />
       <PassesCover />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object type="0xAC7F" id="Celestial Sprite Twirl">
     <Class>Projectile</Class>
@@ -5538,7 +6772,7 @@
     </Texture>
     <AngleCorrection>1</AngleCorrection>
   </Object>
-  <Object id="Artificial Spite God Spawner" type="0x563C">
+  <Object id="Artificial Sprite God Spawner" type="0x563C">
     <Class>Character</Class>
     <Texture>
       <File>invisible</File>
@@ -5555,8 +6789,11 @@
       <File>Rookie_16x16</File>
       <Index>68</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>125</Size>
     <MaxHitPoints>18500</MaxHitPoints>
     <Defense>20</Defense>
@@ -5567,7 +6804,8 @@
     <Level>20</Level>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="SpriteForest">500</RealmScore>
+    <TrackLoot />
     <Projectile id="0">
       <ObjectId>InvisibleLaser</ObjectId>
       <Laser>10</Laser>
@@ -5608,6 +6846,7 @@
       <LifetimeMS>4400</LifetimeMS>
       <ConditionEffect duration="1">Exposed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Artificial Sprite Satellite" type="0x870b">
     <DisplayId>Artificial Sprite Satellite</DisplayId>
@@ -5754,15 +6993,19 @@
         </Texture>
       </Frame>
     </Animation>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <MaxHitPoints>35000</MaxHitPoints>
     <Defense>30</Defense>
     <Quest />
     <Hero />
     <Level>20</Level>
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="Carboniferous">750</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <Exp>6000</Exp>
     <BXP>30000</BXP>
@@ -5775,6 +7018,7 @@
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Giant Critter Egg" type="0x86b2">
     <DisplayId>Critter Egg</DisplayId>
@@ -5792,7 +7036,6 @@
     <StasisImmune />
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>0</Defense>
-    <Exp>0</Exp>
     <Exp>0</Exp>
   </Object>
   <Object id="Giant Critter Egg Cracked" type="0x266E">
@@ -5824,7 +7067,6 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>0</Exp>
-    <Exp>0</Exp>
     <Projectile id="0">
       <ObjectId>Red Spider Venom</ObjectId>
       <Damage>70</Damage>
@@ -5850,7 +7092,6 @@
     <Defense>20</Defense>
     <StasisImmune />
     <StunImmune />
-    <Exp>0</Exp>
     <Exp>0</Exp>
     <Projectile id="0">
       <ObjectId>Oryx Sword Attack</ObjectId>
@@ -5878,7 +7119,6 @@
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
-    <Exp>0</Exp>
     <Exp>0</Exp>
     <Projectile id="0">
       <ObjectId>Web Star</ObjectId>
@@ -5915,8 +7155,11 @@
       <File>Rookie_16x16</File>
       <Index>63</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>130</Size>
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>35</Defense>
@@ -5924,7 +7167,8 @@
     <Hero />
     <Exp>6000</Exp>
     <BXP>30000</BXP>
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="DeepSea">750</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Projectile id="0">
       <ObjectId>Bilgewater Coin Gold</ObjectId>
@@ -5937,6 +7181,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Exposed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Jewel Angler" type="0x86d8">
     <DisplayId>Jewel Angler</DisplayId>
@@ -5954,7 +7199,6 @@
     <StasisImmune />
     <ParalyzeImmune />
     <StunImmune />
-    <Exp>0</Exp>
     <Exp>0</Exp>
     <Projectile id="0">
       <ObjectId>Treasurer Gems</ObjectId>
@@ -5976,14 +7220,18 @@
   </Object>
   <Object type="0x42A" id="Dread Angler">
     <Enemy />
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="DeepSea">750</RealmScore>
+    <TrackLoot />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>deepSeaChars16x16</File>
       <Index>0</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>135</Size>
     <HealthBarBoss radius="30" />
     <MaxHitPoints>20000</MaxHitPoints>
@@ -6100,12 +7348,13 @@
       <FaceDir />
       <Size>100</Size>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <KillStat stat="DeepSea" />
   </Object>
   <Object type="0x42B" id="Dread Angler Anchor">
-    <Invincible />
     <Class>Character</Class>
     <Texture>
       <File>invisible</File>
@@ -6115,7 +7364,6 @@
     <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
   </Object>
   <Object type="0x42C" id="Dread Angler Fish Spawner">
-    <Invincible />
     <Class>Character</Class>
     <Texture>
       <File>invisible</File>
@@ -6133,11 +7381,8 @@
     </AnimatedTexture>
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
-    <Size>75</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <Exp>0</Exp>
-    <Exp>0</Exp>
-    <Defense>20</Defense>
     <Projectile id="0">
       <ObjectId>Spinning Bubble</ObjectId>
       <Speed>50</Speed>
@@ -6196,14 +7441,12 @@
     <Size>75</Size>
     <MaxHitPoints>2500</MaxHitPoints>
     <Exp>0</Exp>
-    <Exp>0</Exp>
     <Defense>18</Defense>
     <God />
     <AlwaysPositiveHealth />
     <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
   </Object>
   <Object type="0x408" id="Sea Dragon Anchor">
-    <Invincible />
     <Class>Character</Class>
     <Texture>
       <File>invisible</File>
@@ -6214,14 +7457,18 @@
   </Object>
   <Object type="0x409" id="Sea Dragon">
     <Enemy />
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="DeepSea">750</RealmScore>
+    <TrackLoot />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>deepSeaChars32x32</File>
       <Index>1</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>10</Size>
     <MaxHitPoints>50000</MaxHitPoints>
     <Exp>6000</Exp>
@@ -6249,6 +7496,8 @@
       <MultiHit />
     </Projectile>
     <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
+    <KillStat stat="DeepSea" />
   </Object>
   <Object id="Dread Viper Spawner" type="0x5641">
     <Class>Character</Class>
@@ -6262,13 +7511,17 @@
   <Object id="Dread Viper" type="0x2669">
     <Enemy />
     <Exp>195</Exp>
+    <TrackLoot />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>Rookie_16x16</File>
       <Index>51</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/slimes_death</HitSound>
     <DeathSound>monster/flying_brain_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>135</Size>
     <MaxHitPoints>42000</MaxHitPoints>
     <Defense>45</Defense>
@@ -6458,14 +7711,18 @@
       <File>petsDivine</File>
       <Index>218</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/elves_hit</HitSound>
     <DeathSound>monster/elves_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>165</Size>
     <MaxHitPoints>50000</MaxHitPoints>
     <Defense>60</Defense>
     <Quest />
     <Hero />
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="FloralEscape">750</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Exp>6000</Exp>
     <BXP>30000</BXP>
@@ -6544,6 +7801,7 @@
       <ArmorPiercing />
       <TurnRate>80</TurnRate>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Alluring Blossom Minion Pink" type="0x4268">
     <DisplayId>Pink Bloom</DisplayId>
@@ -6559,7 +7817,6 @@
     <Size>150</Size>
     <MaxHitPoints>7000</MaxHitPoints>
     <Defense>40</Defense>
-    <Exp>0</Exp>
     <Exp>0</Exp>
     <StasisImmune />
     <ParalyzeImmune />
@@ -6611,7 +7868,6 @@
     <MaxHitPoints>7000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>0</Exp>
-    <Exp>0</Exp>
     <StasisImmune />
     <ParalyzeImmune />
     <SlowImmune />
@@ -6662,7 +7918,6 @@
     <MaxHitPoints>7000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>0</Exp>
-    <Exp>0</Exp>
     <StasisImmune />
     <ParalyzeImmune />
     <SlowImmune />
@@ -6712,7 +7967,6 @@
     <Size>150</Size>
     <MaxHitPoints>7000</MaxHitPoints>
     <Defense>40</Defense>
-    <Exp>0</Exp>
     <Exp>0</Exp>
     <StasisImmune />
     <ParalyzeImmune />
@@ -6765,14 +8019,18 @@
       <File>UGCSetpieceObjects32x32</File>
       <Index>0</Index>
     </Texture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>175</Size>
     <MaxHitPoints>28000</MaxHitPoints>
     <Defense>60</Defense>
     <Exp>6000</Exp>
     <BXP>30000</BXP>
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="FloralEscape">750</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <StunImmune />
     <Quest />
@@ -6797,6 +8055,7 @@
       <Boomerang />
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Angry Hornet" type="0x872c">
     <Enemy />
@@ -6813,7 +8072,6 @@
     <StasisImmune />
     <ParalyzeImmune />
     <SlowImmune />
-    <Exp>0</Exp>
     <Exp>0</Exp>
     <Projectile id="0">
       <ObjectId>EH Queen Yellow Stinger Large</ObjectId>
@@ -6840,13 +8098,16 @@
       <ArmorPiercing />
     </Projectile>
   </Object>
-  <Object id="Elder Ent Ancient Spawner" type="0x5644">
+  <Object id="Elder Ent Ancient Inactive" type="0x5644">
+    <DisplayId>Elder Ent Ancient</DisplayId>
+    <Enemy />
     <Class>Character</Class>
     <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
+      <File>UGCSetpieceObjects16x16</File>
+      <Index>46</Index>
     </Texture>
-    <Size>0</Size>
+    <Invincible />
+    <Size>180</Size>
     <NoMiniMap />
   </Object>
   <Object id="Elder Ent Ancient" type="0xc76f">
@@ -6863,28 +8124,32 @@
         <Index>46</Index>
       </Texture>
     </AltTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/ents_hit</HitSound>
     <DeathSound>monster/ents_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>180</Size>
     <MaxHitPoints>43000</MaxHitPoints>
     <Defense>40</Defense>
     <KeepDamageRecord />
+    <Quest />
     <Hero />
     <Level>20</Level>
     <StasisImmune />
     <StunImmune />
-    <Exp>0</Exp>
-    <BXP>0</BXP>
+    <Exp>6000</Exp>
+    <BXP>30000</BXP>
+    <RealmScore biome="FloralEscape">750</RealmScore>
     <DontFaceAttacks />
     <DontFaceMovement />
     <Projectile id="0">
       <ObjectId>BellaLeaf New</ObjectId>
       <Speed>50</Speed>
-      <Damage>150</Damage>
+      <Damage>180</Damage>
       <LifetimeMS>2400</LifetimeMS>
       <Size>130</Size>
       <MultiHit />
-      <ConditionEffect duration="2">Sick</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>O3 Battleaxe SRot</ObjectId>
@@ -6901,10 +8166,10 @@
     <Projectile id="2">
       <ObjectId>BellaBerry New</ObjectId>
       <Speed>60</Speed>
-      <Damage>100</Damage>
+      <Damage>120</Damage>
       <LifetimeMS>2000</LifetimeMS>
       <Size>120</Size>
-      <ConditionEffect duration="2">Exposed</ConditionEffect>
+      <ConditionEffect duration="4.0" target="1">Stasis</ConditionEffect>
     </Projectile>
     <Presentation>
       <Style id="Awake">
@@ -6914,6 +8179,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Elder Ent Ancient Explosion 1" type="0xc770">
     <DisplayId>Elder Ent Ancient</DisplayId>
@@ -6954,19 +8220,20 @@
     <Size>50</Size>
     <MaxHitPoints>8000</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>0</Exp>
-    <BXP>0</BXP>
+    <Exp>100</Exp>
+    <BXP>500</BXP>
     <DontFaceAttacks />
     <DontFaceMovement />
     <Projectile id="0">
       <ObjectId>BellaLeaf New</ObjectId>
-      <Speed>40</Speed>
-      <Damage>70</Damage>
-      <LifetimeMS>1500</LifetimeMS>
-      <Size>100</Size>
+      <Speed>10</Speed>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Acceleration>15</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>40</SpeedClamp>
+      <Size>90</Size>
       <MultiHit />
-      <ArmorPiercing />
-      <ConditionEffect duration="2">Sick</ConditionEffect>
     </Projectile>
   </Object>
   <Object id="Assembled Giant Spawner" type="0x5645">
@@ -6986,14 +8253,18 @@
       <File>Rookie_16x16</File>
       <Index>53</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>170</Size>
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>70</Defense>
     <AlwaysPositiveHealth />
     <Quest />
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="RunicTundra">750</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Exp>6000</Exp>
     <BXP>30000</BXP>
@@ -7029,6 +8300,7 @@
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Assembled Giant Head" type="0x86b0">
     <DisplayId>Assembled Giant</DisplayId>
@@ -7040,6 +8312,7 @@
     </AnimatedTexture>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>130</Size>
     <MaxHitPoints>15000</MaxHitPoints>
     <Defense>50</Defense>
@@ -7068,6 +8341,7 @@
     </AnimatedTexture>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>135</Size>
     <MaxHitPoints>15000</MaxHitPoints>
     <Defense>50</Defense>
@@ -7112,8 +8386,11 @@
       <File>Rookie_24x24</File>
       <Index>0</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/ogres_hit</HitSound>
     <DeathSound>monster/ogres_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>160</Size>
     <MaxHitPoints>45000</MaxHitPoints>
     <Defense>40</Defense>
@@ -7122,13 +8399,14 @@
     <ParalyzeImmune />
     <SlowImmune />
     <Level>20</Level>
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="RunicTundra">750</RealmScore>
+    <TrackLoot />
     <Exp>6000</Exp>
     <BXP>30000</BXP>
     <Projectile id="0">
       <ObjectId>Deadwater White Zap</ObjectId>
       <Speed>55</Speed>
-      <Damage>135</Damage>
+      <Damage>110</Damage>
       <LifetimeMS>1500</LifetimeMS>
       <Size>120</Size>
       <MultiHit />
@@ -7140,7 +8418,7 @@
     <Projectile id="1">
       <ObjectId>Deadwater White Zap</ObjectId>
       <Speed>55</Speed>
-      <Damage>135</Damage>
+      <Damage>110</Damage>
       <LifetimeMS>1500</LifetimeMS>
       <Size>120</Size>
       <MultiHit />
@@ -7152,22 +8430,22 @@
     <Projectile id="2">
       <ObjectId>Guard Wave Medium</ObjectId>
       <Speed>80</Speed>
-      <Damage>80</Damage>
+      <Damage>75</Damage>
       <LifetimeMS>850</LifetimeMS>
       <Size>110</Size>
       <MultiHit />
       <ArmorPiercing />
-      <ConditionEffect duration="3">Exposed</ConditionEffect>
     </Projectile>
     <Projectile id="3">
       <ObjectId>Guard Steel</ObjectId>
       <Speed>85</Speed>
-      <Damage>130</Damage>
+      <Damage>110</Damage>
       <LifetimeMS>1400</LifetimeMS>
       <Size>140</Size>
       <Boomerang />
-      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Organ Harvester Spawner" type="0x5647">
     <Class>Character</Class>
@@ -7186,8 +8464,11 @@
       <File>Rookie_16x16</File>
       <Index>71</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/pirates_hit</HitSound>
     <DeathSound>monster/pirates_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <MaxHitPoints>31000</MaxHitPoints>
     <Defense>40</Defense>
@@ -7196,7 +8477,8 @@
     <StunImmune />
     <Exp>6000</Exp>
     <BXP>30000</BXP>
-    <RealmScore>750</RealmScore>
+    <RealmScore biome="SanguineForest">750</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Projectile id="0">
       <ObjectId>AoO Spell Proj</ObjectId>
@@ -7306,6 +8588,7 @@
       <AccelerationDelay>0</AccelerationDelay>
       <SpeedClamp>10</SpeedClamp>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Elder Sprite Tree Spawner" type="0x5648">
     <Class>Character</Class>
@@ -7323,20 +8606,23 @@
       <File>spriteForestObjects32x32</File>
       <Index>0</Index>
     </Texture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/sprite_god_hit</HitSound>
     <DeathSound>monster/sprite_god_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <MaxHitPoints>16000</MaxHitPoints>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
-    <RealmScore>500</RealmScore>
+    <RealmScore biome="SpriteForest">500</RealmScore>
     <Hero />
     <Quest />
-    <HealthBarBoss />
     <TrackLoot />
     <StasisImmune />
     <DazedImmune />
     <StunImmune />
+    <KeepDamageRecord />
     <Projectile id="0">
       <ObjectId>Orange Sprite Magic</ObjectId>
       <Damage>90</Damage>
@@ -7510,5 +8796,1704 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
+  </Object>
+  <Object type="0xD410" id="Legion Novice Mage">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>213</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>150</MaxHitPoints>
+    <Exp>50</Exp>
+    <BXP>475</BXP>
+    <Projectile id="0">
+      <ObjectId>Legion Mage Proj</ObjectId>
+      <Speed>45</Speed>
+      <Damage>35</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+    </Projectile>
+    <Defense>2</Defense>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD411" id="Legion Novice Hunter">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>210</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>180</MaxHitPoints>
+    <Exp>50</Exp>
+    <BXP>475</BXP>
+    <Defense>4</Defense>
+    <Projectile id="0">
+      <ObjectId>Legion Hunter Proj</ObjectId>
+      <Speed>60</Speed>
+      <Damage>30</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD412" id="Legion Novice Guard">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>207</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>220</MaxHitPoints>
+    <Exp>50</Exp>
+    <BXP>475</BXP>
+    <Defense>8</Defense>
+    <Projectile id="0">
+      <ObjectId>Legion Guard Proj</ObjectId>
+      <Speed>70</Speed>
+      <Damage>40</Damage>
+      <LifetimeMS>800</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD413" id="Legion Surveyor">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>17</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Exp>400</Exp>
+    <BXP>475</BXP>
+    <Hero />
+    <Quest />
+    <Level>20</Level>
+    <Projectile id="0">
+      <ObjectId>Legion Surveyor Proj2</ObjectId>
+      <Speed>50</Speed>
+      <Damage>40</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Surveyor Proj</ObjectId>
+      <Speed>60</Speed>
+      <Damage>60</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS,LEGION,LEGIONQUEST</Labels>
+  </Object>
+  <Object id="Legion Survey Camp Spawner" type="0xD414">
+    <Class>Character</Class>
+    <Texture xOffset="2" yOffset="0">
+      <File>theShattersObjects8x8</File>
+      <Index>0x03</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xD430" id="Legion Guard">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>207</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>150</Exp>
+    <BXP>525</BXP>
+    <Projectile id="0">
+      <ObjectId>Legion Guard Proj</ObjectId>
+      <Speed>80</Speed>
+      <Damage>100</Damage>
+      <LifetimeMS>1250</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD431" id="Legion Knight Enemy">
+    <DisplayId>Legion Knight</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>208</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>150</Exp>
+    <BXP>525</BXP>
+    <Projectile id="0">
+      <ObjectId>Legion Guard Proj</ObjectId>
+      <Speed>65</Speed>
+      <Damage>100</Damage>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Knight Proj</ObjectId>
+      <Speed>100</Speed>
+      <Damage>70</Damage>
+      <LifetimeMS>500</LifetimeMS>
+      <Size>140</Size>
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ParticleTrail />
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD432" id="Legion Spearman">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>209</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>1250</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>150</Exp>
+    <BXP>525</BXP>
+    <Projectile id="0">
+      <ObjectId>Legion Spearman Proj</ObjectId>
+      <Speed>40</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>750</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Spearman Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>750</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Legion Spearman Proj</ObjectId>
+      <Speed>60</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>750</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD433" id="Legion Guard Captain">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>18</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <Defense>35</Defense>
+    <Exp>2500</Exp>
+    <BXP>525</BXP>
+    <Hero />
+    <Quest />
+    <Level>20</Level>
+    <Projectile id="0">
+      <ObjectId>Legion Guard Captain Proj</ObjectId>
+      <Speed>90</Speed>
+      <Damage>110</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Shinobi Proj</ObjectId>
+      <Speed>60</Speed>
+      <Damage>125</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Legion Guard Captain Proj</ObjectId>
+      <Speed>70</Speed>
+      <Damage>110</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Legion Guard Captain Proj</ObjectId>
+      <Speed>95</Speed>
+      <Damage>110</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,BOSS,LEGION,LEGIONQUEST</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
+  </Object>
+  <Object type="0xD434" id="Legion Hunter">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>210</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>1250</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>150</Exp>
+    <BXP>525</BXP>
+    <Projectile id="0">
+      <ObjectId>Legion Hunter Proj</ObjectId>
+      <Speed>70</Speed>
+      <Damage>95</Damage>
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD435" id="Legion Scout">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>211</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>1200</MaxHitPoints>
+    <Defense>12</Defense>
+    <Exp>150</Exp>
+    <BXP>525</BXP>
+    <Projectile id="0">
+      <ObjectId>Legion Scout Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>30</Damage>
+      <ArmorPiercing />
+      <LifetimeMS>1500</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD436" id="Legion Shinobi">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>212</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>150</Exp>
+    <BXP>525</BXP>
+    <Projectile>
+      <ObjectId>Legion Shinobi Proj</ObjectId>
+      <Speed>70</Speed>
+      <Damage>85</Damage>
+      <LifetimeMS>700</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD437" id="Legion Scout Master">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>19</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>2500</Exp>
+    <BXP>525</BXP>
+    <Hero />
+    <Quest />
+    <Level>20</Level>
+    <Projectile id="0">
+      <ObjectId>Legion Scout Master Proj</ObjectId>
+      <Speed>70</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>1200</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Guard Proj</ObjectId>
+      <Speed>75</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>1200</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Legion Scout Master Proj</ObjectId>
+      <Speed>55</Speed>
+      <Damage>70</Damage>
+      <LifetimeMS>1700</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>ENEMY,BOSS,LEGION,LEGIONQUEST</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
+  </Object>
+  <Object type="0xD438" id="Legion Mage">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>213</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>1100</MaxHitPoints>
+    <Defense>12</Defense>
+    <Exp>150</Exp>
+    <BXP>525</BXP>
+    <Projectile id="0">
+      <ObjectId>Legion Mage Proj</ObjectId>
+      <Speed>60</Speed>
+      <Damage>70</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Amplitude>0.1</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Mage Proj</ObjectId>
+      <Speed>55</Speed>
+      <Damage>90</Damage>
+      <Size>110</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Amplitude>0.1</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Legion Mage Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>120</Damage>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Amplitude>0.1</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD439" id="Legion Researcher">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>214</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>1300</MaxHitPoints>
+    <Defense>11</Defense>
+    <Exp>150</Exp>
+    <BXP>525</BXP>
+    <Projectile id="0">
+      <ObjectId>Legion Researcher Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>75</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Researcher Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>85</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Legion Researcher Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>95</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>120</Size>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD43A" id="Legion Arcanist">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>215</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Defense>12</Defense>
+    <Exp>150</Exp>
+    <BXP>525</BXP>
+    <Projectile id="0">
+      <ObjectId>Legion Arcanist Proj</ObjectId>
+      <Speed>60</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>1150</LifetimeMS>
+      <Amplitude>1</Amplitude>
+      <Frequency>1</Frequency>
+      <Size>90</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Arcanist Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>1150</LifetimeMS>
+      <Size>90</Size>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD43B" id="Legion Excavator">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>20</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>17500</MaxHitPoints>
+    <Defense>40</Defense>
+    <Exp>2500</Exp>
+    <BXP>525</BXP>
+    <Hero />
+    <Quest />
+    <Level>20</Level>
+    <Projectile id="0">
+      <ObjectId>Legion Excavator Proj2</ObjectId>
+      <Speed>60</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Excavator Proj</ObjectId>
+      <Speed>80</Speed>
+      <Damage>140</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,BOSS,LEGION,LEGIONQUEST</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
+  </Object>
+  <Object type="0xD417" id="Legion Veteran Guard">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>207</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>3500</MaxHitPoints>
+    <Exp>350</Exp>
+    <BXP>475</BXP>
+    <Defense>35</Defense>
+    <Projectile id="0">
+      <ObjectId>Legion Guard Proj</ObjectId>
+      <Speed>90</Speed>
+      <Damage>150</Damage>
+      <LifetimeMS>1700</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD415" id="Legion Veteran Knight">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>208</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Exp>350</Exp>
+    <BXP>475</BXP>
+    <Defense>40</Defense>
+    <Projectile id="0">
+      <ObjectId>Legion Guard Proj</ObjectId>
+      <Speed>85</Speed>
+      <Damage>150</Damage>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Knight Proj</ObjectId>
+      <Speed>100</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>500</LifetimeMS>
+      <Size>140</Size>
+      <ConditionEffect duration="2.5">Slowed</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <ParticleTrail />
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD416" id="Legion Veteran Spearman">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>209</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>3500</MaxHitPoints>
+    <Exp>350</Exp>
+    <BXP>475</BXP>
+    <Defense>25</Defense>
+    <Projectile id="0">
+      <ObjectId>Legion Spearman Proj</ObjectId>
+      <Speed>60</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>750</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Spearman Proj</ObjectId>
+      <Speed>70</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>750</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Legion Spearman Proj</ObjectId>
+      <Speed>80</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>750</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD418" id="Legion Watchmaster">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>21</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Exp>5000</Exp>
+    <BXP>475</BXP>
+    <Hero />
+    <Quest />
+    <Level>20</Level>
+    <Projectile id="0">
+      <ObjectId>Legion Shinobi Proj</ObjectId>
+      <Speed>40</Speed>
+      <Damage>70</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Watch Master Proj</ObjectId>
+      <Speed>95</Speed>
+      <Damage>165</Damage>
+      <LifetimeMS>700</LifetimeMS>
+      <Size>120</Size>
+      <Amplitude>1.5</Amplitude>
+      <Frequency>0.5</Frequency>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Legion Watch Master Proj</ObjectId>
+      <Speed>85</Speed>
+      <Damage>135</Damage>
+      <LifetimeMS>700</LifetimeMS>
+      <Size>100</Size>
+      <Amplitude>1.5</Amplitude>
+      <Frequency>0.5</Frequency>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Legion Watch Master Proj</ObjectId>
+      <Speed>75</Speed>
+      <Damage>115</Damage>
+      <LifetimeMS>700</LifetimeMS>
+      <Size>80</Size>
+      <Amplitude>1.5</Amplitude>
+      <Frequency>0.5</Frequency>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Legion Watch Master Proj</ObjectId>
+      <Speed>0</Speed>
+      <Damage>0</Damage>
+      <LifetimeMS>0</LifetimeMS>
+      <Size>0</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Legion Scout Proj</ObjectId>
+      <Speed>95</Speed>
+      <Damage>75</Damage>
+      <LifetimeMS>2500</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS,LEGION,LEGIONQUEST</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
+  </Object>
+  <Object id="Legion Watchtower Spawner" type="0xD419">
+    <Class>Character</Class>
+    <Texture xOffset="2" yOffset="0">
+      <File>theShattersObjects8x8</File>
+      <Index>0x03</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0xD41A" id="Legion Veteran Hunter">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>210</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>2500</MaxHitPoints>
+    <Exp>350</Exp>
+    <BXP>475</BXP>
+    <Defense>25</Defense>
+    <Projectile id="0">
+      <ObjectId>Legion Hunter Proj</ObjectId>
+      <Speed>70</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Hunter Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD41B" id="Legion Veteran Scout">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>211</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <Exp>350</Exp>
+    <BXP>475</BXP>
+    <Defense>20</Defense>
+    <Projectile id="0">
+      <ObjectId>Legion Scout Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>60</Damage>
+      <ArmorPiercing />
+      <LifetimeMS>1500</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD41C" id="Legion Veteran Shinobi">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>212</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Exp>350</Exp>
+    <BXP>475</BXP>
+    <Defense>25</Defense>
+    <Projectile>
+      <ObjectId>Legion Shinobi Proj</ObjectId>
+      <Speed>80</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>700</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD41D" id="Legion Lead Strategist">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>22</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Exp>5000</Exp>
+    <BXP>475</BXP>
+    <Hero />
+    <Quest />
+    <Level>20</Level>
+    <Projectile id="0">
+      <ObjectId>Legion Lead Strategist Proj</ObjectId>
+      <Speed>80</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Lead Strategist Proj2</ObjectId>
+      <Speed>80</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Legion Lead Strategist Proj3</ObjectId>
+      <Speed>60</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>10000</LifetimeMS>
+      <ArmorPiercing />
+      <Acceleration>-20</Acceleration>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Legion Lead Strategist Proj3</ObjectId>
+      <Speed>60</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>10000</LifetimeMS>
+      <ArmorPiercing />
+      <Acceleration>-30</Acceleration>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Legion Lead Strategist Proj3</ObjectId>
+      <Speed>60</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>10000</LifetimeMS>
+      <ArmorPiercing />
+      <Acceleration>-80</Acceleration>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS,LEGION,LEGIONQUEST</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
+  </Object>
+  <Object id="Legion Strategy Center Spawner" type="0xD41E">
+    <Class>Character</Class>
+    <Texture xOffset="2" yOffset="0">
+      <File>theShattersObjects8x8</File>
+      <Index>0x03</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object id="Legion Ballista Turret Strategy Center" type="0xD41F">
+    <DisplayId>Legion Ballista Turret</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>186</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>Purple Magic</ObjectId>
+      <Speed>60</Speed>
+      <Damage>100</Damage>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>200</Size>
+    </Projectile>
+  </Object>
+  <Object type="0xD420" id="Legion Veteran Mage">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>213</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>2500</MaxHitPoints>
+    <Exp>350</Exp>
+    <BXP>475</BXP>
+    <Defense>15</Defense>
+    <Projectile id="0">
+      <ObjectId>Legion Mage Proj</ObjectId>
+      <Speed>70</Speed>
+      <Damage>120</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Amplitude>0.1</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Mage Proj</ObjectId>
+      <Speed>65</Speed>
+      <Damage>150</Damage>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Amplitude>0.1</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Legion Mage Proj</ObjectId>
+      <Speed>60</Speed>
+      <Damage>180</Damage>
+      <Size>140</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <Amplitude>0.1</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD421" id="Legion Veteran Researcher">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>214</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Exp>350</Exp>
+    <BXP>475</BXP>
+    <Defense>20</Defense>
+    <Projectile id="0">
+      <ObjectId>Legion Researcher Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>105</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Researcher Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>115</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Legion Researcher Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>125</Damage>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>120</Size>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object type="0xD422" id="Legion Veteran Arcanist">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>215</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Exp>350</Exp>
+    <BXP>475</BXP>
+    <Defense>10</Defense>
+    <Projectile id="0">
+      <ObjectId>Legion Arcanist Proj</ObjectId>
+      <Speed>60</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>1150</LifetimeMS>
+      <Amplitude>1</Amplitude>
+      <Frequency>1</Frequency>
+      <Size>90</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Arcanist Proj</ObjectId>
+      <Speed>50</Speed>
+      <Damage>120</Damage>
+      <LifetimeMS>1150</LifetimeMS>
+      <Size>90</Size>
+    </Projectile>
+    <Labels>ENEMY,MINION,LEGION</Labels>
+  </Object>
+  <Object id="Legion Ballista Turret Research Base" type="0xD423">
+    <DisplayId>Legion Ballista Turret</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>186</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>LOD Blue Blast</ObjectId>
+      <Speed>60</Speed>
+      <Damage>150</Damage>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>200</Size>
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object type="0xD424" id="Legion Head Researcher">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars16x16</File>
+      <Index>23</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Exp>5000</Exp>
+    <BXP>475</BXP>
+    <Hero />
+    <Quest />
+    <Level>20</Level>
+    <Projectile id="0">
+      <ObjectId>Legion Surveyor Proj2</ObjectId>
+      <Speed>65</Speed>
+      <Damage>50</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Legion Head Researcher Proj</ObjectId>
+      <Speed>40</Speed>
+      <Damage>140</Damage>
+      <LifetimeMS>1750</LifetimeMS>
+      <MultiHit />
+      <TurnRate>60</TurnRate>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Legion Head Researcher Proj</ObjectId>
+      <Speed>40</Speed>
+      <Damage>140</Damage>
+      <LifetimeMS>1750</LifetimeMS>
+      <MultiHit />
+      <TurnRate>-60</TurnRate>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Legion Spearman Proj</ObjectId>
+      <Speed>55</Speed>
+      <Damage>90</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Amplitude>.5</Amplitude>
+      <Frequency>3</Frequency>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS,LEGION,LEGIONQUEST</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
+  </Object>
+  <Object id="Legion Research Base Spawner" type="0xD425">
+    <Class>Character</Class>
+    <Texture xOffset="2" yOffset="0">
+      <File>theShattersObjects8x8</File>
+      <Index>0x03</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object id="Legion Guard Checkpoint Spawner" type="0xD43C">
+    <Class>Character</Class>
+    <Texture xOffset="2" yOffset="0">
+      <File>theShattersObjects8x8</File>
+      <Index>0x03</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object id="Legion Scouting Party Spawner" type="0xD43D">
+    <Class>Character</Class>
+    <Texture xOffset="2" yOffset="0">
+      <File>theShattersObjects8x8</File>
+      <Index>0x03</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object id="Legion Excavation Site Spawner" type="0xD43E">
+    <Class>Character</Class>
+    <Texture xOffset="2" yOffset="0">
+      <File>theShattersObjects8x8</File>
+      <Index>0x03</Index>
+    </Texture>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object id="Legion Tent" type="0x79b3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>198</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>198</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>199</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>200</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>201</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Dirt Pile" type="0x79b4">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>202</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>202</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>203</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>204</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>205</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Barrels" type="0x79b5">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>206</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>206</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>207</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>208</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>209</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Boxes" type="0x79b6">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>210</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>210</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>211</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>212</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>213</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Sack" type="0x79b7">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>214</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>214</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>215</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>216</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>217</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Weapon Rack" type="0x79ba">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>218</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>218</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>219</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>220</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>221</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Shelves" type="0x79bb">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>222</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>222</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>223</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>239</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Arrow Barrel" type="0x79bc">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>224</Index>
+    </Texture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Bow Rack" type="0x79bd">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>225</Index>
+    </Texture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Target" type="0x79bf">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>226</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>226</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>227</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Pickaxe" type="0x79c0">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>228</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>228</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>229</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Cart" type="0x79c1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>230</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>231</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>230</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Bedroll" type="0x79c2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>232</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>232</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>233</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Bunks" type="0x79ce">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>234</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>234</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>235</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>236</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Chest" type="0x79cf">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>237</Index>
+    </Texture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Trunk" type="0x79d0">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>238</Index>
+    </Texture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Desk" type="0x79d1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>240</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>240</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>241</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Papers" type="0x79d2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>242</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>242</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>243</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Potions" type="0x79d3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>244</Index>
+    </Texture>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Campfire" type="0x79d4">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>245</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>245</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>246</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>247</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>248</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>249</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>250</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <ShadowColor>FFCE00</ShadowColor>
+    <ShadowSize>100</ShadowSize>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object id="Legion Test Tube" type="0x79d5">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>251</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>251</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>252</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>253</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>254</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>255</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>256</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <NoMiniMap />
+    <Static />
+  </Object>
+  <Object type="0x79d6" id="Legion Wood Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>943</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>942</Index>
+      </Texture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x79d7" id="Legion Cracked Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>941</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>940</Index>
+      </Texture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x79d8" id="Legion Log Wall">
+    <Class>GameObject</Class>
+    <Model>Candy Col Whole</Model>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>259</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <FullOccupy />
+    <EnemyOccupySquare />
+  </Object>
+  <Object type="0x79d9" id="Legion Stone Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>944</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>945</Index>
+      </Texture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x79da" id="Legion Brick Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>938</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>938</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>939</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>937</Index>
+      </Texture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x79db" id="Legion Hybrid Wall">
+    <Class>Wall</Class>
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>947</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>946</Index>
+      </Texture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x79dc" id="Legion Path">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>852</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>852</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>853</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>854</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>855</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>856</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>857</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>858</Index>
+      </Texture>
+      <Texture>
+        <File>oryxHordeObjects8x8</File>
+        <Index>859</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <Static />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x79dd" id="Legion Areablocker">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>41</Index>
+    </Texture>
+    <Size>0</Size>
+    <Static />
   </Object>
 </Objects>

@@ -1773,12 +1773,14 @@
       <File>parasiteDenChars16x16</File>
       <Index>4</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/flayers_hit</HitSound>
     <DeathSound>monster/archdemon_death</DeathSound>
     <BloodProb>0.5</BloodProb>
     <BloodColor>0xB50000</BloodColor>
     <DontFaceAttacks />
     <Size>170</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>75000</MaxHitPoints>
     <Defense>5000</Defense>
     <Exp>40000</Exp>
@@ -1841,13 +1843,13 @@
     </Projectile>
     <StunImmune />
     <StasisImmune />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="63" dustMax="146" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="20" dustMax="46" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust dustMin="40" dustMax="46" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="46" dustMax="52" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="20" />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY,AMULET_VETERAN</Labels>
     <SpecialSpawn category="Bis">Parasite Chambers Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Farm Egg</SpecialSpawn>
@@ -1867,6 +1869,8 @@
     <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0x81e" id="pD Infested Chest">
     <DisplayId>Infested Chest</DisplayId>
@@ -1877,6 +1881,8 @@
       <Index>0x3c</Index>
     </Texture>
     <Size>140</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
+    <MinimapIcon piece="DangerSmall" />
     <HitSound>monster/flayers_hit</HitSound>
     <DeathSound>monster/flayers_death</DeathSound>
     <MaxHitPoints>37500</MaxHitPoints>

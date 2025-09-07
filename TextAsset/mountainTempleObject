@@ -396,7 +396,7 @@
     <BXP>4750</BXP>
     <KillStat stat="ConstructKills" />
     <KillStat stat="LesserGodKills" />
-    <Labels>ENEMY,MINION,MINION_STRONG,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION,MINION_STRONG,CONSTRUCT,MOUNTAIN_TEMPLE</Labels>
     <Projectile id="0">
       <ObjectId>Large Pink Bolt</ObjectId>
       <Damage>95</Damage>
@@ -466,7 +466,7 @@
     <Exp>100</Exp>
     <BXP>475</BXP>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,MINION_MID,MINION,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,CONSTRUCT,MOUNTAIN_TEMPLE</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
@@ -511,7 +511,7 @@
     <Exp>250</Exp>
     <BXP>1187</BXP>
     <KillStat stat="HumanoidKills" />
-    <Labels>ENEMY,MINION_MID,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,HUMANOID,MOUNTAIN_TEMPLE</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
@@ -553,7 +553,7 @@
     <Exp>300</Exp>
     <BXP>1425</BXP>
     <KillStat stat="HumanoidKills" />
-    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID,MOUNTAIN_TEMPLE</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
@@ -596,7 +596,7 @@
     <StasisImmune />
     <ParalyzeImmune />
     <KillStat stat="HumanoidKills" />
-    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,HUMANOID,MOUNTAIN_TEMPLE</Labels>
     <Projectile id="0">
       <ObjectId>Caster Cursed Bolt</ObjectId>
       <Damage>120</Damage>
@@ -635,7 +635,7 @@
     <Exp>300</Exp>
     <BXP>1425</BXP>
     <KillStat stat="HumanoidKills" />
-    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID,MOUNTAIN_TEMPLE</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
@@ -698,7 +698,7 @@
     <Exp>400</Exp>
     <BXP>1900</BXP>
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,MINION,MINION_MID,STASISIMMUNE,NATURE</Labels>
+    <Labels>ENEMY,MINION,MINION_MID,STASISIMMUNE,NATURE,MOUNTAIN_TEMPLE</Labels>
     <Projectile id="0">
       <ObjectId>Branch Bolt</ObjectId>
       <Damage>60</Damage>
@@ -749,9 +749,11 @@
     </AltTexture>
     <Quest />
     <NoArticle />
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/skull_shrine_hit</HitSound>
     <DeathSound>monster/skull_shrine_death</DeathSound>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>63750</MaxHitPoints>
     <Defense>65</Defense>
@@ -768,7 +770,7 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY,AMULET_VETERAN,MOUNTAIN_TEMPLE</Labels>
     <Projectile id="0">
       <ObjectId>Pink Orb</ObjectId>
       <Damage>75</Damage>
@@ -865,8 +867,8 @@
       <LifetimeMS>6000</LifetimeMS>
       <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="58" dustMax="135" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="19" dustMax="43" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust dustMin="34" dustMax="40" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="32" dustMax="38" seasonalBonus="0.15">redDust</SoulboundDust>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -905,6 +907,8 @@
     <SpecialSpawn category="Leprechaun_Yellow">Yellow Leprechaun</SpecialSpawn>
     <SpecialSpawn category="Leprechaun_Purple">Purple Leprechaun</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0x6fe7" id="chasingHorror">
     <DisplayId>Soulblast</DisplayId>
@@ -928,7 +932,7 @@
       <ConditionEffect duration="2">Unstable</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE,GROTESQUE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,GROTESQUE,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0x4412" id="circlingHorror">
     <DisplayId>Soulblast</DisplayId>
@@ -952,7 +956,7 @@
       <ConditionEffect duration="2">Unstable</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE,GROTESQUE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,GROTESQUE,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0xaab0" id="Fire Elemental">
     <Enemy />
@@ -1037,7 +1041,7 @@
       <FaceDir />
     </Projectile>
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,NATURE</Labels>
+    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,NATURE,MOUNTAIN_TEMPLE</Labels>
     <Presentation>
       <Style id="SetSoul">
         <StyleStep id="soul">SetAnimation</StyleStep>
@@ -1121,7 +1125,7 @@
       <ConditionEffect duration="1">Dazed</ConditionEffect>
     </Projectile>
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,NATURE</Labels>
+    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,NATURE,MOUNTAIN_TEMPLE</Labels>
     <Presentation>
       <Style id="SetSoul">
         <StyleStep id="soul">SetAnimation</StyleStep>
@@ -1207,7 +1211,7 @@
       <ConditionEffect duration="1">Slowed</ConditionEffect>
     </Projectile>
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,NATURE</Labels>
+    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,NATURE,MOUNTAIN_TEMPLE</Labels>
     <Presentation>
       <Style id="SetSoul">
         <StyleStep id="soul">SetAnimation</StyleStep>
@@ -1298,7 +1302,7 @@
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
     </Projectile>
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,NATURE</Labels>
+    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,NATURE,MOUNTAIN_TEMPLE</Labels>
     <Presentation>
       <Style id="SetSoul">
         <StyleStep id="soul">SetAnimation</StyleStep>
@@ -1330,7 +1334,7 @@
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0xaabc" id="Earth Power">
     <Enemy />
@@ -1355,7 +1359,7 @@
       <MultiHit />
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0xaabd" id="Water Power">
     <Enemy />
@@ -1380,7 +1384,7 @@
       <MultiHit />
       <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0xaabe" id="Air Power">
     <Enemy />
@@ -1405,7 +1409,7 @@
       <MultiHit />
       <ConditionEffect duration="1">Paralyzed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0x4400" id="Fire Elemental Flame">
     <Enemy />
@@ -1468,7 +1472,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Armor Broken</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,MOUNTAIN_TEMPLE</Labels>
     <Presentation>
       <Style id="SetAnimBurning">
         <StyleStep id="Burn">SetAnimation</StyleStep>
@@ -1486,7 +1490,7 @@
     <Size>100</Size>
     <ShadowSize>60</ShadowSize>
       &gt;
-      <Invincible /><NoMiniMap /><Animation prob="1" period="0" id="Spike"><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x72</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x73</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x74</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x75</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x76</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x77</Index></Texture></Frame></Animation><SetStyle>SetAnimSpike</SetStyle><Labels>ENEMY</Labels><Presentation><Style id="SetAnimSpike"><StyleStep id="Spike">SetAnimation</StyleStep></Style></Presentation></Object>
+      <Invincible /><NoMiniMap /><Animation prob="1" period="0" id="Spike"><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x72</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x73</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x74</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x75</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x76</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x77</Index></Texture></Frame></Animation><SetStyle>SetAnimSpike</SetStyle><Labels>ENEMY,MOUNTAIN_TEMPLE</Labels><Presentation><Style id="SetAnimSpike"><StyleStep id="Spike">SetAnimation</StyleStep></Style></Presentation></Object>
   <Object type="0x4408" id="Earth Elemental Mid Smash">
     <Enemy />
     <DisplayId>Earth Spirit</DisplayId>
@@ -1498,7 +1502,7 @@
     <Size>100</Size>
     <ShadowSize>60</ShadowSize>
       &gt;
-      <Invincible /><NoMiniMap /><Animation prob="1" period="0" id="Spike"><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x72</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x73</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x74</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x75</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x76</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x77</Index></Texture></Frame></Animation><SetStyle>SetAnimSpike</SetStyle><Labels>ENEMY</Labels><Presentation><Style id="SetAnimSpike"><StyleStep id="Spike">SetAnimation</StyleStep></Style></Presentation></Object>
+      <Invincible /><NoMiniMap /><Animation prob="1" period="0" id="Spike"><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x72</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x73</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x74</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x75</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x76</Index></Texture></Frame><Frame time="0.1"><Texture><File>mountainTempleObjects16x16</File><Index>0x77</Index></Texture></Frame></Animation><SetStyle>SetAnimSpike</SetStyle><Labels>ENEMY,MOUNTAIN_TEMPLE</Labels><Presentation><Style id="SetAnimSpike"><StyleStep id="Spike">SetAnimation</StyleStep></Style></Presentation></Object>
   <Object type="0x440c" id="Earth Elemental Rock Throw">
     <Class>GameObject</Class>
     <Texture>
@@ -1521,7 +1525,7 @@
     <ShadowSize>60</ShadowSize>
     <Invincible />
     <NoMiniMap />
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0x440e" id="Earth Elemental Target">
     <Enemy />
@@ -1536,7 +1540,7 @@
     <Flying />
     <Invincible />
     <NoMiniMap />
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0x440f" id="Air Elemental Normal Cloud">
     <Enemy />
@@ -1576,7 +1580,7 @@
       </Frame>
     </Animation>
     <SetStyle>SetAnimCloud</SetStyle>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,MOUNTAIN_TEMPLE</Labels>
     <Presentation>
       <Style id="SetAnimCloud">
         <StyleStep id="Cloud">SetAnimation</StyleStep>
@@ -1595,7 +1599,7 @@
     <ShadowSize>60</ShadowSize>
     <Invincible />
     <NoMiniMap />
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0x6fbc" id="Daichi Outro">
     <Enemy />
@@ -1616,7 +1620,7 @@
         <Index>0</Index>
       </Texture>
     </AltTexture>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,MOUNTAIN_TEMPLE</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -1749,7 +1753,7 @@
         <Index>0x4f</Index>
       </Texture>
     </AltTexture>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,MOUNTAIN_TEMPLE</Labels>
     <Presentation>
       <Style id="SetAlt19">
         <StyleStep altTextureId="19">SetAltTexture</StyleStep>
@@ -1821,7 +1825,7 @@
     <Size>1</Size>
     <Flying />
     <Invincible />
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0x6fc7" id="Temple Encounter">
     <Enemy />
@@ -2024,9 +2028,9 @@
   </Object>
   <Object type="0x6fb7" id="Corrupted Sprite">
     <Enemy />
-    <DisplayId>Corrupted Sprite</DisplayId>
     <Class>Character</Class>
     <Group>Daichi</Group>
+    <DisplayId>Corrupted Sprite</DisplayId>
     <AnimatedTexture>
       <File>mountainTempleChars8x8</File>
       <Index>8</Index>
@@ -2049,13 +2053,13 @@
       <ArmorPiercing />
     </Projectile>
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,NATURE,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0x6fb6" id="Corrupted Spirit">
     <Enemy />
-    <DisplayId>Corrupted Spirit</DisplayId>
     <Class>Character</Class>
     <Group>Daichi</Group>
+    <DisplayId>Corrupted Spirit</DisplayId>
     <AnimatedTexture>
       <File>mountainTempleChars8x8</File>
       <Index>9</Index>
@@ -2078,7 +2082,7 @@
       <ArmorPiercing />
     </Projectile>
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,NATURE,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0x4420" id="Daichi Hall Helper">
     <Class>GameObject</Class>
@@ -2185,7 +2189,7 @@
     <StunImmune />
     <ParalyzeImmune />
     <KillStat stat="StructureKills" />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0x7003" id="Lantern On">
     <NoMiniMap />
@@ -2250,7 +2254,7 @@
       <Size>0</Size>
       <LifetimeMS>0</LifetimeMS>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0x6fff" id="MT Troom Chest">
     <DisplayId>Old Chest</DisplayId>
@@ -2263,6 +2267,8 @@
       <File>mountainTempleObjects16x16</File>
       <Index>0x02</Index>
     </Texture>
+    <CustomHitbox x="0" y="0" scale="1.5" />
+    <MinimapIcon piece="DangerSmall" />
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <MaxHitPoints>26250</MaxHitPoints>
@@ -2270,7 +2276,7 @@
     <Size>160</Size>
     <Exp>2000</Exp>
     <KillStat stat="StructureKills" />
-    <Labels>CHEST</Labels>
+    <Labels>CHEST,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0x4421" id="Daichi Room Wall 1">
     <Class>GameObject</Class>
@@ -4504,7 +4510,7 @@
       <File>mountainTempleObjects16x16</File>
       <Index>0x02</Index>
     </Texture>
-    <Labels>CHEST</Labels>
+    <Labels>CHEST,MOUNTAIN_TEMPLE</Labels>
   </Object>
   <Object type="0xaaeb" id="Komainu">
     <Class>GameObject</Class>

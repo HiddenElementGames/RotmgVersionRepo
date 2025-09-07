@@ -311,7 +311,7 @@
     <Projectile id="19">
       <ObjectId>Queen Bunny Large Chocolate Shot</ObjectId>
       <Damage>140</Damage>
-      <Speed>70</Speed>
+      <Speed>90</Speed>
       <LifetimeMS>1200</LifetimeMS>
       <ArmorPiercing />
       <Size>160</Size>
@@ -349,7 +349,7 @@
     <HealthBarBoss radius="30" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,GOD,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,GOD,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY,AMULET_ADEPT</Labels>
   </Object>
   <Object type="0x598" id="Queen Alien Egglayer">
     <Group>Easter Alien</Group>
@@ -363,7 +363,7 @@
     <DeathSound>monster/flaming_skulls_death</DeathSound>
     <Size>120</Size>
     <ShadowSize>60</ShadowSize>
-    <MaxHitPoints>4125</MaxHitPoints>
+    <MaxHitPoints>6000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>500</Exp>
     <BXP>2375</BXP>
@@ -469,7 +469,7 @@
     <DeathSound>monster/dwarves_hit</DeathSound>
     <Size>90</Size>
     <ShadowSize>60</ShadowSize>
-    <MaxHitPoints>5500</MaxHitPoints>
+    <MaxHitPoints>3000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>150</Exp>
     <BXP>712</BXP>
@@ -494,6 +494,7 @@
     <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x592" id="Bunny Boss Spawner">
     <Class>GameObject</Class>
@@ -533,7 +534,7 @@
     <HitSound>monster/skull_shrine_hit</HitSound>
     <DeathSound>spell/light_heal</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>5000</MaxHitPoints>
+    <MaxHitPoints>9000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>500</Exp>
     <BXP>2375</BXP>
@@ -541,7 +542,7 @@
       <ObjectId>Queen Bunny Chocolate Shockwave</ObjectId>
       <Damage>150</Damage>
       <Speed>70</Speed>
-      <LifetimeMS>1000</LifetimeMS>
+      <LifetimeMS>1600</LifetimeMS>
       <Size>100</Size>
     </Projectile>
     <Labels>ENEMY</Labels>
@@ -586,12 +587,22 @@
     <HitSound>monster/night_elves_hit</HitSound>
     <DeathSound>monster/night_elves_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>400</MaxHitPoints>
+    <MaxHitPoints>600</MaxHitPoints>
     <Defense>0</Defense>
-    <Exp>0</Exp>
+    <Exp>6</Exp>
+    <BXP>28</BXP>
+    <Projectile id="0">
+      <ObjectId>Chocolate Ovipositor Shots</ObjectId>
+      <Damage>40</Damage>
+      <Speed>70</Speed>
+      <Size>90</Size>
+      <LifetimeMS>1400</LifetimeMS>
+      <ArmorPiercing />
+    </Projectile>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x59B" id="Enraged Bunny Spawn">
     <Enemy />
@@ -617,6 +628,7 @@
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x59C" id="Bunny Boss Waypoint 1">
     <Class>Character</Class>
@@ -625,7 +637,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -636,7 +648,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -647,7 +659,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -658,7 +670,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -669,7 +681,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -680,7 +692,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -691,7 +703,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -702,7 +714,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -713,7 +725,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -724,7 +736,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -735,7 +747,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -746,7 +758,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -761,12 +773,11 @@
     <DeathSound>player/paladin_death</DeathSound>
     <Size>100</Size>
     <ShadowSize>80</ShadowSize>
-    <MaxHitPoints>11250</MaxHitPoints>
+    <MaxHitPoints>8000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>5000</Exp>
     <BXP>25000</BXP>
     <God />
-    <Quest />
     <StasisImmune />
     <SlowImmune />
     <TrackLoot />
@@ -795,7 +806,7 @@
     <DeathSound>monster/dwarves_hit</DeathSound>
     <Size>70</Size>
     <ShadowSize>60</ShadowSize>
-    <MaxHitPoints>3500</MaxHitPoints>
+    <MaxHitPoints>3000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>150</Exp>
     <BXP>712</BXP>
@@ -815,6 +826,7 @@
     <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5AA" id="Easter Rolling Egg">
     <DisplayId>Eggsploding Egg</DisplayId>
@@ -1430,7 +1442,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -1441,7 +1453,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -1452,7 +1464,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -1463,7 +1475,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -1474,7 +1486,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -1485,7 +1497,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -1496,7 +1508,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -1507,7 +1519,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
@@ -1520,7 +1532,7 @@
     </Texture>
     <Size>-1</Size>
   </Object>
-  <Object type="0x5E1" id="Queen Bunny Corpse">
+  <Object type="0x5E1" id="Queen Bunny Decay">
     <Class>Character</Class>
     <NoMiniMap />
     <ShadowSize>0</ShadowSize>
@@ -1627,7 +1639,7 @@
     <DeathSound>monster/dwarves_hit</DeathSound>
     <Size>70</Size>
     <ShadowSize>60</ShadowSize>
-    <MaxHitPoints>5500</MaxHitPoints>
+    <MaxHitPoints>4500</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>150</Exp>
     <BXP>712</BXP>
@@ -1652,6 +1664,7 @@
     <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5E3" id="Bunnypede Body Tail">
     <Enemy />
@@ -1664,7 +1677,7 @@
     <DeathSound>monster/dwarves_hit</DeathSound>
     <Size>50</Size>
     <ShadowSize>60</ShadowSize>
-    <MaxHitPoints>3500</MaxHitPoints>
+    <MaxHitPoints>3000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>150</Exp>
     <BXP>712</BXP>
@@ -1684,6 +1697,7 @@
     <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5E4" id="Easter Chamber Stalactite">
     <Class>GameObject</Class>

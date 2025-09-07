@@ -5219,6 +5219,220 @@
     </Projectile>
     <Labels>ENEMY,STASISIMMUNE,GOD,CONSTRUCT,SHATTERS</Labels>
   </Object>
+  <Object type="0xCB86" id="Stone Judoka">
+    <DisplayId>Stone Judoka</DisplayId>
+    <Class>Character</Class>
+    <Group>Shatters Stone</Group>
+    <Enemy />
+    <AnimatedTexture>
+      <File>theShattersChars32x32</File>
+      <Index>23</Index>
+    </AnimatedTexture>
+    <HitSound>monster/dwarf_god_hit</HitSound>
+    <DeathSound>monster/dwarf_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>85</Defense>
+    <Exp>30000</Exp>
+    <BXP>150000</BXP>
+    <KillStat stat="GodKills" />
+    <KillStat stat="ConstructKills" />
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <SlowImmune />
+    <NoCollisionWhenMovement />
+    <HealthBarBoss radius="40" />
+    <Portrait>
+      <Texture>
+        <File>theShattersChars32x32</File>
+        <Index>23</Index>
+      </Texture>
+    </Portrait>
+    <Projectile id="7">
+      <ObjectId>Stone Wave</ObjectId>
+      <Damage>170</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>140</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Stone Spear</ObjectId>
+      <Damage>190</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>140</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Stone Boulder</ObjectId>
+      <Damage>210</Damage>
+      <Speed>85</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>140</Size>
+      <MultiHit />
+      <PassesCover />
+      <Wavy />
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Stone Blast</ObjectId>
+      <Damage>120</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>10000</LifetimeMS>
+      <Acceleration>-200</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Stone Skilled Slash</ObjectId>
+      <Damage>210</Damage>
+      <Speed>95</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>160</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Shatters Sentinel Blast</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <Acceleration>-25</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>5</SpeedClamp>
+      <Size>160</Size>
+      <LifetimeMS>12000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1">Petrify</ConditionEffect>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Shatters Sentinel Blast</ObjectId>
+      <Damage>60</Damage>
+      <Speed>35</Speed>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1">Petrify</ConditionEffect>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>Shatters Sentinel Blast</ObjectId>
+      <Damage>60</Damage>
+      <Speed>50</Speed>
+      <Acceleration>120</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>115</SpeedClamp>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>110</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1">Petrify</ConditionEffect>
+    </Projectile>
+    <Projectile id="17">
+      <ObjectId>Accursed Stone Wave</ObjectId>
+      <Damage>200</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>140</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="18">
+      <ObjectId>Accursed Stone Spear</ObjectId>
+      <Damage>220</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>140</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="19">
+      <ObjectId>Shatters Blobomb Bullet</ObjectId>
+      <Damage>240</Damage>
+      <Speed>85</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>140</Size>
+      <MultiHit />
+      <PassesCover />
+      <Wavy />
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="110">
+      <ObjectId>Accursed Stone Blast</ObjectId>
+      <Damage>150</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>10000</LifetimeMS>
+      <Acceleration>-200</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>15</SpeedClamp>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="111">
+      <ObjectId>Accursed Stone Skilled Slash</ObjectId>
+      <Damage>240</Damage>
+      <Speed>95</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>160</Size>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="112">
+      <ObjectId>King Shade Blast</ObjectId>
+      <Damage>90</Damage>
+      <Speed>40</Speed>
+      <Acceleration>-25</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>5</SpeedClamp>
+      <Size>160</Size>
+      <LifetimeMS>12000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1">Petrify</ConditionEffect>
+    </Projectile>
+    <Projectile id="113">
+      <ObjectId>King Shade Blast</ObjectId>
+      <Damage>90</Damage>
+      <Speed>35</Speed>
+      <Acceleration>40</Acceleration>
+      <AccelerationDelay>1000</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1">Petrify</ConditionEffect>
+    </Projectile>
+    <Projectile id="114">
+      <ObjectId>King Shade Blast</ObjectId>
+      <Damage>90</Damage>
+      <Speed>50</Speed>
+      <Acceleration>120</Acceleration>
+      <AccelerationDelay>600</AccelerationDelay>
+      <SpeedClamp>115</SpeedClamp>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>110</Size>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1">Petrify</ConditionEffect>
+    </Projectile>
+    <Labels>ENEMY,STASISIMMUNE,GOD,CONSTRUCT,SHATTERS</Labels>
+  </Object>
   <Object type="0x85ff" id="Shatters Accursed Stone Mage">
     <DisplayId>Accursed Stone Mage</DisplayId>
     <Class>Character</Class>
@@ -5760,7 +5974,6 @@
       <Damage>150</Damage>
       <LifetimeMS>4445</LifetimeMS>
       <ConditionEffect duration="3">Slowed</ConditionEffect>
-      <ConditionEffect duration="2">Darkness</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="1">
@@ -5772,7 +5985,7 @@
       <AccelerationDelay>750</AccelerationDelay>
       <SpeedClamp>120</SpeedClamp>
       <MultiHit />
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>Frost Twirl</ObjectId>
@@ -5780,7 +5993,6 @@
       <Damage>150</Damage>
       <LifetimeMS>4000</LifetimeMS>
       <ConditionEffect duration="3">Slowed</ConditionEffect>
-      <ConditionEffect duration="2">Darkness</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Labels>ENEMY,MINION_STRONG,MINION,TRACKLOOT,HUMANOID,SHATTERS</Labels>
@@ -6775,7 +6987,7 @@
       <AccelerationDelay>750</AccelerationDelay>
       <SpeedClamp>120</SpeedClamp>
       <MultiHit />
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>Frost Twirl</ObjectId>
@@ -6783,7 +6995,6 @@
       <Damage>165</Damage>
       <LifetimeMS>4000</LifetimeMS>
       <ConditionEffect duration="3">Slowed</ConditionEffect>
-      <ConditionEffect duration="2">Darkness</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="3">
@@ -7009,7 +7220,6 @@
       <Size>125</Size>
       <LifetimeMS>4445</LifetimeMS>
       <ConditionEffect duration="3">Slowed</ConditionEffect>
-      <ConditionEffect duration="2">Darkness</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="1">
@@ -7022,7 +7232,7 @@
       <AccelerationDelay>750</AccelerationDelay>
       <SpeedClamp>120</SpeedClamp>
       <MultiHit />
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>Accursed Twirl</ObjectId>
@@ -7031,7 +7241,6 @@
       <Size>125</Size>
       <LifetimeMS>4000</LifetimeMS>
       <ConditionEffect duration="3">Slowed</ConditionEffect>
-      <ConditionEffect duration="2">Darkness</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Labels>ENEMY,MINION_STRONG,MINION,TRACKLOOT,HUMANOID,SHATTERS</Labels>
@@ -7464,7 +7673,7 @@
       <AccelerationDelay>750</AccelerationDelay>
       <SpeedClamp>120</SpeedClamp>
       <MultiHit />
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>Accursed Twirl</ObjectId>
@@ -7473,7 +7682,6 @@
       <Size>125</Size>
       <LifetimeMS>4000</LifetimeMS>
       <ConditionEffect duration="3">Slowed</ConditionEffect>
-      <ConditionEffect duration="2">Darkness</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="3">
@@ -8323,7 +8531,7 @@
       <TurnClamp>120</TurnClamp>
       <Size>110</Size>
       <MultiHit />
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Jester Reflection</ObjectId>
@@ -8346,7 +8554,7 @@
       <TurnClamp>80</TurnClamp>
       <Size>110</Size>
       <MultiHit />
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="3">
       <ObjectId>Jester Star</ObjectId>
@@ -8359,7 +8567,7 @@
       <MultiHit />
       <FaceDir />
       <PassesCover />
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="4">
       <ObjectId>Jester Star</ObjectId>
@@ -8372,7 +8580,7 @@
       <MultiHit />
       <FaceDir />
       <PassesCover />
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="5">
       <ObjectId>Jester Star</ObjectId>
@@ -8385,7 +8593,7 @@
       <MultiHit />
       <FaceDir />
       <PassesCover />
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -9241,7 +9449,7 @@
       <MultiHit />
       <FaceDir />
       <PassesCover />
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="4">
       <ObjectId>Accursed Jester Star</ObjectId>
@@ -9254,7 +9462,7 @@
       <MultiHit />
       <FaceDir />
       <PassesCover />
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="5">
       <ObjectId>Accursed Jester Star</ObjectId>
@@ -9267,7 +9475,7 @@
       <MultiHit />
       <FaceDir />
       <PassesCover />
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -10387,7 +10595,6 @@
       <LifetimeMS>7000</LifetimeMS>
       <MultiHit />
       <PassesCover />
-      <ConditionEffect duration="3">Darkness</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Shatters Corrupt Gaze</ObjectId>
@@ -10396,7 +10603,6 @@
       <LifetimeMS>1000</LifetimeMS>
       <MultiHit />
       <PassesCover />
-      <ConditionEffect duration="5">Darkness</ConditionEffect>
     </Projectile>
     <Labels>ENEMY,GROTESQUE,SHATTERS</Labels>
   </Object>
@@ -10475,7 +10681,6 @@
       <MultiHit />
       <PassesCover />
       <Boomerang />
-      <ConditionEffect duration="3">Darkness</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Shatters Corrupt Gaze</ObjectId>
@@ -10575,7 +10780,6 @@
       <MultiHit />
       <PassesCover />
       <ArmorPiercing />
-      <ConditionEffect duration="5">Darkness</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Shade Shuriken Red</ObjectId>
@@ -10586,7 +10790,6 @@
       <MultiHit />
       <PassesCover />
       <ArmorPiercing />
-      <ConditionEffect duration="3">Darkness</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>Blue Ball of Hurt</ObjectId>
@@ -12099,6 +12302,7 @@
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>150</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>250000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>40</Defense>
@@ -12343,6 +12547,9 @@
     </Projectile>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,SHATTERS</Labels>
     <SpecialSpawn category="ShattersEncore">The Shatters</SpecialSpawn>
+    <SoulboundDust prob="1" dustMin="12" dustMax="20" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="12" dustMax="18" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="12" dustMax="15" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <Presentation>
       <Style id="SetAnimSlumber">
         <StyleStep id="Slumber" loop="1">SetAnimation</StyleStep>
@@ -12793,6 +13000,7 @@
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <Size>150</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>25000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>25</Defense>
@@ -13156,6 +13364,7 @@
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <Size>150</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>25000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>25</Defense>
@@ -13519,6 +13728,7 @@
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <Size>150</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>25000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>25</Defense>
@@ -13882,6 +14092,7 @@
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <Size>150</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>25000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>25</Defense>
@@ -15380,6 +15591,7 @@
     <DeathSound>monster/lizard_god_death</DeathSound>
     <Sound id="0">use_key</Sound>
     <Size>150</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>300000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>45</Defense>
@@ -15576,7 +15788,6 @@
       <Size>180</Size>
       <ArmorPiercing />
       <MultiHit />
-      <ConditionEffect duration="2">Darkness</ConditionEffect>
     </Projectile>
     <Projectile id="17">
       <ObjectId>Frost Star</ObjectId>
@@ -15586,7 +15797,6 @@
       <Size>180</Size>
       <ArmorPiercing />
       <MultiHit />
-      <ConditionEffect duration="2">Darkness</ConditionEffect>
     </Projectile>
     <Projectile id="18">
       <ObjectId>Frost Twirl</ObjectId>
@@ -16451,6 +16661,9 @@
     </Projectile>
     <Labels>ENEMY,MINIBOSS,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,SHATTERS</Labels>
     <SpecialSpawn category="ShattersEncore">The Shatters</SpecialSpawn>
+    <SoulboundDust prob="1" dustMin="20" dustMax="30" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="20" dustMax="29" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="20" dustMax="28" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <Presentation>
       <Style id="SetAnimChanneling">
         <StyleStep id="Channeling">SetAnimation</StyleStep>
@@ -17106,6 +17319,7 @@
     <DeathSound>monster/sprite_god_death</DeathSound>
     <Sound id="1">spell/magic_nova</Sound>
     <Size>150</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>10000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>0</Defense>
@@ -17621,6 +17835,7 @@
     <DeathSound>monster/sprite_god_death</DeathSound>
     <Sound id="1">spell/magic_nova</Sound>
     <Size>150</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>10000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>0</Defense>
@@ -18130,6 +18345,7 @@
     <DeathSound>monster/sprite_god_death</DeathSound>
     <Sound id="1">spell/magic_nova</Sound>
     <Size>150</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>10000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>0</Defense>
@@ -18639,6 +18855,7 @@
     <DeathSound>monster/sprite_god_death</DeathSound>
     <Sound id="1">spell/magic_nova</Sound>
     <Size>150</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>10000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>0</Defense>
@@ -18733,6 +18950,7 @@
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>125</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>21500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>0</Exp>
@@ -18829,6 +19047,7 @@
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>125</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>21500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>0</Exp>
@@ -18907,7 +19126,6 @@
       <PassesCover />
       <Wavy />
       <MultiHit />
-      <ConditionEffect duration="2.6">Darkness</ConditionEffect>
     </Projectile>
     <Projectile id="7">
       <ObjectId>Frost Star</ObjectId>
@@ -19141,7 +19359,6 @@
       <Damage>160</Damage>
       <LifetimeMS>7000</LifetimeMS>
       <Size>100</Size>
-      <ConditionEffect duration="4">Darkness</ConditionEffect>
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
@@ -19902,7 +20119,7 @@
     <Enemy />
     <TrackLoot />
     <KeepDamageRecord />
-    <PowerUpAtt />
+    <PowerUpLife />
     <AnimatedTexture>
       <File>theShattersChars32x32</File>
       <Index>11</Index>
@@ -22610,6 +22827,7 @@
     <HitSound>monster/archdemon_hit</HitSound>
     <DeathSound>monster/archdemon_death</DeathSound>
     <Size>150</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <ShadowSize>30</ShadowSize>
     <MaxHitPoints>500000</MaxHitPoints>
     <AlwaysPositiveHealth />
@@ -24267,10 +24485,10 @@
       <MultiHit />
       <FaceDir />
     </Projectile>
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,SHATTERS,HPSCALEONENTRY</Labels>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="166" dustMax="386" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="81" dustMax="189" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="52" dustMax="121" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,SHATTERS,HPSCALEONENTRY,AMULET_EXPERT</Labels>
+    <SoulboundDust prob="1" dustMin="38" dustMax="50" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="38" dustMax="48" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="38" dustMax="46" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <SpecialSpawn category="Bis">The Shatters</SpecialSpawn>
     <SpecialSpawn category="Chef">Double Cheeseburger Deluxe</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Automaton Egg</SpecialSpawn>
@@ -24280,7 +24498,7 @@
     <SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn>
     <SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn>
     <SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn>
-    <SpecialSpawn category="ExaltedBanner">ExaltationBanner_ATT</SpecialSpawn>
+    <SpecialSpawn category="ExaltedBanner">ExaltationBanner_ATT_LIFE_MANA</SpecialSpawn>
     <SpecialSpawn category="AgentOfOryx_Weapon">Shard of the Mad God x1</SpecialSpawn>
     <SpecialSpawn category="AgentOfOryx_Ability">Shard of the Intern x1</SpecialSpawn>
     <SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn>
@@ -24290,9 +24508,12 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Royal Void Cat Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="Oryxmania">The Shatters Arena Portal</SpecialSpawn>
     <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
     <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
     <SpecialSpawn category="ShattersEncore">The Shatters</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 3</SpecialSpawn>
     <Presentation from="forgottenBasic">
       <Style id="corruptTeleStart">
         <StyleStep visible="false">SetHud</StyleStep>
@@ -25411,7 +25632,7 @@
       <FaceDir />
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS,HPSCALEONENTRY,AMULET_EXPERT</Labels>
     <Presentation from="forgottenBasic">
       <Style id="SetAnimSpawn">
         <StyleStep id="Spawn" loop="1">SetAnimation</StyleStep>
@@ -26459,7 +26680,7 @@
       <FaceDir />
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS,HPSCALEONENTRY,AMULET_EXPERT</Labels>
     <Presentation from="forgottenBasic">
       <Style id="SetAnimSpawn">
         <StyleStep id="Spawn" loop="1">SetAnimation</StyleStep>
@@ -27507,7 +27728,7 @@
       <FaceDir />
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS,HPSCALEONENTRY,AMULET_EXPERT</Labels>
     <Presentation from="forgottenBasic">
       <Style id="SetAnimSpawn">
         <StyleStep id="Spawn" loop="1">SetAnimation</StyleStep>
@@ -28555,7 +28776,7 @@
       <FaceDir />
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS,HPSCALEONENTRY,AMULET_EXPERT</Labels>
     <Presentation from="forgottenBasic">
       <Style id="SetAnimSpawn">
         <StyleStep id="Spawn" loop="1">SetAnimation</StyleStep>
@@ -35515,6 +35736,21 @@
       <Index>0</Index>
     </Texture>
     <Size>0</Size>
+  </Object>
+  <Object type="0x1B6F" id="shtrs King Def Exalt">
+    <DisplayId>King Defense Exalt Granter</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Size>-1</Size>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <NoMiniMap />
+    <Invincible />
+    <PowerUpMana />
   </Object>
   <Object type="0x8283" id="Shatters Accursed Huntsman Grave">
     <Class>GameObject</Class>

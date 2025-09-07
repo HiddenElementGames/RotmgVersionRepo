@@ -15,7 +15,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Exp>500</Exp>
     <BXP>2500</BXP>
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="DeepSea">15</RealmScore>
     <Defense>25</Defense>
     <Terrain>DeepSea</Terrain>
     <SpawnProb>0.9</SpawnProb>
@@ -43,7 +43,8 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,DEEPSEA,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Deep Sea Abyss" />
   </Object>
   <Object type="0x7231" id="Deep Sea Hydra">
     <DisplayId>Abyssal Hydra</DisplayId>
@@ -60,7 +61,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Exp>500</Exp>
     <BXP>2500</BXP>
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="DeepSea">15</RealmScore>
     <Defense>25</Defense>
     <Terrain>DeepSea</Terrain>
     <SpawnProb>0.8</SpawnProb>
@@ -75,27 +76,26 @@
     </Projectile>
     <Projectile id="1">
       <ObjectId>Deep Sea Hydra 2</ObjectId>
-      <Damage>90</Damage>
+      <Damage>120</Damage>
       <Speed>50</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <TurnRate>60</TurnRate>
       <TurnRateDelay>0</TurnRateDelay>
       <Size>110</Size>
-      <ArmorPiercing />
     </Projectile>
     <Projectile id="2">
       <ObjectId>Deep Sea Hydra 2</ObjectId>
-      <Damage>90</Damage>
+      <Damage>120</Damage>
       <Speed>50</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <TurnRate>-60</TurnRate>
       <TurnRateDelay>0</TurnRateDelay>
       <Size>110</Size>
-      <ArmorPiercing />
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,DEEPSEA,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Deep Sea Abyss" />
   </Object>
   <Object type="0x7232" id="Deep Sea Siren">
     <DisplayId>Abyssal Siren</DisplayId>
@@ -112,7 +112,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Exp>500</Exp>
     <BXP>2500</BXP>
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="DeepSea">15</RealmScore>
     <Defense>20</Defense>
     <Terrain>DeepSea</Terrain>
     <SpawnProb>0.7</SpawnProb>
@@ -138,7 +138,8 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,DEEPSEA,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Deep Sea Abyss" />
   </Object>
   <Object type="0x7225" id="Deep Sea Kraken">
     <DisplayId>Abyssal Kraken</DisplayId>
@@ -155,7 +156,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Exp>1000</Exp>
     <BXP>5000</BXP>
-    <RealmScore>45</RealmScore>
+    <RealmScore biome="DeepSea">45</RealmScore>
     <Defense>30</Defense>
     <Terrain>DeepSea</Terrain>
     <SpawnProb>0.25</SpawnProb>
@@ -204,21 +205,22 @@
     </Projectile>
     <Projectile id="6">
       <ObjectId>Deep Sea Kraken 1</ObjectId>
-      <Damage>150</Damage>
+      <Damage>140</Damage>
       <Size>100</Size>
       <Speed>40</Speed>
       <LifetimeMS>3750</LifetimeMS>
     </Projectile>
     <Projectile id="7">
       <ObjectId>Deep Sea Kraken 1</ObjectId>
-      <Damage>150</Damage>
+      <Damage>140</Damage>
       <Size>100</Size>
       <Speed>50</Speed>
       <LifetimeMS>5000</LifetimeMS>
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,DEEPSEA,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Deep Sea Abyss" />
   </Object>
   <Object type="0x7219" id="Deep Sea Jellyfish">
     <DisplayId>Hadopelagic Jellyfish</DisplayId>
@@ -235,7 +237,7 @@
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>500</Exp>
     <BXP>2500</BXP>
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="DeepSea">15</RealmScore>
     <Defense>20</Defense>
     <Terrain>DeepSea</Terrain>
     <SpawnProb>0.85</SpawnProb>
@@ -264,7 +266,8 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,DEEPSEA,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Deep Sea Abyss" />
   </Object>
   <Object type="0x7b15" id="Deep Sea Submarine">
     <DisplayId>Hadopelagic Submersible</DisplayId>
@@ -281,7 +284,7 @@
     <MaxHitPoints>9000</MaxHitPoints>
     <Exp>1500</Exp>
     <BXP>7500</BXP>
-    <RealmScore>45</RealmScore>
+    <RealmScore biome="DeepSea">45</RealmScore>
     <Defense>40</Defense>
     <Terrain>DeepSea</Terrain>
     <SpawnProb>0.1</SpawnProb>
@@ -325,7 +328,8 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,DEEPSEA,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Deep Sea Abyss" />
   </Object>
   <Object type="0x55C4" id="New Corsair Crab">
     <DisplayId>Corsair Crab</DisplayId>
@@ -344,7 +348,7 @@
     <SpawnProb>0.1</SpawnProb>
     <Exp>1500</Exp>
     <BXP>7500</BXP>
-    <RealmScore>45</RealmScore>
+    <RealmScore biome="DeepSea">45</RealmScore>
     <Projectile id="0">
       <ObjectId>Corsair Crab Claw</ObjectId>
       <Damage>120</Damage>
@@ -383,7 +387,7 @@
     </Projectile>
     <KillStat stat="CritterKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,CRITTER,GOD,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,DEEPSEA,GOD,MINION_HIGH,VETERAN</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -391,12 +395,27 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+    <KillStat stat="Deep Sea Abyss" />
+  </Object>
+  <Object type="0xAD82" id="SpecPen Jailer Spawner Deep Sea">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <Terrain>DeepSea</Terrain>
+    <SpawnProb>0.008</SpawnProb>
+    <KillStat stat="Deep Sea Abyss" />
+    <Labels>ENEMY,MINION,DEEPSEA,GOD,MINION_HIGH,VETERAN</Labels>
   </Object>
   <Object type="0x265C" id="Carboniferous Mantis">
     <DisplayId>Colossal Mantis</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="Carboniferous">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsVeteran16x16</File>
@@ -424,20 +443,20 @@
     <Projectile id="1">
       <ObjectId>Carboniferous Mantis 2</ObjectId>
       <Speed>75</Speed>
-      <Damage>75</Damage>
+      <Damage>110</Damage>
       <Size>110</Size>
       <LifetimeMS>2000</LifetimeMS>
-      <ArmorPiercing />
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,CARBONIFEROUS,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Carboniferous" />
   </Object>
   <Object type="0x265B" id="Carboniferous Dinosaur">
     <DisplayId>Scutosaurus</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="Carboniferous">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsVeteran16x16</File>
@@ -476,13 +495,14 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,CARBONIFEROUS,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Carboniferous" />
   </Object>
   <Object type="0x79be" id="Carboniferous Flytrap">
     <DisplayId>Man-Eating Flytrap</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="Carboniferous">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsVeteran16x16</File>
@@ -548,22 +568,24 @@
     </Projectile>
     <Projectile id="3">
       <ObjectId>Carboniferous Flytrap 1</ObjectId>
-      <Damage>200</Damage>
+      <Damage>120</Damage>
       <Speed>50</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <Size>120</Size>
       <PassesCover />
       <MultiHit />
+      <ArmorPiercing />
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,CARBONIFEROUS,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Carboniferous" />
   </Object>
-  <Object type="0x2FC" id="Carboniferous Flytrap Minion">
+  <Object type="0x02FC" id="Carboniferous Flytrap Minion">
     <DisplayId>Man-Eating Sprout</DisplayId>
     <Enemy />
     <Exp>195</Exp>
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="Carboniferous">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsVeteran16x16</File>
@@ -618,7 +640,8 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,NATURE,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,CARBONIFEROUS,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Carboniferous" />
   </Object>
   <Object type="0x776d" id="Carboniferous Spider">
     <DisplayId>Spitting Arachnid</DisplayId>
@@ -655,7 +678,8 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,CARBONIFEROUS,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Carboniferous" />
   </Object>
   <Object type="0x776e" id="Carboniferous Spider Minion">
     <DisplayId>Spitting Arachnid Hatchling</DisplayId>
@@ -684,13 +708,13 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_HIGH,VETERAN</Labels>
   </Object>
   <Object type="0x776f" id="Carboniferous Bush Monster">
     <DisplayId>Animate Sigillaria</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="Carboniferous">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsVeteran16x16</File>
@@ -728,13 +752,14 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,CARBONIFEROUS,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Carboniferous" />
   </Object>
   <Object type="0x397a" id="Carboniferous Dragonfly">
     <DisplayId>Hunter Dragonfly</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="Carboniferous">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>charsVeteran16x16</File>
@@ -784,7 +809,8 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,CARBONIFEROUS,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Carboniferous" />
   </Object>
   <Object type="0x55C5" id="New Sting Spider">
     <DisplayId>Sting Spider</DisplayId>
@@ -804,7 +830,7 @@
     <SpawnProb>0.1</SpawnProb>
     <Exp>1500</Exp>
     <BXP>7500</BXP>
-    <RealmScore>45</RealmScore>
+    <RealmScore biome="Carboniferous">45</RealmScore>
     <Projectile id="0">
       <ObjectId>Sting Spider Bite</ObjectId>
       <Damage>100</Damage>
@@ -836,7 +862,7 @@
     </Projectile>
     <KillStat stat="CritterKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,CRITTER,GOD,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,CARBONIFEROUS,GOD,MINION_HIGH,VETERAN</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -844,12 +870,27 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+    <KillStat stat="Carboniferous" />
+  </Object>
+  <Object type="0xAD83" id="SpecPen Jailer Spawner Carboniferous">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <Terrain>Carboniferous</Terrain>
+    <SpawnProb>0.008</SpawnProb>
+    <KillStat stat="Carboniferous" />
+    <Labels>ENEMY,MINION,CARBONIFEROUS,GOD,MINION_HIGH,VETERAN</Labels>
   </Object>
   <Object type="0x265D" id="Sanguine Thorn">
     <DisplayId>Bulbous Perforator</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="SanguineForest">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>sanguineForestChars16x16</File>
@@ -867,23 +908,22 @@
     <God />
     <Projectile id="0">
       <ObjectId>Sanguine Thorn 1</ObjectId>
-      <Damage>75</Damage>
+      <Damage>110</Damage>
       <Speed>70</Speed>
-      <ArmorPiercing />
       <PassesCover />
       <LifetimeMS>2150</LifetimeMS>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Sanguine Thorn 1</ObjectId>
-      <Damage>75</Damage>
+      <Damage>110</Damage>
       <Speed>80</Speed>
-      <ArmorPiercing />
       <PassesCover />
       <LifetimeMS>1875</LifetimeMS>
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,SANGUINEFOREST,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Sanguine Forest" />
   </Object>
   <Object type="0x265E" id="Sanguine Thorn Emitter">
     <DisplayId>Bulbous Perforator</DisplayId>
@@ -935,7 +975,7 @@
     <DisplayId>Blood Ooze</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="SanguineForest">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>sanguineForestChars16x16</File>
@@ -969,9 +1009,10 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,SANGUINEFOREST,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Sanguine Forest" />
   </Object>
-  <Object type="0x2FF" id="Sanguine Ooze Puddle">
+  <Object type="0x02FF" id="Sanguine Ooze Puddle">
     <DisplayId>Blood Ooze Puddle</DisplayId>
     <Class>Character</Class>
     <RandomTexture>
@@ -1005,7 +1046,7 @@
     <DisplayId>Blood Hound</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="SanguineForest">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>sanguineForestChars16x16</File>
@@ -1031,7 +1072,6 @@
       <MultiHit />
       <Amplitude>0.5</Amplitude>
       <Frequency>0.7</Frequency>
-      <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Sanguine Hound 1</ObjectId>
@@ -1042,13 +1082,14 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,SANGUINEFOREST,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Sanguine Forest" />
   </Object>
   <Object type="0x7b92" id="Sanguine Treant">
     <DisplayId>Bloodroot Treant</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="SanguineForest">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>sanguineForestChars16x16</File>
@@ -1090,17 +1131,17 @@
       <Damage>120</Damage>
       <Size>100</Size>
       <LifetimeMS>1775</LifetimeMS>
-      <ConditionEffect duration="1">Slowed</ConditionEffect>
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,SANGUINEFOREST,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Sanguine Forest" />
   </Object>
   <Object type="0x7b93" id="Sanguine Archer">
     <DisplayId>Shadow Lurker</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="SanguineForest">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>sanguineForestChars16x16</File>
@@ -1132,13 +1173,14 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,SANGUINEFOREST,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Sanguine Forest" />
   </Object>
   <Object type="0x7b94" id="Sanguine Harpy">
     <DisplayId>Ravenous Harpy</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="SanguineForest">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>sanguineForestChars16x16</File>
@@ -1163,7 +1205,6 @@
       <TurnRate>5</TurnRate>
       <MultiHit />
       <PassesCover />
-      <ConditionEffect duration="4.0" target="1">Stasis</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Sanguine Harpy 1</ObjectId>
@@ -1172,17 +1213,17 @@
       <Size>115</Size>
       <LifetimeMS>3000</LifetimeMS>
       <TurnRate>-5</TurnRate>
-      <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,SANGUINEFOREST,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Sanguine Forest" />
   </Object>
   <Object type="0x7b95" id="Sanguine Ghoul">
     <DisplayId>Ghoul</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="SanguineForest">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>sanguineForestChars16x16</File>
@@ -1203,17 +1244,31 @@
       <Damage>120</Damage>
       <Speed>80</Speed>
       <LifetimeMS>1875</LifetimeMS>
-      <ConditionEffect duration="2.0">Exposed</ConditionEffect>
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,SANGUINEFOREST,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Sanguine Forest" />
+  </Object>
+  <Object type="0xAD84" id="SpecPen Jailer Spawner Sanguine">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <Terrain>SanguineForest</Terrain>
+    <SpawnProb>0.008</SpawnProb>
+    <KillStat stat="Sanguine Forest" />
+    <Labels>ENEMY,MINION,SANGUINEFOREST,GOD,MINION_HIGH,VETERAN</Labels>
   </Object>
   <Object type="0x2664" id="Floral Sunflower">
     <DisplayId>Sunflower Sentinel</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="FloralEscape">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>veteranChars16x16</File>
@@ -1222,7 +1277,7 @@
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>3000</MaxHitPoints>
+    <MaxHitPoints>2500</MaxHitPoints>
     <Exp>500</Exp>
     <BXP>2500</BXP>
     <Defense>18</Defense>
@@ -1251,13 +1306,14 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,FLORALESCAPE,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Floral Escape" />
   </Object>
   <Object type="0x2662" id="Floral Dragon">
     <DisplayId>Snapdragon</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="FloralEscape">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>veteranChars16x16</File>
@@ -1266,7 +1322,7 @@
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>3000</MaxHitPoints>
+    <MaxHitPoints>2500</MaxHitPoints>
     <Exp>500</Exp>
     <BXP>2500</BXP>
     <Defense>18</Defense>
@@ -1276,21 +1332,21 @@
     <Projectile id="0">
       <ObjectId>Floral Dragon 1</ObjectId>
       <Speed>75</Speed>
-      <Damage>90</Damage>
+      <Damage>130</Damage>
       <Size>110</Size>
       <LifetimeMS>2000</LifetimeMS>
-      <ArmorPiercing />
       <PassesCover />
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,FLORALESCAPE,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Floral Escape" />
   </Object>
   <Object type="0x2663" id="Floral Tiger">
     <DisplayId>Vegetarian Tiger</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="FloralEscape">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>veteranChars16x16</File>
@@ -1299,7 +1355,7 @@
     <HitSound>monster/ogres_hit</HitSound>
     <DeathSound>monster/ogres_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>2200</MaxHitPoints>
+    <MaxHitPoints>2000</MaxHitPoints>
     <Exp>500</Exp>
     <BXP>2500</BXP>
     <Defense>35</Defense>
@@ -1328,13 +1384,14 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,FLORALESCAPE,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Floral Escape" />
   </Object>
   <Object type="0x2666" id="Floral Rhino">
     <DisplayId>Rhinoceros</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="FloralEscape">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>veteranChars16x16</File>
@@ -1343,7 +1400,7 @@
     <HitSound>monster/scorpions_hit</HitSound>
     <DeathSound>monster/scorpions_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>3500</MaxHitPoints>
+    <MaxHitPoints>3000</MaxHitPoints>
     <Exp>500</Exp>
     <BXP>2500</BXP>
     <Defense>40</Defense>
@@ -1359,13 +1416,14 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,FLORALESCAPE,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Floral Escape" />
   </Object>
   <Object type="0x2661" id="Floral Hand">
     <DisplayId>Green Fingers</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="FloralEscape">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>veteranChars16x16</File>
@@ -1374,7 +1432,7 @@
     <HitSound>monster/ents_hit</HitSound>
     <DeathSound>monster/ents_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>3000</MaxHitPoints>
+    <MaxHitPoints>2000</MaxHitPoints>
     <Exp>500</Exp>
     <BXP>2500</BXP>
     <Defense>15</Defense>
@@ -1394,13 +1452,14 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,FLORALESCAPE,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Floral Escape" />
   </Object>
   <Object type="0x7312" id="Floral Rafflesia">
     <DisplayId>Spore Spreader</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="FloralEscape">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>veteranChars16x16</File>
@@ -1436,13 +1495,14 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,FLORALESCAPE,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Floral Escape" />
   </Object>
   <Object type="0x7313" id="Floral Lily">
     <DisplayId>Overgrown Lily</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="FloralEscape">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>veteranChars16x16</File>
@@ -1461,37 +1521,35 @@
     <Projectile id="0">
       <ObjectId>Floral Lily 1</ObjectId>
       <Speed>75</Speed>
-      <Damage>70</Damage>
+      <Damage>100</Damage>
       <Size>100</Size>
       <LifetimeMS>2000</LifetimeMS>
       <FaceDir />
-      <ArmorPiercing />
       <Amplitude>3.4</Amplitude>
       <Frequency>0.4</Frequency>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Floral Lily 1</ObjectId>
       <Speed>75</Speed>
-      <Damage>70</Damage>
+      <Damage>100</Damage>
       <Size>100</Size>
       <LifetimeMS>2000</LifetimeMS>
       <FaceDir />
-      <ArmorPiercing />
       <Amplitude>3.4</Amplitude>
       <Frequency>0.4</Frequency>
     </Projectile>
     <Projectile id="2">
       <ObjectId>Floral Lily 1</ObjectId>
       <Speed>75</Speed>
-      <Damage>70</Damage>
+      <Damage>100</Damage>
       <Size>100</Size>
       <LifetimeMS>2000</LifetimeMS>
       <FaceDir />
-      <ArmorPiercing />
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,FLORALESCAPE,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Floral Escape" />
   </Object>
   <Object type="0x55C6" id="New Great Owl">
     <DisplayId>Great Owl</DisplayId>
@@ -1511,7 +1569,7 @@
     <SpawnProb>0.1</SpawnProb>
     <Exp>1500</Exp>
     <BXP>7500</BXP>
-    <RealmScore>45</RealmScore>
+    <RealmScore biome="FloralEscape">45</RealmScore>
     <DontFaceAttacks />
     <Projectile id="0">
       <ObjectId>New Great Owl 2</ObjectId>
@@ -1596,7 +1654,7 @@
     </Projectile>
     <KillStat stat="CritterKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,CRITTER,GOD,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,FLORALESCAPE,GOD,MINION_HIGH,VETERAN</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1604,12 +1662,27 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+    <KillStat stat="Floral Escape" />
+  </Object>
+  <Object type="0xAD85" id="SpecPen Jailer Spawner Floral">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <Terrain>FloralEscape</Terrain>
+    <SpawnProb>0.008</SpawnProb>
+    <KillStat stat="Floral Escape" />
+    <Labels>ENEMY,MINION,FLORALESCAPE,GOD,MINION_HIGH,VETERAN</Labels>
   </Object>
   <Object type="0x7b14" id="Tundra Yeti">
     <DisplayId>Snow Yeti</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="RunicTundra">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>Rookie_16x16</File>
@@ -1627,17 +1700,17 @@
     <God />
     <Projectile id="0">
       <ObjectId>Tundra Yeti 1</ObjectId>
-      <Speed>75</Speed>
+      <Speed>60</Speed>
       <Damage>110</Damage>
       <Size>100</Size>
-      <LifetimeMS>2000</LifetimeMS>
+      <LifetimeMS>2500</LifetimeMS>
       <MultiHit />
       <PassesCover />
-      <ConditionEffect duration="1">Slowed</ConditionEffect>
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,RUNICTUNDRA,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Runic Tundra" />
   </Object>
   <Object type="0x7301" id="Tundra Snow Split">
     <Class>GameObject</Class>
@@ -1663,7 +1736,7 @@
     <DisplayId>Ice Giant</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>45</RealmScore>
+    <RealmScore biome="RunicTundra">45</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>deepSeaChars32x32</File>
@@ -1678,12 +1751,6 @@
     <Defense>45</Defense>
     <Terrain>RunicTundra</Terrain>
     <SpawnProb>0.15</SpawnProb>
-    <Spawn>
-      <Mean>1</Mean>
-      <StdDev>1</StdDev>
-      <Min>1</Min>
-      <Max>3</Max>
-    </Spawn>
     <God />
     <Projectile id="0">
       <ObjectId>Tundra Giant 1</ObjectId>
@@ -1734,31 +1801,32 @@
       <Damage>120</Damage>
       <Speed>65</Speed>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="1">Paralyzed</ConditionEffect>
+      <ConditionEffect duration="0.8">Paralyzed</ConditionEffect>
     </Projectile>
     <Projectile id="7">
       <ObjectId>Tundra Giant 3</ObjectId>
       <Damage>120</Damage>
       <Speed>75</Speed>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="1">Paralyzed</ConditionEffect>
+      <ConditionEffect duration="0.8">Paralyzed</ConditionEffect>
     </Projectile>
     <Projectile id="8">
       <ObjectId>Tundra Giant 3</ObjectId>
       <Damage>120</Damage>
       <Speed>85</Speed>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="1">Paralyzed</ConditionEffect>
+      <ConditionEffect duration="0.8">Paralyzed</ConditionEffect>
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,RUNICTUNDRA,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Runic Tundra" />
   </Object>
   <Object type="0x7303" id="Tundra Dragon">
     <DisplayId>Frost Dragon</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="RunicTundra">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>Rookie_16x16</File>
@@ -1777,28 +1845,27 @@
     <Projectile id="0">
       <ObjectId>Tundra Dragon 1</ObjectId>
       <Speed>60</Speed>
-      <Damage>120</Damage>
+      <Damage>125</Damage>
       <Size>110</Size>
       <LifetimeMS>2500</LifetimeMS>
-      <ConditionEffect duration="2">Exposed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Tundra Dragon 2</ObjectId>
       <Speed>80</Speed>
-      <Damage>120</Damage>
+      <Damage>125</Damage>
       <Size>110</Size>
       <LifetimeMS>1875</LifetimeMS>
-      <ConditionEffect duration="2">Exposed</ConditionEffect>
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,RUNICTUNDRA,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Runic Tundra" />
   </Object>
   <Object type="0x2668" id="Tundra Troll">
     <DisplayId>Snow Troll</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="RunicTundra">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>Rookie_16x16</File>
@@ -1813,12 +1880,6 @@
     <Defense>35</Defense>
     <Terrain>RunicTundra</Terrain>
     <SpawnProb>0.8</SpawnProb>
-    <Spawn>
-      <Mean>1</Mean>
-      <StdDev>0</StdDev>
-      <Min>1</Min>
-      <Max>2</Max>
-    </Spawn>
     <God />
     <Projectile id="0">
       <ObjectId>Tundra Troll 1</ObjectId>
@@ -1839,13 +1900,14 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,RUNICTUNDRA,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Runic Tundra" />
   </Object>
   <Object type="0x2667" id="Tundra Golem">
     <DisplayId>Runic Golem</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="RunicTundra">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>Rookie_16x16</File>
@@ -1870,17 +1932,17 @@
       <ProtectFromSink />
       <ArmorPiercing />
       <MultiHit />
-      <ConditionEffect duration="2">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,RUNICTUNDRA,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Runic Tundra" />
   </Object>
   <Object type="0x2665" id="Tundra Wolf">
     <DisplayId>Snow Wolf</DisplayId>
     <Group>Gods</Group>
     <Enemy />
-    <RealmScore>15</RealmScore>
+    <RealmScore biome="RunicTundra">15</RealmScore>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>Rookie_16x16</File>
@@ -1895,12 +1957,6 @@
     <Defense>15</Defense>
     <Terrain>RunicTundra</Terrain>
     <SpawnProb>0.6</SpawnProb>
-    <Spawn>
-      <Mean>1</Mean>
-      <StdDev>1</StdDev>
-      <Min>1</Min>
-      <Max>2</Max>
-    </Spawn>
     <God />
     <Projectile id="0">
       <ObjectId>Tundra Wolf 2</ObjectId>
@@ -1909,19 +1965,20 @@
       <Size>110</Size>
       <LifetimeMS>2000</LifetimeMS>
       <MultiHit />
+      <ConditionEffect duration="3.0">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Tundra Wolf 1</ObjectId>
       <Speed>80</Speed>
-      <Damage>90</Damage>
+      <Damage>75</Damage>
       <Size>110</Size>
       <LifetimeMS>1875</LifetimeMS>
       <ArmorPiercing />
-      <ConditionEffect duration="3.0">Slowed</ConditionEffect>
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,RUNICTUNDRA,GOD,MINION_HIGH,VETERAN</Labels>
+    <KillStat stat="Runic Tundra" />
   </Object>
   <Object type="0x7373" id="Tundra Archer">
     <DisplayId>Tundra Tribe Leader</DisplayId>
@@ -1938,21 +1995,20 @@
     <Defense>20</Defense>
     <Exp>50</Exp>
     <BXP>250</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="RunicTundra">10</RealmScore>
     <Terrain>RunicTundra</Terrain>
-    <SpawnProb>0.4</SpawnProb>
+    <SpawnProb>0.5</SpawnProb>
     <Projectile id="0">
       <ObjectId>Tundra Archer 1</ObjectId>
       <Speed>75</Speed>
-      <Damage>75</Damage>
+      <Damage>110</Damage>
       <Size>120</Size>
       <LifetimeMS>2000</LifetimeMS>
       <MultiHit />
-      <ArmorPiercing />
     </Projectile>
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,RUNICTUNDRA,GOD,MINION_HIGH,VETERAN</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1960,6 +2016,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <KillStat stat="Runic Tundra" />
   </Object>
   <Object type="0x7375" id="Tundra Knight">
     <DisplayId>Tundra Tribe Fighter</DisplayId>
@@ -1977,7 +2034,6 @@
     <Exp>50</Exp>
     <BXP>250</BXP>
     <RealmScore>10</RealmScore>
-    <Terrain>Mountains</Terrain>
     <Projectile id="0">
       <ObjectId>Tundra Knight 1</ObjectId>
       <Speed>75</Speed>
@@ -1989,7 +2045,7 @@
     </Projectile>
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_HIGH,VETERAN</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -2013,7 +2069,6 @@
     <Defense>20</Defense>
     <Exp>50</Exp>
     <BXP>250</BXP>
-    <Terrain>Mountains</Terrain>
     <God />
     <RealmScore>10</RealmScore>
     <Projectile id="0">
@@ -2026,7 +2081,654 @@
     </Projectile>
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,BEAST,GOD,MINION_HIGH,VETERAN</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xAD86" id="SpecPen Jailer Spawner Tundra">
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <Terrain>RunicTundra</Terrain>
+    <SpawnProb>0.008</SpawnProb>
+    <KillStat stat="Runic Tundra" />
+    <Labels>ENEMY,MINION,RUNICTUNDRA,GOD,MINION_HIGH,VETERAN</Labels>
+  </Object>
+  <Object type="0xAD31" id="SpecPen Spectral Jailer">
+    <DisplayId>Spectral Jailer</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>specPenChars32x32</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Color>0x00DD00</Color>
+    <MinimapIcon piece="Miniboss" />
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>SpecPen Jailer Spinner</ObjectId>
+      <Size>175</Size>
+      <Damage>250</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+      <MultiHit />
+      <Amplitude>10</Amplitude>
+      <Frequency>0.5</Frequency>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SpecPen Jailer Slash</ObjectId>
+      <Size>120</Size>
+      <Damage>100</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SpecPen Jailer Spinner</ObjectId>
+      <Size>175</Size>
+      <Damage>250</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <TurnRate>60</TurnRate>
+      <TurnStopTime>1600</TurnStopTime>
+      <CircleTurnAngle>60</CircleTurnAngle>
+      <CircleTurnDelay>1600</CircleTurnDelay>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>SpecPen Jailer Arrow</ObjectId>
+      <Size>120</Size>
+      <Damage>150</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>SpecPen Jailer Arrow</ObjectId>
+      <Size>120</Size>
+      <Damage>135</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Boomerang />
+      <FaceDir />
+      <MultiHit />
+    </Projectile>
+    <MaxHitPoints>30000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>5000</Exp>
+    <BXP>25000</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <AlwaysPositiveHealth />
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,UNDEAD,GOD</Labels>
+  </Object>
+  <Object type="0x79e9" id="Oryxmas Reindeer">
+    <DisplayId>Oryxmas Reindeer</DisplayId>
+    <Group>Gods</Group>
+    <Enemy />
+    <RealmScore biome="EternalFrost">10</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>108</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ogres_hit</HitSound>
+    <DeathSound>monster/ogres_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Exp>200</Exp>
+    <BXP>1000</BXP>
+    <Defense>18</Defense>
+    <Terrain>EternalFrost</Terrain>
+    <SpawnProb>0.8</SpawnProb>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Oryxmas Reindeer Projectile 1</ObjectId>
+      <Speed>60</Speed>
+      <Damage>70</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Oryxmas Reindeer Projectile 2</ObjectId>
+      <Speed>60</Speed>
+      <Damage>70</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,ETERNALFROST,GOD,MINION_HIGH,VETERAN</Labels>
+  </Object>
+  <Object type="0x79a9" id="Oryxmas Presents Golem">
+    <DisplayId>Oryxmas Presents Golem</DisplayId>
+    <Group>Gods</Group>
+    <Enemy />
+    <RealmScore biome="EternalFrost">10</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>110</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ogres_hit</HitSound>
+    <DeathSound>monster/ogres_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Exp>200</Exp>
+    <BXP>1000</BXP>
+    <Defense>20</Defense>
+    <Terrain>EternalFrost</Terrain>
+    <SpawnProb>0.8</SpawnProb>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Oryxmas Presents Golem Projectile 1</ObjectId>
+      <Speed>60</Speed>
+      <Damage>60</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,ETERNALFROST,GOD,MINION_HIGH,VETERAN</Labels>
+  </Object>
+  <Object type="0x79ab" id="Oryxmas Clown">
+    <DisplayId>Oryxmas Clown</DisplayId>
+    <Group>Gods</Group>
+    <Enemy />
+    <RealmScore biome="EternalFrost">10</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>111</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ogres_hit</HitSound>
+    <DeathSound>monster/ogres_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Exp>200</Exp>
+    <BXP>1000</BXP>
+    <Defense>15</Defense>
+    <Terrain>EternalFrost</Terrain>
+    <SpawnProb>0.8</SpawnProb>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Oryxmas Clown Projectile 1</ObjectId>
+      <Speed>60</Speed>
+      <Damage>80</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <TurnRate>180</TurnRate>
+      <TurnRateDelay>400</TurnRateDelay>
+      <TurnStopTime>2000</TurnStopTime>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Oryxmas Clown Projectile 2</ObjectId>
+      <Speed>60</Speed>
+      <Damage>80</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <TurnRate>-180</TurnRate>
+      <TurnRateDelay>400</TurnRateDelay>
+      <TurnStopTime>2000</TurnStopTime>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,ETERNALFROST,GOD,MINION_HIGH,VETERAN</Labels>
+  </Object>
+  <Object type="0x79a7" id="Oryxmas Susuwatari">
+    <DisplayId>Oryxmas Susuwatari</DisplayId>
+    <Group>Gods</Group>
+    <Enemy />
+    <RealmScore biome="EternalFrost">10</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>109</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ogres_hit</HitSound>
+    <DeathSound>monster/ogres_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Exp>200</Exp>
+    <BXP>1000</BXP>
+    <Defense>15</Defense>
+    <Terrain>EternalFrost</Terrain>
+    <SpawnProb>0.8</SpawnProb>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Oryxmas Susuwatari Projectile 1</ObjectId>
+      <Speed>60</Speed>
+      <Damage>80</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,ETERNALFROST,GOD,MINION_HIGH,VETERAN</Labels>
+  </Object>
+  <Object type="0x7e99" id="Oryxmas Archer Enemy">
+    <DisplayId>Oryxmas Archer</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars8x8</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <HitSound>monster/rocks_hit</HitSound>
+    <DeathSound>monster/rocks_death</DeathSound>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>10</Defense>
+    <Exp>20</Exp>
+    <BXP>100</BXP>
+    <RealmScore biome="EternalFrost">5</RealmScore>
+    <Terrain>EternalFrost</Terrain>
+    <SpawnProb>0.5</SpawnProb>
+    <Projectile id="0">
+      <ObjectId>Oryxmas Archer Enemy Projectile 1</ObjectId>
+      <Speed>75</Speed>
+      <Damage>70</Damage>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="ConstructKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,ETERNALFROST,GOD,MINION_HIGH,VETERAN</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x7a86" id="Oryxmas Knight Enemy">
+    <DisplayId>Oryxmas Knight</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars8x8</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <MaxHitPoints>800</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>20</Defense>
+    <Exp>20</Exp>
+    <BXP>100</BXP>
+    <RealmScore biome="EternalFrost">5</RealmScore>
+    <Projectile id="0">
+      <ObjectId>Oryxmas Knight Enemy Projectile 1</ObjectId>
+      <Speed>75</Speed>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="1">Stunned</ConditionEffect>
+    </Projectile>
+    <KillStat stat="ConstructKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,ETERNALFROST,BEAST,GOD,MINION_HIGH,VETERAN</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x7b84" id="Oryxmas Wizard Enemy">
+    <DisplayId>Oryxmas Wizard</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars8x8</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <MaxHitPoints>900</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>20</Defense>
+    <Exp>20</Exp>
+    <BXP>100</BXP>
+    <God />
+    <RealmScore biome="EternalFrost">5</RealmScore>
+    <Projectile id="0">
+      <ObjectId>Oryxmas Wizard Enemy Projectile 1</ObjectId>
+      <Speed>75</Speed>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="ConstructKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,ETERNALFROST,BEAST,GOD,MINION_HIGH,VETERAN</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x74e1" id="Easter Lamb">
+    <DisplayId>Lamb</DisplayId>
+    <Group>Gods</Group>
+    <Enemy />
+    <RealmScore biome="SpringMeaning">10</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>120</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ogres_hit</HitSound>
+    <DeathSound>monster/ogres_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Exp>200</Exp>
+    <BXP>1000</BXP>
+    <Defense>18</Defense>
+    <SpawnProb>0.8</SpawnProb>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Easter Projectile 34</ObjectId>
+      <Speed>60</Speed>
+      <Damage>70</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Easter Projectile 36</ObjectId>
+      <Speed>0</Speed>
+      <Damage>70</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,SPRINGMEANING,GOD,MINION_HIGH,VETERAN,EASTER</Labels>
+  </Object>
+  <Object type="0x74e2" id="Easter Eggs Golem">
+    <DisplayId>Eggs Golem</DisplayId>
+    <Group>Gods</Group>
+    <Enemy />
+    <RealmScore biome="SpringMeaning">10</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>122</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ogres_hit</HitSound>
+    <DeathSound>monster/ogres_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Exp>200</Exp>
+    <BXP>1000</BXP>
+    <Defense>20</Defense>
+    <SpawnProb>0.8</SpawnProb>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Easter Projectile 43</ObjectId>
+      <Speed>60</Speed>
+      <Damage>80</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Easter Projectile 44</ObjectId>
+      <Speed>70</Speed>
+      <Damage>80</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,SPRINGMEANING,GOD,MINION_HIGH,VETERAN,EASTER</Labels>
+  </Object>
+  <Object type="0x74e3" id="Easter Egg Enemy">
+    <DisplayId>Easter Egg</DisplayId>
+    <Group>Gods</Group>
+    <Enemy />
+    <RealmScore biome="SpringMeaning">10</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>121</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ogres_hit</HitSound>
+    <DeathSound>monster/ogres_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Exp>200</Exp>
+    <BXP>1000</BXP>
+    <Defense>15</Defense>
+    <SpawnProb>0.8</SpawnProb>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Easter Projectile 37</ObjectId>
+      <Speed>60</Speed>
+      <Damage>80</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>800</TurnRateDelay>
+      <TurnStopTime>2000</TurnStopTime>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Easter Projectile 39</ObjectId>
+      <Speed>70</Speed>
+      <Damage>80</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>800</TurnRateDelay>
+      <TurnStopTime>2000</TurnStopTime>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,SPRINGMEANING,GOD,MINION_HIGH,VETERAN,EASTER</Labels>
+  </Object>
+  <Object type="0x74e4" id="Easter Chocolate Head">
+    <DisplayId>Chocolate Head</DisplayId>
+    <Group>Gods</Group>
+    <Enemy />
+    <RealmScore biome="SpringMeaning">10</RealmScore>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>117</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ogres_hit</HitSound>
+    <DeathSound>monster/ogres_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Exp>200</Exp>
+    <BXP>1000</BXP>
+    <Defense>15</Defense>
+    <SpawnProb>0.8</SpawnProb>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Easter Projectile 22</ObjectId>
+      <Speed>60</Speed>
+      <Damage>80</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,SPRINGMEANING,GOD,MINION_HIGH,VETERAN,EASTER</Labels>
+  </Object>
+  <Object type="0x74e7" id="Easter Pigeon">
+    <DisplayId>Pigeon</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>118</Index>
+    </AnimatedTexture>
+    <HitSound>monster/rocks_hit</HitSound>
+    <DeathSound>monster/rocks_death</DeathSound>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>10</Defense>
+    <Exp>20</Exp>
+    <BXP>100</BXP>
+    <RealmScore biome="SpringMeaning">10</RealmScore>
+    <SpawnProb>0.5</SpawnProb>
+    <Projectile id="0">
+      <ObjectId>Easter Projectile 25</ObjectId>
+      <Speed>75</Speed>
+      <Damage>70</Damage>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="ConstructKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,SPRINGMEANING,GOD,MINION_HIGH,VETERAN</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x79e1" id="Easter Knight Enemy">
+    <DisplayId>Oryxmas Knight</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>newRealmSetPieceChars8x8</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <MaxHitPoints>800</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>20</Defense>
+    <Exp>20</Exp>
+    <BXP>100</BXP>
+    <RealmScore biome="SpringMeaning">10</RealmScore>
+    <Projectile id="0">
+      <ObjectId>Oryxmas Knight Enemy Projectile 1</ObjectId>
+      <Speed>75</Speed>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="1">Stunned</ConditionEffect>
+    </Projectile>
+    <KillStat stat="ConstructKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,SPRINGMEANING,BEAST,GOD,MINION_HIGH,VETERAN,EASTER</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x79e4" id="Easter Chicken">
+    <DisplayId>Chicken</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>Rookie_16x16</File>
+      <Index>119</Index>
+    </AnimatedTexture>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <MaxHitPoints>900</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>20</Defense>
+    <Exp>20</Exp>
+    <BXP>100</BXP>
+    <God />
+    <RealmScore biome="SpringMeaning">10</RealmScore>
+    <SpawnProb>0.5</SpawnProb>
+    <Projectile id="0">
+      <ObjectId>Easter Projectile 30</ObjectId>
+      <Speed>80</Speed>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <CircleTurnDelay>800</CircleTurnDelay>
+      <FaceDir />
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Easter Projectile 31</ObjectId>
+      <Speed>80</Speed>
+      <Damage>80</Damage>
+      <Size>120</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <CircleTurnDelay>800</CircleTurnDelay>
+      <FaceDir />
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <KillStat stat="ConstructKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,SPRINGMEANING,BEAST,GOD,MINION_HIGH,VETERAN,EASTER</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>

@@ -17,11 +17,18 @@
     <AltTexture id="2">
       <AnimatedTexture>
         <File>chars16x16dEncounters2</File>
+        <Index>34</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters2</File>
         <Index>35</Index>
       </AnimatedTexture>
     </AltTexture>
     <HitSound>monster/slimes_death</HitSound>
     <DeathSound>monster/flying_brain_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
     <ShadowSize>40</ShadowSize>
     <Z>0.2</Z>
@@ -30,6 +37,7 @@
     <Defense>30</Defense>
     <Exp>8000</Exp>
     <BXP>40000</BXP>
+    <AlwaysPositiveHealth />
     <LeachHealth />
     <EventChestBoss />
     <TrackLoot />
@@ -37,35 +45,22 @@
     <StasisImmune />
     <Quest />
     <Level>1</Level>
-    <Projectile id="0">
+    <Projectile>
       <ObjectId>Dagger</ObjectId>
       <Damage>100</Damage>
-      <Speed>50</Speed>
-      <Size>100</Size>
-      <LifetimeMS>2400</LifetimeMS>
+      <Size>130</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
     </Projectile>
-    <Projectile id="1">
-      <ObjectId>Ruthven Shot</ObjectId>
-      <Damage>90</Damage>
-      <Speed>65</Speed>
-      <Size>100</Size>
-      <LifetimeMS>3400</LifetimeMS>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="2">
-      <ObjectId>Cross Bullet</ObjectId>
-      <Speed>50</Speed>
-      <Damage>111</Damage>
-      <Size>100</Size>
-      <LifetimeMS>4000</LifetimeMS>
-      <MultiHit />
-    </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="22" dustMax="52" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="29" dustMax="37" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="25" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Manor of the Immortals Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Spooky Egg</SpecialSpawn>
@@ -83,13 +78,43 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Vampire Lord Skin</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 1</SpecialSpawn>
     <Presentation>
-      <Style id="SetAlt2">
+      <Style id="SetInvis">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetNormal">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
   </Object>
-  <Object type="0x1721" id="Vampire Bat">
+  <Object type="0x1726" id="Lord Ruthven Anchor">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1725" id="Ruthven 50P Helper">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiObjBig</File>
+      <Index>0x22</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1723" id="Bat Swarm Master">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>26</Index>
+    </AnimatedTexture>
+    <Size>30</Size>
+  </Object>
+  <Object type="0x1724" id="Vampire Bat Swarmer Boss">
+    <DisplayId>Vampire Bat Swarmer</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -107,11 +132,38 @@
     <ShadowSize>80</ShadowSize>
     <Projectile id="0">
       <ObjectId>Invisible</ObjectId>
-      <Damage>40</Damage>
+      <Damage>20</Damage>
       <Speed>0</Speed>
       <Size>80</Size>
       <LifetimeMS>100</LifetimeMS>
-      <ConditionEffect duration="3.6">Confused</ConditionEffect>
+      <ArmorPiercing />
+      <ConditionEffect duration="3.6">Unstable</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0x1721" id="Vampire Bat Swarmer Ruthven">
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>26</Index>
+    </AnimatedTexture>
+    <HitSound>monster/bats_hit</HitSound>
+    <DeathSound>monster/bats_death</DeathSound>
+    <MaxHitPoints>200</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>0</Exp>
+    <Z>0.24</Z>
+    <Flying />
+    <Size>80</Size>
+    <ShadowSize>80</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Invisible</ObjectId>
+      <Damage>20</Damage>
+      <Speed>0</Speed>
+      <Size>80</Size>
+      <LifetimeMS>100</LifetimeMS>
+      <ArmorPiercing />
+      <ConditionEffect duration="3.6">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
@@ -122,6 +174,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x1722" id="Coffin Creature">
     <Enemy />
@@ -187,6 +240,7 @@
     <Exp>0</Exp>
     <Size>120</Size>
     <ShadowSize>80</ShadowSize>
+    <StasisImmune />
     <Projectile id="0">
       <ObjectId>Coffin Bullet</ObjectId>
       <Damage>65</Damage>
@@ -194,80 +248,16 @@
       <Size>80</Size>
       <LifetimeMS>1600</LifetimeMS>
     </Projectile>
+    <Projectile id="1">
+      <ObjectId>Cross Bullet</ObjectId>
+      <Damage>90</Damage>
+      <Speed>30</Speed>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
     <KillStat stat="StructureKills" />
     <Labels>ENEMY</Labels>
-  </Object>
-  <Object type="0x1723" id="Bat Swarm 1">
-    <Class>GameObject</Class>
-    <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>26</Index>
-    </AnimatedTexture>
-    <Size>0</Size>
-  </Object>
-  <Object type="0x1724" id="Vampire Bat Swarmer 1">
-    <DisplayId>Vampire Bat Swarmer</DisplayId>
-    <Enemy />
-    <Class>Character</Class>
-    <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>26</Index>
-    </AnimatedTexture>
-    <HitSound>monster/bats_hit</HitSound>
-    <DeathSound>monster/bats_death</DeathSound>
-    <MaxHitPoints>200</MaxHitPoints>
-    <Defense>25</Defense>
-    <Exp>0</Exp>
-    <Z>0.24</Z>
-    <Flying />
-    <Size>80</Size>
-    <ShadowSize>80</ShadowSize>
-    <Projectile id="0">
-      <ObjectId>Invisible</ObjectId>
-      <Damage>40</Damage>
-      <Speed>0</Speed>
-      <Size>80</Size>
-      <LifetimeMS>100</LifetimeMS>
-      <ConditionEffect duration="3.6">Confused</ConditionEffect>
-    </Projectile>
-    <KillStat stat="CritterKills" />
-    <Labels>ENEMY,CRITTER</Labels>
-  </Object>
-  <Object type="0x1725" id="Bat Swarm 2">
-    <Class>GameObject</Class>
-    <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>26</Index>
-    </AnimatedTexture>
-    <Size>0</Size>
-  </Object>
-  <Object type="0x1726" id="Vampire Bat Swarmer 2">
-    <DisplayId>Vampire Bat Swarmer</DisplayId>
-    <Enemy />
-    <Class>Character</Class>
-    <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>26</Index>
-    </AnimatedTexture>
-    <HitSound>monster/bats_hit</HitSound>
-    <DeathSound>monster/bats_death</DeathSound>
-    <MaxHitPoints>200</MaxHitPoints>
-    <Defense>25</Defense>
-    <Exp>0</Exp>
-    <Z>0.24</Z>
-    <Flying />
-    <Size>80</Size>
-    <ShadowSize>80</ShadowSize>
-    <Projectile id="0">
-      <ObjectId>Invisible</ObjectId>
-      <Damage>40</Damage>
-      <Speed>0</Speed>
-      <Size>80</Size>
-      <LifetimeMS>100</LifetimeMS>
-      <ConditionEffect duration="3.6">Confused</ConditionEffect>
-    </Projectile>
-    <KillStat stat="CritterKills" />
-    <Labels>ENEMY,CRITTER</Labels>
   </Object>
   <Object type="0x1727" id="Vampire Bat Swarmer">
     <Enemy />
@@ -292,7 +282,7 @@
       <Speed>0</Speed>
       <Size>80</Size>
       <LifetimeMS>100</LifetimeMS>
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
@@ -303,6 +293,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x1728" id="Nosferatu">
     <Enemy />
@@ -426,6 +417,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x172a" id="RockBomb">
     <DisplayId>Rock Bomb</DisplayId>
@@ -435,10 +427,7 @@
       <File>lofiObj2</File>
       <Index>0x4d</Index>
     </Texture>
-    <HitSound>monster/stone_walls_hit</HitSound>
-    <DeathSound>monster/stone_walls_death</DeathSound>
-    <MaxHitPoints>400</MaxHitPoints>
-    <Defense>130</Defense>
+    <Invincible />
     <Exp>0</Exp>
     <Size>80</Size>
     <ShadowSize>60</ShadowSize>
@@ -484,6 +473,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x7323" id="HHellhound">
     <DisplayId>Hellhound</DisplayId>
@@ -519,6 +509,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x172c" id="Lesser Bald Vampire">
     <Enemy />
@@ -551,6 +542,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x7324" id="HLesser Bald Vampire">
     <DisplayId>Lesser Bald Vampire</DisplayId>
@@ -585,6 +577,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x172d" id="Helmet Head">
     <Enemy />
@@ -642,6 +635,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x1736" id="Vampire Summoner">
     <Class>GameObject</Class>
@@ -667,6 +661,34 @@
     <Size>120</Size>
     <ShadowSize>80</ShadowSize>
     <TrackLoot />
+    <StasisImmune />
+    <KillStat stat="StructureKills" />
+    <Labels>ENEMY,MINION,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x0BCF" id="Coffin Deux">
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObjBig</File>
+      <Index>0x22</Index>
+    </Texture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>25</Defense>
+    <Exp>500</Exp>
+    <BXP>2375</BXP>
+    <Size>120</Size>
+    <ShadowSize>80</ShadowSize>
+    <TrackLoot />
+    <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,TRACKLOOT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
@@ -692,12 +714,12 @@
     <BXP>237</BXP>
     <Size>100</Size>
     <ShadowSize>100</ShadowSize>
-    <Projectile id="0">
+    <Projectile>
       <ObjectId>Vampire Magic</ObjectId>
-      <Damage>65</Damage>
-      <Speed>55</Speed>
-      <Size>80</Size>
-      <LifetimeMS>1600</LifetimeMS>
+      <Damage>60</Damage>
+      <Speed>50</Speed>
+      <Size>85</Size>
+      <LifetimeMS>1800</LifetimeMS>
     </Projectile>
     <KillStat stat="UndeadKills" />
     <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
@@ -708,5 +730,6 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
 </Objects>

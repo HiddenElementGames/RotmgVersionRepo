@@ -284,6 +284,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x704d" id="Woodland Ultimate Squirrel">
     <DisplayId>Mecha Squirrel</DisplayId>
@@ -320,6 +321,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x704e" id="Woodland Goblin Mage">
     <DisplayId>Forest Goblin Necromancer</DisplayId>
@@ -355,6 +357,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x704f" id="Woodland Goblin">
     <DisplayId>Forest Goblin Bruiser</DisplayId>
@@ -420,6 +423,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x41f9" id="Woodland Swarm Tree">
     <DisplayId>Swarm Tree</DisplayId>
@@ -430,10 +434,12 @@
       <File>pirateCaveObjects32x32</File>
       <Index>0x20</Index>
     </Texture>
+    <MinimapIcon piece="Miniboss" />
     <MaxHitPoints>32500</MaxHitPoints>
     <BXP>926</BXP>
     <Defense>35</Defense>
     <Size>130</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <HealthBarBoss radius="14" />
     <TrackLoot />
     <StasisImmune />
@@ -521,6 +527,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x704c" id="Woodland Mini Megamoth">
     <DisplayId>Micro Megamoth Sentinel</DisplayId>
@@ -546,7 +553,7 @@
       <LifetimeMS>1400</LifetimeMS>
       <Size>70</Size>
       <MultiHit />
-      <ConditionEffect duration="1.4">Confused</ConditionEffect>
+      <ConditionEffect duration="1.4">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_MID</Labels>
@@ -557,6 +564,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x2388" id="Woodland Guardian Megamoth">
     <DisplayId>Micro Megamoth Guardian</DisplayId>
@@ -593,6 +601,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x706b" id="Larva Puke">
     <Class>GameObject</Class>
@@ -623,12 +632,14 @@
         <Index>18</Index>
       </AnimatedTexture>
     </AltTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
     <MaxHitPoints>30000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>0</Exp>
     <Size>140</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <StasisImmune />
     <ParalyzeImmune />
     <StunImmune />
@@ -682,12 +693,14 @@
         <Index>16</Index>
       </AnimatedTexture>
     </Portrait>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>0</Exp>
     <Size>140</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <StasisImmune />
     <ParalyzeImmune />
     <StunImmune />
@@ -813,6 +826,7 @@
         <Index>17</Index>
       </AnimatedTexture>
     </Portrait>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
     <MaxHitPoints>50000</MaxHitPoints>
@@ -820,6 +834,7 @@
     <Exp>15000</Exp>
     <BXP>75000</BXP>
     <Size>170</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <EventChestBoss />
     <TrackLoot />
     <StasisImmune />
@@ -891,13 +906,13 @@
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="45" dustMax="104" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="13" dustMax="31" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust dustMin="37" dustMax="44" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="41" dustMax="47" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="20" />
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Woodland Labyrinth</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Woodland Egg</SpecialSpawn>
@@ -915,6 +930,7 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Woodland Huntress Skin</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0x2384" id="Woodland Wall">
     <Class>Wall</Class>
@@ -1301,6 +1317,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x2392" id="Woodland Butterfly">
     <Class>Character</Class>

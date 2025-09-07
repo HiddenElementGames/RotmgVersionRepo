@@ -284,6 +284,8 @@
     <Exp>10000</Exp>
     <BXP>50000</BXP>
     <Size>130</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/cyclops_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
     <Quest />
@@ -357,7 +359,7 @@
       <MultiHit />
       <ArmorPiercing />
       <Boomerang />
-      <ConditionEffect duration="0.4">Confused</ConditionEffect>
+      <ConditionEffect duration="0.4">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="9">
       <ObjectId>Great Basilisk Tooth</ObjectId>
@@ -518,7 +520,7 @@
       <Size>100</Size>
       <Speed>0</Speed>
       <LifetimeMS>5000</LifetimeMS>
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_STRONG</Labels>
@@ -624,7 +626,7 @@
       <Size>100</Size>
       <Speed>0</Speed>
       <LifetimeMS>5000</LifetimeMS>
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_STRONG</Labels>
@@ -730,7 +732,7 @@
       <Size>100</Size>
       <Speed>0</Speed>
       <LifetimeMS>5000</LifetimeMS>
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_STRONG</Labels>
@@ -836,7 +838,7 @@
       <Size>100</Size>
       <Speed>0</Speed>
       <LifetimeMS>5000</LifetimeMS>
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_STRONG</Labels>
@@ -942,7 +944,7 @@
       <Size>100</Size>
       <Speed>0</Speed>
       <LifetimeMS>5000</LifetimeMS>
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_STRONG</Labels>
@@ -1048,7 +1050,7 @@
       <Size>100</Size>
       <Speed>0</Speed>
       <LifetimeMS>5000</LifetimeMS>
-      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_STRONG</Labels>
@@ -1073,6 +1075,8 @@
     <Exp>15000</Exp>
     <BXP>75000</BXP>
     <Size>160</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <Quest />
@@ -1233,7 +1237,6 @@
       <Speed>95</Speed>
       <LifetimeMS>2100</LifetimeMS>
       <Size>100</Size>
-      <ConditionEffect duration="1.2">Blind</ConditionEffect>
     </Projectile>
     <AltTexture id="1">
       <AnimatedTexture>
@@ -1284,7 +1287,7 @@
       <Speed>105</Speed>
       <LifetimeMS>1500</LifetimeMS>
       <Size>100</Size>
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
       <Boomerang />
       <MultiHit />
     </Projectile>
@@ -2046,7 +2049,7 @@
       <Speed>85</Speed>
       <LifetimeMS>3700</LifetimeMS>
       <Size>100</Size>
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
       <Boomerang />
       <MultiHit />
     </Projectile>
@@ -2080,7 +2083,7 @@
       <Speed>85</Speed>
       <LifetimeMS>3700</LifetimeMS>
       <Size>100</Size>
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
       <Boomerang />
       <MultiHit />
     </Projectile>
@@ -2114,7 +2117,7 @@
       <Speed>85</Speed>
       <LifetimeMS>3700</LifetimeMS>
       <Size>100</Size>
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
       <Boomerang />
       <MultiHit />
     </Projectile>
@@ -2148,7 +2151,7 @@
       <Speed>85</Speed>
       <LifetimeMS>3700</LifetimeMS>
       <Size>100</Size>
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
       <Boomerang />
       <MultiHit />
     </Projectile>
@@ -2173,278 +2176,10 @@
       <File>secludedThicketChars16x16</File>
       <Index>5</Index>
     </AnimatedTexture>
-    <MaxHitPoints>90000</MaxHitPoints>
-    <Defense>30</Defense>
-    <Exp>20000</Exp>
-    <BXP>100000</BXP>
-    <Size>135</Size>
-    <HitSound>monster/archdemon_hit</HitSound>
-    <DeathSound>monster/archdemon_death</DeathSound>
-    <Quest />
-    <God />
-    <StasisImmune />
-    <ParalyzeImmune />
-    <StunImmune />
-    <EventChestBoss />
-    <TrackLoot />
-    <AlwaysPositiveHealth />
-    <Projectile id="0">
-      <ObjectId>Lightning Shot</ObjectId>
-      <Damage>125</Damage>
-      <Speed>70</Speed>
-      <Size>90</Size>
-      <LifetimeMS>5000</LifetimeMS>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="1">
-      <ObjectId>Static Ball</ObjectId>
-      <Damage>80</Damage>
-      <Speed>80</Speed>
-      <Size>90</Size>
-      <LifetimeMS>5000</LifetimeMS>
-      <MultiHit />
-      <ConditionEffect duration="3">Bleeding</ConditionEffect>
-    </Projectile>
-    <Projectile id="2">
-      <ObjectId>Electric Discharge</ObjectId>
-      <Damage>140</Damage>
-      <Speed>60</Speed>
-      <LifetimeMS>5000</LifetimeMS>
-      <Size>80</Size>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="3">
-      <ObjectId>Static Star</ObjectId>
-      <Damage>130</Damage>
-      <Speed>40</Speed>
-      <LifetimeMS>10000</LifetimeMS>
-      <Magnitude>8</Magnitude>
-      <PassesCover />
-      <Parametric />
-      <FaceDir />
-      <Size>120</Size>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="4">
-      <ObjectId>Electric Field</ObjectId>
-      <Speed>150</Speed>
-      <Damage>0</Damage>
-      <Size>100</Size>
-      <LifetimeMS>4000</LifetimeMS>
-      <ConditionEffect duration="2">Petrify</ConditionEffect>
-      <MultiHit />
-    </Projectile>
-    <AltTexture id="1">
-      <AnimatedTexture>
-        <File>secludedThicketChars16x16</File>
-        <Index>9</Index>
-      </AnimatedTexture>
-    </AltTexture>
-    <AltTexture id="2">
-      <AnimatedTexture>
-        <File>secludedThicketChars16x16</File>
-        <Index>10</Index>
-      </AnimatedTexture>
-    </AltTexture>
-    <AltTexture id="3">
-      <AnimatedTexture>
-        <File>secludedThicketChars16x16</File>
-        <Index>11</Index>
-      </AnimatedTexture>
-    </AltTexture>
-    <AltTexture id="4">
-      <AnimatedTexture>
-        <File>secludedThicketChars16x16</File>
-        <Index>12</Index>
-      </AnimatedTexture>
-    </AltTexture>
-    <AltTexture id="5">
-      <AnimatedTexture>
-        <File>secludedThicketChars16x16</File>
-        <Index>13</Index>
-      </AnimatedTexture>
-    </AltTexture>
-    <AltTexture id="6">
-      <AnimatedTexture>
-        <File>secludedThicketChars16x16</File>
-        <Index>14</Index>
-      </AnimatedTexture>
-    </AltTexture>
-    <AltTexture id="7">
-      <AnimatedTexture>
-        <File>secludedThicketChars16x16</File>
-        <Index>15</Index>
-      </AnimatedTexture>
-    </AltTexture>
-    <AltTexture id="8">
-      <AnimatedTexture>
-        <File>secludedThicketChars16x16</File>
-        <Index>16</Index>
-      </AnimatedTexture>
-    </AltTexture>
-    <AltTexture id="9">
-      <AnimatedTexture>
-        <File>secludedThicketChars16x16</File>
-        <Index>17</Index>
-      </AnimatedTexture>
-    </AltTexture>
-    <AltTexture id="10">
-      <AnimatedTexture>
-        <File>secludedThicketChars16x16</File>
-        <Index>18</Index>
-      </AnimatedTexture>
-    </AltTexture>
-    <Animation prob="1" period="0.8" id="dance">
-      <Frame time="0.2">
-        <AnimatedTexture>
-          <File>secludedThicketChars16x16</File>
-          <Index>11</Index>
-        </AnimatedTexture>
-      </Frame>
-      <Frame time="0.2">
-        <AnimatedTexture>
-          <File>secludedThicketChars16x16</File>
-          <Index>12</Index>
-        </AnimatedTexture>
-      </Frame>
-      <Frame time="0.2">
-        <AnimatedTexture>
-          <File>secludedThicketChars16x16</File>
-          <Index>13</Index>
-        </AnimatedTexture>
-      </Frame>
-      <Frame time="0.2">
-        <AnimatedTexture>
-          <File>secludedThicketChars16x16</File>
-          <Index>14</Index>
-        </AnimatedTexture>
-      </Frame>
-    </Animation>
-    <Animation prob="1" period="0.4" id="stormy">
-      <Frame time="0.2">
-        <AnimatedTexture>
-          <File>secludedThicketChars16x16</File>
-          <Index>10</Index>
-        </AnimatedTexture>
-      </Frame>
-      <Frame time="0.2">
-        <AnimatedTexture>
-          <File>secludedThicketChars16x16</File>
-          <Index>9</Index>
-        </AnimatedTexture>
-      </Frame>
-    </Animation>
-    <Animation prob="1" period="0.8" id="hurt">
-      <Frame time="0.4">
-        <AnimatedTexture>
-          <File>secludedThicketChars16x16</File>
-          <Index>15</Index>
-        </AnimatedTexture>
-      </Frame>
-      <Frame time="0.4">
-        <AnimatedTexture>
-          <File>secludedThicketChars16x16</File>
-          <Index>16</Index>
-        </AnimatedTexture>
-      </Frame>
-    </Animation>
-    <Animation prob="1" period="0.4" id="ele">
-      <Frame time="0.2">
-        <AnimatedTexture>
-          <File>secludedThicketChars16x16</File>
-          <Index>17</Index>
-        </AnimatedTexture>
-      </Frame>
-      <Frame time="0.2">
-        <AnimatedTexture>
-          <File>secludedThicketChars16x16</File>
-          <Index>18</Index>
-        </AnimatedTexture>
-      </Frame>
-    </Animation>
-    <Animation prob="1" period="0.4" id="ini">
-      <Frame time="1">
-        <AnimatedTexture>
-          <File>secludedThicketChars16x16</File>
-          <Index>9</Index>
-        </AnimatedTexture>
-      </Frame>
-    </Animation>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="65" dustMax="152" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="24" dustMax="56" seasonalBonus="0.15">redDust</SoulboundDust>
-    <HealthBarBoss radius="30" />
-    <KillStat stat="HumanoidKills" />
-    <KillStat stat="GodKills" />
-    <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY</Labels>
-    <SpecialSpawn category="Bis">Secluded Thicket Portal</SpecialSpawn>
-    <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>
-    <SpecialSpawn category="PetCollector">Rare Avian Egg</SpecialSpawn>
-    <SpecialSpawn category="Generous">Epic Quest Chest Item</SpecialSpawn>
-    <SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn>
-    <SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn>
-    <SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn>
-    <SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn>
-    <SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn>
-    <SpecialSpawn category="ExaltedBanner">ExaltationBanner</SpecialSpawn>
-    <SpecialSpawn category="AgentOfOryx_Weapon">Shard of the Mad God x1</SpecialSpawn>
-    <SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn>
-    <SpecialSpawn category="AgentOfOryx_Ring">Shard of the Advisor x1</SpecialSpawn>
-    <SpecialSpawn category="Souvenir_HIG">Penetrating Blast Spell</SpecialSpawn>
-    <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
-    <SpecialSpawn category="SkinHunter" perPlayer="true">Good Mask Spirit Pet Stone</SpecialSpawn>
-    <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
-    <SpecialSpawn category="Token">3STToken</SpecialSpawn>
-    <SpecialSpawn category="Oryxmania">Xolotl Arena Portal</SpecialSpawn>
-    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
-    <Presentation>
-      <Style id="SetAnimini">
-        <StyleStep id="ini">SetAnimation</StyleStep>
-      </Style>
-      <Style id="SetAnimstormy">
-        <StyleStep id="stormy">SetAnimation</StyleStep>
-      </Style>
-      <Style id="SetAnimdance">
-        <StyleStep id="dance">SetAnimation</StyleStep>
-      </Style>
-      <Style id="SetAlt1">
-        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
-      </Style>
-      <Style id="SetAlt2">
-        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
-      </Style>
-      <Style id="SetAlt3">
-        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
-      </Style>
-      <Style id="SetAlt4">
-        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
-      </Style>
-      <Style id="SetAlt5">
-        <StyleStep altTextureId="5">SetAltTexture</StyleStep>
-      </Style>
-      <Style id="SetAlt6">
-        <StyleStep altTextureId="6">SetAltTexture</StyleStep>
-      </Style>
-      <Style id="SetAlt7">
-        <StyleStep altTextureId="7">SetAltTexture</StyleStep>
-      </Style>
-      <Style id="SetAlt8">
-        <StyleStep altTextureId="8">SetAltTexture</StyleStep>
-      </Style>
-      <Style id="SetAlt9">
-        <StyleStep altTextureId="9">SetAltTexture</StyleStep>
-      </Style>
-      <Style id="SetAlt10">
-        <StyleStep altTextureId="10">SetAltTexture</StyleStep>
-      </Style>
-      <Style id="SetAnimhurt">
-        <StyleStep id="hurt">SetAnimation</StyleStep>
-      </Style>
-      <Style id="SetAnimele">
-        <StyleStep id="ele">SetAnimation</StyleStep>
-      </Style>
-    </Presentation>
-  </Object>
+      --&gt;
+      <MaxHitPoints>90000</MaxHitPoints><Defense>30</Defense><Exp>20000</Exp><BXP>100000</BXP><Size>135</Size><CustomHitbox x="0" y="0" scale="2.0" /><MinimapIcon piece="Boss" /><HitSound>monster/archdemon_hit</HitSound><DeathSound>monster/archdemon_death</DeathSound><Quest /><God /><StasisImmune /><ParalyzeImmune /><StunImmune /><EventChestBoss /><TrackLoot /><AlwaysPositiveHealth /><Projectile id="0"><ObjectId>Lightning Shot</ObjectId><Damage>125</Damage><Speed>70</Speed><Size>90</Size><LifetimeMS>5000</LifetimeMS><MultiHit /></Projectile><Projectile id="1"><ObjectId>Static Ball</ObjectId><Damage>80</Damage><Speed>80</Speed><Size>90</Size><LifetimeMS>5000</LifetimeMS><MultiHit /><ConditionEffect duration="3">Bleeding</ConditionEffect></Projectile><Projectile id="2"><ObjectId>Electric Discharge</ObjectId><Damage>140</Damage><Speed>60</Speed><LifetimeMS>5000</LifetimeMS><Size>80</Size><MultiHit /></Projectile><Projectile id="3"><ObjectId>Static Star</ObjectId><Damage>130</Damage><Speed>40</Speed><LifetimeMS>10000</LifetimeMS><Magnitude>8</Magnitude><PassesCover /><Parametric /><FaceDir /><Size>120</Size><MultiHit /></Projectile><Projectile id="4"><ObjectId>Electric Field</ObjectId><Speed>150</Speed><Damage>0</Damage><Size>100</Size><LifetimeMS>4000</LifetimeMS><ConditionEffect duration="2">Petrify</ConditionEffect><MultiHit /></Projectile><AltTexture id="1"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>9</Index></AnimatedTexture></AltTexture><AltTexture id="2"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>10</Index></AnimatedTexture></AltTexture><AltTexture id="3"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>11</Index></AnimatedTexture></AltTexture><AltTexture id="4"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>12</Index></AnimatedTexture></AltTexture><AltTexture id="5"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>13</Index></AnimatedTexture></AltTexture><AltTexture id="6"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>14</Index></AnimatedTexture></AltTexture><AltTexture id="7"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>15</Index></AnimatedTexture></AltTexture><AltTexture id="8"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>16</Index></AnimatedTexture></AltTexture><AltTexture id="9"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>17</Index></AnimatedTexture></AltTexture><AltTexture id="10"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>18</Index></AnimatedTexture></AltTexture><Animation prob="1" period="0.8" id="dance"><Frame time="0.2"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>11</Index></AnimatedTexture></Frame><Frame time="0.2"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>12</Index></AnimatedTexture></Frame><Frame time="0.2"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>13</Index></AnimatedTexture></Frame><Frame time="0.2"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>14</Index></AnimatedTexture></Frame></Animation><Animation prob="1" period="0.4" id="stormy"><Frame time="0.2"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>10</Index></AnimatedTexture></Frame><Frame time="0.2"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>9</Index></AnimatedTexture></Frame></Animation><Animation prob="1" period="0.8" id="hurt"><Frame time="0.4"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>15</Index></AnimatedTexture></Frame><Frame time="0.4"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>16</Index></AnimatedTexture></Frame></Animation><Animation prob="1" period="0.4" id="ele"><Frame time="0.2"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>17</Index></AnimatedTexture></Frame><Frame time="0.2"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>18</Index></AnimatedTexture></Frame></Animation><Animation prob="1" period="0.4" id="ini"><Frame time="1"><AnimatedTexture><File>secludedThicketChars16x16</File><Index>9</Index></AnimatedTexture></Frame></Animation>
+      --&gt;
+      <SoulboundDust dustMin="40" dustMax="48" seasonalBonus="0.15">greenDust</SoulboundDust><SoulboundDust dustMin="52" dustMax="60" seasonalBonus="0.15">redDust</SoulboundDust><HealthBarBoss radius="30" /><KillStat stat="HumanoidKills" /><KillStat stat="GodKills" /><DamageBasedXP /><Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY,AMULET_VETERAN</Labels><SpecialSpawn category="Bis">Secluded Thicket Portal</SpecialSpawn><SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn><SpecialSpawn category="PetCollector">Rare Avian Egg</SpecialSpawn><SpecialSpawn category="Generous">Epic Quest Chest Item</SpecialSpawn><SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn><SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn><SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn><SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn><SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn><SpecialSpawn category="ExaltedBanner">ExaltationBanner</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Weapon">Shard of the Mad God x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Ring">Shard of the Advisor x1</SpecialSpawn><SpecialSpawn category="Souvenir_HIG">Penetrating Blast Spell</SpecialSpawn><SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn><SpecialSpawn category="SkinHunter" perPlayer="true">Good Mask Spirit Pet Stone</SpecialSpawn><SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn><SpecialSpawn category="Token">3STToken</SpecialSpawn><SpecialSpawn category="Oryxmania">Xolotl Arena Portal</SpecialSpawn><SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn><SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn><SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn><Presentation><Style id="SetAnimini"><StyleStep id="ini">SetAnimation</StyleStep></Style><Style id="SetAnimstormy"><StyleStep id="stormy">SetAnimation</StyleStep></Style><Style id="SetAnimdance"><StyleStep id="dance">SetAnimation</StyleStep></Style><Style id="SetAlt1"><StyleStep altTextureId="1">SetAltTexture</StyleStep></Style><Style id="SetAlt2"><StyleStep altTextureId="2">SetAltTexture</StyleStep></Style><Style id="SetAlt3"><StyleStep altTextureId="3">SetAltTexture</StyleStep></Style><Style id="SetAlt4"><StyleStep altTextureId="4">SetAltTexture</StyleStep></Style><Style id="SetAlt5"><StyleStep altTextureId="5">SetAltTexture</StyleStep></Style><Style id="SetAlt6"><StyleStep altTextureId="6">SetAltTexture</StyleStep></Style><Style id="SetAlt7"><StyleStep altTextureId="7">SetAltTexture</StyleStep></Style><Style id="SetAlt8"><StyleStep altTextureId="8">SetAltTexture</StyleStep></Style><Style id="SetAlt9"><StyleStep altTextureId="9">SetAltTexture</StyleStep></Style><Style id="SetAlt10"><StyleStep altTextureId="10">SetAltTexture</StyleStep></Style><Style id="SetAnimhurt"><StyleStep id="hurt">SetAnimation</StyleStep></Style><Style id="SetAnimele"><StyleStep id="ele">SetAnimation</StyleStep></Style></Presentation></Object>
   <Object type="0x36cb" id="Lightning Totem">
     <DisplayId>Lightning Totem</DisplayId>
     <Enemy />

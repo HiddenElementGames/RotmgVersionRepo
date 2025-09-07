@@ -8,11 +8,13 @@
       <File>lofiChar16x16</File>
       <Index>0x54</Index>
     </Texture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/oryx_hit</HitSound>
     <DeathSound>monster/oryx_death</DeathSound>
     <Size>120</Size>
-    <MaxHitPoints>75000</MaxHitPoints>
+    <MaxHitPoints>100000</MaxHitPoints>
     <Defense>60</Defense>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Exp>50000</Exp>
     <BXP>250000</BXP>
     <Quest />
@@ -47,14 +49,13 @@
       <Damage>160</Damage>
       <Speed>55</Speed>
       <LifetimeMS>3000</LifetimeMS>
-      <ConditionEffect duration="5">Blind</ConditionEffect>
     </Projectile>
     <Projectile id="4">
       <ObjectId>Blue Star</ObjectId>
       <Damage>160</Damage>
       <Speed>105</Speed>
       <LifetimeMS>1200</LifetimeMS>
-      <ConditionEffect duration="5">Confused</ConditionEffect>
+      <ConditionEffect duration="5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="5">
       <ObjectId>Grey Star</ObjectId>
@@ -137,14 +138,13 @@
       <ConditionEffect duration="15">Weak</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="49" dustMax="115" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="16" dustMax="38" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="3" dustMax="7" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <SoulboundDust dustMin="40" dustMax="48" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="52" dustMax="60" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="OryxKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,HPSCALEONENTRY,AMULET_VETERAN</Labels>
     <SpecialSpawn category="Bis">Wine Cellar Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Penguin Egg</SpecialSpawn>
@@ -162,8 +162,10 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
-  <Object type="0x23ce" id="O2 Bullet Split">
+  <Object type="0x23CE" id="O2 Bullet Split">
     <DisplayId>Oryx the Mad God</DisplayId>
     <Class>GameObject</Class>
     <Texture>
@@ -184,7 +186,7 @@
     </Projectile>
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0x6ffb" id="O2 MinionRemover">
+  <Object type="0x6FFB" id="O2 MinionRemover">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiChar8x8</File>
@@ -192,7 +194,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0xb01a" id="O2 Bomb Artifact">
+  <Object type="0xB01A" id="O2 Bomb Artifact">
     <DisplayId>Oryx the Mad God</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -215,7 +217,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0xb096" id="O2 Bomb Artifact 2">
+  <Object type="0xB096" id="O2 Bomb Artifact 2">
     <DisplayId>Oryx the Mad God</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -227,7 +229,7 @@
     <Invincible />
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0xaadf" id="Cog Artifact2 R">
+  <Object type="0xAADF" id="Cog Artifact2 R">
     <Enemy />
     <Exp>195</Exp>
     <Class>Character</Class>
@@ -251,7 +253,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0x203f" id="Cog Artifact2 L">
+  <Object type="0x203F" id="Cog Artifact2 L">
     <Enemy />
     <Exp>195</Exp>
     <Class>Character</Class>
@@ -294,7 +296,7 @@
       <Damage>100</Damage>
       <Speed>70</Speed>
       <LifetimeMS>4000</LifetimeMS>
-      <ConditionEffect duration="1.5">Confused</ConditionEffect>
+      <ConditionEffect duration="1.5">Unstable</ConditionEffect>
       <Boomerang />
     </Projectile>
     <Projectile id="1">
@@ -314,7 +316,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0de0" id="Abomination of Oryx">
+  <Object type="0x0DE0" id="Abomination of Oryx">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -367,8 +369,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0de1" id="Monstrosity of Oryx">
+  <Object type="0x0DE1" id="Monstrosity of Oryx">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -391,8 +394,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0de2" id="Monstrosity Scarab">
+  <Object type="0x0DE2" id="Monstrosity Scarab">
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -421,8 +425,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0de3" id="Aberrant of Oryx">
+  <Object type="0x0DE3" id="Aberrant of Oryx">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -445,8 +450,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0de4" id="Aberrant Blaster">
+  <Object type="0x0DE4" id="Aberrant Blaster">
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -456,10 +462,7 @@
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>80</Size>
-    <MaxHitPoints>100</MaxHitPoints>
-    <Defense>0</Defense>
-    <Exp>1</Exp>
-    <BXP>4</BXP>
+    <Invincible />
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
       <Damage>50</Damage>
@@ -469,7 +472,7 @@
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,GROTESQUE</Labels>
   </Object>
-  <Object type="0x0de5" id="Wine Barrel">
+  <Object type="0x0DE5" id="Wine Barrel">
     <Class>GameObject</Class>
     <RandomTexture>
       <Texture>
@@ -496,7 +499,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0x0de6" id="WineSpill Puddle">
+  <Object type="0x0DE6" id="WineSpill Puddle">
     <Class>GameObject</Class>
     <RandomTexture>
       <Texture>
@@ -515,7 +518,7 @@
     <DrawOnGround />
     <Static />
   </Object>
-  <Object type="0x0de7" id="WineSpill DL">
+  <Object type="0x0DE7" id="WineSpill DL">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiEnvironment3</File>
@@ -524,7 +527,7 @@
     <DrawOnGround />
     <Static />
   </Object>
-  <Object type="0x0de8" id="WineSpill DR">
+  <Object type="0x0DE8" id="WineSpill DR">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiEnvironment3</File>
@@ -533,7 +536,7 @@
     <DrawOnGround />
     <Static />
   </Object>
-  <Object type="0x0de9" id="WineSpill UR">
+  <Object type="0x0DE9" id="WineSpill UR">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiEnvironment3</File>
@@ -542,7 +545,7 @@
     <DrawOnGround />
     <Static />
   </Object>
-  <Object type="0x0dea" id="WineSpill UL">
+  <Object type="0x0DEA" id="WineSpill UL">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiEnvironment3</File>
@@ -551,7 +554,7 @@
     <DrawOnGround />
     <Static />
   </Object>
-  <Object type="0x0deb" id="WineSpill L">
+  <Object type="0x0DEB" id="WineSpill L">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiEnvironment3</File>
@@ -560,7 +563,7 @@
     <DrawOnGround />
     <Static />
   </Object>
-  <Object type="0x0dec" id="WineSpill R">
+  <Object type="0x0DEC" id="WineSpill R">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiEnvironment3</File>
@@ -569,7 +572,7 @@
     <DrawOnGround />
     <Static />
   </Object>
-  <Object type="0x0ded" id="WineSpill U">
+  <Object type="0x0DED" id="WineSpill U">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiEnvironment3</File>
@@ -578,7 +581,7 @@
     <DrawOnGround />
     <Static />
   </Object>
-  <Object type="0x0dee" id="WineSpill D">
+  <Object type="0x0DEE" id="WineSpill D">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiEnvironment3</File>
@@ -587,7 +590,7 @@
     <DrawOnGround />
     <Static />
   </Object>
-  <Object type="0x0def" id="WineSpill C">
+  <Object type="0x0DEF" id="WineSpill C">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiEnvironment3</File>
@@ -596,7 +599,7 @@
     <DrawOnGround />
     <Static />
   </Object>
-  <Object type="0x0df0" id="Purple Goo">
+  <Object type="0x0DF0" id="Purple Goo">
     <Enemy />
     <Class>Character</Class>
     <RandomTexture>
@@ -639,7 +642,7 @@
     </Projectile>
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0x0df1" id="Bile of Oryx">
+  <Object type="0x0DF1" id="Bile of Oryx">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -664,7 +667,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0x0df2" id="Vintner of Oryx">
+  <Object type="0x0DF2" id="Vintner of Oryx">
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -744,7 +747,7 @@
     <Size>100</Size>
     <ShadowSize>40</ShadowSize>
   </Object>
-  <Object type="0x752a" id="Sanctuary Sword Monument Active">
+  <Object type="0x752A" id="Sanctuary Sword Monument Active">
     <Class>GameObject</Class>
     <Texture>
       <File>oryxSanctuaryObjects32x32</File>
@@ -851,7 +854,7 @@
     <Size>100</Size>
     <ShadowSize>40</ShadowSize>
   </Object>
-  <Object type="0x752b" id="Sanctuary Shield Monument Active">
+  <Object type="0x752B" id="Sanctuary Shield Monument Active">
     <Class>GameObject</Class>
     <Texture>
       <File>oryxSanctuaryObjects32x32</File>
@@ -958,7 +961,7 @@
     <Size>100</Size>
     <ShadowSize>40</ShadowSize>
   </Object>
-  <Object type="0x752c" id="Sanctuary Helmet Monument Active">
+  <Object type="0x752C" id="Sanctuary Helmet Monument Active">
     <Class>GameObject</Class>
     <Texture>
       <File>oryxSanctuaryObjects32x32</File>
@@ -1065,7 +1068,7 @@
     <Size>100</Size>
     <ShadowSize>40</ShadowSize>
   </Object>
-  <Object type="0x6e28" id="Oryx 2 Beam">
+  <Object type="0x6E28" id="Oryx 2 Beam">
     <DisplayId>Exalted Beam</DisplayId>
     <Class>GameObject</Class>
     <Texture>
@@ -1088,7 +1091,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0x713d" id="Infested Oryx the Mad God 2">
+  <Object type="0x713D" id="Infested Oryx the Mad God 2">
     <DisplayId>Oryx the Mad God</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -1096,11 +1099,13 @@
       <File>chars16x16rEncounters</File>
       <Index>158</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/oryx_hit</HitSound>
     <DeathSound>monster/oryx_death</DeathSound>
     <Size>120</Size>
-    <MaxHitPoints>75000</MaxHitPoints>
+    <MaxHitPoints>90000</MaxHitPoints>
     <Defense>240</Defense>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Exp>50000</Exp>
     <BXP>250000</BXP>
     <Quest />
@@ -1135,14 +1140,13 @@
       <Damage>160</Damage>
       <Speed>55</Speed>
       <LifetimeMS>3000</LifetimeMS>
-      <ConditionEffect duration="5">Blind</ConditionEffect>
     </Projectile>
     <Projectile id="4">
       <ObjectId>Blue Star</ObjectId>
       <Damage>160</Damage>
       <Speed>105</Speed>
       <LifetimeMS>1200</LifetimeMS>
-      <ConditionEffect duration="5">Confused</ConditionEffect>
+      <ConditionEffect duration="5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="5">
       <ObjectId>Grey Star</ObjectId>
@@ -1225,14 +1229,13 @@
       <ConditionEffect duration="15">Sick</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="49" dustMax="115" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="16" dustMax="38" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="3" dustMax="7" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <SoulboundDust dustMin="40" dustMax="48" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="52" dustMax="60" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="OryxKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,HPSCALEONENTRY,AMULET_VETERAN</Labels>
     <SpecialSpawn category="Bis">Wine Cellar Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Penguin Egg</SpecialSpawn>
@@ -1249,8 +1252,10 @@
     <SpecialSpawn category="Souvenir_MID">Lethargic Sentience</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
-  <Object type="0x713e" id="O2 Challenger Fame">
+  <Object type="0x713E" id="O2 Challenger Fame">
     <Class>GameObject</Class>
     <Enemy />
     <Texture>
@@ -1262,7 +1267,7 @@
     <Exp>240000</Exp>
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0xb3a8" id="Infested O2 Bullet Split">
+  <Object type="0xB3A8" id="Infested O2 Bullet Split">
     <DisplayId>Oryx the Mad God</DisplayId>
     <Class>GameObject</Class>
     <Texture>
@@ -1283,7 +1288,7 @@
     </Projectile>
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0xb3a9" id="Infested O2 MinionRemover">
+  <Object type="0xB3A9" id="Infested O2 MinionRemover">
     <Class>GameObject</Class>
     <Texture>
       <File>lofiChar8x8</File>
@@ -1291,7 +1296,7 @@
     </Texture>
     <Size>0</Size>
   </Object>
-  <Object type="0xb3aa" id="Infested O2 Bomb Artifact">
+  <Object type="0xB3AA" id="Infested O2 Bomb Artifact">
     <DisplayId>Oryx the Mad God</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -1314,7 +1319,7 @@
       </Style>
     </Presentation>
   </Object>
-  <Object type="0xb3ab" id="Infested O2 Bomb Artifact 2">
+  <Object type="0xB3AB" id="Infested O2 Bomb Artifact 2">
     <DisplayId>Oryx the Mad God</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -1326,7 +1331,7 @@
     <Invincible />
     <Labels>ENEMY</Labels>
   </Object>
-  <Object type="0xb3ac" id="Infested Cog Artifact2 R">
+  <Object type="0xB3AC" id="Infested Cog Artifact2 R">
     <Enemy />
     <Exp>195</Exp>
     <Class>Character</Class>
@@ -1350,7 +1355,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0xb3ad" id="Infested Cog Artifact2 L">
+  <Object type="0xB3AD" id="Infested Cog Artifact2 L">
     <Enemy />
     <Exp>195</Exp>
     <Class>Character</Class>
@@ -1374,7 +1379,7 @@
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
-  <Object type="0xb3ae" id="Infested pD Walker 2">
+  <Object type="0xB3AE" id="Infested pD Walker 2">
     <DisplayId>Walking Horror</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1403,7 +1408,7 @@
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,GROTESQUE</Labels>
   </Object>
-  <Object type="0xb3af" id="Infested pD Maw 2">
+  <Object type="0xB3AF" id="Infested pD Maw 2">
     <DisplayId>Horror Maw</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1462,7 +1467,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0xb3b0" id="Infested pD Tongue 2">
+  <Object type="0xB3B0" id="Infested pD Tongue 2">
     <DisplayId>Furious Lasher</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -1497,7 +1502,7 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
-  <Object type="0xb3b1" id="Infested pD Painling 2">
+  <Object type="0xB3B1" id="Infested pD Painling 2">
     <DisplayId>Painling</DisplayId>
     <Class>Character</Class>
     <Enemy />

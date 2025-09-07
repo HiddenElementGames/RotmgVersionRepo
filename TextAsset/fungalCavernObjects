@@ -677,7 +677,7 @@
       <Damage>160</Damage>
       <Size>110</Size>
       <LifetimeMS>1200</LifetimeMS>
-      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <ConditionEffect duration="1.4">Stunned</ConditionEffect>
     </Projectile>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,NATURE,MINION_MID</Labels>
@@ -1362,7 +1362,7 @@
       <PassesCover />
       <Frequency>6</Frequency>
       <Amplitude>2</Amplitude>
-      <ConditionEffect duration="3">Weak</ConditionEffect>
+      <ConditionEffect duration="1.4">Weak</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>Invisible</ObjectId>
@@ -1586,6 +1586,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb29a" id="GC Blue Worm Tail">
     <DisplayId>Cavecrawler Glowworm</DisplayId>
@@ -1622,6 +1623,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb2b1" id="GC Red Worm">
     <DisplayId>Cavecrawler Leech</DisplayId>
@@ -1826,6 +1828,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb2b6" id="GC Yellow Worm Tail">
     <DisplayId>Cavecrawler Maggot</DisplayId>
@@ -1862,6 +1865,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb502" id="GC Mushroom Slammer Melee E">
     <Class>Character</Class>
@@ -2834,6 +2838,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb516" id="GC Blue Worm Tail E">
     <DisplayId>Cavecrawler Glowworm</DisplayId>
@@ -2870,6 +2875,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb517" id="GC Red Worm E">
     <DisplayId>Cavecrawler Leech</DisplayId>
@@ -3012,7 +3018,7 @@
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>GC Yellow Worm Ball</ObjectId>
-      <Damage>150</Damage>
+      <Damage>100</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2400</LifetimeMS>
       <Size>100</Size>
@@ -3074,6 +3080,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb51c" id="GC Yellow Worm Tail E">
     <DisplayId>Cavecrawler Maggot</DisplayId>
@@ -3110,6 +3117,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb28e" id="GC Boss Target">
     <Class>GameObject</Class>
@@ -3305,10 +3313,12 @@
       <File>fungalCavernChars16x16</File>
       <Index>0</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/ogres_death</DeathSound>
     <Size>140</Size>
     <ShadowSize>75</ShadowSize>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <MaxHitPoints>67500</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>70000</Exp>
@@ -3377,14 +3387,14 @@
       <PassesCover />
       <ArmorPiercing />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="73" dustMax="170" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="35" dustMax="81" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="9" dustMax="21" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <SoulboundDust dustMin="32" dustMax="38" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="28" dustMax="34" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust dustMin="22" dustMax="28" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <HealthBarBoss radius="40" />
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,BEAST,GOD,QUEST,TRACKLOOT,STGEMDROP,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,BEAST,GOD,QUEST,TRACKLOOT,STGEMDROP,HPSCALEONENTRY,AMULET_VETERAN</Labels>
     <SpecialSpawn category="Bis">GC Gigantic Cave Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Superburger</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Penguin Egg</SpecialSpawn>
@@ -3407,6 +3417,8 @@
     <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0xb291" id="GC Boss Body">
     <DisplayId>Crystal Worm Mother</DisplayId>
@@ -3417,6 +3429,7 @@
       <Index>1</Index>
     </AnimatedTexture>
     <Size>140</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <HitSound>monster/flayers_hit</HitSound>
     <DeathSound>monster/flayers_death</DeathSound>
     <MaxHitPoints>5250</MaxHitPoints>
@@ -3465,6 +3478,7 @@
       <Index>2</Index>
     </AnimatedTexture>
     <Size>140</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <HitSound>monster/flayers_hit</HitSound>
     <DeathSound>monster/flayers_death</DeathSound>
     <MaxHitPoints>4500</MaxHitPoints>
@@ -3552,6 +3566,7 @@
       <Index>3</Index>
     </AnimatedTexture>
     <Size>120</Size>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <HitSound>monster/flayers_hit</HitSound>
     <DeathSound>monster/flayers_death</DeathSound>
     <MaxHitPoints>12000</MaxHitPoints>

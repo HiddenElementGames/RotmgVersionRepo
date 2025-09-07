@@ -169,7 +169,8 @@
     <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
-    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x25bf" id="Ruins Cactus Burst">
     <DisplayId>Cactus</DisplayId>
@@ -228,7 +229,6 @@
       <LifetimeMS>4000</LifetimeMS>
       <Size>100</Size>
       <Magnitude>0.25</Magnitude>
-      <ConditionEffect duration="1">Blind</ConditionEffect>
       <ParticleTrail />
       <Parametric />
     </Projectile>
@@ -242,6 +242,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x25c1" id="Ruins Scorpion">
     <DisplayId>Desert Scorpion</DisplayId>
@@ -285,6 +286,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x70be" id="Ruins Vulture">
     <DisplayId>Vulture</DisplayId>
@@ -323,6 +325,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x70bd" id="Ruins Antlion">
     <DisplayId>Giant Antlion</DisplayId>
@@ -358,6 +361,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x70bf" id="Ruins Warrior">
     <DisplayId>Terracotta Warrior</DisplayId>
@@ -392,6 +396,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x70ea" id="Ruins Paladin">
     <DisplayId>Terracotta Paladin</DisplayId>
@@ -426,6 +431,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x70eb" id="Ruins Knight">
     <DisplayId>Terracotta Knight</DisplayId>
@@ -460,6 +466,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x70c2" id="Ruins Monolith">
     <DisplayId>Ancient Monolith</DisplayId>
@@ -516,6 +523,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x70c3" id="Ruins Lamp">
     <DisplayId>Magic Lamp</DisplayId>
@@ -538,13 +546,6 @@
     <TrackLoot />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
-    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
-    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
-    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
-    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
-    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
-    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
-    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
   </Object>
   <Object type="0x70f3" id="Ruins Cluster Bomb">
     <DisplayId>Magic Lamp</DisplayId>
@@ -571,6 +572,7 @@
     </AnimatedTexture>
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>6750</MaxHitPoints>
@@ -634,6 +636,7 @@
     </AltTexture>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>160</Size>
     <ShadowSize>140</ShadowSize>
     <MaxHitPoints>10500</MaxHitPoints>
@@ -747,12 +750,12 @@
       <ConditionEffect duration="1.5">Slowed</ConditionEffect>
       <Boomerang />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="11" dustMax="25" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="25" dustMax="29" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD,HPSCALEONENTRY,AMULET_ROOKIE</Labels>
     <SpecialSpawn category="Bis">Ancient Ruins Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Fries</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Common Exotic Egg</SpecialSpawn>
@@ -770,6 +773,8 @@
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
     <SpecialSpawn category="Mercenary_A">Mercenary A Dungeon</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 1</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>

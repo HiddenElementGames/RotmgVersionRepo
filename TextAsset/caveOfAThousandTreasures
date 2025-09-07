@@ -553,12 +553,12 @@
       <LifetimeMS>3000</LifetimeMS>
       <Size>150</Size>
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="7" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="43" dustMax="50" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="25" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,CONSTRUCT,GOD,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,CONSTRUCT,GOD,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY,AMULET_ROOKIE</Labels>
     <SpecialSpawn category="Bis">Treasure Cave Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Fries</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Common Avian Egg</SpecialSpawn>
@@ -575,6 +575,8 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 1</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt2">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>
@@ -718,7 +720,6 @@
       <Speed>60</Speed>
       <LifetimeMS>900</LifetimeMS>
       <Size>150</Size>
-      <ConditionEffect duration="1">Blind</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>Black Ball</ObjectId>

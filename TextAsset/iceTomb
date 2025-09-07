@@ -37,6 +37,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb246" id="Ice Tomb Defender Soul">
     <Class>Character</Class>
@@ -104,7 +105,8 @@
     <ShadowSize>60</ShadowSize>
     <Z>0.5</Z>
     <Flying />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="24" dustMax="55" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="27" dustMax="31" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="41" dustMax="47" seasonalBonus="0.15">redDust</SoulboundDust>
     <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb247" id="Ice Tomb Support Soul">
@@ -584,8 +586,9 @@
       <Index>0x0e</Index>
     </Texture>
     <Size>0</Size>
+    <Exp>10</Exp>
     <EventChestBoss />
-    <Labels>ENEMY,BOSS,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,HPSCALEONENTRY,AMULET_VETERAN</Labels>
     <SpecialSpawn category="Bis">Ice Tomb Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Aquatic Egg</SpecialSpawn>
@@ -601,6 +604,8 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0x7fa7" id="Activator">
     <DisplayId>Mysterious Ice Shard</DisplayId>
@@ -782,7 +787,6 @@
       <Damage>40</Damage>
       <Speed>40</Speed>
       <LifetimeMS>4000</LifetimeMS>
-      <ConditionEffect duration="5">Blind</ConditionEffect>
       <Boomerang />
       <MultiHit />
     </Projectile>

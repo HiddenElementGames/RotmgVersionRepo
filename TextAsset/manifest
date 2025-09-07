@@ -6,7 +6,7 @@
   "xmlKeys": ["tiles", "objects", "particles", "sets", "characters",
     "skins", "tutorial", "protips", "forge", "dungeonGrades", "dungeonTemplates", 
     "refineTemplates", "mods", "titles", "gravestones", "emotes", "playerDiscoveryIcons",
-    "terrains", "enchantments", "shaders", "enchantmentLists", "enchanterSettings", "entrances"],
+    "terrains", "enchantments", "shaders", "enchantmentLists", "enchanterSettings", "entrances", "mapTips"],
   "tiles": [
     {
       "path": "ground.xml"
@@ -144,6 +144,24 @@
       "path": "dungeons/queenBunny/queenBunnyGround.xml"
     },
     {
+      "path": "dungeons/specPen/specPenGround.xml"
+    },
+    {
+      "path": "dungeons/hauntedCemetery/hauntedCemeteryGround.xml"
+    },
+    {
+      "path": "dungeons/snowballRolling/snowballRollingGround.xml"
+    },
+    {
+      "path": "dungeons/whiteSnake/whiteSnakeGround.xml"
+    },
+    {
+      "path": "dungeons/iceCitadel/iceCitadelGround.xml"
+    },
+    {
+      "path": "dungeons/nightmatterRift/nightmatterRiftGround.xml"
+    },
+    {
       "path": "newRealm/adeptGround.xml"
     },
     {
@@ -245,7 +263,7 @@
       "path": "allies.xml"
     },
     {
-      "path": "realm/heroes.xml"
+      "path": "realm/oldHeroes.xml"
     },
     {
       "path": "players_zombies.xml"
@@ -257,22 +275,22 @@
       "path": "npc.xml"
     },
     {
-      "path": "realm/shore.xml"
+      "path": "realm/oldShore.xml"
     },
     {
-      "path": "realm/low.xml"
+      "path": "realm/oldLow.xml"
     },
     {
-      "path": "realm/mid.xml"
+      "path": "realm/oldMid.xml"
     },
     {
-      "path": "realm/high.xml"
+      "path": "realm/oldHigh.xml"
     },
     {
-      "path": "realm/mountains.xml"
+      "path": "realm/oldMountains.xml"
     },
     {
-      "path": "realm/encounters.xml"
+      "path": "realm/oldEncounters.xml"
     },
     {
       "path": "dungeons/arena.xml"
@@ -536,6 +554,12 @@
       "path": "dungeons/queenBunny/queenBunnyObjects.xml"
     },
     {
+      "path": "dungeons/specPen/specPenObjects.xml"
+    },
+    {
+      "path": "dungeons/hauntedCemetery/hauntedCemeteryObjects.xml"
+    },
+    {
       "path": "emotes.xml"
     },
     {
@@ -573,6 +597,21 @@
     },
     {
       "path": "newRealm/newEventChestObjects.xml"
+    },
+    {
+      "path": "dungeons/snowballRolling/snowballRollingObjects.xml"
+    },
+    {
+      "path": "dungeons/cronusTrials/cronusTrialsObjects.xml"
+    },
+    {
+      "path": "dungeons/whiteSnake/whiteSnakeObjects.xml"
+    },
+    {
+      "path": "dungeons/iceCitadel/iceCitadelObjects.xml"
+    },
+    {
+      "path": "dungeons/nightmatterRift/nightmatterRiftObjects.xml"
     }
   ],
   "particles": [
@@ -2307,6 +2346,34 @@
       "frameWidth": 8,
       "frameHeight": 8,
       "noDefinition": false
+    },
+    {
+      "name": "snowballRollingObjects8x8",
+      "path": "snowballRollingObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "snowballRollingObjects16x16",
+      "path": "snowballRollingObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "snowballRollingObjects32x32",
+      "path": "snowballRollingObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "cnidarianReefObjects32x32",
+      "path": "cnidarianReefObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
     }
   ],
   "animatedImageSet": [
@@ -3446,7 +3513,7 @@
       "firstDir": 0,
       "mergeAttackFrame": 1
     },
-  {
+    {
       "name": "theShattersChars8x8",
       "path": "theShattersChars8x8.png",
       "mask": "",
@@ -3468,7 +3535,7 @@
       "firstDir": 0,
       "mergeAttackFrame": 1
     },
-  {
+    {
       "name": "theShattersChars32x32",
       "path": "theShattersChars32x32.png",
       "mask": "",
@@ -3501,7 +3568,7 @@
       "firstDir": 0,
       "mergeAttackFrame": 1
     },
-  {
+    {
       "name": "steamworksChars32x32",
       "path": "steamworksChars32x32.png",
       "mask": "",
@@ -3698,7 +3765,7 @@
     },
     {
       "name": "rollerRinkObjects8x8",
-      "path": "rollerRinkObjects8x8.png",    
+      "path": "rollerRinkObjects8x8.png",
       "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
@@ -3706,13 +3773,13 @@
     },
     {
       "name": "rollerRinkObjects16x16",
-      "path": "rollerRinkObjects16x16.png",    
-    "atlasWidth": 256,
+      "path": "rollerRinkObjects16x16.png",
+      "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
       "noDefinition": false
     },
-	 {
+    {
       "name": "rollerRinkChars16x16",
       "path": "rollerRinkChars16x16.png",
       "mask": "",
@@ -3736,7 +3803,7 @@
     },
     {
       "name": "queenBunnyObjects8x8",
-      "path": "queenBunnyObjects8x8.png",    
+      "path": "queenBunnyObjects8x8.png",
       "atlasWidth": 128,
       "frameWidth": 8,
       "frameHeight": 8,
@@ -3744,7 +3811,7 @@
     },
     {
       "name": "queenBunnyObjects16x16",
-      "path": "queenBunnyObjects16x16.png",    
+      "path": "queenBunnyObjects16x16.png",
       "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 16,
@@ -3752,13 +3819,70 @@
     },
     {
       "name": "queenBunnyObjects16x32",
-      "path": "queenBunnyObjects16x32.png",    
+      "path": "queenBunnyObjects16x32.png",
       "atlasWidth": 256,
       "frameWidth": 16,
       "frameHeight": 32,
       "noDefinition": false
     },
-    {  
+    {
+      "name": "specPenObjects8x8",
+      "path": "specPenObjects8x8.png",
+      "atlasWidth": 128,
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "specPenObjects16x16",
+      "path": "specPenObjects16x16.png",
+      "atlasWidth": 256,
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "specPenObjects32x32",
+      "path": "specPenObjects32x32.png",
+      "atlasWidth": 512,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "specPenChars8x8",
+      "path": "specPenChars8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "specPenChars16x16",
+      "path": "specPenChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "specPenChars32x32",
+      "path": "specPenChars32x32.png",
+      "mask": "",
+      "frameWidth": 224,
+      "frameHeight": 32,
+      "charWidth": 32,
+      "charHeight": 32,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
       "name": "charsRookie8x8",
       "path": "charsRookie8x8.png",
       "mask": "",
@@ -4050,6 +4174,49 @@
       "noDefinition": false
     },
     {
+      "name": "hauntedCemeteryChars8x8",
+      "path": "hauntedCemeteryChars8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "hauntedCemeteryChars16x16",
+      "path": "hauntedCemeteryChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "hauntedCemeteryObjects8x8",
+      "path": "hauntedCemeteryObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "hauntedCemeteryObjects16x16",
+      "path": "hauntedCemeteryObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "hauntedCemeteryObjects24x24",
+      "path": "hauntedCemeteryObjects24x24.png",
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "noDefinition": false
+    },
+    {
       "name": "UGCSetPieceChars8x8",
       "path": "UGCSetPieceChars8x8.png",
       "mask": "",
@@ -4074,6 +4241,273 @@
     {
       "name": "UGCSetPieceChars32x32",
       "path": "UGCSetPieceChars32x32.png",
+      "mask": "",
+      "frameWidth": 224,
+      "frameHeight": 32,
+      "charWidth": 32,
+      "charHeight": 32,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "iceCitadelObjects16x16",
+      "path": "iceCitadelObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "iceCitadelObjects32x32",
+      "path": "iceCitadelObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "iceCitadelObjects8x8",
+      "path": "iceCitadelObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "whiteSnakeChars8x8",
+      "path": "whiteSnakeChars8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "whiteSnakeChars16x16",
+      "path": "whiteSnakeChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "whiteSnakeObjects8x8",
+      "path": "whiteSnakeObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "whiteSnakeObjects16x16",
+      "path": "whiteSnakeObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "edenDayObjects8x8",
+      "path": "edenDayObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "edenDayObjects16x16",
+      "path": "edenDayObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "edenDayObjects32x32",
+      "path": "edenDayObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "edenNightObjects8x8",
+      "path": "edenNightObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "edenNightObjects16x16",
+      "path": "edenNightObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "edenNightObjects32x32",
+      "path": "edenNightObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "heroicOrbs16x16",
+      "path": "heroicOrbs16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "nightmatterRiftObjects8x8",
+      "path": "nightmatterRiftObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "nightmatterRiftObjects16x16",
+      "path": "nightmatterRiftObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "nightmatterRiftObjects32x32",
+      "path": "nightmatterRiftObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "nightmatterRiftChars8x8",
+      "path": "nightmatterRiftChars8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "nightmatterRiftChars16x16",
+      "path": "nightmatterRiftChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "nightmatterRiftChars32x32",
+      "path": "nightmatterRiftChars32x32.png",
+      "mask": "",
+      "frameWidth": 224,
+      "frameHeight": 32,
+      "charWidth": 32,
+      "charHeight": 32,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "newRealmSetPieceObjects16x16",
+      "path": "newRealmSetPieceObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "newRealmSetPieceObjects24x24",
+      "path": "newRealmSetPieceObjects24x24.png",
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "noDefinition": false
+    },
+    {
+      "name": "newRealmSetPieceObjects32x32",
+      "path": "newRealmSetPieceObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "easterObjects8x8",
+      "path": "easterObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "easterObjects16x16",
+      "path": "easterObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "easterChars16x16",
+      "path": "easterChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "nexusObjects8x8",
+      "path": "nexusObjects8x8.png",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "noDefinition": false
+    },
+    {
+      "name": "nexusObjects16x16",
+      "path": "nexusObjects16x16.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "noDefinition": false
+    },
+    {
+      "name": "nexusObjects24x24",
+      "path": "nexusObjects24x24.png",
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "noDefinition": false
+    },
+    {
+      "name": "nexusObjects32x32",
+      "path": "nexusObjects32x32.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "noDefinition": false
+    },
+    {
+      "name": "iceCitadelChars8x8",
+      "path": "iceCitadelChars8x8.png",
+      "mask": "",
+      "frameWidth": 56,
+      "frameHeight": 8,
+      "charWidth": 8,
+      "charHeight": 8,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "iceCitadelChars16x16",
+      "path": "iceCitadelChars16x16.png",
+      "mask": "",
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "charWidth": 16,
+      "charHeight": 16,
+      "firstDir": 0,
+      "mergeAttackFrame": 1
+    },
+    {
+      "name": "iceCitadelChars32x32",
+      "path": "iceCitadelChars32x32.png",
       "mask": "",
       "frameWidth": 224,
       "frameHeight": 32,
@@ -4156,6 +4590,11 @@
   "enchanterSettings": [
     {
       "path": "enchanterSettings.xml"
+    }
+  ],
+  "mapTips": [
+    {
+      "path": "map_tips.xml"
     }
   ]
 }

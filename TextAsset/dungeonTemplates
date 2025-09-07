@@ -333,6 +333,40 @@
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
   </DungeonModTemplate>
+  <DungeonModTemplate id="Heroic Undead Lair">
+    <GradeOption id="D" prob="0.12" />
+    <GradeOption id="C" prob="0.27" />
+    <GradeOption id="B" prob="0.18" />
+    <GradeOption id="A" prob="0.02" />
+    <GradeOption id="S" prob="0.01" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
   <DungeonModTemplate id="Manor of the Immortals">
     <GradeOption id="D" prob="0.12" />
     <GradeOption id="C" prob="0.27" />
@@ -393,6 +427,40 @@
     </Condition>
   </DungeonModTemplate>
   <DungeonModTemplate id="Abyss of Demons">
+    <GradeOption id="D" prob="0.12" />
+    <GradeOption id="C" prob="0.27" />
+    <GradeOption id="B" prob="0.18" />
+    <GradeOption id="A" prob="0.02" />
+    <GradeOption id="S" prob="0.01" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Infernal Abyss of Demons">
     <GradeOption id="D" prob="0.12" />
     <GradeOption id="C" prob="0.27" />
     <GradeOption id="B" prob="0.18" />
@@ -854,6 +922,43 @@
     <GradeOption id="B" prob="0.25" />
     <GradeOption id="A" prob="0.1" />
     <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Ice Citadel">
+    <GradeOption id="D" prob="0.1" />
+    <GradeOption id="C" prob="0.15" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.1" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
+    </Condition>
     <Condition group="R" prob="0.4">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -1468,7 +1573,7 @@
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
   </DungeonModTemplate>
-  <DungeonModTemplate id="Heroic Undead Lair">
+  <DungeonModTemplate id="Legacy Heroic Undead Lair">
     <GradeOption id="D" prob="0.05" />
     <GradeOption id="C" prob="0.1" />
     <GradeOption id="B" prob="0.15" />
@@ -1583,7 +1688,7 @@
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
   </DungeonModTemplate>
-  <DungeonModTemplate id="Heroic Abyss of Demons">
+  <DungeonModTemplate id="Legacy Heroic Abyss of Demons">
     <GradeOption id="D" prob="0.05" />
     <GradeOption id="C" prob="0.1" />
     <GradeOption id="B" prob="0.15" />
@@ -1987,7 +2092,7 @@
       <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
   </DungeonModTemplate>
-  <DungeonModTemplate id="Advanced Nest">
+  <DungeonModTemplate id="Plagued Nest">
     <GradeOption id="D" prob="0.05" />
     <GradeOption id="C" prob="0.1" />
     <GradeOption id="B" prob="0.15" />
@@ -2059,6 +2164,85 @@
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Spectral Penitentiary">
+    <GradeOption id="D" prob="0.05" />
+    <GradeOption id="C" prob="0.1" />
+    <GradeOption id="B" prob="0.15" />
+    <GradeOption id="A" prob="0.3" />
+    <GradeOption id="S" prob="0.2" />
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.6">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Stromwell's Rift I">
+    <GradeOption id="D" prob="1.0" />
+    <Condition prob="1.0">
+      <ApplyModifierWithLabel>NIGHTMATTER_RIFT_1</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1.0">
+      <ApplyModifierWithLabel>NO_MOD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1.0">
+      <ApplyModifierWithLabel>NO_MOD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1.0">
+      <ApplyModifierWithLabel>NO_MOD</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Stromwell's Rift II">
+    <GradeOption id="D" prob="1.0" />
+    <Condition prob="1.0">
+      <ApplyModifierWithLabel>NIGHTMATTER_RIFT_2</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1.0">
+      <ApplyModifierWithLabel>NO_MOD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1.0">
+      <ApplyModifierWithLabel>NO_MOD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1.0">
+      <ApplyModifierWithLabel>NO_MOD</ApplyModifierWithLabel>
+    </Condition>
+  </DungeonModTemplate>
+  <DungeonModTemplate id="Stromwell's Rift III">
+    <GradeOption id="D" prob="1.0" />
+    <Condition prob="1.0">
+      <ApplyModifierWithLabel>NIGHTMATTER_RIFT_3</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1.0">
+      <ApplyModifierWithLabel>NO_MOD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1.0">
+      <ApplyModifierWithLabel>NO_MOD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1.0">
+      <ApplyModifierWithLabel>NO_MOD</ApplyModifierWithLabel>
     </Condition>
   </DungeonModTemplate>
 </DungeonTemplates>

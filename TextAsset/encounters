@@ -17,6 +17,7 @@
     <Static />
   </Object>
   <Object type="0xc101" id="Realm 1 Master">
+    <ForceTick />
     <MasterObject />
     <Class>MasterObject</Class>
     <Texture>
@@ -38,12 +39,17 @@
     <StunImmune />
     <ParalyzeImmune />
     <DazedImmune />
-    <Encounter terrain="SanguineForest" />
-    <RealmScore>1500</RealmScore>
+    <Hero />
+    <KeepDamageRecord />
+    <Encounter terrain="SanguineForest" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
+    <RealmScore>3000</RealmScore>
     <PerRealmMax>1</PerRealmMax>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
     <MaxHitPoints>125000</MaxHitPoints>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>200</Size>
     <Defense>90</Defense>
     <Exp>60000</Exp>
@@ -528,11 +534,12 @@
       <Size>150</Size>
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <KillStat stat="UndeadKills" />
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENCOUNTER,shtrs Defense System</Labels>
+    <Labels>ENCOUNTER,shtrs Defense System,VETERAN_ENCOUNTER</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -1071,12 +1078,12 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Texture>
       <File>theShattersObjects16x16</File>
-      <Index>0x0d</Index>
+      <Index>858</Index>
     </Texture>
     <AltTexture id="1">
       <Texture>
         <File>theShattersObjects16x16</File>
-        <Index>0x0c</Index>
+        <Index>859</Index>
       </Texture>
     </AltTexture>
     <Size>130</Size>
@@ -1125,12 +1132,12 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Texture>
       <File>theShattersObjects16x16</File>
-      <Index>0x0d</Index>
+      <Index>858</Index>
     </Texture>
     <AltTexture id="1">
       <Texture>
         <File>theShattersObjects16x16</File>
-        <Index>0x0c</Index>
+        <Index>859</Index>
       </Texture>
     </AltTexture>
     <Size>130</Size>
@@ -1179,12 +1186,12 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Texture>
       <File>theShattersObjects16x16</File>
-      <Index>0x0d</Index>
+      <Index>858</Index>
     </Texture>
     <AltTexture id="1">
       <Texture>
         <File>theShattersObjects16x16</File>
-        <Index>0x0c</Index>
+        <Index>859</Index>
       </Texture>
     </AltTexture>
     <Size>130</Size>
@@ -1233,12 +1240,12 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Texture>
       <File>theShattersObjects16x16</File>
-      <Index>0x0d</Index>
+      <Index>858</Index>
     </Texture>
     <AltTexture id="1">
       <Texture>
         <File>theShattersObjects16x16</File>
-        <Index>0x0c</Index>
+        <Index>859</Index>
       </Texture>
     </AltTexture>
     <Size>130</Size>
@@ -1287,12 +1294,12 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Texture>
       <File>theShattersObjects16x16</File>
-      <Index>0x0d</Index>
+      <Index>858</Index>
     </Texture>
     <AltTexture id="1">
       <Texture>
         <File>theShattersObjects16x16</File>
-        <Index>0x0c</Index>
+        <Index>859</Index>
       </Texture>
     </AltTexture>
     <Size>130</Size>
@@ -1336,12 +1343,12 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Texture>
       <File>theShattersObjects16x16</File>
-      <Index>0x0d</Index>
+      <Index>858</Index>
     </Texture>
     <AltTexture id="1">
       <Texture>
         <File>theShattersObjects16x16</File>
-        <Index>0x0c</Index>
+        <Index>859</Index>
       </Texture>
     </AltTexture>
     <Size>130</Size>
@@ -1385,12 +1392,12 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Texture>
       <File>theShattersObjects16x16</File>
-      <Index>0x0d</Index>
+      <Index>858</Index>
     </Texture>
     <AltTexture id="1">
       <Texture>
         <File>theShattersObjects16x16</File>
-        <Index>0x0c</Index>
+        <Index>859</Index>
       </Texture>
     </AltTexture>
     <Size>130</Size>
@@ -1434,12 +1441,12 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Texture>
       <File>theShattersObjects16x16</File>
-      <Index>0x0d</Index>
+      <Index>858</Index>
     </Texture>
     <AltTexture id="1">
       <Texture>
         <File>theShattersObjects16x16</File>
-        <Index>0x0c</Index>
+        <Index>859</Index>
       </Texture>
     </AltTexture>
     <Size>130</Size>
@@ -1670,8 +1677,14 @@
   </Object>
   <Object type="0x55df" id="New LOD Rock Dragon Head">
     <Enemy />
-    <DisplayId>Rock Dragon</DisplayId>
     <Class>Character</Class>
+    <DisplayId>Rock Dragon</DisplayId>
+    <Portrait>
+      <Texture>
+        <File>lairOfDraconisObjects16x16</File>
+        <Index>0x78</Index>
+      </Texture>
+    </Portrait>
     <AnimatedTexture>
       <File>lairOfDraconisChars16x16</File>
       <Index>9</Index>
@@ -1682,6 +1695,7 @@
     <Defense>50</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <RealmScore>2000</RealmScore>
     <Flying />
@@ -1690,8 +1704,11 @@
     <StasisImmune />
     <ParalyzeImmune />
     <SlowImmune />
+    <KeepDamageRecord />
     <Hero />
-    <Encounter terrain="Abandoned" />
+    <Encounter terrain="Abandoned,EternalFrost" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <PerRealmMax>1</PerRealmMax>
     <Quest />
     <God />
@@ -1764,12 +1781,13 @@
       <LifetimeMS>2000</LifetimeMS>
       <ParticleTrail />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="BeastKills" />
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,ENCOUNTER,New LOD Rock Dragon Head</Labels>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,ENCOUNTER,New LOD Rock Dragon Head,ADEPT_ENCOUNTER</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -1855,6 +1873,7 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>0</Exp>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
     <Flying />
     <Z>0.35</Z>
@@ -1916,6 +1935,7 @@
     <MaxHitPoints>8000</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>0</Exp>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
     <Flying />
     <Z>0.35</Z>
@@ -2119,11 +2139,14 @@
     <Enemy />
     <Class>Character</Class>
     <Hero />
-    <RealmScore>1000</RealmScore>
+    <RealmScore>2000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
-    <Encounter terrain="RunicTundra" />
+    <KeepDamageRecord />
+    <Encounter terrain="RunicTundra" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <StasisImmune />
     <TrackLoot />
     <PerRealmMax>2</PerRealmMax>
@@ -2177,15 +2200,17 @@
       <Frequency>50</Frequency>
       <ConditionEffect duration="5">Bleeding</ConditionEffect>
     </Projectile>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <Defense>30</Defense>
     <Exp>35000</Exp>
     <BXP>175000</BXP>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENCOUNTER,Lord of the Lost Lands</Labels>
+    <Labels>ENCOUNTER,Lord of the Lost Lands,ADEPT_ENCOUNTER</Labels>
     <Presentation>
       <Style id="SetAlt3">
         <StyleStep altTextureId="3">SetAltTexture</StyleStep>
@@ -2282,24 +2307,28 @@
     <KillStat stat="HumanoidKills" />
   </Object>
   <Object type="0x55f0" id="New Grand Sphinx">
-    <DisplayId>Grand Sphinx</DisplayId>
     <Enemy />
     <Class>Character</Class>
+    <DisplayId>Grand Sphinx</DisplayId>
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
       <Index>4</Index>
     </AnimatedTexture>
     <HitSound>monster/ghost_god_hit</HitSound>
     <DeathSound>monster/ghost_god_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>160</Size>
-    <MaxHitPoints>50000</MaxHitPoints>
+    <MaxHitPoints>65000</MaxHitPoints>
     <Defense>25</Defense>
     <God />
     <StasisImmune />
     <Hero />
     <Quest />
+    <KeepDamageRecord />
     <HealthBarBoss />
-    <Encounter terrain="Abandoned" />
+    <Encounter terrain="Abandoned" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <TrackLoot />
     <Level>20</Level>
     <Exp>25000</Exp>
@@ -2334,11 +2363,12 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
     <KillStat stat="BeastKills" />
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENCOUNTER,Grand Sphinx</Labels>
+    <Labels>ENCOUNTER,Grand Sphinx,ADEPT_ENCOUNTER</Labels>
   </Object>
   <Object type="0x55f1" id="New Tomb Wall Deleter">
     <Class>GameObject</Class>
@@ -2353,8 +2383,8 @@
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8dEncounters</File>
-      <Index>8</Index>
+      <File>charsRookie8x8</File>
+      <Index>74</Index>
     </AnimatedTexture>
     <HitSound>monster/trees_hit</HitSound>
     <DeathSound>monster/trees_death</DeathSound>
@@ -2389,19 +2419,22 @@
     </AnimatedTexture>
     <HitSound>monster/skull_shrine_hit</HitSound>
     <DeathSound>monster/skull_shrine_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
-    <MaxHitPoints>16000</MaxHitPoints>
+    <MaxHitPoints>45000</MaxHitPoints>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
-    <RealmScore>2000</RealmScore>
     <Defense>40</Defense>
     <Enemy />
+    <KeepDamageRecord />
     <Hero />
-    <RealmScore>1000</RealmScore>
+    <RealmScore>2000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <God />
-    <Encounter terrain="RisenHell,HauntedHallows" />
+    <Encounter terrain="RisenHell,HauntedHallows,EternalFrost" aliveMax="4" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -2411,14 +2444,14 @@
       <Damage>100</Damage>
       <LifetimeMS>2400</LifetimeMS>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
     <KillStat stat="UndeadKills" />
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENCOUNTER,Skull Shrine</Labels>
+    <Labels>ENCOUNTER,Skull Shrine,ADEPT_ENCOUNTER</Labels>
   </Object>
   <Object type="0x55f4" id="New Red Flaming Skull">
-    <DisplayId>Red Flaming Skull</DisplayId>
     <Group>New Flaming Skulls</Group>
     <Class>Character</Class>
     <Enemy />
@@ -2444,7 +2477,6 @@
     <KillStat stat="UndeadKills" />
   </Object>
   <Object type="0x55f5" id="New Blue Flaming Skull">
-    <DisplayId>Blue Flaming Skull</DisplayId>
     <Group>New Flaming Skulls</Group>
     <Class>Character</Class>
     <Enemy />
@@ -2478,16 +2510,20 @@
     </AnimatedTexture>
     <HitSound>monster/skull_shrine_hit</HitSound>
     <DeathSound>monster/skull_shrine_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
-    <MaxHitPoints>16000</MaxHitPoints>
+    <MaxHitPoints>45000</MaxHitPoints>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <Defense>40</Defense>
     <Enemy />
+    <KeepDamageRecord />
     <Hero />
-    <RealmScore>1000</RealmScore>
+    <RealmScore>2000</RealmScore>
     <Quest />
     <God />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -2497,6 +2533,7 @@
       <Damage>100</Damage>
       <LifetimeMS>2400</LifetimeMS>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="UndeadKills" />
     <KillStat stat="EncounterKills" />
@@ -2554,16 +2591,17 @@
     <KillStat stat="UndeadKills" />
   </Object>
   <Object type="0x55f9" id="New Cube God">
-    <DisplayId>Cube God</DisplayId>
     <Class>Character</Class>
+    <DisplayId>Cube God</DisplayId>
     <AnimatedTexture>
       <File>Rookie_16x16</File>
       <Index>10</Index>
     </AnimatedTexture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
-    <MaxHitPoints>16000</MaxHitPoints>
+    <MaxHitPoints>45000</MaxHitPoints>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <Hero />
@@ -2571,7 +2609,10 @@
     <Quest />
     <HealthBarBoss />
     <God />
-    <Encounter terrain="SpriteForest,Abandoned" />
+    <KeepDamageRecord />
+    <Encounter terrain="SpriteForest,Abandoned,EternalFrost" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -2590,11 +2631,12 @@
     </Projectile>
     <Defense>40</Defense>
     <Enemy />
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
     <KillStat stat="CubeKills" />
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENCOUNTER,Cube God</Labels>
+    <Labels>ENCOUNTER,Cube God,ADEPT_ENCOUNTER</Labels>
   </Object>
   <Object type="0x55fa" id="New Cube Overseer">
     <Class>Character</Class>
@@ -2690,14 +2732,18 @@
     </AnimatedTexture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
-    <MaxHitPoints>16000</MaxHitPoints>
+    <MaxHitPoints>45000</MaxHitPoints>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
+    <KeepDamageRecord />
     <Hero />
-    <RealmScore>1000</RealmScore>
+    <RealmScore>2000</RealmScore>
     <Quest />
     <God />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon color="0xFF6600" piece="Boss" />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -2715,6 +2761,7 @@
     </Projectile>
     <Defense>40</Defense>
     <Enemy />
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="BeastKills" />
     <KillStat stat="EncounterKills" />
@@ -2867,7 +2914,8 @@
       <ConditionEffect duration="2">Stunned</ConditionEffect>
       <Size>160</Size>
     </Projectile>
-    <MaxHitPoints>8000</MaxHitPoints>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -2881,23 +2929,25 @@
   <Object type="0x5603" id="New Pentaract">
     <Enemy />
     <DisplayId>Pentaract</DisplayId>
-    <Class>Character</Class>
     <Texture>
       <File>lofiChar8x8</File>
       <Index>0xb5</Index>
     </Texture>
+    <Class>Character</Class>
     <Size>0</Size>
     <Hero />
     <RealmScore>2000</RealmScore>
     <Quest />
     <God />
-    <Encounter terrain="DeadChurch" />
+    <Encounter terrain="DeadChurch,EternalFrost" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Level>20</Level>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <Invincible />
     <KillStat stat="EncounterKills" />
-    <Labels>ENCOUNTER</Labels>
+    <Labels>ENCOUNTER,ADEPT_ENCOUNTER</Labels>
   </Object>
   <Object type="0x5604" id="New Pentaract Tower Corpse">
     <Enemy />
@@ -2906,11 +2956,12 @@
       <File>lofiChar216x16</File>
       <Index>0x38</Index>
     </Texture>
-    <MaxHitPoints>8000</MaxHitPoints>
+    <MaxHitPoints>15000</MaxHitPoints>
     <Size>0</Size>
     <Exp>0</Exp>
     <God />
     <TrackLoot />
+    <SoulboundDust threshold="0.002" prob="1" dustMin="1" dustMax="5" seasonalBonus="0.15">greenDust</SoulboundDust>
     <KillStat stat="StructureKills" />
     <KillStat stat="EncounterKills" />
   </Object>
@@ -2976,13 +3027,15 @@
       </Frame>
     </Animation>
     <Hero />
-    <RealmScore>1000</RealmScore>
+    <RealmScore>2000</RealmScore>
     <Quest />
     <God />
+    <KeepDamageRecord />
     <Level>20</Level>
     <StasisImmune />
     <MaxHitPoints>9000</MaxHitPoints>
     <BXP>926</BXP>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>130</Size>
     <HealthBarBoss radius="30" />
     <KillStat stat="StructureKills" />
@@ -2998,28 +3051,14 @@
   </Object>
   <Object type="0x5607" id="New Hermit God">
     <DisplayId>Hermit God</DisplayId>
-    <Group>New Hermit God Encounter</Group>
-    <Enemy />
-    <Class>Character</Class>
-    <Hero />
-    <RealmScore>1000</RealmScore>
-    <Quest />
-    <HealthBarBoss />
-    <God />
-    <Encounter terrain="CoralReefs" />
-    <TrackLoot />
-    <StasisImmune />
-    <Level>20</Level>
-    <PerRealmMax>2</PerRealmMax>
-    <KeepDamageRecord />
     <AnimatedTexture>
-      <File>chars16x16dEncounters2</File>
-      <Index>11</Index>
+      <File>charsVeteran16x16</File>
+      <Index>9</Index>
     </AnimatedTexture>
     <Portrait>
       <AnimatedTexture>
-        <File>chars16x16dEncounters2</File>
-        <Index>11</Index>
+        <File>charsVeteran16x16</File>
+        <Index>9</Index>
       </AnimatedTexture>
     </Portrait>
     <AltTexture id="1">
@@ -3030,8 +3069,8 @@
     </AltTexture>
     <AltTexture id="2">
       <AnimatedTexture>
-        <File>chars16x16dEncounters2</File>
-        <Index>13</Index>
+        <File>charsVeteran16x16</File>
+        <Index>10</Index>
       </AnimatedTexture>
     </AltTexture>
     <AltTexture id="3">
@@ -3042,15 +3081,32 @@
     </AltTexture>
     <AltTexture id="4">
       <AnimatedTexture>
-        <File>chars16x16dEncounters2</File>
-        <Index>14</Index>
+        <File>charsVeteran16x16</File>
+        <Index>9</Index>
       </AnimatedTexture>
     </AltTexture>
+    <Group>New Hermit God Encounter</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Hero />
+    <RealmScore>2000</RealmScore>
+    <Quest />
+    <HealthBarBoss />
+    <God />
+    <Encounter terrain="CoralReefs,EternalFrost" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
+    <TrackLoot />
+    <StasisImmune />
+    <Level>20</Level>
+    <PerRealmMax>2</PerRealmMax>
+    <KeepDamageRecord />
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/dwarves_death</DeathSound>
-    <MaxHitPoints>50000</MaxHitPoints>
+    <MaxHitPoints>55000</MaxHitPoints>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <Defense>35</Defense>
     <Projectile id="0">
@@ -3098,10 +3154,14 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>Hermit God</Labels>
+    <Labels>Hermit God,ADEPT_ENCOUNTER</Labels>
   </Object>
   <Object type="0x5608" id="New Hermit Minion">
     <DisplayId>Hermit Minion</DisplayId>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>21</Index>
+    </AnimatedTexture>
     <Class>Character</Class>
     <Group>New Hermit God Encounter</Group>
     <Enemy />
@@ -3113,10 +3173,6 @@
     <BXP>4</BXP>
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
-    <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>21</Index>
-    </AnimatedTexture>
     <Projectile id="0">
       <ObjectId>Snake Shot Yellow</ObjectId>
       <Damage>50</Damage>
@@ -3143,8 +3199,8 @@
     <ShadowSize>0</ShadowSize>
     <Flying />
     <AnimatedTexture>
-      <File>chars16x16dEncounters2</File>
-      <Index>15</Index>
+      <File>charsVeteran16x16</File>
+      <Index>13</Index>
     </AnimatedTexture>
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/blobs_death</DeathSound>
@@ -3163,21 +3219,21 @@
   </Object>
   <Object type="0x560a" id="New Hermit God Tentacle">
     <DisplayId>Hermit God Tentacle</DisplayId>
+    <AnimatedTexture>
+      <File>charsVeteran16x16</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>charsVeteran16x16</File>
+        <Index>11</Index>
+      </AnimatedTexture>
+    </AltTexture>
     <Group>New Hermit God Encounter</Group>
     <Enemy />
     <Class>Character</Class>
     <ShadowSize>100</ShadowSize>
     <TrackLoot />
-    <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>11</Index>
-    </AnimatedTexture>
-    <AltTexture id="1">
-      <AnimatedTexture>
-        <File>chars16x16rEncounters</File>
-        <Index>12</Index>
-      </AnimatedTexture>
-    </AltTexture>
     <HitSound>monster/dwarves_death</HitSound>
     <DeathSound>monster/flayers_hit</DeathSound>
     <MaxHitPoints>7500</MaxHitPoints>
@@ -3219,6 +3275,7 @@
     <ShadowSize>0</ShadowSize>
     <Size>0</Size>
     <Invincible />
+    <SoulboundDust threshold="0.002" prob="1" dustMin="1" dustMax="4" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object type="0x560c" id="New Hermit God Drop">
     <Group>New Hermit God Encounter</Group>
@@ -3267,14 +3324,18 @@
         <Index>0</Index>
       </Texture>
     </AltTexture>
+    <Color>0x05E639</Color>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/pirates_hit</HitSound>
     <DeathSound>monster/pirates_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>20</Size>
     <MaxHitPoints>70000</MaxHitPoints>
     <Defense>60</Defense>
     <StasisImmune />
     <StunImmune />
     <TrackLoot />
+    <KeepDamageRecord />
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <RealmScore>2000</RealmScore>
@@ -3344,21 +3405,22 @@
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>15</Defense>
     <Terrain>CoralReefs</Terrain>
-    <SpawnProb>0.05</SpawnProb>
+    <SpawnProb>0.005</SpawnProb>
     <Exp>300</Exp>
     <BXP>1425</BXP>
-    <PerRealmMax>3</PerRealmMax>
+    <PerRealmMax>1</PerRealmMax>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="EncounterKills" />
-    <Labels>ENEMY,ENCOUNTER</Labels>
+    <Labels>ENEMY,ENCOUNTER,ADEPT_ENCOUNTER</Labels>
+    <KillStat stat="CoralReefs" />
   </Object>
   <Object type="0x5613" id="New Water Mine">
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Water Mine</DisplayId>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>38</Index>
+      <File>charsVeteran16x16</File>
+      <Index>8</Index>
     </AnimatedTexture>
     <HitSound>monster/traps_hit</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -3407,8 +3469,8 @@
     <Class>Character</Class>
     <DisplayId>Beach Spectre</DisplayId>
     <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>35</Index>
+      <File>charsRookie8x8</File>
+      <Index>73</Index>
     </AnimatedTexture>
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
@@ -3549,8 +3611,8 @@
     <Class>Character</Class>
     <DisplayId>Vengeful Spirit</DisplayId>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>39</Index>
+      <File>charsVeteran16x16</File>
+      <Index>12</Index>
     </AnimatedTexture>
     <HitSound>monster/flaming_skulls_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
@@ -3584,7 +3646,7 @@
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
     <PerRealmMax>1</PerRealmMax>
-    <Encounter terrain="ShipWreck" />
+    <Encounter terrain="ShipWreck,EternalFrost" aliveMax="1" />
     <TrackLoot />
     <Level>20</Level>
     <Projectile id="0">
@@ -3596,37 +3658,41 @@
       <MultiHit />
     </Projectile>
     <Invincible />
+    <Labels>ENCOUNTER,Ghost Ship Anchor</Labels>
   </Object>
   <Object type="0x561a" id="New Ghost Ship">
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Ghost Ship</DisplayId>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>37</Index>
+      <File>charsVeteran16x16</File>
+      <Index>7</Index>
     </AnimatedTexture>
     <AltTexture id="1">
       <AnimatedTexture>
-        <File>chars16x16rEncounters</File>
-        <Index>36</Index>
+        <File>charsVeteran16x16</File>
+        <Index>6</Index>
       </AnimatedTexture>
     </AltTexture>
     <AltTexture id="2">
       <AnimatedTexture>
-        <File>chars16x16rEncounters</File>
-        <Index>37</Index>
+        <File>charsVeteran16x16</File>
+        <Index>7</Index>
       </AnimatedTexture>
       <Effect particle="SwirlingMist" cooldown="0.2">XMLEffect</Effect>
     </AltTexture>
     <HitSound>monster/stone_walls_death</HitSound>
     <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>130</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>50000</MaxHitPoints>
+    <MaxHitPoints>60000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <RealmScore>2000</RealmScore>
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Flying />
     <Hero />
     <Level>20</Level>
@@ -3654,6 +3720,7 @@
       <LifetimeMS>4000</LifetimeMS>
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
     <KillStat stat="UndeadKills" />
     <KillStat stat="EncounterKills" />
     <DamageBasedXP />
@@ -3672,7 +3739,7 @@
       <File>innerWorkingsObjects8x8</File>
       <Index>0x88</Index>
     </Texture>
-    <Size>0</Size>
+    <Size>-1</Size>
     <DrawOnGround />
   </Object>
   <Object type="0x564b" id="New Train Point 2">
@@ -3681,7 +3748,7 @@
       <File>innerWorkingsObjects8x8</File>
       <Index>0x89</Index>
     </Texture>
-    <Size>0</Size>
+    <Size>-1</Size>
     <DrawOnGround />
   </Object>
   <Object type="0x564c" id="New Train Point 3">
@@ -3690,7 +3757,7 @@
       <File>innerWorkingsObjects8x8</File>
       <Index>0x8a</Index>
     </Texture>
-    <Size>0</Size>
+    <Size>-1</Size>
     <DrawOnGround />
   </Object>
   <Object type="0x564D" id="New Train Point 4">
@@ -3699,7 +3766,7 @@
       <File>innerWorkingsObjects8x8</File>
       <Index>0x8b</Index>
     </Texture>
-    <Size>0</Size>
+    <Size>-1</Size>
     <DrawOnGround />
   </Object>
   <Object type="0x564E" id="New Train Point 5">
@@ -3708,7 +3775,7 @@
       <File>innerWorkingsObjects8x8</File>
       <Index>0x8c</Index>
     </Texture>
-    <Size>0</Size>
+    <Size>-1</Size>
     <DrawOnGround />
   </Object>
   <Object type="0x564F" id="New Train Point 6">
@@ -3717,7 +3784,7 @@
       <File>innerWorkingsObjects8x8</File>
       <Index>0x8d</Index>
     </Texture>
-    <Size>0</Size>
+    <Size>-1</Size>
     <DrawOnGround />
   </Object>
   <Object type="0x5650" id="New Train Point 7">
@@ -3726,7 +3793,7 @@
       <File>innerWorkingsObjects8x8</File>
       <Index>0x8e</Index>
     </Texture>
-    <Size>0</Size>
+    <Size>-1</Size>
     <DrawOnGround />
   </Object>
   <Object type="0x5651" id="New Train Point 8">
@@ -3735,7 +3802,7 @@
       <File>innerWorkingsObjects8x8</File>
       <Index>0x8f</Index>
     </Texture>
-    <Size>0</Size>
+    <Size>-1</Size>
     <DrawOnGround />
   </Object>
   <Object type="0x5652" id="New Train Point 9">
@@ -3744,7 +3811,7 @@
       <File>innerWorkingsObjects8x8</File>
       <Index>0x80</Index>
     </Texture>
-    <Size>0</Size>
+    <Size>-1</Size>
     <DrawOnGround />
   </Object>
   <Object type="0x5653" id="New Train Point 10">
@@ -3753,7 +3820,7 @@
       <File>innerWorkingsObjects8x8</File>
       <Index>0x81</Index>
     </Texture>
-    <Size>0</Size>
+    <Size>-1</Size>
     <DrawOnGround />
   </Object>
   <Object type="0x5654" id="New Train Helper">
@@ -3762,7 +3829,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <Labels>ENCOUNTER,Train Encounter Spawner</Labels>
   </Object>
   <Object type="0x5655" id="New Train Helper 2">
@@ -3771,6 +3838,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
   </Object>
   <Object type="0x5656" id="New Train Invulnerability Helper">
     <Class>GameObject</Class>
@@ -3778,6 +3846,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
   </Object>
   <Object type="0x5657" id="New Train Transition Helper">
     <Class>GameObject</Class>
@@ -3785,6 +3854,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
   </Object>
   <Object type="0x5658" id="New Kogbold Hard Creator">
     <Class>GameObject</Class>
@@ -3792,7 +3862,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>80</Size>
+    <Size>-1</Size>
   </Object>
   <Object type="0x5659" id="New Train Invulnerability Teleporter">
     <Class>GameObject</Class>
@@ -3800,6 +3870,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
+    <Size>-1</Size>
   </Object>
   <Object type="0x565A" id="New Segment Invulnerability Chooser">
     <Class>Character</Class>
@@ -3868,9 +3939,8 @@
     <Size>0</Size>
     <ShadowSize>0</ShadowSize>
     <Enemy />
-    <Encounter terrain="RunicTundra,FloralEscape" />
+    <Encounter terrain="RunicTundra,FloralEscape" aliveMax="1" />
     <PerRealmMax>1</PerRealmMax>
-    <Hero />
     <Invincible />
   </Object>
   <Object type="0x565D" id="New Train Encounter">
@@ -3888,15 +3958,18 @@
         <Index>0</Index>
       </Texture>
     </AltTexture>
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <God />
     <Hero />
-    <RealmScore>1000</RealmScore>
+    <RealmScore>3000</RealmScore>
     <Quest />
     <HealthBarBoss />
     <TrackLoot />
     <Level>20</Level>
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/ogres_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
     <ShadowSize>75</ShadowSize>
     <MaxHitPoints>110000</MaxHitPoints>
@@ -4104,7 +4177,6 @@
     <Projectile id="21">
       <ObjectId>Train Smoke Bullet Split Projectile</ObjectId>
       <Speed>40</Speed>
-      <Size>200</Size>
       <Size>150</Size>
       <Damage>150</Damage>
       <LifetimeMS>2000</LifetimeMS>
@@ -4576,6 +4648,7 @@
     </Presentation>
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">purpleDust</SoulboundDust>
   </Object>
   <Object type="0x565E" id="New Train Encounter Body">
     <DisplayId>Kogbold Expedition Engine</DisplayId>
@@ -4798,7 +4871,6 @@
     <Projectile id="21">
       <ObjectId>Train Smoke Bullet Split Projectile</ObjectId>
       <Speed>40</Speed>
-      <Size>200</Size>
       <Size>150</Size>
       <Damage>150</Damage>
       <LifetimeMS>2000</LifetimeMS>
@@ -5404,6 +5476,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x565F" id="New Train Encounter Tail">
     <NoCollisionWhenMovement />
@@ -5620,7 +5693,6 @@
     <Projectile id="21">
       <ObjectId>Train Smoke Bullet Split Projectile</ObjectId>
       <Speed>40</Speed>
-      <Size>200</Size>
       <Size>150</Size>
       <Damage>150</Damage>
       <LifetimeMS>2000</LifetimeMS>
@@ -5832,6 +5904,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5660" id="New Train Shot">
     <Class>Character</Class>
@@ -5950,12 +6023,11 @@
     <Labels>ENEMY</Labels>
   </Object>
   <Object type="0x5664" id="New KSW Tinkerer 1">
-    <DisplayId>Kogbold Expedition Engine</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <NoCollisionWhenMovement />
     <Color>0xFF9800</Color>
-    <DisplayId>Kogbold Tinkerer</DisplayId>
+    <DisplayId>Kogbold Expedition Turret</DisplayId>
     <AnimatedTexture>
       <File>steamworksChars16x16</File>
       <Index>5</Index>
@@ -6029,6 +6101,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5665" id="New KSW Tinkerer Turret 1">
     <Class>Character</Class>
@@ -6041,15 +6114,13 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Exp>80</Exp>
   </Object>
   <Object type="0x5666" id="New KSW Tinkerer 2">
-    <DisplayId>Kogbold Expedition Engine</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <NoCollisionWhenMovement />
     <Color>0xFF9800</Color>
-    <DisplayId>Kogbold Tinkerer</DisplayId>
+    <DisplayId>Kogbold Expedition Turret</DisplayId>
     <AnimatedTexture>
       <File>steamworksChars16x16</File>
       <Index>5</Index>
@@ -6123,6 +6194,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5667" id="New KSW Tinkerer Turret 2">
     <Class>Character</Class>
@@ -6135,14 +6207,12 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Exp>80</Exp>
   </Object>
   <Object type="0x5668" id="New KSW Tinkerer 3">
-    <DisplayId>Kogbold Expedition Engine</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <NoCollisionWhenMovement />
-    <DisplayId>Kogbold Tinkerer</DisplayId>
+    <DisplayId>Kogbold Expedition Turret</DisplayId>
     <Color>0xFF9800</Color>
     <AnimatedTexture>
       <File>steamworksChars16x16</File>
@@ -6217,6 +6287,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5669" id="New KSW Tinkerer Turret 3">
     <Class>Character</Class>
@@ -6229,15 +6300,13 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Exp>80</Exp>
   </Object>
   <Object type="0x566A" id="New KSW Tinkerer 4">
-    <DisplayId>Kogbold Expedition Engine</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <NoCollisionWhenMovement />
     <Color>0xFF9800</Color>
-    <DisplayId>Kogbold Tinkerer</DisplayId>
+    <DisplayId>Kogbold Expedition Turret</DisplayId>
     <AnimatedTexture>
       <File>steamworksChars16x16</File>
       <Index>5</Index>
@@ -6311,6 +6380,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x566B" id="New KSW Tinkerer Turret 4">
     <Class>Character</Class>
@@ -6323,7 +6393,6 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
-    <Exp>80</Exp>
   </Object>
   <Object type="0x566C" id="New Train Cart 1">
     <Enemy />
@@ -6458,15 +6527,13 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Enemy />
-    <Encounter terrain="ShipWreck, RunicTundra" />
+    <Encounter terrain="ShipWreck,RunicTundra" aliveMax="1" />
     <PerRealmMax>2</PerRealmMax>
     <Hero />
     <Invincible />
     <Size>100</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Invincible />
     <Labels>ENEMY,MINION,,ENCOUNTER,Beer Encounter Spawner</Labels>
   </Object>
   <Object type="0x5670" id="New Beer God">
@@ -6476,6 +6543,7 @@
     <ParalyzeImmune />
     <StunImmune />
     <TrackLoot />
+    <KeepDamageRecord />
     <DisplayId>Beer God</DisplayId>
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
@@ -6487,8 +6555,11 @@
         <Index>53</Index>
       </AnimatedTexture>
     </AltTexture>
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/lizard_god_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <DamageBasedXP />
     <HealthBarBoss radius="30" />
@@ -6534,9 +6605,10 @@
       <ArmorPiercing />
       <LifetimeMS>3000</LifetimeMS>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,HUMANOID,GOD,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,HUMANOID,GOD,STASISIMMUNE,TRACKLOOT,MINION_STRONG,ADEPT_ENCOUNTER</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -6547,7 +6619,6 @@
     <Class>GameObject</Class>
     <Enemy />
     <Invincible />
-    <RemainVisible />
     <NoCollisionWhenMovement />
     <DisplayId>Beer God Slurp</DisplayId>
     <AnimatedTexture>
@@ -6588,7 +6659,6 @@
     <Class>GameObject</Class>
     <Enemy />
     <Invincible />
-    <RemainVisible />
     <NoCollisionWhenMovement />
     <DisplayId>Beer God Slurp</DisplayId>
     <AnimatedTexture>
@@ -6629,7 +6699,6 @@
     <Class>GameObject</Class>
     <Enemy />
     <Invincible />
-    <RemainVisible />
     <NoCollisionWhenMovement />
     <DisplayId>Beer God Slurp</DisplayId>
     <AnimatedTexture>
@@ -6670,7 +6739,6 @@
     <Class>GameObject</Class>
     <Enemy />
     <Invincible />
-    <RemainVisible />
     <NoCollisionWhenMovement />
     <DisplayId>Beer God Slurp</DisplayId>
     <AnimatedTexture>
@@ -6741,32 +6809,36 @@
   </Object>
   <Object type="0x5679" id="New GC Encounter Gauntlet Controller">
     <DisplayId>Dwarf Miner</DisplayId>
-    <Class>Character</Class>
-    <Enemy />
-    <Invincible />
     <Texture>
       <File>crystalCaveObjects8x8</File>
       <Index>0x0d</Index>
     </Texture>
+    <Class>Character</Class>
+    <Enemy />
+    <Invincible />
     <Size>120</Size>
     <Hero />
     <Quest />
     <God />
-    <Encounter terrain="Carboniferous,RunicTundra" />
+    <Encounter terrain="Carboniferous,RunicTundra" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Level>20</Level>
     <PerRealmMax>1</PerRealmMax>
     <Labels>ENEMY,MINION,QUEST,ENCOUNTER,GC Encounter Gauntlet Controller</Labels>
   </Object>
   <Object type="0x567A" id="New GC Enc Boss">
     <DisplayId>Crystal Worm Father</DisplayId>
-    <Class>Character</Class>
-    <Enemy />
     <AnimatedTexture>
       <File>fungalCavernChars16x16</File>
       <Index>0</Index>
     </AnimatedTexture>
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/ogres_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>0</Size>
     <ShadowSize>75</ShadowSize>
     <MaxHitPoints>75000</MaxHitPoints>
@@ -6774,6 +6846,7 @@
     <Exp>60000</Exp>
     <BXP>180000</BXP>
     <TrackLoot />
+    <KeepDamageRecord />
     <Projectile id="0">
       <ObjectId>White Shard Bolt</ObjectId>
       <Damage>200</Damage>
@@ -6859,12 +6932,13 @@
       <Amplitude>0.3</Amplitude>
       <Boomerang />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,MINIBOSS,CONSTRUCT,GOD,TRACKLOOT,BOSS_SPAWNED</Labels>
+    <Labels>ENEMY,MINIBOSS,CONSTRUCT,GOD,TRACKLOOT,BOSS_SPAWNED,VETERAN_ENCOUNTER</Labels>
   </Object>
   <Object type="0x567B" id="New EH Event Hive Summoner">
     <Class>Character</Class>
@@ -6876,7 +6950,7 @@
     <Size>0</Size>
     <ShadowSize>0</ShadowSize>
     <Enemy />
-    <Encounter terrain="FloralEscape,SanguineForest" />
+    <Encounter terrain="FloralEscape,SanguineForest" aliveMax="1" />
     <PerRealmMax>1</PerRealmMax>
     <Hero />
     <Invincible />
@@ -6894,7 +6968,7 @@
     <ShadowSize>0</ShadowSize>
     <Enemy />
     <Invincible />
-    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT,VETERAN_ENCOUNTER</Labels>
   </Object>
   <Object type="0x567D" id="New EH Blue Loot">
     <Class>Character</Class>
@@ -6908,7 +6982,7 @@
     <ShadowSize>0</ShadowSize>
     <Enemy />
     <Invincible />
-    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT,VETERAN_ENCOUNTER</Labels>
   </Object>
   <Object type="0x567E" id="New EH Yellow Loot">
     <Class>Character</Class>
@@ -6922,7 +6996,7 @@
     <ShadowSize>0</ShadowSize>
     <Enemy />
     <Invincible />
-    <Labels>ENEMY,MINION,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINION,TRACKLOOT,VETERAN_ENCOUNTER</Labels>
   </Object>
   <Object type="0x567F" id="New EH Red Minor Loot">
     <Class>Character</Class>
@@ -6970,13 +7044,18 @@
     <MaxHitPoints>125000</MaxHitPoints>
     <Defense>40</Defense>
     <God />
-    <Encounter terrain="SanguineForest,RunicTundra" />
+    <Hero />
+    <Encounter terrain="SanguineForest,RunicTundra" aliveMax="1" />
+    <Color>0x1B006D</Color>
+    <MinimapIcon piece="Boss" />
     <TrackLoot />
+    <KeepDamageRecord />
     <PerRealmMax>1</PerRealmMax>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <Exp>60000</Exp>
     <BXP>180000</BXP>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG,ENCOUNTER,LH Lost Sentry,VETERAN_ENCOUNTER</Labels>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
     <AnimatedTexture>
@@ -7007,7 +7086,6 @@
         <Index>32</Index>
       </AnimatedTexture>
     </AltTexture>
-    <Color>0x1B006D</Color>
     <Projectile id="0">
       <ObjectId>Cultist Malus Shot</ObjectId>
       <Damage>100</Damage>
@@ -7247,7 +7325,6 @@
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENCOUNTER,LH Lost Sentry</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -7266,7 +7343,10 @@
   <Object type="0x5683" id="New MV Event Shrine">
     <DisplayId>Ethereal Shrine</DisplayId>
     <Enemy />
-    <Encounter terrain="FloralEscape,Carboniferous" />
+    <Hero />
+    <Encounter terrain="FloralEscape,Carboniferous" aliveMax="1" />
+    <Color>0xD6D6BF</Color>
+    <MinimapIcon piece="Boss" />
     <PerRealmMax>1</PerRealmMax>
     <God />
     <Texture>
@@ -7280,6 +7360,7 @@
       </Texture>
     </AltTexture>
     <Class>Character</Class>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>200</Size>
     <MaxHitPoints>115000</MaxHitPoints>
     <Defense>200</Defense>
@@ -7290,11 +7371,10 @@
     <StunImmune />
     <DazedImmune />
     <StasisImmune />
-    <Color>0xD6D6BF</Color>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
     <KillStat stat="StructureKills" />
-    <Labels>ENEMY,HERO,GOD,QUEST,STASISIMMUNE,BOSS</Labels>
+    <Labels>ENEMY,HERO,GOD,QUEST,STASISIMMUNE,BOSS,ENCOUNTER,MV Event Shrine,VETERAN_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>MV Flame Wave</ObjectId>
       <Damage>100</Damage>
@@ -7508,7 +7588,6 @@
         <StyleStep id="DeathAnimation">SetAnimation</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENCOUNTER,MV Event Shrine</Labels>
   </Object>
   <Object type="0x5684" id="New Temple Encounter">
     <Enemy />
@@ -7520,37 +7599,42 @@
     </Texture>
     <Size>0</Size>
     <Invincible />
-    <Encounter terrain="Abandoned" />
+    <Encounter terrain="Abandoned" aliveMax="1" />
     <Level>20</Level>
     <PerRealmMax>2</PerRealmMax>
     <Hero />
-    <Labels>ENEMY,ENCOUNTER,Temple Encounter</Labels>
+    <Labels>ENEMY,ENCOUNTER,Temple Encounter,ADEPT_ENCOUNTER</Labels>
   </Object>
   <Object type="0x5685" id="New Jade Statue">
-    <DisplayId>Jade Statue</DisplayId>
     <Enemy />
     <Class>Character</Class>
+    <DisplayId>Jade Statue</DisplayId>
     <AnimatedTexture>
       <File>mountainTempleChars16x16</File>
       <Index>14</Index>
     </AnimatedTexture>
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/greater_demons_hit</HitSound>
     <DeathSound>monster/greater_demons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <MaxHitPoints>30000</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
-    <RealmScore>2000</RealmScore>
+    <RealmScore>1000</RealmScore>
     <Flying />
     <TrackLoot />
     <Hero />
     <Quest />
     <God />
+    <KeepDamageRecord />
     <Level>20</Level>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="7" seasonalBonus="0.15">redDust</SoulboundDust>
     <Projectile id="0">
       <ObjectId>Temple Green Bolt</ObjectId>
       <Damage>125</Damage>
@@ -7595,33 +7679,38 @@
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD,ADEPT_ENCOUNTER</Labels>
   </Object>
   <Object type="0x5686" id="New Garnet Statue">
-    <DisplayId>Garnet Statue</DisplayId>
     <Enemy />
     <Class>Character</Class>
+    <DisplayId>Garnet Statue</DisplayId>
     <AnimatedTexture>
       <File>mountainTempleChars16x16</File>
       <Index>15</Index>
     </AnimatedTexture>
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/greater_demons_hit</HitSound>
     <DeathSound>monster/greater_demons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>100</Size>
     <MaxHitPoints>30000</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
-    <RealmScore>2000</RealmScore>
+    <RealmScore>1000</RealmScore>
     <Flying />
     <TrackLoot />
     <Hero />
     <Quest />
     <God />
+    <KeepDamageRecord />
     <Level>20</Level>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="7" seasonalBonus="0.15">redDust</SoulboundDust>
     <Projectile id="0">
       <ObjectId>Temple Orange Bolt</ObjectId>
       <Damage>125</Damage>
@@ -7666,7 +7755,7 @@
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD,ADEPT_ENCOUNTER</Labels>
   </Object>
   <Object id="Bilgewater's Galleon" type="0x4ffb">
     <Enemy />
@@ -7679,16 +7768,20 @@
     <PerRealmMax>1</PerRealmMax>
     <HitSound>monster/stone_walls_death</HitSound>
     <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>220</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>150000</MaxHitPoints>
+    <MaxHitPoints>90000</MaxHitPoints>
     <Defense>70</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
-    <Encounter terrain="ShipWreck" />
+    <Encounter terrain="ShipWreck" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Flying />
     <Hero />
     <RealmScore>2000</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -7699,6 +7792,7 @@
     <NoCollisionWhenMovement />
     <KeepDamageRecord />
     <AlwaysPositiveHealth />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Cannonball</ObjectId>
       <Damage>100</Damage>
@@ -7767,6 +7861,7 @@
       <MultiHit />
     </Projectile>
     <Effect cooldown="0.2" particle="SwirlingMist">XMLEffect</Effect>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Galleon Shoot Helper A" type="0x518b">
     <Class>Character</Class>
@@ -7802,7 +7897,7 @@
     <Size>100</Size>
     <HitSound>monster/cave_pirates_hit</HitSound>
     <DeathSound>monster/cave_pirates_death</DeathSound>
-    <MaxHitPoints>10000</MaxHitPoints>
+    <MaxHitPoints>7500</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -7882,38 +7977,38 @@
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
-    <MaxHitPoints>7500</MaxHitPoints>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
     <Projectile id="0">
       <ObjectId>Deadwater White Banana</ObjectId>
       <Size>100</Size>
-      <Damage>90</Damage>
-      <Speed>45</Speed>
+      <Damage>50</Damage>
+      <Speed>30</Speed>
       <LifetimeMS>1750</LifetimeMS>
       <MultiHit />
     </Projectile>
     <Projectile id="1">
       <ObjectId>Deadwater White Banana</ObjectId>
       <Size>100</Size>
-      <Damage>120</Damage>
-      <Speed>70</Speed>
+      <Damage>75</Damage>
+      <Speed>45</Speed>
       <LifetimeMS>1750</LifetimeMS>
       <MultiHit />
     </Projectile>
     <Projectile id="2">
       <ObjectId>Deadwater White Banana</ObjectId>
       <Size>100</Size>
-      <Damage>150</Damage>
-      <Speed>95</Speed>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
       <LifetimeMS>1750</LifetimeMS>
       <MultiHit />
     </Projectile>
     <Projectile id="3">
       <ObjectId>Deadwater White Banana</ObjectId>
-      <Damage>150</Damage>
-      <Speed>75</Speed>
+      <Damage>75</Damage>
+      <Speed>50</Speed>
       <LifetimeMS>1500</LifetimeMS>
       <MultiHit />
     </Projectile>
@@ -7939,17 +8034,20 @@
     </AnimatedTexture>
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>160</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>120000</MaxHitPoints>
     <Defense>60</Defense>
     <Exp>60000</Exp>
     <BXP>180000</BXP>
-    <Encounter terrain="Carboniferous" />
+    <Encounter terrain="Carboniferous" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <PerRealmMax>1</PerRealmMax>
     <Flying />
-    <Hero />
     <RealmScore>3000</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -7960,6 +8058,7 @@
     <DazedImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,VETERAN_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Deadwater Bartholomew Feather</ObjectId>
       <Damage>140</Damage>
@@ -8169,6 +8268,7 @@
       <SpeedClamp>0</SpeedClamp>
       <ConditionEffect duration="1.6">Slowed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="7" seasonalBonus="0.15">purpleDust</SoulboundDust>
   </Object>
   <Object id="Flying Behemoth Egg" type="0x513f">
     <Enemy />
@@ -8180,12 +8280,14 @@
     </Texture>
     <HitSound>monster/stone_walls_death</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>200</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>120000</MaxHitPoints>
     <Defense>100</Defense>
     <Exp>0</Exp>
     <BXP>0</BXP>
+    <Hero />
     <Flying />
     <HealthBarBoss />
     <God />
@@ -8193,6 +8295,7 @@
     <StunImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,VETERAN_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>EH Red Ball</ObjectId>
       <Damage>60</Damage>
@@ -8239,6 +8342,7 @@
       <MultiHit />
       <ConditionEffect duration="2">Silenced</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="7" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <Animation id="EggCrack" period="0" prob="1">
       <Frame time="0.6">
         <Texture>
@@ -8451,6 +8555,7 @@
     </Texture>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>180</Size>
     <ShadowSize>100</ShadowSize>
     <PerRealmMax>1</PerRealmMax>
@@ -8458,9 +8563,12 @@
     <Defense>100</Defense>
     <Exp>60000</Exp>
     <BXP>180000</BXP>
-    <Encounter terrain="RunicTundra" />
+    <Encounter terrain="RunicTundra" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <RealmScore>3000</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -8470,6 +8578,7 @@
     <DazedImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,VETERAN_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Runes of Horror</ObjectId>
       <Damage>150</Damage>
@@ -8620,6 +8729,7 @@
       <LifetimeMS>1000</LifetimeMS>
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <Animation id="GreenMonolith" period="0" prob="1">
       <Frame time="0.1">
         <Texture>
@@ -8876,6 +8986,7 @@
     </Animation>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <Size>150</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>15000</MaxHitPoints>
@@ -8944,6 +9055,7 @@
     </Animation>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <Size>150</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>15000</MaxHitPoints>
@@ -9012,6 +9124,7 @@
     </Animation>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <Size>150</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>17500</MaxHitPoints>
@@ -9080,6 +9193,7 @@
     </Animation>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="1.5" />
     <Size>150</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>15000</MaxHitPoints>
@@ -9306,15 +9420,19 @@
     <DrawOnGround />
     <HitSound>monster/eggs_hit</HitSound>
     <DeathSound>monster/blobs_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>125</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>180000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>60000</Exp>
     <BXP>180000</BXP>
-    <Encounter terrain="SanguineForest" />
+    <Encounter terrain="SanguineForest" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <RealmScore>3000</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -9324,6 +9442,7 @@
     <DazedImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,VETERAN_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>pD Maw Shot 3</ObjectId>
       <Damage>45</Damage>
@@ -9399,6 +9518,7 @@
       <FaceDir />
       <ConditionEffect duration="3.5">Sick</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">purpleDust</SoulboundDust>
   </Object>
   <Object id="Ravenous Rot Cyst" type="0x425f">
     <DisplayId>Explosive Cyst</DisplayId>
@@ -9550,6 +9670,16 @@
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Legion General</DisplayId>
+    <AnimatedTexture>
+      <File>Rookie_24x24</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <Portrait>
+      <AnimatedTexture>
+        <File>Rookie_24x24</File>
+        <Index>1</Index>
+      </AnimatedTexture>
+    </Portrait>
     <RandomTexture>
       <AnimatedTexture>
         <File>Rookie_24x24</File>
@@ -9570,14 +9700,18 @@
     </RandomTexture>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>130</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>120000</MaxHitPoints>
+    <MaxHitPoints>90000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <RealmScore>2000</RealmScore>
-    <Encounter terrain="Abandoned" />
+    <TrackLoot />
+    <Encounter terrain="Abandoned" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -9587,6 +9721,7 @@
     <ParalyzeImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>O3 Exalted Big Bolt</ObjectId>
       <Damage>180</Damage>
@@ -9797,6 +9932,7 @@
       <LifetimeMS>4000</LifetimeMS>
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Legion Footsoldier" type="0x5dc6">
     <DisplayId>Legion Footsoldier</DisplayId>
@@ -9819,7 +9955,7 @@
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>120</Size>
-    <MaxHitPoints>7000</MaxHitPoints>
+    <MaxHitPoints>6250</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -9874,7 +10010,7 @@
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>130</Size>
-    <MaxHitPoints>15000</MaxHitPoints>
+    <MaxHitPoints>12500</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -9979,18 +10115,22 @@
     <DisplayId>Mutant Overgrowth</DisplayId>
     <AnimatedTexture>
       <File>highTechTerrorChars16x16</File>
-      <Index>1</Index>
+      <Index>7</Index>
     </AnimatedTexture>
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>180</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>165000</MaxHitPoints>
     <Defense>60</Defense>
     <Exp>60000</Exp>
     <BXP>180000</BXP>
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <RealmScore>3000</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -10001,6 +10141,7 @@
     <DazedImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,VETERAN_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>MV Petal Spike</ObjectId>
       <Damage>120</Damage>
@@ -10047,15 +10188,16 @@
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Mutant Overgrowth Tendril" type="0x5dc9">
     <DisplayId>Mutant Tendril</DisplayId>
     <Enemy />
     <Class>Character</Class>
-    <Texture>
-      <File>highTechTerrorObjects16x16</File>
-      <Index>0x22</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>highTechTerrorChars16x16</File>
+      <Index>8</Index>
+    </AnimatedTexture>
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>1</Size>
@@ -10142,21 +10284,37 @@
     <Enemy />
     <Class>Character</Class>
     <DisplayId>Adult Baneserpent</DisplayId>
-    <AnimatedTexture>
-      <File>lairOfDraconisChars16x16</File>
-      <Index>10</Index>
-    </AnimatedTexture>
+    <Texture>
+      <File>lairOfDraconisObjects16x16</File>
+      <Index>256</Index>
+    </Texture>
+    <RandomTexture>
+      <AnimatedTexture>
+        <File>chars16x16rEncounters</File>
+        <Index>176</Index>
+      </AnimatedTexture>
+    </RandomTexture>
+    <Portrait>
+      <Texture>
+        <File>lairOfDraconisObjects16x16</File>
+        <Index>256</Index>
+      </Texture>
+    </Portrait>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>200</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>110000</MaxHitPoints>
     <Defense>80</Defense>
     <Exp>60000</Exp>
     <BXP>180000</BXP>
-    <Encounter terrain="DeepSea" />
+    <Encounter terrain="DeepSea" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <RealmScore>3000</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -10169,6 +10327,7 @@
     <AlwaysPositiveHealth />
     <NoCollisionWhenMovement />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,VETERAN_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>LOD Blue Bullet</ObjectId>
       <Damage>130</Damage>
@@ -10209,6 +10368,7 @@
       <PassesCover />
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Baneserpent Head 1" type="0x8699">
     <DisplayId>Adult Baneserpent</DisplayId>
@@ -10216,7 +10376,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
-      <Index>99</Index>
+      <Index>175</Index>
     </AnimatedTexture>
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
@@ -10284,7 +10444,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
-      <Index>99</Index>
+      <Index>175</Index>
     </AnimatedTexture>
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
@@ -10352,7 +10512,7 @@
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
-      <Index>99</Index>
+      <Index>175</Index>
     </AnimatedTexture>
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
@@ -10418,8 +10578,8 @@
     <DisplayId>Adult Baneserpent</DisplayId>
     <Class>Character</Class>
     <Texture>
-      <File>lairOfDraconisObjects16x16</File>
-      <Index>0x75</Index>
+      <File>lairOfDraconisObjects8x8</File>
+      <Index>250</Index>
     </Texture>
     <Size>90</Size>
     <NoCollisionWhenMovement />
@@ -10431,8 +10591,8 @@
     <DisplayId>Adult Baneserpent</DisplayId>
     <Class>Character</Class>
     <Texture>
-      <File>lairOfDraconisObjects16x16</File>
-      <Index>0x75</Index>
+      <File>lairOfDraconisObjects8x8</File>
+      <Index>250</Index>
     </Texture>
     <Size>90</Size>
     <NoCollisionWhenMovement />
@@ -10444,8 +10604,8 @@
     <DisplayId>Adult Baneserpent</DisplayId>
     <Class>Character</Class>
     <Texture>
-      <File>lairOfDraconisObjects16x16</File>
-      <Index>0x75</Index>
+      <File>lairOfDraconisObjects8x8</File>
+      <Index>250</Index>
     </Texture>
     <Size>90</Size>
     <NoCollisionWhenMovement />
@@ -10456,8 +10616,8 @@
   <Object id="Baneserpent Head Anchor 1" type="0x86a6">
     <Class>Character</Class>
     <Texture>
-      <File>oryxHordeObjects16x16</File>
-      <Index>0</Index>
+      <File>lairOfDraconisObjects8x8</File>
+      <Index>250</Index>
     </Texture>
     <Size>-1</Size>
     <NoMiniMap />
@@ -10467,8 +10627,8 @@
   <Object id="Baneserpent Head Anchor 2" type="0x86a7">
     <Class>Character</Class>
     <Texture>
-      <File>oryxHordeObjects16x16</File>
-      <Index>0</Index>
+      <File>lairOfDraconisObjects8x8</File>
+      <Index>250</Index>
     </Texture>
     <Size>-1</Size>
     <NoMiniMap />
@@ -10478,8 +10638,8 @@
   <Object id="Baneserpent Head Anchor 3" type="0x86a8">
     <Class>Character</Class>
     <Texture>
-      <File>oryxHordeObjects16x16</File>
-      <Index>0</Index>
+      <File>lairOfDraconisObjects8x8</File>
+      <Index>250</Index>
     </Texture>
     <Size>-1</Size>
     <NoMiniMap />
@@ -10489,8 +10649,8 @@
   <Object id="Baneserpent Impact" type="0x86a9">
     <Class>Character</Class>
     <Texture>
-      <File>oryxHordeObjects16x16</File>
-      <Index>0</Index>
+      <File>lairOfDraconisObjects8x8</File>
+      <Index>250</Index>
     </Texture>
     <Size>-1</Size>
     <NoMiniMap />
@@ -10502,8 +10662,8 @@
     <Enemy />
     <Class>Character</Class>
     <Texture>
-      <File>oryxHordeObjects16x16</File>
-      <Index>0</Index>
+      <File>lairOfDraconisObjects8x8</File>
+      <Index>250</Index>
     </Texture>
     <Size>-1</Size>
     <NoMiniMap />
@@ -10513,8 +10673,8 @@
   <Object id="Baneserpent Controller" type="0x86ab">
     <Class>Character</Class>
     <Texture>
-      <File>oryxHordeObjects16x16</File>
-      <Index>0</Index>
+      <File>lairOfDraconisObjects8x8</File>
+      <Index>250</Index>
     </Texture>
     <Size>-1</Size>
     <NoMiniMap />
@@ -10526,29 +10686,59 @@
     <Class>Character</Class>
     <DisplayId>Well of Souls</DisplayId>
     <Texture>
-      <File>theShattersObjects16x16</File>
-      <Index>0x01</Index>
+      <File>hauntedHallowsObjects32x32</File>
+      <Index>1</Index>
     </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedHallowsObjects32x32</File>
+          <Index>1</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedHallowsObjects32x32</File>
+          <Index>2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedHallowsObjects32x32</File>
+          <Index>3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedHallowsObjects32x32</File>
+          <Index>4</Index>
+        </Texture>
+      </Frame>
+    </Animation>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>150</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>110000</MaxHitPoints>
+    <MaxHitPoints>80000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
-    <Encounter terrain="DeadChurch" />
     <Hero />
     <RealmScore>2000</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
-    <Encounter terrain="DeadChurch" />
+    <Encounter terrain="DeadChurch" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <HealthBarBoss />
     <God />
     <StasisImmune />
     <StunImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Septavius Projectile</ObjectId>
       <Damage>120</Damage>
@@ -10570,6 +10760,7 @@
       <PassesCover />
       <ArmorPiercing />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Well of Souls Soul" type="0x869d">
     <Enemy />
@@ -10609,7 +10800,7 @@
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>12500</MaxHitPoints>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -10638,15 +10829,19 @@
     </Texture>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>200</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>120000</MaxHitPoints>
+    <MaxHitPoints>90000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <PerRealmMax>1</PerRealmMax>
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <RealmScore>2000</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -10656,6 +10851,7 @@
     <DazedImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Orange Fairy Breath</ObjectId>
       <Damage>110</Damage>
@@ -10711,6 +10907,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Curse</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Eye of the Underworld Target" type="0x86a0">
     <Class>Character</Class>
@@ -10764,24 +10961,30 @@
     </AnimatedTexture>
     <HitSound>monster/dark_elves_hit</HitSound>
     <DeathSound>monster/dark_elves_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>150</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>85000</MaxHitPoints>
+    <MaxHitPoints>65000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
-    <Encounter terrain="DeadChurch" />
+    <Encounter terrain="DeadChurch" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <RealmScore>2000</RealmScore>
+    <TrackLoot />
     <Hero />
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
     <God />
     <StasisImmune />
+    <ParalyzeImmune />
     <StunImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
     <LeachHealth />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Pirate King Gold</ObjectId>
       <Damage>120</Damage>
@@ -10812,6 +11015,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="1.5">Unstable</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="The Plague Doctor Cure A" type="0x86ba">
     <DisplayId>Lethal Cure</DisplayId>
@@ -10827,7 +11031,7 @@
     <AlwaysPositiveHealth />
     <StasisImmune />
     <NoMiniMap />
-    <MaxHitPoints>5000</MaxHitPoints>
+    <MaxHitPoints>4000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -10867,7 +11071,7 @@
     <AlwaysPositiveHealth />
     <StasisImmune />
     <NoMiniMap />
-    <MaxHitPoints>5000</MaxHitPoints>
+    <MaxHitPoints>4000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -10908,7 +11112,7 @@
     <AlwaysPositiveHealth />
     <StasisImmune />
     <NoMiniMap />
-    <MaxHitPoints>5000</MaxHitPoints>
+    <MaxHitPoints>4000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>40</Exp>
     <BXP>200</BXP>
@@ -10956,15 +11160,19 @@
     </AnimatedTexture>
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>170</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>135000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>60000</Exp>
     <BXP>180000</BXP>
-    <Encounter terrain="SanguineForest" />
+    <Encounter terrain="SanguineForest" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <RealmScore>3000</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -10975,6 +11183,7 @@
     <StunImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,VETERAN_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>White Shard Bolt</ObjectId>
       <Damage>120</Damage>
@@ -11004,6 +11213,7 @@
       <MultiHit />
       <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">purpleDust</SoulboundDust>
   </Object>
   <Object id="Skeletal Centipede Regular Segment" type="0x86be">
     <DisplayId>Skeletal Centipede</DisplayId>
@@ -11028,6 +11238,7 @@
     </AnimatedTexture>
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>130</Size>
     <AlwaysPositiveHealth />
     <StasisImmune />
@@ -11083,6 +11294,7 @@
     </AnimatedTexture>
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>130</Size>
     <AlwaysPositiveHealth />
     <StasisImmune />
@@ -11138,6 +11350,7 @@
     </AnimatedTexture>
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>130</Size>
     <AlwaysPositiveHealth />
     <StasisImmune />
@@ -11194,9 +11407,7 @@
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>130</Size>
-    <AlwaysPositiveHealth />
     <Invincible />
-    <ParalyzeImmune />
     <Projectile id="0">
       <ObjectId>O3 White Wheel MRot</ObjectId>
       <Damage>160</Damage>
@@ -11239,14 +11450,18 @@
     </AltTexture>
     <HitSound>monster/ogres_hit</HitSound>
     <DeathSound>monster/ogres_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>155</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>130000</MaxHitPoints>
+    <MaxHitPoints>90000</MaxHitPoints>
     <Defense>55</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
-    <RealmScore>200</RealmScore>
-    <Encounter terrain="Abandoned" />
+    <RealmScore>2000</RealmScore>
+    <TrackLoot />
+    <Encounter terrain="Abandoned" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -11258,6 +11473,7 @@
     <SlowImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Balaam Red Shot</ObjectId>
       <Damage>200</Damage>
@@ -11347,6 +11563,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Maze Minotaur Pillar Object" type="0x8706">
     <Class>Character</Class>
@@ -11399,14 +11616,18 @@
     </AnimatedTexture>
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>170</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>80000</MaxHitPoints>
+    <MaxHitPoints>65000</MaxHitPoints>
     <Defense>45</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <RealmScore>2000</RealmScore>
-    <Encounter terrain="HauntedHallows" />
+    <TrackLoot />
+    <Encounter terrain="HauntedHallows" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -11418,6 +11639,7 @@
     <ParalyzeImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>White Cross Slash</ObjectId>
       <Damage>70</Damage>
@@ -11463,6 +11685,7 @@
       <SpeedClamp>80</SpeedClamp>
       <ConditionEffect duration="1">Slowed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Sigma Werewolf Shoot Helper A" type="0x86cf">
     <Class>Character</Class>
@@ -11518,14 +11741,18 @@
     </AnimatedTexture>
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>90000</MaxHitPoints>
+    <MaxHitPoints>75000</MaxHitPoints>
     <Defense>55</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <RealmScore>2000</RealmScore>
-    <Encounter terrain="HauntedHallows" />
+    <TrackLoot />
+    <Encounter terrain="HauntedHallows" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -11535,6 +11762,7 @@
     <ParalyzeImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Guard Wave Medium</ObjectId>
       <Damage>65</Damage>
@@ -11672,6 +11900,7 @@
       <MultiHit />
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Skull Knight Target" type="0x86f1">
     <Class>Character</Class>
@@ -11694,15 +11923,19 @@
     </AnimatedTexture>
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/dwarves_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>180</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>115000</MaxHitPoints>
+    <MaxHitPoints>65000</MaxHitPoints>
     <Defense>55</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
-    <Encounter terrain="CoralReefs" />
+    <Encounter terrain="CoralReefs" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
-    <RealmScore>3000</RealmScore>
+    <RealmScore>2000</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -11712,14 +11945,14 @@
     <DazedImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>White Shard Bolt</ObjectId>
-      <Damage>70</Damage>
-      <Speed>65</Speed>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
       <Size>100</Size>
-      <LifetimeMS>2000</LifetimeMS>
+      <LifetimeMS>3000</LifetimeMS>
       <MultiHit />
-      <ArmorPiercing />
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="1">
@@ -11737,16 +11970,15 @@
       <Damage>80</Damage>
       <Speed>50</Speed>
       <Size>120</Size>
-      <LifetimeMS>5600</LifetimeMS>
+      <LifetimeMS>2800</LifetimeMS>
       <PassesCover />
       <MultiHit />
-      <Boomerang />
       <FaceDir />
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
     <Projectile id="3">
       <ObjectId>Blue Big Spinner</ObjectId>
-      <Damage>120</Damage>
+      <Damage>60</Damage>
       <Speed>40</Speed>
       <Size>135</Size>
       <LifetimeMS>3500</LifetimeMS>
@@ -11754,7 +11986,7 @@
     </Projectile>
     <Projectile id="4">
       <ObjectId>MV Bubble</ObjectId>
-      <Damage>110</Damage>
+      <Damage>85</Damage>
       <Speed>50</Speed>
       <Size>100</Size>
       <LifetimeMS>2800</LifetimeMS>
@@ -11763,14 +11995,15 @@
     </Projectile>
     <Projectile id="5">
       <ObjectId>Ink Blot</ObjectId>
-      <Damage>150</Damage>
-      <Speed>65</Speed>
+      <Damage>90</Damage>
+      <Speed>45</Speed>
       <Size>140</Size>
-      <LifetimeMS>2200</LifetimeMS>
+      <LifetimeMS>3200</LifetimeMS>
+      <ConditionEffect duration="1">Silenced</ConditionEffect>
     </Projectile>
     <Projectile id="6">
       <ObjectId>Deep Sea Blast</ObjectId>
-      <Damage>140</Damage>
+      <Damage>90</Damage>
       <Speed>25</Speed>
       <Size>130</Size>
       <Acceleration>15</Acceleration>
@@ -11791,13 +12024,14 @@
     </Projectile>
     <Projectile id="8">
       <ObjectId>Blue Shard Bolt</ObjectId>
-      <Damage>100</Damage>
+      <Damage>85</Damage>
       <Speed>40</Speed>
       <Size>85</Size>
       <LifetimeMS>3500</LifetimeMS>
       <MultiHit />
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="World's Pearl" type="0x86f2">
     <Enemy />
@@ -11823,6 +12057,7 @@
     </Animation>
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/dwarves_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>145</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>15000</MaxHitPoints>
@@ -12144,13 +12379,17 @@
     </Presentation>
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>250</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>100000</MaxHitPoints>
+    <MaxHitPoints>80000</MaxHitPoints>
     <Defense>60</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <RealmScore>2000</RealmScore>
+    <TrackLoot />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -12160,6 +12399,7 @@
     <StunImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Purple Boomerang</ObjectId>
       <Damage>80</Damage>
@@ -12240,6 +12480,7 @@
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
       <ConditionEffect duration="3">Sick</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Gates of the Nether Target" type="0x86f0">
     <Class>Character</Class>
@@ -12555,13 +12796,16 @@
     </Portrait>
     <HitSound>monster/goblins_hit</HitSound>
     <DeathSound>monster/goblins_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>72000</MaxHitPoints>
+    <MaxHitPoints>65000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
-    <Encounter terrain="Abandoned" />
+    <Encounter terrain="Abandoned" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -12572,6 +12816,7 @@
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
     <NoCollisionWhenMovement />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>EH Red Ball</ObjectId>
       <Damage>60</Damage>
@@ -12701,8 +12946,8 @@
       <Acceleration>30</Acceleration>
       <AccelerationDelay>800</AccelerationDelay>
       <SpeedClamp>80</SpeedClamp>
-      <ConditionEffect duration="2">Hallucinating</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Goblin Patriarch Villager" type="0x86f8">
     <DisplayId>Goblin Villager</DisplayId>
@@ -12801,15 +13046,19 @@
     </Portrait>
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/lizard_god_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>185</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>125000</MaxHitPoints>
     <Defense>70</Defense>
     <Exp>60000</Exp>
     <BXP>180000</BXP>
-    <Encounter terrain="Carboniferous" />
+    <Encounter terrain="Carboniferous" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <RealmScore>3000</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -12821,6 +13070,7 @@
     <SlowImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,VETERAN_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>O3 White Big Missile</ObjectId>
       <Damage>200</Damage>
@@ -12919,15 +13169,16 @@
     <Class>Character</Class>
     <DisplayId>Bloodroot Heart</DisplayId>
     <AnimatedTexture>
-      <File>UGCSetPieceChars16x16</File>
+      <File>UGCSetPieceChars32x32</File>
       <Index>12</Index>
     </AnimatedTexture>
     <Portrait>
       <AnimatedTexture>
-        <File>UGCSetPieceChars16x16</File>
+        <File>UGCSetPieceChars32x32</File>
         <Index>12</Index>
       </AnimatedTexture>
     </Portrait>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>200</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>130000</MaxHitPoints>
@@ -12935,7 +13186,10 @@
     <Exp>60000</Exp>
     <BXP>180000</BXP>
     <RealmScore>3000</RealmScore>
-    <Encounter terrain="Sanguine" />
+    <TrackLoot />
+    <Encounter terrain="SanguineForest" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -12951,6 +13205,7 @@
     <DontFaceAttacks />
     <DontFaceMovement />
     <Z>-1</Z>
+    <Labels>ENEMY,ENCOUNTER,QUEST,VETERAN_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Demonic Wave</ObjectId>
       <Damage>160</Damage>
@@ -12971,6 +13226,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Bloodroot Heart Red Blood Cell" type="0x8716">
     <DisplayId>Red Blood Cell</DisplayId>
@@ -13067,14 +13323,18 @@
     </Portrait>
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>160</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>110000</MaxHitPoints>
+    <MaxHitPoints>80000</MaxHitPoints>
     <Defense>55</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <RealmScore>2000</RealmScore>
-    <Encounter terrain="DeadChurch" />
+    <TrackLoot />
+    <Encounter terrain="DeadChurch" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -13086,6 +13346,7 @@
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
     <NoCollisionWhenMovement />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Septavius Projectile</ObjectId>
       <Damage>160</Damage>
@@ -13133,6 +13394,7 @@
       <LifetimeMS>2500</LifetimeMS>
       <ConditionEffect duration="1.5">Slowed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Bone Tower 1" type="0x8719">
     <DisplayId>Bone Tower</DisplayId>
@@ -13188,7 +13450,7 @@
       <Index>13</Index>
     </AnimatedTexture>
     <HealthBar>-1</HealthBar>
-    <MaxHitPoints>1800</MaxHitPoints>
+    <MaxHitPoints>1000</MaxHitPoints>
     <Defense>0</Defense>
     <NoCollisionWhenMovement />
     <Size>100</Size>
@@ -13210,7 +13472,7 @@
     <Class>Character</Class>
     <Enemy />
     <StasisImmune />
-    <MaxHitPoints>6000</MaxHitPoints>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Defense>0</Defense>
     <Texture>
       <File>UGCSetpieceObjects8x8</File>
@@ -13229,44 +13491,6 @@
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
   </Object>
-  <Object id="Sinister Pumpkin" type="0x872a">
-    <Enemy />
-    <Class>Character</Class>
-    <Texture>
-      <File>UGCSetpieceObjects16x16</File>
-      <Index>41</Index>
-    </Texture>
-    <RandomTexture>
-      <Texture>
-        <File>UGCSetpieceObjects16x16</File>
-        <Index>41</Index>
-      </Texture>
-      <Texture>
-        <File>UGCSetpieceObjects16x16</File>
-        <Index>42</Index>
-      </Texture>
-      <Texture>
-        <File>UGCSetpieceObjects16x16</File>
-        <Index>43</Index>
-      </Texture>
-      <Texture>
-        <File>UGCSetpieceObjects16x16</File>
-        <Index>44</Index>
-      </Texture>
-    </RandomTexture>
-    <MaxSize>120</MaxSize>
-    <MinSize>90</MinSize>
-    <Invincible />
-    <Projectile id="0">
-      <ObjectId>Dissipating Flame Wave</ObjectId>
-      <Speed>70</Speed>
-      <Damage>20</Damage>
-      <LifetimeMS>1000</LifetimeMS>
-      <Size>120</Size>
-      <ArmorPiercing />
-      <ConditionEffect duration="3">Curse</ConditionEffect>
-    </Projectile>
-  </Object>
   <Object id="Daughter of Limon" type="0x872d">
     <Enemy />
     <Class>Character</Class>
@@ -13283,14 +13507,18 @@
     </Portrait>
     <HitSound>monster/sprite_god_hit</HitSound>
     <DeathSound>monster/sprite_god_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>140</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>82500</MaxHitPoints>
+    <MaxHitPoints>80000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <RealmScore>2000</RealmScore>
-    <Encounter terrain="SpriteForest" />
+    <TrackLoot />
+    <Encounter terrain="SpriteForest" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -13302,6 +13530,7 @@
     <ParalyzeImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Cyan Sprite Twirl</ObjectId>
       <Damage>125</Damage>
@@ -13354,6 +13583,7 @@
       <PassesCover />
       <ArmorPiercing />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Daughter of Limon Controller" type="0xc7ba">
     <Enemy />
@@ -13508,6 +13738,7 @@
     </Portrait>
     <HitSound>monster/ghost_god_hit</HitSound>
     <DeathSound>monster/ghost_god_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>150</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>72000</MaxHitPoints>
@@ -13515,7 +13746,10 @@
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <RealmScore>2000</RealmScore>
-    <Encounter terrain="ShipWreck" />
+    <TrackLoot />
+    <Encounter terrain="ShipWreck" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -13525,6 +13759,7 @@
     <StunImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Guard Wave Large</ObjectId>
       <Damage>75</Damage>
@@ -13584,6 +13819,7 @@
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Eye of the Storm Tornado" type="0xc759">
     <Enemy />
@@ -13746,14 +13982,18 @@
     </Portrait>
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>170</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>65000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
-    <RealmScore>500</RealmScore>
-    <Encounter terrain="HauntedHallows" />
+    <RealmScore>2000</RealmScore>
+    <TrackLoot />
+    <Encounter terrain="HauntedHallows" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -13765,6 +14005,7 @@
     <KeepDamageRecord />
     <DontFaceAttacks />
     <DontFaceMovement />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Cannonball</ObjectId>
       <Damage>120</Damage>
@@ -13822,11 +14063,12 @@
       <SpeedClamp>70</SpeedClamp>
       <ConditionEffect duration="1.5">Exposed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Possessed Small Pumpkin" type="0xc75a">
-    <DisplayId>Possessed Small Pumpkin</DisplayId>
     <Enemy />
     <Class>Character</Class>
+    <DisplayId>Possessed Small Pumpkin</DisplayId>
     <AnimatedTexture>
       <File>UGCSetPieceChars16x16</File>
       <Index>10</Index>
@@ -13922,12 +14164,16 @@
     </AltTexture>
     <HitSound>monster/oryx_hit</HitSound>
     <DeathSound>monster/oryx_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>110</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>185000</MaxHitPoints>
     <Defense>85</Defense>
     <Exp>25000</Exp>
     <BXP>75000</BXP>
+    <RealmScore>3000</RealmScore>
+    <Color>0x52bf90</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -13939,6 +14185,7 @@
     <ParalyzeImmune />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,VETERAN_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>InvisibleLaser</ObjectId>
       <Laser>20</Laser>
@@ -13975,7 +14222,7 @@
       <Size>100</Size>
       <LifetimeMS>3500</LifetimeMS>
       <MultiHit />
-      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+      <ConditionEffect duration="1">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="4">
       <ObjectId>O3 White Blast</ObjectId>
@@ -13991,7 +14238,8 @@
       <Speed>50</Speed>
       <Size>110</Size>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="1.5">Armor Broken</ConditionEffect>
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
     </Projectile>
     <Projectile id="6">
       <ObjectId>O3 Blue Big Spinner FRot</ObjectId>
@@ -14002,7 +14250,8 @@
       <Acceleration>100000</Acceleration>
       <AccelerationDelay>100</AccelerationDelay>
       <SpeedClamp>50</SpeedClamp>
-      <ConditionEffect duration="1.5">Armor Broken</ConditionEffect>
+      <ArmorPiercing />
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
     </Projectile>
     <Projectile id="7">
       <ObjectId>Thousand Reskin Missile</ObjectId>
@@ -14150,10 +14399,10 @@
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="22">
-      <ObjectId>MV Warning Projectile</ObjectId>
+      <ObjectId>SpecPen Arrow Indicator</ObjectId>
       <Damage>0</Damage>
       <Speed>100</Speed>
-      <Size>200</Size>
+      <Size>300</Size>
       <LifetimeMS>800</LifetimeMS>
       <MultiHit />
       <Acceleration>-200</Acceleration>
@@ -14176,7 +14425,7 @@
       <Size>100</Size>
       <LifetimeMS>3500</LifetimeMS>
       <MultiHit />
-      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+      <ConditionEffect duration="1">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="25">
       <ObjectId>O3 Purple Big Spinner FRot</ObjectId>
@@ -14185,7 +14434,7 @@
       <Size>120</Size>
       <LifetimeMS>2000</LifetimeMS>
       <ArmorPiercing />
-      <ConditionEffect duration="2">Armor Broken</ConditionEffect>
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
     </Projectile>
     <Projectile id="26">
       <ObjectId>O3 Purple Big Spinner FRot</ObjectId>
@@ -14197,7 +14446,7 @@
       <AccelerationDelay>100</AccelerationDelay>
       <SpeedClamp>50</SpeedClamp>
       <ArmorPiercing />
-      <ConditionEffect duration="2">Armor Broken</ConditionEffect>
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
     </Projectile>
     <Projectile id="27">
       <ObjectId>King Shuriken Void</ObjectId>
@@ -14303,6 +14552,28 @@
       <LifetimeMS>3000</LifetimeMS>
       <MultiHit />
       <ConditionEffect duration="5">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="38">
+      <ObjectId>Kogbold Rocket Shot Large</ObjectId>
+      <Damage>160</Damage>
+      <Speed>35</Speed>
+      <Size>115</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <Acceleration>50</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>70</SpeedClamp>
+    </Projectile>
+    <Projectile id="39">
+      <ObjectId>Kogbold Rocket Shot Large</ObjectId>
+      <Damage>160</Damage>
+      <Speed>40</Speed>
+      <Size>115</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <Acceleration>50</Acceleration>
+      <AccelerationDelay>275</AccelerationDelay>
+      <SpeedClamp>75</SpeedClamp>
     </Projectile>
     <Animation period="0" prob="1" id="DisappearAnimation">
       <Frame time="0.2">
@@ -14563,6 +14834,7 @@
         <StyleStep altTextureId="10">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">purpleDust</SoulboundDust>
   </Object>
   <Object id="True Commander Calbrik Anchor" type="0xc760">
     <Class>Character</Class>
@@ -14597,13 +14869,13 @@
     <Projectile id="0">
       <ObjectId>InvisibleLaser</ObjectId>
       <Laser>31</Laser>
-      <Damage>100</Damage>
+      <Damage>60</Damage>
       <Speed>0</Speed>
       <LifetimeMS>600</LifetimeMS>
       <Size>40</Size>
       <MultiHit />
       <ArmorPiercing />
-      <ConditionEffect duration="2">Drought</ConditionEffect>
+      <ConditionEffect duration="3">Drought</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Air Elemental missiles</ObjectId>
@@ -14617,10 +14889,12 @@
     </Projectile>
     <Projectile id="2">
       <ObjectId>Shade Orb Red</ObjectId>
-      <Damage>110</Damage>
+      <Damage>70</Damage>
       <Speed>40</Speed>
       <Size>110</Size>
       <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3" target="1">Stasis</ConditionEffect>
     </Projectile>
     <Projectile id="3">
       <ObjectId>Purple Sprite Twirl</ObjectId>
@@ -14745,14 +15019,17 @@
     </Animation>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>130</Size>
-    <MaxHitPoints>24000</MaxHitPoints>
+    <MaxHitPoints>50000</MaxHitPoints>
     <Defense>0</Defense>
     <Hero />
     <Level>20</Level>
     <HealthBarBoss />
     <God />
-    <Encounter terrain="SpriteForest" />
+    <Encounter terrain="SpriteForest" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <KeepDamageRecord />
     <Quest />
     <AlwaysPositiveHealth />
@@ -14760,6 +15037,8 @@
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <RealmScore>2000</RealmScore>
+    <TrackLoot />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Rainbow Sprite Blast</ObjectId>
       <Speed>55</Speed>
@@ -14778,6 +15057,7 @@
       <MultiHit />
     </Projectile>
     <SetStyle />
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Astral Rift Guard" type="0xc776">
     <DisplayId>Astral Guard</DisplayId>
@@ -14847,6 +15127,7 @@
     </Portrait>
     <HitSound>monster/scorpions_hit</HitSound>
     <DeathSound>monster/scorpions_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>170</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>75000</MaxHitPoints>
@@ -14854,7 +15135,10 @@
     <Exp>25000</Exp>
     <BXP>75000</BXP>
     <RealmScore>2000</RealmScore>
-    <Encounter terrain="ShipWreck" />
+    <TrackLoot />
+    <Encounter terrain="ShipWreck" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <Level>20</Level>
     <Quest />
@@ -14866,6 +15150,7 @@
     <KeepDamageRecord />
     <DontFaceAttacks />
     <DontFaceMovement />
+    <Labels>ENEMY,ENCOUNTER,QUEST,ADEPT_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>Dust Cloud</ObjectId>
       <Speed>45</Speed>
@@ -15033,6 +15318,7 @@
       <TurnStopTime>2900</TurnStopTime>
       <ConditionEffect duration="1">Exposed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object id="Royal Crab" type="0xc781">
     <DisplayId>Royal Crab</DisplayId>
@@ -15073,15 +15359,19 @@
     </Portrait>
     <HitSound>monster/rocks_hit</HitSound>
     <DeathSound>monster/rocks_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>150</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>100000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>60000</Exp>
     <BXP>180000</BXP>
-    <Encounter terrain="RunicTundra" />
+    <Encounter terrain="RunicTundra" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <RealmScore>3000</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -15095,6 +15385,7 @@
     <NoCollisionWhenMovement />
     <AlwaysPositiveHealth />
     <KeepDamageRecord />
+    <Labels>ENEMY,ENCOUNTER,QUEST,VETERAN_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>AoO Spell Proj</ObjectId>
       <Speed>55</Speed>
@@ -15153,6 +15444,7 @@
       <Size>120</Size>
       <ConditionEffect duration="1">Slowed</ConditionEffect>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">purpleDust</SoulboundDust>
   </Object>
   <Object id="Aerial Warship Anchor" type="0xc782">
     <Class>Character</Class>
@@ -15252,15 +15544,19 @@
     </Portrait>
     <HitSound>monster/flayers_hit</HitSound>
     <DeathSound>monster/flayers_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>200</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>115000</MaxHitPoints>
     <Defense>45</Defense>
     <Exp>60000</Exp>
     <BXP>180000</BXP>
-    <Encounter terrain="FloralEscape" />
+    <Encounter terrain="FloralEscape" aliveMax="1" />
+    <Color>0x8F04A8</Color>
+    <MinimapIcon piece="Boss" />
     <Hero />
     <RealmScore>3000</RealmScore>
+    <TrackLoot />
     <Level>20</Level>
     <Quest />
     <HealthBarBoss />
@@ -15274,6 +15570,7 @@
     <KeepDamageRecord />
     <DontFaceAttacks />
     <DontFaceMovement />
+    <Labels>ENEMY,ENCOUNTER,QUEST,VETERAN_ENCOUNTER</Labels>
     <Projectile id="0">
       <ObjectId>New Pillar Blast</ObjectId>
       <Speed>55</Speed>
@@ -15516,6 +15813,7 @@
       <ArmorPiercing />
       <Magnitude>9</Magnitude>
     </Projectile>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="5" dustMax="15" seasonalBonus="0.15">purpleDust</SoulboundDust>
   </Object>
   <Object id="Corrupted Bramblethorn Thorn" type="0xc787">
     <DisplayId>Corrupted Thorn</DisplayId>

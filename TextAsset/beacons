@@ -1185,6 +1185,29 @@
       </Style>
     </Presentation>
   </Object>
+  <Object id="Active Beacon Eternal Frost" type="0xFEFD">
+    <DisplayId>Relentless Springs Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>8</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>9</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>10</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>11</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>140</Size>
+  </Object>
   <Object id="Actual Active Beacon Shore" type="0x2670">
     <DisplayId>Shores Beacon</DisplayId>
     <Class>GameObject</Class>
@@ -1195,7 +1218,7 @@
     <Size>140</Size>
   </Object>
   <Object id="Actual Active Beacon Forest" type="0x2671">
-    <DisplayId>Forest Beacon</DisplayId>
+    <DisplayId>Nature Ruins Beacon</DisplayId>
     <Class>GameObject</Class>
     <Texture>
       <File>beacons32x32</File>
@@ -1343,6 +1366,29 @@
     </Texture>
     <Size>140</Size>
   </Object>
+  <Object id="Actual Active Beacon Eternal Frost" type="0xFEFE">
+    <DisplayId>Relentless Springs Beacon</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>8</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>9</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>10</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>11</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>140</Size>
+  </Object>
   <Object id="Captured Beacon Shore" type="0xCEDC">
     <DisplayId>Captured Shores Beacon</DisplayId>
     <Class>Character</Class>
@@ -1354,6 +1400,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
   </Object>
   <Object id="Captured Beacon Forest" type="0xCEDD">
     <DisplayId>Captured Forest Beacon</DisplayId>
@@ -1366,6 +1413,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
     <Animation period="0" prob="1">
       <Frame time="0.2">
         <Texture>
@@ -1433,6 +1481,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
     <Animation period="0" prob="1">
       <Frame time="0.2">
         <Texture>
@@ -1500,6 +1549,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
     <Animation period="0" prob="1">
       <Frame time="0.2">
         <Texture>
@@ -1567,6 +1617,15 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
+    <Projectile id="0">
+      <ObjectId>LOD White Blast</ObjectId>
+      <Damage>10</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4500</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing />
+    </Projectile>
     <Animation period="0" prob="1">
       <Frame time="0.2">
         <Texture>
@@ -1634,6 +1693,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
     <Projectile id="0">
       <ObjectId>O3 Red Glaive</ObjectId>
       <Damage>50</Damage>
@@ -1709,6 +1769,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
     <Projectile id="0">
       <ObjectId>Sea Horse Spinner</ObjectId>
       <Damage>80</Damage>
@@ -1729,6 +1790,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
     <Projectile id="0">
       <ObjectId>O3 White Big Spinner MRot</ObjectId>
       <Damage>100</Damage>
@@ -1803,6 +1865,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
     <Projectile id="0">
       <ObjectId>O3 White Big Spinner MRot</ObjectId>
       <Damage>80</Damage>
@@ -1877,6 +1940,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
     <Projectile id="0">
       <ObjectId>Flame Twirl</ObjectId>
       <Speed>40</Speed>
@@ -1962,6 +2026,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
     <Projectile id="0">
       <ObjectId>Giant Cannonball</ObjectId>
       <Damage>80</Damage>
@@ -2037,6 +2102,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
     <Projectile id="0">
       <ObjectId>Black Sprite Line</ObjectId>
       <Damage>80</Damage>
@@ -2178,6 +2244,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
   </Object>
   <Object id="Captured Beacon Floral Escape" type="0xCEEA">
     <DisplayId>Captured Floral Beacon</DisplayId>
@@ -2190,6 +2257,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
     <Animation period="0" prob="1">
       <Frame time="0.2">
         <Texture>
@@ -2257,6 +2325,7 @@
     <Size>140</Size>
     <Exp>0</Exp>
     <Invincible />
+    <AlwaysPositiveHealth />
     <Animation period="0" prob="1">
       <Frame time="0.2">
         <Texture>
@@ -2615,6 +2684,20 @@
     <MinimapIcon color="0x0655FF" piece="Beacon" />
     <Labels>BEACON</Labels>
   </Object>
+  <Object id="Teleport Beacon Eternal Frost" type="0xFEFF">
+    <DisplayId>Relentless Springs Beacon</DisplayId>
+    <Class>Beacon</Class>
+    <Beacon />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
+    <Color>0xFF69B4</Color>
+    <MinimapIcon color="0x0A7400" piece="Beacon" />
+    <Labels>BEACON</Labels>
+  </Object>
   <Object id="Beacon Guardian Shore" type="0xCEFE">
     <DisplayId>Legion Beach Guard</DisplayId>
     <Class>Character</Class>
@@ -2623,6 +2706,8 @@
       <File>Rookie_8x8</File>
       <Index>66</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -2630,36 +2715,51 @@
     <Defense>5</Defense>
     <Exp>250</Exp>
     <BXP>1250</BXP>
+    <RealmScore>250</RealmScore>
+    <TrackLoot />
     <StasisImmune />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile>
       <ObjectId>UDL White Slash</ObjectId>
-      <Damage>25</Damage>
+      <Damage>15</Damage>
       <Speed>50</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <Size>110</Size>
     </Projectile>
   </Object>
   <Object id="Beacon Guardian Forest" type="0xCEFF">
-    <DisplayId>Legion Forest Guard</DisplayId>
+    <DisplayId>Legion Nature Ruins Guard</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <AnimatedTexture>
       <File>Rookie_8x8</File>
       <Index>64</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
-    <MaxHitPoints>800</MaxHitPoints>
+    <MaxHitPoints>2800</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>250</Exp>
     <BXP>1250</BXP>
+    <RealmScore>250</RealmScore>
+    <TrackLoot />
     <StasisImmune />
-    <Projectile>
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
+    <Projectile id="0">
       <ObjectId>UDL White Slash</ObjectId>
-      <Damage>25</Damage>
-      <Speed>50</Speed>
+      <Damage>20</Damage>
+      <Speed>60</Speed>
       <LifetimeMS>3000</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LOD White Shot</ObjectId>
+      <Damage>30</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>4000</LifetimeMS>
       <Size>110</Size>
     </Projectile>
   </Object>
@@ -2671,6 +2771,8 @@
       <File>Rookie_8x8</File>
       <Index>64</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -2678,10 +2780,13 @@
     <Defense>5</Defense>
     <Exp>250</Exp>
     <BXP>1250</BXP>
+    <RealmScore>250</RealmScore>
+    <TrackLoot />
     <StasisImmune />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile>
       <ObjectId>UDL White Slash</ObjectId>
-      <Damage>40</Damage>
+      <Damage>15</Damage>
       <Speed>50</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <Size>110</Size>
@@ -2695,20 +2800,33 @@
       <File>Rookie_8x8</File>
       <Index>65</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
-    <MaxHitPoints>2400</MaxHitPoints>
+    <MaxHitPoints>2800</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>250</Exp>
     <BXP>1250</BXP>
+    <RealmScore>250</RealmScore>
+    <TrackLoot />
     <StasisImmune />
-    <Projectile>
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
+    <Projectile id="0">
       <ObjectId>UDL White Slash</ObjectId>
-      <Damage>40</Damage>
-      <Speed>50</Speed>
+      <Damage>20</Damage>
+      <Speed>60</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <Size>110</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Yellow Star</ObjectId>
+      <Damage>0</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Size>80</Size>
+      <ConditionEffect duration="2.6">Slowed</ConditionEffect>
     </Projectile>
   </Object>
   <Object id="Beacon Guardian Plains" type="0xCF02">
@@ -2719,6 +2837,8 @@
       <File>Rookie_8x8</File>
       <Index>66</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -2726,10 +2846,13 @@
     <Defense>5</Defense>
     <Exp>250</Exp>
     <BXP>1250</BXP>
+    <RealmScore>250</RealmScore>
+    <TrackLoot />
     <StasisImmune />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile>
       <ObjectId>UDL White Slash</ObjectId>
-      <Damage>55</Damage>
+      <Damage>30</Damage>
       <Speed>50</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <Size>110</Size>
@@ -2743,6 +2866,8 @@
       <File>Rookie_16x16</File>
       <Index>46</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -2750,8 +2875,11 @@
     <Defense>10</Defense>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
+    <RealmScore>500</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <Hero />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile id="0">
       <ObjectId>O3 Pike</ObjectId>
       <Damage>40</Damage>
@@ -2799,6 +2927,8 @@
       <File>oryxSanctuaryChars16x16</File>
       <Index>10</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -2806,8 +2936,11 @@
     <Defense>10</Defense>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
+    <RealmScore>500</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <Hero />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile id="0">
       <ObjectId>Villager Silver Dagger</ObjectId>
       <Damage>60</Damage>
@@ -2839,6 +2972,8 @@
       <File>Rookie_16x16</File>
       <Index>39</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -2846,8 +2981,11 @@
     <Defense>10</Defense>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
+    <RealmScore>500</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <Hero />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile id="0">
       <ObjectId>O3 Green Big Shockwave</ObjectId>
       <Damage>40</Damage>
@@ -2898,6 +3036,8 @@
       <File>Rookie_16x16</File>
       <Index>44</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -2905,8 +3045,11 @@
     <Defense>10</Defense>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
+    <RealmScore>500</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <Hero />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile id="0">
       <ObjectId>Accursed Villager Arrow</ObjectId>
       <Speed>70</Speed>
@@ -2933,6 +3076,8 @@
       <File>Rookie_16x16</File>
       <Index>38</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -2940,8 +3085,11 @@
     <Defense>10</Defense>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
+    <RealmScore>500</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <Hero />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile id="0">
       <ObjectId>O3 Red Stake</ObjectId>
       <Damage>80</Damage>
@@ -2974,6 +3122,22 @@
       <File>Rookie_16x16</File>
       <Index>43</Index>
     </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>Rookie_16x16</File>
+        <Index>41</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Presentation>
+      <Style id="gun">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="sword">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -2981,8 +3145,11 @@
     <Defense>10</Defense>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
+    <RealmScore>500</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <Hero />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile id="0">
       <ObjectId>Deadwater Flintlock Shot</ObjectId>
       <Damage>60</Damage>
@@ -3008,6 +3175,8 @@
       <File>Rookie_16x16</File>
       <Index>42</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -3015,8 +3184,11 @@
     <Defense>10</Defense>
     <Exp>2500</Exp>
     <BXP>12500</BXP>
+    <RealmScore>500</RealmScore>
+    <TrackLoot />
     <StasisImmune />
     <Hero />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile id="0">
       <ObjectId>O3 Battleaxe MRot</ObjectId>
       <Damage>80</Damage>
@@ -3079,6 +3251,8 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -3086,16 +3260,19 @@
     <Defense>25</Defense>
     <Exp>20000</Exp>
     <BXP>100000</BXP>
+    <RealmScore>750</RealmScore>
+    <TrackLoot />
     <HealthBarBoss />
     <AlwaysPositiveHealth />
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
     <Hero />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile id="0">
       <ObjectId>O3 Red Big Wave</ObjectId>
       <Size>120</Size>
-      <Damage>165</Damage>
+      <Damage>145</Damage>
       <Speed>5</Speed>
       <LifetimeMS>3500</LifetimeMS>
       <Acceleration>50</Acceleration>
@@ -3106,7 +3283,7 @@
     <Projectile id="1">
       <ObjectId>O3 White Wave</ObjectId>
       <Size>110</Size>
-      <Damage>135</Damage>
+      <Damage>115</Damage>
       <Speed>50</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <MultiHit />
@@ -3114,7 +3291,7 @@
     <Projectile id="2">
       <ObjectId>O3 Battleaxe MRot</ObjectId>
       <Size>150</Size>
-      <Damage>200</Damage>
+      <Damage>180</Damage>
       <Speed>30</Speed>
       <LifetimeMS>6000</LifetimeMS>
       <MultiHit />
@@ -3123,7 +3300,7 @@
     <Projectile id="3">
       <ObjectId>O3 White Big Wave</ObjectId>
       <Size>120</Size>
-      <Damage>175</Damage>
+      <Damage>155</Damage>
       <Speed>70</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <Amplitude>0.45</Amplitude>
@@ -3133,7 +3310,7 @@
     <Projectile id="4">
       <ObjectId>O3 Exalted Spear</ObjectId>
       <Size>100</Size>
-      <Damage>155</Damage>
+      <Damage>135</Damage>
       <Speed>45</Speed>
       <LifetimeMS>4000</LifetimeMS>
       <MultiHit />
@@ -3195,7 +3372,7 @@
     <Projectile id="0">
       <ObjectId>O3 Claymore</ObjectId>
       <Size>115</Size>
-      <Damage>155</Damage>
+      <Damage>135</Damage>
       <Speed>45</Speed>
       <LifetimeMS>4450</LifetimeMS>
       <MultiHit />
@@ -3212,7 +3389,7 @@
     <Projectile id="2">
       <ObjectId>O3 Claymore</ObjectId>
       <Size>125</Size>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <Speed>45</Speed>
       <LifetimeMS>4450</LifetimeMS>
       <MultiHit />
@@ -3223,7 +3400,7 @@
     <Projectile id="3">
       <ObjectId>O3 White Bolt</ObjectId>
       <Size>115</Size>
-      <Damage>140</Damage>
+      <Damage>120</Damage>
       <Speed>75</Speed>
       <LifetimeMS>2700</LifetimeMS>
       <MultiHit />
@@ -3232,7 +3409,7 @@
     <Projectile id="4">
       <ObjectId>O3 White Bolt</ObjectId>
       <Size>115</Size>
-      <Damage>140</Damage>
+      <Damage>120</Damage>
       <Speed>55</Speed>
       <LifetimeMS>3700</LifetimeMS>
       <MultiHit />
@@ -3254,6 +3431,8 @@
       <File>oryxSanctuaryChars16x16</File>
       <Index>2</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -3261,17 +3440,23 @@
     <Defense>1</Defense>
     <Exp>1</Exp>
     <BXP>5</BXP>
+    <StunImmune />
+    <DazedImmune />
+    <ParalyzeImmune />
+    <SlowImmune />
     <StasisImmune />
     <Hero />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile>
       <ObjectId>O3 White Slash</ObjectId>
-      <Damage>160</Damage>
+      <Damage>1</Damage>
       <Speed>150</Speed>
       <LifetimeMS>1250</LifetimeMS>
       <Size>100</Size>
       <MultiHit />
       <ArmorPiercing />
       <PassesCover />
+      <ConditionEffect duration="5">Sick</ConditionEffect>
     </Projectile>
   </Object>
   <Object id="Beacon Guardian Floral Escape" type="0xCF11">
@@ -3296,6 +3481,8 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -3303,6 +3490,8 @@
     <Defense>20</Defense>
     <Exp>20000</Exp>
     <BXP>100000</BXP>
+    <RealmScore>750</RealmScore>
+    <TrackLoot />
     <HealthBarBoss />
     <StunImmune />
     <DazedImmune />
@@ -3311,9 +3500,10 @@
     <StasisImmune />
     <Hero />
     <AlwaysPositiveHealth />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile id="0">
       <ObjectId>O3 Purple Wave</ObjectId>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <Speed>30</Speed>
       <LifetimeMS>2600</LifetimeMS>
       <Acceleration>9999999</Acceleration>
@@ -3325,7 +3515,7 @@
     </Projectile>
     <Projectile id="1">
       <ObjectId>O3 Purple Wave</ObjectId>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <Speed>30</Speed>
       <LifetimeMS>2600</LifetimeMS>
       <Acceleration>9999999</Acceleration>
@@ -3337,7 +3527,7 @@
     </Projectile>
     <Projectile id="2">
       <ObjectId>O3 Purple Wave</ObjectId>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <Speed>30</Speed>
       <LifetimeMS>2600</LifetimeMS>
       <Acceleration>9999999</Acceleration>
@@ -3349,7 +3539,7 @@
     </Projectile>
     <Projectile id="3">
       <ObjectId>O3 Purple Wave</ObjectId>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <Speed>30</Speed>
       <LifetimeMS>2600</LifetimeMS>
       <Acceleration>9999999</Acceleration>
@@ -3361,7 +3551,7 @@
     </Projectile>
     <Projectile id="4">
       <ObjectId>O3 Purple Wave</ObjectId>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <Speed>30</Speed>
       <LifetimeMS>2600</LifetimeMS>
       <Acceleration>9999999</Acceleration>
@@ -3373,7 +3563,7 @@
     </Projectile>
     <Projectile id="5">
       <ObjectId>O3 Purple Wave</ObjectId>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <Speed>30</Speed>
       <LifetimeMS>2600</LifetimeMS>
       <Acceleration>9999999</Acceleration>
@@ -3385,7 +3575,7 @@
     </Projectile>
     <Projectile id="6">
       <ObjectId>O3 Purple Wave</ObjectId>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <Speed>30</Speed>
       <LifetimeMS>2600</LifetimeMS>
       <Acceleration>9999999</Acceleration>
@@ -3413,7 +3603,7 @@
       <Speed>62</Speed>
       <LifetimeMS>6400</LifetimeMS>
       <Boomerang />
-      <Damage>160</Damage>
+      <Damage>140</Damage>
       <MultiHit />
       <ConditionEffect duration="4">Unstable</ConditionEffect>
     </Projectile>
@@ -3456,16 +3646,12 @@
     <AlwaysPositiveHealth />
     <Projectile>
       <ObjectId>O3 Purple Big Spike</ObjectId>
-      <Damage>120</Damage>
+      <Damage>100</Damage>
       <Speed>30</Speed>
       <LifetimeMS>2600</LifetimeMS>
       <Acceleration>9999999</Acceleration>
-      <AccelerationDelay>1600</AccelerationDelay>
-      <SpeedClamp>100</SpeedClamp>
-      <Size>110</Size>
-      <MultiHit />
-      <PassesCover />
-    </Projectile>
+         34
+         <AccelerationDelay>1600</AccelerationDelay><SpeedClamp>100</SpeedClamp><Size>110</Size><MultiHit /><PassesCover /></Projectile>
   </Object>
   <Object id="Beacon Guardian Sanguine Forest" type="0xCF15">
     <DisplayId>Legion Missionary</DisplayId>
@@ -3475,6 +3661,8 @@
       <File>Rookie_16x16</File>
       <Index>34</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -3482,36 +3670,39 @@
     <Defense>25</Defense>
     <Exp>20000</Exp>
     <BXP>100000</BXP>
+    <RealmScore>750</RealmScore>
+    <TrackLoot />
     <HealthBarBoss />
     <AlwaysPositiveHealth />
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
     <Hero />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile id="0">
       <ObjectId>O3 Red Star SRot</ObjectId>
       <Size>120</Size>
-      <Damage>160</Damage>
+      <Damage>140</Damage>
       <Speed>50</Speed>
       <LifetimeMS>4000</LifetimeMS>
-      <TurnRate>-100</TurnRate>
+      <TurnRate>-90</TurnRate>
       <MultiHit />
       <PassesCover />
     </Projectile>
     <Projectile id="1">
       <ObjectId>O3 Red Star SRot</ObjectId>
       <Size>120</Size>
-      <Damage>160</Damage>
+      <Damage>140</Damage>
       <Speed>50</Speed>
       <LifetimeMS>4000</LifetimeMS>
-      <TurnRate>100</TurnRate>
+      <TurnRate>90</TurnRate>
       <MultiHit />
       <PassesCover />
     </Projectile>
     <Projectile id="2">
       <ObjectId>O3 Red Wave</ObjectId>
       <Size>110</Size>
-      <Damage>140</Damage>
+      <Damage>120</Damage>
       <Speed>50</Speed>
       <LifetimeMS>4000</LifetimeMS>
       <MultiHit />
@@ -3519,7 +3710,7 @@
     <Projectile id="3">
       <ObjectId>O3 Red Wave</ObjectId>
       <Size>110</Size>
-      <Damage>140</Damage>
+      <Damage>120</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2860</LifetimeMS>
       <MultiHit />
@@ -3527,7 +3718,7 @@
     <Projectile id="4">
       <ObjectId>O3 Red Wave</ObjectId>
       <Size>110</Size>
-      <Damage>140</Damage>
+      <Damage>120</Damage>
       <Speed>90</Speed>
       <LifetimeMS>2222</LifetimeMS>
       <MultiHit />
@@ -3535,27 +3726,27 @@
     <Projectile id="5">
       <ObjectId>O3 Purple Star SRot</ObjectId>
       <Size>120</Size>
-      <Damage>180</Damage>
+      <Damage>160</Damage>
       <Speed>50</Speed>
       <LifetimeMS>4000</LifetimeMS>
-      <TurnRate>-100</TurnRate>
+      <TurnRate>-90</TurnRate>
       <MultiHit />
       <PassesCover />
     </Projectile>
     <Projectile id="6">
       <ObjectId>O3 Purple Star SRot</ObjectId>
       <Size>120</Size>
-      <Damage>180</Damage>
+      <Damage>160</Damage>
       <Speed>50</Speed>
       <LifetimeMS>4000</LifetimeMS>
-      <TurnRate>100</TurnRate>
+      <TurnRate>90</TurnRate>
       <MultiHit />
       <PassesCover />
     </Projectile>
     <Projectile id="7">
       <ObjectId>O3 Purple Wave</ObjectId>
       <Size>110</Size>
-      <Damage>160</Damage>
+      <Damage>140</Damage>
       <Speed>50</Speed>
       <LifetimeMS>4000</LifetimeMS>
       <MultiHit />
@@ -3563,7 +3754,7 @@
     <Projectile id="8">
       <ObjectId>O3 Purple Wave</ObjectId>
       <Size>110</Size>
-      <Damage>160</Damage>
+      <Damage>140</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2860</LifetimeMS>
       <MultiHit />
@@ -3571,7 +3762,7 @@
     <Projectile id="9">
       <ObjectId>O3 Purple Wave</ObjectId>
       <Size>110</Size>
-      <Damage>160</Damage>
+      <Damage>140</Damage>
       <Speed>90</Speed>
       <LifetimeMS>2222</LifetimeMS>
       <MultiHit />
@@ -3671,7 +3862,7 @@
     <Projectile id="0">
       <ObjectId>O3 Red Big Spike</ObjectId>
       <Size>110</Size>
-      <Damage>120</Damage>
+      <Damage>90</Damage>
       <Speed>50</Speed>
       <LifetimeMS>4000</LifetimeMS>
       <MultiHit />
@@ -3750,7 +3941,7 @@
     <Projectile id="0">
       <ObjectId>O3 Purple Big Spike</ObjectId>
       <Size>110</Size>
-      <Damage>140</Damage>
+      <Damage>110</Damage>
       <Speed>60</Speed>
       <LifetimeMS>3080</LifetimeMS>
       <MultiHit />
@@ -3803,6 +3994,8 @@
       <File>Rookie_16x16</File>
       <Index>47</Index>
     </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
     <Size>110</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
@@ -3810,14 +4003,17 @@
     <Defense>25</Defense>
     <Exp>20000</Exp>
     <BXP>100000</BXP>
+    <RealmScore>750</RealmScore>
+    <TrackLoot />
     <HealthBarBoss />
     <ParalyzeImmune />
     <StasisImmune />
     <AlwaysPositiveHealth />
     <Hero />
+    <Labels>ENEMY,STASISIMMUNE,BEACON_GUARDIAN</Labels>
     <Projectile id="0">
       <ObjectId>O3 Red Magic MRot</ObjectId>
-      <Damage>125</Damage>
+      <Damage>115</Damage>
       <Speed>100</Speed>
       <LifetimeMS>3500</LifetimeMS>
       <Acceleration>-1000000</Acceleration>
@@ -3829,7 +4025,7 @@
     </Projectile>
     <Projectile id="1">
       <ObjectId>O3 Purple Magic MRot</ObjectId>
-      <Damage>75</Damage>
+      <Damage>65</Damage>
       <Speed>100</Speed>
       <LifetimeMS>6100</LifetimeMS>
       <Acceleration>-1000000</Acceleration>
@@ -3860,7 +4056,7 @@
       <Acceleration>5</Acceleration>
       <AccelerationDelay>0</AccelerationDelay>
       <SpeedClamp>70</SpeedClamp>
-      <Damage>175</Damage>
+      <Damage>155</Damage>
       <ConditionEffect duration="3">Quiet</ConditionEffect>
     </Projectile>
   </Object>
@@ -3869,42 +4065,48 @@
     <Class>Character</Class>
     <Enemy />
     <Texture>
-      <File>runicTundraObjects16x16</File>
-      <Index>112</Index>
+      <File>Rookie_16x16</File>
+      <Index>6</Index>
     </Texture>
-    <Size>50</Size>
-    <Animation period="0" prob="1">
+    <Animation prob="1" period="1.6">
       <Frame time="0.1">
         <Texture>
-          <File>runicTundraObjects16x16</File>
-          <Index>112</Index>
+          <File>Rookie_16x16</File>
+          <Index>6</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
-          <File>runicTundraObjects16x16</File>
-          <Index>113</Index>
+          <File>Rookie_16x16</File>
+          <Index>7</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
-          <File>runicTundraObjects16x16</File>
-          <Index>114</Index>
+          <File>Rookie_16x16</File>
+          <Index>8</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
-          <File>runicTundraObjects16x16</File>
-          <Index>115</Index>
+          <File>Rookie_16x16</File>
+          <Index>9</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
-          <File>runicTundraObjects16x16</File>
-          <Index>116</Index>
+          <File>Rookie_16x16</File>
+          <Index>10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>Rookie_16x16</File>
+          <Index>11</Index>
         </Texture>
       </Frame>
     </Animation>
+    <Size>50</Size>
     <Invincible />
     <Projectile>
       <ObjectId>O3 Red Wave</ObjectId>
@@ -3914,7 +4116,7 @@
       <Acceleration>5</Acceleration>
       <AccelerationDelay>0</AccelerationDelay>
       <SpeedClamp>60</SpeedClamp>
-      <Damage>125</Damage>
+      <Damage>115</Damage>
     </Projectile>
   </Object>
   <Object id="Beacon Guardian Runic Tundra Big Portal" type="0xCF20">
@@ -3923,44 +4125,44 @@
     <Enemy />
     <Texture>
       <File>Rookie_24x24</File>
-      <Index>0</Index>
+      <Index>29</Index>
     </Texture>
     <Size>50</Size>
     <Animation period="0" prob="1">
       <Frame time="0.1">
         <Texture>
           <File>Rookie_24x24</File>
-          <Index>0</Index>
+          <Index>29</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>Rookie_24x24</File>
-          <Index>1</Index>
+          <Index>24</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>Rookie_24x24</File>
-          <Index>2</Index>
+          <Index>25</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>Rookie_24x24</File>
-          <Index>3</Index>
+          <Index>26</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>Rookie_24x24</File>
-          <Index>4</Index>
+          <Index>27</Index>
         </Texture>
       </Frame>
       <Frame time="0.1">
         <Texture>
           <File>Rookie_24x24</File>
-          <Index>5</Index>
+          <Index>28</Index>
         </Texture>
       </Frame>
     </Animation>
@@ -3974,7 +4176,7 @@
       <AccelerationDelay>0</AccelerationDelay>
       <SpeedClamp>40</SpeedClamp>
       <TurnRate>75</TurnRate>
-      <Damage>150</Damage>
+      <Damage>125</Damage>
       <ConditionEffect target="1" duration="4">Stasis</ConditionEffect>
     </Projectile>
     <Projectile id="1">
@@ -3982,7 +4184,7 @@
       <Size>185</Size>
       <Speed>25</Speed>
       <LifetimeMS>6000</LifetimeMS>
-      <Damage>175</Damage>
+      <Damage>150</Damage>
       <ConditionEffect duration="4">Quiet</ConditionEffect>
     </Projectile>
   </Object>

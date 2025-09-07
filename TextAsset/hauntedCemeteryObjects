@@ -1,0 +1,3161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0x1B70" id="Haunted Cemetery Block Player">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <DrawOnGround />
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <FullOccupy />
+  </Object>
+  <Object type="0x1B71" id="Haunted Cemetery Small Nature Decor">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>1</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>2</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>3</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>4</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>5</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>6</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>7</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>8</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>9</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>10</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>11</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>16</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>17</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>18</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>19</Index>
+      </Texture>
+    </RandomTexture>
+    <MinSize>90</MinSize>
+    <MaxSize>110</MaxSize>
+    <SizeStep>5</SizeStep>
+    <Static />
+  </Object>
+  <Object type="0x1B72" id="Haunted Cemetery Small Gravestone">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>20</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>21</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>22</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>23</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>24</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>25</Index>
+      </Texture>
+    </RandomTexture>
+    <MinSize>90</MinSize>
+    <MaxSize>110</MaxSize>
+    <SizeStep>5</SizeStep>
+    <Static />
+  </Object>
+  <Object type="0x1B73" id="Haunted Cemetery Small Candle Map">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>hauntedCemeteryObjects8x8</File>
+      <Index>26</Index>
+    </Texture>
+    <Size>-1</Size>
+  </Object>
+  <Object type="0x1B74" id="Haunted Cemetery Small Candle 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>hauntedCemeteryObjects8x8</File>
+      <Index>26</Index>
+    </Texture>
+    <Animation prob="1" period="0" id="orange">
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>26</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>27</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>28</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="flicker">
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>29</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>30</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="green">
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>31</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>32</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>33</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="orange">
+        <StyleStep id="orange">SetAnimation</StyleStep>
+      </Style>
+      <Style id="flicker">
+        <StyleStep id="flicker">SetAnimation</StyleStep>
+      </Style>
+      <Style id="green">
+        <StyleStep id="green">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <MinSize>90</MinSize>
+    <MaxSize>110</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x1B75" id="Haunted Cemetery Small Candle 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>hauntedCemeteryObjects8x8</File>
+      <Index>34</Index>
+    </Texture>
+    <Animation prob="1" period="0" id="orange">
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>34</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>35</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>36</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="flicker">
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>37</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>38</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="green">
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>39</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>40</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>41</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="orange">
+        <StyleStep id="orange">SetAnimation</StyleStep>
+      </Style>
+      <Style id="flicker">
+        <StyleStep id="flicker">SetAnimation</StyleStep>
+      </Style>
+      <Style id="green">
+        <StyleStep id="green">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <MinSize>90</MinSize>
+    <MaxSize>110</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x1B76" id="Haunted Cemetery Small Candle 3">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>hauntedCemeteryObjects8x8</File>
+      <Index>42</Index>
+    </Texture>
+    <Animation prob="1" period="0" id="orange">
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>42</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>43</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>44</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="flicker">
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>45</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>46</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="green">
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>47</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>48</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>49</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="orange">
+        <StyleStep id="orange">SetAnimation</StyleStep>
+      </Style>
+      <Style id="flicker">
+        <StyleStep id="flicker">SetAnimation</StyleStep>
+      </Style>
+      <Style id="green">
+        <StyleStep id="green">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <MinSize>90</MinSize>
+    <MaxSize>110</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x1B77" id="Haunted Cemetery Small Candle 4">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>hauntedCemeteryObjects8x8</File>
+      <Index>50</Index>
+    </Texture>
+    <Animation prob="1" period="0" id="orange">
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>50</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>51</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>52</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="flicker">
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>53</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>54</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="green">
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>55</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>56</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>57</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="orange">
+        <StyleStep id="orange">SetAnimation</StyleStep>
+      </Style>
+      <Style id="flicker">
+        <StyleStep id="flicker">SetAnimation</StyleStep>
+      </Style>
+      <Style id="green">
+        <StyleStep id="green">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <MinSize>90</MinSize>
+    <MaxSize>110</MaxSize>
+    <SizeStep>5</SizeStep>
+  </Object>
+  <Object type="0x1B78" id="Haunted Cemetery Large Gates Decor">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>8</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>9</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>10</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>11</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>16</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>17</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>18</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>19</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>20</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>21</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>22</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>23</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>32</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>33</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>34</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>35</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>36</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>37</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>38</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>39</Index>
+      </Texture>
+    </RandomTexture>
+    <MinSize>90</MinSize>
+    <MaxSize>110</MaxSize>
+    <SizeStep>5</SizeStep>
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0x1B79" id="Haunted Cemetery Large Gates Lamp">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>30</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>31</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0x1B7A" id="Haunted Cemetery Large Graves Decor">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>2</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>3</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>4</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>12</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>13</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>14</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>15</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>12</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>13</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>14</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>15</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>24</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>40</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>41</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>42</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>43</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>44</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>45</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>46</Index>
+      </Texture>
+    </RandomTexture>
+    <MinSize>90</MinSize>
+    <MaxSize>110</MaxSize>
+    <SizeStep>5</SizeStep>
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0x1B7B" id="Haunted Cemetery Large Graves Lamp">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>30</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>31</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0x1B7C" id="Haunted Cemetery Large Mausoleum Decor">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>1</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>25</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>26</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>27</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>47</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>56</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>57</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>58</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>59</Index>
+      </Texture>
+    </RandomTexture>
+    <MinSize>90</MinSize>
+    <MaxSize>110</MaxSize>
+    <SizeStep>5</SizeStep>
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0x1B7D" id="Haunted Cemetery Large Trees">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>5</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>6</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>7</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>48</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>49</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>50</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>51</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>52</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>53</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>54</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>55</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>64</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>65</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>66</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>67</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>68</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>69</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>70</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects16x16</File>
+        <Index>71</Index>
+      </Texture>
+    </RandomTexture>
+    <MinSize>90</MinSize>
+    <MaxSize>110</MaxSize>
+    <SizeStep>5</SizeStep>
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object type="0x1B7E" id="Haunted Cemetery Gate Horizontal">
+    <Class>GameObject</Class>
+    <Model>Gate</Model>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>60</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <FullOccupy />
+    <Rotation>90</Rotation>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x1B7F" id="Haunted Cemetery Gate Vertical">
+    <Class>GameObject</Class>
+    <Model>Gate</Model>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>60</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <FullOccupy />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x1B80" id="Haunted Cemetery Gate Entry North">
+    <Class>GameObject</Class>
+    <Model>Gate Entry</Model>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>61</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <FullOccupy />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x1B81" id="Haunted Cemetery Gate Entry North 2">
+    <Class>GameObject</Class>
+    <Model>Gate Entry 2</Model>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>63</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <FullOccupy />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x1B82" id="Haunted Cemetery Gate Entry East">
+    <Class>GameObject</Class>
+    <Model>Gate Entry</Model>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>61</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <FullOccupy />
+    <ShadowSize>0</ShadowSize>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object type="0x1B83" id="Haunted Cemetery Gate Entry East 2">
+    <Class>GameObject</Class>
+    <Model>Gate Entry 2</Model>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>63</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <FullOccupy />
+    <ShadowSize>0</ShadowSize>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object type="0x1B84" id="Haunted Cemetery Gate Entry West">
+    <Class>GameObject</Class>
+    <Model>Gate Entry</Model>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>61</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <FullOccupy />
+    <ShadowSize>0</ShadowSize>
+    <Rotation>270</Rotation>
+  </Object>
+  <Object type="0x1B85" id="Haunted Cemetery Gate Entry West 2">
+    <Class>GameObject</Class>
+    <Model>Gate Entry 2</Model>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>63</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <FullOccupy />
+    <Rotation>270</Rotation>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x1B86" id="Haunted Cemetery Gate Entry South">
+    <Class>GameObject</Class>
+    <Model>Gate Entry</Model>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>61</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <FullOccupy />
+    <ShadowSize>0</ShadowSize>
+    <Rotation>180</Rotation>
+  </Object>
+  <Object type="0x1B87" id="Haunted Cemetery Gate Entry South 2">
+    <Class>GameObject</Class>
+    <Model>Gate Entry 2</Model>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>63</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <FullOccupy />
+    <ShadowSize>0</ShadowSize>
+    <Rotation>180</Rotation>
+  </Object>
+  <Object type="0x1B88" id="Haunted Cemetery Gate End Entry">
+    <Class>GameObject</Class>
+    <Model>Gate End 1</Model>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>62</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <FullOccupy />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x1B89" id="Haunted Cemetery Gate End Corner">
+    <Class>GameObject</Class>
+    <Model>Gate End 2</Model>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>62</Index>
+    </Texture>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <FullOccupy />
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0x1B8B" id="Haunted Cemetery Spawn Animation">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>91</Index>
+      </Texture>
+      <Effect particle="SwirlingMist" cooldown="0.1">XMLEffect</Effect>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>90</Index>
+      </Texture>
+      <Effect particle="SwirlingMist" cooldown="0.1">XMLEffect</Effect>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>25</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+      <Effect minRadius="0.5" maxRadius="5" color="0xA9D1A9" size="100" life="0.60" amount="100">ExplosionComplex</Effect>
+    </AltTexture>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <Presentation>
+      <Style id="Rise1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="Rise2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="Stand">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="Pop">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0x1B8C" id="Haunted Cemetery Debug Troll">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1B8D" id="Haunted Cemetery Debug Bride">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1B8E" id="Haunted Cemetery Debug Caretaker">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1B8F" id="Haunted Cemetery Debug Pumpkin">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1B90" id="Haunted Cemetery Gates Anchor">
+    <DisplayId>Ghost of Skuld</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+    <Animation prob="1" period="0" id="talk">
+      <Frame time="0.30">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>72</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.30">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>73</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="channel">
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>74</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>75</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>76</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="disappear">
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>77</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>78</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>79</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="appear">
+      <Frame time="0.20">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>79</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>78</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>77</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="talk">
+        <StyleStep id="talk">SetAnimation</StyleStep>
+      </Style>
+      <Style id="channel">
+        <StyleStep id="channel">SetAnimation</StyleStep>
+      </Style>
+      <Style id="disappear">
+        <StyleStep id="disappear" loop="1">SetAnimation</StyleStep>
+      </Style>
+      <Style id="appear">
+        <StyleStep id="appear" loop="1">SetAnimation</StyleStep>
+      </Style>
+      <Style id="gone">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Sound id="0">monster/wooden_walls_death</Sound>
+    <ForceTick />
+    <Size>110</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1B91" id="Haunted Cemetery Gates Side Anchor">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1B92" id="Haunted Cemetery Teleporter Animation">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>hauntedCemeteryObjects24x24</File>
+      <Index>14</Index>
+    </Texture>
+    <Animation prob="1" period="0" id="appear">
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>14</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>15</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>17</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="hold">
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>1</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>4</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>5</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>7</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="appear">
+        <StyleStep id="appear" loop="1">SetAnimation</StyleStep>
+      </Style>
+      <Style id="hold">
+        <StyleStep id="hold">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <DrawOnGround />
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1B93" id="Haunted Cemetery Gates Teleporter">
+    <DisplayId>Teleporter</DisplayId>
+    <Class>Portal</Class>
+    <TeleportingPortal />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Effect color="0x33FF33" rate="12" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="5" rise="0" riseAcc="0" riseVariance="0" rangeX="1.8" rangeY="1.8">CustomParticles</Effect>
+  </Object>
+  <Object type="0x1B94" id="Haunted Cemetery Graves Teleporter">
+    <DisplayId>Teleporter</DisplayId>
+    <Class>Portal</Class>
+    <TeleportingPortal />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Effect color="0x33FF33" rate="12" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="5" rise="0" riseAcc="0" riseVariance="0" rangeX="1.8" rangeY="1.8">CustomParticles</Effect>
+  </Object>
+  <Object type="0x1B95" id="Haunted Cemetery Graves Anchor">
+    <DisplayId>Ghost of Skuld</DisplayId>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+    <Animation prob="1" period="0" id="talk">
+      <Frame time="0.30">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>72</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.30">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>73</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="channel">
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>74</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>75</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>76</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="disappear">
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>77</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>78</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>79</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="appear">
+      <Frame time="0.20">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>79</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>78</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>77</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="talk">
+        <StyleStep id="talk">SetAnimation</StyleStep>
+      </Style>
+      <Style id="channel">
+        <StyleStep id="channel">SetAnimation</StyleStep>
+      </Style>
+      <Style id="disappear">
+        <StyleStep id="disappear" loop="1">SetAnimation</StyleStep>
+      </Style>
+      <Style id="appear">
+        <StyleStep id="appear" loop="1">SetAnimation</StyleStep>
+      </Style>
+      <Style id="gone">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Sound id="0">monster/wooden_walls_death</Sound>
+    <ForceTick />
+    <Size>110</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1B96" id="Haunted Cemetery Graves Side Anchor">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1B97" id="Haunted Cemetery Mausoleum Anchor">
+    <DisplayId>Ghost of Skuld</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+    <Animation prob="1" period="0" id="talk">
+      <Frame time="0.30">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>72</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.30">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>73</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="channel">
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>74</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>75</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>76</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="disappear">
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>77</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>78</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>79</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="appear">
+      <Frame time="0.20">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>79</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>78</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>77</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="talk">
+        <StyleStep id="talk">SetAnimation</StyleStep>
+      </Style>
+      <Style id="channel">
+        <StyleStep id="channel">SetAnimation</StyleStep>
+      </Style>
+      <Style id="disappear">
+        <StyleStep id="disappear" loop="1">SetAnimation</StyleStep>
+      </Style>
+      <Style id="appear">
+        <StyleStep id="appear" loop="1">SetAnimation</StyleStep>
+      </Style>
+      <Style id="gone">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Sound id="0">monster/wooden_walls_death</Sound>
+    <Invincible />
+    <AlwaysPositiveHealth />
+    <ForceTick />
+    <Size>110</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x1B98" id="Haunted Cemetery Mausoleum Side Anchor">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1B99" id="Haunted Cemetery Gates Small Skeleton">
+    <DisplayId>Reanimated Remains</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>105</Size>
+    <ShadowSize>95</ShadowSize>
+    <MaxHitPoints>450</MaxHitPoints>
+    <Defense>8</Defense>
+    <Exp>50</Exp>
+    <BXP>250</BXP>
+    <Projectile>
+      <ObjectId>UDL White Slash</ObjectId>
+      <Damage>60</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>4500</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>ENEMY,MINION,UNDEAD,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1B9A" id="Haunted Cemetery Gates Small Gray Ghost">
+    <DisplayId>Haunting Spectre</DisplayId>
+    <Class>Character</Class>
+    <Group>Hallowrena</Group>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>125</Size>
+    <MaxHitPoints>450</MaxHitPoints>
+    <Defense>8</Defense>
+    <Exp>50</Exp>
+    <BXP>250</BXP>
+    <ShadowSize>70</ShadowSize>
+    <Z>.4</Z>
+    <Flying />
+    <Projectile id="0">
+      <ObjectId>Blue Ghost Blast</ObjectId>
+      <Damage>45</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>ENEMY,MINION,UNDEAD,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1B9B" id="Haunted Cemetery Gates Small Blue Ghost">
+    <DisplayId>Apparition</DisplayId>
+    <Class>Character</Class>
+    <Group>Hallowrena</Group>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghosts_hit</HitSound>
+    <DeathSound>monster/ghosts_death</DeathSound>
+    <Size>125</Size>
+    <MaxHitPoints>450</MaxHitPoints>
+    <Defense>8</Defense>
+    <Exp>50</Exp>
+    <BXP>250</BXP>
+    <ShadowSize>70</ShadowSize>
+    <Z>.4</Z>
+    <Flying />
+    <Projectile id="0">
+      <ObjectId>Blue Magic</ObjectId>
+      <Damage>75</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Size>150</Size>
+      <Amplitude>0.05</Amplitude>
+      <Frequency>10</Frequency>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Blue Magic</ObjectId>
+      <Damage>65</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Size>120</Size>
+      <Amplitude>0.05</Amplitude>
+      <Frequency>10</Frequency>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>ENEMY,MINION,UNDEAD,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1B9C" id="Haunted Cemetery Gates Small Werewolf">
+    <DisplayId>Werewolf Cub</DisplayId>
+    <Group>Hallowrena</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <HitSound>monster/undead_hobbits_hit</HitSound>
+    <DeathSound>monster/goblins_hit</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>450</MaxHitPoints>
+    <Defense>8</Defense>
+    <Exp>50</Exp>
+    <BXP>250</BXP>
+    <Projectile id="0">
+      <ObjectId>Wereshot</ObjectId>
+      <Damage>50</Damage>
+      <Speed>60</Speed>
+      <Size>90</Size>
+      <LifetimeMS>800</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Wereshot</ObjectId>
+      <Damage>65</Damage>
+      <Speed>50</Speed>
+      <Size>80</Size>
+      <LifetimeMS>800</LifetimeMS>
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MINION,CRITTER,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1B9D" id="Haunted Cemetery Gates Small White Ghost">
+    <Enemy />
+    <Class>Character</Class>
+    <Group>Hallowrena</Group>
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>hauntedCemeteryChars8x8</File>
+        <Index>5</Index>
+      </AnimatedTexture>
+      <Effect particle="SwirlingMist" cooldown="0.3">XMLEffect</Effect>
+    </AltTexture>
+    <HitSound>monster/beholder_hit</HitSound>
+    <DeathSound>monster/beholder_death</DeathSound>
+    <Size>110</Size>
+    <ShadowSize>40</ShadowSize>
+    <Z>0.33</Z>
+    <Flying />
+    <DontFaceAttacks />
+    <MaxHitPoints>450</MaxHitPoints>
+    <Exp>50</Exp>
+    <BXP>250</BXP>
+    <Defense>8</Defense>
+    <Projectile id="0">
+      <ObjectId>White Ghost Shot</ObjectId>
+      <Damage>30</Damage>
+      <Speed>60</Speed>
+      <Size>80</Size>
+      <LifetimeMS>900</LifetimeMS>
+      <ConditionEffect duration="3">Curse</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>ENEMY,MINION,UNDEAD,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1B9E" id="Haunted Cemetery Graves Small Vampire">
+    <DisplayId>Vengeful Vampire</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/bats_hit</HitSound>
+    <DeathSound>monster/bats_death</DeathSound>
+    <Size>115</Size>
+    <ShadowSize>105</ShadowSize>
+    <MaxHitPoints>600</MaxHitPoints>
+    <Defense>8</Defense>
+    <Exp>70</Exp>
+    <BXP>350</BXP>
+    <LeachHealth />
+    <Projectile>
+      <ObjectId>Vampire Attack</ObjectId>
+      <Damage>75</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Amplitude>0.2</Amplitude>
+      <Frequency>1</Frequency>
+      <ConditionEffect duration="1.2">Unstable</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>ENEMY,MINION,UNDEAD,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1B9F" id="Haunted Cemetery Graves Small Spider">
+    <DisplayId>Grave Spider</DisplayId>
+    <Class>Character</Class>
+    <Group>Hallowrena</Group>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <HitSound>monster/spiders_hit</HitSound>
+    <DeathSound>monster/spiders_death</DeathSound>
+    <Size>90</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>600</MaxHitPoints>
+    <Defense>8</Defense>
+    <Exp>70</Exp>
+    <BXP>350</BXP>
+    <Projectile id="0">
+      <ObjectId>Spider Bolt</ObjectId>
+      <Damage>85</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <KillStat stat="CritterKills" />
+    <Labels>ENEMY,MINION,CRITTER,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1BA0" id="Haunted Cemetery Graves Small Mage">
+    <DisplayId>Risen Mage</DisplayId>
+    <Class>Character</Class>
+    <Group>Hallowrena</Group>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/undead_dwarves_hit</HitSound>
+    <DeathSound>monster/undead_dwarves_death</DeathSound>
+    <Size>125</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>600</MaxHitPoints>
+    <Defense>8</Defense>
+    <Exp>70</Exp>
+    <BXP>350</BXP>
+    <Projectile id="0">
+      <ObjectId>Purple Magic</ObjectId>
+      <Damage>75</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>120</Size>
+      <ConditionEffect duration="2.0">Silenced</ConditionEffect>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>ENEMY,MINION,UNDEAD,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1BA1" id="Haunted Cemetery Graves Small Archer">
+    <DisplayId>Risen Archer</DisplayId>
+    <Class>Character</Class>
+    <Group>Hallowrena</Group>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <HitSound>monster/orcs_hit</HitSound>
+    <DeathSound>monster/orcs_death</DeathSound>
+    <Size>125</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>600</MaxHitPoints>
+    <Defense>8</Defense>
+    <Exp>70</Exp>
+    <BXP>350</BXP>
+    <Projectile id="0">
+      <ObjectId>Green Arrow</ObjectId>
+      <Damage>75</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Thousand Shot Arrow</ObjectId>
+      <Damage>100</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>1800</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="2.8">Slowed</ConditionEffect>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>ENEMY,MINION,UNDEAD,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1BA2" id="Haunted Cemetery Gates Large Troll">
+    <DisplayId>Forest Troll</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <Size>120</Size>
+    <ShadowSize>110</ShadowSize>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <Defense>16</Defense>
+    <Exp>200</Exp>
+    <BXP>1000</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Troll 1 Attack 1</ObjectId>
+      <Damage>55</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>120</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Troll 1 Attack 1</ObjectId>
+      <Damage>65</Damage>
+      <Speed>35</Speed>
+      <LifetimeMS>900</LifetimeMS>
+      <Size>135</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>ENEMY,MINION,STASISIMMUNE,GROTESQUE,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1BA3" id="Haunted Cemetery Gates Large Pathfinder">
+    <DisplayId>Troll Pathfinder</DisplayId>
+    <Class>Character</Class>
+    <Group>Hallowrena</Group>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <HitSound>monster/dwarf_god_hit</HitSound>
+    <DeathSound>monster/dwarf_god_death</DeathSound>
+    <Size>120</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <Defense>16</Defense>
+    <Exp>200</Exp>
+    <BXP>1000</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Troll 2 Attack 1</ObjectId>
+      <Damage>75</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>130</Size>
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+    </Projectile>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>ENEMY,MINION,STASISIMMUNE,GROTESQUE,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1BA4" id="Haunted Cemetery Gates Large Possessed Child">
+    <DisplayId>Possessed Child</DisplayId>
+    <Class>Character</Class>
+    <Group>Hallowrena</Group>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/elves_hit</HitSound>
+    <DeathSound>monster/elves_death</DeathSound>
+    <Size>160</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <Defense>16</Defense>
+    <Exp>200</Exp>
+    <BXP>1000</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Purple Magic Blast</ObjectId>
+      <Damage>55</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <Size>100</Size>
+      <Amplitude>0.1</Amplitude>
+      <Frequency>10</Frequency>
+    </Projectile>
+    <KillStat stat="HumanoidKills" />
+    <Labels>ENEMY,MINION,STASISIMMUNE,HUMANOID,MINION_MID,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1BA5" id="Haunted Cemetery Gates Large Werewolf">
+    <DisplayId>Werewolf</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Group>Hallowrena</Group>
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/cyclops_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <Defense>16</Defense>
+    <Exp>200</Exp>
+    <BXP>1000</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Wereblast</ObjectId>
+      <Damage>75</Damage>
+      <Speed>60</Speed>
+      <Size>120</Size>
+      <LifetimeMS>900</LifetimeMS>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <KillStat stat="LesserGodKills" />
+    <Labels>ENEMY,MINION,STASISIMMUNE,BEAST,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1BA6" id="Haunted Cemetery Graves Large Brawler">
+    <DisplayId>Risen Brawler</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>160</Size>
+    <ShadowSize>120</ShadowSize>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>16</Defense>
+    <Exp>250</Exp>
+    <BXP>1250</BXP>
+    <StasisImmune />
+    <Projectile>
+      <ObjectId>Yellow Grey Ball</ObjectId>
+      <Damage>110</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>900</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>ENEMY,MINION,STASISIMMUNE,UNDEAD,MINION_MID,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1BA7" id="Haunted Cemetery Graves Large Warrior">
+    <DisplayId>Risen Warrior</DisplayId>
+    <Class>Character</Class>
+    <Group>Hallowrena</Group>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/undead_dwarves_hit</HitSound>
+    <DeathSound>monster/undead_dwarves_death</DeathSound>
+    <Size>160</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>16</Defense>
+    <Exp>250</Exp>
+    <BXP>1250</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Purple Bolt</ObjectId>
+      <Damage>140</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>ENEMY,MINION,STASISIMMUNE,UNDEAD,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1BA8" id="Haunted Cemetery Graves Large Mummy">
+    <DisplayId>Risen Mummy</DisplayId>
+    <Class>Character</Class>
+    <Group>Hallowrena</Group>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <HitSound>monster/mummies_hit</HitSound>
+    <DeathSound>monster/mummies_death</DeathSound>
+    <Size>160</Size>
+    <MaxHitPoints>4000</MaxHitPoints>
+    <Defense>16</Defense>
+    <Exp>250</Exp>
+    <BXP>1250</BXP>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Mummy Blast</ObjectId>
+      <Damage>125</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>90</Size>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <Labels>ENEMY,MINION,STASISIMMUNE,UNDEAD,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1BA9" id="Haunted Cemetery Gates Small Minion">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1BAA" id="Haunted Cemetery Graves Small Minion">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1BAB" id="Haunted Cemetery Gates Large Minion">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1BAC" id="Haunted Cemetery Graves Large Minion">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1BAD" id="Haunted Cemetery Boss Crosshair">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>79</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1BAE" id="Haunted Cemetery Boss Troll">
+    <DisplayId>Troll Matriarch</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Quest />
+    <God />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
+    <HitSound>monster/dragons_hit</HitSound>
+    <DeathSound>monster/dragons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <Size>140</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>2500</Exp>
+    <BXP>12500</BXP>
+    <ParalyzeImmune />
+    <StasisImmune />
+    <TrackLoot />
+    <Projectile id="0">
+      <ObjectId>Invisible</ObjectId>
+      <Damage>0</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>1</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>H Baby Blast</ObjectId>
+      <Damage>75</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>30</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+      <Size>125</Size>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Purple Energy Shot</ObjectId>
+      <Damage>95</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>10000</LifetimeMS>
+      <Acceleration>-60</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>30</SpeedClamp>
+      <Size>125</Size>
+    </Projectile>
+    <HealthBarBoss radius="25" />
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HAUNTED_CEMETERY</Labels>
+  </Object>
+  <Object type="0x1BAF" id="Haunted Cemetery Boss Troll Minion Spawn">
+    <DisplayId>Troll's Toadstool Spore</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>fungalCavernObjects8x8</File>
+      <Index>0x2f</Index>
+    </Texture>
+    <Size>-1</Size>
+  </Object>
+  <Object type="0x1BB0" id="Haunted Cemetery Boss Troll Minion">
+    <DisplayId>Troll's Toadstool</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <Size>10</Size>
+    <MaxHitPoints>500</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <HitSound>monster/elves_death</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+    <Projectile>
+      <ObjectId>GC Red Mushroom Wave</ObjectId>
+      <Size>130</Size>
+      <Damage>55</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>8000</LifetimeMS>
+      <ConditionEffect duration="2">Silenced</ConditionEffect>
+    </Projectile>
+    <Labels>ENEMY,MINION,HAUNTED_CEMETERY</Labels>
+  </Object>
+  <Object type="0x1BB1" id="Haunted Cemetery Boss Bride">
+    <DisplayId>Ghost Bride</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Quest />
+    <God />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+    <Presentation>
+      <Style id="GoInvisible">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <Size>25</Size>
+    <ShadowSize>0</ShadowSize>
+    <Z>.2</Z>
+    <Flying />
+    <MaxHitPoints>7500</MaxHitPoints>
+    <Defense>10</Defense>
+    <Exp>6000</Exp>
+    <BXP>30000</BXP>
+    <AlwaysPositiveHealth />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <StasisImmune />
+    <TrackLoot />
+    <Projectile id="0">
+      <ObjectId>Invisible</ObjectId>
+      <Damage>0</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>1</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 White Big Spike</ObjectId>
+      <Size>150</Size>
+      <Damage>90</Damage>
+      <Speed>12</Speed>
+      <LifetimeMS>4500</LifetimeMS>
+      <Acceleration>24</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Ghost Bride Attack 1</ObjectId>
+      <Size>140</Size>
+      <Damage>60</Damage>
+      <Speed>90</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+    </Projectile>
+    <HealthBarBoss radius="25" />
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD,HAUNTED_CEMETERY</Labels>
+  </Object>
+  <Object type="0x1BB2" id="Haunted Cemetery Gates Statue Left">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Size>120</Size>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>80</Index>
+    </Texture>
+  </Object>
+  <Object type="0x1BB3" id="Haunted Cemetery Gates Statue Right">
+    <Class>Character</Class>
+    <NoMiniMap />
+    <Size>120</Size>
+    <ShadowSize>0</ShadowSize>
+    <Texture>
+      <File>hauntedCemeteryObjects16x16</File>
+      <Index>81</Index>
+    </Texture>
+  </Object>
+  <Object type="0x1BB4" id="Haunted Cemetery Boss Bride Statue Left">
+    <DisplayId>Statue of Fate</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/rocks_hit</HitSound>
+    <DeathSound>monster/rocks_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <Size>120</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <MaxHitPoints>7500</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <ParalyzeImmune />
+    <StunImmune />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>O3 Exalted Magic MRot</ObjectId>
+      <Size>100</Size>
+      <Damage>65</Damage>
+      <Speed>20</Speed>
+      <LifetimeMS>4500</LifetimeMS>
+      <Acceleration>400</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 Exalted Glaive</ObjectId>
+      <Size>110</Size>
+      <Damage>85</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED,HAUNTED_CEMETERY</Labels>
+  </Object>
+  <Object type="0x1BB5" id="Haunted Cemetery Boss Bride Statue Right">
+    <DisplayId>Statue of Glory</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ogres_hit</HitSound>
+    <DeathSound>monster/ogres_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <Size>120</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <MaxHitPoints>7500</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>1000</Exp>
+    <BXP>5000</BXP>
+    <ParalyzeImmune />
+    <StunImmune />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>O3 Red Magic MRot</ObjectId>
+      <Size>115</Size>
+      <Damage>80</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>5500</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>O3 Red Magic MRot</ObjectId>
+      <Size>100</Size>
+      <Damage>70</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED,HAUNTED_CEMETERY</Labels>
+  </Object>
+  <Object type="0x1BB6" id="Haunted Cemetery Boss Caretaker">
+    <DisplayId>Grave Caretaker</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Quest />
+    <God />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <Size>150</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>6000</Exp>
+    <BXP>30000</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <TrackLoot />
+    <HitSound>monster/archdemon_hit</HitSound>
+    <DeathSound>monster/archdemon_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>Angry Ghost</ObjectId>
+      <Damage>75</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>100</Size>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>3</Frequency>
+      <PassesCover />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Fire Spinner</ObjectId>
+      <Damage>85</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <PassesCover />
+      <ConditionEffect duration="2">Armor Broken</ConditionEffect>
+    </Projectile>
+    <HealthBarBoss radius="25" />
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD,HAUNTED_CEMETERY</Labels>
+  </Object>
+  <Object type="0x1BB7" id="Haunted Cemetery Boss Caretaker Point">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>hauntedCemeteryObjects8x8</File>
+      <Index>70</Index>
+    </Texture>
+    <Size>-1</Size>
+  </Object>
+  <Object type="0x1BB8" id="Haunted Cemetery Boss Caretaker Soul Spiral">
+    <DisplayId>Forgotten Spiraling Soul</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>hauntedCemeteryObjects8x8</File>
+      <Index>58</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>58</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>59</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>60</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>61</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>62</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>63</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>160</Size>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>Blue Magic</ObjectId>
+      <Damage>75</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED,HAUNTED_CEMETERY</Labels>
+  </Object>
+  <Object type="0x1BB9" id="Haunted Cemetery Boss Pumpkin">
+    <DisplayId>Pumpkin King</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Quest />
+    <God />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Color>0xD50065</Color>
+    <MinimapIcon piece="Miniboss" />
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <Size>150</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Defense>15</Defense>
+    <Exp>6000</Exp>
+    <BXP>30000</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <TrackLoot />
+    <Projectile id="0">
+      <ObjectId>Orange Pumpkin Wave</ObjectId>
+      <Damage>120</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Amplitude>1.2</Amplitude>
+      <Frequency>2</Frequency>
+      <Size>150</Size>
+      <FaceDir />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Yellow Energy Shot</ObjectId>
+      <Damage>60</Damage>
+      <Speed>85</Speed>
+      <Size>90</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <ConditionEffect duration="2">Silenced</ConditionEffect>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Yellow Energy Shot</ObjectId>
+      <Damage>60</Damage>
+      <Speed>30</Speed>
+      <Size>130</Size>
+      <LifetimeMS>4000</LifetimeMS>
+      <Acceleration>25</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <ConditionEffect duration="2">Silenced</ConditionEffect>
+      <PassesCover />
+    </Projectile>
+    <HealthBarBoss radius="25" />
+    <KillStat stat="GrotesqueKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HAUNTED_CEMETERY</Labels>
+  </Object>
+  <Object type="0x1BBA" id="Haunted Cemetery Boss Pumpkin Minion">
+    <DisplayId>Haunted Pumpkin</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>hauntedCemeteryObjects8x8</File>
+      <Index>71</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>71</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>72</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>73</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>74</Index>
+      </Texture>
+      <Texture>
+        <File>hauntedCemeteryObjects8x8</File>
+        <Index>75</Index>
+      </Texture>
+    </RandomTexture>
+    <Size>100</Size>
+    <MaxHitPoints>2500</MaxHitPoints>
+    <Defense>5</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <HitSound>monster/hobbits_hit</HitSound>
+    <DeathSound>monster/hobbits_death</DeathSound>
+    <Projectile id="0">
+      <ObjectId>Yellow Energy Shot</ObjectId>
+      <Damage>80</Damage>
+      <Speed>20</Speed>
+      <Size>110</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="2">Silenced</ConditionEffect>
+      <PassesCover />
+    </Projectile>
+    <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,BOSS_SPAWNED,HAUNTED_CEMETERY</Labels>
+  </Object>
+  <Object type="0x1BBB" id="Haunted Cemetery Boss Skuld">
+    <DisplayId>Ghost of Skuld</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>7</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+    <Animation prob="1" period="0" id="talk">
+      <Frame time="0.30">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>72</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.30">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>73</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="channel">
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>74</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>75</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>76</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="disappear">
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>77</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>78</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>79</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" period="0" id="appear">
+      <Frame time="0.20">
+        <Texture>
+          <File>invisible</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>79</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.20">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>78</Index>
+        </Texture>
+      </Frame>
+      <Frame time="9999">
+        <Texture>
+          <File>hauntedCemeteryObjects16x16</File>
+          <Index>77</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="talk">
+        <StyleStep id="talk">SetAnimation</StyleStep>
+      </Style>
+      <Style id="channel">
+        <StyleStep id="channel">SetAnimation</StyleStep>
+      </Style>
+      <Style id="disappear">
+        <StyleStep id="disappear" loop="1">SetAnimation</StyleStep>
+      </Style>
+      <Style id="appear">
+        <StyleStep id="appear" loop="1">SetAnimation</StyleStep>
+      </Style>
+      <Style id="gone">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <MinimapIcon piece="Boss" />
+    <HitSound>monster/flaming_skulls_hit</HitSound>
+    <ForceTick />
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <Size>110</Size>
+    <ShadowSize>0</ShadowSize>
+    <StasisImmune />
+    <SlowImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <DazedImmune />
+    <MaxHitPoints>45000</MaxHitPoints>
+    <Defense>16</Defense>
+    <Exp>20000</Exp>
+    <BXP>100000</BXP>
+    <Quest />
+    <EventChestBoss />
+    <TrackLoot />
+    <AlwaysPositiveHealth />
+    <Projectile id="0">
+      <ObjectId>Ghost X</ObjectId>
+      <Size>100</Size>
+      <Damage>25</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="0.8">Petrify</ConditionEffect>
+      <ConditionEffect duration="2.0">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Ghost Cross</ObjectId>
+      <Size>80</Size>
+      <Damage>95</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Giga Ghost X</ObjectId>
+      <Size>200</Size>
+      <Damage>200</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>8</Amplitude>
+      <Frequency>0.5</Frequency>
+      <ConditionEffect duration="2.4">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Ghost Cross</ObjectId>
+      <Size>80</Size>
+      <Damage>95</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>10000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Giga Ghost X</ObjectId>
+      <Size>120</Size>
+      <Damage>100</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>3500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>7</Amplitude>
+      <Frequency>0.5</Frequency>
+      <ConditionEffect duration="2.4">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Giga Ghost X</ObjectId>
+      <Size>120</Size>
+      <Damage>100</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>9</Amplitude>
+      <Frequency>0.5</Frequency>
+      <ConditionEffect duration="2.4">Bleeding</ConditionEffect>
+    </Projectile>
+    <SoulboundDust prob="1" dustMin="40" dustMax="48" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <HealthBarBoss radius="30" />
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,BOSS,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD,HPSCALEONENTRY,AMULET_ADEPT,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Bis">Haunted Cemetery Portal</SpecialSpawn>
+    <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
+    <SpecialSpawn category="PetCollector">Uncommon Spooky Egg</SpecialSpawn>
+    <SpecialSpawn category="Generous">Quest Chest Item</SpecialSpawn>
+    <SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn>
+    <SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn>
+    <SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn>
+    <SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn>
+    <SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn>
+    <SpecialSpawn category="ExaltedBanner">ExaltationBanner</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn>
+    <SpecialSpawn category="Souvenir_HIG">Plague Poison</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
+    <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="SkinHunter" perPlayer="true">Werewolf Cub Pet Skin</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_B">Mercenary B Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 1</SpecialSpawn>
+  </Object>
+  <Object type="0x1BBC" id="Haunted Cemetery Boss Skuld Zombie Spawn">
+    <DisplayId>Crawling Zombie</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Animation prob="1" period="2.1" id="crawl">
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>76</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>77</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>78</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>79</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>80</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>81</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>83</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>84</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>85</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>86</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>87</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>88</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>hauntedCemeteryObjects8x8</File>
+          <Index>89</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="crawl">
+        <StyleStep id="crawl" loop="1">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x1BBD" id="Haunted Cemetery Boss Skuld Zombie">
+    <DisplayId>Crawling Zombie</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars8x8</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <MaxHitPoints>250</MaxHitPoints>
+    <Defense>8</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <HitSound>monster/hobbits_hit</HitSound>
+    <DeathSound>monster/hobbits_death</DeathSound>
+    <Projectile>
+      <ObjectId>Blue Zombie Wave</ObjectId>
+      <Size>80</Size>
+      <Damage>65</Damage>
+      <Speed>25</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+    </Projectile>
+    <Labels>ENEMY,MINION,HAUNTED_CEMETERY</Labels>
+  </Object>
+  <Object type="0x1BBE" id="Haunted Cemetery Boss Skuld Large Zombie">
+    <DisplayId>Zombie Hulk</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>hauntedCemeteryChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Size>120</Size>
+    <ShadowSize>80</ShadowSize>
+    <HitSound>monster/archdemon_hit</HitSound>
+    <DeathSound>monster/abyss_demons_death</DeathSound>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>16</Defense>
+    <Exp>0</Exp>
+    <BXP>0</BXP>
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <Projectile id="0">
+      <ObjectId>Big Zombie Blast</ObjectId>
+      <Size>100</Size>
+      <Damage>90</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Big Zombie Wave</ObjectId>
+      <Size>110</Size>
+      <Damage>45</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <Acceleration>-125</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Big Zombie Wave</ObjectId>
+      <Size>110</Size>
+      <Damage>45</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <Acceleration>-125</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Big Zombie Wave</ObjectId>
+      <Size>110</Size>
+      <Damage>45</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <Acceleration>-125</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <MultiHit />
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="LesserGodKills" />
+    <Labels>ENEMY,MINION,STASISIMMUNE,UNDEAD,MINION_STRONG,HAUNTED_CEMETERY</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x1BBF" id="Haunted Cemetery Boss Skuld Large Death">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x1BC0" id="Haunted Cemetery Boss Skuld Large Skull">
+    <DisplayId>Flying Flame Skull</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>hauntedCemeteryObjects24x24</File>
+      <Index>8</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.1">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>8</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>9</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>hauntedCemeteryObjects24x24</File>
+          <Index>13</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>25</Size>
+    <ShadowSize>60</ShadowSize>
+    <ShadowColor>0xA9D1A9</ShadowColor>
+    <Z>0.4</Z>
+    <Flying />
+    <DontFaceAttacks />
+    <Exp>0</Exp>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>Ghost X</ObjectId>
+      <Size>90</Size>
+      <Damage>85</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>9000</LifetimeMS>
+      <Acceleration>8</Acceleration>
+      <AccelerationDelay>500</AccelerationDelay>
+      <SpeedClamp>56</SpeedClamp>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Ghost Cross</ObjectId>
+      <Size>80</Size>
+      <Damage>55</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Labels>ENEMY,BOSS_SPAWNED,HAUNTED_CEMETERY</Labels>
+  </Object>
+</Objects>

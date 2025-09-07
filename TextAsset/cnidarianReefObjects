@@ -277,7 +277,6 @@
       <Speed>90</Speed>
       <LifetimeMS>333</LifetimeMS>
       <Size>100</Size>
-      <ConditionEffect duration="3">Blind</ConditionEffect>
     </Projectile>
     <KillStat stat="CritterKills" />
     <KillStat stat="LesserGodKills" />
@@ -306,6 +305,8 @@
     <DisplayId>Royal Cnidarian</DisplayId>
     <Enemy />
     <Size>130</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
     <MaxHitPoints>120000</MaxHitPoints>
@@ -383,13 +384,13 @@
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="35" dustMax="81" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="11" dustMax="26" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="31" dustMax="37" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="33" dustMax="39" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="40" />
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,STGEMDROP,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,STGEMDROP,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Cnidarian Reef Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Aquatic Egg</SpecialSpawn>
@@ -409,6 +410,9 @@
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="Oryxmania">Cnidaria Arena Portal</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -418,6 +422,132 @@
       </Style>
       <Style id="SetAlt3">
         <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
+  <Object type="0xCB85" id="CR K.O King">
+    <Class>Character</Class>
+    <DisplayId>K.O King</DisplayId>
+    <Enemy />
+    <Size>130</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <MinimapIcon piece="Boss" />
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <MaxHitPoints>120000</MaxHitPoints>
+    <Defense>35</Defense>
+    <Exp>35000</Exp>
+    <BXP>175000</BXP>
+    <ShadowColor>0xFFA447</ShadowColor>
+    <Quest />
+    <God />
+    <StasisImmune />
+    <ParalyzeImmune />
+    <StunImmune />
+    <EventChestBoss />
+    <TrackLoot />
+    <AlwaysPositiveHealth />
+    <Texture>
+      <File>cnidarianReefObjects32x32</File>
+      <Index>4</Index>
+    </Texture>
+    <Animation prob="1" period="0" id="Dingus">
+      <Frame time="0.2">
+        <Texture>
+          <File>cnidarianReefObjects32x32</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>cnidarianReefObjects32x32</File>
+          <Index>1</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>cnidarianReefObjects32x32</File>
+          <Index>2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>cnidarianReefObjects32x32</File>
+          <Index>3</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Portrait>
+      <Texture>
+        <File>cnidarianReefObjects32x32</File>
+        <Index>4</Index>
+      </Texture>
+    </Portrait>
+    <Projectile id="1">
+      <ObjectId>Bubble Blast</ObjectId>
+      <Damage>100</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>110</Size>
+      <ConditionEffect duration="1">Dazed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Bubble Wave</ObjectId>
+      <Damage>140</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>125</Size>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Lightning Blast</ObjectId>
+      <Damage>0</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>400</LifetimeMS>
+      <Size>110</Size>
+      <ConditionEffect duration="0.5">Paralyzed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Bubble Laser</ObjectId>
+      <Damage>175</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>6666</LifetimeMS>
+      <Size>130</Size>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <SoulboundDust prob="1" dustMin="31" dustMax="37" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="33" dustMax="39" seasonalBonus="0.15">redDust</SoulboundDust>
+    <HealthBarBoss radius="40" />
+    <KillStat stat="BeastKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,STGEMDROP,HPSCALEONENTRY,AMULET_ADEPT</Labels>
+    <SpecialSpawn category="Bis">Cnidarian Reef Portal</SpecialSpawn>
+    <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>
+    <SpecialSpawn category="PetCollector">Rare Aquatic Egg</SpecialSpawn>
+    <SpecialSpawn category="Generous">Epic Quest Chest Item</SpecialSpawn>
+    <SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn>
+    <SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn>
+    <SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn>
+    <SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn>
+    <SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn>
+    <SpecialSpawn category="ExaltedBanner">ExaltationBanner</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Weapon">Shard of the Mad God x1</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn>
+    <SpecialSpawn category="AgentOfOryx_Ring">Shard of the Advisor x1</SpecialSpawn>
+    <SpecialSpawn category="Souvenir_HIG">Cnidaria Rod</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
+    <SpecialSpawn category="SkinHunter" perPlayer="true">Jellyhead Trickster Skin</SpecialSpawn>
+    <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Token">3STToken</SpecialSpawn>
+    <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Oryxmania">Cnidaria Arena Portal</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
+    <Presentation>
+      <Style id="Bingus">
+        <StyleStep id="Dingus">SetAnimation</StyleStep>
       </Style>
     </Presentation>
   </Object>

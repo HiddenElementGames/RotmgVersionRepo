@@ -4114,11 +4114,30 @@
     <Class>GameObject</Class>
     <Texture>
       <File>runicTundraObjects16x16</File>
-      <Index>66</Index>
+      <Index>122</Index>
     </Texture>
     <HitSound>monster/trees_hit</HitSound>
-    <DeathSound>monster/trees_death</DeathSound>
+    <Model>Gate</Model>
     <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <DeathSound>monster/trees_death</DeathSound>
+    <ShadowSize>0</ShadowSize>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object id="Runic Tundra Patial Fence 0" type="0x42FD">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>runicTundraObjects16x16</File>
+      <Index>122</Index>
+    </Texture>
+    <HitSound>monster/trees_hit</HitSound>
+    <Model>Gate</Model>
+    <Static />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <DeathSound>monster/trees_death</DeathSound>
+    <ShadowSize>0</ShadowSize>
   </Object>
   <Object id="Runic Tundra Fozen Chest" type="0xc30e">
     <Class>GameObject</Class>
@@ -14748,5 +14767,2101 @@
     <DrawOnGround />
     <ProtectFromGroundDamage />
     <ProtectFromSink />
+  </Object>
+  <Object id="Shore Crystal 1" type="0xE000">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1957</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shore Crystal 2" type="0xE001">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1958</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shore Broken Flag" type="0xE002">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1959</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shore Barrel" type="0xE003">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1960</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shore Sack" type="0xE004">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1961</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shore Tent" type="0xE005">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1962</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Forest Tree 1" type="0xE006">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1963</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Forest Tree 2" type="0xE007">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1964</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Forest Tent 1" type="0xE008">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1965</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Forest Tent 2" type="0xE009">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1966</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Forest Tent 3" type="0xE00A">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1967</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Forest Log Pile" type="0xE00B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1968</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Forest Firepit" type="0xE00C">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1969</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects16x16</File>
+          <Index>1969</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects16x16</File>
+          <Index>1970</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects16x16</File>
+          <Index>1971</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects16x16</File>
+          <Index>1972</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects16x16</File>
+          <Index>1973</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Undead Forest Stone Pile 1" type="0xE00D">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1974</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Undead Forest Stone Pile 2" type="0xE00E">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1975</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Undead Forest Anvil" type="0xE00F">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1976</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Undead Forest Log Pile" type="0xE010">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1977</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Undead Forest Log" type="0xE011">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1978</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Undead Forest Logs" type="0xE012">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1979</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Undead Forest Bush 1" type="0xE013">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1980</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Undead Forest Bush 2" type="0xE014">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1981</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Undead Forest Cauldron" type="0xE015">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1982</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Abandoned City Log" type="0xE016">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1983</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Abandoned City Sword" type="0xE017">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1984</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Abandoned City Armor" type="0xE018">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1985</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Coral Reefs Wheel" type="0xE019">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1986</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Coral Reefs Driftwood 1" type="0xE01A">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1987</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Coral Reefs Driftwood 2" type="0xE01B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1988</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Coral Reefs Driftwood 3" type="0xE01C">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1989</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Coral Reefs Log Pile" type="0xE01D">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1990</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Coral Reefs Coral 1" type="0xE01E">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1991</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Coral Reefs Coral 2" type="0xE01F">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1992</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Coral Reefs Coral 3" type="0xE020">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1993</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Haunted Hallows Bush 1" type="0xE021">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1994</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Haunted Hallows Bush 2" type="0xE022">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1995</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Haunted Hallows Skulls" type="0xE023">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1996</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Risen Hell Trophy" type="0xE024">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1997</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Risen Hell Vase 1" type="0xE025">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1998</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Risen Hell Vase 2" type="0xE026">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>1999</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Risen Hell Vase 3" type="0xE027">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2000</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Risen Hell Vase 4" type="0xE028">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2001</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shipwreck Cove Sunken Box 1" type="0xE029">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2002</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shipwreck Cove Sunken Box 2" type="0xE02A">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2003</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shipwreck Cove Sunken Barrel 1" type="0xE02B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2004</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shipwreck Cove Seagrass" type="0xE02C">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2005</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shipwreck Cove Sunken Barrel 2" type="0xE02D">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2006</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sprite Forest Purple Box 1" type="0xE02E">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2007</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sprite Forest Blue Box 1" type="0xE02F">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2008</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sprite Forest Blue Box 2" type="0xE030">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2009</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sprite Forest Pink Box 1" type="0xE031">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2010</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sprite Forest Pink Box 2" type="0xE032">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2011</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sprite Forest Pink Box 3" type="0xE033">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2012</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sprite Forest Blue Box 3" type="0xE034">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2013</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sprite Forest Purple Box 2" type="0xE035">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2014</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sprite Forest Blue Box 4" type="0xE036">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2015</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sprite Forest Pink Box 4" type="0xE037">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2016</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sprite Forest Blue Box 5" type="0xE038">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2017</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sprite Forest Blue Box 6" type="0xE039">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2018</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Green Carpet" type="0xE03A">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2019</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Tent 1" type="0xE03B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2020</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Tent 2" type="0xE03C">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2021</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Weapon Rack" type="0xE03D">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2022</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Shell 1" type="0xE03E">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2023</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Shell 2" type="0xE03F">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2024</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Shell 3" type="0xE040">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2025</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Shell 4" type="0xE041">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2026</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Shell 5" type="0xE042">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2027</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Stone" type="0xE043">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2028</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Shell 6" type="0xE044">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2029</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Algae 1" type="0xE045">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2030</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Algae 2" type="0xE046">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2031</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Algae 3" type="0xE047">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2032</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Stone 1" type="0xE048">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2033</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Stone 2" type="0xE049">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2034</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Curve Stone 1" type="0xE04A">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2035</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Curve Stone 2" type="0xE04B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2036</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Curve Stone 3" type="0xE04C">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2037</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sanguine Forest Statue Head" type="0xE04D">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2038</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sanguine Forest Spikes 1" type="0xE04E">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2039</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sanguine Forest Spikes 2" type="0xE04F">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2040</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sanguine Forest Spikes 3" type="0xE050">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2041</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sanguine Forest Spikes 4" type="0xE051">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects16x16</File>
+      <Index>2042</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shore Firepit" type="0xE052">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects24x24</File>
+      <Index>0</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects24x24</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects24x24</File>
+          <Index>1</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects24x24</File>
+          <Index>2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects24x24</File>
+          <Index>3</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Flag 1" type="0xE053">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects24x24</File>
+      <Index>4</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Flag 2" type="0xE054">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects24x24</File>
+      <Index>5</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Flag 3" type="0xE055">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects24x24</File>
+      <Index>6</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shore Well" type="0xE056">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>0</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shore Carp" type="0xE057">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>1</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Forest Big Tree 1" type="0xE058">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>2</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Forest Big Tree 2" type="0xE059">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>3</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Undead Forest Stable" type="0xE05A">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>4</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Undead Forest Firepit" type="0xE05B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>5</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects32x32</File>
+          <Index>5</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects32x32</File>
+          <Index>6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects32x32</File>
+          <Index>7</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects32x32</File>
+          <Index>8</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects32x32</File>
+          <Index>9</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Ancient City Large Weapon Tray" type="0xE05C">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>10</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Coral Reef Anchor" type="0xE05D">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>11</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Haunted Hallows Big Tree 1" type="0xE05E">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>12</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Haunted Hallows Big Tree 2" type="0xE05F">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>13</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Haunted Hallows Big Tree 3" type="0xE060">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>14</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Haunted Hallows Big Tree 4" type="0xE061">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>15</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Haunted Hallows Big Tree 5" type="0xE062">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>16</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Haunted Hallows Scarecrow 1" type="0xE063">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>17</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Haunted Hallows Scarecrow 2" type="0xE064">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>18</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shipwreck Cove Large Log Pile 1" type="0xE065">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>19</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Shipwreck Cove Large Log Pile 2" type="0xE066">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>20</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Carp 1" type="0xE067">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>21</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Watch Tower" type="0xE068">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>22</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Carboniferous Carp 2" type="0xE069">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>23</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects32x32</File>
+          <Index>23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects32x32</File>
+          <Index>24</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects32x32</File>
+          <Index>25</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>newRealmSetPieceObjects32x32</File>
+          <Index>26</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Tentacle 1" type="0xE06A">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>27</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Tentacle 2" type="0xE06B">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>28</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Tentacle 3" type="0xE06C">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>29</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Tentacle 4" type="0xE06D">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>30</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Tentacle 5" type="0xE06E">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>31</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Octopus Head 1" type="0xE06F">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>32</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Octopus Head 2" type="0xE070">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>33</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Octopus Head 3" type="0xE071">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>34</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Bones 1" type="0xE072">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>35</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Bones 2" type="0xE073">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>36</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Bones 3" type="0xE074">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>37</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Skull 1" type="0xE075">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>38</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Deep Sea Abyss Skull 2" type="0xE076">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>39</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Sanguine Forest Star" type="0xE077">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>newRealmSetPieceObjects32x32</File>
+      <Index>40</Index>
+    </Texture>
+    <Static />
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object id="Spring Small 1" type="0x2904">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>16</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>17</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>18</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>19</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <StaticSpawn region="SpringMeaning" prob="0.01" />
+  </Object>
+  <Object id="Spring Small 2" type="0x2905">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>26</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>27</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>28</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>29</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <StaticSpawn region="SpringMeaning" prob="0.01" />
+  </Object>
+  <Object id="Spring Small 3" type="0x2906">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>20</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>21</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>22</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>23</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>24</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>25</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <StaticSpawn region="SpringMeaning" prob="0.01" />
+  </Object>
+  <Object id="Spring Small 4" type="0x2907">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>30</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>31</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>32</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>33</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <StaticSpawn region="SpringMeaning" prob="0.005" />
+  </Object>
+  <Object id="Spring Small 5" type="0x2908">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>34</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>35</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>36</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>37</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <StaticSpawn region="SpringMeaning" prob="0.02" />
+  </Object>
+  <Object id="Spring Small 6" type="0x2909">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>38</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>39</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>40</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>41</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <StaticSpawn region="SpringMeaning" prob="0.001" />
+  </Object>
+  <Object id="Spring Small 7" type="0x2914">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>45</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>46</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>47</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>48</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <StaticSpawn region="SpringMeaning" prob="0.001" />
+  </Object>
+  <Object id="Spring Small 8" type="0x2915">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>50</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>51</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>52</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>53</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <StaticSpawn region="SpringMeaning" prob="0.01" />
+  </Object>
+  <Object id="Spring Big 7" type="0x290a">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>1</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>2</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>3</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>4</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>5</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>6</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>7</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <StaticSpawn region="SpringMeaning" prob="0.0015" />
+  </Object>
+  <Object id="Spring Big 8" type="0x290b">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>8</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>9</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>10</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>11</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>12</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>13</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>14</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>15</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object id="Spring Big 9" type="0x290c">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>16</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>17</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>18</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>19</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>20</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>21</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>22</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>23</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <OccupySquare />
+    <StaticSpawn region="SpringMeaning" prob="0.0015" />
+  </Object>
+  <Object id="Spring Big 10" type="0x290d">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>24</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>25</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>26</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>27</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>28</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>29</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>30</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>31</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <OccupySquare />
+    <StaticSpawn region="SpringMeaning" prob="0.015" />
+  </Object>
+  <Object id="Spring Big 11" type="0x290e">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>32</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>33</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>34</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>35</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <OccupySquare />
+    <StaticSpawn region="SpringMeaning" prob="0.0015" />
+  </Object>
+  <Object id="Easter Troom Small 1" type="0x2916">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>102</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>103</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>104</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>105</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>106</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>107</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+  </Object>
+  <Object id="Easter Troom Small 2" type="0x2917">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>108</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>109</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>110</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>111</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+  </Object>
+  <Object id="Easter TroomSmall 3" type="0x2918">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>112</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>113</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>114</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>115</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+  </Object>
+  <Object id="Easter TroomSmall 4" type="0x2919">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>116</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>117</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+  </Object>
+  <Object id="Easter Troom Small 5" type="0x291a">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>118</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>119</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>120</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>121</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>122</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>123</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects8x8</File>
+        <Index>124</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+  </Object>
+  <Object id="Easter Troom Big 1" type="0x291b">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>36</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>37</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>38</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>39</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>40</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>41</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+  </Object>
+  <Object id="Easter Troom Big 2" type="0x291c">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>45</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>46</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>47</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>48</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>49</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>50</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object id="Easter Troom Big 3" type="0x291d">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>54</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>55</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>56</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>57</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>58</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>59</Index>
+      </Texture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>60</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object id="Easter Troom Big 4" type="0x291e">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>61</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <OccupySquare />
+  </Object>
+  <Object id="Easter Troom Big 5" type="0x291f">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>easterObjects16x16</File>
+        <Index>62</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/trees_death</DeathSound>
+    <Static />
+    <OccupySquare />
   </Object>
 </Objects>

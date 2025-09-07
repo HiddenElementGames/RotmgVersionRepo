@@ -67,43 +67,6 @@
     </Texture>
     <AngleCorrection>1</AngleCorrection>
   </Object>
-  <Object type="0x3745" id="Spider Shuriken">
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>spiderDenObjects8x8</File>
-      <Index>0x04</Index>
-    </Texture>
-    <SlotType>25</SlotType>
-    <Description>An arachnid star which slings silk to tangle predators while granting oneself the speed and stamina of Arachna's most agile young.</Description>
-    <Sound>spell/fire_spray</Sound>
-    <ExtraTooltipData>
-      <EffectInfo description="" name="While Key Held" />
-      <EffectInfo description="Speedy on self" name="" />
-      <EffectInfo description="Drain 5 MP/sec" name="" />
-      <EffectInfo description="" name="When Key Released" />
-    </ExtraTooltipData>
-    <Projectile>
-      <ObjectId>Web Star</ObjectId>
-      <Speed>150</Speed>
-      <MinDamage>300</MinDamage>
-      <MaxDamage>500</MaxDamage>
-      <LifetimeMS>1000</LifetimeMS>
-      <Size>120</Size>
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
-      <PassesCover />
-    </Projectile>
-    <ConditionEffect duration="2">Slowed</ConditionEffect>
-    <Usable />
-    <BagType>4</BagType>
-    <MpCost>0</MpCost>
-    <MpEndCost>50</MpEndCost>
-    <MpCostPerSecond>5</MpCostPerSecond>
-    <MultiPhase />
-    <Activate>ShurikenAbility</Activate>
-    <feedPower>170</feedPower>
-    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,POWERTIER_D,TRADEABLE,MPCOST,TAB_UT</Labels>
-  </Object>
   <Object type="0x1732" id="Arachna Summoner">
     <Class>GameObject</Class>
     <Texture>
@@ -175,12 +138,12 @@
       <LifetimeMS>5000</LifetimeMS>
       <ConditionEffect duration="1.5">Bleeding</ConditionEffect>
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="2" dustMax="5" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="6" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY,AMULET_ROOKIE</Labels>
     <SpecialSpawn category="Bis">Spider Den Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Soft Drink</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Common Insect Egg</SpecialSpawn>
@@ -197,6 +160,8 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Eggshell Spider Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 1</SpecialSpawn>
   </Object>
   <Object type="0x0937" id="Arachna Web Spoke 1">
     <DisplayId>Arachna Element</DisplayId>
@@ -705,6 +670,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x021d" id="Black Den Spider">
     <Class>Character</Class>
@@ -735,6 +701,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x021e" id="Red Spotted Den Spider">
     <Class>Character</Class>
@@ -777,6 +744,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x021f" id="Black Spotted Den Spider">
     <Class>Character</Class>
@@ -807,6 +775,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x0220" id="Brown Den Spider">
     <Class>Character</Class>
@@ -838,6 +807,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x374c" id="Spider Webbed Chest">
     <Enemy />

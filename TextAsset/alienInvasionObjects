@@ -36,6 +36,28 @@
       <Index>0xdd</Index>
     </Texture>
   </Object>
+  <Object type="0xCB7E" id="New AI Alien Invasion Controller">
+    <Class>GameObject</Class>
+    <DisplayId>Commander Calbrik</DisplayId>
+    <Enemy />
+    <Invincible />
+    <AnimatedTexture>
+      <File>alienInvasionChars16x16</File>
+      <Index>43</Index>
+    </AnimatedTexture>
+    <Size>-1</Size>
+    <SpawnProb>0.15</SpawnProb>
+    <PerRealmMax>1</PerRealmMax>
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0xCB7F" id="New AI Alien Invasion Spawner">
+    <Class>GameObject</Class>
+    <AnimatedTexture>
+      <File>alienInvasionChars8x8</File>
+      <Index>35</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
   <Object type="0xb31a" id="AI Alien Invasion Controller">
     <Class>GameObject</Class>
     <DisplayId>Commander Calbrik</DisplayId>
@@ -131,6 +153,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb321" id="AI Alien Caster">
     <DisplayId>Alien Caster</DisplayId>
@@ -164,6 +187,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb322" id="AI Alien Elite">
     <DisplayId>Alien Elite</DisplayId>
@@ -358,6 +382,8 @@
     <Flying />
     <Quest />
     <Level>20</Level>
+    <Color>0x52bf90</Color>
+    <MinimapIcon piece="Boss" />
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>AI Alien Laser Shot</ObjectId>
@@ -909,6 +935,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb2bc" id="AI Blorgorm">
     <DisplayId>Blorgorm</DisplayId>
@@ -1104,6 +1131,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb2c1" id="AI Ptorgian">
     <DisplayId>Ptorgian</DisplayId>
@@ -1350,12 +1378,13 @@
       <LifetimeMS>2100</LifetimeMS>
       <ArmorPiercing />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="38" dustMax="89" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="19" dustMax="25" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="35" dustMax="41" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">AI Malogia Wormhole</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Automaton Egg</SpecialSpawn>
@@ -1372,6 +1401,8 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0xb2c7" id="AI Malogia Boulder">
     <DisplayId>Malogian Boulder</DisplayId>
@@ -2234,6 +2265,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb2e7" id="AI Bubblar">
     <DisplayId>Bubblar</DisplayId>
@@ -2395,6 +2427,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb2ec" id="AI Shred">
     <DisplayId>Shred</DisplayId>
@@ -2765,12 +2798,13 @@
       <LifetimeMS>2000</LifetimeMS>
       <Size>140</Size>
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="38" dustMax="89" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="19" dustMax="25" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="35" dustMax="41" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">AI Untaris Wormhole</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Automaton Egg</SpecialSpawn>
@@ -2787,6 +2821,8 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt3">
         <StyleStep altTextureId="3">SetAltTexture</StyleStep>
@@ -3494,6 +3530,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb2ff" id="AI Larveye">
     <DisplayId>Larveye</DisplayId>
@@ -3779,12 +3816,13 @@
       <Size>60</Size>
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="38" dustMax="89" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="19" dustMax="25" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="35" dustMax="41" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">AI Forax Wormhole</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Automaton Egg</SpecialSpawn>
@@ -3801,6 +3839,8 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0xb334" id="AI Forax Plant Big 1">
     <Class>GameObject</Class>
@@ -4272,6 +4312,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb309" id="AI Silver Walker">
     <DisplayId>Silver Walker</DisplayId>
@@ -4373,6 +4414,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb30c" id="AI Steel Reaper">
     <DisplayId>Steel Reaper</DisplayId>
@@ -4702,12 +4744,13 @@
       <Size>120</Size>
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="38" dustMax="89" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="19" dustMax="25" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="35" dustMax="41" seasonalBonus="0.15">redDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">AI Katalund Wormhole</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Automaton Egg</SpecialSpawn>
@@ -4724,6 +4767,8 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0xb329" id="AI Factory Wall">
     <Class>Wall</Class>

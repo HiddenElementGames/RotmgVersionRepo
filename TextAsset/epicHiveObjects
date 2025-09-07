@@ -7,8 +7,8 @@
     <DisplayId>The Nest</DisplayId>
     <DungeonName>The Nest</DungeonName>
     <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x0D</Index>
+      <File>epicHiveObjects16x16</File>
+      <Index>54</Index>
     </Texture>
     <ShadowSize>0</ShadowSize>
   </Object>
@@ -232,7 +232,7 @@
       <Speed>70</Speed>
       <Size>100</Size>
       <LifetimeMS>1500</LifetimeMS>
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="4">
       <ObjectId>EH Red Glaive</ObjectId>
@@ -240,7 +240,7 @@
       <Speed>70</Speed>
       <Size>100</Size>
       <LifetimeMS>1000</LifetimeMS>
-      <ConditionEffect duration="4">Confused</ConditionEffect>
+      <ConditionEffect duration="4">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="LesserGodKills" />
@@ -436,6 +436,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x1091" id="EH Fat Bees">
     <Group>Busy Bees</Group>
@@ -542,6 +543,7 @@
       <File>epicHiveChars16x16</File>
       <Index>0</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/snake_queen_hit</HitSound>
     <DeathSound>monster/snake_queen_death</DeathSound>
     <MaxHitPoints>112500</MaxHitPoints>
@@ -549,6 +551,7 @@
     <Exp>65000</Exp>
     <BXP>325000</BXP>
     <Size>120</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <StasisImmune />
     <ParalyzeImmune />
     <Flying />
@@ -788,7 +791,7 @@
       <ArmorPiercing />
       <FaceDir />
       <TurnRate>70</TurnRate>
-      <ConditionEffect duration="3">Sick</ConditionEffect>
+      <ConditionEffect duration="1.8">Sick</ConditionEffect>
     </Projectile>
     <Projectile id="26">
       <ObjectId>EH Queen Green Stinger Small</ObjectId>
@@ -817,14 +820,14 @@
       <ArmorPiercing />
       <FaceDir />
       <TurnRate>-70</TurnRate>
-      <ConditionEffect duration="3">Sick</ConditionEffect>
+      <ConditionEffect duration="1.8">Sick</ConditionEffect>
     </Projectile>
     <Projectile id="29">
       <ObjectId>EH Green Glaive</ObjectId>
       <Damage>80</Damage>
       <Speed>45</Speed>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="1">Sick</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="30">
@@ -851,7 +854,7 @@
       <Speed>30</Speed>
       <Size>90</Size>
       <LifetimeMS>4500</LifetimeMS>
-      <ConditionEffect duration="3">Sick</ConditionEffect>
+      <ConditionEffect duration="1.8">Sick</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="33">
@@ -878,7 +881,7 @@
       <ObjectId>EH Green Ball</ObjectId>
       <Damage>80</Damage>
       <Speed>20</Speed>
-      <LifetimeMS>2000</LifetimeMS>
+      <LifetimeMS>1500</LifetimeMS>
       <Size>50</Size>
       <ConditionEffect duration="2">Sick</ConditionEffect>
       <MultiHit />
@@ -957,17 +960,17 @@
       <ConditionEffect duration="3">Dazed</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="104" dustMax="244" seasonalBonus="0.15" minLevel="10" maxLevel="10">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="57" dustMax="132" seasonalBonus="0.15" minLevel="10" maxLevel="10">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="38" dustMax="88" seasonalBonus="0.15" minLevel="10" maxLevel="10">purpleDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="78" dustMax="182" seasonalBonus="0.15" minLevel="7" maxLevel="7">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="32" dustMax="74" seasonalBonus="0.15" minLevel="7" maxLevel="7">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="7" dustMax="17" seasonalBonus="0.15" minLevel="7" maxLevel="7">purpleDust</SoulboundDust>
+    <SoulboundDust dustMin="42" dustMax="46" seasonalBonus="0.15" minLevel="7.0" maxLevel="7.0">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="39" dustMax="44" seasonalBonus="0.15" minLevel="7.0" maxLevel="7.0">redDust</SoulboundDust>
+    <SoulboundDust dustMin="36" dustMax="40" seasonalBonus="0.15" minLevel="7.0" maxLevel="7.0">purpleDust</SoulboundDust>
+    <SoulboundDust dustMin="60" dustMax="66" seasonalBonus="0.15" minLevel="8.5" maxLevel="8.5">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="63" dustMax="69" seasonalBonus="0.15" minLevel="8.5" maxLevel="8.5">redDust</SoulboundDust>
+    <SoulboundDust dustMin="52" dustMax="62" seasonalBonus="0.15" minLevel="8.5" maxLevel="8.5">purpleDust</SoulboundDust>
     <HealthBarBoss radius="20" />
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,BEAST,GOD,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY,STGEMDROP</Labels>
+    <Labels>ENEMY,BOSS,BEAST,GOD,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY,STGEMDROP,AMULET_VETERAN</Labels>
     <SpecialSpawn category="Bis">The Epic Hive Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Superburger</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Insect Egg</SpecialSpawn>
@@ -990,6 +993,8 @@
     <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
     <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
   </Object>
   <Object type="0x1094" id="EH Maggot Egg1">
     <Class>Character</Class>
@@ -1626,19 +1631,47 @@
   </Object>
   <Object type="0x10c0" id="EH Destructible Wall">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x30</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x31</Index>
+        <Index>413</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>414</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>415</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>416</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>409</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>410</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>411</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>412</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
-    <MaxHitPoints>15000</MaxHitPoints>
+    <MaxHitPoints>7000</MaxHitPoints>
     <Static />
     <FullOccupy />
     <OccupySquare />
@@ -1650,15 +1683,95 @@
   </Object>
   <Object type="0x10d3" id="EH Fake Destructible Wall">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x30</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x31</Index>
+        <Index>413</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>414</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>415</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>416</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>409</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>410</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>411</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>412</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <MaxHitPoints>1500</MaxHitPoints>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <Enemy />
+    <Exp>0</Exp>
+    <BlocksSight />
+    <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0x364f" id="EH Plagued Destructible Wall">
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>405</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>406</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>407</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>408</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>401</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>402</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>403</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>404</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -1690,15 +1803,75 @@
   </Object>
   <Object type="0x109b" id="EH Wall">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x0a</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x0b</Index>
+        <Index>361</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>362</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>363</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>364</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>365</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>366</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>367</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>368</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>349</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>350</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>351</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>352</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>353</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>354</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>355</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>356</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -1710,15 +1883,75 @@
   </Object>
   <Object type="0x10ae" id="EH Alt Wall 1">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x24</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x0b</Index>
+        <Index>361</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>362</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>363</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>364</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>365</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>366</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>367</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>368</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>349</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>350</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>351</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>352</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>353</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>354</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>355</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>356</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -1730,15 +1963,75 @@
   </Object>
   <Object type="0x10af" id="EH Alt Wall 2">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x25</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x0b</Index>
+        <Index>361</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>362</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>363</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>364</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>365</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>366</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>367</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>368</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>349</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>350</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>351</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>352</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>353</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>354</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>355</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>356</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -1752,12 +2045,12 @@
     <Class>Wall</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x26</Index>
+      <Index>370</Index>
     </Texture>
     <Top>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x0b</Index>
+        <Index>357</Index>
       </Texture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
@@ -1767,38 +2060,104 @@
     <OccupySquare />
     <EnemyOccupySquare />
     <BlocksSight />
-    <Animation sync="true" prob="1" period="0.6">
+    <Animation sync="true" prob="1" period="0.8">
       <Frame time="0.2">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x26</Index>
+          <Index>369</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x27</Index>
+          <Index>370</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x28</Index>
+          <Index>371</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>372</Index>
         </Texture>
       </Frame>
     </Animation>
   </Object>
   <Object type="0x10c9" id="EH Boss Wall">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x36</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x37</Index>
+        <Index>285</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>286</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>287</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>288</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>289</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>290</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>291</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>292</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>277</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>278</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>279</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>280</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>281</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>282</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>283</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>284</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -1810,15 +2169,75 @@
   </Object>
   <Object type="0x10d0" id="EH Alt Boss Wall 1">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x38</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x37</Index>
+        <Index>285</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>286</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>287</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>288</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>289</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>290</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>291</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>292</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>277</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>278</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>279</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>280</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>281</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>282</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>283</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>284</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -1830,15 +2249,75 @@
   </Object>
   <Object type="0x10d1" id="EH Alt Boss Wall 2">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x39</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x37</Index>
+        <Index>289</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>291</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>292</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>293</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>294</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>295</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>296</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>290</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>277</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>278</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>279</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>280</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>281</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>282</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>283</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>284</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -1852,12 +2331,12 @@
     <Class>Wall</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x3a</Index>
+      <Index>297</Index>
     </Texture>
     <Top>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x37</Index>
+        <Index>288</Index>
       </Texture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
@@ -1867,38 +2346,104 @@
     <OccupySquare />
     <EnemyOccupySquare />
     <BlocksSight />
-    <Animation sync="true" prob="1" period="0.6">
+    <Animation sync="true" prob="1" period="0.8">
       <Frame time="0.2">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x3a</Index>
+          <Index>297</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x3b</Index>
+          <Index>298</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x3c</Index>
+          <Index>299</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>300</Index>
         </Texture>
       </Frame>
     </Animation>
   </Object>
   <Object type="0x10c2" id="EH Medium Boss Wall 1">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x32</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x33</Index>
+        <Index>313</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>314</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>315</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>316</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>317</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>318</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>319</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>320</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>301</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>302</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>303</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>304</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>305</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>306</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>307</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>308</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -1910,15 +2455,75 @@
   </Object>
   <Object type="0x10c6" id="EH Medium Boss Wall 2">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x34</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x33</Index>
+        <Index>313</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>314</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>315</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>316</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>317</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>318</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>319</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>320</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>301</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>302</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>303</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>304</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>305</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>306</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>307</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>308</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -1930,15 +2535,75 @@
   </Object>
   <Object type="0x10c7" id="EH Medium Boss Wall 3">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x35</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x33</Index>
+        <Index>313</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>314</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>315</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>316</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>317</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>318</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>319</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>320</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>301</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>302</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>303</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>304</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>305</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>306</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>307</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>308</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -1952,12 +2617,12 @@
     <Class>Wall</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x3d</Index>
+      <Index>321</Index>
     </Texture>
     <Top>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x33</Index>
+        <Index>312</Index>
       </Texture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
@@ -1967,38 +2632,104 @@
     <OccupySquare />
     <EnemyOccupySquare />
     <BlocksSight />
-    <Animation sync="true" prob="1" period="0.6">
+    <Animation sync="true" prob="1" period="0.8">
       <Frame time="0.2">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x3d</Index>
+          <Index>321</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x3e</Index>
+          <Index>322</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x3f</Index>
+          <Index>323</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>324</Index>
         </Texture>
       </Frame>
     </Animation>
   </Object>
   <Object type="0x10ca" id="EH Light Boss Wall 1">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x40</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x41</Index>
+        <Index>337</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>338</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>339</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>340</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>341</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>342</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>343</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>344</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>325</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>326</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>327</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>328</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>329</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>330</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>331</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>332</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -2010,15 +2741,75 @@
   </Object>
   <Object type="0x10cb" id="EH Light Boss Wall 2">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x42</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x41</Index>
+        <Index>337</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>338</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>339</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>340</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>341</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>342</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>343</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>344</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>325</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>326</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>327</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>328</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>329</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>330</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>331</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>332</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -2030,15 +2821,75 @@
   </Object>
   <Object type="0x10cc" id="EH Light Boss Wall 3">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x43</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x41</Index>
+        <Index>337</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>338</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>339</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>340</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>341</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>342</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>343</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>344</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>325</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>326</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>327</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>328</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>329</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>330</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>331</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>332</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -2052,12 +2903,12 @@
     <Class>Wall</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x44</Index>
+      <Index>345</Index>
     </Texture>
     <Top>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x41</Index>
+        <Index>336</Index>
       </Texture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
@@ -2067,38 +2918,104 @@
     <OccupySquare />
     <EnemyOccupySquare />
     <BlocksSight />
-    <Animation sync="true" prob="1" period="0.6">
+    <Animation sync="true" prob="1" period="0.8">
       <Frame time="0.2">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x44</Index>
+          <Index>345</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x45</Index>
+          <Index>346</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x46</Index>
+          <Index>347</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>348</Index>
         </Texture>
       </Frame>
     </Animation>
   </Object>
   <Object type="0x1aa2" id="EH Fake Wall">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x0a</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x0b</Index>
+        <Index>361</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>362</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>363</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>364</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>365</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>366</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>367</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>368</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>349</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>350</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>351</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>352</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>353</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>354</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>355</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>356</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -2110,15 +3027,75 @@
   </Object>
   <Object type="0x1ac0" id="EH Fake Fake Wall">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x0a</Index>
-    </Texture>
-    <Top>
+    <RandomTexture>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x0b</Index>
+        <Index>361</Index>
       </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>362</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>363</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>364</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>365</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>366</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>367</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>368</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>349</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>350</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>351</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>352</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>353</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>354</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>355</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>356</Index>
+        </Texture>
+      </RandomTexture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -2161,10 +3138,24 @@
   </Object>
   <Object type="0x10db" id="EH Static Partial Floor">
     <Class>GameObject</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x18</Index>
-    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>273</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>274</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>275</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>276</Index>
+      </Texture>
+    </RandomTexture>
     <DrawOnGround />
     <Static />
     <ProtectFromGroundDamage />
@@ -2172,30 +3163,96 @@
   </Object>
   <Object type="0x1a9c" id="EH Partial Floor">
     <Class>GameObject</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x18</Index>
-    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>273</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>274</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>275</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>276</Index>
+      </Texture>
+    </RandomTexture>
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x3645" id="EH Boss Partial Floor">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>273</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>274</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>275</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>276</Index>
+      </Texture>
+    </RandomTexture>
     <DrawOnGround />
     <ProtectFromGroundDamage />
     <ProtectFromSink />
   </Object>
   <Object type="0x08ee" id="EH Special Partial Floor">
     <Class>GameObject</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x18</Index>
-    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>273</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>274</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>275</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>276</Index>
+      </Texture>
+    </RandomTexture>
     <DrawOnGround />
     <ProtectFromGroundDamage />
     <ProtectFromSink />
   </Object>
   <Object type="0x1abe" id="EH Fake Partial Floor">
     <Class>GameObject</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x18</Index>
-    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>273</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>274</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>275</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>276</Index>
+      </Texture>
+    </RandomTexture>
     <DrawOnGround />
     <ProtectFromGroundDamage />
     <ProtectFromSink />
@@ -2204,7 +3261,7 @@
     <Class>GameObject</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x18</Index>
+      <Index>417</Index>
     </Texture>
     <DrawOnGround />
     <ProtectFromGroundDamage />
@@ -2213,19 +3270,19 @@
       <Frame time="1">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x18</Index>
+          <Index>417</Index>
         </Texture>
       </Frame>
       <Frame time="1">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x1e</Index>
+          <Index>418</Index>
         </Texture>
       </Frame>
       <Frame time="3">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x1f</Index>
+          <Index>419</Index>
         </Texture>
       </Frame>
     </Animation>
@@ -2234,7 +3291,7 @@
     <Class>GameObject</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x18</Index>
+      <Index>419</Index>
     </Texture>
     <DrawOnGround />
     <ProtectFromGroundDamage />
@@ -2243,19 +3300,19 @@
       <Frame time="1">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x1f</Index>
+          <Index>419</Index>
         </Texture>
       </Frame>
       <Frame time="1">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x1e</Index>
+          <Index>418</Index>
         </Texture>
       </Frame>
       <Frame time="3">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x18</Index>
+          <Index>417</Index>
         </Texture>
       </Frame>
     </Animation>
@@ -2264,7 +3321,7 @@
     <Class>GameObject</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x18</Index>
+      <Index>419</Index>
     </Texture>
     <DrawOnGround />
     <ProtectFromGroundDamage />
@@ -2273,19 +3330,19 @@
       <Frame time="1">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x1f</Index>
+          <Index>419</Index>
         </Texture>
       </Frame>
       <Frame time="1">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x1e</Index>
+          <Index>418</Index>
         </Texture>
       </Frame>
       <Frame time="999">
         <Texture>
           <File>epicHiveObjects8x8</File>
-          <Index>0x18</Index>
+          <Index>417</Index>
         </Texture>
       </Frame>
     </Animation>
@@ -2321,10 +3378,24 @@
   <Object type="0x08b4" id="EH Long Wall">
     <Class>GameObject</Class>
     <Model>Candy Col Whole</Model>
-    <Texture>
-      <File>epicHiveObjects16x16</File>
-      <Index>0x0b</Index>
-    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects16x16</File>
+        <Index>46</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects16x16</File>
+        <Index>47</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects16x16</File>
+        <Index>48</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects16x16</File>
+        <Index>49</Index>
+      </Texture>
+    </RandomTexture>
     <Static />
     <OccupySquare />
     <FullOccupy />
@@ -2336,7 +3407,7 @@
     <Model>Candy Col Whole</Model>
     <Texture>
       <File>epicHiveObjects16x16</File>
-      <Index>0x0c</Index>
+      <Index>50</Index>
     </Texture>
     <Static />
     <OccupySquare />
@@ -2349,7 +3420,7 @@
     <Model>Candy Col Whole</Model>
     <Texture>
       <File>epicHiveObjects16x16</File>
-      <Index>0x0d</Index>
+      <Index>51</Index>
     </Texture>
     <Static />
     <OccupySquare />
@@ -2362,7 +3433,7 @@
     <Model>Candy Col Whole</Model>
     <Texture>
       <File>epicHiveObjects16x16</File>
-      <Index>0x0e</Index>
+      <Index>53</Index>
     </Texture>
     <Static />
     <OccupySquare />
@@ -2375,7 +3446,7 @@
     <Model>Candy Col Whole</Model>
     <Texture>
       <File>epicHiveObjects16x16</File>
-      <Index>0x0f</Index>
+      <Index>52</Index>
     </Texture>
     <Static />
     <OccupySquare />
@@ -2928,12 +3999,12 @@
     <Class>Wall</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x52</Index>
+      <Index>397</Index>
     </Texture>
     <Top>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x51</Index>
+        <Index>391</Index>
       </Texture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
@@ -2947,12 +4018,12 @@
     <Class>Wall</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x56</Index>
+      <Index>400</Index>
     </Texture>
     <Top>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x51</Index>
+        <Index>391</Index>
       </Texture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
@@ -2966,12 +4037,12 @@
     <Class>Wall</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x56</Index>
+      <Index>400</Index>
     </Texture>
     <Top>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x55</Index>
+        <Index>394</Index>
       </Texture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
@@ -2985,12 +4056,12 @@
     <Class>Wall</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x52</Index>
+      <Index>397</Index>
     </Texture>
     <Top>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x55</Index>
+        <Index>394</Index>
       </Texture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
@@ -3002,10 +4073,24 @@
   </Object>
   <Object type="0x08d5" id="EH Small S Wall Clean">
     <Class>Wall</Class>
-    <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>0x54</Index>
-    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>392</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>393</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>398</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>399</Index>
+      </Texture>
+    </RandomTexture>
     <Top>
       <Texture>
         <File>epicHiveObjects8x8</File>
@@ -3023,12 +4108,12 @@
     <Class>Wall</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x56</Index>
+      <Index>400</Index>
     </Texture>
     <Top>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x58</Index>
+        <Index>396</Index>
       </Texture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
@@ -3042,12 +4127,12 @@
     <Class>Wall</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x52</Index>
+      <Index>397</Index>
     </Texture>
     <Top>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x58</Index>
+        <Index>396</Index>
       </Texture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
@@ -3061,12 +4146,12 @@
     <Class>Wall</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x52</Index>
+      <Index>397</Index>
     </Texture>
     <Top>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x57</Index>
+        <Index>395</Index>
       </Texture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
@@ -3080,12 +4165,12 @@
     <Class>Wall</Class>
     <Texture>
       <File>epicHiveObjects8x8</File>
-      <Index>0x56</Index>
+      <Index>400</Index>
     </Texture>
     <Top>
       <Texture>
         <File>epicHiveObjects8x8</File>
-        <Index>0x57</Index>
+        <Index>395</Index>
       </Texture>
     </Top>
     <HitSound>monster/stone_walls_hit</HitSound>
@@ -3203,7 +4288,7 @@
       <Speed>30</Speed>
       <Size>80</Size>
       <LifetimeMS>4000</LifetimeMS>
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="3">
       <ObjectId>EH Red Ball</ObjectId>
@@ -3213,7 +4298,7 @@
       <LifetimeMS>1500</LifetimeMS>
       <MultiHit />
       <ArmorPiercing />
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
       <ConditionEffect duration="5">Armor Broken</ConditionEffect>
     </Projectile>
     <KillStat stat="BeastKills" />
@@ -3409,6 +4494,64 @@
     <Invincible />
     <Labels>ENEMY,MINION</Labels>
   </Object>
+  <Object type="0x3646" id="EH Beekeeper Flame H">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <HitSound>monster/dark_elves_hit</HitSound>
+    <Texture>
+      <File>summerNexusObjects16x16</File>
+      <Index>0x4f</Index>
+    </Texture>
+    <Animation prob="1.0" period="0.8">
+      <Frame time="0.2">
+        <Texture>
+          <File>summerNexusObjects16x16</File>
+          <Index>0x50</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>summerNexusObjects16x16</File>
+          <Index>0x51</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>summerNexusObjects16x16</File>
+          <Index>0x52</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.2">
+        <Texture>
+          <File>summerNexusObjects16x16</File>
+          <Index>0x4f</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <DisplayId>The Beekeeper</DisplayId>
+    <Size>80</Size>
+    <Projectile id="0">
+      <ObjectId>Invisible</ObjectId>
+      <Damage>90</Damage>
+      <Size>80</Size>
+      <Speed>0</Speed>
+      <LifetimeMS>100</LifetimeMS>
+      <ConditionEffect duration="4.5">Armor Broken</ConditionEffect>
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LavaBombBlast</ObjectId>
+      <Damage>80</Damage>
+      <Speed>40</Speed>
+      <Size>90</Size>
+      <LifetimeMS>3875</LifetimeMS>
+      <ConditionEffect duration=".6">Unstable</ConditionEffect>
+      <ArmorPiercing />
+    </Projectile>
+    <Invincible />
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
   <Object type="0x08ef" id="EH Secret Flame Spawner">
     <Class>Character</Class>
     <DisplayId>The Beekeeper</DisplayId>
@@ -3446,7 +4589,7 @@
       <Size>120</Size>
       <LifetimeMS>3875</LifetimeMS>
       <Boomerang />
-      <ConditionEffect duration=".6">Confused</ConditionEffect>
+      <ConditionEffect duration=".6">Unstable</ConditionEffect>
       <ArmorPiercing />
     </Projectile>
     <Projectile id="2">
@@ -3458,9 +4601,40 @@
       <ConditionEffect duration="2">Slowed</ConditionEffect>
       <ArmorPiercing />
     </Projectile>
+    <Projectile id="25">
+      <ObjectId>EH Queen Green Stinger Large</ObjectId>
+      <Damage>130</Damage>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3800</LifetimeMS>
+      <ArmorPiercing />
+      <FaceDir />
+      <TurnRate>70</TurnRate>
+      <ConditionEffect duration="1.8">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="28">
+      <ObjectId>EH Queen Green Stinger Large</ObjectId>
+      <Damage>130</Damage>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3800</LifetimeMS>
+      <ArmorPiercing />
+      <FaceDir />
+      <TurnRate>-70</TurnRate>
+      <ConditionEffect duration="1.8">Sick</ConditionEffect>
+    </Projectile>
     <Invincible />
   </Object>
   <Object type="0x08f1" id="EH Beekeeper Summoner">
+    <Class>Character</Class>
+    <DisplayId>The Beekeeper</DisplayId>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3647" id="EH Beekeeper Target">
     <Class>Character</Class>
     <DisplayId>The Beekeeper</DisplayId>
     <Texture>
@@ -3476,11 +4650,13 @@
       <File>epicHiveChars16x16</File>
       <Index>9</Index>
     </AnimatedTexture>
-    <MaxHitPoints>45000</MaxHitPoints>
+    <MaxHitPoints>60000</MaxHitPoints>
     <Enemy />
     <Quest />
     <TrackLoot />
     <Size>120</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/dark_elves_hit</HitSound>
     <DeathSound>monster/dark_elves_death</DeathSound>
     <Exp>40000</Exp>
@@ -3538,6 +4714,14 @@
       <ConditionEffect duration="4">Exposed</ConditionEffect>
       <ArmorPiercing />
     </Projectile>
+    <Projectile id="29">
+      <ObjectId>EH Green Glaive</ObjectId>
+      <Damage>80</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="1">Sick</ConditionEffect>
+      <MultiHit />
+    </Projectile>
     <HealthBarBoss radius="20" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
@@ -3589,6 +4773,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x08eb" id="EH Secret Red Fat Bees">
     <Group>EH Secret Bees</Group>
@@ -3628,6 +4813,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x08ec" id="EH Secret Blue Fat Bees">
     <Group>EH Secret Bees</Group>
@@ -3666,6 +4852,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x10da" id="EH Event Hive Summoner">
     <Class>Character</Class>
@@ -3707,6 +4894,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x10f6" id="EH Event Grenade Summoner">
     <Class>Character</Class>
@@ -3731,6 +4919,7 @@
       <Index>7</Index>
     </AnimatedTexture>
     <Color>0xC40068</Color>
+    <MinimapIcon piece="Boss" />
     <Size>220</Size>
     <Sound id="0">monster/wooden_walls_death</Sound>
     <HitSound>monster/wooden_walls_hit</HitSound>
@@ -3749,7 +4938,7 @@
       <Speed>30</Speed>
       <Size>100</Size>
       <LifetimeMS>3000</LifetimeMS>
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
@@ -3923,7 +5112,7 @@
       <Speed>40</Speed>
       <Size>100</Size>
       <LifetimeMS>1500</LifetimeMS>
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
@@ -3961,7 +5150,7 @@
       <Speed>40</Speed>
       <Size>100</Size>
       <LifetimeMS>4000</LifetimeMS>
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
@@ -4087,7 +5276,7 @@
       <Speed>40</Speed>
       <Size>100</Size>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="3">Confused</ConditionEffect>
+      <ConditionEffect duration="3">Unstable</ConditionEffect>
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
@@ -4166,6 +5355,8 @@
       <Index>10</Index>
     </AnimatedTexture>
     <Color>0xC40068</Color>
+    <MinimapIcon piece="Boss" />
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
     <HitSound>monster/snake_queen_hit</HitSound>
     <DeathSound>monster/snake_queen_death</DeathSound>
@@ -4241,6 +5432,8 @@
       <Index>11</Index>
     </AnimatedTexture>
     <Color>0xC40068</Color>
+    <MinimapIcon piece="Boss" />
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
     <HitSound>monster/snake_queen_hit</HitSound>
     <DeathSound>monster/snake_queen_death</DeathSound>
@@ -4277,7 +5470,7 @@
       <Speed>65</Speed>
       <Size>100</Size>
       <LifetimeMS>2500</LifetimeMS>
-      <ConditionEffect duration="1.4">Confused</ConditionEffect>
+      <ConditionEffect duration="1.4">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="3">
       <ObjectId>EH Red Ball</ObjectId>
@@ -4285,7 +5478,7 @@
       <Speed>40</Speed>
       <Size>100</Size>
       <LifetimeMS>4000</LifetimeMS>
-      <ConditionEffect duration="2">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Unstable</ConditionEffect>
       <ConditionEffect duration="1">Armor Broken</ConditionEffect>
       <MultiHit />
     </Projectile>
@@ -4307,6 +5500,8 @@
       <Index>12</Index>
     </AnimatedTexture>
     <Color>0xC40068</Color>
+    <MinimapIcon piece="Boss" />
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <Size>120</Size>
     <HitSound>monster/snake_queen_hit</HitSound>
     <DeathSound>monster/snake_queen_death</DeathSound>
@@ -4410,6 +5605,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x10dc" id="EH Ev Red Fat Bees">
     <DisplayId>Red Nest Colony Guardian</DisplayId>
@@ -4448,6 +5644,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x10dd" id="EH Ev Blue Fat Bees">
     <DisplayId>Blue Nest Colony Guardian</DisplayId>
@@ -4485,6 +5682,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x10e1" id="EH Ev Chase Fat Bees">
     <Group>Ev Busy Bees</Group>
@@ -4523,6 +5721,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x10e2" id="EH Ev Chase Red Fat Bees">
     <Group>Ev Busy Bees</Group>
@@ -4562,6 +5761,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x10e3" id="EH Ev Chase Blue Fat Bees">
     <Group>Ev Busy Bees</Group>
@@ -4601,6 +5801,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0xc000" id="EH Bossroom Anchor">
     <Class>Character</Class>
@@ -4613,8 +5814,8 @@
   <Object type="0xc001" id="EH Teleporter">
     <Class>GameObject</Class>
     <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
+      <File>theShattersObjects8x8</File>
+      <Index>0x03</Index>
     </Texture>
     <Size>0</Size>
   </Object>
@@ -4826,7 +6027,7 @@
       <Speed>45</Speed>
       <Size>90</Size>
       <LifetimeMS>1500</LifetimeMS>
-      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="1">Sick</ConditionEffect>
       <MultiHit />
     </Projectile>
     <KillStat stat="StructureKills" />
@@ -4973,7 +6174,7 @@
       <Speed>30</Speed>
       <Size>80</Size>
       <LifetimeMS>4000</LifetimeMS>
-      <ConditionEffect duration="3">Sick</ConditionEffect>
+      <ConditionEffect duration="1.8">Sick</ConditionEffect>
     </Projectile>
     <Projectile id="3">
       <ObjectId>EH Green Ball</ObjectId>
@@ -4982,7 +6183,7 @@
       <Size>100</Size>
       <LifetimeMS>1500</LifetimeMS>
       <MultiHit />
-      <ConditionEffect duration="2">Sick</ConditionEffect>
+      <ConditionEffect duration="1">Sick</ConditionEffect>
       <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="BeastKills" />
@@ -5034,6 +6235,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x44db" id="EH QLB Green">
     <Class>Character</Class>
@@ -5062,7 +6264,7 @@
       <Size>100</Size>
       <LifetimeMS>1500</LifetimeMS>
       <ConditionEffect duration="2">Weak</ConditionEffect>
-      <ConditionEffect duration="3" target="1">Sick</ConditionEffect>
+      <ConditionEffect duration="1.8">Sick</ConditionEffect>
       <MultiHit />
     </Projectile>
     <Projectile id="1">
@@ -5088,11 +6290,11 @@
     <Class>Portal</Class>
     <IntergamePortal />
     <DungeonPortal />
-    <DisplayId>Advanced Nest</DisplayId>
-    <DungeonName>Advanced Nest</DungeonName>
+    <DisplayId>Plagued Nest</DisplayId>
+    <DungeonName>Plagued Nest</DungeonName>
     <Texture>
-      <File>epicHiveObjects8x8</File>
-      <Index>125</Index>
+      <File>epicHiveObjects16x16</File>
+      <Index>55</Index>
     </Texture>
     <ShadowSize>0</ShadowSize>
   </Object>
@@ -5124,7 +6326,6 @@
   <Object type="0x44d9" id="Advanced Nest Loot">
     <Class>Character</Class>
     <Enemy />
-    <NoMiniMap />
     <Texture>
       <File>moonlightVillageObjects8x8</File>
       <Index>251</Index>
@@ -5135,5 +6336,502 @@
     <Exp>10</Exp>
     <Invincible />
     <TrackLoot />
+    <PowerUpDex />
+    <Labels>TRACKLOOT,AMULET_NEST_EXTRA</Labels>
+  </Object>
+  <Object type="0x3648" id="EH Plagued Partial Floor">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>269</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>270</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>271</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>272</Index>
+      </Texture>
+    </RandomTexture>
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x3649" id="EH Boss Plagued Partial Floor">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>269</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>270</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>271</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>272</Index>
+      </Texture>
+    </RandomTexture>
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x364a" id="EH Static Plagued Partial Floor">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>269</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>270</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>271</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>272</Index>
+      </Texture>
+    </RandomTexture>
+    <DrawOnGround />
+    <Static />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x365b" id="EH Fake Plagued Partial Floor">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>269</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>270</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>271</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>272</Index>
+      </Texture>
+    </RandomTexture>
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+  </Object>
+  <Object type="0x365c" id="EH Closing Fake Plagued Partial Floor">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>269</Index>
+    </Texture>
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+    <Animation sync="true" period="1">
+      <Frame time="1">
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>437</Index>
+        </Texture>
+      </Frame>
+      <Frame time="1">
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>438</Index>
+        </Texture>
+      </Frame>
+      <Frame time="3">
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>439</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0x365e" id="EH Event Appearing Fake Plagued Partial Floor">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>439</Index>
+    </Texture>
+    <DrawOnGround />
+    <ProtectFromGroundDamage />
+    <ProtectFromSink />
+    <Animation sync="true" period="9999">
+      <Frame time="1">
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>439</Index>
+        </Texture>
+      </Frame>
+      <Frame time="1">
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>438</Index>
+        </Texture>
+      </Frame>
+      <Frame time="999">
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>437</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0x365d" id="EH Waiting Plagued Floor">
+    <Class>GameObject</Class>
+    <Size>0</Size>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+  </Object>
+  <Object type="0x364b" id="EH Slightly Plagued Wall">
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>139</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>140</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>141</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>142</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>143</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>144</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>145</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>146</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>131</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>132</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>133</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>134</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>135</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>136</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>137</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>138</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x364c" id="EH Plagued Wall">
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>159</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>160</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>161</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>162</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>163</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>164</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>165</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>166</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>147</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>148</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>149</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>150</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>151</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>152</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>153</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>154</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x364d" id="EH Alt Plagued Wall 1">
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>167</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>168</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>169</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>170</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>155</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>156</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>157</Index>
+        </Texture>
+        <Texture>
+          <File>epicHiveObjects8x8</File>
+          <Index>158</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x364e" id="EH Alt Plagued Wall 2">
+    <Class>Wall</Class>
+    <Texture>
+      <File>epicHiveObjects8x8</File>
+      <Index>169</Index>
+    </Texture>
+    <Top>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>167</Index>
+      </Texture>
+    </Top>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0x3650" id="EH Boss Room Close Right">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>theShattersChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3651" id="EH Boss Room Close Left">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>theShattersChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3652" id="EH Boss Room Close Up">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>theShattersChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3653" id="EH Boss Room Close Down">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>theShattersChars16x16</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0x3658" id="EH Plagued Chunk">
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>436</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>421</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>422</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>423</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>424</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>425</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>426</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>427</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>428</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>429</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>430</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>431</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>432</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>433</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>434</Index>
+      </Texture>
+      <Texture>
+        <File>epicHiveObjects8x8</File>
+        <Index>435</Index>
+      </Texture>
+    </RandomTexture>
+    <Static />
   </Object>
 </Objects>

@@ -19,6 +19,17 @@
     <PersistentOnTile />
     <Animate dx="0.25" dy="0.25">Wave</Animate>
   </Ground>
+  <Ground type="0x1AD" id="Valentines Healing Armored Chocolate">
+    <Texture>
+      <File>queenBunnyObjects8x8</File>
+      <Index>0x3a</Index>
+    </Texture>
+    <Speed>0.6</Speed>
+    <Sink />
+    <PersistentOnTile />
+    <ConditionEffect duration="0.8">Armored</ConditionEffect>
+    <ConditionEffect duration="0.8">Healing</ConditionEffect>
+  </Ground>
   <Ground type="0x187" id="Easter Chamber Floor">
     <RandomTexture>
       <Texture>

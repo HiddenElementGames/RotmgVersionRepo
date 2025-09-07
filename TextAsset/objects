@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
+  <Object type="0xffff" id="OBJ_TYPE_MAX">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
   <Object type="0x0700" id="Dungeon Portal">
     <Class>Portal</Class>
     <IntergamePortal />
@@ -18,7 +26,7 @@
     <Size>0</Size>
   </Object>
   <Object type="0x0711" id="Trap">
-    <Class>Character</Class>
+    <Class>Trap</Class>
     <Texture>
       <File>invisible</File>
       <Index>0</Index>
@@ -564,7 +572,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x19d</Index>
     </Texture>
-    <MaxHitPoints>2500</MaxHitPoints>
+    <MaxHitPoints>1250</MaxHitPoints>
     <Defense>0</Defense>
     <Size>140</Size>
     <Exp>10000</Exp>
@@ -572,7 +580,7 @@
     <KillStat stat="StructureKills" />
     <Labels>CHEST</Labels>
   </Object>
-  <Object type="0xd8d" id="Standard Quest Chest">
+  <Object type="0x0d8d" id="Standard Quest Chest">
     <DisplayId>Standard Quest Chest</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -581,14 +589,14 @@
       <File>d3LofiObjEmbed</File>
       <Index>0x11</Index>
     </Texture>
-    <MaxHitPoints>2500</MaxHitPoints>
+    <MaxHitPoints>2000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>140</Size>
     <Exp>20000</Exp>
     <KillStat stat="StructureKills" />
     <Labels>CHEST</Labels>
   </Object>
-  <Object type="0xd8f" id="Mighty Quest Chest">
+  <Object type="0x0d8f" id="Mighty Quest Chest">
     <DisplayId>Mighty Quest Chest</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -597,7 +605,7 @@
       <File>d3LofiObjEmbed</File>
       <Index>0x13</Index>
     </Texture>
-    <MaxHitPoints>2500</MaxHitPoints>
+    <MaxHitPoints>3750</MaxHitPoints>
     <Defense>0</Defense>
     <Size>140</Size>
     <Exp>40000</Exp>
@@ -613,7 +621,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x16f</Index>
     </Texture>
-    <MaxHitPoints>2500</MaxHitPoints>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>140</Size>
     <Exp>60000</Exp>
@@ -629,7 +637,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x1a8</Index>
     </Texture>
-    <MaxHitPoints>2500</MaxHitPoints>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>140</Size>
     <Exp>60000</Exp>
@@ -645,7 +653,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x1ac</Index>
     </Texture>
-    <MaxHitPoints>2500</MaxHitPoints>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>140</Size>
     <Exp>60000</Exp>
@@ -661,7 +669,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x1aa</Index>
     </Texture>
-    <MaxHitPoints>2500</MaxHitPoints>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>140</Size>
     <Exp>60000</Exp>
@@ -677,7 +685,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x1ae</Index>
     </Texture>
-    <MaxHitPoints>2500</MaxHitPoints>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>140</Size>
     <Exp>60000</Exp>
@@ -693,7 +701,7 @@
       <File>oryxHordeObjects8x8</File>
       <Index>0x19a</Index>
     </Texture>
-    <MaxHitPoints>2500</MaxHitPoints>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>140</Size>
     <Exp>60000</Exp>
@@ -709,7 +717,70 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x19f</Index>
     </Texture>
-    <MaxHitPoints>2500</MaxHitPoints>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Size>140</Size>
+    <Exp>60000</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0xc181" id="Steampunk Epic Quest Chest">
+    <DisplayId>Steampunk Epic Quest Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <TrackLoot />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>760</Index>
+    </Texture>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Size>140</Size>
+    <Exp>60000</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x5005" id="Moonlit Epic Quest Chest">
+    <DisplayId>Moonlit Epic Quest Chest</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>moonlightVillageObjects8x8</File>
+      <Index>538</Index>
+    </Texture>
+    <Size>140</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Exp>60000</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x5cfa" id="Spectral Epic Quest Chest">
+    <DisplayId>Spectral Epic Quest Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <TrackLoot />
+    <Texture>
+      <File>specPenObjects8x8</File>
+      <Index>119</Index>
+    </Texture>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>0</Defense>
+    <Size>140</Size>
+    <Exp>60000</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x1495" id="Citadel Epic Quest Chest">
+    <DisplayId>Citadel Epic Quest Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <TrackLoot />
+    <Texture>
+      <File>iceCitadelObjects8x8</File>
+      <Index>267</Index>
+    </Texture>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>140</Size>
     <Exp>60000</Exp>
@@ -752,6 +823,23 @@
   </Object>
   <Object type="0x72cb" id="Nest Guild Chest">
     <DisplayId>Nest Guild Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x466</Index>
+    </Texture>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Defense>0</Defense>
+    <Size>160</Size>
+    <Exp>0</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x72DE" id="Advanced Nest Guild Chest">
+    <DisplayId>Plagued Nest Guild Chest</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <Texture>
@@ -1156,9 +1244,8 @@
     <NoTexture />
   </Object>
   <Object type="0x7e94" id="Blacksmith">
-    <Class>Blacksmith</Class>
     <DisplayId>The Blacksmith</DisplayId>
-    <HelperDialog title="Blacksmith">The Blacksmith will forge new items for you by dismantling others. Unlock new item recipes by using Blueprints that you find while out in the realm.</HelperDialog>
+    <Class>Character</Class>
     <ShadowSize>50</ShadowSize>
     <Size>100</Size>
     <Texture>
@@ -1169,8 +1256,8 @@
   </Object>
   <Object type="0x7e95" id="Blacksmith Inv Object">
     <Class>Blacksmith</Class>
-    <ShadowSize>0</ShadowSize>
     <Size>-1</Size>
+    <ShadowSize>0</ShadowSize>
     <Texture>
       <File>d3LofiObjBigEmbed</File>
       <Index>0x15</Index>
@@ -1211,6 +1298,7 @@
         </Texture>
       </Frame>
     </Animation>
+    <HelperDialog title="Blacksmith" radius="5">The Blacksmith will forge new items for you by dismantling others. Unlock new item recipes by using Blueprints that you find while out in the Realm.</HelperDialog>
   </Object>
   <Object type="0x7e97" id="Blacksmith Rack 1">
     <Class>GameObject</Class>
@@ -1433,35 +1521,6 @@
     <KillStat stat="StructureKills" />
     <Labels>CHEST</Labels>
   </Object>
-  <Object type="0xc181" id="Steampunk Epic Quest Chest">
-    <DisplayId>Steampunk Epic Quest Chest</DisplayId>
-    <Class>Character</Class>
-    <Enemy />
-    <TrackLoot />
-    <Texture>
-      <File>steamworksObjects8x8</File>
-      <Index>760</Index>
-    </Texture>
-    <MaxHitPoints>2500</MaxHitPoints>
-    <Defense>0</Defense>
-    <Size>140</Size>
-    <Exp>60000</Exp>
-    <KillStat stat="StructureKills" />
-    <Labels>CHEST</Labels>
-  </Object>
-  <Object id="Moonlit Epic Quest Chest" type="0x5005">
-    <DisplayId>Moonlit Epic Quest Chest</DisplayId>
-    <Enemy />
-    <Class>Character</Class>
-    <Texture>
-      <File>moonlightVillageObjects8x8</File>
-      <Index>538</Index>
-    </Texture>
-    <Size>140</Size>
-    <MaxHitPoints>2500</MaxHitPoints>
-    <Defense>0</Defense>
-    <Exp>60000</Exp>
-  </Object>
   <Object type="0xc324" id="The Enchanter">
     <Class>Enchanter</Class>
     <DisplayId>The Enchanter</DisplayId>
@@ -1524,6 +1583,7 @@
     <NoMiniMap />
   </Object>
   <Object type="0x67ad" id="Enchanter Animated Furniture 1">
+    <Class>GameObject</Class>
     <Texture>
       <File>enchantments28x16</File>
       <Index>0x7</Index>
@@ -1604,6 +1664,7 @@
     </Animation>
   </Object>
   <Object type="0x67ae" id="Enchanter Animated Furniture 2">
+    <Class>GameObject</Class>
     <Texture>
       <File>enchantments28x16</File>
       <Index>0x13</Index>
@@ -1636,6 +1697,7 @@
     </Animation>
   </Object>
   <Object type="0x67b5" id="Enchanter Animated Furniture 3">
+    <Class>GameObject</Class>
     <Texture>
       <File>enchantments16x16</File>
       <Index>0x19</Index>
@@ -1895,6 +1957,141 @@
   </Object>
   <Object type="0x7314" id="Tavern Guild Chest">
     <DisplayId>Tavern Guild Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x466</Index>
+    </Texture>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Defense>0</Defense>
+    <Size>160</Size>
+    <Exp>0</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0xAD76" id="SpecPen Guild Chest">
+    <DisplayId>Spectral Penitentiary Guild Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>specPenObjects8x8</File>
+      <Index>119</Index>
+    </Texture>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Defense>0</Defense>
+    <Size>160</Size>
+    <Exp>0</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x7315" id="Bomb">
+    <Class>StickyBomb</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>-1</Size>
+    <Z>-0.2</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x7319" id="LightCone test">
+    <Class>LightCone</Class>
+    <Model>LightCone</Model>
+    <NoTexture />
+    <Size>300</Size>
+  </Object>
+  <Object type="0xFEB" id="Belladonna's Garden Guild Chest">
+    <DisplayId>Belladonna's Garden Guild Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x466</Index>
+    </Texture>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Defense>0</Defense>
+    <Size>160</Size>
+    <Exp>0</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x33cb" id="Trials of Cronus Guild Chest">
+    <DisplayId>Trials of Cronus Guild Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>specPenObjects8x8</File>
+      <Index>119</Index>
+    </Texture>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Defense>0</Defense>
+    <Size>160</Size>
+    <Exp>0</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x3454" id="Cursed Library Guild Chest">
+    <DisplayId>Cursed Library Guild Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x466</Index>
+    </Texture>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Defense>0</Defense>
+    <Size>160</Size>
+    <Exp>0</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x3455" id="Kogbold Steamworks Guild Chest">
+    <DisplayId>Kogbold Steamworks Guild Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x466</Index>
+    </Texture>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Defense>0</Defense>
+    <Size>160</Size>
+    <Exp>0</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x3456" id="Advanced Kogbold Steamworks Guild Chest">
+    <DisplayId>Advanced Kogbold Steamworks Guild Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x466</Index>
+    </Texture>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Defense>0</Defense>
+    <Size>160</Size>
+    <Exp>0</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x3457" id="Abyss of Demons Guild Chest">
+    <DisplayId>Abyss of Demons Guild Chest</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <Texture>

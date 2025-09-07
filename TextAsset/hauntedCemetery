@@ -174,7 +174,7 @@
       <LifetimeMS>1500</LifetimeMS>
       <Size>175</Size>
       <Wavy />
-      <ConditionEffect duration="5">Hallucinating</ConditionEffect>
+      <ConditionEffect duration="3">Hexed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Nature Wave</ObjectId>
@@ -654,7 +654,7 @@
       <Size>100</Size>
       <Amplitude>0.8</Amplitude>
       <Frequency>2</Frequency>
-      <ConditionEffect duration="1.8">Confused</ConditionEffect>
+      <ConditionEffect duration="1.8">Unstable</ConditionEffect>
       <MultiHit />
     </Projectile>
     <KillStat stat="UndeadKills" />
@@ -1040,7 +1040,6 @@
       <Speed>80</Speed>
       <LifetimeMS>800</LifetimeMS>
       <Size>100</Size>
-      <ConditionEffect duration="2">Blind</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>Fire Spinner</ObjectId>
@@ -1254,6 +1253,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x6003" id="Werewolf">
     <Enemy />
@@ -1760,7 +1760,7 @@
       <LifetimeMS>1300</LifetimeMS>
       <PassesCover />
       <Wavy />
-      <ConditionEffect duration="2.6">Confused</ConditionEffect>
+      <ConditionEffect duration="2.6">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="7">
       <ObjectId>Giga Ghost X</ObjectId>
@@ -1783,12 +1783,12 @@
       <MultiHit />
       <ConditionEffect duration="1.6">Paralyzed</ConditionEffect>
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="40" dustMax="94" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="40" dustMax="48" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="UndeadKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
     <SpecialSpawn category="Bis">Haunted Cemetery Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Uncommon Spooky Egg</SpecialSpawn>
@@ -1806,6 +1806,8 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Werewolf Cub Pet Skin</SpecialSpawn>
     <SpecialSpawn category="Mercenary_B">Mercenary B Dungeon</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 1</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt9">
         <StyleStep altTextureId="9">SetAltTexture</StyleStep>

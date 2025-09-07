@@ -9,9 +9,11 @@
       <File>chars16x16dEncounters2</File>
       <Index>92</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/skull_shrine_hit</HitSound>
     <DeathSound>monster/skull_shrine_death</DeathSound>
     <Size>250</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <ShadowSize>25</ShadowSize>
     <MaxHitPoints>120000</MaxHitPoints>
     <Defense>60</Defense>
@@ -67,8 +69,8 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="42" dustMax="97" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="14" dustMax="34" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust dustMin="32" dustMax="35" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="33" dustMax="39" seasonalBonus="0.15">redDust</SoulboundDust>
     <AltTexture id="1">
       <Texture>
         <File>invisible</File>
@@ -218,7 +220,7 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,NATURE,GOD,HPSCALEONENTRY,STGEMDROP</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,NATURE,GOD,HPSCALEONENTRY,STGEMDROP,AMULET_VETERAN</Labels>
     <SpecialSpawn category="Bis">Lair of Shaitan Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Reptile Egg</SpecialSpawn>
@@ -237,6 +239,8 @@
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
+    <SpecialSpawn category="SHADOW_OF_THE_LEGION">NMR Portal Spawner 2</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt2">
@@ -295,9 +299,11 @@
       <File>chars16x16dEncounters2</File>
       <Index>91</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/flaming_skulls_hit</HitSound>
     <DeathSound>monster/flaming_skulls_death</DeathSound>
     <Size>200</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <ShadowSize>25</ShadowSize>
     <MaxHitPoints>7875</MaxHitPoints>
     <Defense>70</Defense>
@@ -410,9 +416,11 @@
       <File>chars16x16dEncounters2</File>
       <Index>90</Index>
     </AnimatedTexture>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/flaming_skulls_hit</HitSound>
     <DeathSound>monster/flaming_skulls_death</DeathSound>
     <Size>200</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <ShadowSize>25</ShadowSize>
     <MaxHitPoints>7875</MaxHitPoints>
     <Defense>70</Defense>
@@ -815,6 +823,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x6e09" id="md2 CreepyHead">
     <DisplayId>Creepy Small Heads</DisplayId>
