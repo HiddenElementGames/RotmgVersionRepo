@@ -27538,4 +27538,47 @@
     <feedPower>1000</feedPower>
     <Track />
   </Object>
+  <Object type="0xFF77" id="Ignis Penguin Pet">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Penguin</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Ignis Penguin Pet</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xFF78" id="Ignis Penguin Pet Skin">
+    <PetSkin />
+    <DisplayId>Ignis Penguin</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Penguin</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>374</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xFF79" id="Ignis Penguin Pet Stone">
+    <DisplayId>Ignis Penguin Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>374</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Once a chilled waddler of the icy seas, Ignis Penguin now blazes with fiery might. With every flap, sparks fly—proving even the coldest creatures can burn the brightest.\n\nUnlocks the Ignis Penguin Pet Skin of the Penguin family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="65400">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
 </Objects>

@@ -5964,13 +5964,13 @@
     <Description>A key which opens an entrance to the first of Stromwell's Rifts. The cunning inspector used the powers of Nightmatter to open gateways to a secret world where he schemes his plans...</Description>
     <Sound>use_key</Sound>
     <ExtraTooltipData>
-      <EffectInfo name="Nightmatter Rift" description="Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 50%." />
+      <EffectInfo name="Nightmatter Rift" description="Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 30%." />
       <EffectInfo name="Dungeon Difficulty" description="5" />
       <EffectInfo name="Warning" description="Keys can only be used once you have 10 or more stars!" />
     </ExtraTooltipData>
     <Consumable />
     <Soulbound />
-    <Activate id="NMR Portal Spawner 1">CreatePortal</Activate>
+    <Activate id="Stromwell's Rift I Portal">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -5988,13 +5988,13 @@
     <Description>A key which opens an entrance to the second of Stromwell's Rifts. Now aware of your intrusions, the devious inspector has prepared his pocket dimension for your arrival...</Description>
     <Sound>use_key</Sound>
     <ExtraTooltipData>
-      <EffectInfo name="Nightmatter Rift" description="Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 55%." />
+      <EffectInfo name="Nightmatter Rift" description="Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 45%." />
       <EffectInfo name="Dungeon Difficulty" description="7.5" />
       <EffectInfo name="Warning" description="Keys can only be used once you have 10 or more stars!" />
     </ExtraTooltipData>
     <Consumable />
     <Soulbound />
-    <Activate id="NMR Portal Spawner 2">CreatePortal</Activate>
+    <Activate id="Stromwell's Rift II Portal">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -6018,7 +6018,7 @@
     </ExtraTooltipData>
     <Consumable />
     <Soulbound />
-    <Activate id="NMR Portal Spawner 3">CreatePortal</Activate>
+    <Activate id="Stromwell's Rift III Portal">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />

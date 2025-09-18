@@ -1826,7 +1826,7 @@
   <DungeonModifier id="INFO_NIGHTMATTER_RIFT_1" type="0x166">
     <DisplayId>Nightmatter Rift I</DisplayId>
     <PowerLevel>1</PowerLevel>
-    <Description>Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 50%.</Description>
+    <Description>Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 30%.</Description>
     <Labels>INFO,NIGHTMATTER_RIFT_1</Labels>
     <IncompatibleLabels />
     <Mutators />
@@ -1834,7 +1834,7 @@
   <DungeonModifier id="INFO_NIGHTMATTER_RIFT_2" type="0x167">
     <DisplayId>Nightmatter Rift II</DisplayId>
     <PowerLevel>1</PowerLevel>
-    <Description>Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 55%.</Description>
+    <Description>Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 45%.</Description>
     <Labels>INFO,NIGHTMATTER_RIFT_2</Labels>
     <IncompatibleLabels />
     <Mutators />
@@ -1850,11 +1850,11 @@
   <DungeonModifier id="SHADOW_OF_THE_LEGION" type="0x0169">
     <DisplayId>Shadow of the Legion</DisplayId>
     <PowerLevel>4</PowerLevel>
-    <Description>40% chance to battle Inspector Stromwell in his Rift after the final boss of the dungeon.</Description>
+    <Description>50% chance to battle Inspector Stromwell in his Rift after the final boss of the dungeon.</Description>
     <Labels>EXTRABOSS,SHADOW_OF_THE_LEGION</Labels>
     <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
     <Mutators>
-      <SpecialSpawnOnDeath category="SHADOW_OF_THE_LEGION" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.4" />
+      <SpecialSpawnOnDeath category="SHADOW_OF_THE_LEGION" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.5" />
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="INFO_NONE_D0" type="0x180">
