@@ -19,52 +19,277 @@
   <Object type="0xf41" id="Orb of Life">
     <Class>Character</Class>
     <Texture>
-      <File>d2LofiObjEmbed</File>
-      <Index>0xec</Index>
+      <File>heroicOrbs16x16</File>
+      <Index>14</Index>
     </Texture>
-    <HitSound>monster/ghosts_hit</HitSound>
-    <DeathSound>monster/ghosts_death</DeathSound>
-    <Size>60</Size>
+    <Animation prob="1" period="0" id="active">
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>15</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>16</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>17</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>18</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>19</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>20</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="inactive">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="active">
+        <StyleStep id="active">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>15</Size>
+    <NoCollisionWhenMovement />
   </Object>
   <Object type="0xf42" id="Orb of Mana">
     <Class>Character</Class>
     <Texture>
-      <File>d2LofiObjEmbed</File>
-      <Index>0xed</Index>
+      <File>heroicOrbs16x16</File>
+      <Index>21</Index>
     </Texture>
-    <HitSound>monster/ghosts_hit</HitSound>
-    <DeathSound>monster/ghosts_death</DeathSound>
-    <Size>60</Size>
+    <Animation prob="1" period="0" id="active">
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>22</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>23</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>24</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>25</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>26</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>27</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="inactive">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="active">
+        <StyleStep id="active">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>15</Size>
+    <NoCollisionWhenMovement />
   </Object>
   <Object type="0xff3f" id="Orb of Defense">
     <Class>Character</Class>
     <Texture>
-      <File>d2LofiObjEmbed</File>
-      <Index>0x4AE</Index>
+      <File>heroicOrbs16x16</File>
+      <Index>35</Index>
     </Texture>
-    <HitSound>monster/ghosts_hit</HitSound>
-    <DeathSound>monster/ghosts_death</DeathSound>
-    <Size>60</Size>
+    <Animation prob="1" period="0" id="active">
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>36</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>37</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>38</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>39</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>40</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>41</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="inactive">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="active">
+        <StyleStep id="active">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>15</Size>
+    <NoCollisionWhenMovement />
   </Object>
   <Object type="0xff40" id="Orb of Frenzy">
     <Class>Character</Class>
     <Texture>
-      <File>d2LofiObjEmbed</File>
-      <Index>0x4AF</Index>
+      <File>heroicOrbs16x16</File>
+      <Index>28</Index>
     </Texture>
-    <HitSound>monster/ghosts_hit</HitSound>
-    <DeathSound>monster/ghosts_death</DeathSound>
-    <Size>60</Size>
+    <Animation prob="1" period="0" id="active">
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>29</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>30</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>31</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>32</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>33</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>34</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="inactive">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="active">
+        <StyleStep id="active">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>15</Size>
+    <NoCollisionWhenMovement />
   </Object>
   <Object type="0xff41" id="Orb of Damage">
     <Class>Character</Class>
     <Texture>
-      <File>d2LofiObjEmbed</File>
-      <Index>0x4B0</Index>
+      <File>heroicOrbs16x16</File>
+      <Index>00</Index>
     </Texture>
-    <HitSound>monster/ghosts_hit</HitSound>
-    <DeathSound>monster/ghosts_death</DeathSound>
-    <Size>60</Size>
+    <Animation prob="1" period="0" id="active">
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>01</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>02</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>03</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>04</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>05</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>06</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="inactive">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="active">
+        <StyleStep id="active">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>15</Size>
+    <NoCollisionWhenMovement />
   </Object>
   <Object type="0xff42" id="Orb of Range">
     <Class>Character</Class>
@@ -79,12 +304,57 @@
   <Object type="0xff43" id="Orb of Speed">
     <Class>Character</Class>
     <Texture>
-      <File>d2LofiObjEmbed</File>
-      <Index>0x4B2</Index>
+      <File>heroicOrbs16x16</File>
+      <Index>07</Index>
     </Texture>
-    <HitSound>monster/ghosts_hit</HitSound>
-    <DeathSound>monster/ghosts_death</DeathSound>
-    <Size>60</Size>
+    <Animation prob="1" period="0" id="active">
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>08</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>09</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>10</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>11</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>12</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>heroicOrbs16x16</File>
+          <Index>13</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="inactive">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="active">
+        <StyleStep id="active">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+    <Size>15</Size>
+    <NoCollisionWhenMovement />
   </Object>
   <Object type="0xf43" id="Craig Heroic">
     <DisplayId>Craig the Intern</DisplayId>
@@ -207,12 +477,12 @@
       <Speed>0</Speed>
       <LifetimeMS>100</LifetimeMS>
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="21" dustMax="48" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="0.6" dustMin="34" dustMax="48" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="30" />
     <KillStat stat="UndeadKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD,HPSCALEONENTRY,AMULET_ADEPT</Labels>
   </Object>
   <Object type="0x4860" id="Heroic Lair Skeleton">
     <Group>Heroic Lair Skeletons</Group>
@@ -245,6 +515,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4861" id="Heroic Lair Skeleton Swordsman">
     <Group>Heroic Lair Skeletons</Group>
@@ -277,6 +548,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4862" id="Heroic Lair Skeleton Veteran">
     <Group>Heroic Lair Skeletons</Group>
@@ -310,6 +582,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4863" id="Heroic Lair Skeleton Mage">
     <Group>Heroic Lair Skeletons</Group>
@@ -342,6 +615,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4864" id="Heroic Lair Skeleton King">
     <Group>Heroic Lair Skeletons</Group>
@@ -406,6 +680,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4866" id="Heroic Lair Mummy King">
     <Group>Heroic Lair Mummies</Group>
@@ -438,6 +713,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4867" id="Heroic Lair Mummy Pharaoh">
     <Group>Heroic Lair Mummies</Group>
@@ -584,6 +860,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x486b" id="Heroic Lair Medium Black Slime">
     <Enemy />
@@ -615,6 +892,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x486c" id="Heroic Lair Little Black Slime">
     <Enemy />
@@ -646,6 +924,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x486d" id="Heroic Lair Big Brown Slime">
     <Group>Heroic Lair Slimes</Group>
@@ -678,6 +957,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x486e" id="Heroic Lair Little Brown Slime">
     <Enemy />
@@ -708,6 +988,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x486f" id="Heroic Lair Brown Bat">
     <Group>Heroic Lair Bats</Group>
@@ -741,6 +1022,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4870" id="Heroic Lair Ghost Bat">
     <Group>Heroic Lair Bats</Group>
@@ -774,6 +1056,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4871" id="Heroic Lair Burst Trap">
     <Group>Heroic Lair Traps</Group>
@@ -859,6 +1142,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4874" id="Heroic Lair Vampire">
     <Group>Heroic Lair Vampires</Group>
@@ -899,6 +1183,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4875" id="Heroic Lair Vampire King">
     <Group>Heroic Lair Vampires</Group>
@@ -972,6 +1257,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4877" id="Heroic Lair Blue Spectre">
     <Group>Heroic Lair Spectres</Group>
@@ -1004,6 +1290,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4878" id="Heroic Lair White Spectre">
     <Group>Heroic Lair Spectres</Group>
@@ -1036,6 +1323,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4879" id="Heroic Lair Ghost Archer">
     <Group>Heroic Lair Ghosts</Group>
@@ -1068,6 +1356,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x487a" id="Heroic Lair Ghost Warrior">
     <Group>Heroic Lair Ghosts</Group>
@@ -1099,6 +1388,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x487b" id="Heroic Lair Ghost Mage">
     <Group>Heroic Lair Ghosts</Group>
@@ -1130,6 +1420,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x487c" id="Heroic Lair Ghost Rogue">
     <Group>Heroic Lair Ghosts</Group>
@@ -1163,6 +1454,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x487d" id="Heroic Lair Ghost Paladin">
     <Group>Heroic Lair Ghosts</Group>
@@ -1193,6 +1485,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x487e" id="Heroic Lair Ghost Knight">
     <Group>Heroic Lair Ghosts</Group>
@@ -1225,6 +1518,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x487f" id="Heroic Ghost Warrior of Septavius">
     <Group>Heroic Lair Ghosts</Group>
@@ -1257,6 +1551,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4880" id="Heroic Ghost Mage of Septavius">
     <Group>Heroic Lair Ghosts</Group>
@@ -1288,6 +1583,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x4881" id="Heroic Ghost Rogue of Septavius">
     <Group>Heroic Lair Ghosts</Group>
@@ -1320,5 +1616,6 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
 </Objects>

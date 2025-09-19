@@ -357,6 +357,8 @@
     <Level>20</Level>
     <MaxHitPoints>110000</MaxHitPoints>
     <BXP>926</BXP>
+    <Color>0xff9800</Color>
+    <MinimapIcon piece="Boss" />
     <Defense>0</Defense>
     <ParalyzeImmune />
     <StasisImmune />
@@ -429,14 +431,14 @@
       <Damage>150</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="2.5">Confused</ConditionEffect>
+      <ConditionEffect duration="2.5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="4">
       <ObjectId>BB Egg Cannon 1</ObjectId>
       <Damage>150</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2200</LifetimeMS>
-      <ConditionEffect duration="2.5">Confused</ConditionEffect>
+      <ConditionEffect duration="2.5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="5">
       <ObjectId>BB Bunny Blaster</ObjectId>
@@ -450,7 +452,7 @@
       <Damage>150</Damage>
       <Speed>60</Speed>
       <LifetimeMS>500</LifetimeMS>
-      <ConditionEffect duration="2.5">Confused</ConditionEffect>
+      <ConditionEffect duration="2.5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="11">
       <ObjectId>BB Egg Cannon 1</ObjectId>
@@ -565,7 +567,6 @@
     <DazedImmune />
     <NoCollisionWhenMovement />
     <AlwaysPositiveHealth />
-    <StasisImmune />
     <Projectile id="0">
       <ObjectId>BellaPetal New</ObjectId>
       <Speed>80</Speed>
@@ -599,17 +600,10 @@
     </Texture>
     <HitSound>monster/orcs_hit</HitSound>
     <DeathSound>monster/orcs_death</DeathSound>
-    <MaxHitPoints>5000</MaxHitPoints>
     <Size>100</Size>
-    <Defense>20</Defense>
+    <Invincible />
     <Exp>0</Exp>
-    <ParalyzeImmune />
-    <StasisImmune />
-    <StunImmune />
-    <SlowImmune />
-    <DazedImmune />
     <NoCollisionWhenMovement />
-    <StasisImmune />
     <Projectile id="0">
       <ObjectId>BellaPetal New</ObjectId>
       <Speed>80</Speed>
@@ -629,7 +623,6 @@
       <Size>160</Size>
       <MultiHit />
     </Projectile>
-    <Invincible />
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
   </Object>
@@ -658,12 +651,8 @@
     <HitSound>monster/orcs_hit</HitSound>
     <DeathSound>monster/orcs_death</DeathSound>
     <Size>100</Size>
+    <Invincible />
     <NoCollisionWhenMovement />
-    <ParalyzeImmune />
-    <StasisImmune />
-    <StunImmune />
-    <SlowImmune />
-    <DazedImmune />
     <Projectile id="1">
       <ObjectId>BB Bunny Blaster</ObjectId>
       <Speed>30</Speed>
@@ -675,7 +664,6 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
-    <Invincible />
   </Object>
   <Object type="0x3998" id="Biff Object Help Extra">
     <DisplayId>Biff Egg</DisplayId>
@@ -702,12 +690,8 @@
     <HitSound>monster/orcs_hit</HitSound>
     <DeathSound>monster/orcs_death</DeathSound>
     <Size>100</Size>
+    <Invincible />
     <NoCollisionWhenMovement />
-    <ParalyzeImmune />
-    <StasisImmune />
-    <StunImmune />
-    <SlowImmune />
-    <DazedImmune />
     <Projectile id="1">
       <ObjectId>BB Bunny Blaster</ObjectId>
       <Speed>30</Speed>
@@ -719,7 +703,6 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
-    <Invincible />
   </Object>
   <Object type="0x8a0" id="BB Bunny Girl W">
     <Class>Character</Class>
@@ -950,7 +933,7 @@
       <Damage>150</Damage>
       <Speed>50</Speed>
       <LifetimeMS>2800</LifetimeMS>
-      <ConditionEffect duration="2.5">Confused</ConditionEffect>
+      <ConditionEffect duration="2.5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Alien Blaster</ObjectId>
@@ -1011,14 +994,14 @@
       <Damage>150</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2000</LifetimeMS>
-      <ConditionEffect duration="2.5">Confused</ConditionEffect>
+      <ConditionEffect duration="2.5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="4">
       <ObjectId>Alien Cannon 1</ObjectId>
       <Damage>150</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2200</LifetimeMS>
-      <ConditionEffect duration="2.5">Confused</ConditionEffect>
+      <ConditionEffect duration="2.5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="5">
       <ObjectId>Alien Blaster</ObjectId>
@@ -1032,7 +1015,7 @@
       <Damage>150</Damage>
       <Speed>60</Speed>
       <LifetimeMS>500</LifetimeMS>
-      <ConditionEffect duration="2.5">Confused</ConditionEffect>
+      <ConditionEffect duration="2.5">Unstable</ConditionEffect>
     </Projectile>
     <Projectile id="11">
       <ObjectId>Alien Cannon 1</ObjectId>
@@ -1147,7 +1130,6 @@
     <DazedImmune />
     <NoCollisionWhenMovement />
     <AlwaysPositiveHealth />
-    <StasisImmune />
     <Projectile id="0">
       <ObjectId>BellaPetal New</ObjectId>
       <Speed>80</Speed>
@@ -1181,17 +1163,10 @@
     </Texture>
     <HitSound>monster/orcs_hit</HitSound>
     <DeathSound>monster/orcs_death</DeathSound>
-    <MaxHitPoints>5000</MaxHitPoints>
     <Size>100</Size>
-    <Defense>20</Defense>
+    <Invincible />
     <Exp>0</Exp>
-    <ParalyzeImmune />
-    <StasisImmune />
-    <StunImmune />
-    <SlowImmune />
-    <DazedImmune />
     <NoCollisionWhenMovement />
-    <StasisImmune />
     <Projectile id="0">
       <ObjectId>BellaPetal New</ObjectId>
       <Speed>80</Speed>
@@ -1211,7 +1186,6 @@
       <Size>160</Size>
       <MultiHit />
     </Projectile>
-    <Invincible />
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
   </Object>
@@ -1240,12 +1214,8 @@
     <HitSound>monster/orcs_hit</HitSound>
     <DeathSound>monster/orcs_death</DeathSound>
     <Size>100</Size>
+    <Invincible />
     <NoCollisionWhenMovement />
-    <ParalyzeImmune />
-    <StasisImmune />
-    <StunImmune />
-    <SlowImmune />
-    <DazedImmune />
     <Projectile id="1">
       <ObjectId>Alien Blaster</ObjectId>
       <Speed>30</Speed>
@@ -1257,7 +1227,6 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
-    <Invincible />
   </Object>
   <Object type="0x7248" id="Alien Biff Object Help Extra">
     <DisplayId>Alien Biff Egg</DisplayId>
@@ -1284,12 +1253,8 @@
     <HitSound>monster/orcs_hit</HitSound>
     <DeathSound>monster/orcs_death</DeathSound>
     <Size>100</Size>
+    <Invincible />
     <NoCollisionWhenMovement />
-    <ParalyzeImmune />
-    <StasisImmune />
-    <StunImmune />
-    <SlowImmune />
-    <DazedImmune />
     <Projectile id="1">
       <ObjectId>Alien Blaster</ObjectId>
       <Speed>30</Speed>
@@ -1301,7 +1266,6 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,STASISIMMUNE,NATURE</Labels>
-    <Invincible />
   </Object>
   <Object type="0x7135" id="Alien Biff Old">
     <DisplayId>Alien Biff</DisplayId>

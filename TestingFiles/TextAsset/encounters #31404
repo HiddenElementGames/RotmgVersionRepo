@@ -200,7 +200,7 @@
     <StunImmune />
     <ParalyzeImmune />
     <DazedImmune />
-    <Encounter />
+    <Encounter oldRealmOnly="1" />
     <PerRealmMax>1</PerRealmMax>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
@@ -232,6 +232,128 @@
         <Index>10</Index>
       </AnimatedTexture>
     </AltTexture>
+    <Animation prob="1" period="0" id="Destroy">
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x120</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x121</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x122</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x123</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x124</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x125</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x126</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x127</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x128</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x129</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x12a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x12b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x12c</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x12d</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x12e</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x12f</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x130</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x131</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x132</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects32x32</File>
+          <Index>0x133</Index>
+        </Texture>
+      </Frame>
+    </Animation>
     <Projectile id="0">
       <ObjectId>Fire Spin</ObjectId>
       <Damage>150</Damage>
@@ -2393,7 +2515,7 @@
     <Quest />
     <HealthBarBoss />
     <God />
-    <Encounter />
+    <Encounter oldRealmOnly="1" />
     <StasisImmune />
     <TrackLoot />
     <Level>20</Level>
@@ -2566,7 +2688,7 @@
     <Hero />
     <Quest />
     <HealthBarBoss />
-    <Encounter />
+    <Encounter oldRealmOnly="1" />
     <TrackLoot />
     <Level>20</Level>
     <Exp>40000</Exp>
@@ -2665,7 +2787,7 @@
     <Quest />
     <HealthBarBoss />
     <God />
-    <Encounter />
+    <Encounter oldRealmOnly="1" />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -2827,7 +2949,7 @@
     <Quest />
     <HealthBarBoss />
     <God />
-    <Encounter />
+    <Encounter oldRealmOnly="1" />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -3164,7 +3286,7 @@
     <Hero />
     <Quest />
     <God />
-    <Encounter />
+    <Encounter oldRealmOnly="1" />
     <Level>20</Level>
     <Exp>15000</Exp>
     <Invincible />
@@ -3275,7 +3397,7 @@
     <Quest />
     <HealthBarBoss />
     <God />
-    <Encounter />
+    <Encounter oldRealmOnly="1" />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -3673,10 +3795,10 @@
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>15</Defense>
     <Terrain>HighForest</Terrain>
-    <SpawnProb>0.008</SpawnProb>
+    <SpawnProb>0.08</SpawnProb>
     <Exp>300</Exp>
     <BXP>1425</BXP>
-    <PerRealmMax>1</PerRealmMax>
+    <PerRealmMax>3</PerRealmMax>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="EncounterKills" />
     <Labels>ENEMY,ENCOUNTER</Labels>
@@ -3910,7 +4032,7 @@
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
     <PerRealmMax>1</PerRealmMax>
-    <Encounter />
+    <Encounter oldRealmOnly="1" />
     <TrackLoot />
     <Level>20</Level>
     <Projectile id="0">
@@ -4473,7 +4595,7 @@
     <Size>0</Size>
     <ShadowSize>0</ShadowSize>
     <Enemy />
-    <Encounter />
+    <Encounter oldRealmOnly="1" />
     <PerRealmMax>1</PerRealmMax>
     <Hero />
     <Invincible />
@@ -7086,7 +7208,7 @@
       <Index>0</Index>
     </Texture>
     <Enemy />
-    <Encounter />
+    <Encounter oldRealmOnly="1" />
     <PerRealmMax>2</PerRealmMax>
     <Hero />
     <Invincible />
@@ -7363,86 +7485,5 @@
       <Index>25</Index>
     </Texture>
     <Size>0</Size>
-  </Object>
-  <Object type="0xc47a" id="Realm Encounter Location">
-    <Class>GameObject</Class>
-    <Texture>
-      <File>lofiEnvironment</File>
-      <Index>164</Index>
-    </Texture>
-    <Static />
-  </Object>
-  <Object type="0xc47b" id="Realm Setpiece Location">
-    <Class>GameObject</Class>
-    <Texture>
-      <File>lofiEnvironment</File>
-      <Index>163</Index>
-    </Texture>
-    <Static />
-  </Object>
-  <Object type="0xc101" id="Realm 1 Master">
-    <MasterObject />
-    <Class>MasterObject</Class>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <Size>0</Size>
-    <Labels>REALM,MASTER</Labels>
-  </Object>
-  <Object type="0xc102" id="Realm 1 Mountains Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <Terrain>MidPlains</Terrain>
-    <Size>1</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
-  </Object>
-  <Object type="0xc1e3" id="Low Beach Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <Terrain>MidPlains</Terrain>
-    <Size>1</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
-  </Object>
-  <Object type="0xc1e4" id="Low Forest Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <Terrain>MidPlains</Terrain>
-    <Size>1</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
-  </Object>
-  <Object type="0xc1e5" id="Undead Forest Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <Terrain>MidPlains</Terrain>
-    <Size>1</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
-  </Object>
-  <Object type="0xc1e6" id="Plains Beacon">
-    <Beacon />
-    <Class>Beacon</Class>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <Terrain>MidPlains</Terrain>
-    <Size>1</Size>
-    <Labels>MOUNTAINS,BEACON</Labels>
   </Object>
 </Objects>

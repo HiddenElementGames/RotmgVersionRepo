@@ -161,11 +161,11 @@
       <FaceDir />
       <MultiHit />
     </Projectile>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="21" dustMax="48" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="45" dustMax="55" seasonalBonus="0.15">greenDust</SoulboundDust>
     <HealthBarBoss radius="50" />
     <KillStat stat="GrotesqueKills" />
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,GROTESQUE,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,GROTESQUE,QUEST,STASISIMMUNE,TRACKLOOT,HPSCALEONENTRY,AMULET_ADEPT</Labels>
   </Object>
   <Object type="0x20a2" id="Heroic Malphas Flamer">
     <Group>Flamers</Group>
@@ -287,6 +287,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x20a6" id="Heroic Demon of the Abyss">
     <Group>Heroic Abyss Demons</Group>
@@ -400,6 +401,7 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
   </Object>
   <Object type="0x20aa" id="Heroic Brute Warrior of the Abyss">
     <Group>Heroic Abyss Brutes</Group>

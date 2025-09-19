@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GroundTypes>
+  <Ground id="Snowball Rolling Track" type="0x1A2">
+    <SameTypeEdgeMode />
+    <RandomTexture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>1</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>2</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>3</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>4</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>5</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>6</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>7</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>8</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>14</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>6</Index>
+      </Texture>
+    </Corner>
+  </Ground>
+  <Ground id="Snowball Ending it 2" type="0x1AB">
+    <SameTypeEdgeMode />
+    <RandomTexture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>0</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>1</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>2</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>3</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>4</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>5</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>6</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>7</Index>
+      </Texture>
+    </RandomTexture>
+    <Edge>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>8</Index>
+      </Texture>
+    </Edge>
+    <InnerCorner>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>14</Index>
+      </Texture>
+    </InnerCorner>
+    <Corner>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>6</Index>
+      </Texture>
+    </Corner>
+  </Ground>
+  <Ground id="Snowball Rolling OOB" type="0x1A3">
+    <RandomTexture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>16</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>17</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>18</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>19</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>20</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>21</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>22</Index>
+      </Texture>
+      <Texture>
+        <File>snowballRollingObjects8x8</File>
+        <Index>23</Index>
+      </Texture>
+    </RandomTexture>
+    <NoWalk />
+  </Ground>
+  <Ground type="0x1A4" id="Snowball Boost Up">
+    <Texture>
+      <File>snowballRollingObjects8x8</File>
+      <Index>24</Index>
+    </Texture>
+    <Animate dy="2.5">Flow</Animate>
+    <Push />
+  </Ground>
+  <Ground type="0x1A5" id="Snowball Boost Right">
+    <Texture>
+      <File>snowballRollingObjects8x8</File>
+      <Index>28</Index>
+    </Texture>
+    <Animate dx="-2.5">Flow</Animate>
+    <Push />
+  </Ground>
+  <Ground type="0x1A6" id="Snowball Boost Down">
+    <Texture>
+      <File>snowballRollingObjects8x8</File>
+      <Index>32</Index>
+    </Texture>
+    <Animate dy="-2.5">Flow</Animate>
+    <Push />
+  </Ground>
+  <Ground type="0x1A7" id="Snowball Boost Left">
+    <Texture>
+      <File>snowballRollingObjects8x8</File>
+      <Index>38</Index>
+    </Texture>
+    <Animate dx="2.5">Flow</Animate>
+    <Push />
+  </Ground>
+  <Ground type="0x1A8" id="Snowball Finish Left">
+    <Texture>
+      <File>snowballRollingObjects8x8</File>
+      <Index>41</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x1A9" id="Snowball Finish Center">
+    <Texture>
+      <File>snowballRollingObjects8x8</File>
+      <Index>40</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0x1AA" id="Snowball Finish Right">
+    <Texture>
+      <File>snowballRollingObjects8x8</File>
+      <Index>42</Index>
+    </Texture>
+  </Ground>
+</GroundTypes>

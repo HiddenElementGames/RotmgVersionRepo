@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
-  <Object type="0xc0bc" id="Kingdra">
+  <Object type="0xc0bc" id="Reef Seahorse">
+    <DisplayId>Flying Seahorse</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -10,13 +11,11 @@
     <HitSound>monster/elves_death</HitSound>
     <DeathSound>monster/night_elves_death</DeathSound>
     <MaxHitPoints>1000</MaxHitPoints>
-    <Exp>200</Exp>
-    <BXP>1000</BXP>
     <Flying />
     <Z>0.26</Z>
     <ShadowSize>80</ShadowSize>
     <Projectile id="0">
-      <ObjectId>LOD Blue Blast</ObjectId>
+      <ObjectId>Reef Seahorse 1</ObjectId>
       <Speed>75</Speed>
       <Damage>90</Damage>
       <Size>100</Size>
@@ -24,7 +23,7 @@
       <ConditionEffect duration="1.6">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Blue Missile</ObjectId>
+      <ObjectId>Reef Seahorse 2</ObjectId>
       <Speed>70</Speed>
       <Damage>95</Damage>
       <Size>110</Size>
@@ -37,9 +36,12 @@
     <SpawnProb>1.0</SpawnProb>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="CoralReefs">10</RealmScore>
+    <KillStat stat="Coral Reefs" />
+    <Labels>ENEMY,MINION,CORALREEFS,GOD,MINION_MID,ADEPT</Labels>
   </Object>
-  <Object type="0xc0bd" id="Enchanted Turtle">
+  <Object type="0xc0bd" id="Reef Turtle">
+    <DisplayId>Enchanted Turtle</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -49,36 +51,32 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Projectile id="0">
-      <ObjectId>Spinning Bubble</ObjectId>
+      <ObjectId>Reef Turtle 1</ObjectId>
       <Speed>75</Speed>
       <Damage>90</Damage>
       <Size>100</Size>
       <LifetimeMS>1250</LifetimeMS>
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Spinning Bubble</ObjectId>
+      <ObjectId>Reef Turtle 1</ObjectId>
       <Speed>70</Speed>
       <Damage>85</Damage>
       <Size>90</Size>
       <LifetimeMS>1250</LifetimeMS>
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="2">
-      <ObjectId>Spinning Bubble</ObjectId>
+      <ObjectId>Reef Turtle 1</ObjectId>
       <Speed>65</Speed>
       <Damage>80</Damage>
       <Size>80</Size>
       <LifetimeMS>1250</LifetimeMS>
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
     <Projectile id="3">
-      <ObjectId>Spinning Bubble</ObjectId>
+      <ObjectId>Reef Turtle 1</ObjectId>
       <Speed>60</Speed>
       <Damage>75</Damage>
       <Size>70</Size>
       <LifetimeMS>1250</LifetimeMS>
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
     <Size>100</Size>
     <MaxHitPoints>1200</MaxHitPoints>
@@ -88,9 +86,12 @@
     <SpawnProb>1.0</SpawnProb>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="CoralReefs">10</RealmScore>
+    <KillStat stat="Coral Reefs" />
+    <Labels>ENEMY,MINION,CORALREEFS,GOD,MINION_MID,ADEPT</Labels>
   </Object>
-  <Object type="0xc0be" id="Smelly Octopus">
+  <Object type="0xc0be" id="Reef Octopus">
+    <DisplayId>Smelly Octopus</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -108,17 +109,20 @@
     <Exp>200</Exp>
     <BXP>1000</BXP>
     <Projectile id="0">
-      <ObjectId>Ink Blot</ObjectId>
+      <ObjectId>Reef Octopus 1</ObjectId>
       <Speed>25</Speed>
       <Damage>45</Damage>
       <Size>100</Size>
       <LifetimeMS>3200</LifetimeMS>
       <MultiHit />
-      <ConditionEffect duration="1">Weak</ConditionEffect>
+      <ConditionEffect duration="0.6">Slowed</ConditionEffect>
     </Projectile>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="CoralReefs">10</RealmScore>
+    <KillStat stat="Coral Reefs" />
+    <Labels>ENEMY,MINION,CORALREEFS,GOD,MINION_MID,ADEPT</Labels>
   </Object>
-  <Object type="0xc0bf" id="Narwhal">
+  <Object type="0xc0bf" id="Reef Narwhal">
+    <DisplayId>Silvery Narwhal</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -136,16 +140,18 @@
     <Exp>200</Exp>
     <BXP>1000</BXP>
     <Projectile id="0">
-      <ObjectId>Bubble</ObjectId>
+      <ObjectId>Reef Narwhal 1</ObjectId>
       <Speed>50</Speed>
       <Damage>85</Damage>
       <LifetimeMS>1500</LifetimeMS>
       <Size>115</Size>
-      <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="CoralReefs">10</RealmScore>
+    <KillStat stat="Coral Reefs" />
+    <Labels>ENEMY,MINION,CORALREEFS,GOD,MINION_MID,ADEPT</Labels>
   </Object>
-  <Object type="0xc0c0" id="Obese Walrus">
+  <Object type="0xc0c0" id="Reef Walrus">
+    <DisplayId>Rampant Walrus</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -162,17 +168,20 @@
     <SpawnProb>1.0</SpawnProb>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="CoralReefs">10</RealmScore>
     <Projectile id="0">
-      <ObjectId>Yeti Snowball</ObjectId>
+      <ObjectId>Reef Walrus 1</ObjectId>
       <Speed>70</Speed>
       <Damage>80</Damage>
       <LifetimeMS>2000</LifetimeMS>
       <Size>100</Size>
       <MultiHit />
     </Projectile>
+    <KillStat stat="Coral Reefs" />
+    <Labels>ENEMY,MINION,CORALREEFS,GOD,MINION_MID,ADEPT</Labels>
   </Object>
-  <Object type="0x5580" id="New Leviathan">
+  <Object type="0x5580" id="Reef Leviathan">
+    <DisplayId>Leviathan</DisplayId>
     <Group>Gods</Group>
     <Enemy />
     <Exp>600</Exp>
@@ -191,22 +200,22 @@
     <Terrain>CoralReefs</Terrain>
     <SpawnProb>0.55</SpawnProb>
     <God />
-    <RealmScore>30</RealmScore>
+    <RealmScore biome="CoralReefs">30</RealmScore>
     <Projectile id="0">
-      <ObjectId>Leviathan Spray</ObjectId>
+      <ObjectId>Reef Leviathan 1</ObjectId>
       <Damage>60</Damage>
       <Speed>67</Speed>
       <LifetimeMS>1700</LifetimeMS>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Leviathan Bolt</ObjectId>
+      <ObjectId>Reef Leviathan 2</ObjectId>
       <Damage>90</Damage>
       <Speed>85</Speed>
       <LifetimeMS>1800</LifetimeMS>
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID,HALLOWEEN</Labels>
+    <Labels>ENEMY,MINION,CORALREEFS,GOD,MINION_MID,ADEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -214,8 +223,9 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <KillStat stat="Coral Reefs" />
   </Object>
-  <Object type="0xc2ed" id="Sunken Soul">
+  <Object type="0xc2ed" id="Shipwreck Ghost">
     <DisplayId>Sunken Soul</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -227,7 +237,7 @@
     <DeathSound>monster/beholder_death</DeathSound>
     <Size>120</Size>
     <Z>0.3</Z>
-    <MaxHitPoints>800</MaxHitPoints>
+    <MaxHitPoints>600</MaxHitPoints>
     <Defense>8</Defense>
     <Terrain>ShipWreck</Terrain>
     <Group>Shipwreck Cove Mobs</Group>
@@ -242,17 +252,18 @@
     <God />
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <RealmScore biome="ShipWreck">10</RealmScore>
+    <Labels>ENEMY,MINION,SHIPWRECK,GOD,MINION_MID,ADEPT</Labels>
     <Projectile id="0">
-      <ObjectId>Ghostly Arrow</ObjectId>
+      <ObjectId>Shipwreck Ghost 1</ObjectId>
       <Damage>60</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2000</LifetimeMS>
       <Size>90</Size>
     </Projectile>
+    <KillStat stat="Shipwreck Cove" />
   </Object>
-  <Object type="0xc2ee" id="Undead Pirate">
+  <Object type="0xc2ee" id="Shipwreck Pirate">
     <DisplayId>Undead Pirate</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -263,7 +274,7 @@
     <HitSound>monster/pirates_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
     <Size>120</Size>
-    <MaxHitPoints>1000</MaxHitPoints>
+    <MaxHitPoints>800</MaxHitPoints>
     <Defense>14</Defense>
     <Terrain>ShipWreck</Terrain>
     <Group>Shipwreck Cove Mobs</Group>
@@ -277,16 +288,17 @@
     <God />
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <RealmScore biome="ShipWreck">10</RealmScore>
+    <Labels>ENEMY,MINION,SHIPWRECK,GOD,MINION_MID,ADEPT</Labels>
     <Projectile>
-      <ObjectId>Ghost Sr Slash</ObjectId>
+      <ObjectId>Shipwreck Pirate 1</ObjectId>
       <Damage>100</Damage>
       <Speed>75</Speed>
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
+    <KillStat stat="Shipwreck Cove" />
   </Object>
-  <Object type="0xc2ef" id="Sea Hag">
+  <Object type="0xc2ef" id="Shipwreck Hag">
     <DisplayId>Sea Hag</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -297,7 +309,7 @@
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
     <Size>150</Size>
-    <MaxHitPoints>2500</MaxHitPoints>
+    <MaxHitPoints>2000</MaxHitPoints>
     <Defense>14</Defense>
     <Terrain>ShipWreck</Terrain>
     <Group>Shipwreck Cove Mobs</Group>
@@ -306,24 +318,25 @@
     <God />
     <Exp>600</Exp>
     <BXP>3000</BXP>
-    <RealmScore>30</RealmScore>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_STRONG</Labels>
+    <RealmScore biome="ShipWreck">30</RealmScore>
+    <Labels>ENEMY,MINION,SHIPWRECK,GOD,MINION_MID,ADEPT</Labels>
     <Projectile id="0">
-      <ObjectId>Troll 3 Attack 1</ObjectId>
+      <ObjectId>Shipwreck Hag 1</ObjectId>
       <Damage>95</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2500</LifetimeMS>
       <Size>120</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Nature Wave</ObjectId>
+      <ObjectId>Shipwreck Hag 2</ObjectId>
       <Damage>115</Damage>
       <Speed>50</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <Size>140</Size>
     </Projectile>
+    <KillStat stat="Shipwreck Cove" />
   </Object>
-  <Object type="0xc2f0" id="Sea Hag Whirlpool">
+  <Object type="0xc2f0" id="Shipwreck Hag Whirlpool">
     <DisplayId>Whirlpool</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -339,17 +352,18 @@
     <Terrain>ShipWreck</Terrain>
     <Group>Shipwreck Cove Mobs</Group>
     <Flying />
-    <Labels>ENEMY,MINION</Labels>
+    <Labels>ENEMY,MINION,SHIPWRECK,GOD,MINION_MID,ADEPT</Labels>
     <Projectile>
-      <ObjectId>Water Shot</ObjectId>
+      <ObjectId>Shipwreck Hag Whirlpool 1</ObjectId>
       <Damage>75</Damage>
       <Speed>50</Speed>
       <LifetimeMS>2000</LifetimeMS>
       <Size>100</Size>
       <ConditionEffect duration="1.6">Slowed</ConditionEffect>
     </Projectile>
+    <KillStat stat="Shipwreck Cove" />
   </Object>
-  <Object type="0xc2f1" id="Drowned Sailor">
+  <Object type="0xc2f1" id="Shipwreck Sailor">
     <DisplayId>Drowned Sailor</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -360,7 +374,7 @@
     <HitSound>monster/pirates_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
     <Size>120</Size>
-    <MaxHitPoints>1200</MaxHitPoints>
+    <MaxHitPoints>1000</MaxHitPoints>
     <Defense>18</Defense>
     <Terrain>ShipWreck</Terrain>
     <Group>Shipwreck Cove Mobs</Group>
@@ -375,17 +389,18 @@
     <God />
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <RealmScore biome="ShipWreck">10</RealmScore>
+    <Labels>ENEMY,MINION,SHIPWRECK,GOD,MINION_MID,ADEPT</Labels>
     <Projectile>
-      <ObjectId>UDL White Slash</ObjectId>
+      <ObjectId>Shipwreck Sailor 1</ObjectId>
       <Damage>60</Damage>
       <Speed>75</Speed>
       <LifetimeMS>2000</LifetimeMS>
       <Size>110</Size>
     </Projectile>
+    <KillStat stat="Shipwreck Cove" />
   </Object>
-  <Object type="0xc2f2" id="Ocean Spirit">
+  <Object type="0xc2f2" id="Shipwreck Elemental">
     <DisplayId>Ocean Spirit</DisplayId>
     <Enemy />
     <Class>Character</Class>
@@ -396,19 +411,19 @@
     <HitSound>monster/cubes_death</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>2500</MaxHitPoints>
+    <MaxHitPoints>2000</MaxHitPoints>
     <Defense>16</Defense>
     <Terrain>ShipWreck</Terrain>
     <Group>Shipwreck Cove Mobs</Group>
-    <SpawnProb>0.5</SpawnProb>
+    <SpawnProb>0.6</SpawnProb>
     <Flying />
     <God />
     <Exp>600</Exp>
     <BXP>3000</BXP>
-    <RealmScore>30</RealmScore>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <RealmScore biome="ShipWreck">30</RealmScore>
+    <Labels>ENEMY,MINION,SHIPWRECK,GOD,MINION_MID,ADEPT</Labels>
     <Projectile id="0">
-      <ObjectId>Cyan Sprite Magic</ObjectId>
+      <ObjectId>Shipwreck Elemental 1</ObjectId>
       <Damage>100</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2500</LifetimeMS>
@@ -417,16 +432,17 @@
       <FaceDir />
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Cyan Sprite Twirl</ObjectId>
+      <ObjectId>Shipwreck Elemental 2</ObjectId>
       <Damage>0</Damage>
       <Speed>75</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <ConditionEffect duration="4">Silenced</ConditionEffect>
       <MultiHit />
     </Projectile>
+    <KillStat stat="Shipwreck Cove" />
   </Object>
-  <Object type="0xd105" id="Haunted Treasure Chest">
-    <DisplayId>Haunted Treasure Chest</DisplayId>
+  <Object type="0xCCD0" id="Shipwreck Haunted Chest">
+    <DisplayId>Haunted Treasure</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <Texture>
@@ -545,7 +561,7 @@
         </Texture>
       </Frame>
     </Animation>
-    <Animation period="0.6" prob="1" id="awakenLoop">
+    <Animation period="0" prob="1" id="awakenLoop">
       <Frame time="0.2">
         <Texture>
           <File>shipwreckCoveObjects16x16</File>
@@ -579,7 +595,7 @@
         <StyleStep id="snapAnim" loop="1" period="0">SetAnimation</StyleStep>
       </Style>
       <Style id="AwakenLoop">
-        <StyleStep id="awakenLoop" loop="1">SetAnimation</StyleStep>
+        <StyleStep id="awakenLoop">SetAnimation</StyleStep>
       </Style>
     </Presentation>
     <Sound id="0">monster/wooden_walls_death</Sound>
@@ -595,15 +611,16 @@
     <God />
     <Exp>600</Exp>
     <BXP>3000</BXP>
-    <RealmScore>30</RealmScore>
-    <Labels>ENEMY,MINION,CHEST,MINION_STRONG</Labels>
+    <RealmScore biome="ShipWreck">30</RealmScore>
+    <Labels>ENEMY,MINION,SHIPWRECK,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="StructureKills" />
     <Projectile id="0">
-      <ObjectId>Ghost Boss Slash</ObjectId>
+      <ObjectId>Shipwreck Haunted Chest 1</ObjectId>
       <Damage>120</Damage>
       <Speed>50</Speed>
       <LifetimeMS>3000</LifetimeMS>
     </Projectile>
+    <KillStat stat="Shipwreck Cove" />
   </Object>
   <Object type="0xc1db" id="Dead Church Necromancer">
     <DisplayId>Skeleton Worshipper</DisplayId>
@@ -616,17 +633,17 @@
     <HitSound>monster/skeletons_hit</HitSound>
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>150</Size>
-    <MaxHitPoints>1750</MaxHitPoints>
+    <MaxHitPoints>1500</MaxHitPoints>
     <Defense>20</Defense>
     <Terrain>DeadChurch</Terrain>
     <SpawnProb>1.0</SpawnProb>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="DeadChurch">10</RealmScore>
     <Group>Dead Church Mobs</Group>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,DEADCHURCH,GOD,MINION_MID,ADEPT</Labels>
     <Projectile id="0">
-      <ObjectId>Gold Flail Ball</ObjectId>
+      <ObjectId>Dead Church Necromancer 3</ObjectId>
       <Speed>60</Speed>
       <Damage>65</Damage>
       <LifetimeMS>2500</LifetimeMS>
@@ -634,20 +651,21 @@
       <MultiHit />
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Steel Flail Chain</ObjectId>
+      <ObjectId>Dead Church Necromancer 1</ObjectId>
       <Speed>50</Speed>
       <Damage>55</Damage>
       <LifetimeMS>2500</LifetimeMS>
       <Size>105</Size>
     </Projectile>
     <Projectile id="2">
-      <ObjectId>Sharp Green Star</ObjectId>
+      <ObjectId>Dead Church Necromancer 4</ObjectId>
       <Speed>60</Speed>
       <Damage>0</Damage>
       <Size>125</Size>
       <LifetimeMS>2500</LifetimeMS>
       <ConditionEffect duration="4">Slowed</ConditionEffect>
     </Projectile>
+    <KillStat stat="Dead Church" />
   </Object>
   <Object type="0xc107" id="Dead Church Skeleton">
     <DisplayId>Crusader Skeleton</DisplayId>
@@ -661,15 +679,15 @@
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>110</Size>
     <MaxHitPoints>150</MaxHitPoints>
-    <Defense>10</Defense>
+    <Defense>0</Defense>
     <Terrain>DeadChurch</Terrain>
     <Exp>20</Exp>
     <BXP>100</BXP>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="DeadChurch">1</RealmScore>
     <Group>Dead Church Mobs</Group>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,DEADCHURCH,GOD,MINION_MID,ADEPT</Labels>
     <Projectile id="0">
-      <ObjectId>UDL White Slash</ObjectId>
+      <ObjectId>Dead Church Skeleton 1</ObjectId>
       <Damage>65</Damage>
       <Speed>20</Speed>
       <LifetimeMS>3000</LifetimeMS>
@@ -677,6 +695,7 @@
       <AccelerationDelay>0</AccelerationDelay>
       <SpeedClamp>80</SpeedClamp>
     </Projectile>
+    <KillStat stat="Dead Church" />
   </Object>
   <Object type="0xc1dc" id="Dead Church Vampire">
     <DisplayId>Flying Vampire</DisplayId>
@@ -695,17 +714,18 @@
     <SpawnProb>0.8</SpawnProb>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="DeadChurch">10</RealmScore>
     <Group>Dead Church Mobs</Group>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,DEADCHURCH,GOD,MINION_MID,ADEPT</Labels>
     <Projectile id="0">
-      <ObjectId>Scythe Dagger Large</ObjectId>
+      <ObjectId>Dead Church Vampire 1</ObjectId>
       <Damage>90</Damage>
       <Speed>55</Speed>
       <LifetimeMS>2700</LifetimeMS>
       <Size>110</Size>
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
     </Projectile>
+    <KillStat stat="Dead Church" />
   </Object>
   <Object type="0xc1dd" id="Dead Church Bat">
     <DisplayId>Sickly Vampire Bat</DisplayId>
@@ -718,24 +738,25 @@
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
     <MaxHitPoints>100</MaxHitPoints>
-    <Defense>8</Defense>
+    <Defense>0</Defense>
     <Z>0.24</Z>
     <Flying />
     <Size>90</Size>
     <ShadowSize>90</ShadowSize>
     <Terrain>DeadChurch</Terrain>
     <Group>Dead Church Mobs</Group>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,DEADCHURCH,GOD,MINION_MID,ADEPT</Labels>
     <Exp>20</Exp>
     <BXP>100</BXP>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="DeadChurch">1</RealmScore>
     <Projectile id="0">
-      <ObjectId>UDL White Slash</ObjectId>
+      <ObjectId>Dead Church Bat 1</ObjectId>
       <Damage>65</Damage>
       <Speed>35</Speed>
       <Size>100</Size>
       <LifetimeMS>4250</LifetimeMS>
     </Projectile>
+    <KillStat stat="Dead Church" />
   </Object>
   <Object type="0xc106" id="Dead Church Cleric">
     <DisplayId>Zombie Cleric</DisplayId>
@@ -748,17 +769,17 @@
     <HitSound>monster/slimes_death</HitSound>
     <DeathSound>monster/flying_brain_death</DeathSound>
     <Size>150</Size>
-    <MaxHitPoints>1250</MaxHitPoints>
+    <MaxHitPoints>1000</MaxHitPoints>
     <Defense>12</Defense>
     <Terrain>DeadChurch</Terrain>
     <SpawnProb>0.8</SpawnProb>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="DeadChurch">10</RealmScore>
     <Group>Dead Church Mobs</Group>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,DEADCHURCH,GOD,MINION_MID,ADEPT</Labels>
     <Projectile id="0">
-      <ObjectId>Sharp Pink Star</ObjectId>
+      <ObjectId>Dead Church Cleric 1</ObjectId>
       <Damage>45</Damage>
       <Speed>40</Speed>
       <LifetimeMS>2100</LifetimeMS>
@@ -769,6 +790,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="1.8">Weak</ConditionEffect>
     </Projectile>
+    <KillStat stat="Dead Church" />
   </Object>
   <Object type="0xc1de" id="Dead Church Nun">
     <DisplayId>Ghastly Nun</DisplayId>
@@ -781,7 +803,7 @@
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>150</Size>
-    <MaxHitPoints>2000</MaxHitPoints>
+    <MaxHitPoints>1500</MaxHitPoints>
     <Defense>12</Defense>
     <Terrain>DeadChurch</Terrain>
     <SpawnProb>0.8</SpawnProb>
@@ -793,11 +815,11 @@
     </Spawn>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="DeadChurch">10</RealmScore>
     <Group>Dead Church Mobs</Group>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,DEADCHURCH,GOD,MINION_MID,ADEPT</Labels>
     <Projectile id="0">
-      <ObjectId>Headless Halberd</ObjectId>
+      <ObjectId>Dead Church Nun 1</ObjectId>
       <Damage>80</Damage>
       <Speed>10</Speed>
       <Size>110</Size>
@@ -808,7 +830,7 @@
       <PassesCover />
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Headless Harbinger</ObjectId>
+      <ObjectId>Dead Church Nun 2</ObjectId>
       <Damage>100</Damage>
       <Speed>20</Speed>
       <Size>120</Size>
@@ -818,6 +840,7 @@
       <SpeedClamp>100</SpeedClamp>
       <PassesCover />
     </Projectile>
+    <KillStat stat="Dead Church" />
   </Object>
   <Object type="0xc108" id="Dead Church Revenant">
     <DisplayId>Revenant</DisplayId>
@@ -836,18 +859,18 @@
     <SpawnProb>0.25</SpawnProb>
     <Exp>600</Exp>
     <BXP>3000</BXP>
-    <RealmScore>30</RealmScore>
+    <RealmScore biome="DeadChurch">30</RealmScore>
     <Group>Dead Church Mobs</Group>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,DEADCHURCH,GOD,MINION_MID,ADEPT</Labels>
     <Projectile id="0">
-      <ObjectId>Corruption Bolt</ObjectId>
+      <ObjectId>Dead Church Revenant 1</ObjectId>
       <Damage>100</Damage>
       <Speed>50</Speed>
       <LifetimeMS>3000</LifetimeMS>
       <Size>110</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Corruption Star</ObjectId>
+      <ObjectId>Dead Church Revenant 2</ObjectId>
       <Damage>48</Damage>
       <Speed>40</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -858,8 +881,10 @@
       <ArmorPiercing />
       <ConditionEffect duration="2.4">Curse</ConditionEffect>
     </Projectile>
+    <KillStat stat="Dead Church" />
   </Object>
-  <Object type="0xc1df" id="Court Jester">
+  <Object type="0xc1df" id="City Jester">
+    <DisplayId>Unsung Jester</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -876,24 +901,27 @@
     <SpawnProb>1.0</SpawnProb>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Abandoned">10</RealmScore>
     <Projectile id="1">
-      <ObjectId>Beer Shockwave</ObjectId>
+      <ObjectId>City Jester 1</ObjectId>
       <Speed>35</Speed>
       <Damage>50</Damage>
       <LifetimeMS>1300</LifetimeMS>
       <Size>150</Size>
     </Projectile>
     <Projectile id="2">
-      <ObjectId>Blue Magic Attack</ObjectId>
+      <ObjectId>City Jester 2</ObjectId>
       <Speed>80</Speed>
       <Damage>70</Damage>
       <LifetimeMS>1500</LifetimeMS>
       <Size>130</Size>
       <ConditionEffect duration="1.8">Unstable</ConditionEffect>
     </Projectile>
+    <KillStat stat="Abandoned City" />
+    <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
   </Object>
-  <Object type="0xc1e1" id="Royal Gladiator">
+  <Object type="0xc1e1" id="City Gladiator">
+    <DisplayId>Nameless Gladiator</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -910,9 +938,9 @@
     <SpawnProb>1.0</SpawnProb>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Abandoned">10</RealmScore>
     <Projectile id="0">
-      <ObjectId>Headless Horseman Blast</ObjectId>
+      <ObjectId>City Gladiator 1</ObjectId>
       <Damage>120</Damage>
       <Speed>80</Speed>
       <LifetimeMS>800</LifetimeMS>
@@ -920,15 +948,18 @@
       <ConditionEffect duration="3">Dazed</ConditionEffect>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Headless Horseman Shockwave</ObjectId>
+      <ObjectId>City Gladiator 2</ObjectId>
       <Damage>60</Damage>
       <Speed>50</Speed>
       <LifetimeMS>1100</LifetimeMS>
       <Size>120</Size>
       <ConditionEffect duration="3">Exposed</ConditionEffect>
     </Projectile>
+    <KillStat stat="Abandoned City" />
+    <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
   </Object>
-  <Object type="0xc1e2" id="Satyr">
+  <Object type="0xc1e2" id="City Satyr">
+    <DisplayId>Vagabond Satyr</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -945,17 +976,20 @@
     <SpawnProb>1.0</SpawnProb>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Abandoned">10</RealmScore>
     <Projectile id="0">
-      <ObjectId>Headless Harbinger</ObjectId>
+      <ObjectId>City Satyr 1</ObjectId>
       <Speed>80</Speed>
       <Damage>77</Damage>
       <LifetimeMS>600</LifetimeMS>
       <Size>110</Size>
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
+    <KillStat stat="Abandoned City" />
+    <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
   </Object>
-  <Object type="0x5581" id="New Medusa">
+  <Object type="0x5581" id="City Medusa">
+    <DisplayId>Medusa</DisplayId>
     <Enemy />
     <Exp>200</Exp>
     <Class>Character</Class>
@@ -969,20 +1003,20 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <BXP>1000</BXP>
     <Defense>18</Defense>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Abandoned">10</RealmScore>
     <Terrain>Abandoned</Terrain>
     <Group>Abandoned City Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
     <God />
     <Projectile id="0">
-      <ObjectId>Medusa Slash</ObjectId>
+      <ObjectId>City Medusa 1</ObjectId>
       <Damage>100</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -990,8 +1024,10 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <KillStat stat="Abandoned City" />
   </Object>
-  <Object type="0x5582" id="New Beholder">
+  <Object type="0x5582" id="City Beholder">
+    <DisplayId>Beholder</DisplayId>
     <Enemy />
     <Exp>200</Exp>
     <Class>Character</Class>
@@ -1005,14 +1041,14 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <BXP>1000</BXP>
     <Defense>12</Defense>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Abandoned">10</RealmScore>
     <Terrain>Abandoned</Terrain>
     <Group>Abandoned City Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
     <Flying />
     <God />
     <Projectile id="0">
-      <ObjectId>Beholder Gaze</ObjectId>
+      <ObjectId>City Beholder 1</ObjectId>
       <Damage>120</Damage>
       <Speed>50</Speed>
       <LifetimeMS>2700</LifetimeMS>
@@ -1027,7 +1063,7 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1035,8 +1071,10 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <KillStat stat="Abandoned City" />
   </Object>
-  <Object type="0x5583" id="New Flying Brain">
+  <Object type="0x5583" id="City Flying Brain">
+    <DisplayId>Flying Brain</DisplayId>
     <Enemy />
     <Exp>200</Exp>
     <Class>Character</Class>
@@ -1050,7 +1088,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <BXP>1000</BXP>
     <Defense>12</Defense>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Abandoned">10</RealmScore>
     <Terrain>Abandoned</Terrain>
     <Group>Abandoned City Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
@@ -1064,7 +1102,7 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1072,8 +1110,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Abandoned City" />
   </Object>
-  <Object type="0x5584" id="New Slime God">
+  <Object type="0x5584" id="City Slime God">
+    <DisplayId>Slime God</DisplayId>
     <Enemy />
     <Exp>200</Exp>
     <Class>Character</Class>
@@ -1090,16 +1131,16 @@
     <Terrain>Abandoned</Terrain>
     <Group>Abandoned City Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Abandoned">10</RealmScore>
     <God />
     <Projectile id="0">
-      <ObjectId>Slime God Sludge</ObjectId>
+      <ObjectId>City Slime God 1</ObjectId>
       <Damage>80</Damage>
       <Speed>100</Speed>
       <LifetimeMS>1100</LifetimeMS>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Sharp Green Star</ObjectId>
+      <ObjectId>City Slime God 2</ObjectId>
       <Damage>0</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -1107,7 +1148,7 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1115,8 +1156,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Abandoned City" />
   </Object>
-  <Object type="0x5585" id="New Ent God">
+  <Object type="0x5585" id="City Ent God">
+    <DisplayId>Ent God</DisplayId>
     <Group>Gods</Group>
     <Enemy />
     <Exp>200</Exp>
@@ -1140,9 +1184,9 @@
       <Max>5</Max>
     </Spawn>
     <God />
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Abandoned">10</RealmScore>
     <Projectile id="0">
-      <ObjectId>Ent God Bolt</ObjectId>
+      <ObjectId>City Ent God 1</ObjectId>
       <Damage>70</Damage>
       <Speed>80</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -1150,7 +1194,7 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_WEAK,HALLOWEEN</Labels>
+    <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1158,52 +1202,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Abandoned City" />
   </Object>
-  <Object type="0x5586" id="New Ghost God">
-    <Group>Gods</Group>
-    <Enemy />
-    <Exp>200</Exp>
-    <Class>Character</Class>
-    <AnimatedTexture>
-      <File>chars16x16dMountains1</File>
-      <Index>8</Index>
-    </AnimatedTexture>
-    <HitSound>monster/ghost_god_hit</HitSound>
-    <DeathSound>monster/ghost_god_death</DeathSound>
-    <Size>100</Size>
-    <MaxHitPoints>1000</MaxHitPoints>
-    <BXP>1000</BXP>
-    <Defense>12</Defense>
-    <Terrain>HauntedHallows</Terrain>
-    <SpawnProb>1.0</SpawnProb>
-    <Spawn>
-      <Mean>3</Mean>
-      <StdDev>1</StdDev>
-      <Min>2</Min>
-      <Max>5</Max>
-    </Spawn>
-    <Flying />
-    <God />
-    <RealmScore>10</RealmScore>
-    <Projectile id="0">
-      <ObjectId>Ghost God Spike</ObjectId>
-      <Damage>120</Damage>
-      <Speed>50</Speed>
-      <LifetimeMS>2700</LifetimeMS>
-      <Size>110</Size>
-    </Projectile>
-    <KillStat stat="UndeadKills" />
-    <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,UNDEAD,GOD,MINION_WEAK,HALLOWEEN</Labels>
-    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
-    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
-    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
-    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
-    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
-    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
-    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
-  </Object>
-  <Object type="0x5587" id="New Djinn">
+  <Object type="0x5587" id="City Djinn">
+    <DisplayId>Djinn</DisplayId>
     <Group>Gods</Group>
     <Enemy />
     <Exp>200</Exp>
@@ -1227,7 +1230,7 @@
     </Spawn>
     <Flying />
     <God />
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="Abandoned">10</RealmScore>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Djinn Orb</ObjectId>
@@ -1239,7 +1242,7 @@
     </Projectile>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,HUMANOID,GOD,MINION_WEAK,HALLOWEEN</Labels>
+    <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1247,8 +1250,300 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Abandoned City" />
   </Object>
-  <Object type="0x5588" id="New White Demon">
+  <Object type="0x9BA" id="City Rock Bot">
+    <Group>Rocks</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Rock Construct</DisplayId>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>20</Defense>
+    <Exp>150</Exp>
+    <BXP>534</BXP>
+    <Terrain>Abandoned</Terrain>
+    <RealmScore biome="Abandoned">10</RealmScore>
+    <God />
+    <Projectile id="0">
+      <ObjectId>Construct Rock Ball</ObjectId>
+      <Speed>70</Speed>
+      <Damage>120</Damage>
+      <Size>90</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="ConstructKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <KillStat stat="Abandoned City" />
+  </Object>
+  <Object type="0x9BB" id="City Paper Bot">
+    <Group>Papers</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Wood Construct</DisplayId>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <HitSound>monster/wooden_walls_hit</HitSound>
+    <DeathSound>monster/wooden_walls_death</DeathSound>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>20</Defense>
+    <Exp>150</Exp>
+    <BXP>534</BXP>
+    <Terrain>Abandoned</Terrain>
+    <RealmScore biome="Abandoned">10</RealmScore>
+    <Projectile id="0">
+      <ObjectId>Construct Wood Bolt</ObjectId>
+      <Speed>60</Speed>
+      <Damage>80</Damage>
+      <Size>80</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="ConstructKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <KillStat stat="Abandoned City" />
+  </Object>
+  <Object type="0x9BC" id="City Steel Bot">
+    <Group>Steels</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <DisplayId>Steel Construct</DisplayId>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <HitSound>monster/rocks_hit</HitSound>
+    <DeathSound>monster/rocks_death</DeathSound>
+    <MaxHitPoints>3000</MaxHitPoints>
+    <Size>100</Size>
+    <Defense>20</Defense>
+    <Exp>150</Exp>
+    <BXP>534</BXP>
+    <Terrain>Abandoned</Terrain>
+    <RealmScore biome="Abandoned">10</RealmScore>
+    <SpawnProb>0.3</SpawnProb>
+    <Projectile id="0">
+      <ObjectId>Construct Steel Blast</ObjectId>
+      <Speed>40</Speed>
+      <Damage>50</Damage>
+      <Size>80</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <KillStat stat="ConstructKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
+    <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
+    <KillStat stat="Abandoned City" />
+  </Object>
+  <Object type="0x9A7" id="New Mysterious Crystal">
+    <DisplayId>Mysterious Crystal</DisplayId>
+    <Group>Crystals</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>monster/stone_walls_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>75000</MaxHitPoints>
+    <Defense>15</Defense>
+    <AlwaysPositiveHealth />
+    <Terrain>Abandoned</Terrain>
+    <SpawnProb>0.025</SpawnProb>
+    <Exp>0</Exp>
+    <PerRealmMax>1</PerRealmMax>
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Djinn Orb</ObjectId>
+      <Damage>90</Damage>
+      <Speed>10</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <ConditionEffect duration="8">Silenced</ConditionEffect>
+    </Projectile>
+    <KillStat stat="StructureKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+    <KillStat stat="Abandoned City" />
+  </Object>
+  <Object type="0x9A8" id="New Crystal Prisoner">
+    <DisplayId>Crystal Prisoner</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>28000</MaxHitPoints>
+    <Defense>25</Defense>
+    <HealthBarBoss radius="25" />
+    <StasisImmune />
+    <TrackLoot />
+    <Exp>5000</Exp>
+    <BXP>18750</BXP>
+    <Projectile id="0">
+      <ObjectId>Crystal Prisoner Orb</ObjectId>
+      <Speed>80</Speed>
+      <Damage>95</Damage>
+      <Size>65</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <ConditionEffect duration="4">Silenced</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Crystal Prisoner Star</ObjectId>
+      <Speed>60</Speed>
+      <Damage>110</Damage>
+      <Size>90</Size>
+      <LifetimeMS>1700</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="1">Unstable</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Crystal Steed Star</ObjectId>
+      <Speed>60</Speed>
+      <Damage>120</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1700</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="4">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Crystal Prisoner Wave</ObjectId>
+      <Speed>47</Speed>
+      <Damage>165</Damage>
+      <Size>130</Size>
+      <LifetimeMS>2400</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="HumanoidKills" />
+    <KillStat stat="GodKills" />
+    <DamageBasedXP />
+    <Labels>ENEMY,MINIBOSS,HUMANOID,GOD,STASISIMMUNE,TRACKLOOT</Labels>
+  </Object>
+  <Object type="0x9A9" id="New Crystal Prisoner Clone">
+    <DisplayId>Crystal Prisoner</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <Defense>12</Defense>
+    <Exp>19</Exp>
+    <BXP>90</BXP>
+    <Projectile id="0">
+      <ObjectId>Crystal Prisoner Orb</ObjectId>
+      <Speed>70</Speed>
+      <Damage>85</Damage>
+      <Size>65</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <KillStat stat="HumanoidKills" />
+    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x9AA" id="New Crystal Prisoner Steed">
+    <DisplayId>Crystal Prisoner</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>44</Index>
+    </AnimatedTexture>
+    <HitSound>monster/cyclops_hit</HitSound>
+    <DeathSound>monster/cyclops_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>6000</MaxHitPoints>
+    <Defense>11</Defense>
+    <Exp>48</Exp>
+    <BXP>228</BXP>
+    <Projectile id="0">
+      <ObjectId>Crystal Steed Bolt</ObjectId>
+      <Speed>35</Speed>
+      <Damage>40</Damage>
+      <Size>90</Size>
+      <LifetimeMS>5000</LifetimeMS>
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Crystal Steed Star</ObjectId>
+      <Speed>65</Speed>
+      <Damage>100</Damage>
+      <Size>80</Size>
+      <LifetimeMS>1700</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="4">Slowed</ConditionEffect>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,BEAST,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x5588" id="Hell White Demon">
     <DisplayId>White Demon</DisplayId>
     <Group>Greater Demons</Group>
     <Enemy />
@@ -1274,7 +1569,7 @@
     <God />
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="RisenHell">10</RealmScore>
     <Projectile id="0">
       <ObjectId>White Demon Spiral</ObjectId>
       <Damage>45</Damage>
@@ -1286,7 +1581,7 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_WEAK,HALLOWEEN</Labels>
+    <Labels>ENEMY,MINION,RISENHELL,GOD,MINION_MID,ADEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -1294,8 +1589,11 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Risen Hell" />
   </Object>
-  <Object type="0xc2e8" id="Flaming Skeleton">
+  <Object type="0xc2e8" id="Hell Skeleton">
+    <DisplayId>Burning Bones</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1318,17 +1616,19 @@
     </Spawn>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <RealmScore biome="RisenHell">10</RealmScore>
+    <Labels>ENEMY,MINION,RISENHELL,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="UndeadKills" />
     <Projectile id="0">
-      <ObjectId>Big Fireball</ObjectId>
+      <ObjectId>Hell Skeleton 1</ObjectId>
       <Speed>75</Speed>
       <Damage>90</Damage>
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
+    <KillStat stat="Risen Hell" />
   </Object>
-  <Object type="0xc2e9" id="Tormented Soul">
+  <Object type="0xc2e9" id="Hell Ghost">
+    <DisplayId>Tormented Soul</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1351,10 +1651,10 @@
     </Spawn>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <RealmScore biome="RisenHell">10</RealmScore>
+    <Labels>ENEMY,MINION,RISENHELL,GOD,MINION_MID,ADEPT</Labels>
     <Projectile id="0">
-      <ObjectId>King Shade Blast</ObjectId>
+      <ObjectId>Hell Ghost 1</ObjectId>
       <Speed>80</Speed>
       <Damage>90</Damage>
       <LifetimeMS>1850</LifetimeMS>
@@ -1364,8 +1664,10 @@
       <PassesCover />
       <ConditionEffect duration="5">Curse</ConditionEffect>
     </Projectile>
+    <KillStat stat="Risen Hell" />
   </Object>
-  <Object type="0xc2ea" id="Harrowed Fiend">
+  <Object type="0xc2ea" id="Hell Dog 1">
+    <DisplayId>Harrowed Fiend</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1388,19 +1690,21 @@
     </Spawn>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
-    <Labels>ENEMY,MINION,BEAST,MINION_WEAK</Labels>
+    <RealmScore biome="RisenHell">10</RealmScore>
+    <Labels>ENEMY,MINION,RISENHELL,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="BeastKills" />
     <Projectile id="0">
-      <ObjectId>Summon Wolf Projectile</ObjectId>
+      <ObjectId>Hell Dog 1 1</ObjectId>
       <Damage>60</Damage>
       <Speed>75</Speed>
       <Size>90</Size>
       <LifetimeMS>2000</LifetimeMS>
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
     </Projectile>
+    <KillStat stat="Risen Hell" />
   </Object>
-  <Object type="0xc2eb" id="Risen Hellhound">
+  <Object type="0xc2eb" id="Hell Dog 2">
+    <DisplayId>Risen Hellhound</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1423,19 +1727,21 @@
     </Spawn>
     <Exp>600</Exp>
     <BXP>3000</BXP>
-    <RealmScore>30</RealmScore>
-    <Labels>ENEMY,MINION,BEAST,MINION_WEAK</Labels>
+    <RealmScore biome="RisenHell">30</RealmScore>
+    <Labels>ENEMY,MINION,RISENHELL,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="BeastKills" />
     <Projectile id="0">
-      <ObjectId>Summon Wolf Projectile</ObjectId>
+      <ObjectId>Hell Dog 2 1</ObjectId>
       <Damage>70</Damage>
       <Speed>75</Speed>
       <Size>100</Size>
       <LifetimeMS>2000</LifetimeMS>
       <ConditionEffect duration="2.4">Bleeding</ConditionEffect>
     </Projectile>
+    <KillStat stat="Risen Hell" />
   </Object>
-  <Object type="0xc2ec" id="Brimstone Wyvern">
+  <Object type="0xc2ec" id="Hell Dragon">
+    <DisplayId>Brimstone Wyvern</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1445,27 +1751,29 @@
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
     <Size>200</Size>
-    <MaxHitPoints>7500</MaxHitPoints>
+    <MaxHitPoints>5000</MaxHitPoints>
     <Defense>32</Defense>
     <Terrain>RisenHell</Terrain>
     <Group>Risen Hell Mobs</Group>
     <SpawnProb>0.25</SpawnProb>
     <Exp>600</Exp>
     <BXP>3000</BXP>
-    <RealmScore>30</RealmScore>
-    <Labels>ENEMY,MINION,BEAST,MINION_STRONG</Labels>
+    <RealmScore biome="RisenHell">30</RealmScore>
+    <Labels>ENEMY,MINION,RISENHELL,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="BeastKills" />
     <KillStat stat="LesserGodKills" />
     <Projectile>
-      <ObjectId>Big Fireball</ObjectId>
+      <ObjectId>Hell Dragon 1</ObjectId>
       <Damage>75</Damage>
       <Speed>50</Speed>
       <Size>150</Size>
       <LifetimeMS>3000</LifetimeMS>
       <ConditionEffect duration="3.6">Exposed</ConditionEffect>
     </Projectile>
+    <KillStat stat="Risen Hell" />
   </Object>
-  <Object type="0xc3d2" id="Cerberus">
+  <Object type="0xc3d2" id="Hell Dog 3">
+    <DisplayId>Cerberus</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1482,19 +1790,21 @@
     <SpawnProb>0.375</SpawnProb>
     <Exp>600</Exp>
     <BXP>3000</BXP>
-    <RealmScore>30</RealmScore>
-    <Labels>ENEMY,MINION,BEAST,MINION_WEAK</Labels>
+    <RealmScore biome="RisenHell">30</RealmScore>
+    <Labels>ENEMY,MINION,RISENHELL,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="BeastKills" />
     <Projectile id="0">
-      <ObjectId>Summon Wolf Projectile</ObjectId>
+      <ObjectId>Hell Dog 3 1</ObjectId>
       <Damage>80</Damage>
       <Speed>75</Speed>
       <Size>110</Size>
       <LifetimeMS>2000</LifetimeMS>
       <ConditionEffect duration="2.8">Bleeding</ConditionEffect>
     </Projectile>
+    <KillStat stat="Risen Hell" />
   </Object>
-  <Object type="0xc3d3" id="Infernal Skull">
+  <Object type="0xc3d3" id="Hell Skull">
+    <DisplayId>Raging Ifrit</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1504,19 +1814,19 @@
     <HitSound>monster/flaming_skulls_hit</HitSound>
     <DeathSound>monster/flaming_skulls_death</DeathSound>
     <Size>125</Size>
-    <MaxHitPoints>6000</MaxHitPoints>
+    <MaxHitPoints>3500</MaxHitPoints>
     <Defense>24</Defense>
     <Terrain>RisenHell</Terrain>
     <Group>Risen Hell Mobs</Group>
     <SpawnProb>0.375</SpawnProb>
     <Exp>600</Exp>
     <BXP>3000</BXP>
-    <RealmScore>30</RealmScore>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <RealmScore biome="RisenHell">30</RealmScore>
+    <Labels>ENEMY,MINION,RISENHELL,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="NatureKills" />
     <KillStat stat="LesserGodKills" />
     <Projectile id="0">
-      <ObjectId>Fire Storm</ObjectId>
+      <ObjectId>Hell Skull 1</ObjectId>
       <Speed>50</Speed>
       <Damage>55</Damage>
       <LifetimeMS>3000</LifetimeMS>
@@ -1526,7 +1836,7 @@
       <PassesCover />
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Flame Breath</ObjectId>
+      <ObjectId>Hell Skull 2</ObjectId>
       <Speed>75</Speed>
       <Damage>80</Damage>
       <Size>120</Size>
@@ -1535,8 +1845,10 @@
       <MultiHit />
       <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
     </Projectile>
+    <KillStat stat="Risen Hell" />
   </Object>
-  <Object type="0x4544" id="New Sprite God">
+  <Object type="0x4544" id="Sprite Forest God">
+    <DisplayId>Sprite God</DisplayId>
     <Enemy />
     <Exp>200</Exp>
     <Class>Character</Class>
@@ -1550,7 +1862,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <BXP>1000</BXP>
     <Defense>12</Defense>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="SpriteForest">10</RealmScore>
     <Terrain>SpriteForest</Terrain>
     <Group>Sprite Forest Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
@@ -1573,9 +1885,11 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Sprite Forest" />
   </Object>
-  <Object type="0x4545" id="New Sprite Child">
+  <Object type="0x4545" id="Sprite Forest Child">
+    <DisplayId>Sprite Child</DisplayId>
     <Enemy />
     <Exp>20</Exp>
     <Class>Character</Class>
@@ -1627,15 +1941,17 @@
     <MaxHitPoints>50</MaxHitPoints>
     <BXP>100</BXP>
     <Defense>0</Defense>
-    <RealmScore>1</RealmScore>
+    <RealmScore biome="SpriteForest">1</RealmScore>
     <Terrain>SpriteForest</Terrain>
     <Group>Sprite Forest Mobs</Group>
     <Flying />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Sprite Forest" />
   </Object>
-  <Object type="0x4546" id="Blazing Sprite">
+  <Object type="0x4546" id="Sprite Forest Fire God">
+    <DisplayId>Blazing Sprite</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1647,7 +1963,7 @@
     <Size>100</Size>
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>12</Defense>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="SpriteForest">10</RealmScore>
     <Terrain>SpriteForest</Terrain>
     <Group>Sprite Forest Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
@@ -1657,16 +1973,16 @@
     <God />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Projectile id="6">
-      <ObjectId>Orange Sprite Magic</ObjectId>
+    <Projectile id="0">
+      <ObjectId>Sprite Forest Fire God 1</ObjectId>
       <Damage>50</Damage>
       <Speed>60</Speed>
       <LifetimeMS>1500</LifetimeMS>
       <Wavy />
       <FaceDir />
     </Projectile>
-    <Projectile id="7">
-      <ObjectId>Orange Sprite Twirl</ObjectId>
+    <Projectile id="1">
+      <ObjectId>Sprite Forest Fire God 2</ObjectId>
       <Size>85</Size>
       <Damage>0</Damage>
       <Speed>45</Speed>
@@ -1675,8 +1991,8 @@
       <MultiHit />
       <ParticleTrail />
     </Projectile>
-    <Projectile id="8">
-      <ObjectId>Orange Sprite Twirl</ObjectId>
+    <Projectile id="2">
+      <ObjectId>Sprite Forest Fire God 2</ObjectId>
       <Size>85</Size>
       <Damage>0</Damage>
       <Speed>60</Speed>
@@ -1685,8 +2001,8 @@
       <MultiHit />
       <ParticleTrail />
     </Projectile>
-    <Projectile id="9">
-      <ObjectId>Orange Sprite Twirl</ObjectId>
+    <Projectile id="3">
+      <ObjectId>Sprite Forest Fire God 2</ObjectId>
       <Size>85</Size>
       <Damage>0</Damage>
       <Speed>75</Speed>
@@ -1695,9 +2011,11 @@
       <MultiHit />
       <ParticleTrail />
     </Projectile>
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Sprite Forest" />
   </Object>
-  <Object type="0x4547" id="Noxious Sprite">
+  <Object type="0x4547" id="Sprite Forest Poison God">
+    <DisplayId>Noxious Sprite</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1709,7 +2027,7 @@
     <Size>100</Size>
     <MaxHitPoints>900</MaxHitPoints>
     <Defense>12</Defense>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="SpriteForest">10</RealmScore>
     <Terrain>SpriteForest</Terrain>
     <Group>Sprite Forest Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
@@ -1720,7 +2038,7 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <Projectile id="0">
-      <ObjectId>Black Sprite Magic</ObjectId>
+      <ObjectId>Sprite Forest Poison God 1</ObjectId>
       <Damage>100</Damage>
       <Speed>65</Speed>
       <Acceleration>-200</Acceleration>
@@ -1729,7 +2047,7 @@
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Black Sprite Twirl</ObjectId>
+      <ObjectId>Sprite Forest Poison God 2</ObjectId>
       <Damage>0</Damage>
       <Speed>65</Speed>
       <Acceleration>-400</Acceleration>
@@ -1740,9 +2058,11 @@
       <MultiHit />
       <ParticleTrail />
     </Projectile>
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Sprite Forest" />
   </Object>
-  <Object type="0x4548" id="Hazardous Sprite">
+  <Object type="0x4548" id="Sprite Forest Electric God">
+    <DisplayId>Hazardous Sprite</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1754,7 +2074,7 @@
     <Size>100</Size>
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>12</Defense>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="SpriteForest">10</RealmScore>
     <Terrain>SpriteForest</Terrain>
     <Group>Sprite Forest Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
@@ -1764,15 +2084,15 @@
     <God />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Projectile id="4">
-      <ObjectId>Blue Sprite Twirl</ObjectId>
+    <Projectile id="0">
+      <ObjectId>Sprite Forest Electric God 1</ObjectId>
       <Damage>10</Damage>
       <Speed>55</Speed>
       <LifetimeMS>2000</LifetimeMS>
       <ConditionEffect duration="1.6">Slowed</ConditionEffect>
     </Projectile>
-    <Projectile id="5">
-      <ObjectId>Cyan Sprite Twirl</ObjectId>
+    <Projectile id="1">
+      <ObjectId>Sprite Forest Electric God 2</ObjectId>
       <Damage>0</Damage>
       <Speed>65</Speed>
       <LifetimeMS>4000</LifetimeMS>
@@ -1780,9 +2100,11 @@
       <MultiHit />
       <ParticleTrail />
     </Projectile>
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Sprite Forest" />
   </Object>
-  <Object type="0x4549" id="Corrupt Sprite">
+  <Object type="0x4549" id="Sprite Forest Dark God">
+    <DisplayId>Corrupt Sprite</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1794,7 +2116,7 @@
     <Size>100</Size>
     <MaxHitPoints>750</MaxHitPoints>
     <Defense>12</Defense>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="SpriteForest">10</RealmScore>
     <Terrain>SpriteForest</Terrain>
     <Group>Sprite Forest Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
@@ -1804,8 +2126,8 @@
     <God />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Projectile id="2">
-      <ObjectId>Cyan Sprite Magic</ObjectId>
+    <Projectile id="0">
+      <ObjectId>Sprite Forest Dark God 1</ObjectId>
       <Damage>90</Damage>
       <Speed>55</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -1813,8 +2135,8 @@
       <Frequency>1.3</Frequency>
       <FaceDir />
     </Projectile>
-    <Projectile id="3">
-      <ObjectId>Cyan Sprite Twirl</ObjectId>
+    <Projectile id="1">
+      <ObjectId>Sprite Forest Dark God 2</ObjectId>
       <Damage>0</Damage>
       <Speed>65</Speed>
       <LifetimeMS>3000</LifetimeMS>
@@ -1823,9 +2145,11 @@
       <ParticleTrail />
       <Boomerang />
     </Projectile>
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Sprite Forest" />
   </Object>
-  <Object type="0x454a" id="Evergreen Sprite">
+  <Object type="0x454a" id="Sprite Forest Nature God">
+    <DisplayId>Evergreen Sprite</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1837,7 +2161,7 @@
     <Size>100</Size>
     <MaxHitPoints>750</MaxHitPoints>
     <Defense>12</Defense>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="SpriteForest">10</RealmScore>
     <Terrain>SpriteForest</Terrain>
     <Group>Sprite Forest Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
@@ -1847,8 +2171,8 @@
     <God />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Projectile id="10">
-      <ObjectId>Green Sprite Magic</ObjectId>
+    <Projectile id="0">
+      <ObjectId>Sprite Forest Nature God 1</ObjectId>
       <Size>100</Size>
       <Damage>120</Damage>
       <Speed>0</Speed>
@@ -1857,8 +2181,8 @@
       <SpeedClamp>75</SpeedClamp>
       <LifetimeMS>1700</LifetimeMS>
     </Projectile>
-    <Projectile id="11">
-      <ObjectId>Green Sprite Twirl</ObjectId>
+    <Projectile id="1">
+      <ObjectId>Sprite Forest Nature God 2</ObjectId>
       <Damage>0</Damage>
       <Speed>20</Speed>
       <Acceleration>400</Acceleration>
@@ -1870,9 +2194,11 @@
       <ParticleTrail />
       <Boomerang />
     </Projectile>
-    <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Sprite Forest" />
   </Object>
-  <Object type="0xc32f" id="Sprite Beast">
+  <Object type="0xc32f" id="Sprite Forest Dog">
+    <DisplayId>Sprite Beast</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
@@ -1883,7 +2209,7 @@
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <MaxHitPoints>600</MaxHitPoints>
     <Defense>30</Defense>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="SpriteForest">10</RealmScore>
     <Terrain>SpriteForest</Terrain>
     <Group>Sprite Forest Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
@@ -1897,16 +2223,16 @@
     <BXP>1000</BXP>
     <Size>100</Size>
     <ShadowSize>60</ShadowSize>
-    <Projectile id="0">
-      <ObjectId>Blue Mystic Shot</ObjectId>
+    <Projectile>
+      <ObjectId>Sprite Forest Dog 1</ObjectId>
       <Damage>75</Damage>
       <Speed>60</Speed>
       <Size>90</Size>
       <LifetimeMS>2500</LifetimeMS>
-      <ConditionEffect duration="0.6">Slowed</ConditionEffect>
     </Projectile>
     <KillStat stat="BeastKills" />
-    <Labels>ENEMY,MINION,BEAST,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Sprite Forest" />
   </Object>
   <Object type="0x45ea" id="Hallows Banshee">
     <DisplayId>Banshee</DisplayId>
@@ -1923,26 +2249,27 @@
     <Defense>10</Defense>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="HauntedHallows">10</RealmScore>
     <Terrain>HauntedHallows</Terrain>
     <Group>Haunted Hallows Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
-      <ObjectId>White Flame</ObjectId>
+      <ObjectId>Hallows Banshee 1</ObjectId>
       <Damage>90</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2150</LifetimeMS>
       <Size>100</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Sharp Grey Star</ObjectId>
+      <ObjectId>Hallows Banshee 2</ObjectId>
       <Damage>0</Damage>
       <Speed>80</Speed>
       <LifetimeMS>1875</LifetimeMS>
       <Size>100</Size>
       <ConditionEffect duration="5">Silenced</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Haunted Hallows" />
   </Object>
   <Object type="0x45eb" id="Hallows Wraith">
     <DisplayId>Wraith</DisplayId>
@@ -1959,26 +2286,27 @@
     <Defense>15</Defense>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="HauntedHallows">10</RealmScore>
     <Terrain>HauntedHallows</Terrain>
     <Group>Haunted Hallows Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
-      <ObjectId>Blue Magic Attack</ObjectId>
+      <ObjectId>Hallows Wraith 1</ObjectId>
       <Speed>60</Speed>
       <Damage>90</Damage>
       <LifetimeMS>2500</LifetimeMS>
       <Size>160</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Sharp Pink Star</ObjectId>
+      <ObjectId>Hallows Wraith 2</ObjectId>
       <Speed>90</Speed>
       <Damage>0</Damage>
       <LifetimeMS>1675</LifetimeMS>
       <Size>100</Size>
       <ConditionEffect duration="4">Bleeding</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Haunted Hallows" />
   </Object>
   <Object type="0x45ec" id="Hallows Skeleton">
     <DisplayId>Skeleton of the Damned</DisplayId>
@@ -1995,7 +2323,7 @@
     <Defense>10</Defense>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="HauntedHallows">10</RealmScore>
     <Terrain>HauntedHallows</Terrain>
     <Group>Haunted Hallows Mobs</Group>
     <SpawnProb>1.0</SpawnProb>
@@ -2006,7 +2334,7 @@
       <Max>8</Max>
     </Spawn>
     <Projectile>
-      <ObjectId>UDL White Slash</ObjectId>
+      <ObjectId>Hallows Skeleton 1</ObjectId>
       <Damage>50</Damage>
       <Speed>35</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -2014,7 +2342,8 @@
       <AccelerationDelay>0</AccelerationDelay>
       <SpeedClamp>95</SpeedClamp>
     </Projectile>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Haunted Hallows" />
   </Object>
   <Object type="0x45ed" id="Hallows Werewolf">
     <DisplayId>Werewolf Berserker</DisplayId>
@@ -2031,26 +2360,27 @@
     <Defense>20</Defense>
     <Exp>600</Exp>
     <BXP>3000</BXP>
-    <RealmScore>30</RealmScore>
+    <RealmScore biome="HauntedHallows">30</RealmScore>
     <Terrain>HauntedHallows</Terrain>
     <Group>Haunted Hallows Mobs</Group>
     <SpawnProb>0.5</SpawnProb>
     <Projectile id="0">
-      <ObjectId>Headless Horseman Shockwave</ObjectId>
+      <ObjectId>Hallows Werewolf 1</ObjectId>
       <Speed>60</Speed>
       <Damage>65</Damage>
       <LifetimeMS>2500</LifetimeMS>
       <Size>150</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Corsair Crab Wave</ObjectId>
+      <ObjectId>Hallows Werewolf 2</ObjectId>
       <Speed>80</Speed>
       <Damage>75</Damage>
       <LifetimeMS>1875</LifetimeMS>
       <Size>150</Size>
       <ConditionEffect duration="2.4">Exposed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Haunted Hallows" />
   </Object>
   <Object type="0x45ee" id="Hallows Beholder">
     <DisplayId>Creepy Beholder</DisplayId>
@@ -2067,21 +2397,21 @@
     <Defense>12</Defense>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="HauntedHallows">10</RealmScore>
     <Terrain>HauntedHallows</Terrain>
     <Group>Haunted Hallows Mobs</Group>
     <SpawnProb>0.85</SpawnProb>
     <Flying />
     <God />
     <Projectile id="0">
-      <ObjectId>Beholder Gaze</ObjectId>
+      <ObjectId>Hallows Beholder 1</ObjectId>
       <Damage>120</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2150</LifetimeMS>
       <Size>150</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Sharp Pink Star</ObjectId>
+      <ObjectId>Hallows Beholder 2</ObjectId>
       <Damage>25</Damage>
       <Speed>25</Speed>
       <LifetimeMS>6000</LifetimeMS>
@@ -2091,7 +2421,8 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Haunted Hallows" />
   </Object>
   <Object type="0x45ef" id="Hallows Brute">
     <DisplayId>Pumpkin Brute</DisplayId>
@@ -2108,27 +2439,28 @@
     <Defense>10</Defense>
     <Exp>200</Exp>
     <BXP>1000</BXP>
-    <RealmScore>10</RealmScore>
+    <RealmScore biome="HauntedHallows">10</RealmScore>
     <Terrain>HauntedHallows</Terrain>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
-      <ObjectId>Lucky Flying Brain Cortex</ObjectId>
+      <ObjectId>Hallows Brute 1</ObjectId>
       <Speed>70</Speed>
       <Damage>90</Damage>
       <LifetimeMS>2150</LifetimeMS>
       <Size>110</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Green Spinner</ObjectId>
+      <ObjectId>Hallows Brute 2</ObjectId>
       <Damage>0</Damage>
       <Speed>50</Speed>
       <Size>100</Size>
       <LifetimeMS>3000</LifetimeMS>
       <ConditionEffect duration="3">Slowed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION,UNDEAD,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
+    <KillStat stat="Haunted Hallows" />
   </Object>
-  <Object type="0x55C3" id="New Arena Headless Horseman">
+  <Object type="0x55C3" id="Hallows Horseman">
     <DisplayId>Headless Horseman</DisplayId>
     <Class>Character</Class>
     <Enemy />
@@ -2140,10 +2472,10 @@
     <DeathSound>monster/cyclops_death</DeathSound>
     <Size>150</Size>
     <ShadowSize>100</ShadowSize>
-    <MaxHitPoints>10000</MaxHitPoints>
+    <MaxHitPoints>7500</MaxHitPoints>
     <Defense>20</Defense>
-    <Terrain>Mountains</Terrain>
-    <SpawnProb>0.045</SpawnProb>
+    <Terrain>HauntedHallows</Terrain>
+    <SpawnProb>0.065</SpawnProb>
     <Exp>136</Exp>
     <BXP>484</BXP>
     <Projectile id="0">
@@ -2169,7 +2501,7 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,BEAST,GOD,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
     <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
@@ -2177,5 +2509,47 @@
     <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+    <KillStat stat="Haunted Hallows" />
+  </Object>
+  <Object type="0x5586" id="Hallows Ghost God">
+    <DisplayId>Ghost God</DisplayId>
+    <Group>Gods</Group>
+    <Enemy />
+    <Exp>200</Exp>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <HitSound>monster/ghost_god_hit</HitSound>
+    <DeathSound>monster/ghost_god_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>1000</BXP>
+    <Defense>12</Defense>
+    <Terrain>HauntedHallows</Terrain>
+    <SpawnProb>0.95</SpawnProb>
+    <Flying />
+    <God />
+    <RealmScore biome="HauntedHallows">10</RealmScore>
+    <Projectile id="0">
+      <ObjectId>Ghost God Spike</ObjectId>
+      <Damage>120</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>2700</LifetimeMS>
+      <Size>110</Size>
+    </Projectile>
+    <KillStat stat="UndeadKills" />
+    <KillStat stat="GodKills" />
+    <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
+    <SpecialSpawn category="Frenzy_Orb">Orb of Frenzy</SpecialSpawn>
+    <SpecialSpawn category="Damage_Orb">Orb of Damage</SpecialSpawn>
+    <SpecialSpawn category="Range_Orb">Orb of Range</SpecialSpawn>
+    <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
+    <KillStat stat="Haunted Hallows" />
   </Object>
 </Objects>

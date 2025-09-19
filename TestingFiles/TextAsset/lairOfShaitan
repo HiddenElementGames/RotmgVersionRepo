@@ -90,7 +90,7 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,BOSS,STASISIMMUNE,NATURE,GOD,HPSCALEONENTRY</Labels>
+    <Labels>ENEMY,BOSS,STASISIMMUNE,NATURE,GOD,HPSCALEONENTRY,AMULET_VETERAN</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -553,8 +553,8 @@
     <StasisImmune />
     <StunImmune />
     <TrackLoot />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="42" dustMax="97" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="14" dustMax="34" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="28" dustMax="32" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="24" dustMax="30" seasonalBonus="0.15">redDust</SoulboundDust>
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>

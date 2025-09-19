@@ -554,7 +554,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>1500</MaxHitPoints>
+    <MaxHitPoints>1000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>250</Exp>
     <BXP>1187</BXP>
@@ -726,6 +726,12 @@
     <Group>The Third Dimension</Group>
     <Enemy />
     <Class>Character</Class>
+    <Portrait>
+      <AnimatedTexture>
+        <File>thirdDimensionChars16x16</File>
+        <Index>9</Index>
+      </AnimatedTexture>
+    </Portrait>
     <Texture>
       <File>thirdDimensionObjects16x16</File>
       <Index>0x60</Index>
@@ -1394,7 +1400,7 @@
     </Projectile>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
-    <Size>100</Size>
+    <Size>140</Size>
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>1000</Exp>
@@ -1730,7 +1736,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>2000</MaxHitPoints>
+    <MaxHitPoints>1000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>250</Exp>
     <BXP>1187</BXP>
@@ -1770,7 +1776,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>3500</MaxHitPoints>
+    <MaxHitPoints>1500</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>250</Exp>
     <BXP>1187</BXP>
@@ -1843,7 +1849,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>4500</MaxHitPoints>
+    <MaxHitPoints>1000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>250</Exp>
     <BXP>1187</BXP>
@@ -1989,9 +1995,11 @@
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>120</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>50000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>7500</Exp>
@@ -2067,7 +2075,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>8500</MaxHitPoints>
+    <MaxHitPoints>4500</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>150</Exp>
     <BXP>712</BXP>
@@ -2447,9 +2455,11 @@
       <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
     <NoCollisionWhenMovement />
+    <MinimapIcon piece="Miniboss" />
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>20</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>500</Exp>
@@ -2464,6 +2474,38 @@
     <SlowImmune />
     <DamageBasedXP />
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,CUBE,GOD</Labels>
+    <Presentation>
+      <Style id="SetAlt0">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt2">
+        <StyleStep altTextureId="2">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt3">
+        <StyleStep altTextureId="3">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt4">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt5">
+        <StyleStep altTextureId="5">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt6">
+        <StyleStep altTextureId="6">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt7">
+        <StyleStep altTextureId="7">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt8">
+        <StyleStep altTextureId="8">SetAltTexture</StyleStep>
+      </Style>
+      <Style id="SetAlt9">
+        <StyleStep altTextureId="9">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x422e" id="tD Shadow Target">
     <NoMiniMap />
@@ -2780,7 +2822,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>2500</MaxHitPoints>
+    <MaxHitPoints>1500</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>500</Exp>
     <BXP>2375</BXP>
@@ -2870,7 +2912,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>2000</MaxHitPoints>
+    <MaxHitPoints>1000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>500</Exp>
     <BXP>2375</BXP>
@@ -3069,7 +3111,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>3500</MaxHitPoints>
+    <MaxHitPoints>1500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>500</Exp>
     <BXP>2375</BXP>
@@ -3760,6 +3802,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>85000</MaxHitPoints>
     <BXP>926</BXP>
     <Defense>50</Defense>
@@ -3847,6 +3890,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>85000</MaxHitPoints>
     <BXP>926</BXP>
     <Defense>50</Defense>
@@ -4581,9 +4625,11 @@
       <MultiHit />
       <Size>100</Size>
     </Projectile>
+    <MinimapIcon piece="Boss" />
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <MaxHitPoints>115000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>7500</Exp>
@@ -4598,10 +4644,10 @@
     <SlowImmune />
     <StasisImmune />
     <Sound id="0">monster/rocks_death</Sound>
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="69" dustMax="162" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="21" dustMax="50" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust dustMin="42" dustMax="52" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust dustMin="43" dustMax="49" seasonalBonus="0.15">redDust</SoulboundDust>
     <DamageBasedXP />
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,CUBE,GOD,HPSCALEONENTRY,STGEMDROP</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,CUBE,GOD,HPSCALEONENTRY,STGEMDROP,AMULET_VETERAN</Labels>
     <SpecialSpawn category="Bis">The Third Dimension Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Exotic Egg</SpecialSpawn>
@@ -4621,6 +4667,7 @@
     <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt11">
         <StyleStep altTextureId="11">SetAltTexture</StyleStep>
@@ -4727,7 +4774,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>120</Size>
-    <MaxHitPoints>8000</MaxHitPoints>
+    <MaxHitPoints>3000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>1250</Exp>
     <BXP>6250</BXP>
@@ -4809,7 +4856,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>2000</MaxHitPoints>
+    <MaxHitPoints>1000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>150</Exp>
     <BXP>712</BXP>
@@ -4848,9 +4895,12 @@
     </AltTexture>
     <Projectile id="0">
       <ObjectId>tD Shocking Magic</ObjectId>
-      <Speed>77.7817459305</Speed>
+      <Speed>40</Speed>
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>400</AccelerationDelay>
+      <SpeedClamp>80</SpeedClamp>
+      <LifetimeMS>960</LifetimeMS>
       <Damage>90</Damage>
-      <LifetimeMS>770</LifetimeMS>
       <Frequency>1</Frequency>
       <Size>100</Size>
       <MultiHit />
@@ -4859,7 +4909,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>4000</MaxHitPoints>
+    <MaxHitPoints>1500</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
     <BXP>712</BXP>
@@ -4899,7 +4949,7 @@
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
-    <MaxHitPoints>4000</MaxHitPoints>
+    <MaxHitPoints>1500</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
     <BXP>712</BXP>

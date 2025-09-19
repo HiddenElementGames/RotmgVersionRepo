@@ -54,7 +54,7 @@
     <Container />
     <Texture>
       <File>lofiObj2</File>
-      <Index>352</Index>
+      <Index>354</Index>
     </Texture>
     <Size>120</Size>
     <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
@@ -95,6 +95,18 @@
       <File>lofiObj3</File>
       <Index>0xBBE</Index>
     </Texture>
+    <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+  </Object>
+  <Object type="0xA888" id="Material Soulbound Bag">
+    <Class>Container</Class>
+    <Container />
+    <CanPutSoulboundObjects />
+    <Loot />
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0xd2</Index>
+    </Texture>
+    <Size>80</Size>
     <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
   </Object>
   <Object type="0x0503" id="Soulbound Loot Bag">
@@ -239,6 +251,7 @@
     <CanPutNormalObjects />
     <CanPutSoulboundObjects />
     <Loot />
+    <MinimapIcon color="0xFFFFFF" piece="LootBag" />
     <Texture>
       <File>lofiObj4</File>
       <Index>0xd9</Index>
@@ -376,6 +389,7 @@
     <CanPutNormalObjects />
     <CanPutSoulboundObjects />
     <Loot />
+    <MinimapIcon color="0xFFFFFF" piece="LootBag" />
     <Texture>
       <File>lofiObj4</File>
       <Index>0xe9</Index>

@@ -787,7 +787,7 @@
       <File>invisible</File>
       <Index>0</Index>
     </Texture>
-    <Size>100</Size>
+    <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
   </Object>
   <Object id="Gate of Departure" type="0x5145">
@@ -10141,7 +10141,14 @@
         <Index>0</Index>
       </AnimatedTexture>
     </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>moonlightVillageChars8x8</File>
+        <Index>3</Index>
+      </AnimatedTexture>
+    </AltTexture>
     <Size>130</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <ShadowSize>100</ShadowSize>
     <ParalyzeImmune />
     <SlowImmune />
@@ -10392,7 +10399,7 @@
     </Projectile>
     <Projectile id="22">
       <ObjectId>MV Flame Twirl</ObjectId>
-      <Damage>60</Damage>
+      <Damage>0</Damage>
       <Speed>0</Speed>
       <LifetimeMS>0</LifetimeMS>
       <Size>1</Size>
@@ -10958,6 +10965,10 @@
       <Style id="LastWord">
         <StyleStep id="LastWordAnimation">SetAnimation</StyleStep>
       </Style>
+      <Style id="Fishing">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+        <StyleStep visible="false">SetHud</StyleStep>
+      </Style>
     </Presentation>
   </Object>
   <Object id="MV Sage Genji" type="0x4fe2">
@@ -10976,6 +10987,7 @@
       </AnimatedTexture>
     </AltTexture>
     <Size>140</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <ShadowSize>100</ShadowSize>
     <ParalyzeImmune />
     <SlowImmune />
@@ -11875,6 +11887,7 @@
       </AnimatedTexture>
     </AltTexture>
     <Size>140</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <ShadowSize>100</ShadowSize>
     <ParalyzeImmune />
     <SlowImmune />
@@ -13021,6 +13034,7 @@
       </AnimatedTexture>
     </AltTexture>
     <Size>140</Size>
+    <CustomHitbox x="0" y="0" scale="2.0" />
     <ShadowSize>100</ShadowSize>
     <ParalyzeImmune />
     <SlowImmune />
@@ -14536,9 +14550,38 @@
       <File>moonlightVillageChars8x8</File>
       <Index>0</Index>
     </AnimatedTexture>
+    <AltTexture id="0">
+      <AnimatedTexture>
+        <File>moonlightVillageChars8x8</File>
+        <Index>3</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>moonlightVillageChars8x8</File>
+        <Index>3</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Projectile id="22">
+      <ObjectId>MV Flame Twirl</ObjectId>
+      <Damage>0</Damage>
+      <Speed>0</Speed>
+      <LifetimeMS>0</LifetimeMS>
+      <Size>1</Size>
+    </Projectile>
     <Size>100</Size>
     <ShadowSize>100</ShadowSize>
     <NoMiniMap />
+    <Presentation>
+      <Style id="Villager">
+        <StyleStep altTextureId="0">SetAltTexture</StyleStep>
+        <StyleStep visible="false">SetHud</StyleStep>
+      </Style>
+      <Style id="Fishing">
+        <StyleStep altTextureId="4">SetAltTexture</StyleStep>
+        <StyleStep visible="false">SetHud</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object id="MV Fog Visual" type="0x507f">
     <Class>Character</Class>
@@ -15006,7 +15049,7 @@
     <Invincible />
     <EventChestBoss />
     <TrackLoot />
-    <Labels>ENEMY,BOSS,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS,HUMANOID,MINION_STRONG,AMULET_EXPERT</Labels>
     <SpecialSpawn category="Bis">Moonlight Village Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Double Cheeseburger Deluxe</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Feline Egg</SpecialSpawn>
@@ -15016,12 +15059,13 @@
     <SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn>
     <SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn>
     <SpecialSpawn category="Colorful">Mystery Dye (Accessory)</SpecialSpawn>
-    <SpecialSpawn category="ExaltedBanner">ExaltationBanner</SpecialSpawn>
+    <SpecialSpawn category="ExaltedBanner">ExaltationBanner_ATT_LIFE_MANA</SpecialSpawn>
     <SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn>
     <SpecialSpawn category="Souvenir_MID">Rain Maker</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Hard</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn>
     <SpecialSpawn category="Easter_Loot">Loot Bunny</SpecialSpawn>
+    <SpecialSpawn category="Alien_Portals">Alien Portal Randomizer</SpecialSpawn>
   </Object>
   <Object id="MV Umi Complete" type="0xc0bb">
     <Enemy />
@@ -20202,9 +20246,9 @@
     <Exp>30000</Exp>
     <EventChestBoss />
     <TrackLoot />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="133" dustMax="311" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="67" dustMax="157" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="28" dustMax="66" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="38" dustMax="46" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="44" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="42" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Regular Loot 1" type="0x504a">
@@ -20220,9 +20264,9 @@
     <Exp>20000</Exp>
     <Invincible />
     <TrackLoot />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="133" dustMax="311" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="67" dustMax="157" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="28" dustMax="66" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="38" dustMax="46" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="44" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="42" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Regular Loot 2" type="0x504b">
@@ -20238,9 +20282,9 @@
     <Exp>25000</Exp>
     <Invincible />
     <TrackLoot />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="133" dustMax="311" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="67" dustMax="157" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="28" dustMax="66" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="38" dustMax="46" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="44" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="42" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Regular Loot 3" type="0x504c">
@@ -20256,9 +20300,9 @@
     <Exp>30000</Exp>
     <Invincible />
     <TrackLoot />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="133" dustMax="311" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="67" dustMax="157" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="28" dustMax="66" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="38" dustMax="46" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="44" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="42" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Regular Loot 4" type="0x504d">
@@ -20274,9 +20318,9 @@
     <Exp>35000</Exp>
     <Invincible />
     <TrackLoot />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="133" dustMax="311" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="67" dustMax="157" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="28" dustMax="66" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="38" dustMax="46" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="44" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="42" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Extra Loot 0" type="0x504f">
@@ -20365,7 +20409,7 @@
     <StasisImmune />
     <Defense>0</Defense>
     <TrackLoot />
-    <Labels>ENEMY,BOSS</Labels>
+    <Labels>ENEMY,BOSS,MV_UMI</Labels>
   </Object>
   <Object id="MV Special Loot 1" type="0x5055">
     <Enemy />
@@ -20380,7 +20424,7 @@
     <Exp>30000</Exp>
     <Invincible />
     <TrackLoot />
-    <Labels>ENEMY,BOSS</Labels>
+    <Labels>ENEMY,BOSS,MV_UMI</Labels>
   </Object>
   <Object id="MV Special Loot 2" type="0x5056">
     <Enemy />
@@ -20395,7 +20439,7 @@
     <Exp>35000</Exp>
     <Invincible />
     <TrackLoot />
-    <Labels>ENEMY,BOSS</Labels>
+    <Labels>ENEMY,BOSS,MV_UMI</Labels>
   </Object>
   <Object id="MV Special Loot 3" type="0x5057">
     <Enemy />
@@ -20410,7 +20454,7 @@
     <Exp>40000</Exp>
     <Invincible />
     <TrackLoot />
-    <Labels>ENEMY,BOSS</Labels>
+    <Labels>ENEMY,BOSS,MV_UMI</Labels>
   </Object>
   <Object id="MV Special Loot 4" type="0x5058">
     <Enemy />
@@ -20425,7 +20469,7 @@
     <Exp>45000</Exp>
     <Invincible />
     <TrackLoot />
-    <Labels>ENEMY,BOSS</Labels>
+    <Labels>ENEMY,BOSS,MV_UMI</Labels>
   </Object>
   <Object id="MV Premium Loot 0" type="0x5059">
     <Enemy />
@@ -20506,12 +20550,11 @@
     </Texture>
     <Size>-1</Size>
     <ShadowSize>0</ShadowSize>
-    <MaxHitPoints>25000</MaxHitPoints>
     <NoMiniMap />
     <Exp>20000</Exp>
     <TrackLoot />
     <Invincible />
-    <Labels>ENEMY,BOSS</Labels>
+    <Labels>ENEMY,BOSS,MV_UMI</Labels>
   </Object>
   <Object id="MV Basic Loot 1" type="0x5062">
     <Enemy />
@@ -20526,9 +20569,9 @@
     <Exp>15000</Exp>
     <Invincible />
     <TrackLoot />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="133" dustMax="311" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="67" dustMax="157" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="28" dustMax="66" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="38" dustMax="46" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="44" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="42" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Basic Loot 2" type="0x5063">
@@ -20544,9 +20587,9 @@
     <Exp>20000</Exp>
     <Invincible />
     <TrackLoot />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="133" dustMax="311" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="67" dustMax="157" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="28" dustMax="66" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="38" dustMax="46" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="44" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="42" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Basic Loot 3" type="0x5064">
@@ -20562,9 +20605,9 @@
     <Exp>25000</Exp>
     <Invincible />
     <TrackLoot />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="133" dustMax="311" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="67" dustMax="157" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="28" dustMax="66" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="38" dustMax="46" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="44" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="42" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Basic Loot 4" type="0x5065">
@@ -20580,9 +20623,9 @@
     <Exp>30000</Exp>
     <Invincible />
     <TrackLoot />
-    <SoulboundDust threshold="0.002" prob="0.6" dustMin="133" dustMax="311" seasonalBonus="0.15">greenDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.5" dustMin="67" dustMax="157" seasonalBonus="0.15">redDust</SoulboundDust>
-    <SoulboundDust threshold="0.002" prob="0.4" dustMin="28" dustMax="66" seasonalBonus="0.15">purpleDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="38" dustMax="46" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="44" seasonalBonus="0.15">redDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="36" dustMax="42" seasonalBonus="0.15">purpleDust</SoulboundDust>
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object id="MV Plain Loot 1" type="0x5066">
@@ -20813,7 +20856,7 @@
   <Object id="MV Event Shrine" type="0x5140">
     <DisplayId>Ethereal Shrine</DisplayId>
     <Enemy />
-    <Encounter />
+    <Encounter oldRealmOnly="1" />
     <PerRealmMax>1</PerRealmMax>
     <God />
     <Texture>
@@ -20841,7 +20884,7 @@
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
     <KillStat stat="StructureKills" />
-    <Labels>ENEMY,HERO,GOD,QUEST,STASISIMMUNE,BOSS</Labels>
+    <Labels>ENEMY,HERO,GOD,QUEST,STASISIMMUNE,BOSS,ENCOUNTER,MV Event Shrine</Labels>
     <Projectile id="0">
       <ObjectId>MV Flame Wave</ObjectId>
       <Damage>100</Damage>
@@ -21055,12 +21098,10 @@
         <StyleStep id="DeathAnimation">SetAnimation</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENCOUNTER,MV Event Shrine</Labels>
   </Object>
   <Object id="MV Event Lantern" type="0x518a">
     <Enemy />
     <Class>Character</Class>
-    <MaxHitPoints>25000</MaxHitPoints>
     <Texture>
       <File>moonlightVillageObjects16x16</File>
       <Index>0x77</Index>
@@ -21721,11 +21762,8 @@
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <Size>0</Size>
-    <MaxHitPoints>50000</MaxHitPoints>
-    <Defense>0</Defense>
     <Exp>0</Exp>
     <Labels>ENEMY,BANNER</Labels>
-    <StasisImmune />
     <Invincible />
     <KeepDamageRecord />
     <NoMiniMap />
@@ -21742,11 +21780,8 @@
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <Size>0</Size>
-    <MaxHitPoints>50000</MaxHitPoints>
-    <Defense>0</Defense>
     <Exp>0</Exp>
     <Labels>ENEMY,BANNER</Labels>
-    <StasisImmune />
     <Invincible />
     <NoMiniMap />
     <KeepDamageRecord />
@@ -21763,11 +21798,8 @@
     <HitSound>monster/djinn_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <Size>0</Size>
-    <MaxHitPoints>50000</MaxHitPoints>
-    <Defense>0</Defense>
     <Exp>0</Exp>
     <Labels>ENEMY,BANNER</Labels>
-    <StasisImmune />
     <NoMiniMap />
     <KeepDamageRecord />
     <Invincible />

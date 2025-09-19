@@ -384,6 +384,38 @@
     <UniqueID />
     <Labels>EQUIPMENT,ABILITY,SHURIKEN,TIERED,T3,MPCOST,XPBONUS,TRADEABLE</Labels>
   </Object>
+  <Object type="0x99aa" id="Testiken">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>amount = 5, statModAmount = 0</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>2</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>0</MpCost>
+    <MpEndCost>50</MpEndCost>
+    <MpCostPerSecond>10</MpCostPerSecond>
+    <Activate effect="Armored" amount="5" scalingStat="ATT" statModScalingMin="50" statModAmount="0" statModDamage="20">ShurikenAbility</Activate>
+    <MultiPhase />
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
   <Object id="Trick Poison" type="0xff3d">
     <Class>Equipment</Class>
     <Item />
@@ -548,1247 +580,788 @@
       <Index>0x26</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>Adds 200 Purple Dust to the cap in your storage.</Description>
+    <Description>Deprecated item that was for resetting reroll counters on enchanted items during Enchantments 1.0 and 2.0</Description>
     <Sound>use_potion</Sound>
-    <ResetEnchRerollCount />
     <Consumable />
     <BagType>8</BagType>
     <Soulbound />
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
-  <Object type="0x266C" id="Bloodbath Shot">
-    <Class>Projectile</Class>
-    <RandomTexture>
-      <Texture>
-        <File>ancientCityObjects8x8</File>
-        <Index>163</Index>
-      </Texture>
-      <Texture>
-        <File>ancientCityObjects8x8</File>
-        <Index>173</Index>
-      </Texture>
-    </RandomTexture>
-  </Object>
-  <Object type="0xc3c1" id="Bloodbath Splatter">
-    <Class>Projectile</Class>
-    <Texture>
-      <File>ancientCityObjects16x16</File>
-      <Index>74</Index>
-    </Texture>
-  </Object>
-  <Object type="0xc3c2" id="Spinning Bubble">
-    <Class>Projectile</Class>
-    <Texture>
-      <File>ancientCityObjects8x8</File>
-      <Index>160</Index>
-    </Texture>
-  </Object>
-  <Object type="0xc3c3" id="Biome Polearm">
-    <Class>Projectile</Class>
-    <Texture>
-      <File>ancientCityObjects8x8</File>
-      <Index>169</Index>
-    </Texture>
-  </Object>
-  <Object id="Adventurer's Scarf" type="0x51a9">
-    <DisplayId>Adventurer's Scarf</DisplayId>
+  <Object type="0x6ab1" id="Testing Trap">
     <Class>Equipment</Class>
     <Item />
     <Texture>
-      <File>ancientCityObjects8x8</File>
-      <Index>174</Index>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="4.0" totalDamage="100" color="32CD32" condEffect="Slowed" condDuration="4.0" armTime="1.0" duration="1" scalingStat="ATT" statModScalingMin="50" statModTrapRadius="0.2" statModTrapDamage="10" statModTrapCondDuration="0.1" bombDelay="1.4" bombDamage="200" bombRadius="3.0" bombCount="3" bombTriggerCount="2" bombTriggerPeriod="1.0" bombCondEffect="Slowed" bombCondEffectDuration="5.0" statModBombRadius="0.1" statModBombCount="0.2" statModBombDamage="10" statModBombCondDuration="0.01" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x2817" id="Test Trap ATT">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="3.0" totalDamage="100" color="32CD32" condEffect="Armor Broken" condDuration="3.0" armTime="1.0" duration="10" scalingStat="ATT" statModScalingMin="45" statModTrapRadius="0.2" statModTrapDamage="20" statModTrapCondDuration="0.1" bombDelay="3" bombDamage="600" bombRadius="8.0" bombCount="1" bombTriggerCount="1" bombTriggerPeriod="0.0" bombCondEffect="Armor Broken" bombCondEffectDuration="8.0" statModBombRadius="0.3" statModBombCount="0.2" statModBombDamage="20" statModBombCondDuration="0.10" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x2818" id="Test Trap DEF">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="4.0" totalDamage="200" color="32CD32" condEffect="Armored" condDuration="3.0" armTime="2.0" duration="10" scalingStat="DEF" statModScalingMin="9" statModTrapRadius="0.25" statModTrapDamage="10" statModTrapCondDuration="0.10" bombDelay="3" bombDamage="500" bombRadius="7.0" bombCount="2" bombTriggerCount="1" bombTriggerPeriod="0.0" bombCondEffect="Armored" bombCondEffectDuration="8.0" statModBombRadius="0.01" statModBombCount="0.2" statModBombDamage="20" statModBombCondDuration="0.10" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x2819" id="Test Trap SPD">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="5.0" totalDamage="300" color="32CD32" condEffect="Slowed" condDuration="2.0" armTime="3.0" duration="5" scalingStat="SPD" statModScalingMin="36" statModTrapRadius="0.10" statModTrapDamage="15" statModTrapCondDuration="0.30" bombDelay="5" bombDamage="400" bombRadius="6.0" bombCount="3" bombTriggerCount="2" bombTriggerPeriod="2.0" bombCondEffect="Slowed" bombCondEffectDuration="5.0" statModBombRadius="0.05" statModBombCount="1.0" statModBombDamage="15" statModBombCondDuration="0.30" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x281A" id="Test Trap DEX">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="6.0" totalDamage="400" color="32CD32" condEffect="Dazed" condDuration="2.0" armTime="4.0" duration="5" scalingStat="DEX" statModScalingMin="32" statModTrapRadius="0.05" statModTrapDamage="3" statModTrapCondDuration="0.05" bombDelay="5" bombDamage="300" bombRadius="5.0" bombCount="4" bombTriggerCount="2" bombTriggerPeriod="2.0" bombCondEffect="Dazed" bombCondEffectDuration="5.0" statModBombRadius="0.10" statModBombCount="1.0" statModBombDamage="15" statModBombCondDuration="0.05" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x281B" id="Test Trap WIS">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="7.0" totalDamage="500" color="32CD32" condEffect="Stunned" condDuration="5.0" armTime="5.0" duration="8" scalingStat="WIS" statModScalingMin="34" statModTrapRadius="0.01" statModTrapDamage="6" statModTrapCondDuration="0.02" bombDelay="1" bombDamage="200" bombRadius="4.0" bombCount="5" bombTriggerCount="4" bombTriggerPeriod="1.0" bombCondEffect="Stunned" bombCondEffectDuration="10.0" statModBombRadius="0.25" statModBombCount="3" statModBombDamage="5" statModBombCondDuration="0.02" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x281C" id="Test Trap VIT">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="8.0" objectType="0x281F" totalDamage="600" color="32CD32" condEffect="Curse" condDuration="6.0" armTime="6.0" duration="8" scalingStat="VIT" statModScalingMin="24" statModTrapRadius="0.30" statModTrapDamage="5" statModTrapCondDuration="0.15" bombDelay="1" bombDamage="100" bombRadius="3.0" bombCount="6" bombTriggerCount="4" bombTriggerPeriod="1.0" bombCondEffect="Curse" bombCondEffectDuration="10.0" statModBombRadius="0.20" statModBombCount="3" statModBombDamage="5" statModBombCondDuration="0.15" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x281D" id="Test Trap DEX 2">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Tier>0</Tier>
+    <Description>A magical hunting trap.</Description>
+    <Usable />
+    <BagType>1</BagType>
+    <MpCost>40</MpCost>
+    <Activate radius="6.0" objectType="0x281E" totalDamage="400" color="32CD32" condEffect="Dazed" condDuration="2.0" armTime="4.0" duration="5" scalingStat="DEX" statModScalingMin="32" statModTrapRadius="0.05" statModTrapDamage="3" statModTrapCondDuration="0.05" bombDelay="5" bombDamage="300" bombRadius="5.0" bombCount="4" bombTriggerCount="2" bombTriggerPeriod="2.0" bombCondEffect="Slowed" bombCondEffectDuration="5.0" statModBombRadius="0.10" statModBombCount="1.0" statModBombDamage="15" statModBombCondDuration="0.05" textureSourceId="Wilderlands Trap">Trap</Activate>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,TIERED,T0,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object id="Pirate Shadow Move" type="0x281E">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rBeach</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>100</Size>
+  </Object>
+  <Object id="Pirate Back and Forth" type="0x281F">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rBeach</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x1B6D" id="minimumMeter Test Item">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>68</PowerLevel>
+    <Texture>
+      <File>pirateCaveObjects16x16</File>
+      <Index>0x0c</Index>
     </Texture>
     <SlotType>9</SlotType>
-    <Description>A faithful and comfortable scarf that has witnessed countless journeys. Imbued with a protective enchantment, it allows its wearer to gracefully weave through perilous situations.</Description>
+    <Description>Use ability to create a DWD C when 80% of meter is full</Description>
     <ExtraTooltipData>
-      <EffectInfo description="On ability use, heal 75HP." name="Trusty Companion" />
-      <EffectInfo description="15 seconds" name="Cooldown" />
+      <EffectInfo description="PLEASE WORK" />
     </ExtraTooltipData>
-    <ActivateOnEquip amount="75" stat="MAXHP">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="7" stat="DEF">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="5" stat="SPD">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="5" stat="VIT">IncrementStat</ActivateOnEquip>
-    <OnPlayerAbilityActivate cooldown="15" proc="1" amount="75">Heal</OnPlayerAbilityActivate>
+    <Meter id="0" maxValue="4000" startValue="0" chargeString="Charge the meter by gaining EXP!">
+      <BarColor maxValue="0.25">0xFF0000</BarColor>
+      <BarColor maxValue="0.50">0xFFAA00</BarColor>
+      <BarColor maxValue="0.75">0x00FF00</BarColor>
+      <BarColor maxValue="1.00">0x00FFAA</BarColor>
+    </Meter>
+    <OnPlayerKill idMeter="0" proc="1" wornFlat="false" amountWorn="1" amount="0">FillMeter</OnPlayerKill>
+    <OnPlayerAbilityActivate idMeter="0" minimumMeter="800" proc="1" cooldown="1" objectId="DWD C" throwTime="1">ObjectToss</OnPlayerAbilityActivate>
     <BagType>6</BagType>
+    <feedPower>500</feedPower>
     <XPBonus>6</XPBonus>
+    <UniqueID />
     <Soulbound />
-    <feedPower>600</feedPower>
+    <Labels>EQUIPMENT,UT,TAB_UT,XPBONUS</Labels>
   </Object>
-  <Object id="Pirate's Artillery" type="0xc1e8">
-    <DisplayId>Pirate's Artillery</DisplayId>
+  <Object type="0x1B6E" id="meterCost Test Item">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>68</PowerLevel>
+    <Texture>
+      <File>pirateCaveObjects16x16</File>
+      <Index>0x0c</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>Use ability to create a DWD C consuming 80% of meter</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="PLEASE WORK" />
+    </ExtraTooltipData>
+    <Meter id="0" maxValue="4000" startValue="0" chargeString="Charge the meter by gaining EXP!">
+      <BarColor maxValue="0.25">0xFF0000</BarColor>
+      <BarColor maxValue="0.50">0xFFAA00</BarColor>
+      <BarColor maxValue="0.75">0x00FF00</BarColor>
+      <BarColor maxValue="1.00">0x00FFAA</BarColor>
+    </Meter>
+    <OnPlayerKill idMeter="0" proc="1" wornFlat="false" amountWorn="1" amount="0">FillMeter</OnPlayerKill>
+    <OnPlayerAbilityActivate idMeter="0" minimumMeter="800" meterCost="800" proc="1" cooldown="1" objectId="DWD C" throwTime="1">ObjectToss</OnPlayerAbilityActivate>
+    <BagType>6</BagType>
+    <feedPower>500</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Soulbound />
+    <Labels>EQUIPMENT,UT,TAB_UT,XPBONUS</Labels>
+  </Object>
+  <Object type="0x1B6C" id="relativeStat Test Item">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>80</PowerLevel>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>333</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>140 HP + 3.5% HP based on HP. </Description>
+    <ActivateOnEquip stat="MAXHP" amount="140">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXHP" amount="3.5" statRelativeTo="MAXHP">IncrementStatRelative</ActivateOnEquip>
+    <BagType>4</BagType>
+    <UniqueID />
+  </Object>
+  <Object type="0x99AB" id="Testiken ATT">
     <Class>Equipment</Class>
     <Item />
     <Texture>
-      <File>ancientCityObjects8x8</File>
-      <Index>177</Index>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
     </Texture>
+    <SlotType>25</SlotType>
+    <Description>amount = 0, statModAmount = 1</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>5</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <NumProjectiles>2</NumProjectiles>
+    <ArcGap>90</ArcGap>
+    <MpCost>0</MpCost>
+    <MpEndCost>30</MpEndCost>
+    <MpCostPerSecond>11</MpCostPerSecond>
+    <MultiPhase />
+    <Activate effect="Damaging" amount="0" stat="ATT" scalingStat="ATT" statModScalingMin="50" statModAmount="1" statModDamage="15">ShurikenAbility</Activate>
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x99AC" id="Testiken DEF">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Testu testu.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>2</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <NumProjectiles>3</NumProjectiles>
+    <ArcGap>90</ArcGap>
+    <MpCost>0</MpCost>
+    <MpEndCost>50</MpEndCost>
+    <MpCostPerSecond>12</MpCostPerSecond>
+    <Activate effect="Armored" amount="5" stat="DEF" scalingStat="DEF" statModScalingMin="9" statModAmount="0.1" statModDamage="15">ShurikenAbility</Activate>
+    <MultiPhase />
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x99AD" id="Testiken DEX">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Testu testu.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>2</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <NumProjectiles>3</NumProjectiles>
+    <ArcGap>90</ArcGap>
+    <MpCost>0</MpCost>
+    <MpEndCost>50</MpEndCost>
+    <MpCostPerSecond>13</MpCostPerSecond>
+    <Activate effect="Berserk" amount="5" stat="DEX" scalingStat="DEX" statModScalingMin="50" statModAmount="0.1" statModDamage="12">ShurikenAbility</Activate>
+    <MultiPhase />
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x99AE" id="Testiken SPD">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Testu testu.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>2</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <NumProjectiles>4</NumProjectiles>
+    <ArcGap>60</ArcGap>
+    <MpCost>0</MpCost>
+    <MpEndCost>50</MpEndCost>
+    <MpCostPerSecond>14</MpCostPerSecond>
+    <Activate effect="Speedy" amount="5" stat="SPD" scalingStat="SPD" statModScalingMin="46" statModAmount="0.1" statModDamage="12">ShurikenAbility</Activate>
+    <MultiPhase />
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x99AF" id="Testiken VIT">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Testu testu.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>2</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <NumProjectiles>5</NumProjectiles>
+    <ArcGap>45</ArcGap>
+    <MpCost>0</MpCost>
+    <MpEndCost>50</MpEndCost>
+    <MpCostPerSecond>15</MpCostPerSecond>
+    <Activate effect="Healing" amount="5" stat="VIT" scalingStat="VIT" statModScalingMin="42" statModAmount="0.1" statModDamage="12">ShurikenAbility</Activate>
+    <MultiPhase />
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x99B0" id="Testiken WIS">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>theMachineObjects8x8</File>
+      <Index>0x10a</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Description>Testu testu.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Enlightenment Star</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>1500</MinDamage>
+      <MaxDamage>2000</MaxDamage>
+      <LifetimeMS>1250</LifetimeMS>
+      <Size>120</Size>
+      <CollisionMult>2</CollisionMult>
+      <PassesCover />
+    </Projectile>
+    <Usable />
+    <BagType>6</BagType>
+    <NumProjectiles>6</NumProjectiles>
+    <ArcGap>36</ArcGap>
+    <MpCost>0</MpCost>
+    <MpEndCost>50</MpEndCost>
+    <MpCostPerSecond>16</MpCostPerSecond>
+    <Activate effect="Energized" amount="5" stat="WIS" scalingStat="WIS" statModScalingMin="50" statModAmount="0.1" statModDamage="12">ShurikenAbility</Activate>
+    <MultiPhase />
+    <feedPower>500</feedPower>
+    <XPBonus>4</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,TAB_UT,POWERTIER_D,TRADEABLE,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0xa963" id="Guill 1 Rune">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>0x8c</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A wicked rune of Oryx's sword, held by the fiercest monsters in the realm known to cut down heroes without discretion.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Usage" description="Activates the Sword Monument, one of three monuments needed to reach Oryx's Sanctuary." />
+      <EffectInfo description="" />
+      <EffectInfo name="Restoration" description="Upon deactivation of the Sword Monument, this item will be dropped on the ground." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Treasure />
+    <Consumable />
+    <BagType>4</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <Activate color="-1" retainItem="true" newId="Guill 1 Monument Active" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4" radius="25" targetId="Guill 1 Monument" customString="The Sword Monument has been activated">ChangeObject</Activate>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0xa964" id="Guill 2 Rune">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>0x8d</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A wicked rune of Oryx's shield, held by the most prominent minions Oryx trusts to guard his realm.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Usage" description="Activates the Shield Monument, one of three monuments needed to reach Oryx's Sanctuary." />
+      <EffectInfo description="" />
+      <EffectInfo name="Restoration" description="Upon deactivation of the Shield Monument, this item will be dropped on the ground." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Treasure />
+    <Consumable />
+    <BagType>4</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <Activate color="-1" retainItem="true" newId="Guill 2 Monument Active" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4" radius="25" targetId="Guill 2 Monument" customString="The Shield Monument has been activated">ChangeObject</Activate>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0xa965" id="Guill 3 Rune">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>0x8e</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A wicked rune of Oryx's helmet, held by the Mad God's equally lethal rivals.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Usage" description="Activates the Helmet Monument, one of three monuments needed to reach Oryx's Sanctuary." />
+      <EffectInfo description="" />
+      <EffectInfo name="Restoration" description="Upon deactivation of the Helmet Monument, this item will be dropped on the ground." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Treasure />
+    <Consumable />
+    <BagType>4</BagType>
+    <feedPower>750</feedPower>
+    <Soulbound />
+    <Activate color="-1" retainItem="true" newId="Guill 3 Monument Active" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4" radius="25" targetId="Guill 3 Monument" customString="The Helmet Monument has been activated">ChangeObject</Activate>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x7b80" id="Info Board Test">
+    <Class>InformationBoard</Class>
+    <Texture>
+      <File>lofiObj</File>
+      <Index>909</Index>
+    </Texture>
+  </Object>
+  <Object type="0x99B1" id="Long Sword 1Rarity">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>56</PowerLevel>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x33</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>A well-made sword with a double edged blade.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>11</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SWORD,BASETYPE</Labels>
+    <EnchantmentSlots slotChance="1,0,0,0" enchantmentList="Default Enchantment Pool" />
+  </Object>
+  <Object type="0x99B2" id="Long Sword 2Rarity">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>56</PowerLevel>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x33</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>A well-made sword with a double edged blade.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>11</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SWORD,BASETYPE</Labels>
+    <EnchantmentSlots slotChance="1,1,0,0" enchantmentList="Default Enchantment Pool" />
+  </Object>
+  <Object type="0x99B3" id="Long Sword 3Rarity">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>56</PowerLevel>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x33</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>A well-made sword with a double edged blade.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>11</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SWORD,BASETYPE</Labels>
+    <EnchantmentSlots slotChance="1,1,1,0" enchantmentList="Default Enchantment Pool" />
+  </Object>
+  <Object type="0x99B4" id="Long Sword 4Rarity">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>56</PowerLevel>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x33</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>A well-made sword with a double edged blade.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile>
+      <ObjectId>Blade</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+    </Projectile>
+    <BagType>1</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>11</feedPower>
+    <DropTradable />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SWORD,BASETYPE</Labels>
+    <EnchantmentSlots slotChance="1,1,1,1" enchantmentList="Default Enchantment Pool" />
+  </Object>
+  <Object type="0x99B5" id="Tier 4 Test Artifact">
+    <DisplayId>Tier 4 Test Artifact</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1246</Index>
+    </Texture>
+    <Sound>use_potion</Sound>
+    <SlotType>10</SlotType>
+    <BagType>8</BagType>
+    <Soulbound />
+    <Description>Use this testing artifact in the Enchanter on any equipment to roll only Tier 4 Enchantments.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Item is only available for testing." name="Testing Item" />
+      <EffectInfo description="Cannot roll T1 to T3 enchantments." name="Exclusion" />
+    </ExtraTooltipData>
+    <Artifact list="Test T4 Pool" consumeProb="0" dustType="purpleDust" dustAmount="0" />
+  </Object>
+  <Object type="0x99B6" id="Test Dust Refill">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>enchantments8x8</File>
+      <Index>0x2f</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Use this testing item to refill all enchantment dusts and forgefire.</Description>
+    <Sound>use_potion</Sound>
+    <ExtraTooltipData>
+      <EffectInfo description="Item is only available for testing." name="Testing Item" />
+    </ExtraTooltipData>
+    <Activate dustType="greenDust" amount="999999">AddDust</Activate>
+    <Activate dustType="redDust" amount="999999">AddDust</Activate>
+    <Activate dustType="purpleDust" amount="999999">AddDust</Activate>
+    <Activate amount="999999">BoostForgeEnergy</Activate>
+    <InvUse />
+    <Soulbound />
+    <BagType>8</BagType>
+  </Object>
+  <Object type="0x99B7" id="Awakened Test Artifact">
+    <DisplayId>Awakened Test Artifact</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1245</Index>
+    </Texture>
+    <Sound>use_potion</Sound>
+    <SlotType>10</SlotType>
+    <BagType>8</BagType>
+    <Soulbound />
+    <Description>Use this testing artifact in the Enchanter on a specific UT to roll its Awakened Enchantment.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Item is only available for testing." name="Testing Item" />
+      <EffectInfo description="Boosts the rate of Awakened Enchantments by x9999." name="Rate Modifier" />
+    </ExtraTooltipData>
+    <Artifact list="Test Awakened Pool" consumeProb="0" dustType="purpleDust" dustAmount="0" />
+  </Object>
+  <Object type="0x99B8" id="Unique Test Artifact">
+    <DisplayId>Unique Test Artifact</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1247</Index>
+    </Texture>
+    <Sound>use_potion</Sound>
+    <SlotType>10</SlotType>
+    <BagType>8</BagType>
+    <Soulbound />
+    <Description>Use this testing artifact in the Enchanter on any equipment to roll Unique Enchantments.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Item is only available for testing." name="Testing Item" />
+      <EffectInfo description="Boosts the rate of Unique Enchantments by x9999." name="Rate Modifier" />
+    </ExtraTooltipData>
+    <Artifact list="Test Unique Pool" consumeProb="0" dustType="purpleDust" dustAmount="0" />
+  </Object>
+  <Object type="0x367e" id="Def Test Flail">
+    <Class>Equipment</Class>
+    <Item />
+    <PowerLevel>200</PowerLevel>
+    <Texture>
+      <File>lofiObj</File>
+      <Index>0x116</Index>
+    </Texture>
+    <Sound>weapon/mithril_sword</Sound>
     <OldSound>bladeSwing</OldSound>
     <SlotType>1</SlotType>
-    <Description>Although cannons were once typically associated with naval warfare, many pirates now regard Bilgewater's application of them in land-based combat as revolutionary.</Description>
-    <RateOfFire>0.25</RateOfFire>
+    <Description>The primary armament of the gravelords of old, eternally tasked with making sure the dead are forever sealed away from the mortal plane.</Description>
     <Subattack projectileId="0">
       <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.25</RateOfFire>
-      <PosOffset>0,0</PosOffset>
+      <RateOfFire>0.5</RateOfFire>
     </Subattack>
     <Subattack projectileId="1">
       <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.25</RateOfFire>
-      <PosOffset>0,0.4</PosOffset>
+      <RateOfFire>0.5</RateOfFire>
     </Subattack>
     <Subattack projectileId="2">
       <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.25</RateOfFire>
-      <PosOffset>0.283,0.283</PosOffset>
-    </Subattack>
-    <Subattack projectileId="3">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.25</RateOfFire>
-      <PosOffset>0.4,0</PosOffset>
-    </Subattack>
-    <Subattack projectileId="4">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.25</RateOfFire>
-      <PosOffset>0.283,-0.283</PosOffset>
-    </Subattack>
-    <Subattack projectileId="5">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.25</RateOfFire>
-      <PosOffset>0,-0.4</PosOffset>
-    </Subattack>
-    <Subattack projectileId="6">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.25</RateOfFire>
-      <PosOffset>-0.283,-0.283</PosOffset>
-    </Subattack>
-    <Subattack projectileId="7">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.25</RateOfFire>
-      <PosOffset>-0.4,0</PosOffset>
-    </Subattack>
-    <Subattack projectileId="8">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.25</RateOfFire>
-      <PosOffset>-0.283,0.283</PosOffset>
+      <RateOfFire>0.5</RateOfFire>
     </Subattack>
     <Projectile id="0">
-      <ObjectId>Bilgewater Cannonball S</ObjectId>
+      <ObjectId>Black Flail Ball</ObjectId>
       <Speed>100</Speed>
-      <MinDamage>777</MinDamage>
-      <MaxDamage>777</MaxDamage>
-      <LifetimeMS>300</LifetimeMS>
-      <Size>80</Size>
-      <MultiHit />
-      <PassesCover />
-    </Projectile>
-    <Projectile id="1">
-      <ObjectId>Bilgewater Cannonball S</ObjectId>
-      <Speed>100</Speed>
-      <MinDamage>50</MinDamage>
-      <MaxDamage>50</MaxDamage>
-      <LifetimeMS>600</LifetimeMS>
-      <Size>70</Size>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="2">
-      <ObjectId>Bilgewater Cannonball S</ObjectId>
-      <Speed>100</Speed>
-      <MinDamage>50</MinDamage>
-      <MaxDamage>50</MaxDamage>
-      <LifetimeMS>600</LifetimeMS>
-      <TurnRate>45</TurnRate>
-      <TurnRateDelay>300</TurnRateDelay>
-      <TurnStopTime>301</TurnStopTime>
-      <Size>70</Size>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="3">
-      <ObjectId>Bilgewater Cannonball S</ObjectId>
-      <Speed>100</Speed>
-      <MinDamage>50</MinDamage>
-      <MaxDamage>50</MaxDamage>
-      <LifetimeMS>600</LifetimeMS>
-      <TurnRate>90</TurnRate>
-      <TurnRateDelay>300</TurnRateDelay>
-      <TurnStopTime>301</TurnStopTime>
-      <Size>70</Size>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="4">
-      <ObjectId>Bilgewater Cannonball S</ObjectId>
-      <Speed>100</Speed>
-      <MinDamage>50</MinDamage>
-      <MaxDamage>50</MaxDamage>
-      <LifetimeMS>600</LifetimeMS>
-      <TurnRate>135</TurnRate>
-      <TurnRateDelay>300</TurnRateDelay>
-      <TurnStopTime>301</TurnStopTime>
-      <Size>70</Size>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="5">
-      <ObjectId>Bilgewater Cannonball S</ObjectId>
-      <Speed>100</Speed>
-      <MinDamage>50</MinDamage>
-      <MaxDamage>50</MaxDamage>
-      <LifetimeMS>300</LifetimeMS>
-      <Size>70</Size>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="6">
-      <ObjectId>Bilgewater Cannonball S</ObjectId>
-      <Speed>100</Speed>
-      <MinDamage>50</MinDamage>
-      <MaxDamage>50</MaxDamage>
-      <LifetimeMS>600</LifetimeMS>
-      <TurnRate>-135</TurnRate>
-      <TurnRateDelay>300</TurnRateDelay>
-      <TurnStopTime>301</TurnStopTime>
-      <Size>70</Size>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="7">
-      <ObjectId>Bilgewater Cannonball S</ObjectId>
-      <Speed>100</Speed>
-      <MinDamage>50</MinDamage>
-      <MaxDamage>50</MaxDamage>
-      <LifetimeMS>600</LifetimeMS>
-      <TurnRate>-90</TurnRate>
-      <TurnRateDelay>300</TurnRateDelay>
-      <TurnStopTime>301</TurnStopTime>
-      <Size>70</Size>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="8">
-      <ObjectId>Bilgewater Cannonball S</ObjectId>
-      <Speed>100</Speed>
-      <MinDamage>50</MinDamage>
-      <MaxDamage>50</MaxDamage>
-      <LifetimeMS>600</LifetimeMS>
-      <TurnRate>-45</TurnRate>
-      <TurnRateDelay>300</TurnRateDelay>
-      <TurnStopTime>301</TurnStopTime>
-      <Size>70</Size>
-      <MultiHit />
-    </Projectile>
-    <BagType>6</BagType>
-    <feedPower>1000</feedPower>
-    <Soulbound />
-    <XPBonus>7</XPBonus>
-  </Object>
-  <Object id="Celestial Recurve" type="0x5195">
-    <DisplayId>Celestial Recurve</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>ancientCityObjects8x8</File>
-      <Index>175</Index>
-    </Texture>
-    <OldSound>bladeSwing</OldSound>
-    <SlotType>3</SlotType>
-    <Description>A wondrous bow of heavenly origin, harnessing Daevic magic to bend and concentrate light into tangible projectiles. At the point where these beams intersect, a dazzling burst of celestial brilliance radiates.</Description>
-    <RateOfFire>1.1</RateOfFire>
-    <Subattack projectileId="0">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>1.1</RateOfFire>
-      <PosOffset>0,3.02</PosOffset>
-      <DefaultAngle>0</DefaultAngle>
-    </Subattack>
-    <Subattack projectileId="0">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>1.1</RateOfFire>
-      <PosOffset>0,6.02</PosOffset>
-      <DefaultAngle>180</DefaultAngle>
-    </Subattack>
-    <Subattack projectileId="0">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>1.1</RateOfFire>
-      <PosOffset>-1.5,4.52</PosOffset>
-      <DefaultAngle>90</DefaultAngle>
-    </Subattack>
-    <Subattack projectileId="0">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>1.1</RateOfFire>
-      <PosOffset>1.5,4.52</PosOffset>
-      <DefaultAngle>270</DefaultAngle>
-    </Subattack>
-    <Subattack projectileId="1">
-      <NumProjectiles>2</NumProjectiles>
-      <RateOfFire>1.1</RateOfFire>
-    </Subattack>
-    <Projectile id="0">
-      <ObjectId>Colorful Sprite Bolt</ObjectId>
-      <Speed>20</Speed>
-      <MinDamage>30</MinDamage>
-      <MaxDamage>45</MaxDamage>
-      <LifetimeMS>320</LifetimeMS>
-      <Size>90</Size>
-      <Acceleration>200</Acceleration>
-      <AccelerationDelay>0</AccelerationDelay>
-      <SpeedClamp>220</SpeedClamp>
-      <MultiHit />
-      <ArmorPiercing />
-      <PassesCover />
-    </Projectile>
-    <Projectile id="1">
-      <ObjectId>Black Sprite Beam</ObjectId>
-      <Speed>0</Speed>
-      <MinDamage>40</MinDamage>
-      <MaxDamage>65</MaxDamage>
-      <LifetimeMS>385</LifetimeMS>
-      <Size>90</Size>
-      <PosOffset>.5,0</PosOffset>
-      <DefaultAngle>-5</DefaultAngle>
-      <MultiHit />
-      <PassesCover />
-      <Acceleration>10000</Acceleration>
-      <SpeedClamp>200</SpeedClamp>
-      <AccelerationDelay>0</AccelerationDelay>
-    </Projectile>
-    <Projectile id="2">
-      <ObjectId>Black Sprite Beam</ObjectId>
-      <Speed>0</Speed>
-      <MinDamage>40</MinDamage>
-      <MaxDamage>65</MaxDamage>
-      <LifetimeMS>385</LifetimeMS>
-      <Size>90</Size>
-      <PosOffset>-.5,0</PosOffset>
-      <DefaultAngle>5</DefaultAngle>
-      <MultiHit />
-      <PassesCover />
-      <Acceleration>10000</Acceleration>
-      <SpeedClamp>200</SpeedClamp>
-      <AccelerationDelay>0</AccelerationDelay>
-    </Projectile>
-    <BagType>6</BagType>
-    <feedPower>1000</feedPower>
-    <Soulbound />
-    <XPBonus>7</XPBonus>
-  </Object>
-  <Object id="Doom's Emblem" type="0x5199">
-    <Class>Equipment</Class>
-    <DisplayId>Doom's Emblem</DisplayId>
-    <Item />
-    <Soulbound />
-    <Texture>
-      <File>ancientCityObjects8x8</File>
-      <Index>155</Index>
-    </Texture>
-    <SlotType>12</SlotType>
-    <Description>An accursed sigil that beckons to one's inner demons. Unholy paladins can unleash their dormant latent potential by forming a pact with an otherworldly force through a tribute of their own flesh and blood.</Description>
-    <Sound>spell/light_heal</Sound>
-    <Usable />
-    <ExtraTooltipData>
-      <EffectInfo description="Consumes 100 HP on ability use." name="Sacrifice" />
-      <EffectInfo description="" name="Hellfire" />
-      <EffectInfo description="Inflicts a poison within 6.5 squares dealing 700 damage over 5 seconds." name="" />
-      <EffectInfo description="Enemies under the effect of the poison receive 15% more damage from you, scaling with DEX." name="" />
-      <EffectInfo description="Damage boost is increased by 8.5% for every 10 DEX above 50." name="" />
-    </ExtraTooltipData>
-    <BagType>6</BagType>
-    <XPBonus>7</XPBonus>
-    <MpCost>80</MpCost>
-    <Activate duration="5" effect="Damaging" range="6.5" color="-1">ConditionEffectAura</Activate>
-    <OnPlayerAbilityActivate hpCost="100" color="0xff0080" cooldown="0" damageBoost="1.15" duration="5.0" impactDamage="0" proc="1" radius="6.5" scalingStat="DEX" statModDamage="0" statModDamageBoost="0.0085" statModImpactDamage="0" statModRadius="0" statModScalingMin="50" targetMouse="false" throwTime="0" totalDamage="750">PoisonGrenade</OnPlayerAbilityActivate>
-    <ActivateOnEquip amount="40" stat="MAXHP">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="4" stat="DEX">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="4" stat="VIT">IncrementStat</ActivateOnEquip>
-    <feedPower>1000</feedPower>
-  </Object>
-  <Object id="Skull of Restless Souls" type="0x519d">
-    <DisplayId>Skull of Restless Souls</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture xOffset="0" yOffset="-2">
-      <File>ancientCityObjects8x8</File>
-      <Index>156</Index>
-    </Texture>
-    <SlotType>19</SlotType>
-    <Description>An unnaturally pristine skull adorned with a crown of thorns. Various parts of this once holy figure continue to be worshipped as sacred relics post-mortem as they bestow graces and miracles through the traces of divine power abiding within.</Description>
-    <Usable />
-    <BagType>6</BagType>
-    <MpCost>100</MpCost>
-    <ActivateOnEquip amount="50" stat="MAXHP">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="4" stat="ATT">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="4" stat="DEF">IncrementStat</ActivateOnEquip>
-    <Ability name="Attack Mode">
-      <ExtraTooltipData>
-        <EffectInfo description="Undead skeletons that last for 10 seconds and chases enemies" name="Summons" />
-        <EffectInfo description="Undead skeletons heal 50 HP within 5 squares upon decaying." name="Ash and Dust" />
-      </ExtraTooltipData>
-      <Activate heal="0" healRange="4" ignoreDef="30" radius="3.75" totalDamage="250" wisDamageBase="80">VampireBlast</Activate>
-      <Activate maxSpawnDistance="2.0" objectId="Summon Skeleton Attack">SpawnCreep</Activate>
-      <MpCost>100</MpCost>
-      <SwitchTime>0.75</SwitchTime>
-    </Ability>
-    <Ability name="Defense Mode">
-      <ExtraTooltipData>
-        <EffectInfo description="Undead skeletons with 1500 HP that last for 10 seconds and protects the user." name="Summons" />
-        <EffectInfo description="Undead skeletons heal 50 HP within 5 squares upon decaying." name="Ash and Dust" />
-      </ExtraTooltipData>
-      <Activate heal="0" healRange="4" ignoreDef="30" radius="3.75" totalDamage="250" wisDamageBase="80">VampireBlast</Activate>
-      <Activate maxSpawnDistance="2.0" objectId="Summon Skeleton Defend">SpawnCreep</Activate>
-      <MpCost>100</MpCost>
-      <SwitchTime>0.75</SwitchTime>
-    </Ability>
-    <feedPower>1000</feedPower>
-    <Soulbound />
-    <XPBonus>7</XPBonus>
-  </Object>
-  <Object id="Summon Skeleton Attack" type="0x51a2">
-    <Class>Summon</Class>
-    <AnimatedTexture>
-      <File>chars8x8rHero1</File>
-      <Index>0x01</Index>
-    </AnimatedTexture>
-    <ShadowSize>35</ShadowSize>
-    <Projectile id="0">
-      <ObjectId>UDL Bone</ObjectId>
-      <Speed>100</Speed>
-      <MinDamage>130</MinDamage>
-      <MaxDamage>170</MaxDamage>
-      <ArmorPiercing />
-      <LifetimeMS>450</LifetimeMS>
-      <Size>50</Size>
-      <MultiHit />
-    </Projectile>
-    <Size>100</Size>
-    <NoMiniMap />
-  </Object>
-  <Object id="Summon Skeleton Defend" type="0x51b2">
-    <Class>Summon</Class>
-    <AnimatedTexture>
-      <File>chars8x8rHero1</File>
-      <Index>0x01</Index>
-    </AnimatedTexture>
-    <ShadowSize>35</ShadowSize>
-    <Projectile id="0">
-      <ObjectId>UDL Bone</ObjectId>
-      <Speed>100</Speed>
-      <MinDamage>130</MinDamage>
-      <MaxDamage>170</MaxDamage>
-      <ArmorPiercing />
-      <LifetimeMS>450</LifetimeMS>
-      <Size>50</Size>
-      <MultiHit />
-    </Projectile>
-    <MaxHitPoints>1500</MaxHitPoints>
-    <Size>100</Size>
-    <NoMiniMap />
-    <OrbitCreepMaster clockwiseProb="1" maxRadius="2" minRadius="2" radiusVariability="0.0" speed="0.8" speedUpCoef="0.4" speedVariability="0" />
-  </Object>
-  <Object id="Summon Skeleton Move Object" type="0x51a3">
-    <Class>Character</Class>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <Size>-1</Size>
-    <NoMiniMap />
-    <ShadowSize>0</ShadowSize>
-  </Object>
-  <Object id="Summon Skeleton Heal Object" type="0x51b9">
-    <Class>Character</Class>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <Size>-1</Size>
-    <NoMiniMap />
-    <ShadowSize>0</ShadowSize>
-  </Object>
-  <Object id="Torrential Staff" type="0x51a7">
-    <DisplayId>Torrential Staff</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>ancientCityObjects8x8</File>
-      <Index>150</Index>
-    </Texture>
-    <SlotType>17</SlotType>
-    <Description>A majestic trident adorned with enchanted coral formations that enables command of the tides. Once wielded by King Alexander in his conquest of the oceans, its power has since faded with each passing moon from natural weathering.</Description>
-    <RateOfFire>0.6</RateOfFire>
-    <Sound>weapon/sprite_wand</Sound>
-    <Subattack projectileId="0">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.6</RateOfFire>
-      <PosOffset>0,0.5</PosOffset>
-    </Subattack>
-    <Subattack projectileId="1">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.6</RateOfFire>
-      <PosOffset>1.0,0.25</PosOffset>
-      <DefaultAngle>-3</DefaultAngle>
-    </Subattack>
-    <Subattack projectileId="1">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.6</RateOfFire>
-      <PosOffset>-1.0,0.25</PosOffset>
-      <DefaultAngle>3</DefaultAngle>
-    </Subattack>
-    <Subattack projectileId="2">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.6</RateOfFire>
-      <PosOffset>-2.0,0</PosOffset>
-      <DefaultAngle>7</DefaultAngle>
-    </Subattack>
-    <Subattack projectileId="2">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>0.6</RateOfFire>
-      <PosOffset>2.0,0</PosOffset>
-      <DefaultAngle>-7</DefaultAngle>
-    </Subattack>
-    <Projectile id="0">
-      <ObjectId>Spinning Bubble</ObjectId>
-      <Speed>120</Speed>
-      <Size>110</Size>
-      <MinDamage>85</MinDamage>
-      <MaxDamage>110</MaxDamage>
-      <LifetimeMS>1700</LifetimeMS>
-      <Acceleration>-120</Acceleration>
-      <SpeedClamp>0</SpeedClamp>
-      <AccelerationDelay>100</AccelerationDelay>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="1">
-      <ObjectId>Spinning Bubble</ObjectId>
-      <Speed>120</Speed>
-      <Size>100</Size>
-      <MinDamage>85</MinDamage>
-      <MaxDamage>110</MaxDamage>
-      <LifetimeMS>1700</LifetimeMS>
-      <Acceleration>-120</Acceleration>
-      <SpeedClamp>0</SpeedClamp>
-      <AccelerationDelay>50</AccelerationDelay>
-      <MultiHit />
-    </Projectile>
-    <Projectile id="2">
-      <ObjectId>Spinning Bubble</ObjectId>
-      <Speed>120</Speed>
-      <Size>90</Size>
-      <MinDamage>85</MinDamage>
-      <MaxDamage>110</MaxDamage>
-      <LifetimeMS>1700</LifetimeMS>
-      <Acceleration>-120</Acceleration>
-      <SpeedClamp>0</SpeedClamp>
-      <AccelerationDelay>0</AccelerationDelay>
-      <MultiHit />
-    </Projectile>
-    <BagType>6</BagType>
-    <OldSound>magicShoot</OldSound>
-    <feedPower>1000</feedPower>
-    <XPBonus>7</XPBonus>
-    <Soulbound />
-  </Object>
-  <Object id="Cavalry Lance" type="0x51a8">
-    <DisplayId>Cavalry Lance</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>ancientCityObjects8x8</File>
-      <Index>159</Index>
-    </Texture>
-    <SlotType>5</SlotType>
-    <Description>A resplendent, gilded lance once wielded by a legendary horseback rider of yore during the great Draconic Cataclysm. Its formidable reach could slay monstrous dragons with seemingly impenetrable bodies by impaling their deeply buried hearts.</Description>
-    <ExtraTooltipData>
-      <EffectInfo description="1 tiles" name="Min Dash Distance" />
-      <EffectInfo description="2.5 tiles" name="Max Dash Distance" />
-      <EffectInfo description="400" name="Trail Damage" />
-      <EffectInfo description="6" name="Shots" />
-      <EffectInfo description="Inspired for 5 seconds." name="On Self" />
-      <EffectInfo description="x1.25" name="Projectile Speed Multiplier" />
-    </ExtraTooltipData>
-    <Projectile>
-      <ObjectId>Biome Polearm</ObjectId>
-      <Speed>315</Speed>
-      <LifetimeMS>350</LifetimeMS>
-      <MinDamage>400</MinDamage>
-      <MaxDamage>500</MaxDamage>
-      <Acceleration>-10000</Acceleration>
-      <AccelerationDelay>0</AccelerationDelay>
-      <SpeedClamp>150</SpeedClamp>
-      <Size>100</Size>
-      <MultiHit />
-      <PassesCover />
-      <ProtectFromSink />
-      <ConditionEffect duration="3">Stunned</ConditionEffect>
-    </Projectile>
-    <Usable />
-    <ActivateOnEquip amount="10" stat="DEF">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="6" stat="ATT">IncrementStat</ActivateOnEquip>
-    <BagType>6</BagType>
-    <MpCost>100</MpCost>
-    <Activate>Shoot</Activate>
-    <feedPower>1000</feedPower>
-    <Soulbound />
-    <XPBonus>7</XPBonus>
-  </Object>
-  <Object id="Mace of the Pumpkin Effigy" type="0x51aa">
-    <DisplayId>Mace of the Pumpkin Effigy</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture xOffset="-2" yOffset="0">
-      <File>ancientCityObjects8x8</File>
-      <Index>158</Index>
-    </Texture>
-    <SlotType>29</SlotType>
-    <Description>A sinister twist on the scarecrow's intended use. Totalia bewitched these cursed figures with an uncanny allure to enthral victims into their untimely demise.</Description>
-    <Projectile id="0">
-      <ObjectId>Black Flail Chain</ObjectId>
-      <Speed>0</Speed>
-      <MinDamage>70</MinDamage>
+      <MinDamage>200</MinDamage>
       <MaxDamage>200</MaxDamage>
-      <LifetimeMS>0</LifetimeMS>
-      <Size>100</Size>
-      <MultiHit />
-      <ArmorPiercing />
-      <PassesCover />
-    </Projectile>
-    <NumProjectiles>1</NumProjectiles>
-    <ExtraTooltipData>
-      <EffectInfo description="Lures enemies in and attacks them within 6 tiles." name="Jumpscare" />
-      <EffectInfo description="6 seconds" name="Active Lifetime" />
-      <EffectInfo description="20 seconds" name="Max Lifetime" />
-    </ExtraTooltipData>
-    <Sound>spell/magic_nova</Sound>
-    <Activate maxSpawnDistance="0" objectId="Summon Scarecrow">SpawnCreep</Activate>
-    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="5" stat="ATT">IncrementStat</ActivateOnEquip>
-    <Usable />
-    <BagType>6</BagType>
-    <MpCost>120</MpCost>
-    <feedPower>1000</feedPower>
-    <Soulbound />
-    <XPBonus>7</XPBonus>
-  </Object>
-  <Object id="Evolutionary Records" type="0x51a4">
-    <DisplayId>Evolutionary Records</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture xOffset="-2" yOffset="0">
-      <File>ancientCityObjects8x8</File>
-      <Index>151</Index>
-    </Texture>
-    <SlotType>4</SlotType>
-    <Description>An ancient volume recording ancestral lineages dating as far back as the Primal Era. Infused with the essence of druidic magic, it grants the power to delve into nature's eternal transformation, morphing its caster into formidable creatures.</Description>
-    <Sound>spell/magic_nova</Sound>
-    <BagType>6</BagType>
-    <feedPower>1000</feedPower>
-    <Soulbound />
-    <XPBonus>7</XPBonus>
-    <Usable />
-    <ActivateOnEquip amount="50" stat="MAXHP">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="50" stat="MAXMP">IncrementStat</ActivateOnEquip>
-    <Ability name="Sea Evolution">
-      <ExtraTooltipData>
-        <EffectInfo description="Turn into a powerful crustacean for 6 seconds." name="Evolution" />
-        <EffectInfo description="Gain two additional projectiles on shoot which deal 80-110 damage." name="Transformation Perks" />
-      </ExtraTooltipData>
-      <Activate skin="0x6EF" duration="6">SelfTransform</Activate>
-      <Activate amount="100" range="4.5" splitHealing="true" wisHealBase="35" wisMin="50" wisPerIncrease="8">HealNova</Activate>
-      <Activate amount="15" channel="diminishingReturns" duration="6" stat="WIS">StatBoostSelf</Activate>
-      <Activate amount="15" channel="diminishingReturns" duration="6" stat="VIT">StatBoostSelf</Activate>
-      <Activate amount="-10" channel="diminishingReturns" duration="6" stat="SPD">StatBoostSelf</Activate>
-      <Activate amount="-10" channel="diminishingReturns" duration="6" stat="DEX">StatBoostSelf</Activate>
-      <OnPlayerShootActivate arcGap="0" cooldown="0" gapAngle="0" gapTiles="0" maxDistance="0.2" minDistance="0.2" numShots="2" offsetAngle="0" proc="1" targetMouse="true" type="0x51af" requiredConditions="Wis Boost">BulletCreate</OnPlayerShootActivate>
-      <MpCost>115</MpCost>
-      <Cooldown>3</Cooldown>
-      <SwitchTime>3</SwitchTime>
-    </Ability>
-    <Ability name="Land Evolution">
-      <ExtraTooltipData>
-        <EffectInfo description="Turn into a powerful reptile for 6 seconds." name="Evolution" />
-        <EffectInfo description="Gain two additional projectiles on shoot which deal 90-110 damage." name="Transformation Perks" />
-      </ExtraTooltipData>
-      <Activate skin="0x6EE" duration="6">SelfTransform</Activate>
-      <Activate amount="100" range="2.5" splitHealing="true" wisHealBase="35" wisMin="50" wisPerIncrease="12">HealNova</Activate>
-      <Activate amount="15" channel="diminishingReturns" duration="6" stat="ATT">StatBoostSelf</Activate>
-      <Activate amount="15" channel="diminishingReturns" duration="6" stat="DEF">StatBoostSelf</Activate>
-      <Activate amount="-10" channel="diminishingReturns" duration="6" stat="WIS">StatBoostSelf</Activate>
-      <Activate amount="-100" channel="diminishingReturns" duration="6" stat="MAXHP">StatBoostSelf</Activate>
-      <OnPlayerShootActivate arcGap="11" cooldown="0" gapAngle="0" gapTiles="0" maxDistance="0.2" minDistance="0.2" numShots="2" offsetAngle="0" proc="1" targetMouse="true" type="0x51b0" requiredConditions="Def Boost">BulletCreate</OnPlayerShootActivate>
-      <MpCost>115</MpCost>
-      <Cooldown>3</Cooldown>
-      <SwitchTime>3</SwitchTime>
-    </Ability>
-    <Ability name="Sky Evolution">
-      <ExtraTooltipData>
-        <EffectInfo description="Turn into a powerful insect for 6 seconds." name="Evolution" />
-        <EffectInfo description="Gain two additional projectiles on shoot which deal 40-60 armour piercing damage." name="Transformation Perks" />
-      </ExtraTooltipData>
-      <Activate skin="0x6ED" duration="6">SelfTransform</Activate>
-      <Activate amount="100" range="3.5" splitHealing="true" wisHealBase="35" wisMin="50" wisPerIncrease="10">HealNova</Activate>
-      <Activate amount="15" channel="diminishingReturns" duration="6" stat="DEX">StatBoostSelf</Activate>
-      <Activate amount="15" channel="diminishingReturns" duration="6" stat="SPD">StatBoostSelf</Activate>
-      <Activate amount="-10" channel="diminishingReturns" duration="6" stat="VIT">StatBoostSelf</Activate>
-      <Activate amount="-10" channel="diminishingReturns" duration="6" stat="DEF">StatBoostSelf</Activate>
-      <OnPlayerShootActivate arcGap="0" cooldown="0" gapAngle="0" gapTiles="0" maxDistance="6" minDistance="6" numShots="1" offsetAngle="13.135" proc="1" targetMouse="true" type="0x51b1" requiredConditions="Spd Boost">BulletCreate</OnPlayerShootActivate>
-      <OnPlayerShootActivate arcGap="0" cooldown="0" gapAngle="0" gapTiles="0" maxDistance="6" minDistance="6" numShots="1" offsetAngle="-13.135" proc="1" targetMouse="true" type="0x51b1" requiredConditions="Spd Boost">BulletCreate</OnPlayerShootActivate>
-      <MpCost>115</MpCost>
-      <Cooldown>3</Cooldown>
-      <SwitchTime>3</SwitchTime>
-    </Ability>
-  </Object>
-  <Object id="Carboniferous Tome Proc 1" type="0x51af">
-    <Class>Equipment</Class>
-    <Item />
-    <Texture xOffset="2" yOffset="0">
-      <File>lofiObj6</File>
-      <Index>0x54</Index>
-    </Texture>
-    <SlotType>4</SlotType>
-    <Description>Survival of the fittest.</Description>
-    <Sound>spell/magic_nova</Sound>
-    <BagType>6</BagType>
-    <feedPower>1300</feedPower>
-    <Soulbound />
-    <XPBonus>8</XPBonus>
-    <Projectile>
-      <ObjectId>Corsair Crab Claw</ObjectId>
-      <Speed>0</Speed>
-      <LifetimeMS>500</LifetimeMS>
-      <MinDamage>80</MinDamage>
-      <MaxDamage>110</MaxDamage>
-      <Acceleration>10000</Acceleration>
-      <AccelerationDelay>0</AccelerationDelay>
-      <SpeedClamp>160</SpeedClamp>
-      <Size>110</Size>
-      <MultiHit />
-      <Amplitude>0.8</Amplitude>
-      <Frequency>2.5</Frequency>
-      <ProtectFromSink />
-    </Projectile>
-    <Usable />
-  </Object>
-  <Object id="Carboniferous Tome Proc 2" type="0x51b0">
-    <Class>Equipment</Class>
-    <Item />
-    <Texture xOffset="2" yOffset="0">
-      <File>lofiObj6</File>
-      <Index>0x54</Index>
-    </Texture>
-    <SlotType>4</SlotType>
-    <Description>Survival of the fittest.</Description>
-    <Sound>spell/magic_nova</Sound>
-    <BagType>6</BagType>
-    <feedPower>1300</feedPower>
-    <Soulbound />
-    <XPBonus>8</XPBonus>
-    <Projectile>
-      <ObjectId>CorrPala Dark Blast</ObjectId>
-      <Speed>0</Speed>
-      <LifetimeMS>730</LifetimeMS>
-      <MinDamage>90</MinDamage>
-      <MaxDamage>110</MaxDamage>
-      <Acceleration>10000</Acceleration>
-      <AccelerationDelay>0</AccelerationDelay>
-      <SpeedClamp>110</SpeedClamp>
-      <Size>90</Size>
-      <ProtectFromSink />
-    </Projectile>
-    <Usable />
-  </Object>
-  <Object id="Carboniferous Tome Proc 3" type="0x51b1">
-    <DisplayId>Darwin's Tome</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture xOffset="2" yOffset="0">
-      <File>lofiObj6</File>
-      <Index>0x54</Index>
-    </Texture>
-    <SlotType>4</SlotType>
-    <Description>Survival of the fittest.</Description>
-    <Sound>spell/magic_nova</Sound>
-    <BagType>6</BagType>
-    <feedPower>1300</feedPower>
-    <Soulbound />
-    <XPBonus>8</XPBonus>
-    <Projectile>
-      <ObjectId>Cyan Cross Slash</ObjectId>
-      <Speed>286.5</Speed>
-      <LifetimeMS>430</LifetimeMS>
-      <MinDamage>40</MinDamage>
-      <MaxDamage>60</MaxDamage>
-      <Acceleration>-10000</Acceleration>
-      <AccelerationDelay>0</AccelerationDelay>
-      <SpeedClamp>200</SpeedClamp>
-      <Size>85</Size>
-      <MultiHit />
-      <PassesCover />
-      <ArmorPiercing />
-      <ProtectFromSink />
-    </Projectile>
-    <Usable />
-  </Object>
-  <Object id="Runes of Knowledge" type="0x51a5">
-    <DisplayId>Runes of Knowledge</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>ancientCityObjects8x8</File>
-      <Index>154</Index>
-    </Texture>
-    <SlotType>11</SlotType>
-    <Description>A stone slab adorned with enigmatic symbols, harkening to an era of ancient technology still shrouded in obscurity. These same inscrutable runes are found etched on surfaces within the Tundra, beckoning those who dare to decipher their secrets.</Description>
-    <ExtraTooltipData>
-      <EffectInfo description="Conjure mysterious runes that deal 110-160 damage every 0.6 seconds to enemies within 7 squares, lasting 6 seconds." name="Rune Carvings" />
-    </ExtraTooltipData>
-    <Sound>spell/magic_nova</Sound>
-    <Projectile>
-      <ObjectId>HSkull Wave</ObjectId>
-      <Size>80</Size>
-      <Speed>5</Speed>
-      <MinDamage>150</MinDamage>
-      <MaxDamage>170</MaxDamage>
-      <LifetimeMS>7000</LifetimeMS>
-      <Acceleration>10</Acceleration>
-      <AccelerationDelay>2000</AccelerationDelay>
-      <SpeedClamp>80</SpeedClamp>
-      <PassesCover />
-      <ConditionEffect duration="3">Weak</ConditionEffect>
-    </Projectile>
-    <Usable />
-    <BagType>6</BagType>
-    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="5" stat="VIT">IncrementStat</ActivateOnEquip>
-    <feedPower>1000</feedPower>
-    <MpCost>90</MpCost>
-    <Activate numShots="10" color="0xAEDBF0">BulletNova</Activate>
-    <Activate color="-1" objectId="Runic Tundra Spell Object" throwTime="0">ObjectToss</Activate>
-    <Soulbound />
-    <XPBonus>7</XPBonus>
-  </Object>
-  <Object id="Runic Tundra Spell Object" type="0x51a6">
-    <Class>Character</Class>
-    <Texture>
-      <File>ancientCityObjects8x8</File>
-      <Index>178</Index>
-    </Texture>
-    <Animation period="0" prob="1">
-      <Frame time="0.1">
-        <Texture>
-          <File>ancientCityObjects8x8</File>
-          <Index>178</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>ancientCityObjects8x8</File>
-          <Index>179</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>ancientCityObjects8x8</File>
-          <Index>180</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>ancientCityObjects8x8</File>
-          <Index>181</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>ancientCityObjects8x8</File>
-          <Index>182</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.1">
-        <Texture>
-          <File>ancientCityObjects8x8</File>
-          <Index>183</Index>
-        </Texture>
-      </Frame>
-    </Animation>
-    <Size>70</Size>
-    <NoMiniMap />
-    <ShadowSize>0</ShadowSize>
-  </Object>
-  <Object id="Summon Scarecrow" type="0x51ab">
-    <Class>Summon</Class>
-    <AnimatedTexture>
-      <File>hauntedHallowsChars16x16</File>
-      <Index>6</Index>
-    </AnimatedTexture>
-    <Size>120</Size>
-    <ShadowSize>35</ShadowSize>
-    <Projectile id="0">
-      <ObjectId>AoO Spell Proj</ObjectId>
-      <Speed>75</Speed>
-      <MinDamage>190</MinDamage>
-      <MaxDamage>210</MaxDamage>
-      <LifetimeMS>2000</LifetimeMS>
-      <Size>140</Size>
-      <MultiHit />
-      <PassesCover />
+      <LifetimeMS>750</LifetimeMS>
       <Boomerang />
+      <MultiHit />
     </Projectile>
     <Projectile id="1">
       <ObjectId>Black Flail Chain</ObjectId>
-      <Speed>56.25</Speed>
-      <MinDamage>70</MinDamage>
-      <MaxDamage>85</MaxDamage>
-      <LifetimeMS>2000</LifetimeMS>
-      <Size>110</Size>
-      <MultiHit />
-      <ArmorPiercing />
-      <PassesCover />
+      <Speed>75</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
       <Boomerang />
+      <ArmorPiercing />
+      <MultiHit />
     </Projectile>
     <Projectile id="2">
       <ObjectId>Black Flail Chain</ObjectId>
-      <Speed>37.5</Speed>
-      <MinDamage>70</MinDamage>
-      <MaxDamage>85</MaxDamage>
-      <LifetimeMS>2000</LifetimeMS>
-      <Size>95</Size>
-      <MultiHit />
-      <ArmorPiercing />
-      <PassesCover />
+      <Speed>50</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>750</LifetimeMS>
       <Boomerang />
-    </Projectile>
-    <Projectile id="3">
-      <ObjectId>Black Flail Chain</ObjectId>
-      <Speed>18.75</Speed>
-      <MinDamage>70</MinDamage>
-      <MaxDamage>85</MaxDamage>
-      <LifetimeMS>2000</LifetimeMS>
-      <Size>80</Size>
-      <MultiHit />
       <ArmorPiercing />
-      <PassesCover />
-      <Boomerang />
-    </Projectile>
-    <NoMiniMap />
-  </Object>
-  <Object id="Summon Scarecrow Helper Object" type="0x51ac">
-    <Class>Character</Class>
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <Size>-1</Size>
-    <NoMiniMap />
-    <ShadowSize>0</ShadowSize>
-  </Object>
-  <Object id="Summon Scarecrow Decoy" type="0x166B">
-    <Class>Character</Class>
-    <Friendly />
-    <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
-    </Texture>
-    <Size>-1</Size>
-    <NoMiniMap />
-    <ShadowSize>0</ShadowSize>
-  </Object>
-  <Object id="Pollen Incendiary" type="0x51b5">
-    <DisplayId>Pollen Incendiary</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture xOffset="-2" yOffset="0">
-      <File>ancientCityObjects8x8</File>
-      <Index>176</Index>
-    </Texture>
-    <SlotType>18</SlotType>
-    <Description>A diabolical fusion of magic and chemical warfare engineered by Dr. Terrible in his effort to subjugate the Nest. When unleashed, it triggers a cataclysmic chain reaction between the charged volatile pollen that engulfs the air in a blinding and roaring inferno.</Description>
-    <ExtraTooltipData>
-      <EffectInfo description="Consumes most of your available MP upon casting the poison. The greater the amount of MP consumed the more potent the explosion." name="Arcane Nourishment" />
-      <EffectInfo description="Pollen lingers within 10 squares of ground zero, dealing 120-200 damage." name="Pollen Fallout" />
-    </ExtraTooltipData>
-    <ActivateOnEquip amount="40" stat="MAXHP">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="-6" stat="VIT">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="-6" stat="WIS">IncrementStat</ActivateOnEquip>
-    <Usable />
-    <BagType>6</BagType>
-    <MpCost>120</MpCost>
-    <feedPower>1000</feedPower>
-    <Cooldown>5</Cooldown>
-    <XPBonus>7</XPBonus>
-    <Activate color="0xEFC000" damageBoost="1.0" duration="10" radius="10" scalingStat="WIS" statModDamage="120" statModDamageBoost="0.0" statModImpactDamage="250" impactDamage="600" statModRadius="0.0" statModScalingMin="50" throwTime="2" totalDamage="450">PoisonGrenade</Activate>
-    <OnPlayerAbilityActivate proc="1" color="-1" cooldown="0" manaRequired="60" manaCost="60" objectId="Pollen Poison Object" throwTime="2.0" targetMouse="true">ObjectToss</OnPlayerAbilityActivate>
-    <OnPlayerAbilityActivate proc="1" color="-1" cooldown="0" manaRequired="60" manaCost="60" objectId="Pollen Poison Object" throwTime="2.2" targetMouse="true">ObjectToss</OnPlayerAbilityActivate>
-    <OnPlayerAbilityActivate proc="1" color="-1" cooldown="0" manaRequired="60" manaCost="60" objectId="Pollen Poison Object" throwTime="2.4" targetMouse="true">ObjectToss</OnPlayerAbilityActivate>
-    <OnPlayerAbilityActivate proc="1" color="-1" cooldown="0" manaRequired="60" manaCost="60" objectId="Pollen Poison Object" throwTime="2.6" targetMouse="true">ObjectToss</OnPlayerAbilityActivate>
-    <OnPlayerAbilityActivate proc="1" color="-1" cooldown="0" manaRequired="60" manaCost="60" objectId="Pollen Poison Object" throwTime="2.8" targetMouse="true">ObjectToss</OnPlayerAbilityActivate>
-    <OnPlayerAbilityActivate proc="1" color="-1" cooldown="0" manaRequired="60" manaCost="60" objectId="Pollen Poison Object" throwTime="3.0" targetMouse="true">ObjectToss</OnPlayerAbilityActivate>
-    <OnPlayerAbilityActivate proc="1" color="-1" cooldown="0" manaRequired="60" manaCost="60" objectId="Pollen Poison Object" throwTime="2.0" targetMouse="true">ObjectToss</OnPlayerAbilityActivate>
-    <OnPlayerAbilityActivate proc="1" color="-1" cooldown="0" manaRequired="60" manaCost="60" objectId="Pollen Poison Object" throwTime="2.2" targetMouse="true">ObjectToss</OnPlayerAbilityActivate>
-    <OnPlayerAbilityActivate proc="1" color="-1" cooldown="0" manaRequired="60" manaCost="60" objectId="Pollen Poison Object" throwTime="2.4" targetMouse="true">ObjectToss</OnPlayerAbilityActivate>
-    <OnPlayerAbilityActivate proc="1" color="-1" cooldown="0" manaRequired="60" manaCost="60" objectId="Pollen Poison Object" throwTime="2.6" targetMouse="true">ObjectToss</OnPlayerAbilityActivate>
-    <OnPlayerAbilityActivate proc="1" color="-1" cooldown="0" manaRequired="60" manaCost="60" objectId="Pollen Poison Object" throwTime="2.8" targetMouse="true">ObjectToss</OnPlayerAbilityActivate>
-    <OnPlayerAbilityActivate proc="1" color="-1" cooldown="0" manaRequired="60" manaCost="60" objectId="Pollen Poison Object" throwTime="3.0" targetMouse="true">ObjectToss</OnPlayerAbilityActivate>
-    <Soulbound />
-  </Object>
-  <Object id="Pollen Poison Object" type="0x51b8">
-    <Class>Character</Class>
-    <Texture>
-      <File>wetlandsObjects16x16</File>
-      <Index>128</Index>
-    </Texture>
-    <Size>120</Size>
-    <ShadowSize>50</ShadowSize>
-    <NoMiniMap />
-    <SetStyle>Explosion</SetStyle>
-    <Effect color="0xEFC000" life=".5" lifeVariance="0" rangeX="10" rangeY="10" rate="7" rise="0" riseAcc="0" riseVariance="0" size="4" speed="0" speedVariance="0">CustomParticles</Effect>
-    <Animation period="0" prob="1" id="ExplosionAnimation">
-      <Frame time="0.15">
-        <Texture>
-          <File>wetlandsObjects16x16</File>
-          <Index>128</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.15">
-        <Texture>
-          <File>wetlandsObjects16x16</File>
-          <Index>129</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.15">
-        <Texture>
-          <File>wetlandsObjects16x16</File>
-          <Index>130</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.15">
-        <Texture>
-          <File>wetlandsObjects16x16</File>
-          <Index>131</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.15">
-        <Texture>
-          <File>wetlandsObjects16x16</File>
-          <Index>132</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.15">
-        <Texture>
-          <File>wetlandsObjects16x16</File>
-          <Index>133</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.15">
-        <Texture>
-          <File>wetlandsObjects16x16</File>
-          <Index>134</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.15">
-        <Texture>
-          <File>wetlandsObjects16x16</File>
-          <Index>135</Index>
-        </Texture>
-      </Frame>
-      <Frame time="9999">
-        <Texture>
-          <File>invisible</File>
-          <Index>0</Index>
-        </Texture>
-      </Frame>
-    </Animation>
-    <Presentation>
-      <Style id="Explosion">
-        <StyleStep id="ExplosionAnimation">SetAnimation</StyleStep>
-      </Style>
-    </Presentation>
-  </Object>
-  <Object id="Bloodbath Blade" type="0x5192">
-    <DisplayId>Bloodbath Blade</DisplayId>
-    <Texture>
-      <File>ancientCityObjects8x8</File>
-      <Index>153</Index>
-    </Texture>
-    <Description>A malevolent katana infested with parasitic organisms. The ravenous symbiotes instills in its user a thirst for blood, which grows as it drinks from the life force of its wielder and their foes alike.</Description>
-    <ExtraTooltipData>
-      <EffectInfo description="Sick on self when in combat. Gain an ATK boost the lower your HP is." name="On Shoot" />
-    </ExtraTooltipData>
-    <Subattack projectileId="0">
-      <NumProjectiles>1</NumProjectiles>
-      <RateOfFire>1.4</RateOfFire>
-    </Subattack>
-    <Subattack projectileId="1">
-      <NumProjectiles>3</NumProjectiles>
-      <ArcGap>120</ArcGap>
-      <DefaultAngle>60</DefaultAngle>
-      <DefaultAngleIncr>30</DefaultAngleIncr>
-      <RateOfFire>0.25</RateOfFire>
-    </Subattack>
-    <Projectile id="0">
-      <ObjectId>Bloodbath Shot</ObjectId>
-      <Speed>140</Speed>
-      <MinDamage>150</MinDamage>
-      <MaxDamage>170</MaxDamage>
-      <LifetimeMS>700</LifetimeMS>
-      <Size>110</Size>
-      <Boomerang />
       <MultiHit />
     </Projectile>
-    <Projectile id="1">
-      <ObjectId>Bloodbath Splatter</ObjectId>
-      <Speed>15</Speed>
-      <MinDamage>60</MinDamage>
-      <MaxDamage>80</MaxDamage>
-      <Acceleration>-10</Acceleration>
-      <AccelerationDelay>0</AccelerationDelay>
-      <SpeedClamp>0</SpeedClamp>
-      <LifetimeMS>2500</LifetimeMS>
-      <ArmorPiercing />
-      <Wavy />
-      <Size>75</Size>
-      <MultiHit />
-    </Projectile>
-    <Class>Equipment</Class>
-    <Item />
-    <SlotType>24</SlotType>
-    <RateOfFire>1.4</RateOfFire>
-    <OldSound>bladeSwing</OldSound>
-    <BagType>6</BagType>
-    <FameBonus>7</FameBonus>
-    <feedPower>1000</feedPower>
-    <ActivateOnEquip amount="-15" stat="VIT">IncrementStat</ActivateOnEquip>
+    <BagType>9</BagType>
+    <feedPower>950</feedPower>
     <Soulbound />
-    <OnPlayerShootActivate color="-1" proc="1" effect="Sick" cooldown="0" duration="1.5" requiredConditions="In Combat">ConditionEffectSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate amount="2" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.95">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate amount="4" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.85">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate amount="6" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.75">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate amount="8" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.65">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate amount="10" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.55">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate amount="12" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.45">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate amount="14" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.35">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate amount="16" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.25">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate amount="18" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.15">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate amount="20" channel="maxStack" color="-1" cooldown="0" duration="1" proc="1" stat="ATT" hpMinThresholdRelative="0.05">StatBoostSelf</OnPlayerShootActivate>
-  </Object>
-  <Object id="Cloak of the Deep" type="0x5193">
-    <DisplayId>Cloak of the Deep</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>ancientCityObjects8x8</File>
-      <Index>152</Index>
-    </Texture>
-    <SlotType>13</SlotType>
-    <Description>An enchanting cloak that conceals its wearer in a veil of iridescent bubbles. The shimmering cascade of bubbles serves as the only lifeline within the sea's deepest hadal trenches.</Description>
-    <Projectile>
-      <ObjectId>Bubble</ObjectId>
-      <Speed>0</Speed>
-      <LifetimeMS>350</LifetimeMS>
-      <MinDamage>55</MinDamage>
-      <MaxDamage>75</MaxDamage>
-      <Acceleration>10000</Acceleration>
-      <AccelerationDelay>0</AccelerationDelay>
-      <SpeedClamp>150</SpeedClamp>
-      <Size>85</Size>
-      <MultiHit />
-      <ProtectFromSink />
-      <ArmorPiercing />
-    </Projectile>
-    <ExtraTooltipData>
-      <EffectInfo description="" name="Inhale" />
-      <EffectInfo description="While holding down the ability key, drain 25 MP/sec and become invisible." name="" />
-      <EffectInfo description="" name="Exhale" />
-      <EffectInfo description="While holding down the ability key, release a stream of bubbles whilst shooting scaling to amount of MP left." name="" />
-    </ExtraTooltipData>
-    <BagType>6</BagType>
-    <feedPower>1000</feedPower>
-    <MpCostPerSecond>25</MpCostPerSecond>
-    <MpCost>0</MpCost>
-    <MpEndCost>0</MpEndCost>
-    <NumProjectiles>3</NumProjectiles>
-    <ArcGap>8</ArcGap>
-    <Soulbound />
-    <XPBonus>7</XPBonus>
-    <MultiPhase />
-    <Usable />
-    <Cooldown>5</Cooldown>
-    <ActivateOnEquip amount="50" stat="MAXMP">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
-    <Activate effect="Invisible" enableGenericManaHealing="false" enableManaRegen="false" enablePetManaHealing="false">ShurikenAbility</Activate>
-    <Activate effect="Stasis Immune" enableGenericManaHealing="false" enableManaRegen="false" enablePetManaHealing="false">ShurikenAbility</Activate>
-    <Activate duration="1" effect="Invisible">ConditionEffectSelf</Activate>
-    <OnPlayerShootActivate arcGap="11" cooldown="0" gapAngle="0" gapTiles="0.4" maxDistance="0.6" minDistance="0.6" numShots="3" offsetAngle="0" proc="1" targetMouse="true" type="0x5193" manaRequiredRelative="0.85" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
-    <OnPlayerShootActivate arcGap="12" cooldown="0.4" gapAngle="0" gapTiles="0" maxDistance="0.2" minDistance="0.2" numShots="2" offsetAngle="14" proc="1" targetMouse="true" type="0x51ad" manaRequiredRelative="0.7" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
-    <OnPlayerShootActivate arcGap="12" cooldown="0.4" gapAngle="0" gapTiles="0" maxDistance="0.2" minDistance="0.2" numShots="2" offsetAngle="-14" proc="1" targetMouse="true" type="0x51ad" manaRequiredRelative="0.7" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
-    <OnPlayerShootActivate arcGap="6" cooldown="0" gapAngle="0" gapTiles="0.05" maxDistance="-0.2" minDistance="-0.2" numShots="4" offsetAngle="0" proc="1" targetMouse="true" type="0x51ae" manaRequiredRelative="0.55" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
-    <OnPlayerShootActivate arcGap="9" cooldown="0.6" gapAngle="0" gapTiles="0.2" maxDistance="0.4" minDistance="0.4" numShots="2" offsetAngle="-10" proc="1" targetMouse="true" type="0x5193" manaRequiredRelative="0.4" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
-    <OnPlayerShootActivate arcGap="9" cooldown="0.6" gapAngle="0" gapTiles="0.2" maxDistance="0.4" minDistance="0.4" numShots="2" offsetAngle="10" proc="1" targetMouse="true" type="0x5193" manaRequiredRelative="0.4" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
-    <OnPlayerShootActivate arcGap="4" cooldown="0" gapAngle="0" gapTiles="0" maxDistance="0.05" minDistance="0.05" numShots="2" offsetAngle="0" proc="1" targetMouse="true" type="0x51ad" manaRequiredRelative="0.25" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
-    <OnPlayerShootActivate arcGap="6" cooldown="0.4" gapAngle="0" gapTiles="0" maxDistance="0.75" minDistance="0.75" numShots="3" offsetAngle="0" proc="1" targetMouse="true" type="0x51ae" manaRequiredRelative="0.1" requiredConditions="Stasis Immune">BulletCreate</OnPlayerShootActivate>
-  </Object>
-  <Object id="Deep Sea Abyss Cloak Proc 1" type="0x51ad">
-    <DisplayId>Breathing Cloak</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>d2LofiObjEmbed</File>
-      <Index>0x17f</Index>
-    </Texture>
-    <SlotType>13</SlotType>
-    <Description>Inhale, exhale.</Description>
-    <Projectile>
-      <ObjectId>Bubble</ObjectId>
-      <Speed>0</Speed>
-      <LifetimeMS>405</LifetimeMS>
-      <MinDamage>55</MinDamage>
-      <MaxDamage>75</MaxDamage>
-      <Acceleration>10000</Acceleration>
-      <AccelerationDelay>0</AccelerationDelay>
-      <SpeedClamp>130</SpeedClamp>
-      <Size>85</Size>
-      <MultiHit />
-      <ArmorPiercing />
-      <ProtectFromSink />
-    </Projectile>
-    <BagType>6</BagType>
-    <feedPower>1000</feedPower>
-    <MpCostPerSecond>40</MpCostPerSecond>
-    <MpCost>0</MpCost>
-    <MpEndCost>0</MpEndCost>
-    <NumProjectiles>0</NumProjectiles>
-    <Soulbound />
-    <XPBonus>7</XPBonus>
-    <MultiPhase />
-    <Usable />
-    <Cooldown>5</Cooldown>
-  </Object>
-  <Object id="Deep Sea Abyss Cloak Proc 2" type="0x51ae">
-    <DisplayId>Breathing Cloak</DisplayId>
-    <Class>Equipment</Class>
-    <Item />
-    <Texture>
-      <File>d2LofiObjEmbed</File>
-      <Index>0x17f</Index>
-    </Texture>
-    <SlotType>13</SlotType>
-    <Description>Inhale, exhale.</Description>
-    <Projectile>
-      <ObjectId>Bubble</ObjectId>
-      <Speed>0</Speed>
-      <LifetimeMS>475</LifetimeMS>
-      <MinDamage>55</MinDamage>
-      <MaxDamage>75</MaxDamage>
-      <Acceleration>10000</Acceleration>
-      <AccelerationDelay>0</AccelerationDelay>
-      <SpeedClamp>110</SpeedClamp>
-      <Size>85</Size>
-      <MultiHit />
-      <ArmorPiercing />
-      <ProtectFromSink />
-    </Projectile>
-    <BagType>6</BagType>
-    <feedPower>1000</feedPower>
-    <MpCostPerSecond>40</MpCostPerSecond>
-    <MpCost>0</MpCost>
-    <MpEndCost>0</MpEndCost>
-    <NumProjectiles>0</NumProjectiles>
-    <Soulbound />
-    <XPBonus>7</XPBonus>
-    <MultiPhase />
-    <Usable />
-    <Cooldown>5</Cooldown>
+    <XPBonus>8</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,FLAIL,UT,SUBTYPE</Labels>
+    <EnchantmentSlots slotChance="0.5,0.375,0.25,0.125" seasonalSlotMod="1.05" forgeSlotMod="0.8" dustType="purpleDust" dustAmounts="50,65,80,100" enchantmentList="Default Enchantment Pool" />
   </Object>
 </Objects>

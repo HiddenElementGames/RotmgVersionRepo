@@ -2,13 +2,13 @@
 <RefineTemplates>
   <RefineTemplate id="Pirate Cave">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -22,13 +22,13 @@
   </RefineTemplate>
   <RefineTemplate id="Forest Maze">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -42,13 +42,13 @@
   </RefineTemplate>
   <RefineTemplate id="Spider Den">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -62,10 +62,16 @@
   </RefineTemplate>
   <RefineTemplate id="Forbidden Jungle">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCA</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -79,13 +85,16 @@
   </RefineTemplate>
   <RefineTemplate id="The Hive">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCA</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -99,13 +108,16 @@
   </RefineTemplate>
   <RefineTemplate id="Sprite World">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCA</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -119,16 +131,19 @@
   </RefineTemplate>
   <RefineTemplate id="Snake Pit">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCA</ApplyModifierWithLabel>
+    </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -142,9 +157,6 @@
   </RefineTemplate>
   <RefineTemplate id="Magic Woods">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
@@ -159,16 +171,19 @@
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
   </RefineTemplate>
   <RefineTemplate id="Cave of A Thousand Treasures">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -182,19 +197,22 @@
   </RefineTemplate>
   <RefineTemplate id="Ancient Ruins">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCA</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -207,14 +225,14 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="Candyland Hunting Grounds">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -228,8 +246,34 @@
   </RefineTemplate>
   <RefineTemplate id="Undead Lair">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </RefineTemplate>
+  <RefineTemplate id="Heroic Undead Lair">
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
@@ -237,10 +281,16 @@
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -254,9 +304,6 @@
   </RefineTemplate>
   <RefineTemplate id="Manor of the Immortals">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
@@ -264,6 +311,9 @@
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -277,16 +327,19 @@
   </RefineTemplate>
   <RefineTemplate id="Mad Lab">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -300,8 +353,34 @@
   </RefineTemplate>
   <RefineTemplate id="Abyss of Demons">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </RefineTemplate>
+  <RefineTemplate id="Infernal Abyss of Demons">
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
@@ -309,10 +388,16 @@
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -326,19 +411,22 @@
   </RefineTemplate>
   <RefineTemplate id="Puppet Master's Theatre">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -352,9 +440,6 @@
   </RefineTemplate>
   <RefineTemplate id="Toxic Sewers">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
@@ -365,6 +450,9 @@
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -378,9 +466,6 @@
   </RefineTemplate>
   <RefineTemplate id="Cursed Library">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>TINCTURE</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
@@ -388,6 +473,9 @@
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -401,19 +489,45 @@
   </RefineTemplate>
   <RefineTemplate id="Haunted Cemetery">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
+    </Condition>
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </RefineTemplate>
+  <RefineTemplate id="Steamworks Scrapyard">
+    <Condition group="R" prob="0.2">
+      <ApplyModifierWithLabel>SCRAPYARD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -427,22 +541,22 @@
   </RefineTemplate>
   <RefineTemplate id="Davy Jones' Locker">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -456,10 +570,7 @@
   </RefineTemplate>
   <RefineTemplate id="Bilgewater's Grotto">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
@@ -476,11 +587,11 @@
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
   </RefineTemplate>
   <RefineTemplate id="Untaris">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -488,7 +599,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -502,9 +616,6 @@
   </RefineTemplate>
   <RefineTemplate id="The Machine">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
@@ -514,7 +625,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -527,9 +641,6 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="The Inner Workings">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -537,7 +648,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -550,9 +664,6 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="The Inner Sanctum">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -560,7 +671,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -574,10 +688,10 @@
   </RefineTemplate>
   <RefineTemplate id="The Third Dimension">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -586,7 +700,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -599,9 +716,6 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="Malogia">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -609,7 +723,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -622,9 +739,6 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="The Crawling Depths">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -632,7 +746,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -645,8 +762,8 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="Ice Cave">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -655,7 +772,39 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </RefineTemplate>
+  <RefineTemplate id="Ice Citadel">
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -668,9 +817,6 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="Katalund">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -678,7 +824,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -692,36 +841,13 @@
   </RefineTemplate>
   <RefineTemplate id="Woodland Labyrinth">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
-      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.5">
-      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
-    </Condition>
-    <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
-    </Condition>
-    <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
-    </Condition>
-    <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
-    </Condition>
-  </RefineTemplate>
-  <RefineTemplate id="Battle for the Nexus">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -730,7 +856,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -743,9 +872,6 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="Forax">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -753,7 +879,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -767,9 +896,6 @@
   </RefineTemplate>
   <RefineTemplate id="Ocean Trench">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.2">
@@ -782,7 +908,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -796,9 +925,6 @@
   </RefineTemplate>
   <RefineTemplate id="Puppet Master's Encore">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
@@ -808,7 +934,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -822,10 +951,13 @@
   </RefineTemplate>
   <RefineTemplate id="Mountain Temple">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>MTEMPLE</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -834,7 +966,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -848,10 +983,10 @@
   </RefineTemplate>
   <RefineTemplate id="Parasite Chambers">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -860,7 +995,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -874,13 +1012,13 @@
   </RefineTemplate>
   <RefineTemplate id="Deadwater Docks">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.4">
       <ApplyModifierWithLabel>DDOCKS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -889,7 +1027,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -903,9 +1044,6 @@
   </RefineTemplate>
   <RefineTemplate id="Cnidarian Reef">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
@@ -915,7 +1053,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -929,10 +1070,10 @@
   </RefineTemplate>
   <RefineTemplate id="Lair of Draconis">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>DRACONIS</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -941,7 +1082,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -955,9 +1099,6 @@
   </RefineTemplate>
   <RefineTemplate id="Belladonna's Garden">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
@@ -967,7 +1108,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -981,9 +1125,6 @@
   </RefineTemplate>
   <RefineTemplate id="Tomb of the Ancients">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
@@ -993,7 +1134,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1006,9 +1150,6 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="Oryx Pandemonium Decaract">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -1016,7 +1157,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1029,9 +1173,6 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="Oryx's Chamber">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -1039,7 +1180,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1052,9 +1196,6 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="Oryx's Castle">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -1062,7 +1203,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1076,9 +1220,6 @@
   </RefineTemplate>
   <RefineTemplate id="High Tech Terror">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
@@ -1088,7 +1229,33 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </RefineTemplate>
+  <RefineTemplate id="Battle for the Nexus">
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1108,7 +1275,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1121,9 +1291,6 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="Ice Tomb">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -1131,7 +1298,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1143,10 +1313,7 @@
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
   </RefineTemplate>
-  <RefineTemplate id="Heroic Undead Lair">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
+  <RefineTemplate id="Legacy Heroic Undead Lair">
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -1154,7 +1321,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1167,9 +1337,6 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="Lair of Shaitan">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -1177,7 +1344,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1190,9 +1360,6 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="Wine Cellar Short">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -1200,7 +1367,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1214,9 +1384,6 @@
   </RefineTemplate>
   <RefineTemplate id="Secluded Thicket">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
-    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
@@ -1226,7 +1393,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1238,10 +1408,7 @@
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
   </RefineTemplate>
-  <RefineTemplate id="Heroic Abyss of Demons">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
-    </Condition>
+  <RefineTemplate id="Legacy Heroic Abyss of Demons">
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -1249,7 +1416,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1263,10 +1433,16 @@
   </RefineTemplate>
   <RefineTemplate id="The Shatters">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="0.1">
+      <ApplyModifierWithLabel>SHATTERS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1275,7 +1451,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1289,10 +1468,13 @@
   </RefineTemplate>
   <RefineTemplate id="Crystal Cavern">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1301,7 +1483,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1315,10 +1500,13 @@
   </RefineTemplate>
   <RefineTemplate id="Cultist Hideout">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1327,7 +1515,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1341,10 +1532,13 @@
   </RefineTemplate>
   <RefineTemplate id="Fungal Cavern">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1353,7 +1547,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1367,10 +1564,16 @@
   </RefineTemplate>
   <RefineTemplate id="The Nest">
     <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1379,7 +1582,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1392,6 +1598,12 @@
     </Condition>
   </RefineTemplate>
   <RefineTemplate id="Lost Halls">
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
+    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
@@ -1399,9 +1611,9 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
     </Condition>
-    <Condition group="R" prob="1">
+    <Condition prob="0.1">
       <ApplyModifierWithLabel>LOST_HALLS</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
@@ -1413,10 +1625,16 @@
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
   </RefineTemplate>
   <RefineTemplate id="The Void">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1425,7 +1643,10 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
@@ -1437,9 +1658,15 @@
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
   </RefineTemplate>
-  <RefineTemplate id="The Void">
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EFFUSION</ApplyModifierWithLabel>
+  <RefineTemplate id="Sulfurous Wetlands">
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1448,7 +1675,170 @@
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
-      <ApplyModifierWithLabel>REWARD</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </RefineTemplate>
+  <RefineTemplate id="Kogbold Steamworks">
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="0.1">
+      <ApplyModifierWithLabel>STEAMWORKS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </RefineTemplate>
+  <RefineTemplate id="Advanced Kogbold Steamworks">
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>ENGRAVINGS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="0.1">
+      <ApplyModifierWithLabel>STEAMWORKS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </RefineTemplate>
+  <RefineTemplate id="Plagued Nest">
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>ENGRAVINGS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </RefineTemplate>
+  <RefineTemplate id="The Tavern">
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
+  </RefineTemplate>
+  <RefineTemplate id="Spectral Penitentiary">
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="1">
+      <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+    </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
