@@ -8809,7 +8809,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>150</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>50</Exp>
     <BXP>475</BXP>
     <Projectile id="0">
       <ObjectId>Legion Mage Proj</ObjectId>
@@ -8831,7 +8831,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>180</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>50</Exp>
     <BXP>475</BXP>
     <Defense>4</Defense>
     <Projectile id="0">
@@ -8853,7 +8853,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>220</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>50</Exp>
     <BXP>475</BXP>
     <Defense>8</Defense>
     <Projectile id="0">
@@ -8875,7 +8875,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>1000</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>400</Exp>
     <BXP>475</BXP>
     <Hero />
     <Quest />
@@ -9008,7 +9008,7 @@
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>15000</MaxHitPoints>
     <Defense>35</Defense>
-    <Exp>150</Exp>
+    <Exp>2500</Exp>
     <BXP>525</BXP>
     <Hero />
     <Quest />
@@ -9039,6 +9039,7 @@
       <LifetimeMS>1500</LifetimeMS>
     </Projectile>
     <Labels>ENEMY,BOSS,LEGION,LEGIONQUEST</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object type="0xD434" id="Legion Hunter">
     <Class>Character</Class>
@@ -9121,7 +9122,7 @@
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>15000</MaxHitPoints>
     <Defense>20</Defense>
-    <Exp>150</Exp>
+    <Exp>2500</Exp>
     <BXP>525</BXP>
     <Hero />
     <Quest />
@@ -9148,6 +9149,7 @@
       <ArmorPiercing />
     </Projectile>
     <Labels>ENEMY,BOSS,LEGION,LEGIONQUEST</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object type="0xD438" id="Legion Mage">
     <Class>Character</Class>
@@ -9273,7 +9275,7 @@
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>17500</MaxHitPoints>
     <Defense>40</Defense>
-    <Exp>150</Exp>
+    <Exp>2500</Exp>
     <BXP>525</BXP>
     <Hero />
     <Quest />
@@ -9291,6 +9293,7 @@
       <LifetimeMS>1500</LifetimeMS>
     </Projectile>
     <Labels>ENEMY,BOSS,LEGION,LEGIONQUEST</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object type="0xD417" id="Legion Veteran Guard">
     <Class>Character</Class>
@@ -9303,7 +9306,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>3500</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>350</Exp>
     <BXP>475</BXP>
     <Defense>35</Defense>
     <Projectile id="0">
@@ -9325,7 +9328,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>4000</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>350</Exp>
     <BXP>475</BXP>
     <Defense>40</Defense>
     <Projectile id="0">
@@ -9358,7 +9361,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>3500</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>350</Exp>
     <BXP>475</BXP>
     <Defense>25</Defense>
     <Projectile id="0">
@@ -9392,7 +9395,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>20000</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>5000</Exp>
     <BXP>475</BXP>
     <Hero />
     <Quest />
@@ -9452,6 +9455,7 @@
       <MultiHit />
     </Projectile>
     <Labels>ENEMY,BOSS,LEGION,LEGIONQUEST</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Legion Watchtower Spawner" type="0xD419">
     <Class>Character</Class>
@@ -9473,7 +9477,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>2500</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>350</Exp>
     <BXP>475</BXP>
     <Defense>25</Defense>
     <Projectile id="0">
@@ -9501,7 +9505,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>3000</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>350</Exp>
     <BXP>475</BXP>
     <Defense>20</Defense>
     <Projectile id="0">
@@ -9524,7 +9528,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>2000</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>350</Exp>
     <BXP>475</BXP>
     <Defense>25</Defense>
     <Projectile>
@@ -9548,7 +9552,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>20000</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>5000</Exp>
     <BXP>475</BXP>
     <Hero />
     <Quest />
@@ -9595,6 +9599,7 @@
       <MultiHit />
     </Projectile>
     <Labels>ENEMY,BOSS,LEGION,LEGIONQUEST</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Legion Strategy Center Spawner" type="0xD41E">
     <Class>Character</Class>
@@ -9634,7 +9639,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>2500</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>350</Exp>
     <BXP>475</BXP>
     <Defense>15</Defense>
     <Projectile id="0">
@@ -9677,7 +9682,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>2000</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>350</Exp>
     <BXP>475</BXP>
     <Defense>20</Defense>
     <Projectile id="0">
@@ -9714,7 +9719,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>2000</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>350</Exp>
     <BXP>475</BXP>
     <Defense>10</Defense>
     <Projectile id="0">
@@ -9765,7 +9770,7 @@
     <HitSound>monster/demons_hit</HitSound>
     <DeathSound>monster/demons_death</DeathSound>
     <MaxHitPoints>20000</MaxHitPoints>
-    <Exp>100</Exp>
+    <Exp>5000</Exp>
     <BXP>475</BXP>
     <Hero />
     <Quest />
@@ -9804,6 +9809,7 @@
       <MultiHit />
     </Projectile>
     <Labels>ENEMY,BOSS,LEGION,LEGIONQUEST</Labels>
+    <SoulboundDust threshold="0.002" prob="1" dustMin="3" dustMax="10" seasonalBonus="0.15">redDust</SoulboundDust>
   </Object>
   <Object id="Legion Research Base Spawner" type="0xD425">
     <Class>Character</Class>

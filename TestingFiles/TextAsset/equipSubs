@@ -16,7 +16,7 @@
       <MinDamage>210</MinDamage>
       <MaxDamage>265</MaxDamage>
       <LifetimeMS>350</LifetimeMS>
-      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="25">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Purple Bolt</ObjectId>
@@ -41,7 +41,7 @@
       <MinDamage>225</MinDamage>
       <MaxDamage>280</MaxDamage>
       <LifetimeMS>350</LifetimeMS>
-      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="25">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="3">
       <ObjectId>Splendor Bolt</ObjectId>
@@ -66,7 +66,7 @@
       <MinDamage>240</MinDamage>
       <MaxDamage>295</MaxDamage>
       <LifetimeMS>350</LifetimeMS>
-      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="25">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="5">
       <ObjectId>Majesty Bolt</ObjectId>
@@ -106,7 +106,7 @@
       <Boomerang />
       <FaceDir />
       <MultiHit />
-      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="25">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Purple Flail Ball</ObjectId>
@@ -168,7 +168,7 @@
       <Boomerang />
       <FaceDir />
       <MultiHit />
-      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="25">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="5">
       <ObjectId>Silver Flail Ball</ObjectId>
@@ -230,7 +230,7 @@
       <Boomerang />
       <FaceDir />
       <MultiHit />
-      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="25">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="9">
       <ObjectId>Black Flail Ball</ObjectId>
@@ -593,7 +593,7 @@
       <MaxDamage>85</MaxDamage>
       <LifetimeMS>440</LifetimeMS>
       <Size>100</Size>
-      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="25">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="1">
       <ObjectId>Large Redder Missle</ObjectId>
@@ -604,7 +604,7 @@
       <MultiHit />
       <Size>100</Size>
       <ArmorPiercing />
-      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="25">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="2">
       <ObjectId>Small Redder Missle</ObjectId>
@@ -651,7 +651,7 @@
       <MaxDamage>95</MaxDamage>
       <LifetimeMS>440</LifetimeMS>
       <Size>100</Size>
-      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="25">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="5">
       <ObjectId>Large Yellow Missle</ObjectId>
@@ -662,7 +662,7 @@
       <MultiHit />
       <Size>100</Size>
       <ArmorPiercing />
-      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="25">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="6">
       <ObjectId>Small Yellow Missle</ObjectId>
@@ -709,7 +709,7 @@
       <MaxDamage>100</MaxDamage>
       <LifetimeMS>440</LifetimeMS>
       <Size>100</Size>
-      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="25">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="9">
       <ObjectId>Large Bluer Missle</ObjectId>
@@ -720,7 +720,7 @@
       <MultiHit />
       <Size>100</Size>
       <ArmorPiercing />
-      <ConditionEffect duration="3.0" bleedDamage="25">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="25">Bleeding</ConditionEffect>
     </Projectile>
     <Projectile id="10">
       <ObjectId>Small Bluer Missle</ObjectId>
@@ -841,7 +841,7 @@
       <MaxDamage>70</MaxDamage>
       <LifetimeMS>380</LifetimeMS>
       <Size>80</Size>
-      <ConditionEffect duration="3.0" bleedDamage="5">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="5">Bleeding</ConditionEffect>
     </Projectile>
     <Subattack index="0" projectileId="0">
       <NumProjectiles>1</NumProjectiles>
@@ -906,7 +906,7 @@
       <MaxDamage>75</MaxDamage>
       <LifetimeMS>380</LifetimeMS>
       <Size>80</Size>
-      <ConditionEffect duration="3.0" bleedDamage="5">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="5">Bleeding</ConditionEffect>
     </Projectile>
     <Subattack index="0" projectileId="2">
       <NumProjectiles>1</NumProjectiles>
@@ -971,7 +971,7 @@
       <MaxDamage>80</MaxDamage>
       <LifetimeMS>380</LifetimeMS>
       <Size>80</Size>
-      <ConditionEffect duration="3.0" bleedDamage="5">Bleeding</ConditionEffect>
+      <ConditionEffect duration="3.0" amount="5">Bleeding</ConditionEffect>
     </Projectile>
     <Subattack index="0" projectileId="4">
       <NumProjectiles>1</NumProjectiles>
@@ -2208,7 +2208,7 @@
       <MinDamage>20</MinDamage>
       <MaxDamage>30</MaxDamage>
       <LifetimeMS>500</LifetimeMS>
-      <ConditionEffect bleedDamage="80" duration="3">Bleeding</ConditionEffect>
+      <ConditionEffect amount="80" duration="3">Bleeding</ConditionEffect>
       <Size>85</Size>
       <ArmorPiercing />
       <ProtectFromSink />
@@ -3318,8 +3318,8 @@
     <Projectile id="0">
       <ObjectId>Awakened EP Shot</ObjectId>
       <Speed>90</Speed>
-      <MinDamage>40</MinDamage>
-      <MaxDamage>60</MaxDamage>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
       <LifetimeMS>600</LifetimeMS>
       <Size>80</Size>
       <TurnRate>20</TurnRate>
@@ -3336,8 +3336,8 @@
     <Projectile id="1">
       <ObjectId>Awakened EP Shot</ObjectId>
       <Speed>90</Speed>
-      <MinDamage>40</MinDamage>
-      <MaxDamage>60</MaxDamage>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
       <LifetimeMS>600</LifetimeMS>
       <TurnRate>-20</TurnRate>
       <TurnStopTime>300</TurnStopTime>
@@ -3354,8 +3354,8 @@
     <Projectile id="2">
       <ObjectId>Awakened EP Shot</ObjectId>
       <Speed>100</Speed>
-      <MinDamage>40</MinDamage>
-      <MaxDamage>60</MaxDamage>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
       <LifetimeMS>580</LifetimeMS>
       <Size>80</Size>
       <TurnRate>65</TurnRate>
@@ -3372,8 +3372,8 @@
     <Projectile id="3">
       <ObjectId>Awakened EP Shot</ObjectId>
       <Speed>100</Speed>
-      <MinDamage>40</MinDamage>
-      <MaxDamage>60</MaxDamage>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
       <LifetimeMS>580</LifetimeMS>
       <TurnRate>-65</TurnRate>
       <TurnStopTime>300</TurnStopTime>
@@ -3390,8 +3390,8 @@
     <Projectile id="4">
       <ObjectId>Awakened EP Shot</ObjectId>
       <Speed>120</Speed>
-      <MinDamage>40</MinDamage>
-      <MaxDamage>60</MaxDamage>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
       <LifetimeMS>555</LifetimeMS>
       <Size>80</Size>
       <TurnRate>120</TurnRate>
@@ -3408,8 +3408,8 @@
     <Projectile id="5">
       <ObjectId>Awakened EP Shot</ObjectId>
       <Speed>120</Speed>
-      <MinDamage>40</MinDamage>
-      <MaxDamage>60</MaxDamage>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>70</MaxDamage>
       <LifetimeMS>555</LifetimeMS>
       <TurnRate>-120</TurnRate>
       <TurnStopTime>300</TurnStopTime>

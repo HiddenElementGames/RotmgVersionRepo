@@ -12189,6 +12189,17 @@
     <Flying />
     <NoMiniMap />
   </Object>
+  <Object type="0x14D2" id="S.H.E.A.T.H. Blast Shiny">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <Flying />
+    <NoMiniMap />
+  </Object>
   <Object type="0x14AC" id="Vision of Draconis Summon Shiny">
     <Class>Summon</Class>
     <Texture>
@@ -12664,12 +12675,38 @@
   </Object>
   <Object type="0xA37B" id="Summon Legion Elite Familiar">
     <Class>Summon</Class>
-    <AnimatedTexture>
-      <File>oryxHordeChars16x16</File>
-      <Index>97</Index>
-    </AnimatedTexture>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>263</Index>
+    </Texture>
     <Size>80</Size>
     <ShadowSize>50</ShadowSize>
+    <Animation prob="1.0" period="0.0">
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>263</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>264</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>265</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>oryxHordeObjects16x16</File>
+          <Index>266</Index>
+        </Texture>
+      </Frame>
+    </Animation>
     <Projectile>
       <ObjectId>Legion Summon Proj</ObjectId>
       <Speed>135</Speed>

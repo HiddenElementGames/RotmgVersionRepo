@@ -27444,7 +27444,7 @@
       <Index>371</Index>
     </AnimatedTexture>
     <SlotType>10</SlotType>
-    <Description>A cheerful pup made of shimmering crystal, they gleam with joy and jingling with every step they make.</Description>
+    <Description>A cheerful pup made of shimmering crystal, they gleam with joy and jingling with every step they make.\n\nUnlocks the Crystallized Dog Pet Skin of the Canine family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
     <Activate skinType="65428">UnlockPetSkin</Activate>
     <Consumable />
     <Soulbound />
@@ -27487,8 +27487,94 @@
       <Index>372</Index>
     </AnimatedTexture>
     <SlotType>10</SlotType>
-    <Description>This bouncy creature loves hopping around, watch as they explore the depths of the realm from pipping hot dungeons to the coldest regions the realm has to offer, nothing stops this water balloon from adventure.</Description>
+    <Description>This bouncy creature loves hopping around, watch as they explore the depths of the realm from piping hot dungeons to the coldest regions the realm has to offer, nothing stops this water balloon from adventure.\n\nUnlocks the Water Balloon Pet Skin of the Aquatic family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
     <Activate skinType="65425">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object type="0xFF8B" id="Judgemental Eye">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Spooky</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Judgemental Eye Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xFF8C" id="Judgemental Eye Pet Skin">
+    <PetSkin />
+    <DisplayId>Judgemental Eye</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Spooky</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>373</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xFF8D" id="Judgemental Eye Pet Stone">
+    <DisplayId>Judgemental Eye Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>373</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>They float around silently judging everything and everyone that this eye comes into contact with.\n\nUnlocks the Judgemental Eye Pet Skin of the Spooky family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="65420">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object type="0xFF77" id="Ignis Penguin Pet">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Penguin</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Ignis Penguin Pet</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xFF78" id="Ignis Penguin Pet Skin">
+    <PetSkin />
+    <DisplayId>Ignis Penguin</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Penguin</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>374</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xFF79" id="Ignis Penguin Pet Stone">
+    <DisplayId>Ignis Penguin Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>374</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Once a chilled waddler of the icy seas, Ignis Penguin now blazes with fiery might. With every flap, sparks fly—proving even the coldest creatures can burn the brightest.\n\nUnlocks the Ignis Penguin Pet Skin of the Penguin family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="65400">UnlockPetSkin</Activate>
     <Consumable />
     <Soulbound />
     <BagType>7</BagType>

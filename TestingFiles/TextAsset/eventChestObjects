@@ -1247,7 +1247,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x8b</Index>
     </Texture>
-    <MaxHitPoints>45000</MaxHitPoints>
+    <MaxHitPoints>50000</MaxHitPoints>
     <Sound id="0">weapon/firework</Sound>
     <Defense>0</Defense>
     <Size>160</Size>
@@ -1267,7 +1267,7 @@
       <File>lofiObj3</File>
       <Index>0x466</Index>
     </Texture>
-    <MaxHitPoints>45000</MaxHitPoints>
+    <MaxHitPoints>50000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>160</Size>
     <Exp>1000</Exp>
@@ -1286,7 +1286,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x8d</Index>
     </Texture>
-    <MaxHitPoints>45000</MaxHitPoints>
+    <MaxHitPoints>50000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>160</Size>
     <Exp>1000</Exp>
@@ -1323,7 +1323,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x8d</Index>
     </Texture>
-    <MaxHitPoints>45000</MaxHitPoints>
+    <MaxHitPoints>50000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>160</Size>
     <Exp>1000</Exp>
@@ -1342,7 +1342,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x8d</Index>
     </Texture>
-    <MaxHitPoints>45000</MaxHitPoints>
+    <MaxHitPoints>50000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>160</Size>
     <Exp>1000</Exp>
@@ -1361,7 +1361,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x8d</Index>
     </Texture>
-    <MaxHitPoints>45000</MaxHitPoints>
+    <MaxHitPoints>50000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>160</Size>
     <Exp>1000</Exp>
@@ -1380,7 +1380,7 @@
       <File>d2LofiObjEmbed</File>
       <Index>0x8d</Index>
     </Texture>
-    <MaxHitPoints>45000</MaxHitPoints>
+    <MaxHitPoints>50000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>160</Size>
     <Exp>1000</Exp>
@@ -1419,7 +1419,7 @@
       <File>lofiObj3</File>
       <Index>0x466</Index>
     </Texture>
-    <MaxHitPoints>60000</MaxHitPoints>
+    <MaxHitPoints>50000</MaxHitPoints>
     <Defense>0</Defense>
     <Size>240</Size>
     <Exp>1000</Exp>
@@ -9704,9 +9704,11 @@
     <Exp>100</Exp>
     <BXP>475</BXP>
     <Defense>15</Defense>
+    <StasisImmune />
+    <ParalyzeImmune />
     <AlwaysPositiveHealth />
     <Sound id="0">spell/major_heal</Sound>
-    <SoulboundDust threshold="0.002" prob="1" dustMin="50" dustMax="100" seasonalBonus="0.15">greenDust</SoulboundDust>
+    <SoulboundDust prob="1" dustMin="50" dustMax="100" seasonalBonus="0.15">greenDust</SoulboundDust>
   </Object>
   <Object type="0x47c9" id="Key Fairy Mid">
     <DisplayId>Key Fairy</DisplayId>
@@ -9722,6 +9724,8 @@
     <Exp>250</Exp>
     <BXP>1187</BXP>
     <Defense>20</Defense>
+    <StasisImmune />
+    <ParalyzeImmune />
     <AlwaysPositiveHealth />
     <Sound id="0">spell/major_heal</Sound>
     <SoulboundDust threshold="0.002" prob="1" dustMin="50" dustMax="100" seasonalBonus="0.15">greenDust</SoulboundDust>
@@ -9741,6 +9745,8 @@
     <Exp>400</Exp>
     <BXP>1900</BXP>
     <Defense>30</Defense>
+    <StasisImmune />
+    <ParalyzeImmune />
     <AlwaysPositiveHealth />
     <Sound id="0">spell/major_heal</Sound>
     <SoulboundDust threshold="0.002" prob="1" dustMin="50" dustMax="100" seasonalBonus="0.15">greenDust</SoulboundDust>
