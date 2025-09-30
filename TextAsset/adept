@@ -11,6 +11,7 @@
     <HitSound>monster/elves_death</HitSound>
     <DeathSound>monster/night_elves_death</DeathSound>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Flying />
     <Z>0.26</Z>
     <ShadowSize>80</ShadowSize>
@@ -38,6 +39,11 @@
     <BXP>1000</BXP>
     <RealmScore biome="CoralReefs">10</RealmScore>
     <KillStat stat="Coral Reefs" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
     <Labels>ENEMY,MINION,CORALREEFS,GOD,MINION_MID,ADEPT</Labels>
   </Object>
   <Object type="0xc0bd" id="Reef Turtle">
@@ -80,6 +86,7 @@
     </Projectile>
     <Size>100</Size>
     <MaxHitPoints>1200</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>30</Defense>
     <Terrain>CoralReefs</Terrain>
     <Group>Coral Reef Mobs</Group>
@@ -88,6 +95,11 @@
     <BXP>1000</BXP>
     <RealmScore biome="CoralReefs">10</RealmScore>
     <KillStat stat="Coral Reefs" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
     <Labels>ENEMY,MINION,CORALREEFS,GOD,MINION_MID,ADEPT</Labels>
   </Object>
   <Object type="0xc0be" id="Reef Octopus">
@@ -102,6 +114,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>16</Defense>
     <Terrain>CoralReefs</Terrain>
     <Group>Coral Reef Mobs</Group>
@@ -119,6 +132,11 @@
     </Projectile>
     <RealmScore biome="CoralReefs">10</RealmScore>
     <KillStat stat="Coral Reefs" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
     <Labels>ENEMY,MINION,CORALREEFS,GOD,MINION_MID,ADEPT</Labels>
   </Object>
   <Object type="0xc0bf" id="Reef Narwhal">
@@ -133,6 +151,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>16</Defense>
     <Terrain>CoralReefs</Terrain>
     <Group>Coral Reef Mobs</Group>
@@ -148,6 +167,11 @@
     </Projectile>
     <RealmScore biome="CoralReefs">10</RealmScore>
     <KillStat stat="Coral Reefs" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
     <Labels>ENEMY,MINION,CORALREEFS,GOD,MINION_MID,ADEPT</Labels>
   </Object>
   <Object type="0xc0c0" id="Reef Walrus">
@@ -162,6 +186,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>1300</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>10</Defense>
     <Terrain>CoralReefs</Terrain>
     <Group>Coral Reef Mobs</Group>
@@ -178,6 +203,11 @@
       <MultiHit />
     </Projectile>
     <KillStat stat="Coral Reefs" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
     <Labels>ENEMY,MINION,CORALREEFS,GOD,MINION_MID,ADEPT</Labels>
   </Object>
   <Object type="0x5580" id="Reef Leviathan">
@@ -195,6 +225,7 @@
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>2000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <BXP>3000</BXP>
     <Defense>20</Defense>
     <Terrain>CoralReefs</Terrain>
@@ -215,6 +246,11 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
     <Labels>ENEMY,MINION,CORALREEFS,GOD,MINION_MID,ADEPT</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Defense_Orb">Orb of Defense</SpecialSpawn>
@@ -238,6 +274,7 @@
     <Size>120</Size>
     <Z>0.3</Z>
     <MaxHitPoints>600</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>8</Defense>
     <Terrain>ShipWreck</Terrain>
     <Group>Shipwreck Cove Mobs</Group>
@@ -262,6 +299,11 @@
       <Size>90</Size>
     </Projectile>
     <KillStat stat="Shipwreck Cove" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc2ee" id="Shipwreck Pirate">
     <DisplayId>Undead Pirate</DisplayId>
@@ -275,6 +317,7 @@
     <DeathSound>monster/beholder_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>800</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>14</Defense>
     <Terrain>ShipWreck</Terrain>
     <Group>Shipwreck Cove Mobs</Group>
@@ -297,6 +340,11 @@
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
     <KillStat stat="Shipwreck Cove" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc2ef" id="Shipwreck Hag">
     <DisplayId>Sea Hag</DisplayId>
@@ -310,6 +358,7 @@
     <DeathSound>monster/beholder_death</DeathSound>
     <Size>150</Size>
     <MaxHitPoints>2000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>14</Defense>
     <Terrain>ShipWreck</Terrain>
     <Group>Shipwreck Cove Mobs</Group>
@@ -335,6 +384,11 @@
       <Size>140</Size>
     </Projectile>
     <KillStat stat="Shipwreck Cove" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc2f0" id="Shipwreck Hag Whirlpool">
     <DisplayId>Whirlpool</DisplayId>
@@ -362,6 +416,11 @@
       <ConditionEffect duration="1.6">Slowed</ConditionEffect>
     </Projectile>
     <KillStat stat="Shipwreck Cove" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc2f1" id="Shipwreck Sailor">
     <DisplayId>Drowned Sailor</DisplayId>
@@ -375,6 +434,7 @@
     <DeathSound>monster/beholder_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>18</Defense>
     <Terrain>ShipWreck</Terrain>
     <Group>Shipwreck Cove Mobs</Group>
@@ -399,6 +459,11 @@
       <Size>110</Size>
     </Projectile>
     <KillStat stat="Shipwreck Cove" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc2f2" id="Shipwreck Elemental">
     <DisplayId>Ocean Spirit</DisplayId>
@@ -412,6 +477,7 @@
     <DeathSound>monster/beholder_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>2000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>16</Defense>
     <Terrain>ShipWreck</Terrain>
     <Group>Shipwreck Cove Mobs</Group>
@@ -440,6 +506,11 @@
       <MultiHit />
     </Projectile>
     <KillStat stat="Shipwreck Cove" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xCCD0" id="Shipwreck Haunted Chest">
     <DisplayId>Haunted Treasure</DisplayId>
@@ -603,6 +674,7 @@
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>5000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>8</Defense>
     <Terrain>ShipWreck</Terrain>
     <Group>Shipwreck Cove Mobs</Group>
@@ -621,6 +693,11 @@
       <LifetimeMS>3000</LifetimeMS>
     </Projectile>
     <KillStat stat="Shipwreck Cove" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc1db" id="Dead Church Necromancer">
     <DisplayId>Skeleton Worshipper</DisplayId>
@@ -634,6 +711,7 @@
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>150</Size>
     <MaxHitPoints>1500</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>20</Defense>
     <Terrain>DeadChurch</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -666,6 +744,11 @@
       <ConditionEffect duration="4">Slowed</ConditionEffect>
     </Projectile>
     <KillStat stat="Dead Church" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc107" id="Dead Church Skeleton">
     <DisplayId>Crusader Skeleton</DisplayId>
@@ -679,6 +762,7 @@
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>110</Size>
     <MaxHitPoints>150</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>0</Defense>
     <Terrain>DeadChurch</Terrain>
     <Exp>20</Exp>
@@ -696,6 +780,11 @@
       <SpeedClamp>80</SpeedClamp>
     </Projectile>
     <KillStat stat="Dead Church" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc1dc" id="Dead Church Vampire">
     <DisplayId>Flying Vampire</DisplayId>
@@ -709,6 +798,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>150</Size>
     <MaxHitPoints>1500</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>16</Defense>
     <Terrain>DeadChurch</Terrain>
     <SpawnProb>0.8</SpawnProb>
@@ -726,6 +816,11 @@
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
     </Projectile>
     <KillStat stat="Dead Church" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc1dd" id="Dead Church Bat">
     <DisplayId>Sickly Vampire Bat</DisplayId>
@@ -738,6 +833,7 @@
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
     <MaxHitPoints>100</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>0</Defense>
     <Z>0.24</Z>
     <Flying />
@@ -757,6 +853,11 @@
       <LifetimeMS>4250</LifetimeMS>
     </Projectile>
     <KillStat stat="Dead Church" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc106" id="Dead Church Cleric">
     <DisplayId>Zombie Cleric</DisplayId>
@@ -770,6 +871,7 @@
     <DeathSound>monster/flying_brain_death</DeathSound>
     <Size>150</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>12</Defense>
     <Terrain>DeadChurch</Terrain>
     <SpawnProb>0.8</SpawnProb>
@@ -791,6 +893,11 @@
       <ConditionEffect duration="1.8">Weak</ConditionEffect>
     </Projectile>
     <KillStat stat="Dead Church" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc1de" id="Dead Church Nun">
     <DisplayId>Ghastly Nun</DisplayId>
@@ -804,6 +911,7 @@
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>150</Size>
     <MaxHitPoints>1500</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>12</Defense>
     <Terrain>DeadChurch</Terrain>
     <SpawnProb>0.8</SpawnProb>
@@ -841,6 +949,11 @@
       <PassesCover />
     </Projectile>
     <KillStat stat="Dead Church" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc108" id="Dead Church Revenant">
     <DisplayId>Revenant</DisplayId>
@@ -854,6 +967,7 @@
     <DeathSound>monster/ghosts_death</DeathSound>
     <Size>125</Size>
     <MaxHitPoints>5000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>22</Defense>
     <Terrain>DeadChurch</Terrain>
     <SpawnProb>0.25</SpawnProb>
@@ -882,6 +996,11 @@
       <ConditionEffect duration="2.4">Curse</ConditionEffect>
     </Projectile>
     <KillStat stat="Dead Church" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc1df" id="City Jester">
     <DisplayId>Unsung Jester</DisplayId>
@@ -895,6 +1014,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>0</Defense>
     <Terrain>Abandoned</Terrain>
     <Group>Abandoned City Mobs</Group>
@@ -918,6 +1038,11 @@
       <ConditionEffect duration="1.8">Unstable</ConditionEffect>
     </Projectile>
     <KillStat stat="Abandoned City" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
     <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
   </Object>
   <Object type="0xc1e1" id="City Gladiator">
@@ -932,6 +1057,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>80</Size>
     <MaxHitPoints>1700</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>10</Defense>
     <Terrain>Abandoned</Terrain>
     <Group>Abandoned City Mobs</Group>
@@ -956,6 +1082,11 @@
       <ConditionEffect duration="3">Exposed</ConditionEffect>
     </Projectile>
     <KillStat stat="Abandoned City" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
     <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
   </Object>
   <Object type="0xc1e2" id="City Satyr">
@@ -970,6 +1101,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1700</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>0</Defense>
     <Terrain>Abandoned</Terrain>
     <Group>Abandoned City Mobs</Group>
@@ -986,6 +1118,11 @@
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
     <KillStat stat="Abandoned City" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
     <Labels>ENEMY,MINION,ABANDONED,GOD,MINION_MID,ADEPT</Labels>
   </Object>
   <Object type="0x5581" id="City Medusa">
@@ -1001,6 +1138,7 @@
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>2000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <BXP>1000</BXP>
     <Defense>18</Defense>
     <RealmScore biome="Abandoned">10</RealmScore>
@@ -1025,6 +1163,11 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <KillStat stat="Abandoned City" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x5582" id="City Beholder">
     <DisplayId>Beholder</DisplayId>
@@ -1039,6 +1182,7 @@
     <DeathSound>monster/beholder_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1500</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <BXP>1000</BXP>
     <Defense>12</Defense>
     <RealmScore biome="Abandoned">10</RealmScore>
@@ -1072,6 +1216,11 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <KillStat stat="Abandoned City" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x5583" id="City Flying Brain">
     <DisplayId>Flying Brain</DisplayId>
@@ -1086,6 +1235,7 @@
     <DeathSound>monster/flying_brain_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <BXP>1000</BXP>
     <Defense>12</Defense>
     <RealmScore biome="Abandoned">10</RealmScore>
@@ -1112,6 +1262,11 @@
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
     <KillStat stat="Abandoned City" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x5584" id="City Slime God">
     <DisplayId>Slime God</DisplayId>
@@ -1126,6 +1281,7 @@
     <DeathSound>monster/slimes_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <BXP>1000</BXP>
     <Defense>12</Defense>
     <Terrain>Abandoned</Terrain>
@@ -1158,6 +1314,11 @@
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
     <KillStat stat="Abandoned City" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x5585" id="City Ent God">
     <DisplayId>Ent God</DisplayId>
@@ -1173,6 +1334,7 @@
     <DeathSound>monster/ents_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <BXP>1000</BXP>
     <Defense>18</Defense>
     <Terrain>Abandoned</Terrain>
@@ -1204,6 +1366,11 @@
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
     <KillStat stat="Abandoned City" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x5587" id="City Djinn">
     <DisplayId>Djinn</DisplayId>
@@ -1219,6 +1386,7 @@
     <DeathSound>monster/djinn_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <BXP>1000</BXP>
     <Defense>12</Defense>
     <Terrain>Abandoned</Terrain>
@@ -1252,6 +1420,11 @@
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
     <KillStat stat="Abandoned City" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x9BA" id="City Rock Bot">
     <Group>Rocks</Group>
@@ -1265,6 +1438,7 @@
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <MaxHitPoints>3000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Size>100</Size>
     <Defense>20</Defense>
     <Exp>150</Exp>
@@ -1291,6 +1465,11 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <KillStat stat="Abandoned City" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x9BB" id="City Paper Bot">
     <Group>Papers</Group>
@@ -1304,6 +1483,7 @@
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <MaxHitPoints>3000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Size>100</Size>
     <Defense>20</Defense>
     <Exp>150</Exp>
@@ -1329,6 +1509,11 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <KillStat stat="Abandoned City" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x9BC" id="City Steel Bot">
     <Group>Steels</Group>
@@ -1342,6 +1527,7 @@
     <HitSound>monster/rocks_hit</HitSound>
     <DeathSound>monster/rocks_death</DeathSound>
     <MaxHitPoints>3000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Size>100</Size>
     <Defense>20</Defense>
     <Exp>150</Exp>
@@ -1369,6 +1555,11 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <KillStat stat="Abandoned City" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x9A7" id="New Mysterious Crystal">
     <DisplayId>Mysterious Crystal</DisplayId>
@@ -1383,6 +1574,7 @@
     <DeathSound>monster/stone_walls_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>75000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>15</Defense>
     <AlwaysPositiveHealth />
     <Terrain>Abandoned</Terrain>
@@ -1408,6 +1600,11 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <KillStat stat="Abandoned City" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x9A8" id="New Crystal Prisoner">
     <DisplayId>Crystal Prisoner</DisplayId>
@@ -1421,6 +1618,7 @@
     <DeathSound>monster/ghost_god_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>28000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>25</Defense>
     <HealthBarBoss radius="25" />
     <StasisImmune />
@@ -1479,6 +1677,7 @@
     <DeathSound>monster/ghost_god_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>15000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>12</Defense>
     <Exp>19</Exp>
     <BXP>90</BXP>
@@ -1512,6 +1711,7 @@
     <DeathSound>monster/cyclops_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>6000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>11</Defense>
     <Exp>48</Exp>
     <BXP>228</BXP>
@@ -1556,6 +1756,7 @@
     <DeathSound>monster/greater_demons_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>12</Defense>
     <Terrain>RisenHell</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -1591,6 +1792,11 @@
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
     <KillStat stat="Risen Hell" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc2e8" id="Hell Skeleton">
     <DisplayId>Burning Bones</DisplayId>
@@ -1604,6 +1810,7 @@
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>8</Defense>
     <Terrain>RisenHell</Terrain>
     <Group>Risen Hell Mobs</Group>
@@ -1626,6 +1833,11 @@
       <LifetimeMS>2000</LifetimeMS>
     </Projectile>
     <KillStat stat="Risen Hell" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc2e9" id="Hell Ghost">
     <DisplayId>Tormented Soul</DisplayId>
@@ -1639,6 +1851,7 @@
     <DeathSound>spell/magic_nova</DeathSound>
     <Size>110</Size>
     <MaxHitPoints>1250</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>12</Defense>
     <Terrain>RisenHell</Terrain>
     <Group>Risen Hell Mobs</Group>
@@ -1665,6 +1878,11 @@
       <ConditionEffect duration="5">Curse</ConditionEffect>
     </Projectile>
     <KillStat stat="Risen Hell" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc2ea" id="Hell Dog 1">
     <DisplayId>Harrowed Fiend</DisplayId>
@@ -1678,6 +1896,7 @@
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>750</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>24</Defense>
     <Terrain>RisenHell</Terrain>
     <Group>Risen Hell Mobs</Group>
@@ -1702,6 +1921,11 @@
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
     </Projectile>
     <KillStat stat="Risen Hell" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc2eb" id="Hell Dog 2">
     <DisplayId>Risen Hellhound</DisplayId>
@@ -1715,6 +1939,7 @@
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>28</Defense>
     <Terrain>RisenHell</Terrain>
     <Group>Risen Hell Mobs</Group>
@@ -1739,6 +1964,11 @@
       <ConditionEffect duration="2.4">Bleeding</ConditionEffect>
     </Projectile>
     <KillStat stat="Risen Hell" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc2ec" id="Hell Dragon">
     <DisplayId>Brimstone Wyvern</DisplayId>
@@ -1752,6 +1982,7 @@
     <DeathSound>monster/dragons_death</DeathSound>
     <Size>200</Size>
     <MaxHitPoints>5000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>32</Defense>
     <Terrain>RisenHell</Terrain>
     <Group>Risen Hell Mobs</Group>
@@ -1771,6 +2002,11 @@
       <ConditionEffect duration="3.6">Exposed</ConditionEffect>
     </Projectile>
     <KillStat stat="Risen Hell" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc3d2" id="Hell Dog 3">
     <DisplayId>Cerberus</DisplayId>
@@ -1784,6 +2020,7 @@
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>110</Size>
     <MaxHitPoints>2000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>32</Defense>
     <Terrain>RisenHell</Terrain>
     <Group>Risen Hell Mobs</Group>
@@ -1802,6 +2039,11 @@
       <ConditionEffect duration="2.8">Bleeding</ConditionEffect>
     </Projectile>
     <KillStat stat="Risen Hell" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc3d3" id="Hell Skull">
     <DisplayId>Raging Ifrit</DisplayId>
@@ -1815,6 +2057,7 @@
     <DeathSound>monster/flaming_skulls_death</DeathSound>
     <Size>125</Size>
     <MaxHitPoints>3500</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>24</Defense>
     <Terrain>RisenHell</Terrain>
     <Group>Risen Hell Mobs</Group>
@@ -1846,6 +2089,11 @@
       <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
     </Projectile>
     <KillStat stat="Risen Hell" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x4544" id="Sprite Forest God">
     <DisplayId>Sprite God</DisplayId>
@@ -1860,6 +2108,7 @@
     <DeathSound>monster/sprite_god_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1500</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <BXP>1000</BXP>
     <Defense>12</Defense>
     <RealmScore biome="SpriteForest">10</RealmScore>
@@ -1887,6 +2136,11 @@
     <KillStat stat="GodKills" />
     <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="Sprite Forest" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x4545" id="Sprite Forest Child">
     <DisplayId>Sprite Child</DisplayId>
@@ -1939,6 +2193,7 @@
     <DeathSound>monster/sprites_death</DeathSound>
     <Size>75</Size>
     <MaxHitPoints>50</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <BXP>100</BXP>
     <Defense>0</Defense>
     <RealmScore biome="SpriteForest">1</RealmScore>
@@ -1962,6 +2217,7 @@
     <DeathSound>monster/sprite_god_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>800</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>12</Defense>
     <RealmScore biome="SpriteForest">10</RealmScore>
     <Terrain>SpriteForest</Terrain>
@@ -2013,6 +2269,11 @@
     </Projectile>
     <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="Sprite Forest" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x4547" id="Sprite Forest Poison God">
     <DisplayId>Noxious Sprite</DisplayId>
@@ -2026,6 +2287,7 @@
     <DeathSound>monster/sprite_god_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>900</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>12</Defense>
     <RealmScore biome="SpriteForest">10</RealmScore>
     <Terrain>SpriteForest</Terrain>
@@ -2060,6 +2322,11 @@
     </Projectile>
     <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="Sprite Forest" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x4548" id="Sprite Forest Electric God">
     <DisplayId>Hazardous Sprite</DisplayId>
@@ -2073,6 +2340,7 @@
     <DeathSound>monster/sprite_god_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>800</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>12</Defense>
     <RealmScore biome="SpriteForest">10</RealmScore>
     <Terrain>SpriteForest</Terrain>
@@ -2102,6 +2370,11 @@
     </Projectile>
     <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="Sprite Forest" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x4549" id="Sprite Forest Dark God">
     <DisplayId>Corrupt Sprite</DisplayId>
@@ -2115,6 +2388,7 @@
     <DeathSound>monster/sprite_god_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>750</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>12</Defense>
     <RealmScore biome="SpriteForest">10</RealmScore>
     <Terrain>SpriteForest</Terrain>
@@ -2147,6 +2421,11 @@
     </Projectile>
     <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="Sprite Forest" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x454a" id="Sprite Forest Nature God">
     <DisplayId>Evergreen Sprite</DisplayId>
@@ -2160,6 +2439,7 @@
     <DeathSound>monster/sprite_god_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>750</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>12</Defense>
     <RealmScore biome="SpriteForest">10</RealmScore>
     <Terrain>SpriteForest</Terrain>
@@ -2196,6 +2476,11 @@
     </Projectile>
     <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="Sprite Forest" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0xc32f" id="Sprite Forest Dog">
     <DisplayId>Sprite Beast</DisplayId>
@@ -2208,6 +2493,7 @@
     <HitSound>monster/abyss_brutes_hit</HitSound>
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <MaxHitPoints>600</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>30</Defense>
     <RealmScore biome="SpriteForest">10</RealmScore>
     <Terrain>SpriteForest</Terrain>
@@ -2233,6 +2519,11 @@
     <KillStat stat="BeastKills" />
     <Labels>ENEMY,MINION,SPRITEFOREST,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="Sprite Forest" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x45ea" id="Hallows Banshee">
     <DisplayId>Banshee</DisplayId>
@@ -2246,6 +2537,7 @@
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>130</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>10</Defense>
     <Exp>200</Exp>
     <BXP>1000</BXP>
@@ -2270,6 +2562,11 @@
     </Projectile>
     <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="Haunted Hallows" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x45eb" id="Hallows Wraith">
     <DisplayId>Wraith</DisplayId>
@@ -2283,6 +2580,7 @@
     <DeathSound>monster/hobbits_death</DeathSound>
     <Size>130</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>15</Defense>
     <Exp>200</Exp>
     <BXP>1000</BXP>
@@ -2307,6 +2605,11 @@
     </Projectile>
     <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="Haunted Hallows" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x45ec" id="Hallows Skeleton">
     <DisplayId>Skeleton of the Damned</DisplayId>
@@ -2320,6 +2623,7 @@
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>250</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>10</Defense>
     <Exp>200</Exp>
     <BXP>1000</BXP>
@@ -2344,6 +2648,11 @@
     </Projectile>
     <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="Haunted Hallows" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x45ed" id="Hallows Werewolf">
     <DisplayId>Werewolf Berserker</DisplayId>
@@ -2357,6 +2666,7 @@
     <DeathSound>monster/cyclops_death</DeathSound>
     <Size>115</Size>
     <MaxHitPoints>2500</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>20</Defense>
     <Exp>600</Exp>
     <BXP>3000</BXP>
@@ -2381,6 +2691,11 @@
     </Projectile>
     <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="Haunted Hallows" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x45ee" id="Hallows Beholder">
     <DisplayId>Creepy Beholder</DisplayId>
@@ -2394,6 +2709,7 @@
     <DeathSound>monster/beholder_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1500</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>12</Defense>
     <Exp>200</Exp>
     <BXP>1000</BXP>
@@ -2423,6 +2739,11 @@
     <KillStat stat="GodKills" />
     <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="Haunted Hallows" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x45ef" id="Hallows Brute">
     <DisplayId>Pumpkin Brute</DisplayId>
@@ -2436,6 +2757,7 @@
     <DeathSound>monster/hobbits_death</DeathSound>
     <Size>130</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>10</Defense>
     <Exp>200</Exp>
     <BXP>1000</BXP>
@@ -2459,6 +2781,11 @@
     </Projectile>
     <Labels>ENEMY,MINION,HAUNTEDHALLOWS,GOD,MINION_MID,ADEPT</Labels>
     <KillStat stat="Haunted Hallows" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x55C3" id="Hallows Horseman">
     <DisplayId>Headless Horseman</DisplayId>
@@ -2473,6 +2800,7 @@
     <Size>150</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>7500</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <Defense>20</Defense>
     <Terrain>HauntedHallows</Terrain>
     <SpawnProb>0.065</SpawnProb>
@@ -2510,6 +2838,11 @@
     <SpecialSpawn category="Speed_Orb">Orb of Speed</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <KillStat stat="Haunted Hallows" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
   <Object type="0x5586" id="Hallows Ghost God">
     <DisplayId>Ghost God</DisplayId>
@@ -2525,6 +2858,7 @@
     <DeathSound>monster/ghost_god_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <ArcaneStyle id="Yokai">High Violet Inferno Flipbook Style</ArcaneStyle>
     <BXP>1000</BXP>
     <Defense>12</Defense>
     <Terrain>HauntedHallows</Terrain>
@@ -2551,5 +2885,10 @@
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spirit_Snake_Spawner">Swarm Spirit Snake Spawner</SpecialSpawn>
     <KillStat stat="Haunted Hallows" />
+    <Presentation>
+      <Style id="SetYokai">
+        <StyleStep id="Yokai">SetArcaneStyle</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
 </Objects>

@@ -211,25 +211,29 @@
     <Setpiece slot="1" itemtype="0x235E">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x235C">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0x235D">Equipment</Setpiece>
+    <ActivateOnEquip2 stat="WIS" amount="5">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="ATT" amount="5">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip3 stat="VIT" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="ATT" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquipAll stat="MAXHP" amount="150">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXMP" amount="150">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="WIS" amount="5">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="VIT" amount="5">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll skinType="0x745A" size="80" color="0x92A9BA" bulletType="Great Geb Shot">ChangeSkin</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="MAXHP" amount="50">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquip3 stat="MAXMP" amount="50">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip3 stat="ATT" amount="8">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip2 stat="SPD" amount="5">IncrementStat</ActivateOnEquip2>
   </EquipmentSet>
   <EquipmentSet type="0x2756" id="Mad God's Messenger Set">
     <Setpiece slot="0" itemtype="0x200c">Equipment</Setpiece>
     <Setpiece slot="1" itemtype="0x200d">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x200e">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0x200f">Equipment</Setpiece>
-    <ActivateOnEquipAll skinType="0xf3b" size="80" color="0x92A9BA" bulletType="Mega Mad God Missile">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquip2 stat="DEX" amount="4">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="ATT" amount="4">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip3 stat="DEX" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="ATT" amount="5">IncrementStat</ActivateOnEquip3>
     <ActivateOnEquipAll stat="MAXHP" amount="100">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="DEX" amount="5">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="ATT" amount="5">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquip3 stat="DEX" amount="3">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip3 stat="ATT" amount="3">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip2 stat="DEX" amount="2">IncrementStat</ActivateOnEquip2>
-    <ActivateOnEquip2 stat="ATT" amount="2">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquipAll stat="DEX" amount="6">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="6">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll skinType="0xf3b" size="80" color="0x92A9BA" bulletType="Mega Mad God Missile">ChangeSkin</ActivateOnEquipAll>
   </EquipmentSet>
   <EquipmentSet type="0x0005" id="Legacy Skuld 2 The ReGhostening Set">
     <Setpiece slot="0" itemtype="0x21a0">Equipment</Setpiece>
@@ -1355,14 +1359,14 @@
     <Setpiece slot="1" itemtype="0x39c1">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x39c2">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0x39c3">Equipment</Setpiece>
-    <ActivateOnEquipAll skinType="0x78c1" size="80" color="0xCB0A0A" bulletType="Fanatic Missile">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquip2 stat="DEX" amount="4">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="ATT" amount="4">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip3 stat="DEX" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="ATT" amount="5">IncrementStat</ActivateOnEquip3>
     <ActivateOnEquipAll stat="MAXHP" amount="100">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="DEX" amount="5">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="ATT" amount="5">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquip3 stat="DEX" amount="3">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip3 stat="ATT" amount="3">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip2 stat="DEX" amount="2">IncrementStat</ActivateOnEquip2>
-    <ActivateOnEquip2 stat="ATT" amount="2">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquipAll stat="DEX" amount="6">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="6">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll skinType="0x78c1" size="80" color="0xCB0A0A" bulletType="Fanatic Missile">ChangeSkin</ActivateOnEquipAll>
   </EquipmentSet>
   <EquipmentSet type="0x39c4" id="Cursed Cursebreaker Huntress Set">
     <Setpiece slot="0" itemtype="0x39c5">Equipment</Setpiece>
@@ -1540,14 +1544,16 @@
     <Setpiece slot="1" itemtype="0x686e">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x688a">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0x688b">Equipment</Setpiece>
+    <ActivateOnEquip2 stat="DEF" amount="4">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEX" amount="5">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXHP" amount="35">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip3 stat="DEF" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEX" amount="6">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXHP" amount="45">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquipAll stat="DEF" amount="6">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEX" amount="7">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="55">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll skinType="0x3aeb" size="80" color="0xffcd56" bulletType="Plague Orb Large">ChangeSkin</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="DEX" amount="4">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="DEF" amount="4">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="MAXHP" amount="50">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquip3 stat="DEF" amount="3">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip3 stat="MAXHP" amount="50">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip2 stat="DEX" amount="3">IncrementStat</ActivateOnEquip2>
-    <ActivateOnEquip2 stat="SPD" amount="5">IncrementStat</ActivateOnEquip2>
   </EquipmentSet>
   <EquipmentSet type="0x425e" id="Kogbold Turretsmith Archer Set">
     <Setpiece slot="0" itemtype="0xc67d">Equipment</Setpiece>
@@ -1930,13 +1936,15 @@
     <Setpiece slot="1" itemtype="0xd60e">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0xd60f">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0xd610">Equipment</Setpiece>
-    <ActivateOnEquipAll skinType="0xD607" size="80" color="0xffcd56" bulletType="Void Orb Large">ChangeSkin</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="DEX" amount="6">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="DEF" amount="6">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="MAXHP" amount="55">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquip3 stat="DEF" amount="5">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip3 stat="MAXHP" amount="55">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="DEF" amount="4">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="DEX" amount="5">IncrementStat</ActivateOnEquip2>
-    <ActivateOnEquip2 stat="SPD" amount="7">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="MAXHP" amount="35">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip3 stat="DEF" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="DEX" amount="6">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXHP" amount="45">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquipAll stat="DEF" amount="6">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEX" amount="7">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="55">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll skinType="0xD607" size="80" color="0xffcd56" bulletType="Void Orb Large">ChangeSkin</ActivateOnEquipAll>
   </EquipmentSet>
 </EquipmentSets>

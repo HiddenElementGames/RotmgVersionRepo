@@ -1,0 +1,1980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonModifiers>
+  <DungeonModifier id="CHEF" type="0x0001">
+    <DisplayId>Chef</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Boss has a 33% chance of dropping a food item</Description>
+    <Labels>REWARD,BOSS,LOOT,FOOD,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Chef" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.33" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SURVIVOR_1" type="0x0006">
+    <DisplayId>Survivor I</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Minions have a 20% higher chance of dropping Health/Mana Potions</Description>
+    <Labels>REWARD,MINION,LOOT,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD,LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="1.20" reqLabels="MINION" itemId="Health Potion" />
+      <EntityDropMultiplier amount="1.20" reqLabels="MINION" itemId="Magic Potion" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SURVIVOR_2" type="0x0007">
+    <DisplayId>Survivor II</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Minions have a 40% higher chance of dropping Health/Mana Potions</Description>
+    <Labels>REWARD,MINION,LOOT,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD,LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="1.40" reqLabels="MINION" itemId="Health Potion" />
+      <EntityDropMultiplier amount="1.40" reqLabels="MINION" itemId="Magic Potion" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SURVIVOR_3" type="0x0008">
+    <DisplayId>Survivor III</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Minions have a 60% higher chance of dropping Health/Mana Potions</Description>
+    <Labels>REWARD,MINION,LOOT,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD,LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="1.60" reqLabels="MINION" itemId="Health Potion" />
+      <EntityDropMultiplier amount="1.60" reqLabels="MINION" itemId="Magic Potion" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SURVIVOR_4" type="0x0009">
+    <DisplayId>Survivor IV</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Minions have a 80% higher chance of dropping Health/Mana Potions</Description>
+    <Labels>REWARD,MINION,LOOT,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD,LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="1.80" reqLabels="MINION" itemId="Health Potion" />
+      <EntityDropMultiplier amount="1.80" reqLabels="MINION" itemId="Magic Potion" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SURVIVOR_5" type="0x000a">
+    <DisplayId>Survivor V</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Minions have a 100% higher chance of dropping Health/Mana Potions</Description>
+    <Labels>REWARD,MINION,LOOT,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD,LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="2.00" reqLabels="MINION" itemId="Health Potion" />
+      <EntityDropMultiplier amount="2.00" reqLabels="MINION" itemId="Magic Potion" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SOUVENIR_1" type="0x000b">
+    <DisplayId>Souvenir I</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Triples your chance of boss dropping an iconic reward</Description>
+    <Labels>REWARD,BOSS,LOOT,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Souvenir_HIG" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.011" perPlayer="true" />
+      <SpecialSpawnOnDeath category="Souvenir_MID" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.028" perPlayer="true" />
+      <SpecialSpawnOnDeath category="Souvenir_LOW" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.440" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SOUVENIR_2" type="0x000c">
+    <DisplayId>Souvenir II</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Quadruples your chance of boss dropping an iconic reward</Description>
+    <Labels>REWARD,BOSS,LOOT,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Souvenir_HIG" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.016" perPlayer="true" />
+      <SpecialSpawnOnDeath category="Souvenir_MID" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.042" perPlayer="true" />
+      <SpecialSpawnOnDeath category="Souvenir_LOW" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.660" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="PETCOLLECTOR" type="0x000d">
+    <DisplayId>Pet Collector</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Boss has a 25% chance of dropping an Egg</Description>
+    <Labels>REWARD,BOSS,LOOT,PET,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="PetCollector" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.25" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="GENEROUS" type="0x0012">
+    <DisplayId>Generous</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Boss has a 10% chance of dropping a Quest Chest</Description>
+    <Labels>REWARD,BOSS,LOOT,CHEST,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Generous" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.1" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="GUARANTEEDSTATPOTION" type="0x0017">
+    <DisplayId>Guaranteed Stat Potion</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Boss enemies will always drop a Stat Potion</Description>
+    <Labels>REWARD,BOSS,LOOT,REWARD_MID</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="100.00" reqLabels="BOSS" itemId="Potion of Attack" />
+      <EntityDropMultiplier amount="100.00" reqLabels="BOSS" itemId="Potion of Defense" />
+      <EntityDropMultiplier amount="100.00" reqLabels="BOSS" itemId="Potion of Speed" />
+      <EntityDropMultiplier amount="100.00" reqLabels="BOSS" itemId="Potion of Dexterity" />
+      <EntityDropMultiplier amount="100.00" reqLabels="BOSS" itemId="Potion of Vitality" />
+      <EntityDropMultiplier amount="100.00" reqLabels="BOSS" itemId="Potion of Wisdom" />
+      <EntityDropMultiplier amount="100.00" reqLabels="BOSS" itemId="Potion of Life" />
+      <EntityDropMultiplier amount="100.00" reqLabels="BOSS" itemId="Potion of Mana" />
+      <EntityDropMultiplier amount="100.00" reqLabels="BOSS" itemId="Mystery Stat Pot" />
+      <EntityDropMultiplier amount="100.00" reqLabels="MINIBOSS" excludeLabels="SHORTMINIBOSS" itemId="Potion of Attack" />
+      <EntityDropMultiplier amount="100.00" reqLabels="MINIBOSS" excludeLabels="SHORTMINIBOSS" itemId="Potion of Defense" />
+      <EntityDropMultiplier amount="100.00" reqLabels="MINIBOSS" excludeLabels="SHORTMINIBOSS" itemId="Potion of Speed" />
+      <EntityDropMultiplier amount="100.00" reqLabels="MINIBOSS" excludeLabels="SHORTMINIBOSS" itemId="Potion of Dexterity" />
+      <EntityDropMultiplier amount="100.00" reqLabels="MINIBOSS" excludeLabels="SHORTMINIBOSS" itemId="Potion of Vitality" />
+      <EntityDropMultiplier amount="100.00" reqLabels="MINIBOSS" excludeLabels="SHORTMINIBOSS" itemId="Potion of Wisdom" />
+      <EntityDropMultiplier amount="100.00" reqLabels="MINIBOSS" excludeLabels="SHORTMINIBOSS" itemId="Potion of Life" />
+      <EntityDropMultiplier amount="100.00" reqLabels="MINIBOSS" excludeLabels="SHORTMINIBOSS" itemId="Potion of Mana" />
+      <EntityDropMultiplier amount="100.00" reqLabels="MINIBOSS" excludeLabels="SHORTMINIBOSS" itemId="Mystery Stat Pot" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MYSTERYSTATPOTION" type="0x001c">
+    <DisplayId>Mystery Stat Potion</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Boss always drops a Mystery Stat Potion</Description>
+    <Labels>REWARD,BOSS,LOOT,POTION,REWARD_MID</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="MysteryStatPotion" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="COLORFUL" type="0x0021">
+    <DisplayId>Colorful</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Boss always drops a Color Dye</Description>
+    <Labels>REWARD,BOSS,LOOT,DYE,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Colorful" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="BIS" type="0x0026">
+    <DisplayId>Bis</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>50% chance for the boss to drop a portal to the same dungeon</Description>
+    <Labels>REWARD,BOSS,LOOT,PORTAL,REWARD_MID</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Bis" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.5" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="NOBLEBOSS" type="0x002b">
+    <DisplayId>Noble Boss</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>After completion Oryx's Court dungeons will spawn</Description>
+    <Labels>REWARD,BOSS,LOOT,PORTAL,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="NobleBoss" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="DIMITUS" type="0x0030">
+    <DisplayId>Dimitus</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Dimitus will appear after the Boss is defeated</Description>
+    <Labels>REWARD,BOSS,LOOT,FIGHT,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Dimitus" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="PRISMIMIC" type="0x0035">
+    <DisplayId>Prismimic</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Prismimic will appear after the Boss is defeated</Description>
+    <Labels>REWARD,BOSS,LOOT,FIGHT,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Prismimic" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="EXALTEDBANNER_1" type="0x003a">
+    <DisplayId>Exalted Banner I</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Complete the dungeon for a 15% probability of getting an extra exaltation</Description>
+    <Labels>EXALTATIONS</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="ExaltedBanner" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.15" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="EXALTEDBANNER_2" type="0x003b">
+    <DisplayId>Exalted Banner II</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Complete the dungeon for a 33% probability of getting an extra exaltation</Description>
+    <Labels>EXALTATIONS</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="ExaltedBanner" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.33" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="AGENTOFORYX" type="0x003f">
+    <DisplayId>Agent of Oryx</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Boss can drop Agent of Oryx Shards</Description>
+    <Labels>REWARD,BOSS,REWARD_MID</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="AgentOfOryx_Weapon" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.115" perPlayer="true" />
+      <SpecialSpawnOnDeath category="AgentOfOryx_Ability" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.07" perPlayer="true" />
+      <SpecialSpawnOnDeath category="AgentOfOryx_Armor" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.16" perPlayer="true" />
+      <SpecialSpawnOnDeath category="AgentOfOryx_Ring" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.16" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="XPBOOSTBOSS_1" type="0x0044">
+    <DisplayId>XP Boost (Boss)  I</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Boss enemies give 15% more XP</Description>
+    <Labels>REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="XP" amount="1.15" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="XP" amount="1.15" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="XPBOOSTBOSS_2" type="0x0045">
+    <DisplayId>XP Boost (Boss)  II</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Boss enemies give 30% more XP</Description>
+    <Labels>REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="XP" amount="1.30" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="XP" amount="1.30" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="XPBOOSTBOSS_3" type="0x0046">
+    <DisplayId>XP Boost (Boss)  III</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Boss enemies give 45% more XP</Description>
+    <Labels>REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="XP" amount="1.45" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="XP" amount="1.45" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="XPBOOSTBOSS_4" type="0x0047">
+    <DisplayId>XP Boost (Boss)  IV</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Boss enemies give 60% more XP</Description>
+    <Labels>REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="XP" amount="1.60" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="XP" amount="1.60" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="XPBOOSTBOSS_5" type="0x0048">
+    <DisplayId>XP Boost (Boss)  V</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Boss enemies give 75% more XP</Description>
+    <Labels>REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="XP" amount="1.75" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="XP" amount="1.75" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="REWARDSBOOSTBOSS_1" type="0x0049">
+    <DisplayId>Rewards Boost (Boss) I</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Boss enemies give 15% more loot</Description>
+    <Labels>REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="1.15" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="1.15" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="REWARDSBOOSTBOSS_2" type="0x004a">
+    <DisplayId>Rewards Boost (Boss) II</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Boss enemies give 30% more loot</Description>
+    <Labels>REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="1.30" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="1.15" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="REWARDSBOOSTBOSS_3" type="0x004b">
+    <DisplayId>Rewards Boost (Boss) III</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Boss enemies give 45% more loot</Description>
+    <Labels>REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="1.45" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="1.15" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="REWARDSBOOSTBOSS_4" type="0x004c">
+    <DisplayId>Rewards Boost (Boss) IV</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Boss enemies give 60% more loot</Description>
+    <Labels>REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="1.60" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="1.15" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="REWARDSBOOSTBOSS_5" type="0x004d">
+    <DisplayId>Rewards Boost (Boss) V</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Boss enemies give 75% more loot</Description>
+    <Labels>REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="1.75" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="1.15" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="WEAKMINIONS_1" type="0x004e">
+    <DisplayId>Weak Minions I</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Minions have 20% less HP</Description>
+    <Labels />
+    <IncompatibleLabels>HP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.80" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="WEAKMINIONS_2" type="0x004f">
+    <DisplayId>Weak Minions II</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Minions have 30% less HP</Description>
+    <Labels />
+    <IncompatibleLabels>HP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.70" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="WEAKMINIONS_3" type="0x0050">
+    <DisplayId>Weak Minions III</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Minions have 40% less HP</Description>
+    <Labels />
+    <IncompatibleLabels>HP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.60" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="WEAKBOSS_1" type="0x0053">
+    <DisplayId>Weak Boss I</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Boss enemies have 15% less HP</Description>
+    <Labels />
+    <IncompatibleLabels>HP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.85" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.85" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.85" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="WEAKBOSS_2" type="0x0054">
+    <DisplayId>Weak Boss II</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Boss enemies have 30% less HP</Description>
+    <Labels />
+    <IncompatibleLabels>HP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.70" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.70" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.70" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="WEAKBOSS_3" type="0x0055">
+    <DisplayId>Weak Boss III</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Boss enemies have 45% less HP</Description>
+    <Labels />
+    <IncompatibleLabels>HP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.55" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.55" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.55" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TAMEMINIONS_1" type="0x0058">
+    <DisplayId>Tame Minions I</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Minions deal 16% less DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="0.84" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TAMEMINIONS_2" type="0x0059">
+    <DisplayId>Tame Minions II</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Minions deal 24% less DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="0.76" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TAMEMINIONS_3" type="0x005a">
+    <DisplayId>Tame Minions III</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Minions deal 32% less DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="0.68" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TAMEBOSS_1" type="0x005d">
+    <DisplayId>Tame Boss I</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Boss enemies deal 8% less DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="0.92" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Damage" amount="0.92" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Damage" amount="0.92" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TAMEBOSS_2" type="0x005e">
+    <DisplayId>Tame Boss II</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Boss enemies deal 16% less DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="0.84" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Damage" amount="0.84" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Damage" amount="0.84" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TAMEBOSS_3" type="0x005f">
+    <DisplayId>Tame Boss III</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Boss enemies deal 24% less DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="0.76" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Damage" amount="0.76" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Damage" amount="0.76" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TAMEBOSS_4" type="0x0060">
+    <DisplayId>Tame Boss IV</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Boss enemies deal 32% less DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="0.68" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Damage" amount="0.68" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Damage" amount="0.68" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEEBLEMINIONS_1" type="0x0062">
+    <DisplayId>Feeble Minions I</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Minions have 8% less DEF</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="0.92" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEEBLEMINIONS_2" type="0x0063">
+    <DisplayId>Feeble Minions II</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Minions have 16% less DEF</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="0.84" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEEBLEMINIONS_3" type="0x0064">
+    <DisplayId>Feeble Minions III</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Minions have 24% less DEF</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="0.76" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEEBLEMINIONS_4" type="0x0065">
+    <DisplayId>Feeble Minions IV</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Minions have 32% less DEF</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="0.68" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEEBLEBOSS_1" type="0x0067">
+    <DisplayId>Feeble Boss I</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Boss enemies have 8% less DEF</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="0.92" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Defense" amount="0.92" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Defense" amount="0.92" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEEBLEBOSS_2" type="0x0068">
+    <DisplayId>Feeble Boss II</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Boss enemies have 16% less DEF</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="0.84" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Defense" amount="0.84" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Defense" amount="0.84" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEEBLEBOSS_3" type="0x0069">
+    <DisplayId>Feeble Boss III</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Boss enemies have 24% less DEF</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="0.76" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Defense" amount="0.76" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Defense" amount="0.76" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEEBLEBOSS_4" type="0x006a">
+    <DisplayId>Feeble Boss IV</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Boss enemies have 32% less DEF</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="0.68" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Defense" amount="0.68" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Defense" amount="0.68" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="DULLMINIONS_1" type="0x006c">
+    <DisplayId>Dull Minions I</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Minions' projectiles travel 10% slower</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <IncompatibleLabels>PROJSPD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="0.90" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="DULLMINIONS_2" type="0x006d">
+    <DisplayId>Dull Minions II</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Minions' projectiles travel 15% slower</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <IncompatibleLabels>PROJSPD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="0.85" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="DULLMINIONS_3" type="0x006e">
+    <DisplayId>Dull Minions III</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Minions' projectiles travel 30% slower</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <IncompatibleLabels>PROJSPD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="0.70" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="DULLMINIONS_4" type="0x006f">
+    <DisplayId>Dull Minions IV</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Minions' projectiles travel 45% slower</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <IncompatibleLabels>PROJSPD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="0.55" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="DULLMINIONS_5" type="0x0070">
+    <DisplayId>Dull Minions V</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Minions' projectiles travel 50% slower</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <IncompatibleLabels>PROJSPD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="0.50" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="BOREDMINIONS_1" type="0x0071">
+    <DisplayId>Bored Minions I</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Minions' projectiles have 10% less lifetime</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJLT</Labels>
+    <IncompatibleLabels>PROJLT</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileLifetime" amount="0.90" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="BOREDMINIONS_2" type="0x0072">
+    <DisplayId>Bored Minions II</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Minions' projectiles have 20% less lifetime</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJLT</Labels>
+    <IncompatibleLabels>PROJLT</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileLifetime" amount="0.80" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="BOREDMINIONS_3" type="0x0073">
+    <DisplayId>Bored Minions III</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Minions' projectiles have 30% less lifetime</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJLT</Labels>
+    <IncompatibleLabels>PROJLT</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileLifetime" amount="0.70" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="LAZYMINIONS_1" type="0x0076">
+    <DisplayId>Lazy Minions I</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Minions attack 10% slower</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <IncompatibleLabels>SHOTCD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ShootCooldown" amount="1.10" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="LAZYMINIONS_2" type="0x0077">
+    <DisplayId>Lazy Minions II</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Minions attack 20% slower</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <IncompatibleLabels>SHOTCD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ShootCooldown" amount="1.20" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="LAZYMINIONS_3" type="0x0078">
+    <DisplayId>Lazy Minions III</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Minions attack 30% slower</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <IncompatibleLabels>SHOTCD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ShootCooldown" amount="1.30" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="LAZYMINIONS_4" type="0x0079">
+    <DisplayId>Lazy Minions IV</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Minions attack 40% slower</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <IncompatibleLabels>SHOTCD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ShootCooldown" amount="1.40" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="XPBOOSTMINIONS_1" type="0x007b">
+    <DisplayId>XP Boost (Minions)  I</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Minions give 50% more XP</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP</Labels>
+    <IncompatibleLabels>XP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="XP" amount="1.50" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="XPBOOSTMINIONS_2" type="0x007c">
+    <DisplayId>XP Boost (Minions)  II</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Minions give 100% more XP</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP</Labels>
+    <IncompatibleLabels>XP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="XP" amount="2.00" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="REWARDSBOOSTMINIONS_1" type="0x0080">
+    <DisplayId>Rewards Boost (Minions) I</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Minions give 50% more loot</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,LOOT</Labels>
+    <IncompatibleLabels>LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="1.50" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="REWARDSBOOSTMINIONS_2" type="0x0081">
+    <DisplayId>Rewards Boost (Minions) II</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Minions give 100% more loot</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,LOOT</Labels>
+    <IncompatibleLabels>LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="2.00" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="BULKYMINIONS_1" type="0x0085">
+    <DisplayId>Bulky Minions I</DisplayId>
+    <PowerLevel>-1</PowerLevel>
+    <Description>Minions have 25% more HP</Description>
+    <Labels />
+    <IncompatibleLabels>HP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="MaxHitPoints" amount="1.25" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="BULKYMINIONS_2" type="0x0086">
+    <DisplayId>Bulky Minions II</DisplayId>
+    <PowerLevel>-2</PowerLevel>
+    <Description>Minions have 50% more HP</Description>
+    <Labels />
+    <IncompatibleLabels>HP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="MaxHitPoints" amount="1.50" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="BULKYMINIONS_3" type="0x0087">
+    <DisplayId>Bulky Minions III</DisplayId>
+    <PowerLevel>-3</PowerLevel>
+    <Description>Minions have 100% more HP</Description>
+    <Labels />
+    <IncompatibleLabels>HP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="MaxHitPoints" amount="2.00" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ELITEBOSS_1" type="0x008a">
+    <DisplayId>Elite Boss I</DisplayId>
+    <PowerLevel>-2</PowerLevel>
+    <Description>Boss enemies have 15% more HP</Description>
+    <Labels />
+    <IncompatibleLabels>HP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="MaxHitPoints" amount="1.15" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="1.15" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="1.15" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ELITEBOSS_2" type="0x008b">
+    <DisplayId>Elite Boss II</DisplayId>
+    <PowerLevel>-4</PowerLevel>
+    <Description>Boss enemies have 30% more HP</Description>
+    <Labels />
+    <IncompatibleLabels>HP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="MaxHitPoints" amount="1.30" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="1.30" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="1.30" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ELITEBOSS_3" type="0x008c">
+    <DisplayId>Elite Boss III</DisplayId>
+    <PowerLevel>-5</PowerLevel>
+    <Description>Boss enemies have 45% more HP</Description>
+    <Labels />
+    <IncompatibleLabels>HP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="MaxHitPoints" amount="1.45" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="1.45" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="1.45" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEROCIOUSMINIONS_1" type="0x008f">
+    <DisplayId>Ferocious Minions I</DisplayId>
+    <PowerLevel>-1</PowerLevel>
+    <Description>Minions deal 16% more DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="1.16" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEROCIOUSMINIONS_2" type="0x0090">
+    <DisplayId>Ferocious Minions II</DisplayId>
+    <PowerLevel>-2</PowerLevel>
+    <Description>Minions deal 24% more DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="1.24" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEROCIOUSMINIONS_3" type="0x0091">
+    <DisplayId>Ferocious Minions III</DisplayId>
+    <PowerLevel>-3</PowerLevel>
+    <Description>Minions deal 32% more DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="1.32" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEROCIOUSBOSS_1" type="0x0094">
+    <DisplayId>Ferocious Boss I</DisplayId>
+    <PowerLevel>-2</PowerLevel>
+    <Description>Boss enemies deal 8% more DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="1.08" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Damage" amount="1.08" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Damage" amount="1.08" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEROCIOUSBOSS_2" type="0x0095">
+    <DisplayId>Ferocious Boss II</DisplayId>
+    <PowerLevel>-3</PowerLevel>
+    <Description>Boss enemies deal 16% more DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="1.16" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Damage" amount="1.16" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Damage" amount="1.16" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEROCIOUSBOSS_3" type="0x0096">
+    <DisplayId>Ferocious Boss III</DisplayId>
+    <PowerLevel>-4</PowerLevel>
+    <Description>Boss enemies deal 24% more DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="1.24" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Damage" amount="1.24" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Damage" amount="1.24" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FEROCIOUSBOSS_4" type="0x0097">
+    <DisplayId>Ferocious Boss IV</DisplayId>
+    <PowerLevel>-5</PowerLevel>
+    <Description>Boss enemies deal 32% more DMG</Description>
+    <Labels />
+    <IncompatibleLabels>DMG</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Damage" amount="1.32" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Damage" amount="1.32" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Damage" amount="1.32" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TOUGHMINIONS_1" type="0x0099">
+    <DisplayId>Tough Minions I</DisplayId>
+    <PowerLevel>-2</PowerLevel>
+    <Description>Minions have 8% more DEF</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="1.08" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TOUGHMINIONS_2" type="0x009a">
+    <DisplayId>Tough Minions II</DisplayId>
+    <PowerLevel>-3</PowerLevel>
+    <Description>Minions have 16% more DEF</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="1.16" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TOUGHMINIONS_3" type="0x009b">
+    <DisplayId>Tough Minions III</DisplayId>
+    <PowerLevel>-4</PowerLevel>
+    <Description>Minions have 24% more DEF</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="1.24" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TOUGHMINIONS_4" type="0x009c">
+    <DisplayId>Tough Minions IV</DisplayId>
+    <PowerLevel>-5</PowerLevel>
+    <Description>Minions have 32% more DEF</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="1.32" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TOUGHBOSS_1" type="0x009e">
+    <DisplayId>Tough Boss I</DisplayId>
+    <PowerLevel>-2</PowerLevel>
+    <Description>Boss enemies have 8% more DEF</Description>
+    <Labels>ANY,ENTITY,BOSS,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="1.08" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Defense" amount="1.08" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Defense" amount="1.08" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TOUGHBOSS_2" type="0x009f">
+    <DisplayId>Tough Boss II</DisplayId>
+    <PowerLevel>-3</PowerLevel>
+    <Description>Boss enemies have 16% more DEF</Description>
+    <Labels>ANY,ENTITY,BOSS,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="1.16" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Defense" amount="1.16" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Defense" amount="1.16" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TOUGHBOSS_3" type="0x00a0">
+    <DisplayId>Tough Boss III</DisplayId>
+    <PowerLevel>-4</PowerLevel>
+    <Description>Boss enemies have 24% more DEF</Description>
+    <Labels>ANY,ENTITY,BOSS,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="1.24" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Defense" amount="1.24" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Defense" amount="1.24" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TOUGHBOSS_4" type="0x00a1">
+    <DisplayId>Tough Boss IV</DisplayId>
+    <PowerLevel>-5</PowerLevel>
+    <Description>Boss enemies have 32% more DEF</Description>
+    <Labels>ANY,ENTITY,BOSS,STAT,DEF</Labels>
+    <IncompatibleLabels>DEF</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Defense" amount="1.32" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Defense" amount="1.32" reqLabels="BOSS_SPAWNED" />
+      <EntityStatMultiplier stat="Defense" amount="1.32" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="KEENMINIONS_1" type="0x00a3">
+    <DisplayId>Keen Minions I</DisplayId>
+    <PowerLevel>-1</PowerLevel>
+    <Description>Minions' projectiles travel 4% faster</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <IncompatibleLabels>PROJSPD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="1.04" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="KEENMINIONS_2" type="0x00a4">
+    <DisplayId>Keen Minions II</DisplayId>
+    <PowerLevel>-2</PowerLevel>
+    <Description>Minions' projectiles travel 8% faster</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <IncompatibleLabels>PROJSPD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="1.08" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="KEENMINIONS_3" type="0x00a5">
+    <DisplayId>Keen Minions III</DisplayId>
+    <PowerLevel>-3</PowerLevel>
+    <Description>Minions' projectiles travel 12% faster</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <IncompatibleLabels>PROJSPD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="1.12" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="KEENMINIONS_4" type="0x00a6">
+    <DisplayId>Keen Minions IV</DisplayId>
+    <PowerLevel>-4</PowerLevel>
+    <Description>Minions' projectiles travel 20% faster</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <IncompatibleLabels>PROJSPD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="1.20" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="KEENMINIONS_5" type="0x00a7">
+    <DisplayId>Keen Minions V</DisplayId>
+    <PowerLevel>-5</PowerLevel>
+    <Description>Minions' projectiles travel 24% faster</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <IncompatibleLabels>PROJSPD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileSpeed" amount="1.24" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ENERGIZEDMINIONS_1" type="0x00a8">
+    <DisplayId>Energized Minions I</DisplayId>
+    <PowerLevel>-1</PowerLevel>
+    <Description>Minions' projectiles have 10% more lifetime</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJLT</Labels>
+    <IncompatibleLabels>PROJLT</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileLifetime" amount="1.10" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ENERGIZEDMINIONS_2" type="0x00a9">
+    <DisplayId>Energized Minions II</DisplayId>
+    <PowerLevel>-2</PowerLevel>
+    <Description>Minions' projectiles have 20% more lifetime</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJLT</Labels>
+    <IncompatibleLabels>PROJLT</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileLifetime" amount="1.20" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ENERGIZEDMINIONS_3" type="0x00aa">
+    <DisplayId>Energized Minions III</DisplayId>
+    <PowerLevel>-3</PowerLevel>
+    <Description>Minions' projectiles have 30% more lifetime</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJLT</Labels>
+    <IncompatibleLabels>PROJLT</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ProjectileLifetime" amount="1.30" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SKILLEDMINIONS_1" type="0x00ad">
+    <DisplayId>Skilled Minions I</DisplayId>
+    <PowerLevel>-2</PowerLevel>
+    <Description>Minions attack 10% faster</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <IncompatibleLabels>SHOTCD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ShootCooldown" amount="0.90" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SKILLEDMINIONS_2" type="0x00ae">
+    <DisplayId>Skilled Minions II</DisplayId>
+    <PowerLevel>-3</PowerLevel>
+    <Description>Minions attack 20% faster</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <IncompatibleLabels>SHOTCD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ShootCooldown" amount="0.80" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SKILLEDMINIONS_3" type="0x00af">
+    <DisplayId>Skilled Minions III</DisplayId>
+    <PowerLevel>-4</PowerLevel>
+    <Description>Minions attack 30% faster</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <IncompatibleLabels>SHOTCD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ShootCooldown" amount="0.70" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SKILLEDMINIONS_4" type="0x00b0">
+    <DisplayId>Skilled Minions IV</DisplayId>
+    <PowerLevel>-5</PowerLevel>
+    <Description>Minions attack 40% faster</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <IncompatibleLabels>SHOTCD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="ShootCooldown" amount="0.60" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="XPDECREASEMINIONS_1" type="0x00b2">
+    <DisplayId>XP Decrease (Minions)  I</DisplayId>
+    <PowerLevel>-1</PowerLevel>
+    <Description>Minions give 25% less XP</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP</Labels>
+    <IncompatibleLabels>XP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="XP" amount="0.75" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="XPDECREASEMINIONS_2" type="0x00b3">
+    <DisplayId>XP Decrease (Minions)  II</DisplayId>
+    <PowerLevel>-2</PowerLevel>
+    <Description>Minions give 50% less XP</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP</Labels>
+    <IncompatibleLabels>XP</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="XP" amount="0.50" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="REWARDSDECREASEMINIONS_1" type="0x00b7">
+    <DisplayId>Rewards Decrease (Minions) I</DisplayId>
+    <PowerLevel>-1</PowerLevel>
+    <Description>Minions give 25% less loot</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,LOOT</Labels>
+    <IncompatibleLabels>LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="0.75" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="REWARDSDECREASEMINIONS_2" type="0x00b8">
+    <DisplayId>Rewards Decrease (Minions) II</DisplayId>
+    <PowerLevel>-2</PowerLevel>
+    <Description>Minions give 50% less loot</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,LOOT</Labels>
+    <IncompatibleLabels>LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="0.50" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SMALLMINIONS" type="0x00bc">
+    <DisplayId>Small Minions</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Minions are 34% smaller</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,SIZE,ARTIFICIAL</Labels>
+    <IncompatibleLabels>SIZE</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Size" amount="0.66" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="BIGMINIONS" type="0x00c1">
+    <DisplayId>Big Minions</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Minions are 33% bigger</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,SIZE,ARTIFICIAL</Labels>
+    <IncompatibleLabels>SIZE</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="Size" amount="1.33" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SMALLBOSS" type="0x00c6">
+    <DisplayId>Small Boss</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss enemies are 34% smaller</Description>
+    <Labels>ARTIFICIAL</Labels>
+    <IncompatibleLabels />
+    <Mutators>
+      <EntityStatMultiplier stat="Size" amount="0.66" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Size" amount="0.66" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="BIGBOSS" type="0x00cb">
+    <DisplayId>Big Boss</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss enemies are 33% bigger</Description>
+    <Labels>ARTIFICIAL</Labels>
+    <IncompatibleLabels />
+    <Mutators>
+      <EntityStatMultiplier stat="Size" amount="1.33" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="Size" amount="1.33" reqLabels="MINIBOSS" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="WANDERERBOSS" type="0x00d5">
+    <DisplayId>Wanderer Boss</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>An unknown foe will appear after the Boss is defeated</Description>
+    <Labels>REWARD,BOSS,LOOT,REWARD_LOW,REWARD_MID,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Wanderer_Boss" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1.00" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="KEYFAIRY_1" type="0x00df">
+    <DisplayId>Key Fairy</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>A Key Fairy will spawn after defeating the boss dropping a random key and Enchantment Dust.</Description>
+    <Labels>REWARD,BOSS,LOOT,REWARD_LOW,REWARD_MID,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Key_Fairy" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="KEYFAIRY_2" type="0x00e0">
+    <DisplayId>Key Fairy</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>A Key Fairy will spawn after defeating the boss dropping a random key and Enchantment Dust.</Description>
+    <Labels>REWARD,BOSS,LOOT,REWARD_LOW,REWARD_MID,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Key_Fairy" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="KEYFAIRY_3" type="0x00e1">
+    <DisplayId>Key Fairy</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>A Key Fairy will spawn after defeating the boss dropping a random key and Enchantment Dust.</Description>
+    <Labels>REWARD,BOSS,LOOT,REWARD_LOW,REWARD_MID,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Key_Fairy" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MYSTERYSKIN" type="0x00e4">
+    <DisplayId>Mystery Skin</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>The boss has a chance of dropping a token to obtain a Mystery Skin</Description>
+    <Labels>REWARD,BOSS,LOOT,REWARD_MID,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>MYSTERY_SKIN</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MYSTERYEFFUSION" type="0x00ee">
+    <DisplayId>Mystery Tincture/Effusion</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Boss enemies will always drop a Tincture or Effusion.</Description>
+    <Labels>REWARD,BOSS,LOOT,REWARD_LOW,REWARD_MID,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>MYSTERY_EFFUSION</GlobalFlag>
+      <GlobalFlag>MYSTERY_TINCTURE</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="HEROICREGENERATION" type="0x00f3">
+    <DisplayId>Heroic Regeneration</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Enemies can drop Heroic Orbs on death.</Description>
+    <Labels>REWARD,BOSS,LOOT,REWARD_LOW,REWARD_MID,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Heroic_Orb_Weak" reqLabels="MINION_WEAK" excludeLabels="SPECIAL" prob="0.05" />
+      <SpecialSpawnOnDeath category="Heroic_Orb_Mid" reqLabels="MINION_MID" excludeLabels="SPECIAL" prob="0.15" />
+      <SpecialSpawnOnDeath category="Heroic_Orb_Strong" reqLabels="MINION_STRONG" excludeLabels="SPECIAL" prob="0.25" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="BONUSCONSUMABLES" type="0x00f8">
+    <DisplayId>Bonus Consumables</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Boss enemies will drop additional restorative consumables</Description>
+    <Labels>REWARD,BOSS,LOOT,REWARD_LOW,REWARD_MID,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>BONUSCONSUMABLE</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="HAUNTEDHALLS_1" type="0x00fd">
+    <DisplayId>Haunted Halls I</DisplayId>
+    <PowerLevel>-3</PowerLevel>
+    <Description>Additional 5% chance for each room to contain the Spectral Sentry</Description>
+    <Labels>LOST_HALLS,HAUNTEDHALLS</Labels>
+    <IncompatibleLabels>HAUNTEDHALLS</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>HAUNTED_HALLS1</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="HAUNTEDHALLS_2" type="0x0102">
+    <DisplayId>Haunted Halls II</DisplayId>
+    <PowerLevel>-4</PowerLevel>
+    <Description>Additional 10% chance for each room to contain the Spectral Sentry</Description>
+    <Labels>LOST_HALLS,HAUNTEDHALLS</Labels>
+    <IncompatibleLabels>HAUNTEDHALLS</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>HAUNTED_HALLS2</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="HAUNTEDHALLS_3" type="0x0103">
+    <DisplayId>Haunted Halls III</DisplayId>
+    <PowerLevel>-5</PowerLevel>
+    <Description>Additional 15% chance for each room to contain the Spectral Sentry</Description>
+    <Labels>LOST_HALLS,HAUNTEDHALLS</Labels>
+    <IncompatibleLabels>HAUNTEDHALLS</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>HAUNTED_HALLS3</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ALEXANDERSLEGACY_1" type="0x0107">
+    <DisplayId>Alexander's Legacy I</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>Thessal has a 25% chance of becoming wounded upon defeat</Description>
+    <Labels>OCEAN_TRENCH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>ALEXANDERS_LEGACY1</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ALEXANDERSLEGACY_2" type="0x0108">
+    <DisplayId>Alexander's Legacy II</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Thessal has a 50% chance of becoming wounded upon defeat</Description>
+    <Labels>OCEAN_TRENCH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>ALEXANDERS_LEGACY2</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ALEXANDERSLEGACY_3" type="0x0109">
+    <DisplayId>Alexander's Legacy III</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Thessal has a 75% chance of becoming wounded upon defeat</Description>
+    <Labels>OCEAN_TRENCH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>ALEXANDERS_LEGACY3</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ALEXANDERSLEGACY_4" type="0x010a">
+    <DisplayId>Alexander's Legacy IV</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Dying Thessal will always occur</Description>
+    <Labels>OCEAN_TRENCH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>ALEXANDERS_LEGACY4</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="NILDROPS" type="0x010c">
+    <DisplayId>Nildrops</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Boss has a 20% chance of dropping a Nildrop</Description>
+    <Labels>REWARD,BOSS,LOOT,NILDROP,REWARD_LOW,REWARD_MID,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>NILDROPS</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="CRABRAVE_1" type="0x0111">
+    <DisplayId>Crab Rave I</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Calamity crab is replaced with multiple smaller crabs</Description>
+    <Labels>DDOCKS</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>CRAB_RAVE</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="CRABRAVE_2" type="0x0112">
+    <DisplayId>Crab Rave II</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Calamity crab is replaced with multiple smaller crabs</Description>
+    <Labels>DDOCKS</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>CRAB_RAVE2</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FOUNDTREASURE_1" type="0x0116">
+    <DisplayId>Found Treasure! I</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Treasure rooms are revealed if they exist</Description>
+    <Labels>TROOM</Labels>
+    <IncompatibleLabels>TROOM</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>TreasureFound</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="FOUNDTREASURE_2" type="0x0117">
+    <DisplayId>Found Treasure! II</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Treasure rooms are revealed if they exist. Gear items in them have extra 25% droprate</Description>
+    <Labels>TROOM</Labels>
+    <IncompatibleLabels>TROOM</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>TreasureFound2</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SHATTERSACCEL" type="0x011b">
+    <DisplayId>Lingering Magi</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>The castle starts with one Magi Generator active</Description>
+    <Labels>SHATTERS</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>SHATTERSSPEEDUP</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SPIDERSWARM_1" type="0x0120">
+    <DisplayId>Spider Swarm I</DisplayId>
+    <PowerLevel>-2</PowerLevel>
+    <Description>Enemies have a 10% chance to split into multiple spiders that drop ichors on death.</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SPAWNONDEATH</Labels>
+    <IncompatibleLabels>SPAWNONDEATH</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Swarm_Spider_Low_Spawner" reqLabels="MINION_WEAK" excludeLabels="SPECIAL" prob="0.10" />
+      <SpecialSpawnOnDeath category="Swarm_Spider_Mid_Spawner" reqLabels="MINION_MID" excludeLabels="SPECIAL" prob="0.10" />
+      <SpecialSpawnOnDeath category="Swarm_Spider_High_Spawner" reqLabels="MINION_STRONG" excludeLabels="SPECIAL" prob="0.10" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SPIDERSWARM_2" type="0x0121">
+    <DisplayId>Spider Swarm II</DisplayId>
+    <PowerLevel>-3</PowerLevel>
+    <Description>Enemies have a 15% chance to split into multiple spiders that drop ichors on death.</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SPAWNONDEATH</Labels>
+    <IncompatibleLabels>SPAWNONDEATH</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Swarm_Spider_Low_Spawner" reqLabels="MINION_WEAK" excludeLabels="SPECIAL" prob="0.15" />
+      <SpecialSpawnOnDeath category="Swarm_Spider_Mid_Spawner" reqLabels="MINION_MID" excludeLabels="SPECIAL" prob="0.15" />
+      <SpecialSpawnOnDeath category="Swarm_Spider_High_Spawner" reqLabels="MINION_STRONG" excludeLabels="SPECIAL" prob="0.15" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SKINHUNTER_1" type="0x0125">
+    <DisplayId>Skin Hunter I</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Boss enemies will drop player and pet skins at a doubled rate</Description>
+    <Labels>SKIN_HUNTER,REWARD,BOSS,LOOT</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="SkinHunter" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.028" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SKINHUNTER_2" type="0x0126">
+    <DisplayId>Skin Hunter II</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Boss enemies will drop player and pet skins at a tripled rate</Description>
+    <Labels>SKIN_HUNTER,REWARD,BOSS,LOOT</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="SkinHunter" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.042" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SOULBOOST" type="0x012a">
+    <DisplayId>Soul Boost</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Dragons will release their best souls upon death.</Description>
+    <Labels>DRACONIS</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>LODBonus</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="LANTERNLIGHT" type="0x012b">
+    <DisplayId>Lantern Light</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>All Temple Lanterns are already lit.</Description>
+    <Labels>MTEMPLE</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>LANTERNLIGHT</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TOKENDROPA" type="0x012c">
+    <DisplayId>Mythical ST Gem I</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss has a 5% chance of dropping a Mythical ST Gem.</Description>
+    <Labels />
+    <IncompatibleLabels />
+    <Mutators>
+      <SpecialSpawnOnDeath category="Token" reqLabels="STGEMDROP" excludeLabels="SPECIAL" prob="0.05" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TOKENDROPB" type="0x012d">
+    <DisplayId>Mythical ST Gem II</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss has a 10% chance of dropping a Mythical ST Gem.</Description>
+    <Labels />
+    <IncompatibleLabels />
+    <Mutators>
+      <SpecialSpawnOnDeath category="Token" reqLabels="STGEMDROP" excludeLabels="SPECIAL" prob="0.10" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TOKENDROPC" type="0x012e">
+    <DisplayId>Mythical ST Gem III</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss has a 15% chance of dropping a Mythical ST Gem.</Description>
+    <Labels />
+    <IncompatibleLabels />
+    <Mutators>
+      <SpecialSpawnOnDeath category="Token" reqLabels="STGEMDROP" excludeLabels="SPECIAL" prob="0.15" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="INTERREGNUMS" type="0x0133">
+    <DisplayId>Interregnum Fight</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Fight all four Syndicate mercenaries together, followed by the Wanderer!</Description>
+    <Labels>INTERREGNUM</Labels>
+    <IncompatibleLabels />
+    <Mutators>
+      <GlobalFlag>INTERREGNUMS</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MERCA" type="0x0134">
+    <DisplayId>Syndicate Takeover I</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Battle Pirate Queen Ramm after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS,MERCA</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Mercenary_A" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MERCB" type="0x0135">
+    <DisplayId>Syndicate Takeover II</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Battle Izel the Grand Shaman after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS,MERCB</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Mercenary_B" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MERCC" type="0x0136">
+    <DisplayId>Syndicate Takeover III</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Battle Nefret the Pharaoh after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS,MERCC</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Mercenary_C" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MERCD" type="0x0137">
+    <DisplayId>Syndicate Takeover IV</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>Battle Black Blade Ozuchi after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS,MERCD</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Mercenary_D" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MERCDORWANDER" type="0x0138">
+    <DisplayId>Syndicate Takeover V</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Battle Black Blade Ozuchi or Wanderer after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS,MERCDORWANDER</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Wanderer_or_D" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SHATTERS_SENTINEL_REHERSAL" type="0x0139">
+    <DisplayId>The Bridge Sentinel Rehearsal</DisplayId>
+    <PowerLevel>0</PowerLevel>
+    <Description>Hone your skills against The Bridge Sentinel!</Description>
+    <Labels />
+    <IncompatibleLabels />
+    <Mutators>
+      <EntityDropMultiplier amount="0.0" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="Damage" amount="0.80" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.85" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="XP" amount="0.70" reqLabels="SHATTERS" />
+      <NoExaltStat />
+      <GlobalFlag>REHERSAL</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SHATTERS_ARCHMAGE_REHERSAL" type="0x013a">
+    <DisplayId>The Twilight Archmage Rehearsal</DisplayId>
+    <PowerLevel>0</PowerLevel>
+    <Description>Hone your skills against The Twilight Archmage!</Description>
+    <Labels />
+    <IncompatibleLabels />
+    <Mutators>
+      <EntityDropMultiplier amount="0.0" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="Damage" amount="0.80" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.85" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="XP" amount="0.70" reqLabels="SHATTERS" />
+      <NoExaltStat />
+      <GlobalFlag>REHERSAL</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SHATTERS_KING_REHERSAL" type="0x013b">
+    <DisplayId>The Forgotten King Rehearsal</DisplayId>
+    <PowerLevel>0</PowerLevel>
+    <Description>Hone your skills against The Forgotten King!</Description>
+    <Labels />
+    <IncompatibleLabels />
+    <Mutators>
+      <EntityDropMultiplier amount="0.0" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="Damage" amount="0.80" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.85" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="XP" amount="0.70" reqLabels="SHATTERS" />
+      <NoExaltStat />
+      <GlobalFlag>REHERSAL</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SHATTERS_ENCORE" type="0x013c">
+    <DisplayId>The Shatters Encore</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss has a 25% chance of dropping a portal to The Shatters.</Description>
+    <Labels>REWARD,BOSS,LOOT,PORTAL,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="ShattersEncore" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.25" />
+      <SpecialSpawnOnDeath category="ShattersEncore" reqLabels="MINIBOSS" excludeLabels="SPECIAL" prob="0.25" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="STEAMWORKS_MAINTENANCE" type="0x013d">
+    <DisplayId>Machine Maintenance</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Dungeon turrets are disabled while they undergo maintenance.</Description>
+    <Labels>STEAMWORKS</Labels>
+    <IncompatibleLabels>STEAMWORKS</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>turretsOff</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="STEAMWORKS_ENCORE" type="0x013e">
+    <DisplayId>Kogbold Steamworks Encore</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss has a 25% chance of dropping a portal to the Kogbold Steamworks.</Description>
+    <Labels>REWARD,BOSS,LOOT,PORTAL,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="SteamworksEncore" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.25" />
+      <SpecialSpawnOnDeath category="SteamworksEncore" reqLabels="MINIBOSS" excludeLabels="SPECIAL" prob="0.25" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="UNPREPARED_1" type="0x0143">
+    <DisplayId>Unprepared I</DisplayId>
+    <PowerLevel>-1</PowerLevel>
+    <Description>Minions have a 20% lower chance of dropping Health/Mana Potions</Description>
+    <Labels>REWARD,MINION,LOOT,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD,LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="0.80" reqLabels="MINION" itemId="Health Potion" />
+      <EntityDropMultiplier amount="0.80" reqLabels="MINION" itemId="Magic Potion" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="UNPREPARED_2" type="0x0144">
+    <DisplayId>Unprepared II</DisplayId>
+    <PowerLevel>-2</PowerLevel>
+    <Description>Minions have a 40% lower chance of dropping Health/Mana Potions</Description>
+    <Labels>REWARD,MINION,LOOT,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD,LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="0.60" reqLabels="MINION" itemId="Health Potion" />
+      <EntityDropMultiplier amount="0.60" reqLabels="MINION" itemId="Magic Potion" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="UNPREPARED_3" type="0x0145">
+    <DisplayId>Unprepared III</DisplayId>
+    <PowerLevel>-3</PowerLevel>
+    <Description>Minions have a 60% lower chance of dropping Health/Mana Potions</Description>
+    <Labels>REWARD,MINION,LOOT,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD,LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="0.40" reqLabels="MINION" itemId="Health Potion" />
+      <EntityDropMultiplier amount="0.40" reqLabels="MINION" itemId="Magic Potion" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="UNPREPARED_4" type="0x0146">
+    <DisplayId>Unprepared IV</DisplayId>
+    <PowerLevel>-4</PowerLevel>
+    <Description>Minions have a 80% lower chance of dropping Health/Mana Potions</Description>
+    <Labels>REWARD,MINION,LOOT,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD,LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="0.20" reqLabels="MINION" itemId="Health Potion" />
+      <EntityDropMultiplier amount="0.20" reqLabels="MINION" itemId="Magic Potion" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="UNPREPARED_5" type="0x0147">
+    <DisplayId>Unprepared V</DisplayId>
+    <PowerLevel>-5</PowerLevel>
+    <Description>Minions cannot drop Health or Mana potions</Description>
+    <Labels>REWARD,MINION,LOOT,REWARD_LOW</Labels>
+    <IncompatibleLabels>REWARD,LOOT</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="0" reqLabels="MINION" itemId="Health Potion" />
+      <EntityDropMultiplier amount="0" reqLabels="MINION" itemId="Magic Potion" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="HEROICDEFENSE" type="0x0152">
+    <DisplayId>Heroic Defense</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Enemies can drop Defense Orbs on death.</Description>
+    <Labels>MINION,REWARD_LOW,REWARD_MID,REWARD_HIGH,HEROORB</Labels>
+    <IncompatibleLabels>HEROORB</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Defense_Orb" reqLabels="MINION" excludeLabels="SPECIAL" prob="0.025" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="HEROICFRENZY" type="0x0153">
+    <DisplayId>Heroic Frenzy</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Enemies can drop Frenzy Orbs on death.</Description>
+    <Labels>MINION,REWARD_LOW,REWARD_MID,REWARD_HIGH,HEROORB</Labels>
+    <IncompatibleLabels>HEROORB</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Frenzy_Orb" reqLabels="MINION" excludeLabels="SPECIAL" prob="0.025" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="HEROICDAMAGE" type="0x0154">
+    <DisplayId>Heroic Damage</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Enemies can drop Damaging Orbs on death.</Description>
+    <Labels>MINION,REWARD_LOW,REWARD_MID,REWARD_HIGH,HEROORB</Labels>
+    <IncompatibleLabels>HEROORB</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Damage_Orb" reqLabels="MINION" excludeLabels="SPECIAL" prob="0.025" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="HEROICSPEED" type="0x0156">
+    <DisplayId>Heroic Speed</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Enemies can drop Speedy Orbs on death.</Description>
+    <Labels>MINION,REWARD_LOW,REWARD_MID,REWARD_HIGH,HEROORB</Labels>
+    <IncompatibleLabels>HEROORB</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Speed_Orb" reqLabels="MINION" excludeLabels="SPECIAL" prob="0.025" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="LEPRECHAUN_YELLOW" type="0x0157">
+    <DisplayId>Golden Luck</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Fight the Yellow Leprechaun after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Leprechaun_Yellow" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="LEPRECHAUN_PURPLE" type="0x0158">
+    <DisplayId>Amethyst Luck</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Fight the Purple Leprechaun after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Leprechaun_Purple" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="XPANDREWARDSBOOSTALL_1" type="0x0159">
+    <DisplayId>XP and Rewards Boost (All)  I</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss enemies and Minions give 50% more XP and Loot</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP,LOOT,REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>XP,LOOT,REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="XP" amount="1.50" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="XP" amount="1.50" reqLabels="MINIBOSS" />
+      <EntityStatMultiplier stat="XP" amount="1.50" reqLabels="MINION" />
+      <EntityDropMultiplier amount="1.50" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="1.50" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="XPANDREWARDSBOOSTALL_2" type="0x015a">
+    <DisplayId>XP and Rewards Boost (All)  II</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss enemies and Minions give 100% more XP and Loot</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP,LOOT,REWARD,BOSS,REWARD_LOW</Labels>
+    <IncompatibleLabels>XP,LOOT,REWARD</IncompatibleLabels>
+    <Mutators>
+      <EntityStatMultiplier stat="XP" amount="2.00" reqLabels="BOSS" />
+      <EntityStatMultiplier stat="XP" amount="2.00" reqLabels="MINIBOSS" />
+      <EntityStatMultiplier stat="XP" amount="2.00" reqLabels="MINION" />
+      <EntityDropMultiplier amount="2.00" reqLabels="BOSS" />
+      <EntityDropMultiplier amount="2.00" reqLabels="MINION" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SPEEDRUN_REWARD" type="0x015d">
+    <DisplayId>Flash of Lightning</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>The dungeon boss has a chance to drop the Amulet of Lightning.</Description>
+    <Labels>BOSS,LOOT,REWARD</Labels>
+    <IncompatibleLabels>REWARD,LOOT</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>SPEEDRUNREWARD</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ENGRAVING_BOOST" type="0x015e">
+    <DisplayId>Engraving Boost</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Boss enemies have a 20% higher chance of dropping Engravings.</Description>
+    <Labels>ENGRAVINGS</Labels>
+    <IncompatibleLabels>REWARD,LOOT,ENGRAVINGS</IncompatibleLabels>
+    <Mutators>
+      <EntityDropMultiplier amount="1.2" reqLabels="BOSS" itemId="Steamworks Engraving Chest" />
+      <EntityDropMultiplier amount="1.2" reqLabels="BOSS" itemId="Nest Engraving Chest" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MOONLIT_FISHING" type="0x013f">
+    <DisplayId>Fishy Business</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>Umi is guaranteed to guide players to fish after the dance.</Description>
+    <Labels>MOONLIGHT</Labels>
+    <IncompatibleLabels>MOONLIGHT</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>MoonlightFishing</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ORYXMANIA_PORTAL" type="0x015f">
+    <DisplayId>Oryxmania Rumble</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>A portal to the Oryxmania Rumble will appear after the boss is defeated.</Description>
+    <Labels>REWARD,BOSS,LOOT,PORTAL,REWARD_MID</Labels>
+    <IncompatibleLabels>PORTAL</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Oryxmania" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="EASTER_LOOT_BUNNY" type="0x0160">
+    <DisplayId>Loot Bunny</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>A loot-bearing bunny alien will appear when the boss is defeated.</Description>
+    <Labels>REWARD,BOSS,LOOT,REWARD_MID,EASTER</Labels>
+    <IncompatibleLabels>EASTER</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Easter_Loot" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="ALIEN_WORMHOLES" type="0x0161">
+    <DisplayId>Unstable Wormholes</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>A portal to an alien dungeon will appear when the boss is defeated.</Description>
+    <Labels>EXTRABOSS,ALIENS</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Alien_Portals" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SPIRIT_SNAKE_SWARM" type="0x165">
+    <DisplayId>Spirit Snake Swarm</DisplayId>
+    <PowerLevel>-4</PowerLevel>
+    <Description>Enemies have a 15% chance to split into multiple snakes that drop divine oil on death.</Description>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SPAWNONDEATH</Labels>
+    <IncompatibleLabels>SPAWNONDEATH</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Swarm_Spirit_Snake_Spawner" reqLabels="MINION_WEAK" excludeLabels="SPECIAL" prob="0.15" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NIGHTMATTER_RIFT_1" type="0x166">
+    <DisplayId>Nightmatter Rift I</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 30%.</Description>
+    <Labels>INFO,NIGHTMATTER_RIFT_1</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NIGHTMATTER_RIFT_2" type="0x167">
+    <DisplayId>Nightmatter Rift II</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 45%.</Description>
+    <Labels>INFO,NIGHTMATTER_RIFT_2</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NIGHTMATTER_RIFT_3" type="0x168">
+    <DisplayId>Nightmatter Rift III</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>Enemy attacks apply momentary invulnerability, but life and magic healing are reduced by 60%.</Description>
+    <Labels>INFO,NIGHTMATTER_RIFT_3</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="SHADOW_OF_THE_LEGION" type="0x0169">
+    <DisplayId>Shadow of the Legion</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>50% chance to battle Inspector Stromwell in his Rift after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS,SHADOW_OF_THE_LEGION</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="SHADOW_OF_THE_LEGION" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.5" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_D0" type="0x180">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_D1" type="0x181">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>1</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_C0" type="0x182">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_C1" type="0x183">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_C2" type="0x184">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>2</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_B0" type="0x185">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_B1" type="0x186">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_B2" type="0x187">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_A0" type="0x188">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_A1" type="0x189">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_A2" type="0x18A">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>4</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_S0" type="0x18B">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_S1" type="0x18C">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_S2" type="0x18D">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+  <DungeonModifier id="INFO_NONE_S3" type="0x18E">
+    <DisplayId>No Mod</DisplayId>
+    <PowerLevel>5</PowerLevel>
+    <Description>No mod is present.</Description>
+    <Labels>INFO,NO_MOD</Labels>
+    <IncompatibleLabels />
+    <Mutators />
+  </DungeonModifier>
+</DungeonModifiers>
